@@ -1,27 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - Tutorials</title>
 
-<head><!-- is_embed=True -->
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
-<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
-<script type="text/javascript">
-    __wm.init("http://web.archive.org/web");
-  __wm.wombat("http://www.ez.no:80/sdk/tutorials/view/wrappingworkflow/","20030628203614","http://web.archive.org/","web","/_static/",
-	      "1056832574");
-</script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
-<!-- End Wayback Rewrite JS Include -->
-
-<title>eZ publish&trade; SDK - Tutorials</title>
+<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
 <title>eZ publish&trade; SDK</title>
-<link rel="stylesheet" type="text/css" href="/web/20030628203614cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
-<link rel="stylesheet" type="text/css" href="/web/20030628203614cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
-<link rel="stylesheet" type="text/css" href="/web/20030628203614cs_/http://www.ez.no/kernel/sdk/style.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
+
+<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 
 <body style="background: url(/web/20030628203614im_/http://www.ez.no/design/standard/images/grid-background.gif);">
@@ -30,57 +21,57 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="menuheadgraygfx" width="3">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <img src="/design/standard/images/dark-left-corner.gif" alt=""/></td>
     <td class="menuheadgraytopline" width="60">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
     <td class="menuheadgraygfx" width="3">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+    <img src="/design/standard/images/dark-right-corner.gif" alt=""/></td>
 </tr>
 <tr>
     <td class="menuheadgrayleftline" width="3">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
     <td class="menuheadgray">
     <p class="menuheadgray">
     <a class="menuheadlink" href="/web/20030628203614/http://www.ez.no/manual/">Manual</a>
     </p>
     </td>
     <td class="menuheadgrayrightline" width="3">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
 </tr>
 </table>
 
 </td>
 
     <td class="menuheadspacer" width="3">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <img src="/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
     <td class="headlink" width="66">
 
 
 <table cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="menuheadselectedgfx">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <img src="/design/standard/images/light-left-corner.gif" alt=""/></td>
     <td class="menuheadselectedtopline">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
     <td class="menuheadselectedgfx">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+    <img src="/design/standard/images/light-right-corner.gif" alt=""/></td>
 </tr>
 <tr>
     <td class="menuheadselectedleftline">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
     <a class="menuheadlink" href="/web/20030628203614/http://www.ez.no/sdk/">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
-    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
 </tr>
 </table>
 
@@ -122,7 +113,7 @@
     &nbsp;
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/main_concepts/">Main concepts</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/content_classes/">Custom content</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/templateissues/">Common template issues</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/workflows/">Custom workflows</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/wrappingworkflow/">Example of wrapping workflow</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/publishworkflow/">Approval workflow</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/datatypes/">Datatypes</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/permissions/">Permissions and sections</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/forms/">Creating forms</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/translation/">Translation and i18n</a><br/></p>
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/tutorials/view/translation/">Translation and i18n</a><br/></p>
     </td>
 </tr>
 </table>
@@ -142,7 +133,7 @@ To create this workflow you need to do the following steps
 <li>Connect that workflow to the shop/confirm operation</li>
 </ul>
 <p>
-To know how to create event type read the tutorial <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/workflows">Custom workflows</a>,
+To know how to create event type read the tutorial <a href="/sdk/tutorials/view/workflows">Custom workflows</a>,
 go to the part called "Creating workflows". Create a skeleton of a workflow event.
 </p>
 
@@ -253,7 +244,7 @@ The page will look like this:
 
 <h2>Creating and connecting the workflow </h2>
 <p>
-To know how to connect the workflow to the operation look through the <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/publishworkflow">Approval workflow</a>
+To know how to connect the workflow to the operation look through the <a href="/sdk/tutorials/view/publishworkflow">Approval workflow</a>
 tutorial.
 When connecting to the operation (triggers) select the name of the created workflow in the front of "shop-confirm-before".
 </p>
@@ -274,6 +265,15 @@ So now you can use the workflow.
 <a href="http://web.archive.org/web/20030628203614/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030628203614/http://ez.no/">eZ systems as</a>
 </center>
 <br/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TFEDSZJYH0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TFEDSZJYH0');
+</script>
 </body></html><!--
      FILE ARCHIVED ON 20:36:14 Jun 28, 2003 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 00:19:04 Nov 01, 2024.

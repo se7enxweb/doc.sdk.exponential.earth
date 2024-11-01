@@ -1,350 +1,255 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
 
-<head><!-- is_embed=True -->
-<script type="text/javascript" src="http://web.archive.org/web/20030806131945/http:/bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
-<script type="text/javascript" src="http://web.archive.org/web/20030806131945/http:/wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
-<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="http://web.archive.org/web/20030806131945/http:/ruffle/ruffle.js"></script>
-<script type="text/javascript">
-    __wm.init("http://web.archive.org/web");
-  __wm.wombat("http://ez.no:80/","20030806131945","http://web.archive.org/","web","/_static/",
-	      "1060175985");
-</script>
-<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030806131945/http:/banner-styles.css%3Fv=S1zqJCYt.css" />
-<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030806131945/http:/iconochive.css%3Fv=3PDvdIFv.css" />
-<!-- End Wayback Rewrite JS Include -->
+<link rel="home" href="http://web.archive.org/" title="eZ publish™ SDK"/>
+<link rel="index" href="http://web.archive.org/"/>
+<link rel="top" href="http://web.archive.org/" title="eZ publish™ SDK"/>
+<link rel="search" href="../www.ez.no/content/advancedsearch.html" title="Search"/>
+<link rel="shortcut icon" href="../www.ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
+<link rel="help" href="../../manual.html"/>
+<link rel="glossary" href="../../sdk.html"/>
 
 
+    <meta property="og:title" content="The Official Core Documentation For eZ Publish CMS"/>
+    <meta name="twitter:title" content="The Official Core Documentation For eZ Publish CMS"/>        
+    <meta name="description" content="Read eZ Publish Documentation For Free and Join Our Community!" />
+    <meta property="og:description" content="Read eZ Publish Documentation For Free and Join Our Community!"/>
+    <meta name="twitter:description" content="Read eZ Publish Documentation For Free and Join Our Community!!"/>
+    <meta property="og:type" content="website" />
+
+    <meta property="og:url" content="https://doc.core.ezpublish.se7enx.com/" />
+    <meta property="og:image" content="https://doc.core.ezpublish.se7enx.com/favicon-banner.png" />
+    <meta property="og:site_name" content="eZ Publish 6.0 CMS Documentation : Core Edition" />
+    <meta property="twitter:image" content="https://doc.core.ezpublish.se7enx.com/favicon-banner.png" />
         
-                                      
-    <title>Home - eZ publish</title>
     
     
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-   
-<link rel="Home" href="http://web.archive.org/" title="eZ publish front page"/>
-<link rel="Index" href="http://web.archive.org/"/>
-<link rel="Top" href="http://web.archive.org/" title=""/>
-<link rel="Search" href="http://web.archive.org/web/20030806131945/http://ez.no/content/advancedsearch" title="Search eZ publish"/>
-<link rel="Shortcut icon" href="http://web.archive.org/web/20030806131945im_/http://ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
-<link rel="Copyright" href="http://web.archive.org/web/20030806131945/http://ez.no/ezinfo/copyright"/>
-<link rel="Author" href="http://web.archive.org/ezinfo/about"/>
-<link rel="Help" href="http://web.archive.org/web/20030806131945/http:/manual.html"/><link rel="Glossary" href="http://web.archive.org/web/20030806131945/http:/sdk.html"/><link rel="Alternate" href="http://web.archive.org/web/20030806131945/http://ez.no/layout/set/print/" media="print" title="Printable version"/>
-    <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030806131945cs_/http://ez.no/design/ezno/stylesheets/core.css"/>
-    <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030806131945cs_/http://ez.no/design/ezno/stylesheets/ezsystems.css"/>
+            <meta http-equiv="Content-language" content="en-GB" />
 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/><meta http-equiv="Content-language" content="en-GB"/>
+    
+                <meta name="author" content="7x" />
+                    <meta name="copyright" content="7x" />
+                    <meta name="description" content="The Official Core Documentation For eZ Publish CMS" />
+        
+    <meta name="generator" content="eZ Publish" />
 
-<meta name="author" content="eZ systems"/><meta name="copyright" content="eZ systems"/><meta name="description" content="Frontpage Home "/><meta name="keywords" content="cms, publish, e-commerce, content management"/>
-<meta name="MSSmartTagsPreventParsing" content="TRUE"/>
 
-<meta name="generator" content="eZ publish"/>
+<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
 
 
 
-<table class="mainlayout" width="750" cellpadding="0" cellspacing="0" border="0">
-
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
-    <td class="topshortcuts">
+    <td class="headlogo" width="560">
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
 
-
-            <span class="shortcut"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/shortcut-bullet.gif" width="8" height="8" alt=""/> <a href="http://web.archive.org/web/20030806131945/http://ez.no/user/login">login</a></span>
-      
-    <span class="shortcut"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/shortcut-bullet.gif" width="8" height="8" alt=""/> <a href="http://web.archive.org/web/20030806131945/http://ez.no/shop/basket">view basket</a></span>
-    <span class="shortcut"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/shortcut-bullet.gif" width="8" height="8" alt=""/> <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/sitemap">sitemap</a></span>
-    <span class="shortcut"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/shortcut-bullet.gif" width="8" height="8" alt=""/> <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/contact">contact</a></span>
-    <span class="shortcut"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/shortcut-bullet.gif" width="8" height="8" alt=""/> <a href="http://web.archive.org/web/20030806131945/http://ez.no/developer/download">download</a></span>
-
-
-
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="../www.ez.no/manual/index.html">Manual</a>
+    </p>
     </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
 </tr>
-<tr>
-    <td class="topvisuals">
-
-
-
-
-    <table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-        <td class="logo">
-	<a href="http://web.archive.org/web/20030806131945/http://ez.no/index.html"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/logo.gif" width="210" height="35" alt="" border="0"/></a><br/>
-        </td>
-        <td class="illustration">
-
-	    
-	    	        <img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/home.jpg" width="440" height="60" alt="home" border="0"/><br/>
-            
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	            </td>
-    </tr>
-    </table>
-
-
-    
-    </td>
-</tr>
-<tr>
-    <td class="topmenu">
-
-    <form action="http://web.archive.org/web/20030806131945/http://ez.no/content/search/" method="get">
-    <table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-
-
-
-        <td class="searchbox" width="1%">
-        <input class="searchfield" type="text" size="6" name="SearchText" id="Search" value=""/>
-        </td>
-        <td class="searchbox" width="94%">
-       	<input class="searchbutton" type="image" name="SearchButton" src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/button-top_search.jpg"/>
-        </td>
-
-
-
-
-
-	    
-	                <td class="topmenuitem" width="1%">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/top_menu-home-rollover.gif" alt="Home" border="0"/></a>
-            </td>	    
-            
-	    
-	     
-            <td class="topmenuitem" width="1%">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/products"><img name="Products" src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/top_menu-products.gif" alt="Products" border="0"/></a>
-            </td>	    
-            
-	    
-	     
-	    <td class="topmenuitem" width="1%">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/services"><img name="Services" src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/top_menu-services.gif" alt="Services" border="0"/></a>
-	    </td>
-            
-	    
-	     
-            <td class="topmenuitem" width="1%">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/developer"><img name="Developer" src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/top_menu-developer.gif" alt="Developer" border="0"/></a>
-	    </td>
-            
-	    
-	                <td class="topmenuitem" width="1%">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/partner"><img name="Partner" src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/top_menu-partner.gif" alt="Partner" border="0"/></a>
-	    </td>
-   	    
-    </tr>
-    </table>
-    </form>
-
-    </td>
-</tr>
-
-
-
-<tr>
-    <td class="path">
-
-
-
-            
-                <a href="http://web.archive.org/web/20030806131945/http://ez.no/index.html">Frontpage</a>
-        
-                    /
-            
-                Home
-        
-                
-
-
-    </td>
-</tr>
-<tr>
-    <td class="main">
-
-    <table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-        <td class="leftmenuarea" width="120">
-
-	
-
-        <table class="leftmenu" width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                        <td class="menuitem">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/news">news</a>
-            </td>
-            <td class="menubullet">
-
-	                <img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/menu-bullet.gif" width="8" height="8" alt="" border="0"/>
-	    
-            </td>
-            	</tr>
-                <tr>
-                        <td class="menuitem">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/about">about</a>
-            </td>
-            <td class="menubullet">
-
-	                <img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/menu-bullet.gif" width="8" height="8" alt="" border="0"/>
-	    
-            </td>
-            	</tr>
-                <tr>
-                        <td class="menuitem">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/career">career</a>
-            </td>
-            <td class="menubullet">
-
-	                <img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/menu-bullet.gif" width="8" height="8" alt="" border="0"/>
-	    
-            </td>
-            	</tr>
-                <tr>
-                        <td class="menuitem">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/contact">contact</a>
-            </td>
-            <td class="menubullet">
-
-	                <img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/menu-bullet.gif" width="8" height="8" alt="" border="0"/>
-	    
-            </td>
-            	</tr>
-                <tr>
-                        <td class="menuitem">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/sitemap">sitemap</a>
-            </td>
-            <td class="menubullet">
-
-	                <img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/menu-bullet.gif" width="8" height="8" alt="" border="0"/>
-	    
-            </td>
-            	</tr>
-                <tr>
-                        <td class="menuitem">
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/reference_list">reference list</a>
-            </td>
-            <td class="menubullet">
-
-	                <img src="http://web.archive.org/web/20030806131945im_/http://ez.no/design/ezno/images/menu-bullet.gif" width="8" height="8" alt="" border="0"/>
-	    
-            </td>
-            	</tr>
-                </table>
-	
-
-        
-        </td>
-        <td class="maincontentarea" valign="top">
-
-
-<div class="block"><h2></h2>
-<a href="http://web.archive.org/web/20030806131945/http://ez.no/services/training"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/var/ezno/storage/variations/image/p/h/p/phpmzQH2l_600x600_87567.gif.png" alt="eZ publish training and conference" border="0"/></a>
-
-
-
-<p></p><h2>Welcome to eZ publish content management system </h2><table class="renderedtablenoborder" border="0" cellpadding="2" cellspacing="0" width="100%"><tr>
-<td class="renderedtdnoborder" valign="top">  
-<a href="http://web.archive.org/web/20030806131945/http://ez.no/developer/news/ez_publish_summer_conference_2003"><img src="http://web.archive.org/web/20030806131945im_/http://ez.no/var/ezno/storage/variations/image/p/h/p/phpkyJboO_600x600_76003.gif.png" alt="Summercamp small" border="0"/></a>
-
-
-
-<p class="rendered">
-<a href="http://web.archive.org/web/20030806131945/http://ez.no/products/ez_publish_3"></a>
-</p>
-
-  </td><td class="renderedtdnoborder" valign="top">  &nbsp;
-  </td><td class="renderedtdnoborder" valign="top">  <p class="rendered">
-People working together, with an open mind, sharing information and knowledge can accomplish great things. <a href="http://web.archive.org/web/20030806131945/http://ez.no/products/ez_publish_3">eZ publish</a> is a powerful open source framework for content management, sharing and collaboration, helping you <b>share your information</b><a href="http://web.archive.org/web/20030806131945/http://ez.no/products/ez_publish_3"></a>
-</p>
-
-  </td>
-</tr>
-
 </table>
-
-
-<p class="rendered">
-<a href="http://web.archive.org/web/20030806131945/http://ez.no/products/ez_publish_3"></a>
-</p>
-</div>
 
 </td>
-<td class="rightmenuarea" width="120">
-&nbsp;
 
-<p class="rendered">
-<b>Latest news</b>
-</p>
-<ul>
-        <li>
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/news/ez_publish_22_online_editor_updated">eZ publish 2.2 online editor updated</a>
-        
-    </li>
-        <li>
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/news/ez_publish_229_release">eZ publish 2.2.9 release</a>
-        
-    </li>
-        <li>
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/news/ez_publish_summer_conference_2003">eZ publish Summer Conference 2003</a>
-        
-    </li>
-        <li>
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/news/ez_publish_3_100_000_downloads">eZ publish 3 : 100 000 downloads</a>
-        
-    </li>
-        <li>
-            <a href="http://web.archive.org/web/20030806131945/http://ez.no/home/news/ez_publish_31_stable_release">eZ publish 3.1 stable release</a>
-        
-    </li>
-    </ul>
+    <td class="menuheadspacer" width="3">
+    <img src="/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
 
 
-
-
-
-
-
-       
-        </td>
-    </tr>
-    </table>
-    
-    </td>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/design/standard/images/light-right-corner.gif" alt=""/></td>
 </tr>
 <tr>
-    <td>
-        <div align="right">
-	<p><a href="http://web.archive.org/web/20030806131945/http://ez.no/layout/set/print/">Printer version</a></p>
-	</div>
+    <td class="menuheadselectedleftline">
+    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030806184327/http://www.ez.no/sdk/">SDK</a>
+    </p>
     </td>
+    <td class="menuheadselectedrightline">
+    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
 </tr>
-<tr>
-    <td class="bottomline">
- eZ systems � 1999-2003 - All rights reserved. eZ publish&trade; and the logo are registered trademarks of eZ systems as.<br/>
-Powered by eZ publish open source content management system and development framework&trade;.
+</table>
 
-
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
     </td>
 </tr>
 </table>
 
 
-</body>
-</html>
-<!--
-     FILE ARCHIVED ON 13:19:45 Aug 06, 2003 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:42:25 Oct 31, 2024.
+<table width="100%" cellpadding="5">
+<tr>
+    <td valign="top" width="15%">
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="3">
+    <p class="menuhead">eZ publish SDK</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="60%">
+    <p class="menuitem">Version:</p>
+    </td>
+    <td class="menu" width="49%">
+    <p class="menuitem"><nobr>3.1-1</nobr></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="60%">
+    <p class="menuitem">Alias:</p>
+    </td>
+    <td class="menu" width="49%">
+    <p class="menuitem"><nobr>3.1</nobr></p>
+    </td>
+</tr>
+</table>
+
+    </td>
+    <td>
+
+
+<table width="100%">
+<tr>
+	<td valign="top"><h2>Getting Started</h2>
+	<ul>
+	<li><a href="/sdk/doc/view/introduction.html">Introduction</a></li>
+<li><a href="/sdk/doc/view/overview.html">Diagrams</a></li>
+<li><a href="/sdk/doc/view/php_coding_standard.html">Coding standards</a></li>
+
+	</ul>
+	</td>
+	<td valign="top"><h2>Tutorials</h2>
+	<ul>
+	<li><a href="/sdk/tutorials/view/main_concepts.html">Main concepts</a></li>
+<li><a href="/sdk/tutorials/view/content_classes.html">Custom content</a></li>
+<li><a href="/sdk/tutorials/view/templateissues.html">Common template issues</a></li>
+<li><a href="/sdk/tutorials/view/workflows.html">Custom workflows</a></li>
+<li><a href="/sdk/tutorials/view/wrappingworkflow.html">Example of wrapping workflow</a></li>
+<li><a href="/sdk/tutorials/view/publishworkflow.html">Approval workflow</a></li>
+<li><a href="/sdk/tutorials/view/datatypes.html">Datatypes</a></li>
+<li><a href="/sdk/tutorials/view/permissions.html">Permissions and sections</a></li>
+<li><a href="/sdk/tutorials/view/forms.html">Creating forms</a></li>
+<li><a href="/sdk/tutorials/view/translation.html">Translation and i18n</a></li>
+
+	</ul>
+	</td>
+	<td valign="top"><h2>What's New</h2>
+	<ul>
+	<li><a href="/sdk/changes/view/features.html">Key Features</a></li>
+<li><a href="/sdk/changes/view/changelog.html">Changelog</a></li>
+
+	</ul>
+	</td>
+</tr>
+<tr>
+	<td valign="top"><h2>Libraries</h2>
+	<ul>
+	<li><a href="/sdk/ezdb.html">eZ db&trade;</a></li>
+<li><a href="/sdk/ezi18n.html">eZ i18n&trade;</a></li>
+<li><a href="/sdk/ezimage.html">eZ image&trade;</a></li>
+<li><a href="/sdk/ezlocale.html">eZ locale&trade;</a></li>
+<li><a href="/sdk/ezsoap.html">eZ soap&trade;</a></li>
+<li><a href="/sdk/eztemplate.html">eZ template&trade;</a></li>
+<li><a href="/sdk/ezutils.html">eZ utils&trade;</a></li>
+<li><a href="/sdk/ezxml.html">eZ xml&trade;</a></li>
+
+	</ul>
+	</td>
+	<td valign="top"><h2>Kernel</h2>
+	<ul>
+	<li><a href="/sdk/kernel/view/module_system.html">Module system</a></li>
+<li><a href="/sdk/kernel/view/content_classes.html">Content classes</a></li>
+<li><a href="/sdk/kernel/view/content_objects.html">Content objects</a></li>
+<li><a href="/sdk/kernel/view/content_datatypes.html">Content datatypes</a></li>
+<li><a href="/sdk/kernel/view/permissions.html">Permissions</a></li>
+<li><a href="/sdk/kernel/view/workflows.html">Workflows</a></li>
+<li><a href="/sdk/kernel/view/data_storage.html">Data storage</a></li>
+<li><a href="/sdk/kernel/view/template_operators.html">Template operators</a></li>
+<li><a href="/sdk/kernel/view/other_concepts.html">Other concepts</a></li>
+
+	</ul>
+	</td>
+	<td valign="top"><h2>API Reference</h2>
+	<ul>
+	<li><a href="/sdk/ref/index.html">Index</a></li>
+<li><a href="/sdk/ref/view/modules.html">Modules</a></li>
+<li><a href="/sdk/ref/view/hierarchy.html">Hierarchy</a></li>
+<li><a href="/sdk/ref/view/annotated.html">Annotated</a></li>
+<li><a href="/sdk/ref/view/files.html">Files</a></li>
+<li><a href="/sdk/ref/view/functions.html">Functions</a></li>
+<li><a href="/sdk/ref/view/related.html">Related</a></li>
+
+	</ul>
+    </td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030806184327/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030806184327/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TFEDSZJYH0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TFEDSZJYH0');
+</script>
+</body></html><!--
+     FILE ARCHIVED ON 18:43:27 Aug 06, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:39:24 Oct 31, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -352,13 +257,13 @@ Powered by eZ publish open source content management system and development fram
 -->
 <!--
 playback timings (ms):
-  captures_list: 0.565
-  exclusion.robots: 0.017
-  exclusion.robots.policy: 0.008
-  esindex: 0.009
-  cdx.remote: 22.094
-  LoadShardBlock: 394.393 (6)
-  PetaboxLoader3.datanode: 336.38 (7)
-  PetaboxLoader3.resolve: 203.341 (2)
-  load_resource: 247.981
+  captures_list: 0.427
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.014
+  esindex: 0.008
+  cdx.remote: 9.543
+  LoadShardBlock: 84.801 (3)
+  PetaboxLoader3.datanode: 99.85 (4)
+  PetaboxLoader3.resolve: 351.314 (2)
+  load_resource: 406.911
 -->
