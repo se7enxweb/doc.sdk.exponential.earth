@@ -1,0 +1,1422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZTemplateImageOperator","20030823123937","http://web.archive.org/","web","/_static/",
+	      "1061642377");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823123937cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823123937cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823123937cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823123937im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823123937/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823123937/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823123937im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823123937/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823123937im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123937/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823123937im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123937/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823123937im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123937/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823123937im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123937/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823123937im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123937/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823123937im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123937/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823123937im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123937/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTemplateImageOperator Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/module/eZTemplateOperators">Template operators</a>]</small>
+</h1>Text to image conversion using operator "texttoimage". 
+<a href="#_details">More...</a>
+<p>
+<a href="/web/20030823123937/http://ez.no/sdk/ref/view/members/eZTemplateImageOperator">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a0">eZTemplateImageOperator</a> ($texttoimageName="texttoimage",$imageName="image",$imagefileName="imagefile")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a1">modify</a> (&amp;$tpl,&amp;$operatorName,&amp;$operatorParameters,&amp;$rootNamespace,&amp;$currentNamespace,&amp;$inputValue,&amp;$namedParameters)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a2">operatorList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a3">namedParameterPerOperator</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a4">namedParameterList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a5">fontDir</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a6">cacheDir</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a7">htmlDir</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a8">family</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a9">pointSize</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a10">angle</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a11">xAdjustment</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a12">yAdjustment</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a13">widthAdjustment</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a14">heightAdjustment</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a15">useCache</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a16">colors</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a17">decodeColor</a> ($col)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a18">color</a> ($colname)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a19">setFontDir</a> ($dir)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a20">setCacheDir</a> ($dir)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a21">setHTMLDir</a> ($dir)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a22">setFamily</a> ($fam)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a23">setPointSize</a> ($size)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a24">setAngle</a> ($ang)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a25">setXAdjustment</a> ($x)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a26">setYAdjustment</a> ($y)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a27">setWidthAdjustment</a> ($w)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a28">setHeightAdjustment</a> ($h)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a29">setUseCache</a> ($use)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a30">setColors</a> ($cols)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a31">setColor</a> ($colname,$colval)</td></tr>
+<tr><td colspan="2"><br><h2>Private Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o0">Operators</a></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o1" doxytag="eZTemplateImageOperator::DefaultClass"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o1">DefaultClass</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The default class to use for text to image conversion.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o2" doxytag="eZTemplateImageOperator::FontDir"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o2">FontDir</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the directory were fonts are found, default is ""</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o3" doxytag="eZTemplateImageOperator::CacheDir"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o3">CacheDir</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the directory were cache files are created, default is ""</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o4" doxytag="eZTemplateImageOperator::HTMLDir"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o4">HTMLDir</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the directory were html code finds the images, default is ""</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o5" doxytag="eZTemplateImageOperator::Family"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o5">Family</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the default font family, default is "arial"</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o6" doxytag="eZTemplateImageOperator::PointSize"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o6">PointSize</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the default font point size, default is 12</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o7" doxytag="eZTemplateImageOperator::Angle"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o7">Angle</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the default font angle, default is 0</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o8" doxytag="eZTemplateImageOperator::XAdjust"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o8">XAdjust</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the default font x adjustment, default is 0</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o9" doxytag="eZTemplateImageOperator::YAdjust"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o9">YAdjust</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the default font y adjustment, default is 0</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o10" doxytag="eZTemplateImageOperator::UseCache"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o10">UseCache</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>whether to reuse cache files or not</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o11" doxytag="eZTemplateImageOperator::Colors"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o11">Colors</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>the color array, default is bgcolor=white and textcolor=black</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o12" doxytag="eZTemplateImageOperator::ImageGDSupported"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#o12">ImageGDSupported</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Whether image GD is supported.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Text to image conversion using operator "texttoimage".
+<p>
+This operator allows a piece of text be converted to an image file representing the text. The output image is written in PNG format. Use <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a19">setFontDir()</a> and <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a20">setCacheDir()</a> to change where the font is located and where the cache file should be put. If <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a5">fontDir()</a> is an empty string the font will be looked for in the system. 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00056">56</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZTemplateImageOperator::eZTemplateImageOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::eZTemplateImageOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>texttoimageName</em> = "texttoimage", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>imageName</em> = "image", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>imagefileName</em> = "imagefile"</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the image operator with the operator name $name. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00061">61</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00831">Angle</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00823">CacheDir</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00839">Colors</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00819">DefaultClass</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00827">Family</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00360">fontDir()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00821">FontDir</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00825">HTMLDir</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00841">ImageGDSupported</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00817">Operators</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00829">PointSize</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00837">UseCache</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/ezsys#l00243">eZSys::wwwDir()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00833">XAdjust</a>, and <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00835">YAdjust</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a10" doxytag="eZTemplateImageOperator::angle"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::angle </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the angle at which the font is rendered. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00404">404</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00831">Angle</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00108">modify()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZTemplateImageOperator::cacheDir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::cacheDir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the directory where images are created. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a20">setCacheDir</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00369">369</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00823">CacheDir</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZTemplateImageOperator::color"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::color </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>colname</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the decodecd color for colorname $colname 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00481">481</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00839">Colors</a>, and <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00465">decodeColor()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00108">modify()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZTemplateImageOperator::colors"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::colors </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the array of colors in use </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00456">456</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00839">Colors</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZTemplateImageOperator::decodeColor"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::decodeColor </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>col</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Takes a mixed mode color representation and decodes it to a an array of three elements which represents the R, G and B color elements. <dl compact><dt><b>Parameters: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>col</em>&nbsp;</td><td>
+The mixed color mode </td></tr>
+</table>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00465">465</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00481">color()</a>, and <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00108">modify()</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZTemplateImageOperator::family"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::family </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the family name of the default font. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a22">setFamily</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00387">387</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00827">Family</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00108">modify()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZTemplateImageOperator::fontDir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::fontDir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the directory where fonts are located. If it is empty the font is looked for in the system font dirs. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a19">setFontDir</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00360">360</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00821">FontDir</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00061">eZTemplateImageOperator()</a>, and <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00108">modify()</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZTemplateImageOperator::heightAdjustment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::heightAdjustment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the number of pixels the height of the image is adjusted. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a28">setHeightAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a13">widthAdjustment</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00440">440</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZTemplateImageOperator::htmlDir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::htmlDir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the directory where image is accessible from HTML code. </dl><dl compact><dt><b>See also: </b></dt><dd>
+setHTMLdir </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00378">378</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00825">HTMLDir</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZTemplateImageOperator::modify"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::modify </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorParameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rootNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>inputValue</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namedParameters</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Performs image conversion using Image GD and returns the html text for the image. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00108">108</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00831">Angle</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00404">angle()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00481">color()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/ezimagelayer#l00121">eZImageLayer::createForFile()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/ezimagetextlayer#l00162">eZImageTextLayer::createForText()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00465">decodeColor()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00827">Family</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00387">family()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00360">fontDir()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00841">ImageGDSupported</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00829">PointSize</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00448">useCache()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00837">UseCache</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00833">XAdjust</a>, and <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00835">YAdjust</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZTemplateImageOperator::namedParameterList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::namedParameterList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+See <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateOperator#a1">eZTemplateOperator::namedParameterList</a> 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00309">309</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZTemplateImageOperator::namedParameterPerOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::namedParameterPerOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true to tell the template engine that the parameter list exists per operator type. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00301">301</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZTemplateImageOperator::operatorList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateImageOperator::operatorList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the operators in this class. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00293">293</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00817">Operators</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZTemplateImageOperator::pointSize"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::pointSize </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the pointsize of the default font. </dl><dl compact><dt><b>See also: </b></dt><dd>
+setPointsize </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00396">396</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00829">PointSize</a>.    </td>
+  </tr>
+</table>
+<a name="a24" doxytag="eZTemplateImageOperator::setAngle"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setAngle </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>ang</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the angle for the default font. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00537">537</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00831">Angle</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZTemplateImageOperator::setCacheDir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setCacheDir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>dir</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the directory where images are created. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a6">cacheDir</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00504">504</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00823">CacheDir</a>.    </td>
+  </tr>
+</table>
+<a name="a31" doxytag="eZTemplateImageOperator::setColor"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setColor </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>colname</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>colval</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the colorname $colname to color value $colval. The colval is a mixed color mode so different values can be input. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a30">setColors</a>, color </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00601">601</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00839">Colors</a>.    </td>
+  </tr>
+</table>
+<a name="a30" doxytag="eZTemplateImageOperator::setColors"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setColors </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>cols</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets all the colors. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a31">setColor</a>, color </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00591">591</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00839">Colors</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZTemplateImageOperator::setFamily"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setFamily </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>fam</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the font family for the default font. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00521">521</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00827">Family</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZTemplateImageOperator::setFontDir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setFontDir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>dir</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the font directory, see <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a5">fontDir()</a> for more information. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a5">fontDir</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00495">495</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00821">FontDir</a>.    </td>
+  </tr>
+</table>
+<a name="a28" doxytag="eZTemplateImageOperator::setHeightAdjustment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setHeightAdjustment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>h</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adjustment for height. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a13">widthAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a14">heightAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a27">setWidthAdjustment</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00573">573</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZTemplateImageOperator::setHTMLDir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setHTMLDir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>dir</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the directory which the HTML code uses to acces the image. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a7">htmlDir</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00513">513</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00825">HTMLDir</a>.    </td>
+  </tr>
+</table>
+<a name="a23" doxytag="eZTemplateImageOperator::setPointSize"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setPointSize </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>size</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the pointsize for the default font. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00529">529</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00829">PointSize</a>.    </td>
+  </tr>
+</table>
+<a name="a29" doxytag="eZTemplateImageOperator::setUseCache"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setUseCache </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>use</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets whether to reuse cache files or not. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a15">useCache</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00582">582</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00837">UseCache</a>.    </td>
+  </tr>
+</table>
+<a name="a27" doxytag="eZTemplateImageOperator::setWidthAdjustment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setWidthAdjustment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>w</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adjustment for width. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a13">widthAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a14">heightAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a28">setHeightAdjustment</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00564">564</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a25" doxytag="eZTemplateImageOperator::setXAdjustment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setXAdjustment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>x</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adjustment in the x axis. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a11">xAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a12">yAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a26">setYAdjustment</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00546">546</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00833">XAdjust</a>.    </td>
+  </tr>
+</table>
+<a name="a26" doxytag="eZTemplateImageOperator::setYAdjustment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::setYAdjustment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>y</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adjustment in the y axis. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a11">xAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a12">yAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a25">setXAdjustment</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00555">555</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00835">YAdjust</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZTemplateImageOperator::useCache"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::useCache </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if image cache should be reused if the image text etc.. hasn't changed. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00448">448</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00837">UseCache</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00108">modify()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZTemplateImageOperator::widthAdjustment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::widthAdjustment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the number of pixels the width of the image is adjusted. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a27">setWidthAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a14">heightAdjustment</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00431">431</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZTemplateImageOperator::xAdjustment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::xAdjustment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the number of pixels the font is adjusted in the X direction. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a25">setXAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a12">yAdjustment</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00413">413</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00833">XAdjust</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZTemplateImageOperator::yAdjustment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::yAdjustment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the number of pixels the font is adjusted in the Y direction. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a26">setYAdjustment</a>, <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/class/eZTemplateImageOperator#a11">xAdjustment</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00422">422</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00835">YAdjust</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Data Documentation</h2>
+<a name="o0" doxytag="eZTemplateImageOperator::Operators"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateImageOperator::Operators<code> [private]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+The operator array 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00817">817</a> of file <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00061">eZTemplateImageOperator()</a>, and <a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00293">operatorList()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823123937/http://ez.no/sdk/ref/view/source/eztemplateimageoperator">eztemplateimageoperator.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823123937/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823123937/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:39:37 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:48:53 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.996
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.013
+  esindex: 0.015
+  cdx.remote: 6.508
+  LoadShardBlock: 46.815 (3)
+  PetaboxLoader3.datanode: 80.13 (4)
+  load_resource: 67.477
+  PetaboxLoader3.resolve: 25.807
+-->

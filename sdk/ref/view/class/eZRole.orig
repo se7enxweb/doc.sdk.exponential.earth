@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZRole","20030823114744","http://web.archive.org/","web","/_static/",
+	      "1061639264");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823114744cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823114744cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823114744cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823114744im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823114744/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823114744/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823114744im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823114744/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823114744im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823114744/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823114744im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823114744/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823114744im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823114744/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823114744im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823114744/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823114744im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823114744/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823114744im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823114744/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823114744im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823114744/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZRole Class Reference</h1>The class eZRole does. 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZRole:
+<p><center><img src="/web/20030823114744im_/http://ez.no/doc/generated/html/classeZRole.png" usemap="#eZRole_map" border="0" alt=""></center>
+<map name="eZRole_map">
+<area href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZPersistentObject" alt="eZPersistentObject" shape="rect" coords="0,0,120,24">
+</map>
+<a href="/web/20030823114744/http://ez.no/sdk/ref/view/members/eZRole">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a0">eZRole</a> ($row=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a1">definition</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a2">attributes</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a3">attribute</a> ($attr)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a11">fetchByUser</a> ($idArray)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a12">fetchIDListByUser</a> ($idArray)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a13">cachedRoles</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a14">assignToUser</a> ($userID)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a15">fetchUserID</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a16">removeUserAssignment</a> ($userID)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a17">fetchUserByRole</a> ()</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The class eZRole does.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00049">49</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZRole::eZRole"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZRole::eZRole </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>row</em> = array()          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructor 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00054">54</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00076">eZPersistentObject::eZPersistentObject()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00246">fetchByUser()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a14" doxytag="eZRole::assignToUser"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZRole::assignToUser </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>userID</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Assigns the current role to the given user or user group identified by the id. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00375">375</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>, and <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZRole::attribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZRole::attribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attr</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attribute data for <em>$attr</em>, this is either returned from the member variables or a member function depending on whether the definition field or function attributes matched. </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZPersistentObject#a19">eZPersistentObject</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00080">80</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00841">eZPersistentObject::attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZRole::attributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZRole::attributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attributes for this object, taken from the definition fields and function attributes. </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZPersistentObject#a17">eZPersistentObject</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00075">75</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00816">eZPersistentObject::attributes()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZRole::cachedRoles"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZRole::cachedRoles </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the cached roles for the current user. False is returned if roles are not cached. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00341">341</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezuser#l00541">eZUser::currentUser()</a>, <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>, and <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00246">fetchByUser()</a>, and <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00304">fetchIDListByUser()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZRole::definition"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZRole::definition </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the definition for the object, the default implementation is to return an empty array. It's upto each inheriting class to return a proper definition array.</dl>The definition array is an associative array consists of these keys:<ul>
+<li>fields - an associative array of fields which defines which database field (the key) is to fetched and how they map to object member variables (the value).<li>keys - an array of fields which is used for uniquely identifying the object in the table.<li>function_attributes - an associative array of attributes which maps to member functions, used for fetching data with functions.<li>set_functions - an associative array of attributes which maps to member functions, used for setting data with functions.<li>increment_key - the field which is incremented on table inserts.<li>class_name - the classname which is used for instantiating new objecs when fetching from the database.<li>sort - an associative array which defines the default sorting of lists, the key is the table field while the value is the sorting method which is either <code>asc</code> or <code>desc</code>.<li>name - the name of the database table</ul>
+Example: <div class="dox_fragment"><pre>function <a class="dox_code" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZRole#a1">definition</a>()
+{
+    <span class="dox_keywordflow">return</span> array( <span class="dox_stringliteral">"fields"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"ID"</span>,
+                                     <span class="dox_stringliteral">"version"</span> =&gt; <span class="dox_stringliteral">"Version"</span>,
+                                     <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"Name"</span> ),
+                  <span class="dox_stringliteral">"keys"</span> =&gt; array( <span class="dox_stringliteral">"id"</span>, <span class="dox_stringliteral">"version"</span> ),
+                  <span class="dox_stringliteral">"function_attributes"</span> =&gt; array( <span class="dox_stringliteral">"current"</span> =&gt; <span class="dox_stringliteral">"currentVersion"</span>,
+                                                  <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"className"</span> ),
+                  <span class="dox_stringliteral">"increment_key"</span> =&gt; <span class="dox_stringliteral">"id"</span>,
+                  <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"eZContentClass"</span>,
+                  <span class="dox_stringliteral">"sort"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"asc"</span> ),
+                  <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"ezcontentclass"</span> );
+}
+</pre></div> 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">eZPersistentObject</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00059">59</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZRole::fetchByUser"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZRole::fetchByUser </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>idArray</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the roles which the corresponds to the array of content object id's ( Users and user group id's ). 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00246">246</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00341">cachedRoles()</a>, <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezuser#l00541">eZUser::currentUser()</a>, <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00054">eZRole()</a>, <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>, <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>, <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezuser#l00719">eZUser::roles()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZRole::fetchIDListByUser"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZRole::fetchIDListByUser </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>idArray</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns a list of role ids which the corresponds to the array of content object id's ( Users and user group id's ). 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00304">304</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00341">cachedRoles()</a>, <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezuser#l00734">eZUser::roleIDList()</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZRole::fetchUserByRole"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZRole::fetchUserByRole </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the users and user groups assigned to the current role. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00430">430</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZRole::fetchUserID"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZRole::fetchUserID </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetch user id array which have been assigned to this role. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00400">400</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZRole::removeUserAssignment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZRole::removeUserAssignment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>userID</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes the role assignment 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole#l00418">418</a> of file <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823114744/http://ez.no/sdk/ref/view/source/ezrole">ezrole.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823114744/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823114744/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 11:47:44 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:10:25 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.474
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 16.868
+  LoadShardBlock: 119.986 (3)
+  PetaboxLoader3.datanode: 127.831 (4)
+  PetaboxLoader3.resolve: 75.086 (2)
+  load_resource: 105.471
+-->

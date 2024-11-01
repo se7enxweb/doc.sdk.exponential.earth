@@ -1,0 +1,1032 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/class/eZDOMDocument/","20030707230520","http://web.archive.org/","web","/_static/",
+	      "1057619120");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707230520cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707230520cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707230520cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030707230520/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030707230520im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZDOMDocument Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/module/eZXML">XML parser and DOM library</a>]</small>
+</h1>eZDOMDocument handles DOM nodes in DOM documents 
+<a href="eZDOMDocument.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/members/eZDOMDocument">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a0">eZDOMDocument</a> ($name="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a1">setName</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a2">root</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a3">setRoot</a> (&amp;$node)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a4">appendChild</a> (&amp;$node)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a5">createTextNode</a> ($text)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a6">createCDATANode</a> ($text)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a7">createElementNode</a> ($name,$attributes=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a8">createElementTextNode</a> ($name,$text,$attributes=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a9">createElementCDATANode</a> ($name,$text,$attributes=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a10">createElementNodeNS</a> ($uri,$name)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a11">createAttributeNode</a> ($name,$content,$prefix=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a12">createAttributeNamespaceDefNode</a> ($prefix,$uri)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a13">createAttributeNodeNS</a> ($uri,$name,$content)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a14">toString</a> ($charset=true,$charsetConversion=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a15">registerElement</a> (&amp;$node)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a16">elementsByName</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a17">elementsByNameNS</a> ($name,$namespaceURI)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a18">registerNamespaceAlias</a> ($alias,$namespace)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a19">namespaceByAlias</a> ($alias)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZDOMDocument::Name"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#m0">Name</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Document name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZDOMDocument::Version"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#m1">Version</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>XML version.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m2" doxytag="eZDOMDocument::NamedNodes"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#m2">NamedNodes</a> = array()</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains an array of reference to the named nodes with namespace.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m3" doxytag="eZDOMDocument::NamedNodesNS"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#m3">NamedNodesNS</a> = array()</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains an array of references to the named nodes with namespace.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m4" doxytag="eZDOMDocument::Namespaces"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#m4">Namespaces</a> = array()</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains an array of the registered namespaces and their aliases.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m7" doxytag="eZDOMDocument::Root"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#m7">Root</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Reference to the first child of the DOM document.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+eZDOMDocument handles DOM nodes in DOM documents
+<p>
+<div class="dox_fragment"><pre>  $doc = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a0">eZDOMDocument</a>();
+  $doc-&gt;setName( <span class="dox_stringliteral">"FishCatalogue"</span> );
+
+  $<a class="dox_code" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a2">root</a> =&amp; $doc-&gt;createElementNode( <span class="dox_stringliteral">"FishCatalogue"</span> );
+  $doc-&gt;setRoot( $<a class="dox_code" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a2">root</a> );
+
+  $freshWater =&amp; $doc-&gt;createElementNode( <span class="dox_stringliteral">"FreshWater"</span> );
+  $<a class="dox_code" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a2">root</a>-&gt;appendChild( $freshWater );
+
+  $saltWater =&amp; $doc-&gt;createElementNode( <span class="dox_stringliteral">"SaltWater"</span> );
+  $<a class="dox_code" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a2">root</a>-&gt;appendChild( $saltWater );
+
+  $guppy =&amp; $doc-&gt;createElementNode( <span class="dox_stringliteral">"Guppy"</span> );
+  $guppy-&gt;appendChild( $doc-&gt;createTextNode( <span class="dox_stringliteral">"Guppy is a small livebreeder."</span> ) );
+
+  $freshWater-&gt;appendChild( $guppy );
+
+  $cod =&amp; $doc-&gt;createElementNode( <span class="dox_stringliteral">"Cod"</span> );
+  $saltWater-&gt;appendChild( $cod );
+
+  $cod-&gt;appendChild( $doc-&gt;createCDATANode( <span class="dox_stringliteral">"A big dull fish &lt;-&gt; !!"</span> ) );
+
+  print( $doc-&gt;toString() );
+
+  <span class="dox_comment">// will print the following</span>
+    &lt;?xml version=<span class="dox_stringliteral">"1.0"</span>?&gt;
+    &lt;FishCatalogue&gt;
+      &lt;FreshWater&gt;
+        &lt;Guppy&gt;
+    Guppy is a small livebreeder.    &lt;/Guppy&gt;
+      &lt;/FreshWater&gt;
+      &lt;SaltWater&gt;
+        &lt;Cod&gt;
+    &lt;![CDATA[A big dull fish &lt;-&gt; !!]]&gt;    &lt;/Cod&gt;
+      &lt;/SaltWater&gt;
+    &lt;/FishCatalogue&gt;
+</pre></div> 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00085">85</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZDOMDocument::eZDOMDocument"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDOMDocument::eZDOMDocument </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em> = ""          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new DOM document object. You can provide a name for the document. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00090">90</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00337">Name</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a4" doxytag="eZDOMDocument::appendChild"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDOMDocument::appendChild </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>node</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the document root. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00126">126</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00358">Root</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZDOMDocument::createAttributeNamespaceDefNode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createAttributeNamespaceDefNode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates an namespace definition attribute 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00233">233</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01613">eZContentObject::serialize()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZDOMDocument::createAttributeNode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createAttributeNode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>content</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>prefix</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates and returns an attribute node 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00218">218</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdatatype#l00441">eZDataType::contentObjectAttributeDOMNode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezsoapresponse#l00290">eZSOAPResponse::encodeValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezsoaprequest#l00140">eZSOAPRequest::encodeValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezcontentobjectversion#l00776">eZContentObjectVersion::serialize()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01613">eZContentObject::serialize()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezxmltexttype#l00341">eZXMLTextType::serializeContentObjectAttribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezrangeoptiontype#l00121">eZRangeOptionType::serializeContentObjectAttribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezintegertype#l00372">eZIntegerType::serializeContentObjectAttribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdatatype#l00431">eZDataType::serializeContentObjectAttribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZDOMDocument::createAttributeNodeNS"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createAttributeNodeNS </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>content</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates and returns an attribute node with a namespace URI 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00247">247</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZDOMDocument::createCDATANode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createCDATANode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>text</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates and returns a cdata node. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00150">150</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00193">createElementCDATANode()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZDOMDocument::createElementCDATANode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createElementCDATANode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attributes</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates and returns a element node with a CDATA node as child. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a6">createCDATANode</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a7">createElementNode</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00193">193</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00150">createCDATANode()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00163">createElementNode()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZDOMDocument::createElementNode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createElementNode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attributes</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates and returns a element node 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00163">163</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00193">createElementCDATANode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00180">createElementTextNode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezsoapresponse#l00290">eZSOAPResponse::encodeValue()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezsoaprequest#l00140">eZSOAPRequest::encodeValue()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZDOMDocument::createElementNodeNS"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createElementNodeNS </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates and returns a element node with a namespace URI 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00205">205</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZDOMDocument::createElementTextNode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createElementTextNode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attributes</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates and returns a element node with a text node as child. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a5">createTextNode</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/class/eZDOMDocument#a7">createElementNode</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00180">180</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00163">createElementNode()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00137">createTextNode()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZDOMDocument::createTextNode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::createTextNode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>text</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates and returns a text node. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00137">137</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00180">createElementTextNode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezsoapresponse#l00290">eZSOAPResponse::encodeValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezsoaprequest#l00140">eZSOAPRequest::encodeValue()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezstringtype#l00282">eZStringType::serializeContentObjectAttribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZDOMDocument::elementsByName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::elementsByName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns all the elements with the given name by reference. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00302">302</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00349">NamedNodes</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZDOMDocument::elementsByNameNS"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::elementsByNameNS </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespaceURI</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns all the elements with the given name and namespace URI by reference. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00310">310</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00346">NamedNodesNS</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZDOMDocument::namespaceByAlias"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::namespaceByAlias </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>alias</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the namespace which corresponds to the given alias. Returns false if the namespace is not known. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00328">328</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00352">Namespaces</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZDOMDocument::registerElement"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDOMDocument::registerElement </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>node</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Registers the elements 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00289">289</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00349">NamedNodes</a>, and <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00346">NamedNodesNS</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZDOMDocument::registerNamespaceAlias"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDOMDocument::registerNamespaceAlias </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>alias</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Regsiter a new namespace alias. Provide the alias/prefix and the namespace identifier. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00319">319</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00352">Namespaces</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZDOMDocument::root"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::root </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the document root if it exists. False is returned if the root does not exist. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00107">107</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00358">Root</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZDOMDocument::setName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDOMDocument::setName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the document name 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00098">98</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00337">Name</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZDOMDocument::setRoot"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDOMDocument::setRoot </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>node</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the document root. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00115">115</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00358">Root</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZDOMDocument::toString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDOMDocument::toString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>charset</em> = true, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>charsetConversion</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns a XML string of the DOM document 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00262">262</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument#l00358">Root</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030707230520/http://www.ez.no/sdk/ref/view/source/ezdomdocument">ezdomdocument.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030707230520/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030707230520/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 23:05:20 Jul 07, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:59:46 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.989
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.014
+  esindex: 0.02
+  cdx.remote: 53.211
+  LoadShardBlock: 404.875 (3)
+  PetaboxLoader3.resolve: 452.31 (4)
+  PetaboxLoader3.datanode: 162.955 (4)
+  load_resource: 271.282
+-->

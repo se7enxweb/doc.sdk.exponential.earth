@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/class/eZTemplateTypeOperator","20030707214006","http://web.archive.org/","web","/_static/",
+	      "1057614006");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707214006cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707214006cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707214006cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030707214006/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030707214006im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTemplateTypeOperator Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/module/eZTemplateOperators">Template operators</a>]</small>
+</h1>Operators for checking variable type. 
+<a href="eZTemplateTypeOperator.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/members/eZTemplateTypeOperator">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTypeOperator.html#a0">eZTemplateTypeOperator</a> ($isArrayName="is_array",$isBooleanName="is_boolean",$isIntegerName="is_integer",$isFloatName="is_float",$isNumericName="is_numeric",$isStringName="is_string",$isObjectName="is_object",$isClassName="is_class",$isNullName="is_null",$isSetName="is_set",$isUnsetName="is_unset",$getTypeName="get_type",$getClassName="get_class")</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTypeOperator.html#a1">operatorList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTypeOperator.html#a2">namedParameterPerOperator</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTypeOperator.html#a3">namedParameterList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTypeOperator.html#a4">modify</a> (&amp;$tpl,&amp;$operatorName,&amp;$operatorParameters,&amp;$rootNamespace,&amp;$currentNamespace,&amp;$value,&amp;$namedParameters)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZTemplateTypeOperator::Operators"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTypeOperator.html#m0">Operators</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The array of operators.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZTemplateTypeOperator::IsArrayName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTypeOperator.html#m1">IsArrayName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "less than" name.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Operators for checking variable type.
+<p>
+Usage: $var|is_array or is_array( $var ) $var|is_boolean or is_boolean( $var ) $var|is_integer or is_integer( $var ) $var|is_float or is_float( $var ) $var|is_numeric or is_numeric( $var ) $var|is_string or is_string( $var ) $var|is_object or is_object( $var ) $var|is_class('my_class') or is_class( 'my_class', $var ) $var|is_null or is_null( $var ) is_set( $var ) is_unset( $var ) $var|get_type or get_type( $var ) $var|get_class or get_class( $var ) 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00060">60</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator">eztemplatetypeoperator.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZTemplateTypeOperator::eZTemplateTypeOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTypeOperator::eZTemplateTypeOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isArrayName</em> = "is_array", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isBooleanName</em> = "is_boolean", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isIntegerName</em> = "is_integer", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isFloatName</em> = "is_float", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isNumericName</em> = "is_numeric", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isStringName</em> = "is_string", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isObjectName</em> = "is_object", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isClassName</em> = "is_class", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isNullName</em> = "is_null", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isSetName</em> = "is_set", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>isUnsetName</em> = "is_unset", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>getTypeName</em> = "get_type", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>getClassName</em> = "get_class"</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the operator class with the various operator names. <dl compact><dt><b>Parameters: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>isArrayName</em>&nbsp;</td><td>
+The name array </td></tr>
+</table>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00065">65</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator">eztemplatetypeoperator.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00257">IsArrayName</a>, and <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00255">Operators</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a4" doxytag="eZTemplateTypeOperator::modify"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTypeOperator::modify </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorParameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rootNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namedParameters</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Examines the input value and outputs a boolean value. See class documentation for more information. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00143">143</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator">eztemplatetypeoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZTemplateTypeOperator::namedParameterList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTypeOperator::namedParameterList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+See <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/class/eZTemplateOperator#a1">eZTemplateOperator::namedParameterList</a> 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00135">135</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator">eztemplatetypeoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZTemplateTypeOperator::namedParameterPerOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTypeOperator::namedParameterPerOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true to tell the template engine that the parameter list exists per operator type. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00127">127</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator">eztemplatetypeoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZTemplateTypeOperator::operatorList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateTypeOperator::operatorList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the operators in this class. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00119">119</a> of file <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator">eztemplatetypeoperator.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator#l00255">Operators</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030707214006/http://www.ez.no/sdk/ref/view/source/eztemplatetypeoperator">eztemplatetypeoperator.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030707214006/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030707214006/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 21:40:06 Jul 07, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:32:35 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.449
+  exclusion.robots: 0.015
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 28.443
+  LoadShardBlock: 210.443 (3)
+  PetaboxLoader3.datanode: 349.203 (4)
+  PetaboxLoader3.resolve: 173.067 (2)
+  load_resource: 331.95
+-->

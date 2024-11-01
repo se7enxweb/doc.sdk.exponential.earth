@@ -1,0 +1,894 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/class/eZImageManager/","20030821224002","http://web.archive.org/","web","/_static/",
+	      "1061505602");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030821224002cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030821224002cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030821224002cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030821224002/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821224002im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZImageManager Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/module/eZImage">Image conversion and scaling</a>]</small>
+</h1>Manages image operations using delegates to do the work. 
+<a href="eZImageManager.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/members/eZImageManager">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a0">eZImageManager</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a1">setOutputTypes</a> ($mimes)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a2">setRules</a> ($rules,$defrule)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a3">registerType</a> ($name,&amp;$type)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a4">ruleFor</a> ($from)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a5">isDisplayType</a> ($type)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a6">createMIMEType</a> ($mime,$match,$suffix)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a7">setMIMETypes</a> ($types)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a8">mimeTypeFor</a> ($file,$as_obj=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a9">convertRules</a> ($from,$scale=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a10">addScaleRule</a> (&amp;$rules,$scale)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a11">addFilterRule</a> (&amp;$rules,$filter)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a12">convert</a> ($file,$dest,$scale=false,$filters=false,$mime=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a13">createRule</a> ($from,$to,$type,$scale,$filter)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a14">instance</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#c0">compressRules</a> (&amp;$rules,$scale)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Manages image operations using delegates to do the work.
+<p>
+The manager allows for transparent conversion of one image format to another. The conversion may be done in one step if the required conversion type is available or it may build a tree of conversion rules which is needed to reach the desired end format.
+<p>
+It's also possible to run operations on images. It's up to each conversion rule to report whether or not the operation is supported, the manager will then distribute the operations on the available rules which can handle them. Examples of operations are scaling and grayscale.
+<p>
+The scale operation is special and is known to the manager directly while the other operations must be recognized by the converter.
+<p>
+In determing what image rules to be used the manager must first know which output types are allowed, this is set with <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a1">setOutputTypes()</a>. It takes an array of mimetypes which are allowed.
+<p>
+The manager must then be fed conversion rules, these tell which conversion type is used for converting from the source mimetype to the destination mimetype. The rules are set with <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a2">setRules()</a> which accepts an array of rules and a default rule as paremeter. The default rule is used when no other mimetype match is found. To create a rule you should use the <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a13">createRule()</a> function, it takes the source and destination mimetype as well as the conversion type name. Optionally it can specified whether the rule can scale or run operations.
+<p>
+The last thing that needs to be done is to specify the mimetypes. The manager uses mimetypes internally to know what type of image it's working on. To go from a filename to a mimetype a set of matches must be setup. The matches are created with <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a6">createMIMEType()</a> which takes the mimetype, regex filename match and suffix as parameter. The mimetypes are then registered with <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a7">setMIMETypes()</a>.
+<p>
+See <a href="http://web.archive.org/web/20030821224002/http://www.iana.org/">www.iana.org</a> for information on MIME types.
+<p>
+Now the manager is ready and you can convert images with <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a12">convert()</a>.
+<p>
+Example: <div class="dox_fragment"><pre>$img =&amp; <a class="dox_code" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a14">eZImageManager::instance</a>();
+$img-&gt;registerType( <span class="dox_stringliteral">"convert"</span>, <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageShell">eZImageShell</a>( '', <span class="dox_stringliteral">"convert"</span>, array(), array(),
+                                                 array( <a class="dox_code" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageShell#a1">eZImageShell::createRule</a>( <span class="dox_stringliteral">"-geometry %wx%h&gt;"</span>, <span class="dox_comment">// Scale rule</span>
+                                                                                  <span class="dox_stringliteral">"modify/scale"</span> ),
+                                                        <a class="dox_code" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageShell#a1">eZImageShell::createRule</a>( <span class="dox_stringliteral">"-colorspace GRAY"</span>, <span class="dox_comment">// Grayscale rule</span>
+                                                                                  <span class="dox_stringliteral">"colorspace/gray"</span> ) ) ) ); <span class="dox_comment">// Register shell program convert</span>
+$img-&gt;registerType( <span class="dox_stringliteral">"gd"</span>, <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageGD">eZImageGD</a>() ); <span class="dox_comment">// Register PHP converter GD</span>
+
+$img-&gt;setOutputTypes( array( <span class="dox_stringliteral">"image/jpeg"</span>,
+                             <span class="dox_stringliteral">"image/png"</span> ) ); <span class="dox_comment">// We only want jpeg and png, gif is not recommended due to licencing issues.</span>
+$rules = array( $img-&gt;createRule( <span class="dox_stringliteral">"image/jpeg"</span>, <span class="dox_stringliteral">"image/jpeg"</span>, <span class="dox_stringliteral">"GD"</span>, <span class="dox_keyword">true</span>, <span class="dox_keyword">false</span> ), <span class="dox_comment">// Required for scaling jpeg images</span>
+                $img-&gt;createRule( <span class="dox_stringliteral">"image/gif"</span>, <span class="dox_stringliteral">"image/png"</span>, <span class="dox_stringliteral">"convert"</span>, <span class="dox_keyword">true</span>, <span class="dox_keyword">false</span> ) ); <span class="dox_comment">// Convert GIF to png</span>
+$img-&gt;setRules( $rules, $img-&gt;createRule( <span class="dox_stringliteral">"*"</span>, <span class="dox_stringliteral">"image/png"</span>, <span class="dox_stringliteral">"convert"</span>, <span class="dox_keyword">true</span>, <span class="dox_keyword">false</span> ) ); <span class="dox_comment">// Convert all other images to PNG with convert</span>
+
+$mime_rules = array( $img-&gt;createMIMEType( <span class="dox_stringliteral">"image/jpeg"</span>, <span class="dox_stringliteral">"\.jpe?g$"</span>, <span class="dox_stringliteral">"jpg"</span> ),
+                     $img-&gt;createMIMEType( <span class="dox_stringliteral">"image/png"</span>, <span class="dox_stringliteral">"\.png$"</span>, <span class="dox_stringliteral">"png"</span> ),
+                     $img-&gt;createMIMEType( <span class="dox_stringliteral">"image/gif"</span>, <span class="dox_stringliteral">"\.gif$"</span>, <span class="dox_stringliteral">"gif"</span> ) );
+$img-&gt;setMIMETypes( $mime_rules ); <span class="dox_comment">// Register mimetypes</span>
+
+$img1 = $img-&gt;convert( <span class="dox_stringliteral">"image1.gif"</span>, <span class="dox_stringliteral">"cache/"</span> ); <span class="dox_comment">// Convert GIF and places it in cache dir</span>
+$img1 = $img-&gt;convert( <span class="dox_stringliteral">"image1.png"</span>, <span class="dox_stringliteral">"cache/"</span>, <span class="dox_comment">// Scale PNG image and place in cache dir</span>
+                       array( <span class="dox_stringliteral">"width"</span> =&gt; 200, <span class="dox_stringliteral">"height"</span> =&gt; 200 ), <span class="dox_comment">// Scale parameter</span>
+                       array( array( <span class="dox_stringliteral">"rule-type"</span> =&gt; <span class="dox_stringliteral">"colorspace/gray"</span> ) ) ); <span class="dox_comment">// Gray scale conversion</span>
+</pre></div> 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00110">110</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZImageManager::eZImageManager"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::eZImageManager </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the manager by registering a application/octet-stream mimetype which is applied for all unknown files. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00116">116</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00183">createMIMEType()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00484">instance()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a11" doxytag="eZImageManager::addFilterRule"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::addFilterRule </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rules</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>filter</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds the filter rules $filter to the first rule which can perform filtering. $rules is usually the rules returned from <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a9">convertRules()</a>. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00301">301</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00319">convert()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZImageManager::addScaleRule"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::addScaleRule </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rules</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scale</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds the scale rule $scale to the first rule which can perform scaling. $rules is usually the rules returned from <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/class/eZImageManager#a9">convertRules()</a>. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00284">284</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00319">convert()</a>.    </td>
+  </tr>
+</table>
+<a name="c0" doxytag="eZImageManager::compressRules"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::compressRules </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rules</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scale</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Compresses the rules $rules so that a minimum number of conversion is required. The scale $rule is taken into account. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00421">421</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00236">convertRules()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZImageManager::convert"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::convert </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scale</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>filters</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>mime</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Converst the image file $file to an output format and places it in $dest. Scaling is handled with $scale and filters with $filters. If $mime is false then the mimetype i fetched from the $file. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00319">319</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00301">addFilterRule()</a>, <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00284">addScaleRule()</a>, <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00236">convertRules()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00212">mimeTypeFor()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZImageManager::convertRules"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZImageManager::convertRules </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>from</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scale</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the conversion rules which is required for transforming the mimetype $from to an output format. If scale is supplied the scaling is taking into account when compressing rules. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00236">236</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00421">compressRules()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00172">isDisplayType()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00319">convert()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZImageManager::createMIMEType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZImageManager::createMIMEType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>mime</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>match</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>suffix</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a MIME type structure. $mime is the mimetype name, $match is the regex file match, $suffix is the filename suffix which is append to the converted filename. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00183">183</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00116">eZImageManager()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZImageManager::createRule"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZImageManager::createRule </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>from</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scale</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>filter</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new conversion rule and returns it. $from the source mimetype, $to the destination mimetype, $type the image conversion type must be registered, $scale true if the rule can scale the image, $filter true if the rule can perform filters. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00467">467</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZImageManager::instance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZImageManager::instance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the only instance of the image manager. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00484">484</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00116">eZImageManager()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00484">instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00484">instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZImageManager::isDisplayType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::isDisplayType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>type</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if the mimetype $type is accepted as an output type. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00172">172</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00236">convertRules()</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZImageManager::mimeTypeFor"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::mimeTypeFor </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>as_obj</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the mimetype for the file $file. If $as_obj is true the whole mimetype structure is returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00212">212</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00319">convert()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZImageManager::registerType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::registerType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Registers a new conversion type which can handle conversion and image operations. The name $name represents the conversion name which is used in the conversion rules. $type is the conversion object. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00153">153</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZImageManager::ruleFor"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::ruleFor </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>from</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Not used for now, may be deleted? 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00161">161</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZImageManager::setMIMETypes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::setMIMETypes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>types</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Register the mimetypes $types. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00195">195</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZImageManager::setOutputTypes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::setOutputTypes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>mimes</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets which output types are allowed, this is an array of mimetype names. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00124">124</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZImageManager::setRules"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageManager::setRules </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rules</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>defrule</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the conversion rules to $rule and the default rule to $defrule. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager#l00137">137</a> of file <a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030821224002/http://www.ez.no/sdk/ref/view/source/ezimagemanager">ezimagemanager.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030821224002/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030821224002/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 22:40:02 Aug 21, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:00:14 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.699
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.01
+  esindex: 0.013
+  cdx.remote: 6.474
+  LoadShardBlock: 50.942 (3)
+  PetaboxLoader3.datanode: 95.018 (4)
+  load_resource: 137.618
+  PetaboxLoader3.resolve: 60.783
+-->

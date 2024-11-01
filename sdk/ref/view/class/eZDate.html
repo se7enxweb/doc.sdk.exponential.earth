@@ -1,0 +1,887 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZDate","20030823121506","http://web.archive.org/","web","/_static/",
+	      "1061640906");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121506cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121506cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121506cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823121506/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823121506im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZDate Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/module/eZLocale">Locale system</a>]</small>
+</h1>Locale aware date handler. 
+<a href="eZDate.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/members/eZDate">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a0">eZDate</a> ($date=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a4">isValid</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a5">setLocale</a> (&amp;$locale)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a6">locale</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a7">timeStamp</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a9">setYear</a> ($year)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a10">setMonth</a> ($month)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a11">setDay</a> ($day)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a12">year</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a13">month</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a14">day</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a15">setMDY</a> ($month,$day=0,$year=0)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a16">adjustDate</a> ($month,$day=0,$year=0)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a17">isGreaterThan</a> (&amp;$date,$equal=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a18">isEqualTo</a> (&amp;$date)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a19">create</a> ($month,$day=0,$year=0)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a20">duplicate</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#a21">toString</a> ($short=false)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZDate::Locale"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#m0">Locale</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Locale object, is just a reference to minimize memory usage.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZDate::Date"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDate.html#m1">Date</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The current date as a timestamp without hour, minute or second values.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Locale aware date handler.
+<p>
+eZDate handles date values in months, days and years. The time stored as a timestamp with 0 hours, 0 minutes and 0 seconds.
+<p>
+A new instance of eZDate will automaticly use the current locale and current date, if you however want a different locale use the <a class="dox_el" href="eZDate.html#a5">setLocale()</a> function. The current locale can be fetched with <a class="dox_el" href="eZDate.html#a6">locale()</a>.
+<p>
+Change the date directly with <a class="dox_el" href="eZDate.html#a9">setYear()</a>, <a class="dox_el" href="eZDate.html#a10">setMonth()</a>, <a class="dox_el" href="eZDate.html#a11">setDay()</a> and <a class="dox_el" href="eZDate.html#a15">setMDY()</a>. You can also adjust the date relative to it's current value by using <a class="dox_el" href="eZDate.html#a16">adjustDate()</a>. Use <a class="dox_el" href="eZDate.html#a7">timeStamp()</a> to get the current timestamp value or <a class="dox_el" href="eZDate.html#a12">year()</a>, <a class="dox_el" href="eZDate.html#a13">month()</a> and <a class="dox_el" href="eZDate.html#a14">day()</a> for the respective values.
+<p>
+When creating new times you're advised to use the static <a class="dox_el" href="eZDate.html#a19">create()</a> function which returns a new eZDate object. You can also create a copy with the <a class="dox_el" href="eZDate.html#a20">duplicate()</a> function.
+<p>
+Date checking is done with the <a class="dox_el" href="eZDate.html#a17">isGreaterThan()</a> and <a class="dox_el" href="eZDate.html#a18">isEqualTo()</a> functions.
+<p>
+Text output is done with <a class="dox_el" href="eZDate.html#a21">toString()</a> which can return a long string (default) or short string representation according to the current locale.
+<p>
+Example: <div class="dox_fragment"><pre>include_once( 'lib/ezlocale/classes/ezlocale.php' );
+include_once( 'lib/ezlocale/classes/ezdate.php' );
+
+$us_locale =&amp; <a class="dox_code" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/class/eZLocale#a47">eZLocale::instance</a>( 'us' );
+
+$date1 = <span class="dox_keyword">new</span> <a class="dox_code" href="eZDate.html#a0">eZDate</a>();
+$date2 =&amp; <a class="dox_code" href="eZDate.html#a19">eZDate::create</a>();
+$date2-&gt;setLocale( $us_locale );
+$date2-&gt;adjustDate( 1, 2, 3 );
+$date3 =&amp; $date1-&gt;duplicate();
+
+print( $date1-&gt;toString() );
+print( $date2-&gt;toString( <span class="dox_keyword">true</span> ) );
+print( $date1-&gt;isEqualTo( $date3 ) ? '<span class="dox_keyword">true</span>' : '<span class="dox_keyword">false</span>' ); <span class="dox_comment">// Prints 'true'</span>
+</pre></div>
+<p>
+<dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/class/eZTime">eZTime</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/class/eZDateTime">eZDateTime</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/class/eZLocale">eZLocale</a> </dl>
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00087">87</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZDate::eZDate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::eZDate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>date</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new date object with default locale, if $date is not supplied the current date is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00093">93</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00344">Date</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezlocale#l01220">eZLocale::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00342">Locale</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00306">create()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00320">duplicate()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a16" doxytag="eZDate::adjustDate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::adjustDate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>month</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>day</em> = 0, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>year</em> = 0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adjusts the date relative to it's current value. This is useful for adding/subtracting years, months or days to an existing date. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00256">256</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00344">Date</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00232">day()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00224">month()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZDate::create"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::create </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>month</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>day</em> = 0, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>year</em> = 0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new eZDate object with the date values $month, $day and $year and returns a reference to it. Any value can be ommitted or set to 0 to use the current date value. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00306">306</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00232">day()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00093">eZDate()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00224">month()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZDate::day"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::day </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the day element. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00232">232</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00256">adjustDate()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00306">create()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00207">setDay()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00241">setMDY()</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZDate::duplicate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::duplicate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates an exact copy of this object and returns a reference to it. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00320">320</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00093">eZDate()</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZDate::isEqualTo"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::isEqualTo </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>date</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if this object is equal to $date. $date can be specified as a timestamp value or as an eZDate object. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00289">289</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00175">timeStamp()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZDate::isGreaterThan"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::isGreaterThan </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>date</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>equal</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if this object has a date greater than $date. $date can be specified as a timestamp value or as an eZDate object. If $equal is true it returns true if they are equal as well. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00268">268</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00175">timeStamp()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZDate::isValid"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::isValid </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the date has valid data. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00149">149</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZDate::locale"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::locale </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns a reference to the current locale. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00165">165</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00342">Locale</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00157">setLocale()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZDate::month"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::month </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the month element. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00224">224</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00256">adjustDate()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00306">create()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00241">setMDY()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00198">setMonth()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZDate::setDay"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::setDay </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>day</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the day leaving the other elements untouched. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00207">207</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00232">day()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZDate::setLocale"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::setLocale </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>locale</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the locale to $locale which is used in text output. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00157">157</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00342">Locale</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00165">locale()</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZDate::setMDY"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::setMDY </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>month</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>day</em> = 0, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>year</em> = 0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the year, month and day elements. If $day or $year is omitted or set 0 they will get a value taken from the current time. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00241">241</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00344">Date</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00232">day()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00224">month()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZDate::setMonth"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::setMonth </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>month</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the month leaving the other elements untouched. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00198">198</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00224">month()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZDate::setYear"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDate::setYear </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>year</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the year leaving the other elements untouched. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00189">189</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">year()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZDate::timeStamp"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::timeStamp </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the timestamp value, this is the number of seconds since the epoch with hours, minutes and seconds set to 0. <dl compact><dt><b>Note: </b></dt><dd>
+The value is returned as a reference and should not be modified. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00175">175</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00344">Date</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00289">isEqualTo()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00268">isGreaterThan()</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZDate::toString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::toString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>short</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a string representation of the date using the current locale and returns it. If $short is true a short representation is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00331">331</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00342">Locale</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZDate::year"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDate::year </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the year element. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00216">216</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00256">adjustDate()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00306">create()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00093">eZDate()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00289">isEqualTo()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00268">isGreaterThan()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00207">setDay()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00241">setMDY()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00198">setMonth()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate#l00189">setYear()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823121506/http://ez.no/sdk/ref/view/source/ezdate">ezdate.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823121506/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823121506/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:15:06 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:59:37 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 3.114
+  exclusion.robots: 0.045
+  exclusion.robots.policy: 0.023
+  esindex: 0.019
+  cdx.remote: 7.096
+  LoadShardBlock: 152.933 (3)
+  PetaboxLoader3.datanode: 111.31 (4)
+  PetaboxLoader3.resolve: 126.543 (2)
+  load_resource: 148.231
+-->

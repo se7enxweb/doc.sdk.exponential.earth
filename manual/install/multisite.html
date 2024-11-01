@@ -1,0 +1,441 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/manual/install/multisite","20030801074227","http://web.archive.org/","web","/_static/",
+	      "1059723747");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+    <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030801074227cs_/http://ez.no/design/ezno/stylesheets/core.css"/>
+    <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030801074227cs_/http://ez.no/design/standard/stylesheets/manual.css"/>
+
+    <title>  eZ publish - install / multisite  </title>
+
+    
+    
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
+
+        <meta http-equiv="Content-language" content="en-GB"/>
+
+    
+        <meta name="author" content="eZ systems"/>
+
+        <meta name="copyright" content="eZ systems"/>
+
+        <meta name="description" content="install multisite "/>
+
+        <meta name="keywords" content="cms, publish, e-commerce, content management"/>
+
+    
+    <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
+    <meta name="generator" content="eZ publish"/>
+
+<link rel="Home" href="http://web.archive.org/" title="eZ publish front page"/>
+<link rel="Index" href="http://web.archive.org/"/>
+<link rel="Top" href="http://web.archive.org/" title="  eZ publish - install / multisite  "/>
+<link rel="Search" href="http://web.archive.org/web/20030801074227/http://ez.no/content/advancedsearch" title="Search eZ publish"/>
+<link rel="Shortcut icon" href="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
+<link rel="Copyright" href="http://web.archive.org/web/20030801074227/http://ez.no/ezinfo/copyright"/>
+<link rel="Author" href="http://web.archive.org/ezinfo/about"/>
+<link rel="Help" href="../../../../manual.html"/><link rel="Glossary" href="../../../../sdk.html"/><link rel="Alternate" href="http://web.archive.org/web/20030801074227/http://ez.no/layout/set/print/manual/install/multisite" media="print" title="Printable version"/>
+</head>
+
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt=""/></td>
+    <td class="headlink" width="66">
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030801074227/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+<tr>
+    <td class="pathline" colspan="11">
+    
+    <p class="path">
+    &nbsp;
+                    install
+        
+                    <span class="slash">/</span>
+                        multisite
+        
+                &nbsp;</p>
+    </td>
+</tr>
+</table>
+
+
+
+
+
+<table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td colspan="2">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+
+<tr>
+	<td>
+<table width="100%" cellspacing="0" cellpadding="4"><tr>
+    <td width="160" bgcolor="#ffffff" valign="top">
+    
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">About eZ publish</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/about/about">About eZ publish 3</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/about/definitions">eZ publish 3 definitions</a></p>
+    </td>
+</tr>
+</table>
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Installation &amp; configuration</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/install/installer">Install using installers</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/install/setup_guide">Install using the setup guide</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/install/install_manually">Install manually</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/install/siteaccess">Site access</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="multisite.html">Multi site configuration</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/install/uninstall">Uninstall</a></p>
+    </td>
+</tr>
+</table>
+
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Security</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/security/securing">Securing the site</a></p>
+    </td>
+</tr>
+
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Setup &amp; design</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/setup/pagesetup">Page setup</a></p>
+    </td>
+</tr>
+
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">User Manual</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/user/everyday">Everyday functions</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/user/permissions">Permissions</a></p>
+    </td>
+</tr>
+
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/user/e-commerce">e-commerce functions and settings</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/user/workflows">Workflows</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/manual/user/informationcollectors">Information collector</a></p>
+    </td>
+</tr>
+</table>
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">SDK &amp; Technical references</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="http://web.archive.org/web/20030801074227im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801074227/http://ez.no/sdk" }>eZ publish SDK</a></p>
+    </td>
+</tr>
+</table>
+
+    
+    </td>
+    <td width="450" bgcolor="#ffffff" valign="top">
+    
+
+    <h1>Multi site configuration</h1>
+
+<p>
+If you are setting up several sites with one eZ publish 3 installation using site access, you might want to
+separate the cache and storage directory. This will make things less cluttered and easy to manage when
+having many sites per installation.
+</p>
+
+<p>
+The default settings in eZ publish 3 stores cache and files in a common directory for all sites. This can
+cause problems if you e.g. want to move one of the sites to another server in the future. This can be
+changed by setting some variables in your site.ini.append for each of your sites.
+</p>
+
+<p>
+In this example we will separate storage files and cache for 'myfirst.ezpsite.com',
+'admin.myfirst.ezpsite.com', 'mysecond.ezpsite.com' and 'admin.mysecond.ezpsite.com'. After setting up
+site access (which you can read more about <a href="http://web.archive.org/web/20030801074227/http://ez.no/manual/install/siteaccess">here</a>)
+we need to set some additional settings in the site.ini.append files.
+</p>
+
+<pre class="example">file: settings/siteaccess/myfirst/site.ini.append
+[FileSettings]
+StorageDir=myfirst/storage
+CacheDir=myfirst/cache
+</pre>
+<br/>
+
+<pre class="example">file: settings/siteaccess/admin.myfirst/site.ini.append
+[FileSettings]
+StorageDir=myfirst/storage
+CacheDir=myfirst/cache
+</pre>
+<br/>
+
+<pre class="example">file: settings/siteaccess/mysecond/site.ini.append
+[FileSettings]
+StorageDir=mysecond/storage
+CacheDir=mysecond/cache
+</pre>
+<br/>
+
+<pre class="example">file: settings/siteaccess/admin.mysecond/site.ini.append
+[FileSettings]
+StorageDir=mysecond/storage
+CacheDir=mysecond/cache
+</pre>
+
+<p>
+Now we have told eZ publish to store myfirsts cache in var/myfirst/cache and myfirsts files in
+var/mysecond/storage. The same goes for the mysecond site.
+</p>
+
+<p class="important"><b>Important:</b> It is important that both the user and the admin site has the same
+storage directory. Otherwise if you e.g. upload a new file using the admin site, the user site will not be
+able to locate the file because it is looking for it in the wrong directory.
+</p>
+
+<p class="important"><b>Important:</b> Make sure that Apache has sufficient rights for the folders you
+create.
+</p>
+
+<p><b>Note: </b> The cache for ini-files and translations can not be separated as described in this document.
+</p>
+
+    </td>
+    <td width="1%" bgcolor="#ffffff" valign="top">
+    </td>
+</tr>
+</table>
+
+    </td>
+</tr>
+</table>
+<div align="center" style="padding-top: 0.5em;">
+<p class="small"><a href="http://web.archive.org/web/20030801074227/http://ez.no/">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030801074227/http://ez.no/">eZ systems as</a></p>
+</div>
+
+ </body>
+</html>
+<!--
+     FILE ARCHIVED ON 07:42:27 Aug 01, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:42:33 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.5
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.01
+  esindex: 0.013
+  cdx.remote: 9.011
+  LoadShardBlock: 188.966 (3)
+  PetaboxLoader3.datanode: 174.499 (4)
+  load_resource: 108.958
+  PetaboxLoader3.resolve: 70.882
+-->

@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/tutorials/view/workflows/","20030817124942","http://web.archive.org/","web","/_static/",
+	      "1061124582");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - Tutorials</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817124942cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817124942cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817124942cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817124942/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/templateissues" ">&lt;&lt; Common template issues</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/wrappingworkflow" ">Example of wrapping workflow &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials">Tutorials</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/main_concepts/">Main concepts</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/content_classes/">Custom content</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/templateissues/">Common template issues</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="index.html">Custom workflows</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/wrappingworkflow/">Example of wrapping workflow</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/publishworkflow/">Approval workflow</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/datatypes/">Datatypes</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/permissions/">Permissions and sections</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/forms/">Creating forms</a><br/><img src="http://web.archive.org/web/20030817124942im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124942/http://ez.no/sdk/tutorials/view/translation/">Translation and i18n</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<h1>Custom workflows</h1>
+
+<p>
+One of the most powerful features of eZ publish 3 is that you can create custom workflows.
+Workflow is a mechanism that makes it possible to customize or add new features to operations in eZ Publish.
+For example: add some additional actions to publish routing or some additional steps to view objects.
+</p>
+
+<p>
+Workflows should be connected to defined eZ Publish operations with triggers (there are only two defined operations
+in the content module currently: "Read" and "Publish").
+For each defined operation, the eZ Publish kernel tries to execute two triggers. One is activated before the actual
+operation body is executed and another is activated after that. A trigger is just a row stored in the database table
+eztrigger.
+</p>
+
+Table definition:<br/>
+<pre class="example">
+
+CREATE TABLE eztrigger (
+  id int(11) NOT NULL auto_increment,
+  name varchar(255),
+  module_name varchar(200) NOT NULL default '',
+  function_name varchar(200) NOT NULL default '',
+  workflow_id int(11) default NULL,
+  PRIMARY KEY  (id),
+  UNIQUE KEY eztrigger_def_id (module_name,function_name,name)
+) TYPE=MyISAM;
+
+</pre>
+
+<p>
+Field "name" is the name of the trigger, for example, "pre_publish" or "pre_read". The fields module_name and
+function_name are the names of module and function that the system will start executing the workflow for.
+</p>
+
+<h2>Understanding Operations</h2>
+
+<p>
+An operation is a sequence of functions and triggers which should be executed to make a full action like read or publish.
+For example, simple "read" operation (below) is just a sequence of "pre_read" trigger and "fetch-object" method.
+</p>
+
+<pre class="example">
+$OperationList['read'] = array( 'name' =&gt; 'read',
+                                'default_call_method' =&gt; array( 'include_file' =&gt; 'kernel/content/ezcontentoperationcollection.php',
+                                                                'class' =&gt; 'eZContentOperationCollection' ),
+                                'parameters' =&gt; array( array( 'name' =&gt; 'node_id',
+                                                              'required' =&gt; true ),
+                                                       array( 'name' =&gt; 'user_id',
+                                                              'required' =&gt; true ),
+                                                       array( 'name' =&gt; 'language_code',
+                                                              'default' =&gt; '',
+                                                              'required' =&gt; false ) ),
+                                'keys' =&gt; array( 'node_id',
+                                                 'user_id' ),
+
+                                'body' =&gt; array( array( 'type' =&gt; 'trigger',
+                                                        'name' =&gt; 'pre_read',
+                                                        'keys' =&gt; array( 'node_id',
+                                                                         'user_id'
+                                                                         ) ),
+
+
+
+                                                 array( 'type' =&gt; 'method',
+                                                        'name' =&gt; 'fetch-object',
+                                                        'frequency' =&gt; 'once',
+                                                        'method' =&gt; 'readObject',
+                                                        ) ) );
+</pre>
+
+<p>
+<ul>
+<li>name - the name of the operation.</li>
+<li>default_call_method - an array which shows in which file and class methods used in the operation are defined</li>
+<li>parameters - parameters that are passed to each method and trigger in the operation when they are executed</li>
+<li>keys - part of parameters that are used to identify stored interrupted operation (operation memento)</li>
+<li>body - array of arrays that describe methods and triggers of the operation</li>
+</ul>
+</p>
+
+<p>
+Types of body elements:
+</p>
+
+<p>
+Trigger:
+</p>
+
+<p>
+<ul>
+<li>type - trigger, shows that current body element is trigger</li>
+<li>name - name of the trigger used to fetch trigger from database. To fetch the trigger, the system will use next
+conditions - (module name, operation name, trigger name)</li>
+<li>key - part of the parameters used to identify running workflow process</li>
+</ul>
+</p>
+
+<p>
+Method:
+</p>
+
+<p>
+<ul>
+<li>type - method</li>
+<li>name - fetch-object, name of method used in internals of operation</li>
+<li>frequency - once, it means that method will be run only once</li>
+<li>method - method of class described with "default_call_method" "class" parameter of operation. That function is
+the code which will be executed</li>
+</ul>
+</p>
+
+<h2>Creating workflows</h2>
+
+<p>
+Workflows consist of a sequence of workflow events which will be executed one by one. Therefore, the first step is to
+create workflow event types. Alternatively, you can use events that already exist.
+</p>
+
+<h3>Creating new workflow event</h3>
+
+<p>
+Suppose that you want to create a workflow event which will show a "hello user" message to users after the workflow has
+run. We use <i>hellouser</i> as the name of the event. To create this new workflow event, you need to complete the
+following steps:
+</p>
+
+<p>
+<ol>
+<li>modify site.ini settings to add the new workflow event type. You should add "event_hellouser" to the
+AvailableEventTypes parameter</li>
+<li>create directory kernel/classes/workflowtypes/event/hellouser/</li>
+<li>create file in that directory called hellousertype.php</li>
+</ol>
+</p>
+
+File <i>hellousertype.php</i><br/>
+<pre class="example">
+define( "EZ_WORKFLOW_TYPE_HELLO_USER_ID", "hellouser" );
+
+class helloUserType extends eZWorkflowEventType
+{
+    /*!
+     Constructor
+    */
+    function helloUserType()
+    {
+        $this-&gt;eZWorkflowEventType( EZ_WORKFLOW_TYPE_HELLO_USER_ID, "Hello User" );
+    }
+
+    function execute( &amp;$process, &amp;$event )
+    {
+        return EZ_WORKFLOW_TYPE_STATUS_ACCEPTED;
+    }
+}
+
+eZWorkflowEventType::registerType( EZ_WORKFLOW_TYPE_HELLO_USER_ID, "hellousertype" );
+</pre>
+
+<p>
+This is a very simple workflow event type. To create a workflow event type we need to create a class inherited from
+eZWorkflowEventType and then register it into the system using the method eZWorkflowEventType::registerType().
+This class should have at least one method in addition to the class constructor. The method <i>execute</i> is called
+when the workflow event is executed. The behaviour of running the workflow depends on the return value of this function.
+</p>
+
+<table border="1">
+<caption align="left">Possible values</caption>
+<tr><th>Value</th><th>Description</th></tr>
+
+<tr>
+<td>
+EZ_WORKFLOW_TYPE_STATUS_ACCEPTED
+</td>
+<td>
+Workflow accepts that event, and run next event in workflow
+</td>
+</tr>
+
+<tr>
+<td>
+EZ_WORKFLOW_TYPE_STATUS_REJECTED<br/>
+EZ_WORKFLOW_TYPE_STATUS_WORKFLOW_CANCELLED
+</td>
+<td>
+They have the same meaning currently. The workflow will be canceled.
+</td>
+</tr>
+
+<tr>
+<td>
+EZ_WORKFLOW_TYPE_STATUS_DEFERRED_TO_CRON<br/>
+EZ_WORKFLOW_TYPE_STATUS_DEFERRED_TO_CRON_REPEAT
+</td>
+<td>
+This status means that execution of the workflow is deferred to the cron daemon. The difference between the first one
+and the second one is that the workflow will be executed from the next event in the first case and from the same event
+in the second case after finishing current running process.
+</td>
+</tr>
+
+<tr>
+<td>
+EZ_WORKFLOW_TYPE_STATUS_FETCH_TEMPLATE<br/>
+EZ_WORKFLOW_TYPE_STATUS_FETCH_TEMPLATE_REPEAT
+</td>
+<td>
+The workflow engine should interrupt executing workflow and show page to the user. In case of this status, the workflow
+event should set up some internal variables. (Will be explaned below). Differences between them is the same as in the
+previous case.
+</td>
+</tr>
+
+<tr>
+<td>
+EZ_WORKFLOW_TYPE_STATUS_REDIRECT<br/>
+EZ_WORKFLOW_TYPE_STATUS_REDIRECT_REPEAT
+</td>
+<td>
+Workflow engine should interrupt executing the workflow and redirect the user to a specified page. In case of this
+status the workflow event should set up some internal variables. (Will be explaned below).
+Differences between them is the same as in the previous cases.
+</td>
+</tr>
+
+<tr>
+<td>
+EZ_WORKFLOW_TYPE_STATUS_NONE
+</td>
+<td>
+Undefined status. The same as EZ_WORKFLOW_TYPE_STATUS_REJECTED temporally.
+</td>
+</tr>
+</table>
+
+<p>
+To show a page to the user, you need to use the status EZ_WORKFLOW_TYPE_STATUS_FETCH_TEMPLATE and set up some internal
+variables.
+</p>
+
+<pre class="example">
+    function execute( &amp;$process, &amp;$event )
+    {
+
+        $user =&amp; eZUser::currentUser();
+        $userName =&amp; $user-&gt;attribute( 'login' );
+        $localhostAddr = eZSys::hostname();
+        $requestUri = eZSys::serverVariable( 'REQUEST_URI' );
+
+
+        $process-&gt;Template = array( 'templateName' =&gt; 'design:workflow/eventtype/result/' . 'event_hellouser' . '.tpl',
+                                     'templateVars' =&gt; array( 'return_uri' =&gt; $requestUri,
+                                                              'user_name' =&gt; $userName ) );
+        return EZ_WORKFLOW_TYPE_STATUS_FETCH_TEMPLATE;
+    }
+</pre>
+
+<p>
+In addition, you need to create the result template.
+</p>
+
+<pre class="example">
+&lt;form action={$return_uri|ezurl} method=&quot;post&quot; &gt;
+
+&lt;div class=&quot;maincontentheader&quot;&gt;
+&lt;h1&gt;{&quot;Hello&quot;|i18n('workflow/eventtype/result/event_hellouser')} {$user_name}&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class=&quot;buttonblock&quot;&gt;
+&lt;input type=&quot;submit&quot; name=&quot;Next&quot; value=&quot;next&quot; /&gt;
+&lt;/div&gt;
+
+&lt;/form&gt;
+</pre>
+
+<p>
+The workflow event is ready now and it is time to create the workflow. Click on 'Workflows' in the left menu and choose
+a defined group or just create a new one.
+</p>
+
+<p>
+<img src="http://web.archive.org/web/20030817124942im_/http://ez.no/doc/images/workflow_grouplist.png" alt="Class edit"/>
+</p>
+
+<p>
+then click "New workflow" button.
+</p>
+
+<p>
+<img src="http://web.archive.org/web/20030817124942im_/http://ez.no/doc/images/workflowlist.png" alt="Class edit"/>
+</p>
+
+<p>
+Specify the workflow name first, and then you can add the "Event/Hello User" event to the workflow by selecting it from
+the dropdown list and clicking the "New Event" button.
+</p>
+
+<p>
+<img src="http://web.archive.org/web/20030817124942im_/http://ez.no/doc/images/workflowedit.png" alt="Class edit"/>
+</p>
+
+<p>
+Simply click the store button after you have added the event.
+</p>
+
+<p>
+Now the workflow is ready and you need to create a trigger. Go to the "Triggers" list (in the "Set up" menu box) and
+select the newly created workflow from the dropdown list on the content - read - before line.
+</p>
+
+<p>
+<img src="http://web.archive.org/web/20030817124942im_/http://ez.no/doc/images/triggers.png" alt="Triggers"/>
+</p>
+
+<p>
+Click the "Store" button. The workflow is connected to the operation now.
+</p>
+
+<p>
+Finally the workflow is ready and has been connected to the operation.
+</p>
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817124942/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817124942/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:49:42 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:22:56 Nov 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.46
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.011
+  esindex: 0.009
+  cdx.remote: 5.661
+  LoadShardBlock: 115.807 (3)
+  PetaboxLoader3.datanode: 118.946 (4)
+  PetaboxLoader3.resolve: 78.095 (2)
+  load_resource: 131.493
+-->

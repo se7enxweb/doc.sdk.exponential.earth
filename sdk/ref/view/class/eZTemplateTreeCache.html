@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZTemplateTreeCache","20030823124805","http://web.archive.org/","web","/_static/",
+	      "1061642885");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823124805cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823124805cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823124805cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823124805/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823124805im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTemplateTreeCache Class Reference</h1>Cache handling for template tree nodes. 
+<a href="eZTemplateTreeCache.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/members/eZTemplateTreeCache">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#a0">setCachedTree</a> ($originalKey,$uri,$res,$templatePath,&amp;$extraParameters,&amp;$root)</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#d0">cacheTable</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#d1">cachedTree</a> ($key,$uri,$res,$templatePath,&amp;$extraParameters)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#d2">isCacheEnabled</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#d3">cacheDirectory</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#d4">canRestoreCache</a> ($key,$timestamp)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#d5">restoreCache</a> ($key)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#d6">storeCache</a> ($key)</td></tr>
+<tr><td colspan="2"><br><h2>Static Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateTreeCache.html#f0">internalKey</a> ($key)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Cache handling for template tree nodes.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00050">50</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.<hr><h2>Member Function Documentation</h2>
+<a name="d3" doxytag="eZTemplateTreeCache::cacheDirectory"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTreeCache::cacheDirectory </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the cache directory for tree node cache files. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00159">159</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezsys#l00219">eZSys::cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00159">cacheDirectory()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezdir#l00248">eZDir::path()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00159">cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00177">canRestoreCache()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00203">restoreCache()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00238">storeCache()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZTemplateTreeCache::cachedTree"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateTreeCache::cachedTree </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>key</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>res</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>templatePath</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>extraParameters</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the cache node tree which is stored with the cache key <em>$key</em>. Returns <code>null</code> if no cache data was found. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00086">86</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00086">cachedTree()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00056">cacheTable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00069">internalKey()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00125">eZTemplateFileResource::cachedTemplateTree()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00086">cachedTree()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00098">eZTemplateFileResource::hasCachedProcessTree()</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZTemplateTreeCache::cacheTable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateTreeCache::cacheTable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the cache table which has cache keys and cache data. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00056">56</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00086">cachedTree()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00177">canRestoreCache()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00203">restoreCache()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00106">setCachedTree()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00238">storeCache()</a>.    </td>
+  </tr>
+</table>
+<a name="d4" doxytag="eZTemplateTreeCache::canRestoreCache"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTreeCache::canRestoreCache </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>key</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>timestamp</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the cache with the key <em>$key</em> can be restored. A cache file is found restorable when it exists and has a timestamp higher or equal to <em>$timestamp</em>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00177">177</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00159">cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00056">cacheTable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztextcodec#l00321">eZTextCodec::internalCharset()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00069">internalKey()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00138">isCacheEnabled()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00125">eZTemplateFileResource::cachedTemplateTree()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00098">eZTemplateFileResource::hasCachedProcessTree()</a>.    </td>
+  </tr>
+</table>
+<a name="f0" doxytag="eZTemplateTreeCache::internalKey"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTreeCache::internalKey </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>key</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static, private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a new key from <em>$key</em> which has some additional info. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00069">69</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00086">cachedTree()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00177">canRestoreCache()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00203">restoreCache()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00106">setCachedTree()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00238">storeCache()</a>.    </td>
+  </tr>
+</table>
+<a name="d2" doxytag="eZTemplateTreeCache::isCacheEnabled"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTreeCache::isCacheEnabled </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if template tree node caching is enabled. </dl><dl compact><dt><b>Note: </b></dt><dd>
+To change this setting edit settings/site.ini and locate the group TemplateSettings and the entry NodeTreeCaching. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00138">138</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00177">canRestoreCache()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00203">restoreCache()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00238">storeCache()</a>.    </td>
+  </tr>
+</table>
+<a name="d5" doxytag="eZTemplateTreeCache::restoreCache"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTreeCache::restoreCache </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>key</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Loads the cache with the key <em>$key</em> from a file and sets the result in the cache table. <dl compact><dt><b>Returns: </b></dt><dd>
+true if the cache was successfully restored. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00203">203</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00159">cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00056">cacheTable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztextcodec#l00321">eZTextCodec::internalCharset()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00069">internalKey()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00138">isCacheEnabled()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00203">restoreCache()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00125">eZTemplateFileResource::cachedTemplateTree()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00098">eZTemplateFileResource::hasCachedProcessTree()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00203">restoreCache()</a>.    </td>
+  </tr>
+</table>
+<a name="a0" doxytag="eZTemplateTreeCache::setCachedTree"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTreeCache::setCachedTree </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>originalKey</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>res</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>templatePath</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>extraParameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>root</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the template tree node <em>$root</em> to be cached with the cache key $root. <dl compact><dt><b>Note: </b></dt><dd>
+Trying to overwrite and existing cache key will give a warning and fail. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00106">106</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00056">cacheTable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00069">internalKey()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00106">setCachedTree()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00136">eZTemplateFileResource::setCachedTemplateTree()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00106">setCachedTree()</a>.    </td>
+  </tr>
+</table>
+<a name="d6" doxytag="eZTemplateTreeCache::storeCache"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateTreeCache::storeCache </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>key</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Stores the data of the cache with the key <em>$key</em> to a file. <dl compact><dt><b>Returns: </b></dt><dd>
+false if the cache does not exist. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00238">238</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00159">cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00056">cacheTable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztextcodec#l00321">eZTextCodec::internalCharset()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00069">internalKey()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00138">isCacheEnabled()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00238">storeCache()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00136">eZTemplateFileResource::setCachedTemplateTree()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00238">storeCache()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823124805/http://ez.no/sdk/ref/view/source/eztemplatetreecache">eztemplatetreecache.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823124805/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823124805/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:48:05 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:28:49 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.746
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.01
+  esindex: 0.014
+  cdx.remote: 15.357
+  LoadShardBlock: 116.761 (3)
+  PetaboxLoader3.datanode: 125.339 (4)
+  PetaboxLoader3.resolve: 313.462 (2)
+  load_resource: 341.142
+-->

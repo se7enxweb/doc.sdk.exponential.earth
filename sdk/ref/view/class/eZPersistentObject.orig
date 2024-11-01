@@ -1,0 +1,1289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZPersistentObject","20030817123536","http://web.archive.org/","web","/_static/",
+	      "1061123736");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030817123536cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817123536cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817123536cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030817123536im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030817123536/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030817123536/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030817123536im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030817123536/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030817123536im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817123536/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030817123536im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817123536/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030817123536im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817123536/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030817123536im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817123536/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030817123536im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817123536/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030817123536im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817123536/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030817123536im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817123536/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZPersistentObject Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/module/eZKernel">Kernel system</a>]</small>
+</h1>Allows for object persistence in a database. 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZPersistentObject:
+<p><center><img src="/web/20030817123536im_/http://ez.no/doc/generated/html/classeZPersistentObject.png" usemap="#eZPersistentObject_map" border="0" alt=""></center>
+<map name="eZPersistentObject_map">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBasket" alt="eZBasket" shape="rect" coords="218,56,426,80">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBinaryFile" alt="eZBinaryFile" shape="rect" coords="218,112,426,136">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationGroup" alt="eZCollaborationGroup" shape="rect" coords="218,168,426,192">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItem" alt="eZCollaborationItem" shape="rect" coords="218,224,426,248">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemGroupLink" alt="eZCollaborationItemGroupLink" shape="rect" coords="218,280,426,304">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemMessageLink" alt="eZCollaborationItemMessageLink" shape="rect" coords="218,336,426,360">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemParticipantLink" alt="eZCollaborationItemParticipantLink" shape="rect" coords="218,392,426,416">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemStatus" alt="eZCollaborationItemStatus" shape="rect" coords="218,448,426,472">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationProfile" alt="eZCollaborationProfile" shape="rect" coords="218,504,426,528">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationSimpleMessage" alt="eZCollaborationSimpleMessage" shape="rect" coords="218,560,426,584">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentClassAttribute" alt="eZContentClassAttribute" shape="rect" coords="218,672,426,696">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObject" alt="eZContentObject" shape="rect" coords="218,840,426,864">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectAttribute" alt="eZContentObjectAttribute" shape="rect" coords="218,896,426,920">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectTreeNode" alt="eZContentObjectTreeNode" shape="rect" coords="218,952,426,976">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectVersion" alt="eZContentObjectVersion" shape="rect" coords="218,1008,426,1032">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentTranslation" alt="eZContentTranslation" shape="rect" coords="218,1064,426,1088">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZDiscountRule" alt="eZDiscountRule" shape="rect" coords="218,1120,426,1144">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZDiscountSubRule" alt="eZDiscountSubRule" shape="rect" coords="218,1176,426,1200">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZDiscountSubRuleValue" alt="eZDiscountSubRuleValue" shape="rect" coords="218,1232,426,1256">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZEnumObjectValue" alt="eZEnumObjectValue" shape="rect" coords="218,1288,426,1312">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZEnumValue" alt="eZEnumValue" shape="rect" coords="218,1344,426,1368">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZForgotPassword" alt="eZForgotPassword" shape="rect" coords="218,1400,426,1424">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZForgotPassword" alt="eZForgotPassword" shape="rect" coords="218,1456,426,1480">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImage" alt="eZImage" shape="rect" coords="218,1512,426,1536">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImageVariation" alt="eZImageVariation" shape="rect" coords="218,1568,426,1592">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZInformationCollection" alt="eZInformationCollection" shape="rect" coords="218,1624,426,1648">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZInformationCollectionAttribute" alt="eZInformationCollectionAttribute" shape="rect" coords="218,1680,426,1704">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZMedia" alt="eZMedia" shape="rect" coords="218,1736,426,1760">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZModuleRun" alt="eZModuleRun" shape="rect" coords="218,1792,426,1816">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZNodeAssignment" alt="eZNodeAssignment" shape="rect" coords="218,1848,426,1872">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOperationMemento" alt="eZOperationMemento" shape="rect" coords="218,1904,426,1928">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOrder" alt="eZOrder" shape="rect" coords="218,1960,426,1984">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOrderItem" alt="eZOrderItem" shape="rect" coords="218,2016,426,2040">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicy" alt="eZPolicy" shape="rect" coords="218,2072,426,2096">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicyLimitation" alt="eZPolicyLimitation" shape="rect" coords="218,2128,426,2152">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicyLimitationValue" alt="eZPolicyLimitationValue" shape="rect" coords="218,2184,426,2208">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZProductCollection" alt="eZProductCollection" shape="rect" coords="218,2240,426,2264">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZProductCollectionItem" alt="eZProductCollectionItem" shape="rect" coords="218,2296,426,2320">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZProductCollectionItemOption" alt="eZProductCollectionItemOption" shape="rect" coords="218,2352,426,2376">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPublishOnTimeValue" alt="eZPublishOnTimeValue" shape="rect" coords="218,2408,426,2432">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZRole" alt="eZRole" shape="rect" coords="218,2464,426,2488">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZSection" alt="eZSection" shape="rect" coords="218,2520,426,2544">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZTrigger" alt="eZTrigger" shape="rect" coords="218,2576,426,2600">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZURL" alt="eZURL" shape="rect" coords="218,2632,426,2656">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZUser" alt="eZUser" shape="rect" coords="218,2688,426,2712">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZUserAccountKey" alt="eZUserAccountKey" shape="rect" coords="218,2744,426,2768">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZUserDiscountRule" alt="eZUserDiscountRule" shape="rect" coords="218,2800,426,2824">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZVatType" alt="eZVatType" shape="rect" coords="218,2912,426,2936">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWaitUntilDateValue" alt="eZWaitUntilDateValue" shape="rect" coords="218,2968,426,2992">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWishList" alt="eZWishList" shape="rect" coords="218,3024,426,3048">
+<area href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWorkflowGroup" alt="eZWorkflowGroup" shape="rect" coords="218,3192,426,3216">
+</map>
+<a href="/web/20030817123536/http://ez.no/sdk/ref/view/members/eZPersistentObject">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a0">eZPersistentObject</a> ($row)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a1">fill</a> (&amp;$row)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a2">fetchObject</a> (&amp;$def,$field_filters,$conds,$asObject=true,$grouping=null,$custom_fields=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a3">remove</a> ($conditions=null,$extraConditions=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a4">removeObject</a> (&amp;$def,$conditions=null,$extraConditions=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a5">store</a> ($fieldFilters=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a6">sync</a> ($fieldFilters=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a7">conditionText</a> (&amp;$conditions)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a8">conditionTextByRow</a> (&amp;$conditions,&amp;$row)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a9">fetchObjectList</a> (&amp;$def,$field_filters=null,$conds=null,$sorts=null,$limit=null,$asObject=true,$grouping=false,$custom_fields=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a11">swapRow</a> ($table,&amp;$keys,&amp;$order_id,&amp;$rows,$id1,$id2)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a12">newObjectOrder</a> (&amp;$def,$orderField,$conditions)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a13">reorderObject</a> (&amp;$def,$orderField,$conditions,$down=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">definition</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a17">attributes</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a18">hasAttribute</a> ($attr)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a19">attribute</a> ($attr)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a20">setAttribute</a> ($attr,$val)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a21">hasDirtyData</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a22">setHasDirtyData</a> ($hasDirtyData)</td></tr>
+<tr><td colspan="2"><br><h2>Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#c0">storeObject</a> (&amp;$obj,$fieldFilters=null)</td></tr>
+<tr><td colspan="2"><br><h2>Private Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#o0">PersistentDataDirty</a></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Allows for object persistence in a database.
+<p>
+Classes which stores simple types in databases should inherit from this and implement the <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">definition()</a> function. The class will then get initialization, fetching, listing, moving, storing and deleting for free as well as attribute access. The new class must have a constructor which takes one parameter called <code>$row</code> and pass that this constructor.
+<p>
+<div class="dox_fragment"><pre><span class="dox_keyword">class </span>MyClass <span class="dox_keyword">extends</span> <a class="dox_code" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject">eZPersistentObject</a>
+{
+    function MyClass( $row )
+    {
+        $this-&gt;<a class="dox_code" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a0">eZPersistentObject</a>( $row );
+    }
+}
+</pre></div> 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00068">68</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZPersistentObject::eZPersistentObject"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::eZPersistentObject </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>row</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the object with the row <em>$row</em>. It will try to set each field taken from the database row. Calls fill to do the job. If the parameter <em>$row</em> is an integer it will try to fetch it from the database using it as the unique ID. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00076">76</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00090">fill()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00924">PersistentDataDirty</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationgroup#l00054">eZCollaborationGroup::eZCollaborationGroup()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitem#l00058">eZCollaborationItem::eZCollaborationItem()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemgrouplink#l00055">eZCollaborationItemGroupLink::eZCollaborationItemGroupLink()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemmessagelink#l00053">eZCollaborationItemMessageLink::eZCollaborationItemMessageLink()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemparticipantlink#l00068">eZCollaborationItemParticipantLink::eZCollaborationItemParticipantLink()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemstatus#l00055">eZCollaborationItemStatus::eZCollaborationItemStatus()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationprofile#l00054">eZCollaborationProfile::eZCollaborationProfile()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationsimplemessage#l00053">eZCollaborationSimpleMessage::eZCollaborationSimpleMessage()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjecttreenode#l00080">eZContentObjectTreeNode::eZContentObjectTreeNode()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontenttranslation#l00053">eZContentTranslation::eZContentTranslation()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdiscountrule#l00053">eZDiscountRule::eZDiscountRule()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdiscountsubrule#l00053">eZDiscountSubRule::eZDiscountSubRule()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdiscountsubrulevalue#l00051">eZDiscountSubRuleValue::eZDiscountSubRuleValue()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezenumobjectvalue#l00055">eZEnumObjectValue::eZEnumObjectValue()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezenumvalue#l00055">eZEnumValue::eZEnumValue()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezaccounthash#l00051">eZForgotPassword::eZForgotPassword()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezimagevariation#l00055">eZImageVariation::eZImageVariation()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezmodulerun#l00052">eZModuleRun::eZModuleRun()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/eznodeassignment#l00053">eZNodeAssignment::eZNodeAssignment()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezoperationmemento#l00051">eZOperationMemento::eZOperationMemento()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicy#l00054">eZPolicy::eZPolicy()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicylimitation#l00053">eZPolicyLimitation::eZPolicyLimitation()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicylimitationvalue#l00051">eZPolicyLimitationValue::eZPolicyLimitationValue()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezproductcollectionitemoption#l00051">eZProductCollectionItemOption::eZProductCollectionItemOption()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpublishontimevalue#l00051">eZPublishOnTimeValue::eZPublishOnTimeValue()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezrole#l00054">eZRole::eZRole()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/eztrigger#l00063">eZTrigger::eZTrigger()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezuseraccountkey#l00051">eZUserAccountKey::eZUserAccountKey()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezuserdiscountrule#l00054">eZUserDiscountRule::eZUserDiscountRule()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezwaituntildatevalue#l00051">eZWaitUntilDateValue::eZWaitUntilDateValue()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a19" doxytag="eZPersistentObject::attribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPersistentObject::attribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attr</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attribute data for <em>$attr</em>, this is either returned from the member variables or a member function depending on whether the definition field or function attributes matched. </dl>
+<p>
+Reimplemented in <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOperationMemento#a3">eZOperationMemento</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBinaryFile#a4">eZBinaryFile</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImage#a4">eZImage</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImageVariation#a4">eZImageVariation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZMedia#a3">eZMedia</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZUser#a2">eZUser</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBasket#a2">eZBasket</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationGroup#a10">eZCollaborationGroup</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItem#a5">eZCollaborationItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemGroupLink#a7">eZCollaborationItemGroupLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemMessageLink#a8">eZCollaborationItemMessageLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemParticipantLink#a11">eZCollaborationItemParticipantLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationSimpleMessage#a5">eZCollaborationSimpleMessage</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentClassAttribute#a15">eZContentClassAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObject#a2">eZContentObject</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectAttribute#a8">eZContentObjectAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectTreeNode#a4">eZContentObjectTreeNode</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectVersion#a5">eZContentObjectVersion</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentTranslation#a5">eZContentTranslation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZInformationCollection#a2">eZInformationCollection</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZInformationCollectionAttribute#a2">eZInformationCollectionAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZNodeAssignment#a2">eZNodeAssignment</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOrder#a7">eZOrder</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOrderItem#a3">eZOrderItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicy#a3">eZPolicy</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicyLimitation#a3">eZPolicyLimitation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicyLimitationValue#a3">eZPolicyLimitationValue</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZProductCollectionItem#a4">eZProductCollectionItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZRole#a3">eZRole</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZSection#a4">eZSection</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZTrigger#a2">eZTrigger</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWishList#a2">eZWishList</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWorkflowGroup#a8">eZWorkflowGroup</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPublishOnTimeValue#a3">eZPublishOnTimeValue</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWaitUntilDateValue#a3">eZWaitUntilDateValue</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00841">841</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezworkflowgroup#l00160">eZWorkflowGroup::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezwishlist#l00077">eZWishList::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezwaituntildatevalue#l00083">eZWaitUntilDateValue::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezuser#l00105">eZUser::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/eztrigger#l00084">eZTrigger::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezsection#l00089">eZSection::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezrole#l00080">eZRole::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpublishontimevalue#l00083">eZPublishOnTimeValue::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezproductcollectionitem#l00097">eZProductCollectionItem::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicylimitationvalue#l00076">eZPolicyLimitationValue::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicylimitation#l00084">eZPolicyLimitation::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicy#l00079">eZPolicy::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezorderitem#l00084">eZOrderItem::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezorder#l00132">eZOrder::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezoperationmemento#l00078">eZOperationMemento::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/eznodeassignment#l00081">eZNodeAssignment::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezmedia#l00087">eZMedia::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezinformationcollectionattribute#l00068">eZInformationCollectionAttribute::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezinformationcollection#l00071">eZInformationCollection::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezimagevariation#l00117">eZImageVariation::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezimage#l00083">eZImage::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontenttranslation#l00089">eZContentTranslation::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjectversion#l00148">eZContentObjectVersion::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjecttreenode#l00145">eZContentObjectTreeNode::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjectattribute#l00176">eZContentObjectAttribute::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">eZContentObject::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentclassattribute#l00314">eZContentClassAttribute::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationsimplemessage#l00113">eZCollaborationSimpleMessage::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemparticipantlink#l00279">eZCollaborationItemParticipantLink::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemmessagelink#l00178">eZCollaborationItemMessageLink::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemgrouplink#l00133">eZCollaborationItemGroupLink::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitem#l00127">eZCollaborationItem::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationgroup#l00301">eZCollaborationGroup::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezbinaryfile#l00085">eZBinaryFile::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezbasket#l00077">eZBasket::attribute()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00135">remove()</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZPersistentObject::attributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPersistentObject::attributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attributes for this object, taken from the definition fields and function attributes. </dl>
+<p>
+Reimplemented in <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBinaryFile#a2">eZBinaryFile</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImage#a2">eZImage</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImageVariation#a3">eZImageVariation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentClassAttribute#a13">eZContentClassAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectTreeNode#a3">eZContentObjectTreeNode</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicy#a2">eZPolicy</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicyLimitation#a2">eZPolicyLimitation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicyLimitationValue#a2">eZPolicyLimitationValue</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZRole#a2">eZRole</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWorkflowGroup#a6">eZWorkflowGroup</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00816">816</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezinformationcollection#l00071">eZInformationCollection::attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezworkflowgroup#l00145">eZWorkflowGroup::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezrole#l00075">eZRole::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicylimitationvalue#l00071">eZPolicyLimitationValue::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicylimitation#l00079">eZPolicyLimitation::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpolicy#l00074">eZPolicy::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezimagevariation#l00112">eZImageVariation::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezimage#l00072">eZImage::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjecttreenode#l00140">eZContentObjectTreeNode::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentclassattribute#l00304">eZContentClassAttribute::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezbinaryfile#l00071">eZBinaryFile::attributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobject#l00860">eZContentObject::fillNodeListAttributes()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjectversion#l00776">eZContentObjectVersion::serialize()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobject#l00850">eZContentObject::setContentObjectAttributes()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZPersistentObject::conditionText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPersistentObject::conditionText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>conditions</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Calls conditionTextByRow with an empty row and <em>$conditions</em>. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00298">298</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00308">conditionTextByRow()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00364">fetchObjectList()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00518">newObjectOrder()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00157">removeObject()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00198">storeObject()</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZPersistentObject::conditionTextByRow"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPersistentObject::conditionTextByRow </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>conditions</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>row</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Generates an SQL sentence from the conditions <em>$conditions</em> and row data <em>$row</em>. If <em>$row</em> is empty (null) it uses the condition data instead of row data. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00308">308</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00298">conditionText()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00541">reorderObject()</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZPersistentObject::definition"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPersistentObject::definition </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the definition for the object, the default implementation is to return an empty array. It's upto each inheriting class to return a proper definition array.</dl>The definition array is an associative array consists of these keys:<ul>
+<li>fields - an associative array of fields which defines which database field (the key) is to fetched and how they map to object member variables (the value).<li>keys - an array of fields which is used for uniquely identifying the object in the table.<li>function_attributes - an associative array of attributes which maps to member functions, used for fetching data with functions.<li>set_functions - an associative array of attributes which maps to member functions, used for setting data with functions.<li>increment_key - the field which is incremented on table inserts.<li>class_name - the classname which is used for instantiating new objecs when fetching from the database.<li>sort - an associative array which defines the default sorting of lists, the key is the table field while the value is the sorting method which is either <code>asc</code> or <code>desc</code>.<li>name - the name of the database table</ul>
+Example: <div class="dox_fragment"><pre>function <a class="dox_code" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">definition</a>()
+{
+    <span class="dox_keywordflow">return</span> array( <span class="dox_stringliteral">"fields"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"ID"</span>,
+                                     <span class="dox_stringliteral">"version"</span> =&gt; <span class="dox_stringliteral">"Version"</span>,
+                                     <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"Name"</span> ),
+                  <span class="dox_stringliteral">"keys"</span> =&gt; array( <span class="dox_stringliteral">"id"</span>, <span class="dox_stringliteral">"version"</span> ),
+                  <span class="dox_stringliteral">"function_attributes"</span> =&gt; array( <span class="dox_stringliteral">"current"</span> =&gt; <span class="dox_stringliteral">"currentVersion"</span>,
+                                                  <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"className"</span> ),
+                  <span class="dox_stringliteral">"increment_key"</span> =&gt; <span class="dox_stringliteral">"id"</span>,
+                  <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"eZContentClass"</span>,
+                  <span class="dox_stringliteral">"sort"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"asc"</span> ),
+                  <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"ezcontentclass"</span> );
+}
+</pre></div> 
+<p>
+Reimplemented in <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOperationMemento#a1">eZOperationMemento</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBinaryFile#a1">eZBinaryFile</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZEnumObjectValue#a1">eZEnumObjectValue</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZEnumValue#a1">eZEnumValue</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImage#a1">eZImage</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImageVariation#a1">eZImageVariation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZMedia#a1">eZMedia</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZURL#a1">eZURL</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZForgotPassword#a1">eZForgotPassword</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZForgotPassword#a5">eZForgotPassword</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZUser#a1">eZUser</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZUserAccountKey#a1">eZUserAccountKey</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBasket#a1">eZBasket</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationGroup#a1">eZCollaborationGroup</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItem#a1">eZCollaborationItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemGroupLink#a1">eZCollaborationItemGroupLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemMessageLink#a1">eZCollaborationItemMessageLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemParticipantLink#a1">eZCollaborationItemParticipantLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemStatus#a1">eZCollaborationItemStatus</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationProfile#a1">eZCollaborationProfile</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationSimpleMessage#a1">eZCollaborationSimpleMessage</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentClassAttribute#a1">eZContentClassAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObject#a1">eZContentObject</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectAttribute#a1">eZContentObjectAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectTreeNode#a1">eZContentObjectTreeNode</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectVersion#a1">eZContentObjectVersion</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentTranslation#a1">eZContentTranslation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZDiscountRule#a1">eZDiscountRule</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZDiscountSubRule#a1">eZDiscountSubRule</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZDiscountSubRuleValue#a1">eZDiscountSubRuleValue</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZInformationCollection#a1">eZInformationCollection</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZInformationCollectionAttribute#a1">eZInformationCollectionAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZModuleRun#a1">eZModuleRun</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZNodeAssignment#a1">eZNodeAssignment</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOrder#a1">eZOrder</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOrderItem#a1">eZOrderItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicy#a1">eZPolicy</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicyLimitation#a1">eZPolicyLimitation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPolicyLimitationValue#a1">eZPolicyLimitationValue</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZProductCollection#a1">eZProductCollection</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZProductCollectionItem#a1">eZProductCollectionItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZProductCollectionItemOption#a1">eZProductCollectionItemOption</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZRole#a1">eZRole</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZSection#a1">eZSection</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZTrigger#a1">eZTrigger</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZUserDiscountRule#a1">eZUserDiscountRule</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZVatType#a1">eZVatType</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWishList#a1">eZWishList</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWorkflowGroup#a1">eZWorkflowGroup</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPublishOnTimeValue#a1">eZPublishOnTimeValue</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWaitUntilDateValue#a1">eZWaitUntilDateValue</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00633">633</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00090">fill()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00135">remove()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZPersistentObject::fetchObject"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPersistentObject::fetchObject </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>field_filters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>conds</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>asObject</em> = true, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>grouping</em> = null, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>custom_fields</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates an SQL query out of the different parameters and returns an object with the result. If <em>$asObject</em> is true the returned item is an object otherwise a db row. Uses fetchObjectList for the actual SQL handling and just returns the first row item. <dl compact><dt><b>Parameters: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>def</em>&nbsp;</td><td>
+The definition structure </td></tr>
+<tr><td valign="top"><em>field_filters</em>&nbsp;</td><td>
+If defined determines the fields which are extracted, if not all fields are fetched </td></tr>
+<tr><td valign="top"><em>conds</em>&nbsp;</td><td>
+An array of conditions which determines which rows are fetched </td></tr>
+<tr><td valign="top"><em>grouping</em>&nbsp;</td><td>
+An array of elements to group by </td></tr>
+<tr><td valign="top"><em>custom_fields</em>&nbsp;</td><td>
+An array of extra fields to fetch, each field may be a SQL operation </td></tr>
+</table>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00110">110</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00364">fetchObjectList()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezurl#l00153">eZURL::fetch()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezsection#l00073">eZSection::fetch()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZPersistentObject::fetchObjectList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPersistentObject::fetchObjectList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>field_filters</em> = null, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>conds</em> = null, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>sorts</em> = null, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>limit</em> = null, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>asObject</em> = true, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>grouping</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>custom_fields</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates an SQL query out of the different parameters and returns an array with the result. If <em>$asObject</em> is true the array contains objects otherwise a db row. <dl compact><dt><b>Parameters: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>def</em>&nbsp;</td><td>
+The definition structure </td></tr>
+<tr><td valign="top"><em>field_filters</em>&nbsp;</td><td>
+If defined determines the fields which are extracted, if not all fields are fetched </td></tr>
+<tr><td valign="top"><em>conds</em>&nbsp;</td><td>
+An array of conditions which determines which rows are fetched </td></tr>
+<tr><td valign="top"><em>sorts</em>&nbsp;</td><td>
+An array of sorting conditions </td></tr>
+<tr><td valign="top"><em>limit</em>&nbsp;</td><td>
+Offset and limit </td></tr>
+<tr><td valign="top"><em>grouping</em>&nbsp;</td><td>
+An array of elements to group by </td></tr>
+<tr><td valign="top"><em>custom_fields</em>&nbsp;</td><td>
+An array of extra fields to fetch, each field may be a SQL operation </td></tr>
+</table>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00364">364</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00298">conditionText()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezorder#l00111">eZOrder::active()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezbasket#l00267">eZBasket::currentBasket()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezwishlist#l00194">eZWishList::currentWishList()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00110">fetchObject()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezurl#l00179">eZURL::handleList()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00541">reorderObject()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00198">storeObject()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobject#l00479">eZContentObject::versions()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZPersistentObject::fill"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::fill </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>row</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Tries to fill in the data in the object by using the object definition which is returned by the function <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">definition()</a> and the database row data <em>$row</em>. Each field will be fetch from the definition and then use that fieldname to fetch from the row and set the data. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00090">90</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00633">definition()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00076">eZPersistentObject()</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZPersistentObject::hasAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::hasAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attr</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the attribute <em>$attr</em> is part of the definition fields or function attributes. </dl>
+<p>
+Reimplemented in <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOperationMemento#a2">eZOperationMemento</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBinaryFile#a3">eZBinaryFile</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImage#a3">eZImage</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImageVariation#a5">eZImageVariation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZMedia#a2">eZMedia</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBasket#a3">eZBasket</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationGroup#a9">eZCollaborationGroup</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItem#a4">eZCollaborationItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemGroupLink#a6">eZCollaborationItemGroupLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemMessageLink#a7">eZCollaborationItemMessageLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationItemParticipantLink#a10">eZCollaborationItemParticipantLink</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZCollaborationSimpleMessage#a4">eZCollaborationSimpleMessage</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentClassAttribute#a14">eZContentClassAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectVersion#a3">eZContentObjectVersion</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentTranslation#a4">eZContentTranslation</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOrder#a8">eZOrder</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZOrderItem#a4">eZOrderItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZProductCollectionItem#a5">eZProductCollectionItem</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZSection#a5">eZSection</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWishList#a3">eZWishList</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWorkflowGroup#a7">eZWorkflowGroup</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPublishOnTimeValue#a2">eZPublishOnTimeValue</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWaitUntilDateValue#a2">eZWaitUntilDateValue</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00828">828</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezworkflowgroup#l00153">eZWorkflowGroup::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezwishlist#l00085">eZWishList::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezwaituntildatevalue#l00076">eZWaitUntilDateValue::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezsection#l00094">eZSection::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpublishontimevalue#l00076">eZPublishOnTimeValue::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezproductcollectionitem#l00117">eZProductCollectionItem::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezorderitem#l00096">eZOrderItem::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezorder#l00156">eZOrder::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezoperationmemento#l00072">eZOperationMemento::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezmedia#l00080">eZMedia::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezimagevariation#l00125">eZImageVariation::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezimage#l00077">eZImage::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontenttranslation#l00083">eZContentTranslation::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjectversion#l00120">eZContentObjectVersion::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentclassattribute#l00309">eZContentClassAttribute::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationsimplemessage#l00107">eZCollaborationSimpleMessage::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemparticipantlink#l00268">eZCollaborationItemParticipantLink::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemmessagelink#l00170">eZCollaborationItemMessageLink::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitemgrouplink#l00125">eZCollaborationItemGroupLink::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationitem#l00112">eZCollaborationItem::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcollaborationgroup#l00292">eZCollaborationGroup::hasAttribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezbinaryfile#l00076">eZBinaryFile::hasAttribute()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezbasket#l00091">eZBasket::hasAttribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZPersistentObject::hasDirtyData"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::hasDirtyData </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the data is considered dirty and needs to be stored. </dl><dl compact><dt><b>See also: </b></dt><dd>
+sync </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00908">908</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00187">sync()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZPersistentObject::newObjectOrder"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::newObjectOrder </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>orderField</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>conditions</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns an order value which can be used for new items in table, for instance placement. Uses <em>$def</em>, <em>$orderField</em> and <em>$conditions</em> to figure out the currently maximum order value and returns one that is larger. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00518">518</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00298">conditionText()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZPersistentObject::remove"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::remove </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>conditions</em> = null, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>extraConditions</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes the object from the database, it will use the keys in the object definition to figure out which table row should be removed unless <em>$conditions</em> is defined as an array with fieldnames. It uses removeObject to do the real job and passes the object defintion, conditions and extra conditions <em>$extraConditions</em> to this function. 
+<p>
+Reimplemented in <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZBinaryFile#a7">eZBinaryFile</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZEnumValue#a6">eZEnumValue</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZImage#a8">eZImage</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZMedia#a6">eZMedia</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObject#a28">eZContentObject</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZContentObjectAttribute#a20">eZContentObjectAttribute</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPublishOnTimeValue#a8">eZPublishOnTimeValue</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZWaitUntilDateValue#a8">eZWaitUntilDateValue</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00135">135</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00841">attribute()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00633">definition()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00157">removeObject()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobject#l00731">eZContentObject::remove()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZPersistentObject::removeObject"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::removeObject </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>conditions</em> = null, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>extraConditions</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Deletes the object from the table defined in <em>$def</em> with conditions <em>$conditions</em> and extra conditions <em>$extraConditions</em>. The extra conditions will either be appended to the existing conditions or overwrite existing fields. Uses <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a7">conditionText()</a> to create the condition SQL. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00157">157</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00298">conditionText()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezwaituntildatevalue#l00146">eZWaitUntilDateValue::remove()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezsection#l00168">eZSection::remove()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpublishontimevalue#l00146">eZPublishOnTimeValue::remove()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00135">remove()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezmedia#l00149">eZMedia::remove()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezimage#l00194">eZImage::remove()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezenumvalue#l00118">eZEnumValue::remove()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjectattribute#l00321">eZContentObjectAttribute::remove()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezbinaryfile#l00151">eZBinaryFile::remove()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZPersistentObject::reorderObject"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::reorderObject </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>orderField</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>conditions</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>down</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Moves a row in a database table. <em>$def</em> is the object definition. Uses <em>$orderField</em> to determine the order of objects in a table, usually this is a placement of some kind. It uses this order field to figure out how move the row, the row is either swapped with another row which is either above or below according to whether <em>$down</em> is true or false, or it is swapped with the first item or the last item depending on whether this row is first or last. Uses <em>$conditions</em> to figure out unique rows. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a11">swapRow</a> </dl><dl compact><dt><b>Parameters: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>orderField</em>&nbsp;</td><td>
+Associative array with one element, the key is the order id and values is order value. </td></tr>
+</table>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00541">541</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00308">conditionTextByRow()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00364">fetchObjectList()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00498">swapRow()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentclassattribute#l00283">eZContentClassAttribute::move()</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZPersistentObject::setAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::setAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attr</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>val</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the attribute <em>$attr</em> to the value <em>$val</em>. The attribute must be present in the objects definition fields or set functions. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00880">880</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezorder#l00435">eZOrder::activate()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezuser#l00200">eZUser::setInformation()</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZPersistentObject::setHasDirtyData"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::setHasDirtyData </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>hasDirtyData</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets whether the object has dirty data or not. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a21">hasDirtyData</a>, sync </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00917">917</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZPersistentObject::store"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::store </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>fieldFilters</em> = null          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Stores the object in the database, uses <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#c0">storeObject()</a> to do the actual job and passes <em>$fieldFilters</em> to it. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00178">178</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00198">storeObject()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezorder#l00435">eZOrder::activate()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobject#l00642">eZContentObject::revertTo()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezcontentobjectattribute#l00171">eZContentObjectAttribute::storeNewRow()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00187">sync()</a>.    </td>
+  </tr>
+</table>
+<a name="c0" doxytag="eZPersistentObject::storeObject"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::storeObject </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>fieldFilters</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Stores the data in <em>$obj</em> to database. <dl compact><dt><b>Parameters: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>fieldFilters</em>&nbsp;</td><td>
+If specified only certain fields will be stored. </td></tr>
+</table>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00198">198</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00298">conditionText()</a>, <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00364">fetchObjectList()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00178">store()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZPersistentObject::swapRow"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::swapRow </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>table</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>keys</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>order_id</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rows</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>id1</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>id2</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets row id <em>$id2</em> to have the placement of row id <em>$id1</em>. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00498">498</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00541">reorderObject()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZPersistentObject::sync"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::sync </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>fieldFilters</em> = null          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Makes sure data is stored if the data is considered dirty. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/class/eZPersistentObject#a21">hasDirtyData</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00187">187</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00908">hasDirtyData()</a>, and <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00178">store()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Data Documentation</h2>
+<a name="o0" doxytag="eZPersistentObject::PersistentDataDirty"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPersistentObject::PersistentDataDirty<code> [private]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Whether the data is dirty, ie needs to be stored, or not. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00924">924</a> of file <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00076">eZPersistentObject()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030817123536/http://ez.no/sdk/ref/view/source/ezpersistentobject">ezpersistentobject.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817123536/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817123536/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:35:36 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:27:55 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.693
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.016
+  esindex: 0.017
+  cdx.remote: 126.289
+  LoadShardBlock: 355.766 (3)
+  PetaboxLoader3.resolve: 421.259 (2)
+  PetaboxLoader3.datanode: 99.148 (4)
+  load_resource: 192.745
+-->

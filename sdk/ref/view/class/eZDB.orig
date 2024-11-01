@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/class/eZDB/","20030820204450","http://web.archive.org/","web","/_static/",
+	      "1061412290");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030820204450cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030820204450cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030820204450cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030820204450im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030820204450/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030820204450/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030820204450/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820204450/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820204450/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820204450/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820204450/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820204450/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820204450/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030820204450im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820204450/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZDB Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/module/eZDB">Database abstraction layer</a>]</small>
+</h1>The eZDB class provides database wrapper functions The eZ db library procides a database independent framework for SQL databases. The current supported databases are: PostgreSQL and MySQL. 
+<a href="#_details">More...</a>
+<p>
+<a href="/web/20030820204450/http://www.ez.no/sdk/ref/view/members/eZDB">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/class/eZDB#a0">eZDB</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/class/eZDB#d0">hasInstance</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/class/eZDB#d1">instance</a> ($databaseImplementation=false,$databaseParameters=false,$forceNewInstance=false)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The eZDB class provides database wrapper functions The eZ db library procides a database independent framework for SQL databases. The current supported databases are: PostgreSQL and MySQL.
+<p>
+eZ db is designed to be used with the following type subset of SQL: int, float, varchar and text.
+<p>
+To store date and time values int's are used. eZ locale is used to present the date and times on a localized format. That way we don't have to worry about the different date and time formats used in the different databases.
+<p>
+Auto incrementing numbers, sequences, are used to generate unique id's for a table row. This functionality is abstracted as it works different in the different databases.
+<p>
+Limit and offset functionality is also abstracted by the eZ db library.
+<p>
+eZ db is designed to use lowercase in all table/column names. This is done to prevent errors as the different databases handles this differently. Especially when returning the data as an associative array.
+<p>
+<div class="dox_fragment"><pre>  <span class="dox_comment">// include the library</span>
+  include_once( 'lib/ezdb/classes/ezdb.php' );
+
+  <span class="dox_comment">// Get the current database instance</span>
+  <span class="dox_comment">// will create a new database object and connect to the database backend</span>
+  <span class="dox_comment">// if there is already created an instance for this session the existing</span>
+  <span class="dox_comment">// object will be returned.</span>
+  <span class="dox_comment">// the settings for the database connections are set in site.ini</span>
+  $db =&amp; <a class="dox_code" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+
+  <span class="dox_comment">// Run a simple query</span>
+  $db-&gt;query( 'DELETE FROM sql_test' );
+
+  <span class="dox_comment">// insert some data</span>
+  $str = $db-&gt;escapeString( <span class="dox_stringliteral">"Testing escaping'\""</span> );
+  $db-&gt;query( <span class="dox_stringliteral">"INSERT INTO sql_test ( name, description ) VALUES ( 'New test', '$str' )"</span> );
+
+  <span class="dox_comment">// Get the last serial value for the sql_test table</span>
+  $rowID = $db-&gt;lastSerialID( 'sql_test', 'id' );
+
+  <span class="dox_comment">// fetch some data into an array of associative arrays</span>
+  $rows =&amp; $db-&gt;arrayQuery( 'SELECT * FROM sql_test' );
+
+  foreach ( $rows as $row )
+  {
+     print( $row['name'] );
+  }
+
+  <span class="dox_comment">// fetch some data with a limit</span>
+  <span class="dox_comment">// will return the 10 first rows in the result</span>
+  $ret =&amp; $db-&gt;arrayQuery( 'SELECT id, name, description, rownum FROM sql_test',
+                           array( 'offset' =&gt; 0, 'limit' =&gt; 10 ) );
+
+  <span class="dox_comment">// check which implementation we're running</span>
+  print( $db-&gt;databaseName() );
+</pre></div>
+<p>
+<dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/class/eZLocale">eZLocale</a> <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/class/eZINI">eZINI</a> </dl>
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb#l00104">104</a> of file <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb">ezdb.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZDB::eZDB"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDB::eZDB </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructor. NOTE: Should not be used. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb#l00110">110</a> of file <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb">ezdb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb#l00110">eZDB()</a>, and <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb#l00110">eZDB()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="d0" doxytag="eZDB::hasInstance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDB::hasInstance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns an instance of the database object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb#l00119">119</a> of file <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb">ezdb.php</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZDB::instance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDB::instance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>databaseImplementation</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>databaseParameters</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>forceNewInstance</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns an instance of the database object. If you want to change the current database values you should set <em>$forceNewInstance</em> to <code>true</code> to force a new instance. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb#l00136">136</a> of file <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb">ezdb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb#l00136">instance()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, and <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezorder#l00435">eZOrder::activate()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezorder#l00124">eZOrder::activeCount()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00999">eZContentObject::addContentObjectRelation()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezsearchlog#l00057">eZSearchLog::addPhrase()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01182">eZContentObject::assignedNodes()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobjecttreenode#l00761">eZContentObjectTreeNode::assignSectionToSubTree()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezrole#l00375">eZRole::assignToUser()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobjecttreenode#l00649">eZContentObjectTreeNode::childrenByName()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdbtool#l00074">eZDBTool::cleanup()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00308">eZPersistentObject::conditionTextByRow()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00802">eZContentObject::contentObjectAttributes()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01098">eZContentObject::contentObjectListRelatingThis()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobjecttreenode#l01632">eZContentObjectTreeNode::creator()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezprice#l00204">eZPrice::discount()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezorder#l00183">eZOrder::discount()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobjectversion#l00748">eZContentObjectVersion::fetchAttributes()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezrole#l00246">eZRole::fetchByUser()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezrole#l00304">eZRole::fetchIDListByUser()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00364">eZPersistentObject::fetchObjectList()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezrole#l00430">eZRole::fetchUserByRole()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezrole#l00400">eZRole::fetchUserID()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00860">eZContentObject::fillNodeListAttributes()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00983">eZContentObject::getVersionCount()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezuser#l00759">eZUser::groups()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb#l00136">instance()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdbtool#l00061">eZDBTool::isEmpty()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezuser#l00341">eZUser::loginUser()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezsearchlog#l00090">eZSearchLog::mostFrequentPhraseArray()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00518">eZPersistentObject::newObjectOrder()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00971">eZContentObject::nextVersion()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00688">eZContentObject::purge()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezurl#l00094">eZURL::registerURL()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01040">eZContentObject::relatedContentObjectArray()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01018">eZContentObject::relatedContentObjectCount()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01009">eZContentObject::removeContentObjectRelation()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00157">eZPersistentObject::removeObject()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezrole#l00418">eZRole::removeUserAssignment()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00541">eZPersistentObject::reorderObject()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01070">eZContentObject::reverseRelatedObjectList()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00642">eZContentObject::revertTo()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00198">eZPersistentObject::storeObject()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00498">eZPersistentObject::swapRow()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezcontentobjectversion#l00656">eZContentObjectVersion::translationList()</a>, <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezurl#l00221">eZURL::url()</a>, and <a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezurl#l00247">eZURL::urlByMD5()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030820204450/http://www.ez.no/sdk/ref/view/source/ezdb">ezdb.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030820204450/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030820204450/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 20:44:50 Aug 20, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:31:40 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.453
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 9.432
+  LoadShardBlock: 104.778 (3)
+  PetaboxLoader3.datanode: 85.576 (4)
+  PetaboxLoader3.resolve: 334.393 (2)
+  load_resource: 328.558
+-->

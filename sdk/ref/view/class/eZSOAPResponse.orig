@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZSOAPResponse","20030823122429","http://web.archive.org/","web","/_static/",
+	      "1061641469");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823122429cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823122429cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823122429cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823122429im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823122429/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823122429/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823122429im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823122429/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823122429im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122429/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823122429im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122429/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823122429im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122429/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823122429im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122429/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823122429im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122429/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823122429im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122429/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823122429im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122429/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZSOAPResponse Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/module/eZSOAP">SOAP communication library</a>]</small>
+</h1>eZSOAPResponse handles SOAP response packages 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZSOAPResponse:
+<p><center><img src="/web/20030823122429im_/http://ez.no/doc/generated/html/classeZSOAPResponse.png" usemap="#eZSOAPResponse_map" border="0" alt=""></center>
+<map name="eZSOAPResponse_map">
+<area href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPEnvelope" alt="eZSOAPEnvelope" shape="rect" coords="0,0,118,24">
+</map>
+<a href="/web/20030823122429/http://ez.no/sdk/ref/view/members/eZSOAPResponse">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a0">eZSOAPResponse</a> ($name="",$namespace="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a1">decodeStream</a> ($request,$stream)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a2">payload</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a3">encodeValue</a> ($name,$value)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a4">value</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a5">setValue</a> ($value)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a6">isFault</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a7">faultCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#a8">faultString</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZSOAPResponse::Value"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#m0">Value</a> = false</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the response value.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZSOAPResponse::Type"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#m1">Type</a> = false</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the response type.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m2" doxytag="eZSOAPResponse::FaultString"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#m2">FaultString</a> = false</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains fault string.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m3" doxytag="eZSOAPResponse::FaultCode"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#m3">FaultCode</a> = false</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the fault code.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m4" doxytag="eZSOAPResponse::IsFault"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#m4">IsFault</a> = false</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains true if the response was an fault.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m5" doxytag="eZSOAPResponse::Name"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#m5">Name</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the name of the response, i.e. function call name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m6" doxytag="eZSOAPResponse::Namespace"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#m6">Namespace</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the target namespace for the response.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m7" doxytag="eZSOAPResponse::DOMDocument"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#m7">DOMDocument</a> = false</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the DOM document for the current SOAP response.</em></font><br><br></td></tr>
+<tr><td colspan="2"><br><h2>Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#c0">decodeDataTypes</a> (&amp;$node,$type="")</td></tr>
+<tr><td colspan="2"><br><h2>Static Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/class/eZSOAPResponse#f0">stripHTTPHeader</a> ($data)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+eZSOAPResponse handles SOAP response packages
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00039">39</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZSOAPResponse::eZSOAPResponse"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPResponse::eZSOAPResponse </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = "", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructs a new SOAP response 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00044">44</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapenvelope#l00065">eZSOAPEnvelope::eZSOAPEnvelope()</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00383">Name</a>, and <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00385">Namespace</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="c0" doxytag="eZSOAPResponse::decodeDataTypes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZSOAPResponse::decodeDataTypes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>node</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Decodes a DOM node and returns the PHP datatype instance of it. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00107">107</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00388">DOMDocument</a>, and <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00056">decodeStream()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZSOAPResponse::decodeStream"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPResponse::decodeStream </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>request</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>stream</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Decodes the SOAP response stream 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00056">56</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00107">decodeDataTypes()</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00388">DOMDocument</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00379">FaultCode</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00377">FaultString</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00381">IsFault</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00269">stripHTTPHeader()</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00373">Value</a>, and <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZSOAPResponse::encodeValue"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZSOAPResponse::encodeValue </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>value</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Encodes a PHP variable into a SOAP datatype. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00290">290</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezdomdocument#l00218">eZDOMDocument::createAttributeNode()</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezdomdocument#l00163">eZDOMDocument::createElementNode()</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezdomdocument#l00137">eZDOMDocument::createTextNode()</a>, and <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00335">value()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00226">payload()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZSOAPResponse::faultCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPResponse::faultCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the fault code 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00359">359</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00379">FaultCode</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZSOAPResponse::faultString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPResponse::faultString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the fault string 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00367">367</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00377">FaultString</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZSOAPResponse::isFault"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPResponse::isFault </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if the response was a fault 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00351">351</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00381">IsFault</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZSOAPResponse::payload"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZSOAPResponse::payload </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the XML payload for the response. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00226">226</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00290">encodeValue()</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00383">Name</a>, and <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00335">value()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZSOAPResponse::setValue"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPResponse::setValue </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>value</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the value of the response. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00343">343</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00373">Value</a>, and <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00335">value()</a>.    </td>
+  </tr>
+</table>
+<a name="f0" doxytag="eZSOAPResponse::stripHTTPHeader"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZSOAPResponse::stripHTTPHeader </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>data</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static, private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Strips the header information from the HTTP raw response. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00269">269</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00056">decodeStream()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZSOAPResponse::value"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZSOAPResponse::value </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the response value. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00335">335</a> of file <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00373">Value</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00290">encodeValue()</a>, <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00226">payload()</a>, and <a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00343">setValue()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823122429/http://ez.no/sdk/ref/view/source/ezsoapresponse">ezsoapresponse.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823122429/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823122429/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:24:29 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:31:12 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.49
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 6.913
+  LoadShardBlock: 161.62 (3)
+  PetaboxLoader3.datanode: 83.052 (4)
+  PetaboxLoader3.resolve: 467.845 (3)
+  load_resource: 409.852
+-->

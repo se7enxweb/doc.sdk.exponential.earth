@@ -1,0 +1,660 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/source/ezmysqldb","20030817124910","http://web.archive.org/","web","/_static/",
+	      "1061124550");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030817124910cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817124910cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817124910cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030817124910im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030817124910/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030817124910/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030817124910im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030817124910/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030817124910im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817124910/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030817124910im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817124910/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030817124910im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817124910/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030817124910im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817124910/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030817124910im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817124910/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030817124910im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817124910/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030817124910im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817124910/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">ezmysqldb.php</h1><div class="dox_fragment"><pre>00001 &lt;?php
+00002 <span class="dox_comment">//</span>
+00003 <span class="dox_comment">// $Id$</span>
+00004 <span class="dox_comment">//</span>
+00005 <span class="dox_comment">// Definition of eZMySQLDB class</span>
+00006 <span class="dox_comment">//</span>
+00007 <span class="dox_comment">// Created on: &lt;12-Feb-2002 15:54:17 bf&gt;</span>
+00008 <span class="dox_comment">//</span>
+00009 <span class="dox_comment">// This source file is part of eZ publish, publishing software.</span>
+00010 <span class="dox_comment">//</span>
+00011 <span class="dox_comment">// Copyright (C) 1999-2003 eZ Systems.  All rights reserved.</span>
+00012 <span class="dox_comment">//</span>
+00013 <span class="dox_comment">// This program is free software; you can redistribute it and/or</span>
+00014 <span class="dox_comment">// modify it under the terms of the GNU General Public License</span>
+00015 <span class="dox_comment">// as published by the Free Software Foundation; either version 2</span>
+00016 <span class="dox_comment">// of the License, or (at your option) any later version.</span>
+00017 <span class="dox_comment">//</span>
+00018 <span class="dox_comment">// This program is distributed in the hope that it will be useful,</span>
+00019 <span class="dox_comment">// but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+00020 <span class="dox_comment">// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+00021 <span class="dox_comment">// GNU General Public License for more details.</span>
+00022 <span class="dox_comment">//</span>
+00023 <span class="dox_comment">// You should have received a copy of the GNU General Public License</span>
+00024 <span class="dox_comment">// along with this program; if not, write to the Free Software</span>
+00025 <span class="dox_comment">// Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, US</span>
+00026 <span class="dox_comment">//</span>
+00027 
+00037 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezdebug.php"</span> );
+00038 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezini.php"</span> );
+00039 include_once( <span class="dox_stringliteral">"lib/ezdb/classes/ezdbinterface.php"</span> );
+00040 
+<a name="l00041"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB">00041</a> <span class="dox_keyword">class </span><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB">eZMySQLDB</a> <span class="dox_keyword">extends</span> <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface">eZDBInterface</a>
+00042 {
+<a name="l00046"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a0">00046</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a0">eZMySQLDB</a>( $parameters )
+00047     {
+00048         $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a0">eZDBInterface</a>( $parameters );
+00049 
+00050         <span class="dox_keywordflow">if</span> ( !extension_loaded( 'mysql' ) )
+00051         {
+00052             <span class="dox_keywordflow">if</span> ( function_exists( 'eZAppendWarningItem' ) )
+00053             {
+00054                 eZAppendWarningItem( array( 'error' =&gt; array( 'type' =&gt; 'ezdb',
+00055                                                               'number' =&gt; EZ_DB_ERROR_MISSING_EXTENSION ),
+00056                                             'text' =&gt; 'MySQL extension was not found, the <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n2">DB</a> handler will not be initialized.' ) );
+00057                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n12">IsConnected</a> = <span class="dox_keyword">false</span>;
+00058                 <span class="dox_keywordflow">return</span>;
+00059             }
+00060         }
+00061 
+00062         $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a> = $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a>();
+00063 
+00065         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n4">DBWriteConnection</a> == <span class="dox_keyword">false</span> )
+00066         {
+00067             $connection = $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#c0">connect</a>( $this-&gt;Server, $this-&gt;DB, $this-&gt;User, $this-&gt;Password, $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a> );
+00068             <span class="dox_keywordflow">if</span> ( $connection )
+00069             {
+00070                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n4">DBWriteConnection</a> = $connection;
+00071             }
+00072         }
+00073 
+00074         <span class="dox_comment">// Connect to slave</span>
+00075         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n3">DBConnection</a> == <span class="dox_keyword">false</span> )
+00076         {
+00077             <span class="dox_keywordflow">if</span> ( $this-&gt;UseSlaveServer === <span class="dox_keyword">true</span> )
+00078             {
+00079                 $connection = $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#c0">connect</a>( $this-&gt;SlaveServer, $this-&gt;SlaveDB, $this-&gt;SlaveUser, $this-&gt;SlavePassword, $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a> );
+00080             }
+00081             <span class="dox_keywordflow">else</span>
+00082             {
+00083                 $connection =&amp; $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n4">DBWriteConnection</a>;
+00084             }
+00085 
+00086             <span class="dox_keywordflow">if</span> ( $connection and $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n4">DBWriteConnection</a> )
+00087             {
+00088                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n3">DBConnection</a> = $connection;
+00089                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n12">IsConnected</a> = <span class="dox_keyword">true</span>;
+00090             }
+00091         }
+00092 
+00093         <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a15">eZDebug::createAccumulatorGroup</a>( 'mysql_total', 'Mysql Total' );
+00094     }
+00095 
+<a name="l00100"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#c0">00100</a>     function &amp;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#c0">connect</a>( $server, $db, $user, $password, $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a> )
+00101     {
+00102         $connection = <span class="dox_keyword">false</span>;
+00103 
+00104         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a> !== <span class="dox_keyword">false</span> )
+00105         {
+00106             ini_set( <span class="dox_stringliteral">"mysql.default_socket"</span>, $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a> );
+00107         }
+00108 
+00109         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n20">UsePersistentConnection</a> == <span class="dox_keyword">true</span> )
+00110         {
+00111             $connection = @mysql_pconnect( $server, $user, $password );
+00112         }
+00113         <span class="dox_keywordflow">else</span>
+00114         {
+00115             $connection = @mysql_connect( $server, $user, $password );
+00116         }
+00117         $dbErrorText = mysql_error();
+00118         $maxAttempts = $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a4">connectRetryCount</a>();
+00119         $waitTime = $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a5">connectRetryWaitTime</a>();
+00120         $numAttempts = 1;
+00121         <span class="dox_keywordflow">while</span> ( $connection == <span class="dox_keyword">false</span> and $numAttempts &lt;= $maxAttempts )
+00122         {
+00123             sleep( $waitTime );
+00124             <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n20">UsePersistentConnection</a> == <span class="dox_keyword">true</span> )
+00125             {
+00126                 $connection = @mysql_pconnect( $this-&gt;Server, $this-&gt;User, $this-&gt;Password );
+00127             }
+00128             <span class="dox_keywordflow">else</span>
+00129             {
+00130                 $connection = @mysql_connect( $this-&gt;Server, $this-&gt;User, $this-&gt;Password );
+00131             }
+00132             $numAttempts++;
+00133         }
+00134         $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a21">setError</a>();
+00135 
+00136         $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a> = <span class="dox_keyword">true</span>;
+00137 
+00138         <span class="dox_keywordflow">if</span> ( $connection == <span class="dox_keyword">false</span> )
+00139         {
+00140             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Connection error: Couldn't connect to database. Please try again later or inform the system administrator.\n$dbErrorText"</span>, <span class="dox_stringliteral">"eZMySQLDB"</span> );
+00141             $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a> = <span class="dox_keyword">false</span>;
+00142         }
+00143 
+00144         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a> )
+00145         {
+00146             $ret = @mysql_select_db( $db, $connection );
+00147             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a21">setError</a>();
+00148 
+00149             <span class="dox_keywordflow">if</span> ( !$ret )
+00150             {
+00151                 <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Connection error: "</span> . @mysql_errno( $connection ) . <span class="dox_stringliteral">": "</span> . @mysql_error( $connection ), <span class="dox_stringliteral">"eZMySQLDB"</span> );
+00152                 $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a> = <span class="dox_keyword">false</span>;
+00153             }
+00154         }
+00155         <span class="dox_keywordflow">return</span> $connection;
+00156     }
+00157 
+<a name="l00161"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a1">00161</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a1">databaseName</a>()
+00162     {
+00163         <span class="dox_keywordflow">return</span> 'mysql';
+00164     }
+00165 
+<a name="l00169"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">00169</a>     function &amp;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">query</a>( $sql )
+00170     {
+00171         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00172         {
+00173             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'mysql_query', 'mysql_total', 'Mysql_queries' );
+00174             $orig_sql = $sql;
+00175             <span class="dox_comment">// The converted sql should not be output</span>
+00176             <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n10">UseBuiltinEncoding</a> and
+00177                  $this-&gt;InputTextCodec-&gt;conversionRequired() )
+00178             {
+00179                 <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'mysql_conversion', 'mysql_total', 'String conversion in mysql' );
+00180                 $sql =&amp; $this-&gt;InputTextCodec-&gt;convertString( $sql );
+00181                 <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'mysql_conversion' );
+00182             }
+00183 
+00184             <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n11">OutputSQL</a> )
+00185             {
+00186                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#c1">startTimer</a>();
+00187             }
+00188             <span class="dox_comment">// Check if it's a write or read sql query</span>
+00189             $sql = trim( $sql );
+00190 
+00191             $isWriteQuery = <span class="dox_keyword">true</span>;
+00192             <span class="dox_keywordflow">if</span> ( stristr( $sql, <span class="dox_stringliteral">"select"</span> ) )
+00193             {
+00194                 $isWriteQuery = <span class="dox_keyword">false</span>;
+00195             }
+00196 
+00197             <span class="dox_comment">// Send temporary create queries to slave server</span>
+00198             <span class="dox_keywordflow">if</span> ( preg_match( <span class="dox_stringliteral">"/create\s+temporary/i"</span>, $sql ) )
+00199             {
+00200                 $isWriteQuery = <span class="dox_keyword">false</span>;
+00201             }
+00202 
+00203             <span class="dox_keywordflow">if</span> ( $isWriteQuery )
+00204             {
+00205                 $connection = $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n4">DBWriteConnection</a>;
+00206             }
+00207             <span class="dox_keywordflow">else</span>
+00208             {
+00209                 $connection = $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n3">DBConnection</a>;
+00210             }
+00211 
+00212             $result =&amp; mysql_query( $sql, $connection );
+00213             <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n19">RecordError</a> )
+00214                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a21">setError</a>();
+00215 
+00216             <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n11">OutputSQL</a> )
+00217             {
+00218                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#c2">endTimer</a>();
+00219 
+00220                 $num_rows = mysql_affected_rows( $connection );
+00221                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#c0">reportQuery</a>( '<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB">eZMySQLDB</a>', $sql, $num_rows, $this-&gt;timeTaken() );
+00222             }
+00223             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'mysql_query' );
+00224             <span class="dox_keywordflow">if</span> ( $result )
+00225             {
+00226                 <span class="dox_keywordflow">return</span> $result;
+00227             }
+00228             <span class="dox_keywordflow">else</span>
+00229             {
+00230                 <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Query error: "</span> . mysql_error( $connection ) . <span class="dox_stringliteral">". Query: "</span>. $sql, <span class="dox_stringliteral">"eZMySQLDB"</span>  );
+00231                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n19">RecordError</a> = <span class="dox_keyword">false</span>;
+00232                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a13">unlock</a>();
+00233                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n19">RecordError</a> = <span class="dox_keyword">true</span>;
+00234 
+00235                 <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00236             }
+00237             mysql_free_result( $result );
+00238         }
+00239         <span class="dox_keywordflow">else</span>
+00240         {
+00241             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Trying to do a query without being connected to a database!"</span>, <span class="dox_stringliteral">"eZMySQLDB"</span>  );
+00242         }
+00243 
+00244 
+00245     }
+00246 
+<a name="l00250"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a3">00250</a>     function &amp;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a3">arrayQuery</a>( $sql, $params = array() )
+00251     {
+00252         $retArray = array();
+00253         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00254         {
+00255             $limit = <span class="dox_keyword">false</span>;
+00256             $offset = 0;
+00257             $column = <span class="dox_keyword">false</span>;
+00258             <span class="dox_comment">// check for array parameters</span>
+00259             <span class="dox_keywordflow">if</span> ( is_array( $params ) )
+00260             {
+00261                 <span class="dox_keywordflow">if</span> ( isset( $params[<span class="dox_stringliteral">"limit"</span>] ) and is_numeric( $params[<span class="dox_stringliteral">"limit"</span>] ) )
+00262                     $limit = $params[<span class="dox_stringliteral">"limit"</span>];
+00263 
+00264                 <span class="dox_keywordflow">if</span> ( isset( $params[<span class="dox_stringliteral">"offset"</span>] ) and is_numeric( $params[<span class="dox_stringliteral">"offset"</span>] ) )
+00265                     $offset = $params[<span class="dox_stringliteral">"offset"</span>];
+00266 
+00267                 <span class="dox_keywordflow">if</span> ( isset( $params[<span class="dox_stringliteral">"column"</span>] ) and is_numeric( $params[<span class="dox_stringliteral">"column"</span>] ) )
+00268                     $column = $params[<span class="dox_stringliteral">"column"</span>];
+00269             }
+00270 
+00271             <span class="dox_keywordflow">if</span> ( $limit !== <span class="dox_keyword">false</span> and is_numeric( $limit ) )
+00272             {
+00273                 $sql .= <span class="dox_stringliteral">"\nLIMIT $offset, $limit "</span>;
+00274             }
+00275             $result =&amp; $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">query</a>( $sql );
+00276 
+00277             <span class="dox_keywordflow">if</span> ( $result == <span class="dox_keyword">false</span> )
+00278             {
+00279                 $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#c0">reportQuery</a>( '<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB">eZMySQLDB</a>', $sql, <span class="dox_keyword">false</span>, <span class="dox_keyword">false</span> );
+00280                 <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00281             }
+00282 
+00283             <span class="dox_keywordflow">if</span> ( mysql_num_rows( $result ) &gt; 0 )
+00284             {
+00285                 <span class="dox_keywordflow">if</span> ( !is_string( $column ) )
+00286                 {
+00287                     <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'mysql_loop', 'mysql_total', 'Looping result' );
+00288                     <span class="dox_keywordflow">for</span> ( $i=0; $i &lt; mysql_num_rows($result); $i++ )
+00289                     {
+00290                         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n10">UseBuiltinEncoding</a> and
+00291                              $this-&gt;InputTextCodec-&gt;conversionRequired() )
+00292                         {
+00293                             $tmp_row =&amp; mysql_fetch_array( $result, MYSQL_ASSOC );
+00294                             unset( $conv_row );
+00295                             $conv_row = array();
+00296                             reset( $tmp_row );
+00297                             <span class="dox_keywordflow">while</span>( ( $key = key( $tmp_row ) ) !== null )
+00298                             {
+00299                                 <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'mysql_conversion', 'mysql_total', 'String conversion in mysql' );
+00300                                 $conv_row[$key] =&amp; $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n9">OutputTextCodec</a>-&gt;convertString( $tmp_row[$key] );
+00301                                 <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'mysql_conversion' );
+00302                                 next( $tmp_row );
+00303                             }
+00304                             $retArray[$i + $offset] =&amp; $conv_row;
+00305                         }
+00306                         <span class="dox_keywordflow">else</span>
+00307                             $retArray[$i + $offset] =&amp; mysql_fetch_array( $result, MYSQL_ASSOC );
+00308                     }
+00309                     <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'mysql_loop' );
+00310 
+00311                 }
+00312                 <span class="dox_keywordflow">else</span>
+00313                 {
+00314                     <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'mysql_loop', 'mysql_total', 'Looping result' );
+00315                     <span class="dox_keywordflow">for</span> ( $i=0; $i &lt; mysql_num_rows($result); $i++ )
+00316                     {
+00317                         $tmp_row =&amp; mysql_fetch_array( $result, MYSQL_ASSOC );
+00318                         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n10">UseBuiltinEncoding</a> and
+00319                              $this-&gt;InputTextCodec-&gt;conversionRequired() )
+00320                         {
+00321                             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'mysql_conversion', 'mysql_total', 'String conversion in mysql' );
+00322                             $retArray[$i + $offset] =&amp; $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n9">OutputTextCodec</a>-&gt;convertString( $tmp_row[$column] );
+00323                             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'mysql_conversion' );
+00324                         }
+00325                         <span class="dox_keywordflow">else</span>
+00326                             $retArray[$i + $offset] =&amp; $tmp_row[$column];
+00327                     }
+00328                     <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'mysql_loop' );
+00329                 }
+00330             }
+00331         }
+00332         <span class="dox_keywordflow">return</span> $retArray;
+00333     }
+00334 
+00338     function subString( $string, $from, $len = null )
+00339     {
+00340         <span class="dox_keywordflow">if</span> ( $len == null )
+00341         {
+00342             <span class="dox_keywordflow">return</span> <span class="dox_stringliteral">" substring( $string from $from ) "</span>;
+00343         }<span class="dox_keywordflow">else</span>
+00344         {
+00345             <span class="dox_keywordflow">return</span> <span class="dox_stringliteral">" substring( $string from $from for $len ) "</span>;
+00346         }
+00347     }
+00348 
+00349     function concatString( $strings = array() )
+00350     {
+00351         $str = implode( <span class="dox_stringliteral">","</span> , $strings );
+00352         <span class="dox_keywordflow">return</span> <span class="dox_stringliteral">" concat( $str  ) "</span>;
+00353     }
+00354 
+00355     function md5( $str )
+00356     {
+00357         <span class="dox_keywordflow">return</span> <span class="dox_stringliteral">" MD5( $str ) "</span>;
+00358     }
+00359 
+<a name="l00363"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a6">00363</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a6">supportedRelationTypeMask</a>()
+00364     {
+00365         <span class="dox_keywordflow">return</span> EZ_DB_RELATION_TABLE_BIT;
+00366     }
+00367 
+<a name="l00371"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a7">00371</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a7">supportedRelationTypes</a>()
+00372     {
+00373         <span class="dox_keywordflow">return</span> array( EZ_DB_RELATION_TABLE );
+00374     }
+00375 
+<a name="l00379"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a8">00379</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a8">relationCounts</a>( $relationMask )
+00380     {
+00381         <span class="dox_keywordflow">if</span> ( $relationMask &amp; EZ_DB_RELATION_TABLE_BIT )
+00382             <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a9">relationCount</a>();
+00383         <span class="dox_keywordflow">else</span>
+00384             <span class="dox_keywordflow">return</span> 0;
+00385     }
+00386 
+<a name="l00390"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a9">00390</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a9">relationCount</a>( $relationType = EZ_DB_RELATION_TABLE )
+00391     {
+00392         <span class="dox_keywordflow">if</span> ( $relationType != EZ_DB_RELATION_TABLE )
+00393         {
+00394             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Unsupported relation type '$relationType'"</span>, '<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a9">eZMySQLDB::relationCount</a>' );
+00395             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00396         }
+00397         $count = <span class="dox_keyword">false</span>;
+00398         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00399         {
+00400             $result =&amp; mysql_list_tables( $this-&gt;DB, $this-&gt;DBConnection );
+00401             $count = mysql_num_rows( $result );
+00402             mysql_free_result( $result );
+00403         }
+00404         <span class="dox_keywordflow">return</span> $count;
+00405     }
+00406 
+<a name="l00410"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a10">00410</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a10">relationList</a>( $relationType = EZ_DB_RELATION_TABLE )
+00411     {
+00412         <span class="dox_keywordflow">if</span> ( $relationType != EZ_DB_RELATION_TABLE )
+00413         {
+00414             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Unsupported relation type '$relationType'"</span>, '<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a10">eZMySQLDB::relationList</a>' );
+00415             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00416         }
+00417         $tables = array();
+00418         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00419         {
+00420             $result =&amp; mysql_list_tables( $this-&gt;DB, $this-&gt;DBConnection );
+00421             $count = mysql_num_rows( $result );
+00422             <span class="dox_keywordflow">for</span> ( $i = 0; $i &lt; $count; ++ $i )
+00423             {
+00424                 $tables[] = mysql_tablename( $result, $i );
+00425             }
+00426             mysql_free_result( $result );
+00427         }
+00428         <span class="dox_keywordflow">return</span> $tables;
+00429     }
+00430 
+<a name="l00434"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a11">00434</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a11">removeRelation</a>( $<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#b0">relationName</a>, $relationType )
+00435     {
+00436         $relationTypeName = $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#b0">relationName</a>( $relationType );
+00437         <span class="dox_keywordflow">if</span> ( !$relationTypeName )
+00438         {
+00439             <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Unknown relation type '$relationType'"</span>, '<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a11">eZMySQLDB::removeRelation</a>' );
+00440             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00441         }
+00442 
+00443         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00444         {
+00445             $sql = <span class="dox_stringliteral">"DROP $relationTypeName $relationName"</span>;
+00446             <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">query</a>( $sql );
+00447         }
+00448         <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00449     }
+00450 
+<a name="l00454"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a12">00454</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a12">lock</a>( $table )
+00455     {
+00456         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00457         {
+00458             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">query</a>( <span class="dox_stringliteral">"LOCK TABLES $table WRITE"</span> );
+00459         }
+00460     }
+00461 
+<a name="l00465"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a13">00465</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a13">unlock</a>()
+00466     {
+00467         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00468         {
+00469             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">query</a>( <span class="dox_stringliteral">"UNLOCK TABLES"</span> );
+00470         }
+00471     }
+00472 
+<a name="l00476"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a14">00476</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a14">begin</a>()
+00477     {
+00478         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00479         {
+00480             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">query</a>( <span class="dox_stringliteral">"BEGIN WORK"</span> );
+00481         }
+00482     }
+00483 
+<a name="l00487"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a15">00487</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a15">commit</a>()
+00488     {
+00489         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00490         {
+00491             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">query</a>( <span class="dox_stringliteral">"COMMIT"</span> );
+00492         }
+00493     }
+00494 
+<a name="l00498"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a16">00498</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a16">rollback</a>()
+00499     {
+00500         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00501         {
+00502             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a2">query</a>( <span class="dox_stringliteral">"ROLLBACK"</span> );
+00503         }
+00504     }
+00505 
+<a name="l00509"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a17">00509</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a17">lastSerialID</a>( $table, $column )
+00510     {
+00511         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00512         {
+00513             $id = mysql_insert_id( $this-&gt;DBWriteConnection );
+00514             <span class="dox_keywordflow">return</span> $id;
+00515         }
+00516         <span class="dox_keywordflow">else</span>
+00517             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00518     }
+00519 
+<a name="l00523"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a18">00523</a>     function &amp;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a18">escapeString</a>( $str )
+00524     {
+00525         <span class="dox_keywordflow">return</span> mysql_escape_string( $str );
+00526     }
+00527 
+<a name="l00531"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a19">00531</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a19">close</a>()
+00532     {
+00533         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>() )
+00534         {
+00535             @mysql_close( $this-&gt;DBConnection );
+00536             @mysql_close( $this-&gt;DBWriteConnection );
+00537         }
+00538     }
+00539 
+<a name="l00543"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a20">00543</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#a27">createDatabase</a>( $dbName )
+00544     {
+00545         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n3">DBConnection</a> != <span class="dox_keyword">false</span> )
+00546         {
+00547             mysql_create_db( $dbName, $this-&gt;DBConnection );
+00548             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a21">setError</a>();
+00549         }
+00550     }
+00551 
+<a name="l00555"></a><a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a21">00555</a>     function <a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZMySQLDB#a21">setError</a>()
+00556     {
+00557         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n3">DBConnection</a> )
+00558         {
+00559             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n17">ErrorMessage</a> = mysql_error( $this-&gt;DBConnection );
+00560             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n18">ErrorNumber</a> = mysql_errno( $this-&gt;DBConnection );
+00561         }
+00562         <span class="dox_keywordflow">else</span>
+00563         {
+00564             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n17">ErrorMessage</a> = mysql_error();
+00565             $this-&gt;<a class="dox_code" href="/web/20030817124910/http://ez.no/sdk/ref/view/class/eZDBInterface#n18">ErrorNumber</a> = mysql_errno();
+00566         }
+00567     }
+00568 
+00569 
+00571 }
+00572 
+00573 ?&gt;
+</pre></div>&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817124910/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817124910/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:49:10 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:20:11 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.544
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.01
+  esindex: 0.01
+  cdx.remote: 7.391
+  LoadShardBlock: 211.823 (3)
+  PetaboxLoader3.datanode: 237.753 (4)
+  PetaboxLoader3.resolve: 303.664 (2)
+  load_resource: 348.644
+-->

@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZTemplateAttributeOperator","20030823124226","http://web.archive.org/","web","/_static/",
+	      "1061642546");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823124226cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823124226cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823124226cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823124226im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823124226/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823124226/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823124226im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823124226/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823124226im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823124226/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823124226im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823124226/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823124226im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823124226/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823124226im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823124226/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823124226im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823124226/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823124226im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823124226/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823124226im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823124226/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTemplateAttributeOperator Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/module/eZTemplateOperators">Template operators</a>]</small>
+</h1>Display of variable attributes using operator "attribute". 
+<a href="#_details">More...</a>
+<p>
+<a href="/web/20030823124226/http://ez.no/sdk/ref/view/members/eZTemplateAttributeOperator">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/class/eZTemplateAttributeOperator#a0">eZTemplateAttributeOperator</a> ($name="attribute")</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/class/eZTemplateAttributeOperator#a1">operatorList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/class/eZTemplateAttributeOperator#a2">namedParameterList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/class/eZTemplateAttributeOperator#a3">modify</a> (&amp;$tpl,&amp;$operatorName,&amp;$operatorParameters,&amp;$rootNamespace,&amp;$currentNamespace,&amp;$operatorValue,&amp;$namedParameters)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZTemplateAttributeOperator::Operators"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/class/eZTemplateAttributeOperator#m0">Operators</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The array of operators, used for registering operators.</em></font><br><br></td></tr>
+<tr><td colspan="2"><br><h2>Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/class/eZTemplateAttributeOperator#c0">displayVariable</a> (&amp;$value,$as_html,$show_values,$max,$cur_level,&amp;$txt)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Display of variable attributes using operator "attribute".
+<p>
+This class allows for displaying template variable attributes. The display is recursive and the number of levels can be maximized.
+<p>
+The operator can take three parameters. The first is the maximum number of levels to recurse, if blank or omitted the maxium level is infinity. The second is the type of display, if set to "text" the output is as pure text otherwise as html. The third is whether to show variable values or not, default is to not show.
+<p>
+<div class="dox_fragment"><pre><span class="dox_comment">// Example template code</span>
+
+<span class="dox_comment">// Display attributes of $myvar</span>
+{$myvar|attribute}
+<span class="dox_comment">// Display 2 levels of $tree</span>
+{$tree|attribute(2)}
+<span class="dox_comment">// Display attributes and values of $item</span>
+{$item|attribute(,,show)}
+</pre></div> 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00064">64</a> of file <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator">eztemplateattributeoperator.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZTemplateAttributeOperator::eZTemplateAttributeOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateAttributeOperator::eZTemplateAttributeOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em> = "attribute"          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the object with the name $name, default is "attribute". 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00069">69</a> of file <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator">eztemplateattributeoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00211">Operators</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="c0" doxytag="eZTemplateAttributeOperator::displayVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateAttributeOperator::displayVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>as_html</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>show_values</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>max</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>cur_level</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>txt</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Helper function for recursive display of attributes. $value is the current variable, $as_html is true if display as html, $max is the maximum number of levels, $cur_level the current level and $txt is the output text which the function adds to. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00126">126</a> of file <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator">eztemplateattributeoperator.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00101">modify()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZTemplateAttributeOperator::modify"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateAttributeOperator::modify </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorParameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rootNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorValue</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namedParameters</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Display the variable. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00101">101</a> of file <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator">eztemplateattributeoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00126">displayVariable()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZTemplateAttributeOperator::namedParameterList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateAttributeOperator::namedParameterList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+See <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/class/eZTemplateOperator#a1">eZTemplateOperator::namedParameterList()</a> 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00085">85</a> of file <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator">eztemplateattributeoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZTemplateAttributeOperator::operatorList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateAttributeOperator::operatorList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the template operators. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00077">77</a> of file <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator">eztemplateattributeoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator#l00211">Operators</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823124226/http://ez.no/sdk/ref/view/source/eztemplateattributeoperator">eztemplateattributeoperator.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823124226/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823124226/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:42:26 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:31:26 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.497
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.009
+  cdx.remote: 19.134
+  LoadShardBlock: 69.026 (3)
+  PetaboxLoader3.datanode: 78.055 (4)
+  load_resource: 144.021
+  PetaboxLoader3.resolve: 96.081
+-->

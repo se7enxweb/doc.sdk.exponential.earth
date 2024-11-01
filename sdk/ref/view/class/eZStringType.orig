@@ -1,0 +1,882 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZStringType","20030823122045","http://web.archive.org/","web","/_static/",
+	      "1061641245");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823122045cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823122045cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823122045cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823122045im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823122045/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823122045/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823122045im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823122045/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823122045im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122045/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823122045im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122045/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823122045im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122045/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823122045im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122045/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823122045im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122045/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823122045im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122045/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823122045im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122045/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZStringType Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/module/eZKernel">Kernel system</a>]</small>
+</h1>A content datatype which handles text lines. 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZStringType:
+<p><center><img src="/web/20030823122045im_/http://ez.no/doc/generated/html/classeZStringType.png" usemap="#eZStringType_map" border="0" alt=""></center>
+<map name="eZStringType_map">
+<area href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType" alt="eZDataType" shape="rect" coords="0,0,89,24">
+</map>
+<a href="/web/20030823122045/http://ez.no/sdk/ref/view/members/eZStringType">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a0">eZStringType</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a1">initializeObjectAttribute</a> (&amp;$contentObjectAttribute,$currentVersion,&amp;$originalContentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a2">validateObjectAttributeHTTPInput</a> (&amp;$http,$base,&amp;$contentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a3">fetchObjectAttributeHTTPInput</a> (&amp;$http,$base,&amp;$contentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a4">storeObjectAttribute</a> (&amp;$attribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a5">storeClassAttribute</a> (&amp;$attribute,$version)</td></tr>
+<tr><td nowrap align="right" valign="top"><a name="a6" doxytag="eZStringType::storeDefinedClassAttribute"></a>
+&nbsp;</td><td valign="bottom"><b>storeDefinedClassAttribute</b> (&amp;$attribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a7">validateClassAttributeHTTPInput</a> (&amp;$http,$base,&amp;$classAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a8">fixupClassAttributeHTTPInput</a> (&amp;$http,$base,&amp;$classAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a9">fetchClassAttributeHTTPInput</a> (&amp;$http,$base,&amp;$classAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a10">objectAttributeContent</a> (&amp;$contentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a11">metaData</a> (&amp;$contentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a12">contentActionList</a> (&amp;$classAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a13">title</a> (&amp;$contentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a14">isIndexable</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a15">isInformationCollector</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a16">serializeContentObjectAttribute</a> ($objectAttribute)</td></tr>
+<tr><td colspan="2"><br><h2>Private Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#o0">MaxLenValidator</a></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+A content datatype which handles text lines.
+<p>
+It provides the functionality to work as a text line and handles class definition input, object definition input and object viewing.
+<p>
+It uses the spare field data_text in a content object attribute for storing the attribute data. 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00060">60</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZStringType::eZStringType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::eZStringType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes with a string id and a description. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00065">65</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezdatatype#l00078">eZDataType::eZDataType()</a>, and <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00300">MaxLenValidator</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a12" doxytag="eZStringType::contentActionList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::contentActionList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>classAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+\reuturn the collect information action if enabled 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a26">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00243">243</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZStringType::fetchClassAttributeHTTPInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::fetchClassAttributeHTTPInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>base</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>classAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a15">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00203">203</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZStringType::fetchObjectAttributeHTTPInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::fetchObjectAttributeHTTPInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>base</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetches the http post var string input and stores it in the data instance. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a19">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00133">133</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZStringType::fixupClassAttributeHTTPInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::fixupClassAttributeHTTPInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>base</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>classAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a14">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00188">188</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00300">MaxLenValidator</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZStringType::initializeObjectAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::initializeObjectAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectAttribute</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentVersion</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>originalContentObjectAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the default value. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a23">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00074">74</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZStringType::isIndexable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::isIndexable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a29">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00266">266</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZStringType::isInformationCollector"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::isInformationCollector </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a30">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00274">274</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZStringType::metaData"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::metaData </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>contentObjectAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the meta data used for storing search indeces. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00235">235</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZStringType::objectAttributeContent"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZStringType::objectAttributeContent </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>contentObjectAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the content. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a8">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00227">227</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZStringType::serializeContentObjectAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZStringType::serializeContentObjectAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>objectAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a DOM representation of the content object attribute </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00282">282</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezdatatype#l00441">eZDataType::contentObjectAttributeDOMNode()</a>, and <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezdomdocument#l00137">eZDOMDocument::createTextNode()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZStringType::storeClassAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::storeClassAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attribute</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Stores the datatype data to the database which is related to the class attribute. The <em>$version</em> parameter determines which version is currently being stored, 0 is the real version while 1 is the temporary version. <dl compact><dt><b>Returns: </b></dt><dd>
+True if the value was stored correctly. </dl><dl compact><dt><b>Note: </b></dt><dd>
+The method is entirely up to the datatype, for instance it could reuse the available types in the the attribute or store in a separate object. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZStringType#a9">fetchClassAttributeHTTPInput</a> </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a11">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00152">152</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezdatatype#l00216">eZDataType::attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZStringType::storeObjectAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::storeObjectAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Does nothing since it uses the data_text field in the content object attribute. See fetchObjectAttributeHTTPInput for the actual storing. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a10">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00148">148</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezdatatype#l00216">eZDataType::attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZStringType::title"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::title </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>contentObjectAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the content of the string for use as a title 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00258">258</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZStringType::validateClassAttributeHTTPInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::validateClassAttributeHTTPInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>base</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>classAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a13">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00163">163</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00300">MaxLenValidator</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZStringType::validateObjectAttributeHTTPInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::validateObjectAttributeHTTPInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>base</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Validates the input and returns true if the input was valid for this datatype. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/class/eZDataType#a17">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00099">99</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Data Documentation</h2>
+<a name="o0" doxytag="eZStringType::MaxLenValidator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZStringType::MaxLenValidator<code> [private]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+The max len validator 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00300">300</a> of file <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00065">eZStringType()</a>, <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00188">fixupClassAttributeHTTPInput()</a>, and <a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype#l00163">validateClassAttributeHTTPInput()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823122045/http://ez.no/sdk/ref/view/source/ezstringtype">ezstringtype.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823122045/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823122045/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:20:45 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:31:05 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.674
+  exclusion.robots: 0.042
+  exclusion.robots.policy: 0.028
+  esindex: 0.014
+  cdx.remote: 8.033
+  LoadShardBlock: 147.148 (3)
+  PetaboxLoader3.datanode: 114.053 (4)
+  PetaboxLoader3.resolve: 89.473 (2)
+  load_resource: 102.248
+-->

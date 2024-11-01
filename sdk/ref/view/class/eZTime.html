@@ -1,0 +1,912 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/class/eZTime/","20030831115726","http://web.archive.org/","web","/_static/",
+	      "1062331046");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030831115726cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030831115726cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030831115726cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030831115726/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030831115726im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTime Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/module/eZLocale">Locale system</a>]</small>
+</h1>Locale aware time handler. 
+<a href="../../../../../www.ez.no/sdk/ref/view/class/eZTime.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/members/eZTime">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a0">eZTime</a> ($time=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a4">isValid</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a5">setLocale</a> (&amp;$locale)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a6">locale</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a7">timeZone</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a8">setHour</a> ($hour)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a9">setMinute</a> ($min)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a10">setSecond</a> ($sec)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a11">setHMS</a> ($hour,$min=0,$sec=0)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a12">hour</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a13">minute</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a14">second</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a15">timeStamp</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a17">adjustTime</a> ($hour,$min=0,$sec=0)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a18">create</a> ($hour=-1,$min=-1,$sec=-1)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a19">duplicate</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a20">isGreaterThan</a> (&amp;$time,$equal=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a21">isEqualTo</a> (&amp;$time)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a22">toString</a> ($short=false)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZTime::Locale"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#m0">Locale</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Locale object, is just a reference to minimize memory usage.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZTime::Time"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#m1">Time</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The current time as a clamped timestamp.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Locale aware time handler.
+<p>
+eZTime handles 24 hour time values in hours, minutes and seconds. The time stored as a timestamp clamped to a 24 hour day, ie 86400.
+<p>
+A new instance of eZTime will automaticly use the current locale and current time, if you however want a different locale use the <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a5">setLocale()</a> function. The current locale can be fetched with <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a6">locale()</a>.
+<p>
+You can also change the time directly with <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a8">setHour()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a9">setMinute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a10">setSecond()</a> and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a11">setHMS()</a>. You can also adjust the time relative to it's current value by using <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a17">adjustTime()</a>. Use <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a15">timeStamp()</a> to get the current timestamp value or <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a12">hour()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a13">minute()</a> and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a14">second()</a> for the respective values.
+<p>
+When creating new times you're advised to use the static <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a18">create()</a> function which returns a new eZTime object. You can also create a copy with the <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a19">duplicate()</a> function.
+<p>
+Time checking is done with the <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a20">isGreaterThan()</a> and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a21">isEqualTo()</a> functions.
+<p>
+Text output is done with <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a22">toString()</a> which can return a long string (default) or short string representation according to the current locale.
+<p>
+Example: <div class="dox_fragment"><pre>include_once( 'lib/ezlocale/classes/ezlocale.php' );
+include_once( 'lib/ezlocale/classes/eztime.php' );
+
+$us_locale =&amp; <a class="dox_code" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZLocale#a47">eZLocale::instance</a>( 'us' );
+
+$time1 = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a0">eZTime</a>();
+$time2 =&amp; <a class="dox_code" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZTime#a18">eZTime::create</a>();
+$time2-&gt;setLocale( $us_locale );
+$time2-&gt;adjustTime( -8 );
+$time3 =&amp; $time1-&gt;duplicate();
+
+print( $time1-&gt;toString() );
+print( $time2-&gt;toString( <span class="dox_keyword">true</span> ) );
+print( $time1-&gt;isEqualTo( $time3 ) ? '<span class="dox_keyword">true</span>' : '<span class="dox_keyword">false</span>' ); <span class="dox_comment">// Prints 'true'</span>
+</pre></div>
+<p>
+<dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZDate">eZDate</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZDateTime">eZDateTime</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/class/eZLocale">eZLocale</a> </dl>
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00101">101</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZTime::eZTime"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::eZTime </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>time</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new time object with default locale, if $time is not supplied the current time is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00107">107</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/ezlocale#l01220">eZLocale::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00351">Locale</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00280">create()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00296">duplicate()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a17" doxytag="eZTime::adjustTime"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::adjustTime </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>hour</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>min</em> = 0, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>sec</em> = 0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adjusts the time relative to it's current value. This is useful for adding/subtracting hours, minutes or seconds to an existing time. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00264">264</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00223">hour()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZTime::create"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::create </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>hour</em> = -1, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>min</em> = -1, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>sec</em> = -1</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new eZTime object with the time values $hour, $min and $sec and returns a reference to it. Any value can be ommitted or set to -1 to use the current time value. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00280">280</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00107">eZTime()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00223">hour()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZTime::duplicate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::duplicate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates an exact copy of this object and returns a reference to it. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00296">296</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00107">eZTime()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZTime::hour"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::hour </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the hour element. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00223">223</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00264">adjustTime()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00280">create()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00214">setHMS()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00187">setHour()</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZTime::isEqualTo"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::isEqualTo </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>time</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if this object is equal to $time. $time can be specified as a timestamp value or as an eZTime object. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00327">327</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZTime::isGreaterThan"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::isGreaterThan </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>time</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>equal</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if this object has a time greater than $time. $time can be specified as a timestamp value or as an eZTime object. If $equal is true it returns true if they are equal as well. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00308">308</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZTime::isValid"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::isValid </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the date has valid data. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00155">155</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZTime::locale"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::locale </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns a reference to the current locale. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00171">171</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00351">Locale</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00163">setLocale()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZTime::minute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::minute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the minute element. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00231">231</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZTime::second"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::second </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the second element. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00239">239</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZTime::setHMS"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::setHMS </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>hour</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>min</em> = 0, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>sec</em> = 0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets all hour, minute and second elements. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00214">214</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00223">hour()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZTime::setHour"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::setHour </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>hour</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the hour leaving the other elements untouched. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00187">187</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00223">hour()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZTime::setLocale"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::setLocale </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>locale</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the locale to $locale which is used in text output. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00163">163</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00351">Locale</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00171">locale()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZTime::setMinute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::setMinute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>min</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the minute leaving the other elements untouched. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00196">196</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZTime::setSecond"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTime::setSecond </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>sec</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the second leaving the other elements untouched. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00205">205</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZTime::timeStamp"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::timeStamp </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the timestamp value, this is not the number of seconds since the epoch but a clamped value to the number of seconds in a day. <dl compact><dt><b>Note: </b></dt><dd>
+The value is returned as a reference and should not be modified. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00249">249</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00353">Time</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZTime::timeZone"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::timeZone </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the current time zone. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00179">179</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZTime::toString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTime::toString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>short</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a string representation of the time using the current locale and returns it. If $short is true a short representation is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00341">341</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime#l00351">Locale</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030831115726/http://www.ez.no/sdk/ref/view/source/eztime">eztime.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030831115726/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030831115726/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 11:57:26 Aug 31, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:44:20 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.801
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.012
+  esindex: 0.012
+  cdx.remote: 6.091
+  LoadShardBlock: 234.205 (3)
+  PetaboxLoader3.datanode: 249.688 (4)
+  load_resource: 165.854
+  PetaboxLoader3.resolve: 54.895
+-->

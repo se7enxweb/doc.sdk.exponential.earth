@@ -1,0 +1,494 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZDir","20030823120926","http://web.archive.org/","web","/_static/",
+	      "1061640566");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823120926cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823120926cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823120926cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823120926/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823120926im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZDir Class Reference</h1>The class eZDir does. 
+<a href="eZDir.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/members/eZDir">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDir.html#a0">eZDir</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDir.html#d0">mkdir</a> ($dir,$perm,$parents=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDir.html#d1">separator</a> ($type)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDir.html#d2">convertSeparators</a> ($path,$toType=EZ_DIR_SEPARATOR_UNIX)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDir.html#d3">cleanPath</a> ($path,$toType=EZ_DIR_SEPARATOR_UNIX)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDir.html#d4">path</a> ($names,$includeEndSeparator=false,$type=EZ_DIR_SEPARATOR_UNIX)</td></tr>
+<tr><td colspan="2"><br><h2>Static Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZDir.html#f0">doMkdir</a> ($dir,$perm)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The class eZDir does.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00052">52</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZDir::eZDir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDir::eZDir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructor 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00057">57</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="d3" doxytag="eZDir::cleanPath"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDir::cleanPath </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>path</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>toType</em> = EZ_DIR_SEPARATOR_UNIX</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes all unneeded directory separators and resolves any "."s and ".."s found in <em>$path</em>.
+<p>
+For instance: "var/../lib/ezdb" becomes "lib/ezdb", while "../site/var" will not be changed. <dl compact><dt><b>Note: </b></dt><dd>
+Will also convert separators </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZDir.html#d2">convertSeparators</a>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00216">216</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00202">convertSeparators()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00248">path()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00183">separator()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00093">mkdir()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00248">path()</a>.    </td>
+  </tr>
+</table>
+<a name="d2" doxytag="eZDir::convertSeparators"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDir::convertSeparators </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>path</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>toType</em> = EZ_DIR_SEPARATOR_UNIX</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Converts any directory separators found in <em>$path</em>, in both unix and dos style, into the separator type specified by <em>$toType</em> and returns it. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00202">202</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00248">path()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00183">separator()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00216">cleanPath()</a>.    </td>
+  </tr>
+</table>
+<a name="f0" doxytag="eZDir::doMkdir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDir::doMkdir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>perm</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static, private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates the directory <em>$dir</em> with permission <em>$perm</em>. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00155">155</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00093">mkdir()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00093">mkdir()</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZDir::mkdir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDir::mkdir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>perm</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>parents</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates the directory <em>$dir</em> with permissions <em>$perm</em>. If <em>$parents</em> is true it will create any missing parent directories, just like 'mkdir -p'. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00093">93</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00216">cleanPath()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00155">doMkdir()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00155">doMkdir()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezimagetype#l00189">eZImageType::fetchObjectAttributeHTTPInput()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezini#l00273">eZINI::loadCache()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezimageinterface#l00407">eZImageInterface::store()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdebug#l00645">eZDebug::writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="d4" doxytag="eZDir::path"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDir::path </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>names</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>includeEndSeparator</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em> = EZ_DIR_SEPARATOR_UNIX</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a path out of all the dir and file items in the array <em>$names</em> with correct separators in between them. It will also remove unneeded separators. <em>$type</em> is used to determine the separator type, see <a class="dox_el" href="eZDir.html#d1">eZDir::separator</a>. If <em>$includeEndSeparator</em> is true then it will make sure that the path ends with a separator if false it make sure there are no end separator. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00248">248</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00216">cleanPath()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00248">path()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00183">separator()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/eztranslationcache#l00103">eZTranslationCache::cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00159">eZTemplateTreeCache::cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezsys#l00219">eZSys::cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00216">cleanPath()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00202">convertSeparators()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00297">eZCollaborationItemHandler::handlerRepositories()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00326">eZCollaborationItemHandler::instantiate()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00248">path()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdebug#l00784">eZDebug::printReport()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezimageinterface#l00376">eZImageInterface::processImage()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezini#l00574">eZINI::save()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezsys#l00204">eZSys::storageDirectory()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezimageinterface#l00407">eZImageInterface::store()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZDir::separator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDir::separator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>type</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the separator used between directories and files according to <em>$type</em>.</dl>Type can be one of the following:<ul>
+<li>EZ_DIR_SEPARATOR_LOCAL - Returns whatever is applicable for the current machine.<li>EZ_DIR_SEPARATOR_UNIX - Returns a /<li>EZ_DIR_SEPARATOR_DOS - Returns a \ </ul>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00183">183</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezsys#l00149">eZSys::fileSeparator()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00216">cleanPath()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00202">convertSeparators()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir#l00248">path()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823120926/http://ez.no/sdk/ref/view/source/ezdir">ezdir.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823120926/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823120926/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:09:26 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:31:02 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.718
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.02
+  esindex: 0.013
+  cdx.remote: 6.792
+  LoadShardBlock: 93.374 (3)
+  PetaboxLoader3.datanode: 63.144 (4)
+  load_resource: 189.922
+  PetaboxLoader3.resolve: 175.17
+-->

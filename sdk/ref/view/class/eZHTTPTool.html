@@ -1,0 +1,903 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZHTTPTool","20030817123040","http://web.archive.org/","web","/_static/",
+	      "1061123440");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817123040cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817123040cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817123040cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817123040/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030817123040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZHTTPTool Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/module/eZHTTP">HTTP utilities</a>]</small>
+</h1>Provides access to HTTP post,get and session variables. 
+<a href="eZHTTPTool.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/members/eZHTTPTool">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a0">eZHTTPTool</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a1">setPostVariable</a> ($var,$value)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a2">postVariable</a> ($var)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a3">hasPostVariable</a> ($var)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a4">setGetVariable</a> ($var,$value)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a5">getVariable</a> ($var)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a6">hasGetVariable</a> ($var)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a7">hasVariable</a> ($var)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a8">variable</a> ($var)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a9">attributes</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a10">hasAttribute</a> ($attr)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a11">attribute</a> ($attr)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a12">instance</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a16">getSessionKey</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a19">removeSessionVariable</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a20">hasSessionVariable</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a21">sessionVariable</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#a22">sessionID</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#d0">createRedirectUrl</a> ($path,$parameters=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPTool.html#d1">headerVariable</a> ($headerName,$headerData)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Provides access to HTTP post,get and session variables.
+<p>
+See PHP manual on <a href="http://web.archive.org/web/20030817123040/http://www.php.net/manual/fi/language.variables.predefined.php">Predefined Variables</a> for more information. 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00053">53</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZHTTPTool::eZHTTPTool"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::eZHTTPTool </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the class. Use <a class="dox_el" href="eZHTTPTool.html#a12">eZHTTPTool::instance</a> to get a single instance. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00058">58</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">instance()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a11" doxytag="eZHTTPTool::attribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPTool::attribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attr</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the value for the attribute $attr or null if the attribute does not exist. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00191">191</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZHTTPTool::attributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPTool::attributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attributes for this object. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00175">175</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZHTTPTool::createRedirectUrl"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::createRedirectUrl </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>path</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>parameters</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sends a redirect path to the browser telling it to load the new path. By default only <em>$path</em> is required, other parameters will be fetched automatically to create a HTTP/1.1 compatible header. The input <em>$parameters</em> may contain the following keys.<ul>
+<li>host - the name of the host, default will fetch the currenty hostname<li>protocol - which protocol to use, default will use HTTP<li>port - the port on the host<li>username - a username which is required to login on the site<li>password - if username is supplied this password will be used for authentication</ul>
+The path may be specified relativily <code>rel/ative</code>, from root <code>/a/root</code>, with hostname change <code>//myhost.com/a/root/rel/ative</code>, with protocol <code>http://myhost.com/a/root/rel/ative</code>. Also port may be placed in the path string. It is recommended that the path only contain a plain root path and instead send the rest as optional parameters, the support for different kinds of paths is only incase you get URLs externally which contains any of the above cases.
+<p>
+<dl compact><dt><b>Note: </b></dt><dd>
+The redirection does not happen immedietaly and the script execution will continue. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00242">242</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsys#l00295">eZSys::hostname()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsys#l00304">eZSys::serverPort()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsys#l00332">eZSys::serverVariable()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZHTTPTool::getSessionKey"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::getSessionKey </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the session variable $name to value $value. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00386">386</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZHTTPTool::getVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPTool::getVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>var</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a reference to the HTTP get variable $var, or null if it does not exist. </dl><dl compact><dt><b>See also: </b></dt><dd>
+variable </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00118">118</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZHTTPTool::hasAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::hasAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attr</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the attribute $attr exist. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00183">183</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZHTTPTool::hasGetVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPTool::hasGetVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>var</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the HTTP get variable $var exist. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZHTTPTool.html#a7">hasVariable</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00134">134</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZHTTPTool::hasPostVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPTool::hasPostVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>var</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the HTTP post variable $var exist. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZHTTPTool.html#a7">hasVariable</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00098">98</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZHTTPTool::hasSessionVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::hasSessionVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the session variable $name exist. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00418">418</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsection#l00153">eZSection::globalID()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsection#l00102">eZSection::initGlobalID()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsection#l00135">eZSection::setGlobalID()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZHTTPTool::hasVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::hasVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>var</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the HTTP post/get variable $var exist. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZHTTPTool.html#a3">hasPostVariable</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00144">144</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZHTTPTool::headerVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::headerVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>headerName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>headerData</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the header variable <em>$headerName</em> to have the data <em>$headerData</em>. <dl compact><dt><b>Note: </b></dt><dd>
+Calls PHPs header() with a constructed string. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00330">330</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZHTTPTool::instance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPTool::instance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the unique instance of the HTTP tool </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">208</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00058">eZHTTPTool()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezrole#l00341">eZRole::cachedRoles()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezmodule#l00488">eZModule::currentAction()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezbasket#l00267">eZBasket::currentBasket()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezwishlist#l00194">eZWishList::currentWishList()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00263">eZCollaborationItemHandler::customInput()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezrole#l00246">eZRole::fetchByUser()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezuser#l00759">eZUser::groups()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00253">eZCollaborationItemHandler::hasCustomInput()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezuser#l00468">eZUser::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00243">eZCollaborationItemHandler::isCustomAction()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezuser#l00341">eZUser::loginUser()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezuser#l00454">eZUser::logoutCurrent()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZHTTPTool::postVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPTool::postVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>var</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a reference to the HTTP post variable $var, or null if it does not exist. </dl><dl compact><dt><b>See also: </b></dt><dd>
+variable </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00082">82</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezimagetype#l00189">eZImageType::fetchObjectAttributeHTTPInput()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZHTTPTool::removeSessionVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::removeSessionVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes the session variable $name. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00409">409</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZHTTPTool::sessionID"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::sessionID </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the session id </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00438">438</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZHTTPTool::sessionVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPTool::sessionVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the session variable $name. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00428">428</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsection#l00153">eZSection::globalID()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsection#l00102">eZSection::initGlobalID()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezsection#l00135">eZSection::setGlobalID()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZHTTPTool::setGetVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::setGetVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>value</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the get variable <em>$var</em> to <em>$value</em>. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZHTTPTool.html#a5">getVariable</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00108">108</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZHTTPTool::setPostVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::setPostVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>value</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the post variable <em>$var</em> to <em>$value</em>. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZHTTPTool.html#a2">postVariable</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00072">72</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZHTTPTool::variable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPTool::variable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>var</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a reference to the HTTP post/get variable $var, or null if it does not exist. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZHTTPTool.html#a2">postVariable</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool#l00159">159</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030817123040/http://ez.no/sdk/ref/view/source/ezhttptool">ezhttptool.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817123040/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817123040/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:30:40 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:28:43 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.015
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 25.065
+  LoadShardBlock: 214.573 (3)
+  PetaboxLoader3.datanode: 208.364 (4)
+  PetaboxLoader3.resolve: 167.081 (2)
+  load_resource: 180.51
+-->

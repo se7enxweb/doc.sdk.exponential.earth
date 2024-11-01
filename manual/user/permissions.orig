@@ -1,0 +1,454 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/manual/user/permissions","20030806091003","http://web.archive.org/","web","/_static/",
+	      "1060161003");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+    <link rel="stylesheet" type="text/css" href="/web/20030806091003cs_/http://ez.no/design/ezno/stylesheets/core.css"/>
+    <link rel="stylesheet" type="text/css" href="/web/20030806091003cs_/http://ez.no/design/standard/stylesheets/manual.css"/>
+
+    <title>  eZ publish - user / permissions  </title>
+
+    
+    
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
+
+        <meta http-equiv="Content-language" content="en-GB"/>
+
+    
+        <meta name="author" content="eZ systems"/>
+
+        <meta name="copyright" content="eZ systems"/>
+
+        <meta name="description" content="user permissions "/>
+
+        <meta name="keywords" content="cms, publish, e-commerce, content management"/>
+
+    
+    <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
+    <meta name="generator" content="eZ publish"/>
+
+<link rel="Home" href="/" title="eZ publish front page"/>
+<link rel="Index" href="/"/>
+<link rel="Top" href="/" title="  eZ publish - user / permissions  "/>
+<link rel="Search" href="/web/20030806091003/http://ez.no/content/advancedsearch" title="Search eZ publish"/>
+<link rel="Shortcut icon" href="/web/20030806091003im_/http://ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
+<link rel="Copyright" href="/web/20030806091003/http://ez.no/ezinfo/copyright"/>
+<link rel="Author" href="/ezinfo/about"/>
+<link rel="Help" href="/manual"/><link rel="Glossary" href="/sdk"/><link rel="Alternate" href="/web/20030806091003/http://ez.no/layout/set/print/manual/user/permissions" media="print" title="Printable version"/>
+</head>
+
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt=""/></td>
+    <td class="headlink" width="66">
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030806091003im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030806091003im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030806091003/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030806091003im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030806091003im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030806091003im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030806091003im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030806091003/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030806091003im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+<tr>
+    <td class="pathline" colspan="11">
+    
+    <p class="path">
+    &nbsp;
+                    user
+        
+                    <span class="slash">/</span>
+                        permissions
+        
+                &nbsp;</p>
+    </td>
+</tr>
+</table>
+
+
+
+
+
+<table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td colspan="2">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+
+<tr>
+	<td>
+<table width="100%" cellspacing="0" cellpadding="4"><tr>
+    <td width="160" bgcolor="#ffffff" valign="top">
+    
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">About eZ publish</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/about/about">About eZ publish 3</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/about/definitions">eZ publish 3 definitions</a></p>
+    </td>
+</tr>
+</table>
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Installation &amp; configuration</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/install/installer">Install using installers</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/install/setup_guide">Install using the setup guide</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/install/install_manually">Install manually</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/install/siteaccess">Site access</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/install/multisite">Multi site configuration</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/install/uninstall">Uninstall</a></p>
+    </td>
+</tr>
+</table>
+
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Security</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/security/securing">Securing the site</a></p>
+    </td>
+</tr>
+
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Setup &amp; design</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/setup/pagesetup">Page setup</a></p>
+    </td>
+</tr>
+
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">User Manual</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/user/everyday">Everyday functions</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/user/permissions">Permissions</a></p>
+    </td>
+</tr>
+
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/user/e-commerce">e-commerce functions and settings</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/user/workflows">Workflows</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/user/informationcollectors">Information collector</a></p>
+    </td>
+</tr>
+</table>
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">SDK &amp; Technical references</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806091003im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030806091003/http://ez.no/sdk" }>eZ publish SDK</a></p>
+    </td>
+</tr>
+</table>
+
+    
+    </td>
+    <td width="450" bgcolor="#ffffff" valign="top">
+    
+
+    <h1>Permissions</h1>
+
+<ul>
+  <li><a href="#Users">Defining users</a></li>
+  <li><a href="#Roles">Defining roles</a></li>
+</ul>
+<br/>
+
+<h2 id="Users"> Defining users</h2>
+<p>
+A "user" is defined as a person or group that visits your site.</p>
+<p>You can give users or groups different access possibilities to your site. </p>
+<p>Adding a person or group in eZ publish is very simple. Click the "User" button in the "User" window.
+Then you can choose "User" or "User group" by highlighting that name in the drop down menu and click "New".</p>
+<p>When inside the "Edit user - New user" window you write in name, description, passwords etc depending on
+where you are. When you are done editing, click "Send for publishing".</p>
+
+<p>Typical user groups on sites can be Anonymous, Administrators, Editors, Paying customers, Partners
+or individual users. It is of course all up to you what you name your users.</p>
+<br/>
+
+<h2 id="Roles">Defining roles</h2>
+<p>
+When you have defined your different users or user groups you assign different roles to them.
+These roles define what access rights the user or user group have on your site.</p>
+
+<p>The typical scenario is that you name all visitors to your site for "Anonymous". The anonymous user
+gets access to a part of your site, or the entire site, depending on what kind of web site you have.
+Another group of visitors will log in and these are given access to other parts of the site as well.
+For instance, if you build an Intranet site, you could let anyone see the front page, but they would need
+to login in order to access anything else.</p>
+
+<p>When you have defined or named a user group you click "Roles" in the "User" box. You will see a list
+of all the different roles you have added. Click the "Edit" button to modify a role, and the "Assign"
+button to assign it to a user or user group.</p>
+
+<p>If you choose to edit a role, you will see a list of the "Current policies". A policy is a simple
+access specification. Roles are made up of one or more policies.</p>
+
+<p><img src="/web/20030806091003im_/http://ez.no/kernel/manual/user/images/roles.gif" border="1"></p>
+
+<p>This list shows module, function and limitations for each policy.
+"Module" and "Function" shows what module and function you are specifying access to.
+"Limitation list" is a list of further access limitations. The third policy in the above example specifies
+access to create objects of the class Innlegg, provided that the parent object is of the class Forum or
+Innlegg.
+
+<!-- <p><img src="/kernel/manual/user/images/roles3.jpg" border="1"></p> -->
+
+<p>To create a new policy click the "Create policy" button. This process is divided into three steps.</p>
+
+<h3>Step 1. Give access to module.</h3>
+<p>Here you can choose what module the user can get access to. You can choose all modules or only one of
+them. Let us say you want to let the user work with "Content". Next you can decide if you want to give the
+user full access to the content module or give him limited access. We will choose the "Allow limited". This
+takes us to step two.
+</p>
+<p><img src="/web/20030806091003im_/http://ez.no/kernel/manual/user/images/roles4.gif" border="1"></p>
+
+<h3>Step 2. Specify function in module content.</h3>
+<p>Now we will decide what this user can do with the content we have allowed him to work with.
+We can give him access to read, create, edit, remove or version read content. In this example we choose
+to give him access to create content.
+Again we can choose to give him access to every function, but we want to restrict him to a limited
+access with "Allow limited". This takes us to step three.</p>
+
+<h3>Step 3. Specify limitations in function create in module content.</h3>
+<p>Step 3 is divided into three logical lists; Class, Section and Parent class. In the first list you
+can decide what classes the user can create objects of. In the second list we decide in which sections he
+can create content. In the third list we decide what kind of parent objects he can create objects in.
+You can specify "Any" in one or more of these lists if you don't want this limitation.</p>
+
+<p>When you now click "OK" you have created a new policy. You can create more policies to fine-tune the
+access rights. When you are done and ready to publish and assign the role to a user or user group, you make
+it "live" by clicking the "Apply" button.</p>
+
+<p>Removing policies is also very simple. Mark the policy you want to remove and click "Remove policy".</p>
+
+    </td>
+    <td width="1%" bgcolor="#ffffff" valign="top">
+    </td>
+</tr>
+</table>
+
+    </td>
+</tr>
+</table>
+<div align="center" style="padding-top: 0.5em;">
+<p class="small"><a href="http://web.archive.org/web/20030806091003/http://ez.no/">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030806091003/http://ez.no/">eZ systems as</a></p>
+</div>
+
+ </body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:10:03 Aug 06, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:42:38 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.389
+  exclusion.robots: 0.015
+  exclusion.robots.policy: 0.008
+  esindex: 0.008
+  cdx.remote: 6.734
+  LoadShardBlock: 306.339 (3)
+  PetaboxLoader3.datanode: 108.705 (4)
+  PetaboxLoader3.resolve: 316.279 (2)
+  load_resource: 141.817
+-->

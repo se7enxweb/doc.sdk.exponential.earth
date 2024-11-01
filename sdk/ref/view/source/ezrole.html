@@ -1,0 +1,640 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/source/ezrole","20030707172635","http://web.archive.org/","web","/_static/",
+	      "1057598795");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707172635cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707172635cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030707172635cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030707172635/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030707172635im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">ezrole.php</h1><a href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/file/ezrole">Go to the documentation of this file.</a><div class="dox_fragment"><pre>00001 &lt;?php
+00002 <span class="dox_comment">//</span>
+00003 <span class="dox_comment">// Definition of eZRole class</span>
+00004 <span class="dox_comment">//</span>
+00005 <span class="dox_comment">// Created on: &lt;14-Aug-2002 14:08:46 sp&gt;</span>
+00006 <span class="dox_comment">//</span>
+00007 <span class="dox_comment">// Copyright (C) 1999-2003 eZ systems as. All rights reserved.</span>
+00008 <span class="dox_comment">//</span>
+00009 <span class="dox_comment">// This source file is part of the eZ publish (tm) Open Source Content</span>
+00010 <span class="dox_comment">// Management System.</span>
+00011 <span class="dox_comment">//</span>
+00012 <span class="dox_comment">// This file may be distributed and/or modified under the terms of the</span>
+00013 <span class="dox_comment">// "GNU General Public License" version 2 as published by the Free</span>
+00014 <span class="dox_comment">// Software Foundation and appearing in the file LICENSE.GPL included in</span>
+00015 <span class="dox_comment">// the packaging of this file.</span>
+00016 <span class="dox_comment">//</span>
+00017 <span class="dox_comment">// Licencees holding valid "eZ publish professional licences" may use this</span>
+00018 <span class="dox_comment">// file in accordance with the "eZ publish professional licence" Agreement</span>
+00019 <span class="dox_comment">// provided with the Software.</span>
+00020 <span class="dox_comment">//</span>
+00021 <span class="dox_comment">// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING</span>
+00022 <span class="dox_comment">// THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR</span>
+00023 <span class="dox_comment">// PURPOSE.</span>
+00024 <span class="dox_comment">//</span>
+00025 <span class="dox_comment">// The "eZ publish professional licence" is available at</span>
+00026 <span class="dox_comment">// http://ez.no/products/licences/professional/. For pricing of this licence</span>
+00027 <span class="dox_comment">// please contact us via e-mail to licence@ez.no. Further contact</span>
+00028 <span class="dox_comment">// information is available at http://ez.no/home/contact/.</span>
+00029 <span class="dox_comment">//</span>
+00030 <span class="dox_comment">// The "GNU General Public License" (GPL) is available at</span>
+00031 <span class="dox_comment">// http://www.gnu.org/copyleft/gpl.html.</span>
+00032 <span class="dox_comment">//</span>
+00033 <span class="dox_comment">// Contact licence@ez.no if any conditions of this licencing isn't clear to</span>
+00034 <span class="dox_comment">// you.</span>
+00035 <span class="dox_comment">//</span>
+00036 
+00045 include_once( 'lib/ezutils/classes/ezini.php' );
+00046 include_once( <span class="dox_stringliteral">"lib/ezdb/classes/ezdb.php"</span> );
+00047 include_once( <span class="dox_stringliteral">"kernel/classes/ezpolicy.php"</span> );
+00048 
+<a name="l00049"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole">00049</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole">eZRole</a> <span class="dox_keyword">extends</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject">eZPersistentObject</a>
+00050 {
+<a name="l00054"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a0">00054</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a0">eZRole</a>( $row = array() )
+00055     {
+00056         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a0">eZPersistentObject</a>( $row );
+00057     }
+00058 
+<a name="l00059"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a1">00059</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a1">definition</a>()
+00060     {
+00061         <span class="dox_keywordflow">return</span> array( <span class="dox_stringliteral">"fields"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"ID"</span>,
+00062                                          <span class="dox_stringliteral">"version"</span> =&gt; <span class="dox_stringliteral">"Version"</span>,
+00063                                          <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"Name"</span>
+00064                                          ),
+00065                       <span class="dox_stringliteral">"keys"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> ),
+00066                       <span class="dox_stringliteral">"function_attributes"</span> =&gt; array( <span class="dox_stringliteral">"policies"</span> =&gt; <span class="dox_stringliteral">"policyList"</span>
+00067 <span class="dox_comment">//                                                     "class_name" =&gt; "className",</span>
+00068                                                       ),
+00069                       <span class="dox_stringliteral">"increment_key"</span> =&gt; <span class="dox_stringliteral">"id"</span>,
+00070                       <span class="dox_stringliteral">"sort"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"asc"</span> ),
+00071                       <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"eZRole"</span>,
+00072                       <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"ezrole"</span> );
+00073     }
+00074 
+<a name="l00075"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a2">00075</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a2">attributes</a>()
+00076     {
+00077         <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a17">eZPersistentObject::attributes</a>();
+00078     }
+00079 
+<a name="l00080"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a3">00080</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a3">attribute</a>( $attr )
+00081     {
+00082         <span class="dox_keywordflow">if</span> ( $attr == <span class="dox_stringliteral">"policies"</span> )
+00083             <span class="dox_keywordflow">return</span> $this-&gt;policyList();
+00084 
+00085         <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a19">eZPersistentObject::attribute</a>( $attr );
+00086     }
+00087 
+00088     function &amp;policyList()
+00089     {
+00090         <span class="dox_keywordflow">if</span> ( !isset( $this-&gt;Policies ) )
+00091         {
+00092             $ini =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00093             $enableCaching = $ini-&gt;variable( 'RoleSettings', 'EnableCaching' );
+00094 
+00095             $loadFromDB = <span class="dox_keyword">true</span>;
+00096             $roleID = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a3">attribute</a>( 'id' );
+00097             <span class="dox_keywordflow">if</span> ( $enableCaching == '<span class="dox_keyword">true</span>' &amp;&amp; $this-&gt;CachePolicies )
+00098             {
+00099                 $http =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">eZHTTPTool::instance</a>();
+00100 
+00101                 $hasPoliciesInCache = $http-&gt;hasSessionVariable( 'UserPolicies' );
+00102                 <span class="dox_keywordflow">if</span> ( $hasPoliciesInCache )
+00103                 {
+00104                     $policiesForAllUserRoles =&amp; $http-&gt;sessionVariable( 'UserPolicies' );
+00105                     $policiesForCurrentRole =&amp; $policiesForAllUserRoles[<span class="dox_stringliteral">"$roleID"</span>];
+00106                     <span class="dox_keywordflow">if</span> ( count( $policiesForCurrentRole ) &gt; 0 )
+00107                     {
+00108                         $policies = array();
+00109                         foreach ( array_keys( $policiesForCurrentRole ) as $key )
+00110                         {
+00111                             $policyRow = $policiesForCurrentRole[$key];
+00112                             $policies[] = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPolicy">eZPolicy</a>( $policyRow );
+00113                         }
+00114                         $this-&gt;Policies =&amp; $policies;
+00115                         $loadFromDB = <span class="dox_keyword">false</span>;
+00116                     }
+00117                 }
+00118             }
+00119 
+00120             <span class="dox_keywordflow">if</span> ( $loadFromDB )
+00121             {
+00122                 $policies =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a9">eZPersistentObject::fetchObjectList</a>( <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPolicy#a1">eZPolicy::definition</a>(),
+00123                                                                   null, array( 'role_id' =&gt; $this-&gt;attribute( 'id') ), null, null,
+00124                                                                   <span class="dox_keyword">true</span> );
+00125                 <span class="dox_keywordflow">if</span> ( $enableCaching )
+00126                 {
+00127                     $policiesForCurrentRole = array();
+00128                     foreach ( array_keys( $policies ) as $key )
+00129                     {
+00130                         $policy =&amp; $policies[$key];
+00131                         $policyAttributes = array();
+00132                         $policyAttributes['id'] = $policy-&gt;attribute( 'id' );
+00133                         $policyAttributes['role_id'] = $policy-&gt;attribute( 'role_id' );
+00134                         $policyAttributes['module_name'] = $policy-&gt;attribute( 'module_name' );
+00135                         $policyAttributes['function_name'] = $policy-&gt;attribute( 'function_name' );
+00136                         $policyAttributes['limitation'] = $policy-&gt;attribute( 'limitation' );
+00137                         $policiesForCurrentRole[] = $policyAttributes;
+00138                     }
+00139                     $http =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">eZHTTPTool::instance</a>();
+00140                     <span class="dox_keywordflow">if</span> ( !$http-&gt;hasSessionVariable( 'UserPolicies' ) )
+00141                     {
+00142                         $policyArray =&amp; $http-&gt;sessionVariable( 'UserPolicies' );
+00143                     }
+00144                     <span class="dox_keywordflow">else</span>
+00145                     {
+00146                         $policyArray = array();
+00147                     }
+00148                     $policyArray[<span class="dox_stringliteral">"$roleID"</span>] = $policiesForCurrentRole;
+00149                 }
+00150                 $this-&gt;Policies =&amp; $policies;
+00151             }
+00152         }
+00153         <span class="dox_keywordflow">return</span> $this-&gt;Policies;
+00154     }
+00155 
+00156     function createNew()
+00157     {
+00158         $role = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a0">eZRole</a>( array() );
+00159         $role-&gt;setAttribute( 'name', 'New Role' );
+00160         $role-&gt;store();
+00161         <span class="dox_keywordflow">return</span> $role;
+00162     }
+00163 
+00164     function createTmporaryVersion()
+00165     {
+00166         $newRole =&amp; eZRole::createNew();
+00167         $this-&gt;copyPolicies( $newRole-&gt;attribute( 'id' ) );
+00168         $newRole-&gt;setAttribute( 'name', $this-&gt;attribute( 'name' ) );
+00169         $newRole-&gt;setAttribute( 'version', $this-&gt;attribute( 'id' ) );
+00170         $newRole-&gt;store();
+00171         <span class="dox_keywordflow">return</span> $newRole;
+00172     }
+00173 
+00174     function copyPolicies( $roleID )
+00175     {
+00176         foreach ( $this-&gt;attribute( 'policies' ) as $policy )
+00177         {
+00178             $policy-&gt;copy( $roleID );
+00179         }
+00180     }
+00181 
+00182     function revertFromTemporaryVersion()
+00183     {
+00184         $temporaryVersion =&amp; eZRole::fetch( 0, $this-&gt;attribute( 'id' ) );
+00185         <span class="dox_keywordflow">if</span> ( is_null( $temporaryVersion ) )
+00186             <span class="dox_keywordflow">return</span> 0;
+00187         $this-&gt;removePolicies();
+00188         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a20">setAttribute</a>( 'name', $temporaryVersion-&gt;attribute( 'name') );
+00189         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a5">store</a>();
+00190 
+00191         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00192         $query = <span class="dox_stringliteral">"UPDATE  ezpolicy</span>
+00193 <span class="dox_stringliteral">                  SET role_id = "</span> . $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a3">attribute</a>( 'id' ) . <span class="dox_stringliteral">"</span>
+00194 <span class="dox_stringliteral">                  WHERE role_id = "</span> . $temporaryVersion-&gt;attribute( 'id' );
+00195         $db-&gt;query( $query );
+00196         $temporaryVersion-&gt;removePolicies( <span class="dox_keyword">false</span> );
+00197         $temporaryVersion-&gt;remove();
+00198 
+00199         <span class="dox_comment">// Expire role cache</span>
+00200         include_once( 'lib/ezutils/classes/ezexpiryhandler.php' );
+00201         $handler =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZExpiryHandler#d0">eZExpiryHandler::instance</a>();
+00202         $handler-&gt;setTimestamp( 'user-role-cache', mktime() );
+00203         $handler-&gt;setTimestamp( 'user-<span class="dox_keyword">class</span>-cache', mktime() );
+00204         $handler-&gt;store();
+00205     }
+00206 
+00207     function <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a3">remove</a>( $roleID = <span class="dox_keyword">false</span> )
+00208     {
+00209         <span class="dox_keywordflow">if</span> ( $roleID )
+00210         {
+00211             $role =&amp; eZRole::fetch( $roleID );
+00212         }
+00213         <span class="dox_keywordflow">else</span>
+00214         {
+00215             $role = $<span class="dox_keyword">this</span>;
+00216             $roleID = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a3">attribute</a>('id');
+00217         }
+00218         <span class="dox_keywordflow">if</span> ( !isset( $role-&gt;ID ) )
+00219         {
+00220             <span class="dox_keywordflow">return</span> 0;
+00221         }
+00222         foreach ( $role-&gt;attribute( 'policies' ) as $policy )
+00223         {
+00224             $policy-&gt;remove();
+00225         }
+00226         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00227         $db-&gt;query( <span class="dox_stringliteral">"DELETE FROM ezrole WHERE id='$roleID'"</span> );
+00228         $db-&gt;query( <span class="dox_stringliteral">"DELETE FROM ezuser_role WHERE role_id = '$roleID'"</span> );
+00229     }
+00230 
+00231     function removePolicies( $fromDB = <span class="dox_keyword">true</span> )
+00232     {
+00233         <span class="dox_keywordflow">if</span> ( $fromDB )
+00234         {
+00235             foreach ( $this-&gt;attribute( 'policies' ) as $policy )
+00236             {
+00237                 $policy-&gt;remove();
+00238             }
+00239         }
+00240         unset( $this-&gt;Policies );
+00241     }
+00242 
+<a name="l00246"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a11">00246</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a11">fetchByUser</a>( $idArray )
+00247     {
+00248         $ini =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00249         $enableCaching = $ini-&gt;variable( 'RoleSettings', 'EnableCaching' );
+00250 
+00251         $roleArray = <span class="dox_keyword">false</span>;
+00252         <span class="dox_keywordflow">if</span> ( $enableCaching == '<span class="dox_keyword">true</span>' )
+00253         {
+00254             $roleArray =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a13">eZRole::cachedRoles</a>();
+00255         }
+00256 
+00257         <span class="dox_keywordflow">if</span> ( $roleArray == <span class="dox_keyword">false</span> )
+00258         {
+00259             $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00260             $groupString = implode( <span class="dox_charliteral">','</span>, $idArray );
+00261             $query = <span class="dox_stringliteral">"SELECT DISTINCT ezrole.id,</span>
+00262 <span class="dox_stringliteral">                                      ezrole.name</span>
+00263 <span class="dox_stringliteral">                      FROM ezrole,</span>
+00264 <span class="dox_stringliteral">                           ezuser_role</span>
+00265 <span class="dox_stringliteral">                      WHERE ezuser_role.contentobject_id IN ( $groupString ) AND</span>
+00266 <span class="dox_stringliteral">                            ezuser_role.role_id = ezrole.id"</span>;
+00267 
+00268             $roleArray =&amp; $db-&gt;arrayQuery( $query );
+00269             <span class="dox_keywordflow">if</span> ( $enableCaching == '<span class="dox_keyword">true</span>' )
+00270             {
+00271                 $user =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZUser#d3">eZUser::currentUser</a>();
+00272                 $http =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">eZHTTPTool::instance</a>();
+00273                 $userID = $user-&gt;id();
+00274 
+00275                 $http-&gt;setSessionVariable( 'UserRoles', $roleArray );
+00276                 $http-&gt;setSessionVariable( 'PermissionCachedForUserID', $userID );
+00277                 $http-&gt;setSessionVariable( 'PermissionCachedForUserIDTimestamp', mktime() );
+00278 
+00279                 $http-&gt;removeSessionVariable( 'UserPolicies' );
+00280                 $http-&gt;removeSessionVariable( 'UserLimitations' );
+00281                 $http-&gt;removeSessionVariable( 'UserLimitationValues' );
+00282 
+00283                 <span class="dox_comment">// Expire role cache</span>
+00284                 include_once( 'lib/ezutils/classes/ezexpiryhandler.php' );
+00285                 $handler =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZExpiryHandler#d0">eZExpiryHandler::instance</a>();
+00286                 $handler-&gt;setTimestamp( 'user-role-cache', mktime() );
+00287                 $handler-&gt;store();
+00288             }
+00289         }
+00290         <span class="dox_keywordflow">else</span>
+00291         {
+00292         }
+00293         $roles = array();
+00294         foreach ( $roleArray as $roleRow )
+00295         {
+00296             $roles[] = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a0">eZRole</a>( $roleRow );
+00297         }
+00298         <span class="dox_keywordflow">return</span> $roles;
+00299     }
+00300 
+<a name="l00304"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a12">00304</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a12">fetchIDListByUser</a>( $idArray )
+00305     {
+00306         $ini =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00307         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00308 
+00309         $enableCaching = $ini-&gt;variable( 'RoleSettings', 'EnableCaching' );
+00310 
+00311         $roleArray = <span class="dox_keyword">false</span>;
+00312         <span class="dox_keywordflow">if</span> ( $enableCaching == '<span class="dox_keyword">true</span>' )
+00313         {
+00314             $roleArray =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a13">eZRole::cachedRoles</a>();
+00315         }
+00316 
+00317         <span class="dox_keywordflow">if</span> ( $roleArray == <span class="dox_keyword">false</span> )
+00318         {
+00319             $groupString = implode( <span class="dox_charliteral">','</span>, $idArray );
+00320             $query = <span class="dox_stringliteral">"SELECT DISTINCT ezrole.id</span>
+00321 <span class="dox_stringliteral">                  FROM ezrole,</span>
+00322 <span class="dox_stringliteral">                       ezuser_role</span>
+00323 <span class="dox_stringliteral">                  WHERE ezuser_role.contentobject_id IN ( $groupString ) AND</span>
+00324 <span class="dox_stringliteral">                        ezuser_role.role_id = ezrole.id"</span>;
+00325 
+00326             $roleArray =&amp; $db-&gt;arrayQuery( $query );
+00327             $roles = array();
+00328         }
+00329 
+00330         $keys = array_keys( $roleArray );
+00331         foreach ( $keys as $key )
+00332         {
+00333             $roles[] = $roleArray[$key]['id'];
+00334         }
+00335         <span class="dox_keywordflow">return</span> $roles;
+00336     }
+00337 
+<a name="l00341"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a13">00341</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a13">cachedRoles</a>()
+00342     {
+00343         include_once( 'lib/ezutils/classes/ezexpiryhandler.php' );
+00344         $handler =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZExpiryHandler#d0">eZExpiryHandler::instance</a>();
+00345         $expiredTimeStamp = 0;
+00346         <span class="dox_keywordflow">if</span> ( $handler-&gt;hasTimestamp( 'user-role-cache' ) )
+00347             $expiredTimeStamp = $handler-&gt;timestamp( 'user-role-cache' );
+00348 
+00349         $returnRoles = <span class="dox_keyword">false</span>;
+00350         $http =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">eZHTTPTool::instance</a>();
+00351 
+00352         $permissionCachedForUser = $http-&gt;sessionVariable( 'PermissionCachedForUserID' );
+00353         $permissionCachedForUserTimestamp = $http-&gt;sessionVariable( 'PermissionCachedForUserIDTimestamp' );
+00354 
+00355         <span class="dox_keywordflow">if</span> ( $permissionCachedForUserTimestamp &gt;= $expiredTimeStamp )
+00356         {
+00357             $user =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZUser#d3">eZUser::currentUser</a>();
+00358             $userID = $user-&gt;id();
+00359 
+00360             <span class="dox_keywordflow">if</span> ( $permissionCachedForUser == $userID )
+00361             {
+00362                 $roleArray =&amp; $http-&gt;sessionVariable( 'UserRoles' );
+00363                 <span class="dox_keywordflow">if</span> ( count( $roleArray ) &gt; 0 )
+00364                 {
+00365                     $returnRoles =&amp; $roleArray;
+00366                 }
+00367             }
+00368         }
+00369         <span class="dox_keywordflow">return</span> $returnRoles;
+00370     }
+00371 
+<a name="l00375"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a14">00375</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a14">assignToUser</a>( $userID )
+00376     {
+00377         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00378 
+00379         $query = <span class="dox_stringliteral">"SELECT * FROM ezuser_role WHERE role_id='$this-&gt;ID' AND contentobject_id='$userID'"</span>;
+00380 
+00381         $rows = $db-&gt;arrayQuery( $query );
+00382         <span class="dox_keywordflow">if</span> ( count( $rows ) &gt; 0 )
+00383             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00384 
+00385         $query = <span class="dox_stringliteral">"INSERT INTO ezuser_role ( role_id, contentobject_id ) VALUES ( '$this-&gt;ID', '$userID' )"</span>;
+00386 
+00387         $db-&gt;query( $query );
+00388 
+00389         include_once( 'lib/ezutils/classes/ezexpiryhandler.php' );
+00390         $handler =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZExpiryHandler#d0">eZExpiryHandler::instance</a>();
+00391         $handler-&gt;setTimestamp( 'user-role-cache', mktime() );
+00392         $handler-&gt;setTimestamp( 'user-<span class="dox_keyword">class</span>-cache', mktime() );
+00393         $handler-&gt;store();
+00394         <span class="dox_keywordflow">return</span> <span class="dox_keyword">true</span>;
+00395     }
+00396 
+<a name="l00400"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a15">00400</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a15">fetchUserID</a>()
+00401     {
+00402         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00403 
+00404         $query = <span class="dox_stringliteral">"SELECT contentobject_id FROM  ezuser_role WHERE role_id='$this-&gt;ID'"</span>;
+00405 
+00406         $results = $db-&gt;arrayQuery( $query );
+00407         $idArray = array();
+00408         foreach ( $results as $result )
+00409         {
+00410             $idArray[] = $result['contentobject_id'];
+00411         }
+00412         <span class="dox_keywordflow">return</span> $idArray;
+00413     }
+00414 
+<a name="l00418"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a16">00418</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a16">removeUserAssignment</a>( $userID )
+00419     {
+00420         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00421 
+00422         $query = <span class="dox_stringliteral">"DELETE FROM ezuser_role WHERE role_id='$this-&gt;ID' AND contentobject_id='$userID'"</span>;
+00423 
+00424         $db-&gt;query( $query );
+00425     }
+00426 
+<a name="l00430"></a><a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a17">00430</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a17">fetchUserByRole</a>( )
+00431     {
+00432         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00433 
+00434         $query = <span class="dox_stringliteral">"SELECT</span>
+00435 <span class="dox_stringliteral">                     ezuser_role.contentobject_id as id</span>
+00436 <span class="dox_stringliteral">                  FROM</span>
+00437 <span class="dox_stringliteral">                     ezuser_role</span>
+00438 <span class="dox_stringliteral">                  WHERE</span>
+00439 <span class="dox_stringliteral">                    ezuser_role.role_id = '$this-&gt;ID'"</span>;
+00440 
+00441         $userIDArray = $db-&gt;arrayQuery( $query );
+00442         $users = array();
+00443         foreach ( $userIDArray as $user )
+00444         {
+00445             $users[] = eZContentObject::fetch( $user['id'] );
+00446         }
+00447         <span class="dox_keywordflow">return</span> $users;
+00448     }
+00449 
+00450 
+00451     function fetch( $roleID, $version = 0 )
+00452     {
+00453         <span class="dox_keywordflow">if</span> ( $version != 0 )
+00454         {
+00455             <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a2">eZPersistentObject::fetchObject</a>( <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a1">eZRole::definition</a>(),
+00456                                                     null, array('version' =&gt; $version ), <span class="dox_keyword">true</span>);
+00457         }
+00458         <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a2">eZPersistentObject::fetchObject</a>( <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a1">eZRole::definition</a>(),
+00459                                                 null, array('id' =&gt; $roleID ), <span class="dox_keyword">true</span>);
+00460     }
+00461 
+00462     function fetchList( $tempVersions = <span class="dox_keyword">false</span> )
+00463     {
+00464         <span class="dox_keywordflow">if</span> ( ! $tempVersions )
+00465         {
+00466             <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a9">eZPersistentObject::fetchObjectList</a>( <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a1">eZRole::definition</a>(),
+00467                                                         null, array( 'version' =&gt; <span class="dox_charliteral">'0'</span>), null,null,
+00468                                                         <span class="dox_keyword">true</span> );
+00469         }
+00470         <span class="dox_keywordflow">else</span>
+00471         {
+00472             <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a9">eZPersistentObject::fetchObjectList</a>( <a class="dox_code" href="http://web.archive.org/web/20030707172635/http://www.ez.no/sdk/ref/view/class/eZRole#a1">eZRole::definition</a>(),
+00473                                                         null, array( 'version' =&gt; array( <span class="dox_charliteral">'&gt;'</span>, <span class="dox_charliteral">'0'</span>) ), null,null,
+00474                                                         <span class="dox_keyword">true</span>);
+00475         }
+00476     }
+00477 
+00478     function checkItem( $accessItem = array() )
+00479     {
+00480 
+00481     }
+00482 
+00483     function getSql()
+00484     {
+00485 
+00486     }
+00487 
+00488     function turnOffCaching()
+00489     {
+00490         $this-&gt;CachePolicies = <span class="dox_keyword">false</span>;
+00491     }
+00492 
+00493     function turnOnCaching()
+00494     {
+00495         $this-&gt;CachePolicies = <span class="dox_keyword">true</span>;
+00496     }
+00497 
+00498 
+00499     var $ID;
+00500     var $Name;
+00501     var $Modules;
+00502     var $Functions;
+00503     var $Sets;
+00504     var $CachePolicies = <span class="dox_keyword">true</span>;
+00505 }
+00506 
+00507 ?&gt;
+</pre></div>&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030707172635/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030707172635/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 17:26:35 Jul 07, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:20:47 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.726
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.01
+  esindex: 0.013
+  cdx.remote: 9.352
+  LoadShardBlock: 132.404 (3)
+  PetaboxLoader3.datanode: 133.474 (4)
+  PetaboxLoader3.resolve: 123.477 (2)
+  load_resource: 152.394
+-->

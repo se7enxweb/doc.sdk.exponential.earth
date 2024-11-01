@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/kernel/view/data_storage/","20030823004049","http://web.archive.org/","web","/_static/",
+	      "1061599249");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - Kernel</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823004049cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823004049cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823004049cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823004049im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823004049/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823004049/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823004049im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="/web/20030823004049/http://ez.no/sdk/kernel/view/workflows" ">&lt;&lt; Workflows</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="/web/20030823004049/http://ez.no/sdk/kernel/view/template_operators" ">Template operators &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823004049/http://ez.no/sdk/kernel">Kernel</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/module_system/">Module system</a><br/><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/content_classes/">Content classes</a><br/><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/content_objects/">Content objects</a><br/><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/content_datatypes/">Content datatypes</a><br/><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/permissions/">Permissions</a><br/><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/workflows/">Workflows</a><br/><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/data_storage/">Data storage</a><br/><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/template_operators/">Template operators</a><br/><img src="/web/20030823004049im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823004049/http://ez.no/sdk/kernel/view/other_concepts/">Other concepts</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<h1>Data storage</h1>
+
+<p>
+This document describes the XML format used in eZ publish. When eZ publish
+stores content objects each attribute is stored as one row in the database.
+The user can manually define the structure of content objects using
+content classes.
+</p>
+
+<p>
+The content class automatically creates the XML schema for the document.
+</p>
+
+<p>
+Let us consider this simple content class:
+</p>
+
+<p>
+Class name: Article
+</p>
+<p>
+Class attributes:
+Title : String ( &lt;255 characters )
+Intro : Text ( unformatted text )
+Body : XML formatted text
+</p>
+
+<p>
+When you create objects of this class each attribute will be stored in one row.
+Actually it's a bit more complex than this since every object can have several
+versions and every version has a number of translations.
+</p>
+
+<p>
+The fields Title and Intro will be stored as plain text to the database wich
+no XML tags. This is done because of speed when doing e.g. searching in specific
+attributes and if you want to fetch only part of the content object - i.e. you
+want to display the introduction of the article.
+</p>
+
+<p>
+The Body field will be stored in XML. This field can contain different tags,
+the most used tags are:
+</p>
+
+<h2>XML sections in eZ publish</h2>
+<p>
+The XML format in eZ publish has tags which handle the most frequently used
+content, for specific content needs you can also use custom tags. A section
+is the XML equivalent of a content object attribute.
+</p>
+
+<h3>Structured text</h3>
+<ul>
+	<li>emphasize - emphasis</li>
+	<li>strong -  stronger emphasis</li>
+	<li>cite - a citation</li>
+	<li>code - computer code</li>
+	<li>pre - pre formatted text</li>
+	<li>sample - sample output from programs etc.</li>
+	<li>blockquote - normally redered as an indented block</li>
+	<li>quote - inline quote with delimited "</li>
+</ul>
+
+<p>
+TODO: add section for technical tags, news tags, book tags, persons, addresses,
+ organisations etc..
+</p>
+
+<h3>Headers</h3>
+<p>
+Headers are represented by the header tag. The header tag has the attribute
+level which indicates the importance of the header, 1 beeing the most important.
+Level must be a positive non zero number.
+</p>
+
+<h3>Lines and paragraphs</h3>
+<ul>
+	<li>paragraph - a paragraph of text</li>
+	<li>break - a forced linebreak</li>
+</ul>
+
+<h3>Lists</h3>
+<ul>
+	<li>ordered list - </li>
+	<li>unordered list - </li>
+	<li>definition list - </li>
+</ul>
+
+<h3>Tables</h3>
+<p>
+You can use table to group structured text, lists and objects into rows
+and columns.
+</p>
+
+<h3>Objects</h3>
+<p>
+The object tag refers to an external content object.
+</p>
+
+<h3>Sections</h3>
+<p>
+The tags defined above is the tags you can use to describe content. below is an
+example of a typical section. The section would get the name of the content
+class attribute.
+</p>
+
+<pre class="example">
+&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;section&gt;
+  &lt;header level="1"&gt;This is my article&lt;/header&gt;
+  &lt;paragraph&gt;
+    This is a paragraph
+  &lt;/paragraph&gt;
+&lt;/section&gt;
+</pre>
+
+
+<p>
+Minimal example document:
+</p>
+
+<pre class="example">
+&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;ezcontentobject&gt;
+  &lt;title&gt;My article&lt;/title&gt;
+  &lt;metadata&gt;
+    &lt;language iso="en_GB"&gt;English&lt;/language&gt;
+    &lt;created&gt;15-06-20002&lt;/created&gt;
+    &lt;published&gt;15-06-20002&lt;/published&gt;
+    &lt;modified&gt;15-06-20002&lt;/modified&gt;
+  &lt;/metadata&gt;
+  &lt;content&gt;
+  &lt;introduction&gt;
+    &lt;paragraph&gt;
+
+    &lt;/paragraph&gt;
+  &lt;/section&gt;
+  &lt;/introduction&gt;
+&lt;/ezcontentobject&gt;
+</pre>
+
+<p>
+Sample document:
+</p>
+
+<p>
+Schema:
+</p>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823004049/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823004049/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 00:40:49 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:19:22 Nov 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.435
+  exclusion.robots: 0.015
+  exclusion.robots.policy: 0.007
+  esindex: 0.009
+  cdx.remote: 9.335
+  LoadShardBlock: 237.719 (3)
+  PetaboxLoader3.datanode: 233.996 (4)
+  PetaboxLoader3.resolve: 94.914 (2)
+  load_resource: 110.341
+-->

@@ -1,0 +1,2456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZTemplate/","20030823003144","http://web.archive.org/","web","/_static/",
+	      "1061598704");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823003144cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823003144cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823003144cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823003144/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823003144im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTemplate Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/module/eZTemplate">Template system</a>]</small>
+</h1>The main manager for templates. 
+<a href="../../../../../../www.ez.no/sdk/ref/view/class/eZTemplate.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/members/eZTemplate">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a0">eZTemplate</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a1">leftDelimiter</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a2">rightDelimiter</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a3">setLeftDelimiter</a> ($delim)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a4">setRightDelimiter</a> ($delim)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a5">display</a> ($template=false,$extraParameters=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a6">fetch</a> ($template=false,$extraParameters=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a11">load</a> ($uri,$extraParameters=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a14">loadURIRoot</a> ($uri,$displayErrors=true,&amp;$extraParameters)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a19">resourceFor</a> (&amp;$uri,&amp;$res,&amp;$template)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a21">emptyVariable</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a22">elementValue</a> (&amp;$dataElements,$rootNamespace,$currentNamespace,$placement=false,$checkExistance=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a25">variableElementValue</a> (&amp;$data,$def_nspace)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a26">attributeValue</a> (&amp;$data,$nspace)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a27">variableText</a> (&amp;$var,$namespace="",$attrs=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a28">operatorParameterList</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a29">doOperator</a> (&amp;$element,&amp;$namespace,&amp;$current_nspace,&amp;$value,&amp;$operatorName,&amp;$operatorParameters,&amp;$named_params)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a30">doFunction</a> (&amp;$name,&amp;$func_obj,$nspace,$current_nspace)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a31">setVariable</a> ($var,$val,$namespace="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a32">setVariableRef</a> ($var,&amp;$val,$namespace="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a33">unsetVariable</a> ($var,$namespace="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a34">hasVariable</a> ($var,$namespace="",$attrs=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a35">variable</a> ($var,$namespace="",$attrs=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a36">variableAttribute</a> (&amp;$var,$attrs)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a39">registerFunctions</a> (&amp;$functionObject)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a42">registerFunction</a> ($func_name,&amp;$func_obj)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a43">registerLiteral</a> ($func_name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a44">unregisterLiteral</a> ($func_name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a47">registerOperators</a> (&amp;$operatorObject)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a49">registerOperator</a> ($op_name,&amp;$op_obj)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a50">unregisterOperator</a> ($op_name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a51">registerFilter</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a52">registerResource</a> (&amp;$res)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a53">unregisterResource</a> ($res_name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a54">setShowDetails</a> ($show)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a55">missingParameter</a> ($name,$param)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a56">extraParameters</a> ($name,$count,$maxCount)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a57">undefinedVariable</a> ($name,$var)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a58">undefinedFunction</a> ($func_name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a60">warning</a> ($name,$txt,$placement=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a61">error</a> ($name,$txt,$placement=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a62">setIncludeText</a> ($uri,&amp;$text)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a63">setIncludeOutput</a> ($uri,&amp;$output)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a64">autoloadPathList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a65">setAutoloadPathList</a> ($pathList)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a66">autoload</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a67">resetVariables</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a68">instance</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a69">ini</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#d1">isDebugEnabled</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#d2">setIsDebugEnabled</a> ($debug)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZTemplate::Resources"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m0">Resources</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Associative array of resource objects.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZTemplate::DefaultResource"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m1">DefaultResource</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Reference to the default resource object.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m2" doxytag="eZTemplate::Text"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m2">Text</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The original template text.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m3" doxytag="eZTemplate::IncludeText"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m3">IncludeText</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Included texts, usually performed by custom functions.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m4" doxytag="eZTemplate::IncludeOutput"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m4">IncludeOutput</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Included outputs, usually performed by custom functions.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m5" doxytag="eZTemplate::TimeStamp"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m5">TimeStamp</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The timestamp of the template when it was last modified.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m6" doxytag="eZTemplate::LDelim"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m6">LDelim</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The left delimiter used for parsing.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m7" doxytag="eZTemplate::RDelim"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m7">RDelim</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The right delimiter used for parsing.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m8" doxytag="eZTemplate::Tree"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m8">Tree</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The resulting object tree of the template.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m9" doxytag="eZTemplate::Variables"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m9">Variables</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>An associative array of template variables.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m10" doxytag="eZTemplate::Operators"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m10">Operators</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>An associative array of operators.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m11" doxytag="eZTemplate::Functions"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m11">Functions</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>An associative array of functions.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m12" doxytag="eZTemplate::FunctionAttributes"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m12">FunctionAttributes</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>An associative array of function attributes.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m13" doxytag="eZTemplate::Literals"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m13">Literals</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>An associative array of literal tags.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m14" doxytag="eZTemplate::ShowDetails"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#m14">ShowDetails</a> = false</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>True if output details is to be shown.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The main manager for templates.
+<p>
+The template systems allows for separation of code and layout by moving the layout part into template files. These template files are parsed and processed with template variables set by the PHP code.
+<p>
+The template system in itself is does not do much, it parses template files according to a rule set sets up a tree hierarchy and process the data using functions and operators. The standard template system comes with only a few functions and no operators, it is meant for these functions and operators to be specified by the users of the template system. But for simplicity a few help classes is available which can be easily enabled.
+<p>
+The classes are:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplateDelimitFunction">eZTemplateDelimitFunction</a> - Inserts the left and right delimiter which are normally parsed.<li><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplateSectionFunction">eZTemplateSectionFunction</a> - Allows for conditional blocks and loops.<li><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplateIncludeFunction">eZTemplateIncludeFunction</a> - Includes external templates<li><a class="dox_el" href="../eZTemplateSequenceFunction.html">eZTemplateSequenceFunction</a> - Creates sequences arrays<li><a class="dox_el" href="../eZTemplateSwitchFunction.html">eZTemplateSwitchFunction</a> - Conditional output of template</ul>
+<ul>
+<li><a class="dox_el" href="../eZTemplatePHPOperator.html">eZTemplatePHPOperator</a> - Allows for easy redirection of operator names to PHP functions.<li><a class="dox_el" href="../eZTemplateLocaleOperator.html">eZTemplateLocaleOperator</a> - Allows for locale conversions.<li><a class="dox_el" href="../eZTemplateArrayOperator.html">eZTemplateArrayOperator</a> - Creates arrays<li><a class="dox_el" href="../eZTemplateAttributeOperator.html">eZTemplateAttributeOperator</a> - Displays contents of template variables, useful for debugging<li><a class="dox_el" href="../eZTemplateImageOperator.html">eZTemplateImageOperator</a> - Converts text to image<li><a class="dox_el" href="../eZTemplateLogicOperator.html">eZTemplateLogicOperator</a> - Various logical operators for boolean handling<li><a class="dox_el" href="../eZTemplateUnitOperator.html">eZTemplateUnitOperator</a> - Unit conversion and display</ul>
+To enable these functions and operator use registerFunction and registerOperator.
+<p>
+In keeping with the spirit of being simple the template system does not know how to get the template files itself. Instead it relies on resource handlers, these handlers fetches the template files using different kind of transport mechanism. For simplicity a default resource class is available, <a class="dox_el" href="../eZTemplateFileResource.html">eZTemplateFileResource</a> fetches templates from the filesystem.
+<p>
+The parser process consists of three passes, each pass adds a new level of complexity. The first pass strips text from template blocks which starts with a left delimiter and ends with a right delimiter (default is { and } ), and places them in an array. The second pass iterates the text and block elements and removes newlines from text before function blocks and text after function blocks. The third pass builds the tree according the function rules.
+<p>
+Processing is done by iterating over the root of the tree, if a text block is found the text is appended to the result text. If a variable or contant is it's data is extracted and any operators found are run on it before fetching the result and appending it to the result text. If a function is found the function is called with the parameters and it's up to the function handle children if any.
+<p>
+Constants and template variables will usually be called variables since there's little difference. A template variable expression will start with a $ and consists of a namespace (optional) a name and attribues(optional). The variable expression <div class="dox_fragment"><pre> $root:var.attr1 </pre></div> exists in the "root" namespace, has the name "var" and uses the attribute "attr1". Some functions will create variables on demand, to avoid name conflicts namespaces were introduced, each function will place the new variables in a namespace specified in the template file. Attribues are used for fetching parts of the variable, for instance an element in an array or data in an object. Since the syntax is the same for arrays and objects the PHP code can use simple arrays when speed is required, the template code will not care. A different syntax is also available when you want to access an attribute using a variable. For instance <div class="dox_fragment"><pre> $root:var[$attr_var] </pre></div>, if the variable $attr_var contains "attr1" it would access the same attribute as in the first example.
+<p>
+The syntax for operators is a | and a name, optionally parameters can be specified with ( and ) delimited with ,. Valid operators are <div class="dox_fragment"><pre> |upcase, |l10n(date) </pre></div>.
+<p>
+Functions look a lot like HTML/XML tags. The function consists of a name and parameters which are assigned using the param=value syntax. Some parameters may be required while others may be optionally, the exact behaviour is specified by each function. Valid functions are <div class="dox_fragment"><pre> "section name=abc loop=4" </pre></div>
+<p>
+Example of usage: <div class="dox_fragment"><pre><span class="dox_comment">// Init template</span>
+$tpl =&amp; <a class="dox_code" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a68">eZTemplate::instance</a>();
+
+$tpl-&gt;registerOperators( <span class="dox_keyword">new</span> <a class="dox_code" href="../eZTemplatePHPOperator.html">eZTemplatePHPOperator</a>( array( <span class="dox_stringliteral">"upcase"</span> =&gt; <span class="dox_stringliteral">"strtoupper"</span>,
+                                                           <span class="dox_stringliteral">"reverse"</span> =&gt; <span class="dox_stringliteral">"strrev"</span> ) ) );
+$tpl-&gt;registerOperators( <span class="dox_keyword">new</span> <a class="dox_code" href="../eZTemplateLocaleOperator.html">eZTemplateLocaleOperator</a>() );
+$tpl-&gt;registerFunction( <span class="dox_stringliteral">"section"</span>, <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplateSectionFunction">eZTemplateSectionFunction</a>( <span class="dox_stringliteral">"section"</span> ) );
+$tpl-&gt;registerFunctions( <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplateDelimitFunction">eZTemplateDelimitFunction</a>() );
+
+$tpl-&gt;setVariable( <span class="dox_stringliteral">"my_var"</span>, <span class="dox_stringliteral">"{this value set by variable}"</span>, <span class="dox_stringliteral">"test"</span> );
+$tpl-&gt;setVariable( <span class="dox_stringliteral">"my_arr"</span>, array( <span class="dox_stringliteral">"1st"</span>, <span class="dox_stringliteral">"2nd"</span>, <span class="dox_stringliteral">"third"</span>, <span class="dox_stringliteral">"fjerde"</span> ) );
+$tpl-&gt;setVariable( <span class="dox_stringliteral">"multidim"</span>, array( array( <span class="dox_stringliteral">"a"</span>, <span class="dox_stringliteral">"b"</span> ),
+                                      array( <span class="dox_stringliteral">"c"</span>, <span class="dox_stringliteral">"d"</span> ),
+                                      array( <span class="dox_stringliteral">"e"</span>, <span class="dox_stringliteral">"f"</span> ),
+                                      array( <span class="dox_stringliteral">"g"</span>, <span class="dox_stringliteral">"h"</span> ) ) );
+
+<span class="dox_keyword">class </span>mytest
+{
+    function mytest( $n, $s )
+    {
+        $this-&gt;n = $n;
+        $this-&gt;s = $s;
+    }
+
+    function hasAttribute( $attr )
+    {
+        <span class="dox_keywordflow">return</span> ( $attr == <span class="dox_stringliteral">"name"</span> || $attr == <span class="dox_stringliteral">"size"</span> );
+    }
+
+    function &amp;attribute( $attr )
+    {
+        <span class="dox_keywordflow">switch</span> ( $attr )
+        {
+            <span class="dox_keywordflow">case</span> <span class="dox_stringliteral">"name"</span>;
+            <span class="dox_keywordflow">return</span> $this-&gt;n;
+            <span class="dox_keywordflow">case</span> <span class="dox_stringliteral">"size"</span>;
+            <span class="dox_keywordflow">return</span> $this-&gt;s;
+            <span class="dox_keywordflow">default</span>:
+                <span class="dox_keywordflow">return</span> null;
+        }
+    }
+
+};
+
+$tpl-&gt;setVariable( <span class="dox_stringliteral">"multidim_obj"</span>, array( <span class="dox_keyword">new</span> mytest( <span class="dox_stringliteral">"jan"</span>, 200 ),
+                                          <span class="dox_keyword">new</span> mytest( <span class="dox_stringliteral">"feb"</span>, 200 ),
+                                          <span class="dox_keyword">new</span> mytest( <span class="dox_stringliteral">"john"</span>, 200 ),
+                                          <span class="dox_keyword">new</span> mytest( <span class="dox_stringliteral">"doe"</span>, 50 ) ) );
+$tpl-&gt;setVariable( <span class="dox_stringliteral">"curdate"</span>, mktime() );
+
+$tpl-&gt;display( <span class="dox_stringliteral">"lib/eztemplate/example/test.tpl"</span> );
+
+<span class="dox_comment">// test.tpl</span>
+
+{section name=outer loop=4}
+123
+{delimit}::{/delimit}
+{/section}
+
+{literal test=1} This is some {blah arg1=<span class="dox_stringliteral">""</span> arg2=<span class="dox_stringliteral">"abc"</span> /} {/literal}
+
+&lt;title&gt;This is a test&lt;/title&gt;
+&lt;table border=<span class="dox_stringliteral">"1"</span>&gt;
+&lt;tr&gt;&lt;th&gt;{$test:my_var}
+{<span class="dox_stringliteral">"some text!!!"</span>|upcase|reverse}&lt;/th&gt;&lt;/tr&gt;
+{section name=abc loop=$my_arr}
+&lt;tr&gt;&lt;td&gt;{$abc:item}&lt;/td&gt;&lt;/tr&gt;
+{/section}
+&lt;/table&gt;
+
+&lt;table border=<span class="dox_stringliteral">"1"</span>&gt;
+{section name=outer loop=$multidim}
+&lt;tr&gt;
+{section name=inner loop=$outer:item}
+&lt;td&gt;{$inner:item}&lt;/td&gt;
+{/section}
+&lt;/tr&gt;
+{/section}
+&lt;/table&gt;
+
+&lt;table border=<span class="dox_stringliteral">"1"</span>&gt;
+{section name=outer loop=$multidim_obj}
+&lt;tr&gt;
+&lt;td&gt;{$outer:item.name}&lt;/td&gt;
+&lt;td&gt;{$outer:item.size}&lt;/td&gt;
+&lt;/tr&gt;
+{/section}
+&lt;/table&gt;
+
+{section name=outer loop=$nonexistingvar}
+&lt;b&gt;&lt;i&gt;Dette skal ikke vises&lt;/b&gt;&lt;/i&gt;
+{section-<span class="dox_keywordflow">else</span>}
+&lt;b&gt;&lt;i&gt;This is shown when the {ldelim}$loop{rdelim} <a class="dox_code" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a35">variable</a> is non-existant&lt;/b&gt;&lt;/i&gt;
+{/section}
+
+
+Denne koster {1.4|l10n(currency)}&lt;br&gt;
+{-123456789|l10n(number)}&lt;br&gt;
+{$curdate|l10n(date)}&lt;br&gt;
+{$curdate|l10n(shortdate)}&lt;br&gt;
+{$curdate|l10n(time)}&lt;br&gt;
+{$curdate|l10n(shorttime)}&lt;br&gt;
+{include file=<span class="dox_stringliteral">"test2.tpl"</span>/}
+</pre></div> 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00294">294</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZTemplate::eZTemplate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::eZTemplate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Intializes the template with left and right delimiters being { and }, and a file resource. The literal tag "literal" is also registered. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00300">300</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="../../source/ezdebug.html#l00865">eZDebug::createAccumulatorGroup()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01904">DefaultResource</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01927">FunctionAttributes</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01925">Functions</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01910">IncludeOutput</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01908">IncludeText</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01914">LDelim</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01916">RDelim</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01525">registerLiteral()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01652">registerResource()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01902">Resources</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01906">Text</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01919">Tree</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01921">Variables</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01859">instance()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a26" doxytag="eZTemplate::attributeValue"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::attributeValue </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>nspace</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Return the identifier used for attribute lookup. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01070">1070</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">elementValue()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01752">error()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">elementValue()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00976">variableElementValue()</a>.    </td>
+  </tr>
+</table>
+<a name="a66" doxytag="eZTemplate::autoload"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::autoload </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Looks trough the pathes specified in <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a64">autoloadPathList()</a> and fetches autoload definition files used for autoloading functions and operators. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01817">1817</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01800">autoloadPathList()</a>.    </td>
+  </tr>
+</table>
+<a name="a64" doxytag="eZTemplate::autoloadPathList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::autoloadPathList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the path list which is used for autoloading functions and operators. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01800">1800</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01817">autoload()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZTemplate::display"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::display </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>template</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>extraParameters</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetches the result of the template file and displays it. If $template is supplied it will load this template file first. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00361">361</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01699">extraParameters()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00405">fetch()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01910">IncludeOutput</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01908">IncludeText</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01931">ShowDetails</a>.    </td>
+  </tr>
+</table>
+<a name="a30" doxytag="eZTemplate::doFunction"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::doFunction </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>func_obj</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>nspace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>current_nspace</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Tries to run the function object $func_obj 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01159">1159</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01925">Functions</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.    </td>
+  </tr>
+</table>
+<a name="a29" doxytag="eZTemplate::doOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::doOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>element</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>current_nspace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorParameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>named_params</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Tries to run the operator $operatorName with parameters $operatorParameters on the value $value. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01140">1140</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01923">Operators</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZTemplate::elementValue"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::elementValue </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>dataElements</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rootNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>placement</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>checkExistance</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the actual value of a template type or null if an unknown type. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">716</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01070">attributeValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">elementValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01752">error()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01222">hasVariable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01262">variable()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01070">attributeValue()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">elementValue()</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZTemplate::emptyVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::emptyVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the empty variable type. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00695">695</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a61" doxytag="eZTemplate::error"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::error </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>txt</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>placement</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Displays an error for the function/operator $name and text $txt. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01752">1752</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01752">error()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01872">ini()</a>, and <a class="dox_el" href="../../source/ezdebug.html#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01070">attributeValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">elementValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01752">error()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01715">undefinedFunction()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00976">variableElementValue()</a>.    </td>
+  </tr>
+</table>
+<a name="a56" doxytag="eZTemplate::extraParameters"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::extraParameters </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>count</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>maxCount</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Outputs a warning about the parameter count being to high for function/operator $name. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01699">1699</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00361">display()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00405">fetch()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00512">load()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00563">loadURIRoot()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZTemplate::fetch"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::fetch </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>template</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>extraParameters</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Tries to fetch the result of the template file and returns it. If $template is supplied it will load this template file first. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00405">405</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="../../source/ezdebug.html#l00912">eZDebug::accumulatorStart()</a>, <a class="dox_el" href="../../source/ezdebug.html#l00929">eZDebug::accumulatorStop()</a>, <a class="dox_el" href="../../source/ezdebug.html#l00469">eZDebug::addTimingPoint()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01699">extraParameters()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00512">load()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01931">ShowDetails</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00361">display()</a>.    </td>
+  </tr>
+</table>
+<a name="a34" doxytag="eZTemplate::hasVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::hasVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em> = "", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attrs</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if the variable $var is set in namespace $namespace, if $attrs is supplied alle attributes must exist for the function to return true. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01222">1222</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01921">Variables</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">elementValue()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00976">variableElementValue()</a>.    </td>
+  </tr>
+</table>
+<a name="a69" doxytag="eZTemplate::ini"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::ini </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the INI object for the template.ini file. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01872">1872</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01872">ini()</a>, and <a class="dox_el" href="../../source/ezini.html#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01752">error()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01872">ini()</a>.    </td>
+  </tr>
+</table>
+<a name="a68" doxytag="eZTemplate::instance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::instance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the globale template instance, creating it if it does not exist. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01859">1859</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00300">eZTemplate()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZTemplate::isDebugEnabled"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::isDebugEnabled </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if debugging of internals is enabled, this will display which files are loaded and when cache files are created. Set the option with <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#d2">setIsDebugEnabled()</a>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01885">1885</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+Referenced by <a class="dox_el" href="../../source/eztemplatefileresource.html#l00161">eZTemplateFileResource::handleResourceData()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00663">resourceFor()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZTemplate::leftDelimiter"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::leftDelimiter </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the left delimiter being used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00328">328</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01914">LDelim</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZTemplate::load"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::load </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>extraParameters</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Loads the template using the URI $uri and parses it. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00512">512</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01699">extraParameters()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00563">loadURIRoot()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00405">fetch()</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZTemplate::loadURIRoot"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::loadURIRoot </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>displayErrors</em> = true, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>extraParameters</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Loads the template using the URI $uri and returns a structure with the text and timestamp, false otherwise. The structure keys are:<ul>
+<li>"text", the text.<li>"time-stamp", the timestamp. </ul>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00563">563</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01699">extraParameters()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00663">resourceFor()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01784">setIncludeText()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00512">load()</a>.    </td>
+  </tr>
+</table>
+<a name="a55" doxytag="eZTemplate::missingParameter"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::missingParameter </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>param</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Outputs a warning about the parameter $param missing for function/operator $name. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01691">1691</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.    </td>
+  </tr>
+</table>
+<a name="a28" doxytag="eZTemplate::operatorParameterList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::operatorParameterList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the named parameter list for the operator $name. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01111">1111</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01923">Operators</a>.    </td>
+  </tr>
+</table>
+<a name="a51" doxytag="eZTemplate::registerFilter"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::registerFilter </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Not implemented yet. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01644">1644</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a42" doxytag="eZTemplate::registerFunction"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::registerFunction </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>func_name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>func_obj</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Registers the function $func_name to be bound to object $func_obj. If the object has a function called attributeList() it is used for registering function attributes. The function returns an associative array with each key being the name of the function and the value being a boolean. If the boolean is true the function will have children. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01508">1508</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01927">FunctionAttributes</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01925">Functions</a>.    </td>
+  </tr>
+</table>
+<a name="a39" doxytag="eZTemplate::registerFunctions"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::registerFunctions </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>functionObject</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Registers the functions supplied by the object $functionObject. The object must have a function called functionList() which returns an array of functions this object handles. If the object has a function called attributeList() it is used for registering function attributes. The function returns an associative array with each key being the name of the function and the value being a boolean. If the boolean is true the function will have children. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01402">1402</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a43" doxytag="eZTemplate::registerLiteral"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::registerLiteral </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>func_name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Registers a new literal tag in which the tag will be transformed into a text element. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01525">1525</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01929">Literals</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00300">eZTemplate()</a>.    </td>
+  </tr>
+</table>
+<a name="a49" doxytag="eZTemplate::registerOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::registerOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>op_name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>op_obj</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Registers the operator $op_name to use the object $op_obj. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01618">1618</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01923">Operators</a>.    </td>
+  </tr>
+</table>
+<a name="a47" doxytag="eZTemplate::registerOperators"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::registerOperators </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>operatorObject</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Registers the operators supplied by the object $operatorObject. The function operatorList() must return an array of operator names. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01595">1595</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a52" doxytag="eZTemplate::registerResource"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::registerResource </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>res</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Registers a new resource object $res. The resource object take care of fetching templates using an URI. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01652">1652</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01902">Resources</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00300">eZTemplate()</a>.    </td>
+  </tr>
+</table>
+<a name="a67" doxytag="eZTemplate::resetVariables"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::resetVariables </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Resets all template variables. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01851">1851</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01921">Variables</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZTemplate::resourceFor"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::resourceFor </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>res</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>template</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the resource object for URI $uri. If a resource type is specified in the URI it is extracted and set in $res. The template name is set in $template without any resource specifier. To specify a resource the name and a ":" is prepended to the URI, for instance <a href="http://web.archive.org/web/20030823003144/file:my.tpl.">file:my.tpl.</a> If no resource type is found the URI the default resource handler is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00663">663</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01904">DefaultResource</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01885">isDebugEnabled()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01902">Resources</a>, and <a class="dox_el" href="../../source/ezdebug.html#l00331">eZDebug::writeNotice()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00563">loadURIRoot()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZTemplate::rightDelimiter"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::rightDelimiter </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the right delimiter being used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00336">336</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01916">RDelim</a>.    </td>
+  </tr>
+</table>
+<a name="a65" doxytag="eZTemplate::setAutoloadPathList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setAutoloadPathList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>pathList</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the path list for autoloading. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01808">1808</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a63" doxytag="eZTemplate::setIncludeOutput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setIncludeOutput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>output</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the output for uri $uri to $output. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01792">1792</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01910">IncludeOutput</a>.    </td>
+  </tr>
+</table>
+<a name="a62" doxytag="eZTemplate::setIncludeText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setIncludeText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the original text for uri $uri to $text. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01784">1784</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01908">IncludeText</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00563">loadURIRoot()</a>.    </td>
+  </tr>
+</table>
+<a name="d2" doxytag="eZTemplate::setIsDebugEnabled"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setIsDebugEnabled </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>debug</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets whether internal debugging is enabled or not. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01896">1896</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZTemplate::setLeftDelimiter"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setLeftDelimiter </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>delim</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the left delimiter. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00344">344</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01914">LDelim</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZTemplate::setRightDelimiter"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setRightDelimiter </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>delim</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the right delimiter. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00352">352</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01916">RDelim</a>.    </td>
+  </tr>
+</table>
+<a name="a54" doxytag="eZTemplate::setShowDetails"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setShowDetails </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>show</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets whether detail output is used or not. Detail output is useful for debug output where you want to examine the template and the output text. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01683">1683</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01931">ShowDetails</a>.    </td>
+  </tr>
+</table>
+<a name="a31" doxytag="eZTemplate::setVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>val</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the template variable $var to the value $val. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a32">setVariableRef</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01184">1184</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01921">Variables</a>.    </td>
+  </tr>
+</table>
+<a name="a32" doxytag="eZTemplate::setVariableRef"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::setVariableRef </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>val</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the template variable $var to the value $val. <dl compact><dt><b>Note: </b></dt><dd>
+This sets the variable using reference </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/class/eZTemplate#a31">setVariable</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01197">1197</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01921">Variables</a>.    </td>
+  </tr>
+</table>
+<a name="a58" doxytag="eZTemplate::undefinedFunction"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::undefinedFunction </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>func_name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Outputs an error about the template function $func_name being undefined. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01715">1715</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01752">error()</a>.    </td>
+  </tr>
+</table>
+<a name="a57" doxytag="eZTemplate::undefinedVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::undefinedVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Outputs a warning about the variable $var being undefined. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01707">1707</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.    </td>
+  </tr>
+</table>
+<a name="a44" doxytag="eZTemplate::unregisterLiteral"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::unregisterLiteral </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>func_name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes the literal tag $func_name. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01533">1533</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a50" doxytag="eZTemplate::unregisterOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::unregisterOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>op_name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Unregisters the operator $op_name. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01626">1626</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.    </td>
+  </tr>
+</table>
+<a name="a53" doxytag="eZTemplate::unregisterResource"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::unregisterResource </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>res_name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Unregisters the resource $res_name. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01663">1663</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.    </td>
+  </tr>
+</table>
+<a name="a33" doxytag="eZTemplate::unsetVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::unsetVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes the template variable $var. If the variable does not exists an error is output. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01208">1208</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.    </td>
+  </tr>
+</table>
+<a name="a35" doxytag="eZTemplate::variable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::variable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em> = "", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attrs</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the content of the variable $var using namespace $namespace, if $attrs is supplied the result of the attributes is returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01262">1262</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01921">Variables</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">elementValue()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00976">variableElementValue()</a>.    </td>
+  </tr>
+</table>
+<a name="a36" doxytag="eZTemplate::variableAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::variableAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attrs</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the attribute(s) of the template variable $var, $attrs is an array of attribute names to use iteratively for each new variable returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01310">1310</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a25" doxytag="eZTemplate::variableElementValue"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::variableElementValue </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def_nspace</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the value of the template variable $data, or null if no defined variable for that name. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00976">976</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01070">attributeValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01752">error()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01222">hasVariable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01262">variable()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">warning()</a>.    </td>
+  </tr>
+</table>
+<a name="a27" doxytag="eZTemplate::variableText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplate::variableText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>var</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em> = "", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attrs</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Helper function for creating a displayable text for a variable. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01097">1097</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.    </td>
+  </tr>
+</table>
+<a name="a60" doxytag="eZTemplate::warning"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplate::warning </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>txt</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>placement</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Displays a warning for the function/operator $name and text $txt. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01736">1736</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a>.
+<p>
+References <a class="dox_el" href="../../source/ezdebug.html#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01159">doFunction()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01140">doOperator()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00716">elementValue()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01699">extraParameters()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00563">loadURIRoot()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01691">missingParameter()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01652">registerResource()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01707">undefinedVariable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01626">unregisterOperator()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01663">unregisterResource()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l01208">unsetVariable()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate#l00976">variableElementValue()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823003144/http://ez.no/sdk/ref/view/source/eztemplate">eztemplate.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823003144/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823003144/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 00:31:44 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:43:28 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.867
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.014
+  esindex: 0.014
+  cdx.remote: 22.188
+  LoadShardBlock: 725.859 (3)
+  PetaboxLoader3.datanode: 109.303 (4)
+  PetaboxLoader3.resolve: 529.251 (2)
+  load_resource: 138.212
+-->

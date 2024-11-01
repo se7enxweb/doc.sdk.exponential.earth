@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZTemplateLogicOperator","20030823123603","http://web.archive.org/","web","/_static/",
+	      "1061642163");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823123603cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823123603cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823123603cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823123603im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823123603/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823123603/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823123603im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823123603/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823123603im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123603/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823123603im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123603/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823123603im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123603/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823123603im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123603/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823123603im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123603/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823123603im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123603/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823123603im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123603/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTemplateLogicOperator Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/module/eZTemplateOperators">Template operators</a>]</small>
+</h1>Logical operators for creating and manipulating booleans. 
+<a href="#_details">More...</a>
+<p>
+<a href="/web/20030823123603/http://ez.no/sdk/ref/view/members/eZTemplateLogicOperator">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#a0">eZTemplateLogicOperator</a> ($lt_name="lt",$gt_name="gt",$le_name="le",$ge_name="ge",$eq_name="eq",$ne_name="ne",$null_name="null",$not_name="not",$true_name="true",$false_name="false",$or_name="or",$and_name="and",$choose_name="choose")</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#a1">operatorList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#a2">namedParameterPerOperator</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#a3">namedParameterList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#a4">modify</a> (&amp;$tpl,&amp;$operatorName,&amp;$operatorParameters,&amp;$rootNamespace,&amp;$currentNamespace,&amp;$value,&amp;$namedParameters)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZTemplateLogicOperator::Operators"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m0">Operators</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The array of operators.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZTemplateLogicOperator::LTName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m1">LTName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "less than" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m2" doxytag="eZTemplateLogicOperator::GTName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m2">GTName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "greater than" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m3" doxytag="eZTemplateLogicOperator::LEName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m3">LEName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "less than or equal" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m4" doxytag="eZTemplateLogicOperator::GEName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m4">GEName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "greater than or equal" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m5" doxytag="eZTemplateLogicOperator::EQName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m5">EQName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "equal" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m6" doxytag="eZTemplateLogicOperator::NEName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m6">NEName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "not equal" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m7" doxytag="eZTemplateLogicOperator::NullName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m7">NullName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "null" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m8" doxytag="eZTemplateLogicOperator::NotName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m8">NotName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "not" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m9" doxytag="eZTemplateLogicOperator::OrName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m9">OrName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "or" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m10" doxytag="eZTemplateLogicOperator::AndName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m10">AndName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "and" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m11" doxytag="eZTemplateLogicOperator::TrueName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m11">TrueName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "true" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m12" doxytag="eZTemplateLogicOperator::FalseName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m12">FalseName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "false" name.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m13" doxytag="eZTemplateLogicOperator::ChooseName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateLogicOperator#m13">ChooseName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The "choose" name.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Logical operators for creating and manipulating booleans.
+<p>
+This class adds powerful template handling by enabling logical operators which alter the output of templates from input values.
+<p>
+How counts are interpreted:<ol>
+<li>If the data is an array the array count is used<li>If the data is an object the object attribute count is used<li>If the data is a numeric the value is used<li>If the data is a boolean false is 0 and true is 1<li>For all other data 0 is used</ol>
+Data is considered null (or false) if the data count is 0 (see above) or the data is really null (is_null). Data is considered true if it is not null.
+<p>
+The supported operators are:<ul>
+<li>lt<br>
+ Returns true if the input count is less than the parameter data count. See how count is interpreted above.<li>le<br>
+ Same as lt but use less than or equal to.<li>gt<br>
+ Same as lt but returns true for input greater than data.<li>ge<br>
+ Same as gt but use greater than or equal to.<li>eq<br>
+ Returns true if all the input parameters match. Matching is casual meaning that an integer of value 0 will match a boolean of type false.<li>ne<br>
+ Returns true if one or more of the input parameters does not match. Matching is casual meaning that an integer of value 0 will match a boolean of type false.<li>null<br>
+ Returns true if the data is null, false otherwise<li>not<br>
+ Returns true if the data is false or false if data is true<li>true<li>false<br>
+ Creates a true/false boolean<li>or<br>
+ Evaluates all parameter values until one is found to be true (see above), then returns that value. The remaining parameters are not evaluated at all. If there are no parameter or all elements were false it returns false.<li>and<br>
+ Evaluates all parameter values until one is found to be false (see above), then returns that false. The remaining parameters are not evaluated at all. If there are no parameter it returns false, if no elements were false it returns the last parameter value.<li>choose<br>
+ Uses the input count to pick one of the parameter elements. The input count equals the parameter index. </ul>
+
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00093">93</a> of file <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator">eztemplatelogicoperator.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZTemplateLogicOperator::eZTemplateLogicOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateLogicOperator::eZTemplateLogicOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>lt_name</em> = "lt", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>gt_name</em> = "gt", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>le_name</em> = "le", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>ge_name</em> = "ge", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>eq_name</em> = "eq", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>ne_name</em> = "ne", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>null_name</em> = "null", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>not_name</em> = "not", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>true_name</em> = "true", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>false_name</em> = "false", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>or_name</em> = "or", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>and_name</em> = "and", </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>choose_name</em> = "choose"</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the operator class with the various operator names. <dl compact><dt><b>Parameters: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>lt_name</em>&nbsp;</td><td>
+The name for the "less than" operator </td></tr>
+<tr><td valign="top"><em>gt_name</em>&nbsp;</td><td>
+The name for the "greater than" operator </td></tr>
+<tr><td valign="top"><em>le_name</em>&nbsp;</td><td>
+The name for the "less than or equal" operator </td></tr>
+<tr><td valign="top"><em>ge_name</em>&nbsp;</td><td>
+The name for the "greater than or equal" operator </td></tr>
+<tr><td valign="top"><em>eq_name</em>&nbsp;</td><td>
+The name for the "equal" operator </td></tr>
+<tr><td valign="top"><em>ne_name</em>&nbsp;</td><td>
+The name for the "not equal" operator </td></tr>
+<tr><td valign="top"><em>null_name</em>&nbsp;</td><td>
+The name for the "is null" operator </td></tr>
+<tr><td valign="top"><em>not_name</em>&nbsp;</td><td>
+The name for the "not" operator </td></tr>
+<tr><td valign="top"><em>true_name</em>&nbsp;</td><td>
+The name for the "create true boolean" operator </td></tr>
+<tr><td valign="top"><em>false_name</em>&nbsp;</td><td>
+The name for the "create false boolean" operator </td></tr>
+<tr><td valign="top"><em>or_name</em>&nbsp;</td><td>
+The name for the "logical or" operator </td></tr>
+<tr><td valign="top"><em>and_name</em>&nbsp;</td><td>
+The name for the "logical and" operator </td></tr>
+<tr><td valign="top"><em>choose_name</em>&nbsp;</td><td>
+The name for the "choose" operator </td></tr>
+</table>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00098">98</a> of file <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator">eztemplatelogicoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00420">AndName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00426">ChooseName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00410">EQName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00424">FalseName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00408">GEName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00404">GTName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00406">LEName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00402">LTName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00412">NEName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00416">NotName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00414">NullName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00400">Operators</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00418">OrName</a>, and <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00422">TrueName</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a4" doxytag="eZTemplateLogicOperator::modify"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateLogicOperator::modify </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>operatorParameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rootNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namedParameters</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Examines the input value and outputs a boolean value. See class documentation for more information. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00182">182</a> of file <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator">eztemplatelogicoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00420">AndName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00426">ChooseName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00410">EQName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00424">FalseName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00408">GEName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00404">GTName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00406">LEName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00402">LTName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00412">NEName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00416">NotName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00414">NullName</a>, <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00418">OrName</a>, and <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00422">TrueName</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZTemplateLogicOperator::namedParameterList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateLogicOperator::namedParameterList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+See <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/class/eZTemplateOperator#a1">eZTemplateOperator::namedParameterList</a> 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00163">163</a> of file <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator">eztemplatelogicoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZTemplateLogicOperator::namedParameterPerOperator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateLogicOperator::namedParameterPerOperator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true to tell the template engine that the parameter list exists per operator type. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00155">155</a> of file <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator">eztemplatelogicoperator.php</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZTemplateLogicOperator::operatorList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateLogicOperator::operatorList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the operators in this class. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00147">147</a> of file <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator">eztemplatelogicoperator.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator#l00400">Operators</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823123603/http://ez.no/sdk/ref/view/source/eztemplatelogicoperator">eztemplatelogicoperator.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823123603/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823123603/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:36:03 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:48:54 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.755
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.02
+  esindex: 0.013
+  cdx.remote: 78.011
+  LoadShardBlock: 84.564 (3)
+  PetaboxLoader3.datanode: 79.967 (4)
+  load_resource: 94.144
+  PetaboxLoader3.resolve: 47.558
+-->

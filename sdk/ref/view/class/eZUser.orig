@@ -1,0 +1,1090 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/class/eZUser","20030707223321","http://web.archive.org/","web","/_static/",
+	      "1057617201");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030707223321cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030707223321cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030707223321cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030707223321im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030707223321/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030707223321/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030707223321/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707223321/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707223321/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707223321/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707223321/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707223321/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707223321/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030707223321im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707223321/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZUser Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/module/eZKernel">Kernel system</a>]</small>
+</h1>eZUser handles eZ publish user accounts 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZUser:
+<p><center><img src="/web/20030707223321im_/http://www.ez.no/doc/generated/html/classeZUser.png" usemap="#eZUser_map" border="0" alt=""></center>
+<map name="eZUser_map">
+<area href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZPersistentObject" alt="eZPersistentObject" shape="rect" coords="0,0,120,24">
+</map>
+<a href="/web/20030707223321/http://www.ez.no/sdk/ref/view/members/eZUser">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a1">definition</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a2">attribute</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a10">setInformation</a> ($id,$login,$email,$password,$passwordConfirm=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a15">fetchBuiltin</a> ($id)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a16">id</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a17">authenticationMatch</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a18">loginCurrent</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a19">logoutCurrent</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a20">instance</a> ($id=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a22">roles</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a23">roleIDList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a24">isLoggedIn</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a25">groups</a> ($asObject=false,$userID=false)</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d0">hashType</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d1">site</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d2">loginUser</a> ($login,$password,$authenticationMatch=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d4">currentUserID</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d5">authenticateHash</a> ($user,$password,$site,$type,$hash)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d6">passwordCharacterTable</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d7">createPassword</a> ($passwordLength,$seed=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#d8">createHash</a> ($user,$password,$site,$type)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZUser::Login"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#m0">Login</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>\privatesection</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+eZUser handles eZ publish user accounts
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00073">73</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.<hr><h2>Member Function Documentation</h2>
+<a name="a2" doxytag="eZUser::attribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::attribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attribute data for <em>$attr</em>, this is either returned from the member variables or a member function depending on whether the definition field or function attributes matched. </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a19">eZPersistentObject</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00105">105</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00841">eZPersistentObject::attribute()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00759">groups()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00746">isLoggedIn()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00719">roles()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00759">groups()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00734">roleIDList()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00719">roles()</a>.    </td>
+  </tr>
+</table>
+<a name="d5" doxytag="eZUser::authenticateHash"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::authenticateHash </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>user</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>password</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>site</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>hash</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a hash out of <em>$user</em>, <em>$password</em> and <em>$site</em> according to the type <em>$type</em>. <dl compact><dt><b>Returns: </b></dt><dd>
+true if the generated hash is equal to the supplied hash <em>$hash</em>. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00564">564</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00647">createHash()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00277">site()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00341">loginUser()</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZUser::authenticationMatch"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::authenticationMatch </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a bitfield which decides the authenticate methods. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00313">313</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00341">loginUser()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezusertype#l00086">eZUserType::validateObjectAttributeHTTPInput()</a>.    </td>
+  </tr>
+</table>
+<a name="d8" doxytag="eZUser::createHash"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::createHash </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>user</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>password</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>site</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Will create a hash of the given string. This is used to store the passwords in the database. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00647">647</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00277">site()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00564">authenticateHash()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00341">loginUser()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00200">setInformation()</a>.    </td>
+  </tr>
+</table>
+<a name="d7" doxytag="eZUser::createPassword"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::createPassword </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>passwordLength</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>seed</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a password with number of characters equal to <em>$passwordLength</em> and returns it. If you want pass a value in <em>$seed</em> it will be used as basis for the password, if not it will use the current time value as seed. <dl compact><dt><b>Note: </b></dt><dd>
+If <em>$passwordLength</em> exceeds 16 it will need to generate new seed for the remaining characters. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00617">617</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00573">passwordCharacterTable()</a>.    </td>
+  </tr>
+</table>
+<a name="d3" doxytag="eZUser::currentUser"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::currentUser </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the currently logged in user. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00541">541</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00468">instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezrole#l00341">eZRole::cachedRoles()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01665">eZContentObject::cacheInfo()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00599">eZContentObject::copy()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l00514">eZContentObject::copyVersion()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezbasket#l00299">eZBasket::createOrder()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezwishlist#l00194">eZWishList::currentWishList()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezprice#l00057">eZPrice::eZPrice()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezrole#l00246">eZRole::fetchByUser()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00468">instance()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezauthortype#l00119">eZAuthorType::objectAttributeContent()</a>.    </td>
+  </tr>
+</table>
+<a name="d4" doxytag="eZUser::currentUserID"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::currentUserID </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the ID of the currently logged in user. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00551">551</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00468">instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezcollaborationitem#l00127">eZCollaborationItem::attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZUser::definition"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::definition </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the definition for the object, the default implementation is to return an empty array. It's upto each inheriting class to return a proper definition array.</dl>The definition array is an associative array consists of these keys:<ul>
+<li>fields - an associative array of fields which defines which database field (the key) is to fetched and how they map to object member variables (the value).<li>keys - an array of fields which is used for uniquely identifying the object in the table.<li>function_attributes - an associative array of attributes which maps to member functions, used for fetching data with functions.<li>set_functions - an associative array of attributes which maps to member functions, used for setting data with functions.<li>increment_key - the field which is incremented on table inserts.<li>class_name - the classname which is used for instantiating new objecs when fetching from the database.<li>sort - an associative array which defines the default sorting of lists, the key is the table field while the value is the sorting method which is either <code>asc</code> or <code>desc</code>.<li>name - the name of the database table</ul>
+Example: <div class="dox_fragment"><pre>function <a class="dox_code" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZUser#a1">definition</a>()
+{
+    <span class="dox_keywordflow">return</span> array( <span class="dox_stringliteral">"fields"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"ID"</span>,
+                                     <span class="dox_stringliteral">"version"</span> =&gt; <span class="dox_stringliteral">"Version"</span>,
+                                     <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"Name"</span> ),
+                  <span class="dox_stringliteral">"keys"</span> =&gt; array( <span class="dox_stringliteral">"id"</span>, <span class="dox_stringliteral">"version"</span> ),
+                  <span class="dox_stringliteral">"function_attributes"</span> =&gt; array( <span class="dox_stringliteral">"current"</span> =&gt; <span class="dox_stringliteral">"currentVersion"</span>,
+                                                  <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"className"</span> ),
+                  <span class="dox_stringliteral">"increment_key"</span> =&gt; <span class="dox_stringliteral">"id"</span>,
+                  <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"eZContentClass"</span>,
+                  <span class="dox_stringliteral">"sort"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"asc"</span> ),
+                  <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"ezcontentclass"</span> );
+}
+</pre></div> 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/class/eZPersistentObject#a14">eZPersistentObject</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00082">82</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00759">groups()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00305">id()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00746">isLoggedIn()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00856">Login</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00719">roles()</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZUser::fetchBuiltin"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::fetchBuiltin </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>id</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetches a builtin user and returns it, this helps avoid special cases where user is not logged in. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00288">288</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00305">id()</a>.    </td>
+  </tr>
+</table>
+<a name="a25" doxytag="eZUser::groups"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::groups </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>asObject</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>userID</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array of id's with all the groups the user belongs to. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00759">759</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00105">attribute()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00305">id()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00105">attribute()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00082">definition()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00734">roleIDList()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00719">roles()</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZUser::hashType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::hashType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the default hash type which is specified in UserSettings/HashType in site.ini </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00258">258</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00341">loginUser()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00200">setInformation()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZUser::id"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::id </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the user id. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00305">305</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00082">definition()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00288">fetchBuiltin()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00759">groups()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00468">instance()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00200">setInformation()</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZUser::instance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::instance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>id</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Finds the user with the id <em>$id</em> and returns the unique instance of it. If the user instance is not created yet it tries to either fetch it from the database with eZUser::fetch(). If $id is false or the user was not found, the default user is returned. This is a site.ini setting under UserSettings:AnonymousUserID. The instance is then returned. If <em>$id</em> is false then the current user is fetched. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00468">468</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00541">currentUser()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00305">id()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00541">currentUser()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00551">currentUserID()</a>.    </td>
+  </tr>
+</table>
+<a name="a24" doxytag="eZUser::isLoggedIn"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::isLoggedIn </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if it's a real user which is logged in. False if the user is the default user or the fallback buildtin user. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00746">746</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00105">attribute()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00082">definition()</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZUser::loginCurrent"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::loginCurrent </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+logs in the current user object </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00446">446</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.    </td>
+  </tr>
+</table>
+<a name="d2" doxytag="eZUser::loginUser"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::loginUser </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>login</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>password</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>authenticationMatch</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Logs in the user if applied username and password is valid. The userID is returned if succesful, false if not. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00341">341</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00564">authenticateHash()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00313">authenticationMatch()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00647">createHash()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00258">hashType()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00277">site()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZUser::logoutCurrent"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::logoutCurrent </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Logs out the current user 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00454">454</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="d6" doxytag="eZUser::passwordCharacterTable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::passwordCharacterTable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with characters which are allowed in password. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00573">573</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00617">createPassword()</a>.    </td>
+  </tr>
+</table>
+<a name="a23" doxytag="eZUser::roleIDList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::roleIDList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array of role ids which the user is assigned to </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00734">734</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00105">attribute()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezrole#l00304">eZRole::fetchIDListByUser()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00759">groups()</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZUser::roles"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZUser::roles </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array of roles which the user is assigned to </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00719">719</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00105">attribute()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezrole#l00246">eZRole::fetchByUser()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00759">groups()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00719">roles()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00105">attribute()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00082">definition()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00719">roles()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZUser::setInformation"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::setInformation </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>id</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>login</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>email</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>password</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>passwordConfirm</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fills in the <em>$id</em>, <em>$login</em>, <em>$email</em> and <em>$password</em> for the user and creates the proper password hash. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00200">200</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00647">createHash()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00258">hashType()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00305">id()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezpersistentobject#l00880">eZPersistentObject::setAttribute()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00277">site()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZUser::site"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZUser::site </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the site name used in password hashing. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00277">277</a> of file <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00564">authenticateHash()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00647">createHash()</a>, <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00341">loginUser()</a>, and <a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser#l00200">setInformation()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030707223321/http://www.ez.no/sdk/ref/view/source/ezuser">ezuser.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030707223321/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030707223321/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 22:33:21 Jul 07, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:28:35 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.577
+  exclusion.robots: 0.028
+  exclusion.robots.policy: 0.015
+  esindex: 0.011
+  cdx.remote: 15.395
+  LoadShardBlock: 164.789 (3)
+  PetaboxLoader3.datanode: 134.428 (4)
+  PetaboxLoader3.resolve: 198.175 (2)
+  load_resource: 183.701
+-->

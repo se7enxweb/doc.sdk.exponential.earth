@@ -1,0 +1,717 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZImageObject","20030823114055","http://web.archive.org/","web","/_static/",
+	      "1061638855");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823114055cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823114055cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823114055cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823114055/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823114055im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZImageObject Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/module/eZImageObject">Image object and layer handling</a>]</small>
+</h1>Image object which handles image layers. 
+<a href="eZImageObject.html#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZImageObject:
+<p><center><img src="http://web.archive.org/web/20030823114055im_/http://ez.no/doc/generated/html/classeZImageObject.png" usemap="#eZImageObject_map" border="0" alt=""></center>
+<map name="eZImageObject_map">
+<area href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/class/eZImageInterface" alt="eZImageInterface" shape="rect" coords="0,0,111,24">
+</map>
+<a href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/members/eZImageObject">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a1">templateData</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a2">setTemplateURI</a> ($uri)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a3">calculateAxisPlacement</a> ($value,$type,$alignment,$axisStart,$axisStop,$currentLength)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a4">initializeAxis</a> ($parameters,$name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a5">calculatePosition</a> ($parameters,$width,$height)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a6">getTransparency</a> ($parameters)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a7">getTransparencyPercent</a> ($parameters)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a8">appendLayer</a> (&amp;$imageLayer,$parameters=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a9">prependLayer</a> (&amp;$imageLayer,$parameters=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a10">hasLayer</a> ($layerID)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a11">removeLayer</a> ($layerID)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a12">processImage</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#a13">flatten</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZImageObject::ImageLayers"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageObject.html#m0">ImageLayers</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>\privatesection</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Image object which handles image layers.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00064">64</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.<hr><h2>Member Function Documentation</h2>
+<a name="a8" doxytag="eZImageObject::appendLayer"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::appendLayer </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>imageLayer</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>parameters</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds the image layer object <em>$imageLayer</em> to the end of the layer list with optional parameters <em>$parameters</em> <dl compact><dt><b>Returns: </b></dt><dd>
+the ID of the layer, the ID is unique per image object. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZImageObject.html#a9">prependLayer</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00193">193</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00193">appendLayer()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00342">ImageLayers</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00193">appendLayer()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZImageObject::calculateAxisPlacement"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::calculateAxisPlacement </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>alignment</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>axisStart</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>axisStop</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentLength</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Figures out the absolute axis placement and returns it. The variable <em>$type</em> determines how <em>$value</em> is used, it can either be a constant value (EZ_IMAGE_PLACE_CONSTANT) or a relative value (EZ_IMAGE_PLACE_RELATIVE) where input value is placed relative to the length of the axis (<em>$axisStop</em> - <em>$axisStart)</em>. <em>$alignment</em> determines where the axis should start, EZ_IMAGE_ALIGN_AXIS_NONE and EZ_IMAGE_ALIGN_AXIS_START will return the position from <em>$axisStart</em> towards <em>$axisStop</em>, EZ_IMAGE_ALIGN_AXIS_STOP returns the position from the <em>$axisStop</em> towards <em>$axisStart</em> while EZ_IMAGE_ALIGN_AXIS_CENTER returns the middle of <em>$axisStart</em> and <em>$axisStop</em>. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00104">104</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00154">calculatePosition()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZImageObject::calculatePosition"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::calculatePosition </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>parameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>width</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>height</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Calculates the position for <code>x</code> and <code>y</code> parameters in <em>$parameters</em> and returns an absolute position in an array. The returned array will contain the <code>x</code> and <code>y</code> key. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00154">154</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00104">calculateAxisPlacement()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageinterface#l00560">eZImageInterface::height()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00135">initializeAxis()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageinterface#l00552">eZImageInterface::width()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZImageObject::flatten"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::flatten </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Goes trough all layers and merges them together into a single image. This image can then be displayed on the webpage. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00278">278</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00278">flatten()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageinterface#l00560">eZImageInterface::height()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00342">ImageLayers</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageinterface#l00327">eZImageInterface::imageObject()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageinterface#l00576">eZImageInterface::setHeight()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageinterface#l00568">eZImageInterface::setWidth()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageinterface#l00552">eZImageInterface::width()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00278">flatten()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00268">processImage()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZImageObject::getTransparency"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::getTransparency </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>parameters</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the transparency value found in the parameters or 0 if no value is found. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00169">169</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00182">getTransparencyPercent()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZImageObject::getTransparencyPercent"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::getTransparencyPercent </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>parameters</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the transparency percentage found in the parameters or 0 if no percentage is found. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00182">182</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00169">getTransparency()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZImageObject::hasLayer"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::hasLayer </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>layerID</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the layer with ID <em>$layerID</em> exists in this image object. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00236">236</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZImageObject::initializeAxis"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::initializeAxis </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>parameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the axis from the parameter value <em>$name</em> filling in any missing values with defaults. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00135">135</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00154">calculatePosition()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZImageObject::prependLayer"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::prependLayer </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>imageLayer</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>parameters</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds the image layer object <em>$imageLayer</em> to the beginning of the layer list with optional parameters <em>$parameters</em> <dl compact><dt><b>Returns: </b></dt><dd>
+the ID of the layer, the ID is unique per image object. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZImageObject.html#a8">appendLayer</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00215">215</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00342">ImageLayers</a>, <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00215">prependLayer()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00215">prependLayer()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZImageObject::processImage"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::processImage </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+\virtual Flattens the image so that it can be displayed. 
+<p>
+Reimplemented from <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/class/eZImageInterface#a18">eZImageInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00268">268</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00278">flatten()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZImageObject::removeLayer"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::removeLayer </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>layerID</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes the layer with ID <em>$layerID</em>. <dl compact><dt><b>Returns: </b></dt><dd>
+true if succesful </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZImageObject.html#a10">hasLayer</a>, <a class="dox_el" href="eZImageObject.html#a8">appendLayer</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00247">247</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00342">ImageLayers</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZImageObject::setTemplateURI"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::setTemplateURI </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>uri</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the URI of the template to use for displaying it using the template engine to <em>$uri</em>. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00088">88</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZImageObject::templateData"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageObject::templateData </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+A definition which tells the template engine which template to use for displaying the image. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject#l00078">78</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823114055/http://ez.no/sdk/ref/view/source/ezimageobject">ezimageobject.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823114055/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823114055/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 11:40:55 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:00:14 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 4.022
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 7.866
+  LoadShardBlock: 85.641 (3)
+  PetaboxLoader3.datanode: 92.514 (4)
+  load_resource: 111.87
+  PetaboxLoader3.resolve: 65.373
+-->

@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/annotated","20030821183619","http://web.archive.org/","web","/_static/",
+	      "1061490979");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030821183619cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030821183619cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030821183619cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030821183619im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030821183619/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030821183619/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/hierarchy" ">&lt;&lt; Hierarchy</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/files" ">Files &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030821183619/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030821183619/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030821183619/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030821183619/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030821183619/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030821183619/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030821183619/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030821183619im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030821183619/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZ publish Compound List</h1>Here are the classes, structs, unions and interfaces with brief descriptions:<table>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZ1337Translator">eZ1337Translator</a></td><td class="dox_indexvalue">Translates text into the leet (1337) language</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZApproveCollaborationHandler">eZApproveCollaborationHandler</a></td><td class="dox_indexvalue">Handles approval communication using the collaboration system</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZApproveType">eZApproveType</a></td><td class="dox_indexvalue">Event type for user approvals</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZAuthor">eZAuthor</a></td><td class="dox_indexvalue">EZAuthor handles author lists</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZAuthorType">eZAuthorType</a></td><td class="dox_indexvalue">EZAuthorType handles multiple authors</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZBasket">eZBasket</a></td><td class="dox_indexvalue">EZBasket handles shopping baskets</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZBinaryFile">eZBinaryFile</a></td><td class="dox_indexvalue">The class eZBinaryFile handles registered binaryfiles</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZBinaryFileHandler">eZBinaryFileHandler</a></td><td class="dox_indexvalue">Interface for all binary file handlers</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZBinaryFileType">eZBinaryFileType</a></td><td class="dox_indexvalue">The class eZBinaryFileType handles image accounts and association with content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZBorkTranslator">eZBorkTranslator</a></td><td class="dox_indexvalue">Translates text into the Bork language (Mock Swedish)</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCharsetInfo">eZCharsetInfo</a></td><td class="dox_indexvalue">Allows for quering information about charsets</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCheckoutType">eZCheckoutType</a></td><td class="dox_indexvalue">The class eZCheckoutType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCodePage">eZCodePage</a></td><td class="dox_indexvalue">Handles codepage files for charset mapping</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCodePageCodec">eZCodePageCodec</a></td><td class="dox_indexvalue">The class eZCodePageCodec does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCodePageMapper">eZCodePageMapper</a></td><td class="dox_indexvalue">The class eZCodePageMapper does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationGroup">eZCollaborationGroup</a></td><td class="dox_indexvalue">The class eZCollaborationGroup does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationItem">eZCollaborationItem</a></td><td class="dox_indexvalue">The class eZCollaborationItem does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationItemGroupLink">eZCollaborationItemGroupLink</a></td><td class="dox_indexvalue">The class eZCollaborationItemGroupLink does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationItemHandler">eZCollaborationItemHandler</a></td><td class="dox_indexvalue">The class eZCollaborationItemHandler does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationItemMessageLink">eZCollaborationItemMessageLink</a></td><td class="dox_indexvalue">The class eZCollaborationItemMessageLink does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationItemParticipantLink">eZCollaborationItemParticipantLink</a></td><td class="dox_indexvalue">The class eZCollaborationItemParticipantLink does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationItemStatus">eZCollaborationItemStatus</a></td><td class="dox_indexvalue">The class eZCollaborationItemStatus does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationProfile">eZCollaborationProfile</a></td><td class="dox_indexvalue">The class eZCollaborationProfile does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationSimpleMessage">eZCollaborationSimpleMessage</a></td><td class="dox_indexvalue">The class eZCollaborationSimpleMessage does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCollaborationViewHandler">eZCollaborationViewHandler</a></td><td class="dox_indexvalue">The class eZCollaborationViewHandler does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZComplexType">eZComplexType</a></td><td class="dox_indexvalue">EZComplexType implements XML schema complex type</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentCache">eZContentCache</a></td><td class="dox_indexvalue">The class eZContentCache does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentClassAttribute">eZContentClassAttribute</a></td><td class="dox_indexvalue">Encapsulates data for a class attribute</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentObject">eZContentObject</a></td><td class="dox_indexvalue">Handles eZ publish content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentObjectAssignmentHandler">eZContentObjectAssignmentHandler</a></td><td class="dox_indexvalue">Handles default assignments for content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentObjectAttribute">eZContentObjectAttribute</a></td><td class="dox_indexvalue">Encapsulates the data for an object attribute</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentObjectTranslation">eZContentObjectTranslation</a></td><td class="dox_indexvalue">EZContentObjectTranslation handles translation a translation of content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentObjectTreeNode">eZContentObjectTreeNode</a></td><td class="dox_indexvalue">The class eZContentObjectTreeNode does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentObjectVersion">eZContentObjectVersion</a></td><td class="dox_indexvalue">The class eZContentObjectVersion handles different versions of an content object \ingourp eZKernel</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZContentTranslation">eZContentTranslation</a></td><td class="dox_indexvalue">The class eZContentTranslation does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZCurrency">eZCurrency</a></td><td class="dox_indexvalue">Locale aware currency class</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDataType">eZDataType</a></td><td class="dox_indexvalue">Base class for content datatypes</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDate">eZDate</a></td><td class="dox_indexvalue">Locale aware date handler</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDateTime">eZDateTime</a></td><td class="dox_indexvalue">Locale aware date and time handler</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDB">eZDB</a></td><td class="dox_indexvalue">Database wrapper functions The eZ db library procides a database independent framework for SQL databases. The current supported databases are: PostgreSQL and MySQL</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDBInterface">eZDBInterface</a></td><td class="dox_indexvalue">The eZDBInterface defines the interface for all database implementations</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDBTool">eZDBTool</a></td><td class="dox_indexvalue">The class eZDBTool does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDebug">eZDebug</a></td><td class="dox_indexvalue">Advanced debug/log system</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDebugSetting">eZDebugSetting</a></td><td class="dox_indexvalue">Conditional debug output</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDir">eZDir</a></td><td class="dox_indexvalue">The class eZDir does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDiscountRule">eZDiscountRule</a></td><td class="dox_indexvalue">The class eZDiscountRule does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDiscountSubRule">eZDiscountSubRule</a></td><td class="dox_indexvalue">The class eZDiscountSubRule does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDiscountSubRuleValue">eZDiscountSubRuleValue</a></td><td class="dox_indexvalue">The class eZDiscountSubRuleValue does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDOMDocument">eZDOMDocument</a></td><td class="dox_indexvalue">EZDOMDocument handles DOM nodes in DOM documents</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZDOMNode">eZDOMNode</a></td><td class="dox_indexvalue">EZDOMNode handles DOM nodes in DOM documents</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZElementType">eZElementType</a></td><td class="dox_indexvalue">EZElementType is the main element type object</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZEnum">eZEnum</a></td><td class="dox_indexvalue">The class eZEnum does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZEnumObjectValue">eZEnumObjectValue</a></td><td class="dox_indexvalue">The class eZEnumObjectValue stores chosen enum values of an object attribute</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZEnumValue">eZEnumValue</a></td><td class="dox_indexvalue">The class eZEnumValue does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZExecution">eZExecution</a></td><td class="dox_indexvalue">Handles proper script execution, fatal error detection and handling</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZExpiryHandler">eZExpiryHandler</a></td><td class="dox_indexvalue">Keeps track of expiry keys and their timestamps</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZExtension">eZExtension</a></td><td class="dox_indexvalue">The class eZExtension does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZFile">eZFile</a></td><td class="dox_indexvalue">Tool class which has convencience functions for files and directories</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZFileDirectHandler">eZFileDirectHandler</a></td><td class="dox_indexvalue">Handles file downloading by passing an URL directly to the file</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZFilePasstroughHandler">eZFilePasstroughHandler</a></td><td class="dox_indexvalue">Handles file downloading by passing the file trough PHP</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZFloatValidator">eZFloatValidator</a></td><td class="dox_indexvalue">The class eZFloatValidator does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZForgotPassword">eZForgotPassword</a></td><td class="dox_indexvalue">The class eZForgotPassword does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZFunctionHandler">eZFunctionHandler</a></td><td class="dox_indexvalue">The class eZFunctionHandler does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZHTTPFile">eZHTTPFile</a></td><td class="dox_indexvalue">Provides access to HTTP post files</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZHTTPPersistence">eZHTTPPersistence</a></td><td class="dox_indexvalue">Object persistence using HTTP post variables</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZHTTPTool">eZHTTPTool</a></td><td class="dox_indexvalue">Provides access to HTTP post,get and session variables</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImage">eZImage</a></td><td class="dox_indexvalue">The class eZImage handles registered images</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageGD">eZImageGD</a></td><td class="dox_indexvalue">Image conversion delegate using ImageGD PHP extension</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageInterface">eZImageInterface</a></td><td class="dox_indexvalue">Base interface for all image object and layer classes</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageLayer">eZImageLayer</a></td><td class="dox_indexvalue">Defines a layer in a image object</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageManager">eZImageManager</a></td><td class="dox_indexvalue">Manages image operations using delegates to do the work</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageObject">eZImageObject</a></td><td class="dox_indexvalue">Image object which handles image layers</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageShell">eZImageShell</a></td><td class="dox_indexvalue">Image conversions delegate using shell commands</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageTextLayer">eZImageTextLayer</a></td><td class="dox_indexvalue">Layer for text information and rendering</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageType">eZImageType</a></td><td class="dox_indexvalue">The class eZImageType handles image accounts and association with content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZImageVariation">eZImageVariation</a></td><td class="dox_indexvalue">The class eZImageVariation does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZInformationCollection">eZInformationCollection</a></td><td class="dox_indexvalue">The class eZInformationCollection handles information collected by content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZInformationCollectionAttribute">eZInformationCollectionAttribute</a></td><td class="dox_indexvalue">The class eZInformationCollectionAttribute handles collected attribute information</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZINI">eZINI</a></td><td class="dox_indexvalue">Reads and writes .ini style configuration files</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZInputValidator">eZInputValidator</a></td><td class="dox_indexvalue">Input text validation and correction</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZIntegerType">eZIntegerType</a></td><td class="dox_indexvalue">A content datatype which handles integers</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZIntegerValidator">eZIntegerValidator</a></td><td class="dox_indexvalue">The class eZIntegerValidator does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZISBNType">eZISBNType</a></td><td class="dox_indexvalue">The class eZISBNType</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZLocale">eZLocale</a></td><td class="dox_indexvalue">Provides unified access to locale information and conversions</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZMail">eZMail</a></td><td class="dox_indexvalue">Mail object</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZMailTransport">eZMailTransport</a></td><td class="dox_indexvalue">Interface for mail transport handling</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZMBStringMapper">eZMBStringMapper</a></td><td class="dox_indexvalue">The class eZMBStringMapper does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZMedia">eZMedia</a></td><td class="dox_indexvalue">The class eZMedia handles registered media files</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZMediaFileType">eZMediaFileType</a></td><td class="dox_indexvalue">The class eZMediaFileType handles image accounts and association with content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZMimeType">eZMimeType</a></td><td class="dox_indexvalue">The class eZMimeType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZModule">eZModule</a></td><td class="dox_indexvalue">Allows execution of modules and functions</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZModuleFeatures">eZModuleFeatures</a></td><td class="dox_indexvalue">The class eZModuleFeatures does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZModuleFunctionInfo">eZModuleFunctionInfo</a></td><td class="dox_indexvalue">The class eZModuleFunctionInfo does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZModuleManager">eZModuleManager</a></td><td class="dox_indexvalue">The class eZModuleManager does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZModuleOperationInfo">eZModuleOperationInfo</a></td><td class="dox_indexvalue">The class eZModuleOperationInfo does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZModuleRun">eZModuleRun</a></td><td class="dox_indexvalue">The class eZModuleRun does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZMultiplexerType">eZMultiplexerType</a></td><td class="dox_indexvalue">The class eZMultiplexerType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZMySQLDB">eZMySQLDB</a></td><td class="dox_indexvalue">MySQL implementation of the database interface</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZNavigationPart">eZNavigationPart</a></td><td class="dox_indexvalue">EZNavigationPart handles grouping of functions across modules</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZNodeAssignment">eZNodeAssignment</a></td><td class="dox_indexvalue">The class eZNodeAssignment does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZNullDB">eZNullDB</a></td><td class="dox_indexvalue">Interface which does nothing</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZObjectRelationType">eZObjectRelationType</a></td><td class="dox_indexvalue">A content datatype which handles object relations</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZOperationHandler">eZOperationHandler</a></td><td class="dox_indexvalue">The class eZOperationHandler does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZOperationMemento">eZOperationMemento</a></td><td class="dox_indexvalue">The class eZOperationMemento does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZOption">eZOption</a></td><td class="dox_indexvalue">EZOption handles option set datatypes</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZOracleDB">eZOracleDB</a></td><td class="dox_indexvalue">This eZOracleDB class provides Oracle database functions</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZOrder">eZOrder</a></td><td class="dox_indexvalue">EZOrder handles orders</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZOrderItem">eZOrderItem</a></td><td class="dox_indexvalue">EZOrderItem handles custom order items</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPersistentObject">eZPersistentObject</a></td><td class="dox_indexvalue">Allows for object persistence in a database</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPHPCreator">eZPHPCreator</a></td><td class="dox_indexvalue">The class eZPHPCreator does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPolicy">eZPolicy</a></td><td class="dox_indexvalue">The class eZPolicy does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPolicyLimitation">eZPolicyLimitation</a></td><td class="dox_indexvalue">The class eZPolicyLimitation does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPolicyLimitationValue">eZPolicyLimitationValue</a></td><td class="dox_indexvalue">The class eZPolicyLimitationValue does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPostgreSQLDB">eZPostgreSQLDB</a></td><td class="dox_indexvalue">PostgreSQL database functions</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPrice">eZPrice</a></td><td class="dox_indexvalue">The class eZPrice does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZProcess">eZProcess</a></td><td class="dox_indexvalue">Executes php scripts with parameters safely</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZProductCollection">eZProductCollection</a></td><td class="dox_indexvalue">EZProductCollection is a container class which handles groups of products</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZProductCollectionItem">eZProductCollectionItem</a></td><td class="dox_indexvalue">EZProductCollectionItem handles one product item</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZProductCollectionItemOption">eZProductCollectionItemOption</a></td><td class="dox_indexvalue">The class eZProductCollectionItemOption does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPublishOnTime">eZPublishOnTime</a></td><td class="dox_indexvalue">The class eZPublishOnTime does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPublishOnTimeType">eZPublishOnTimeType</a></td><td class="dox_indexvalue">The class eZPublishOnTimeType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPublishOnTimeValue">eZPublishOnTimeValue</a></td><td class="dox_indexvalue">The class eZPublishOnTimeValue does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZPublishType">eZPublishType</a></td><td class="dox_indexvalue">Event type which publishes and object</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZRandomTranslator">eZRandomTranslator</a></td><td class="dox_indexvalue">Translates text by picking randomly among it's sub handlers</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZRangeOption">eZRangeOption</a></td><td class="dox_indexvalue">The class eZRangeOption does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZRangeOptionType">eZRangeOptionType</a></td><td class="dox_indexvalue">The class eZRangeOptionType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZRegExpValidator">eZRegExpValidator</a></td><td class="dox_indexvalue">Input validation using regexps</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZRole">eZRole</a></td><td class="dox_indexvalue">The class eZRole does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSchema">eZSchema</a></td><td class="dox_indexvalue">EZSchema handles schema validation on dom documents</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSchemaElement">eZSchemaElement</a></td><td class="dox_indexvalue">EZSchemaElement handles schema validation elements</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSearch">eZSearch</a></td><td class="dox_indexvalue">EZSearch handles indexing of objects to the search engine</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSearchLog">eZSearchLog</a></td><td class="dox_indexvalue">EZSearchLog handles logging of search phrases</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSection">eZSection</a></td><td class="dox_indexvalue">EZSection handles grouping of content in eZ publish</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSendmailTransport">eZSendmailTransport</a></td><td class="dox_indexvalue">The class eZSendmailTransport does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSerialType">eZSerialType</a></td><td class="dox_indexvalue">Serialized event grouping</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZShuffleTranslator">eZShuffleTranslator</a></td><td class="dox_indexvalue">Translates text by moving characters around</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSimpleShippingType">eZSimpleShippingType</a></td><td class="dox_indexvalue">The class eZSimpleshippingType handles adding shipping cost to an order</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSimpleType">eZSimpleType</a></td><td class="dox_indexvalue">EZSimpleType implements XML schema simple type</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSiteAccess">eZSiteAccess</a></td><td class="dox_indexvalue">The class eZSiteAccess does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSMTPTransport">eZSMTPTransport</a></td><td class="dox_indexvalue">The class eZSMTPTransport does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPBody">eZSOAPBody</a></td><td class="dox_indexvalue">Handles the soap body</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPClient">eZSOAPClient</a></td><td class="dox_indexvalue">EZSOAPClient is a class which can be used as a SOAP client</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPEnvelope">eZSOAPEnvelope</a></td><td class="dox_indexvalue">SOAP envelope handling and definition</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPFault">eZSOAPFault</a></td><td class="dox_indexvalue">EZSOAPFault handles SOAP fault messages</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPHeader">eZSOAPHeader</a></td><td class="dox_indexvalue">EZSOAPHeader handles SOAP headers</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPParameter">eZSOAPParameter</a></td><td class="dox_indexvalue"></td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPRequest">eZSOAPRequest</a></td><td class="dox_indexvalue">EZSOAPRequest handles SOAP request messages</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPResponse">eZSOAPResponse</a></td><td class="dox_indexvalue">EZSOAPResponse handles SOAP response packages</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSOAPServer">eZSOAPServer</a></td><td class="dox_indexvalue">The class eZSOAPServer handles SOAP server requensts</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZStringType">eZStringType</a></td><td class="dox_indexvalue">A content datatype which handles text lines</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZSys">eZSys</a></td><td class="dox_indexvalue">Easy access to various system settings</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplate">eZTemplate</a></td><td class="dox_indexvalue">The main manager for templates</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateArithmeticOperator">eZTemplateArithmeticOperator</a></td><td class="dox_indexvalue">The class eZTemplateArithmeticOperator does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateArrayOperator">eZTemplateArrayOperator</a></td><td class="dox_indexvalue">Dynamic creation of arrays using operator "array"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateAttributeOperator">eZTemplateAttributeOperator</a></td><td class="dox_indexvalue">Display of variable attributes using operator "attribute"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateBlockFunction">eZTemplateBlockFunction</a></td><td class="dox_indexvalue">Advanced block handling</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateCacheFunction">eZTemplateCacheFunction</a></td><td class="dox_indexvalue">Advanced cache handling</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateControlOperator">eZTemplateControlOperator</a></td><td class="dox_indexvalue">Operators for checking variable type</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateDelimitFunction">eZTemplateDelimitFunction</a></td><td class="dox_indexvalue">Displays left and right delimiter in templates</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateElementParser">eZTemplateElementParser</a></td><td class="dox_indexvalue">The class eZTemplateElementParser does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateExecuteOperator">eZTemplateExecuteOperator</a></td><td class="dox_indexvalue">The class eZTemplateExecuteOperator does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateFileResource">eZTemplateFileResource</a></td><td class="dox_indexvalue">Handles filesystem retrieval of templates</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateFunctionElement">eZTemplateFunctionElement</a></td><td class="dox_indexvalue">Represents a function element in the template tree</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateImageOperator">eZTemplateImageOperator</a></td><td class="dox_indexvalue">Text to image conversion using operator "texttoimage"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateIncludeFunction">eZTemplateIncludeFunction</a></td><td class="dox_indexvalue">Includes external template code using function "include"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateLocaleOperator">eZTemplateLocaleOperator</a></td><td class="dox_indexvalue">Locale aware conversions and output using operator "l10n"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateLogicOperator">eZTemplateLogicOperator</a></td><td class="dox_indexvalue">Logical operators for creating and manipulating booleans</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateMultiPassParser">eZTemplateMultiPassParser</a></td><td class="dox_indexvalue">The class eZTemplateMultiPassParser does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateNl2BrOperator">eZTemplateNl2BrOperator</a></td><td class="dox_indexvalue"></td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateOperator">eZTemplateOperator</a></td><td class="dox_indexvalue">Base documentation class for operators</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateOperatorElement">eZTemplateOperatorElement</a></td><td class="dox_indexvalue">Represents an operator element in the template tree</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateParser">eZTemplateParser</a></td><td class="dox_indexvalue">The class eZTemplateParser does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplatePHPOperator">eZTemplatePHPOperator</a></td><td class="dox_indexvalue">Makes it easy to add php functions as operators</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateProcessCache">eZTemplateProcessCache</a></td><td class="dox_indexvalue">The class eZTemplateProcessCache does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateRoot">eZTemplateRoot</a></td><td class="dox_indexvalue">Represents a root element of the template tree</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateSectionFunction">eZTemplateSectionFunction</a></td><td class="dox_indexvalue">Advanced block handling in templates using function "section"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateSequenceFunction">eZTemplateSequenceFunction</a></td><td class="dox_indexvalue">Wrapped array looping in templates using function "sequence"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateSetFunction">eZTemplateSetFunction</a></td><td class="dox_indexvalue">Sets template variables code using function 'set'</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateSwitchFunction">eZTemplateSwitchFunction</a></td><td class="dox_indexvalue">Handles conditional output in templates using function "switch"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateTextElement">eZTemplateTextElement</a></td><td class="dox_indexvalue">Represents a text element in the template tree</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateTextOperator">eZTemplateTextOperator</a></td><td class="dox_indexvalue">The class eZTemplateTextOperator does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateTreeCache">eZTemplateTreeCache</a></td><td class="dox_indexvalue">Cache handling for template tree nodes</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateTypeOperator">eZTemplateTypeOperator</a></td><td class="dox_indexvalue">Operators for checking variable type</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateUnitOperator">eZTemplateUnitOperator</a></td><td class="dox_indexvalue">Handles unit conversion and display using the operator "si"</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateVariableElement">eZTemplateVariableElement</a></td><td class="dox_indexvalue">Represents a variable element in the template tree</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTemplateWashOperator">eZTemplateWashOperator</a></td><td class="dox_indexvalue"></td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTextCodec">eZTextCodec</a></td><td class="dox_indexvalue">Handles conversion from one charset to another</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTextTool">eZTextTool</a></td><td class="dox_indexvalue">EZTextTool is a class with different useful text functions</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTime">eZTime</a></td><td class="dox_indexvalue">Locale aware time handler</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTimingType">eZTimingType</a></td><td class="dox_indexvalue">Event type for user approvals</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTranslationCache">eZTranslationCache</a></td><td class="dox_indexvalue">Cache handling for translations</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTranslatorGroup">eZTranslatorGroup</a></td><td class="dox_indexvalue">Allows for picking translator handlers according to context</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTranslatorHandler">eZTranslatorHandler</a></td><td class="dox_indexvalue">Base class for translation handling</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTranslatorManager">eZTranslatorManager</a></td><td class="dox_indexvalue">This provides internationalization support for text output</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTrigger">eZTrigger</a></td><td class="dox_indexvalue">The class eZTrigger does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZTSTranslator">eZTSTranslator</a></td><td class="dox_indexvalue">This provides internationalization using XML (.ts) files</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZUnpublishType">eZUnpublishType</a></td><td class="dox_indexvalue">The class eZUnpublishType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZURI">eZURI</a></td><td class="dox_indexvalue">Provides access to the HTTP uri</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZURL">eZURL</a></td><td class="dox_indexvalue">A class which handles central storage of urls</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZURLTranslator">eZURLTranslator</a></td><td class="dox_indexvalue">Translation requested URLs into new URLs internally</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZURLType">eZURLType</a></td><td class="dox_indexvalue">A content datatype which handles urls</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZUser">eZUser</a></td><td class="dox_indexvalue">EZUser handles eZ publish user accounts</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZUserAccountKey">eZUserAccountKey</a></td><td class="dox_indexvalue">The class eZUserAccountKey does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZUserDiscountRule">eZUserDiscountRule</a></td><td class="dox_indexvalue">The class eZUserDiscountRule does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZUserType">eZUserType</a></td><td class="dox_indexvalue">The class eZUserType handles user accounts and association with content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZUTF8Codec">eZUTF8Codec</a></td><td class="dox_indexvalue">Converter for utf8 and 32bit unicode</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZVatType">eZVatType</a></td><td class="dox_indexvalue">EZVatType handles different VAT types</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZWaitUntilDate">eZWaitUntilDate</a></td><td class="dox_indexvalue">The class eZWaitUntilDate does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZWaitUntilDateType">eZWaitUntilDateType</a></td><td class="dox_indexvalue">The class eZWaitUntilDateType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZWaitUntilDateValue">eZWaitUntilDateValue</a></td><td class="dox_indexvalue">The class eZWaitUntilDateValue does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZWeb">eZWeb</a></td><td class="dox_indexvalue">Easy access to various browser settings</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZWishList">eZWishList</a></td><td class="dox_indexvalue">EZWishList handles shopping wish lists</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZWorkflowGroup">eZWorkflowGroup</a></td><td class="dox_indexvalue">Handles grouping of workflows</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZWrappingType">eZWrappingType</a></td><td class="dox_indexvalue">The class eZWrappingType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZXML">eZXML</a></td><td class="dox_indexvalue">EZXML handles parsing of well formed XML documents</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZXMLInputHandler">eZXMLInputHandler</a></td><td class="dox_indexvalue">The class eZXMLInputHandler does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZXMLInputType">eZXMLInputType</a></td><td class="dox_indexvalue">The class eZXMLInputType does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZXMLOutputHandler">eZXMLOutputHandler</a></td><td class="dox_indexvalue">The class eZXMLOutputHandler does</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZXMLText">eZXMLText</a></td><td class="dox_indexvalue">The class eZXMLText handles XML text data type instances</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/eZXMLTextType">eZXMLTextType</a></td><td class="dox_indexvalue">The class eZXMLTextType haneles XML formatted datatypes</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030821183619/http://www.ez.no/sdk/ref/view/class/helloUserType">helloUserType</a></td><td class="dox_indexvalue">The class helloUserType does</td></tr>
+</table>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030821183619/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030821183619/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 18:36:19 Aug 21, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:58 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.522
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 11.577
+  LoadShardBlock: 179.387 (3)
+  PetaboxLoader3.datanode: 183.602 (4)
+  PetaboxLoader3.resolve: 74.27 (2)
+  load_resource: 117.924
+-->

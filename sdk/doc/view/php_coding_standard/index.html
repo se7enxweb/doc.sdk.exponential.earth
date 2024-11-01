@@ -1,0 +1,634 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/doc/view/php_coding_standard","20030821190239","http://web.archive.org/","web","/_static/",
+	      "1061492559");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - SDK documents</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030821190239cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030821190239cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030821190239cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030821190239/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/class_diagram" ">&lt;&lt; Kernel classes</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/sql_coding_standard" ">SQL &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc">SDK documents</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Start here</p>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/introduction/">Introduction</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/dir_layout/">Directory Layout</a><br/><p class="groupname">Diagrams</p>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/overview/">Overview</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/database_diagram/">Database</a><br/>&nbsp;&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/contentclass_database_diagram/">Content Class</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/class_diagram/">Kernel classes</a><br/><p class="groupname">Coding standards</p>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/php_coding_standard/">PHP</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/sql_coding_standard/">SQL</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/template_coding_standard/">Template</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/xhtml_coding_standard/">XHTML</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/security_standard/">Security</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/security_handling/">Security handling</a><br/>&nbsp;<img src="http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030821190239/http://www.ez.no/sdk/doc/view/subversion_standard/">Subversion</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<p>
+This document defines how the PHP code in eZ publish&trade; is formatted. Naming conventions are also
+defined in this document. The code in eZ publish must follow this standard to ensure a coherent looking code base.
+</p>
+<p>
+To easier comply with this coding standard we recommend using emacs with our configuration files which handles proper
+indenting and other nice features.
+</p>
+
+<h1>Files </h1>
+<p>
+Use lower-case in all file names. PHP files are named <i>.php</i>
+</p>
+
+<h1>Headers</h1>
+<p>
+All files must start with the following header:
+</p>
+<pre class="example">
+//
+// Definition of eZDebug class
+//
+// Created on: &lt;04-Feb-2003 13:25:39 gl&gt;
+//
+// Copyright (C) 1999-2002 eZ systems as. All rights reserved.
+//
+// This source file is part of the eZ publish (tm) Open Source Content
+// Management System.
+//
+// This file may be distributed and/or modified under the terms of the
+// "GNU General Public License" version 2 as published by the Free
+// Software Foundation and appearing in the file LICENSE.GPL included in
+// the packaging of this file.
+//
+// Licensees holding valid "eZ publish professional licences" may use this
+// file in accordance with the "eZ publish professional licence" Agreement
+// provided with the Software.
+//
+// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING
+// THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+// PURPOSE.
+//
+// The "eZ publish professional licence" is available at
+// http://ez.no/products/licences/professional/. For pricing of this licence
+// please contact us via e-mail to licence@ez.no. Further contact
+// information is available at http://ez.no/home/contact/.
+//
+// The "GNU General Public License" (GPL) is available at
+// http://www.gnu.org/copyleft/gpl.html.
+//
+// Contact licence@ez.no if any conditions of this licensing isn't clear to
+// you.
+//
+</pre>
+
+
+<h1>Indenting</h1>
+<p>
+Indenting is 4 characters, real tab characters should not be used. Spaces are used for indenting.
+</p>
+
+<h1>Placement of brackets</h1>
+<p>
+Start and end brackets should be placed on the same column.
+</p>
+<p>
+Examples:
+</p>
+<pre class="example">
+multiply( $x, $y )
+{
+    // function body
+}
+
+if ( x == y )
+{
+  ..
+}
+else if ( x &gt; y )
+{
+    ..
+}
+else
+{
+    ..
+}
+
+class foo
+{
+    function foo( )
+    {
+        ..
+    }
+}
+</pre>
+
+<h1>Parenthesis, brackets and comma</h1>
+<p>
+It should always be a space after a start parenthesis and one space before an end parenthesis.
+One space is placed after every comma. Square brackets [] should not have space after the start
+bracket and before the end bracket. It should be a space between each type.
+</p>
+<p>
+Empty lines should be used to group variables and code lines which have a connection. Variable
+names which is grouped should be indented to the same level.
+</p>
+<p>
+Empty lines should not only appear empty, but they should also be empty, all tab and space
+characters should be removed.
+</p>
+<p>
+Use more parenthesis than necessary if you're not certain in which sequence the expression is executed.
+</p>
+
+<h1>Strings</h1>
+
+$a = "aiosdjfjiioj $abc aopsdfopasdokf $adfafsd";
+$a = 'aiosdjfjiioj ' . $abc . ' aopsdfopasdokf ' . $adfafsd;
+$a = implode( 'aiosdjfjiioj ', $abc, ' aopsdfopasdokf ', $adfafsd );
+
+<p>
+PHP has many different ways of handling strings. Some are preferred because of speed, others
+because of readability of code.
+</p>
+
+<p>
+PHP has two different quotes " and '. These are used to define a text string. The difference
+between the two is that the single quote does not process the string or does variable replacement.
+I.e. if you write  "$myVariable\n" and '$myVariable\n' the first will print the contents of the variable
+followed by a newline character. The latter will print: $myVariable\n, with no aditional processing.
+For this reason you should use single quotes rather than double quotes because this will be quicker.
+If you need to have a combination of text and variables you should use the implode() function. This
+function should be used instead of the . operator since this does only allocate memory once and is
+therefore more efficient.
+</p>
+
+<p>
+Below is samples of how you should use single quotes in eZ publish.
+</p>
+
+<pre class="example">
+$myHash['key'];
+$str = 'This is a string';
+$combinedString = implode( 'The color of the ball is ', $color, ' and it costs: ' . $price );
+
+if ( $variable == 'string' )
+{
+    ..
+}
+</pre>
+
+
+<h1>If and while statements</h1>
+<p>
+Nested if statements should always use {}. If you have a lot of if-else statements these should
+probably be replaced by case statements, or redesign your code to use object oriented methods.
+If and while statements should be constructed of logic statements, no assignment or changing of
+data should occur.
+</p>
+
+<h1>Control structures</h1>
+<p>
+Below is examples the syntax of the different PHP control structures. Notice the space
+after the control structure name, this is different from functions which does not have
+a space after the function name. PHP has different syntax rules for using control structures,
+the syntax below is preferred.
+</p>
+
+<pre class="example">
+
+// if/else statement
+if ( $a == $b )
+{
+    ...
+}
+else
+{
+    ...
+}
+
+// nested if/else statement
+if ( $a == $b )
+{
+    ...
+}
+else if ( $a == $c )
+{
+    ...
+}
+
+// while loop
+$i = 0;
+while ( $i &lt; 100 )
+{
+    ...
+    $i++;
+}
+
+// do..while loop
+$i = 0;
+do
+{
+    ...
+    $i++;
+}
+while ( $i &lt; 100 );
+
+// for loop
+for ( $i = 0; $i &lt; 100; $i ++ )
+{
+    ...
+}
+
+// foreach loop
+foreach ( $array as $value )
+{
+    ...
+}
+
+// switch
+switch ( $value )
+{
+    case 0:
+    {
+        ...
+    }break;
+
+    case 'text':
+    {
+        ...
+    }break;
+
+    default:
+    {
+        ...
+    }break;
+}
+
+
+
+</pre>
+
+<h1>Functions</h1>
+<p>
+Functions should be placed inside classes when possible. The syntax of functions are
+showed in the snipped below.
+</p>
+
+<pre class="example">
+/*!
+  This is my function.
+*/
+function &myFunction;( $paramA = 1, $paramB = 2 )
+{
+    return 42;
+}
+</pre>
+
+<h1>Arrays</h1>
+<p>
+When indexing hash arrays you should use single quotes and no spaces.
+</p>
+
+<pre class="example">
+$value = $myHashArray['IndexValue'];
+</pre>
+
+<h1>Naming</h1>
+<p>
+All names should be English and grammatically correct. Names like "foo" and "tmp" should be avoided
+since they do not describe anything. Names should not contain numbers, numbers should be described
+with letters unless there is a good reason for it.
+</p>
+<p>
+Example:
+</p>
+<pre class="example">
+$ValueOne
+</pre>
+<p>
+Function names can be constructed of several words, all words should have lower-case except the first
+letter which should be an upper-case letter. The exception for this is the first letter which should always
+be in lower-case. If the first letter is part of an abbreviation the whole abbreviation should be in
+lower-case. Functions which return booleans should be named as a question (<i>has</i>, <i>is</i>,
+<i>can</i> ...).
+</p>
+<p>
+Example:
+</p>
+<pre class="example">
+setText(..);
+id();
+setID();
+getTheValuesForThis();
+hasValue();
+isValid();
+canProcess();
+</pre>
+<p>
+Constants should be constructed by upper-case only letters, _ should be used to separate words.
+</p>
+<p>
+Example:
+</p>
+<pre class="example">
+define( 'MY_CONSTANT', 42 );
+</pre>
+<p>
+Member variables can be constructed of several words, every word is spelled in lower-case with a capital
+first letter. It should not be too many words, 1-3 is normal, they can be abbreviated as long as it's
+understandable.
+</p>
+<p>
+Example:
+</p>
+<pre class="example">
+$Len;
+$X, $Y;
+$FirstName;
+</pre>
+<p>
+Local variables can also consist of several words in lower-case, the first character of each word is a
+capital letter except the first word. The number of words should be as few as possible and the words can be abbreviated.
+</p>
+<pre class="example">
+$index, $x, $y, i;
+$xAdd;
+$firstName, $lastName;
+</pre>
+<p>
+Parameters are names like local variables.
+</p>
+<p>
+Class names can consist of several words, every word should be in lower-case with the first letter in capital.
+Classes should have a unique string which starts the name, for instance eZ, which is to uniquely identify the
+class.
+</p>
+<p>
+Example:
+</p>
+<pre class="example">
+eZUser
+eZContentObject
+eZImageVariation
+</pre>
+<p>
+Global variables are to be avoided, place them in a class and make them static.
+</p>
+<h2>HTTP Post variables</h2>
+<p>
+POST variables should have the following syntax.
+</p>
+<pre class="example">
+Class_FirstName
+Class_ValueOne
+Content_CategoryID
+Content_LongVariable
+SearchValue
+</pre>
+
+<p>The <i>Class</i> and <i>Content</i> names are called the base of the variable and should be used for variables
+which are specific for a certain module, function or page view. Variables such as <i>SearchValue</i> should
+be used for global values, all though you can also use <i>Global</i> as the base.
+</p>
+
+<h2>Global variables</h2>
+<p>Global variables should be named uniquely by using the class name as the base of the name. For instance
+instance variables and global lists for classes.</p>
+<pre class="example">
+$instance =&amp; $GLOBALS['eZUserInstance'];
+$handlers =&amp; $GLOBALS['eZCodecHandlers'];
+</pre>
+
+<h1>Functions</h1>
+<p>
+All functions should be placed in classes unless there is a good reason not to.
+</p>
+<p>
+Functions should be short and do one thing. The length of a function depends on the complexity of the function,
+the more complex the function is the shorter should the function be. If it gets too complex then divide the
+function up into helper functions.
+</p>
+<p>
+The number of local variables in a function should not be larger than 7. 7 is a known limit to the number of
+things people can control at one time. Split up the function if it gets too large.
+</p>
+<p>
+Default parameters should be used with care.
+</p>
+<p>
+You should let the parameter line go over several lines with grouping of the similar parameters, if it gets long.
+</p>
+<h1>Classes</h1>
+<p>
+Classes should have one responsibility. All member variables are private.
+Helper functions should also be private.
+Functions that do not access member variables should be static.
+</p>
+<h1>Commenting</h1>
+<p>
+The comments used should be written to comply with the syntax of the Doxygen tool. This tool, which is used
+to generate class reference documentation, is available at <a href="http://web.archive.org/web/20030821190239/http://ez.no/sdk">http://ez.no/sdk</a>.
+</p>
+
+<pre class="example">
+
+/*! \defgroup eZGroup Grouped classes
+    Use groups to place common classes together.
+*/
+
+/*!
+  \class eZMyClass ezmyclass.php
+  \brief eZMyClass handles ...
+  \ingroup eZGroup
+
+  This is a more complete description of the class.
+
+  Here is an code example:
+  \code
+  $myObj = new MyClass();
+  \endcode
+
+  See also theese classes:
+
+  \sa eZUser, eZContentClass
+  \todo Add this function..
+  \bug Does not handle...
+*/
+
+class MyClass
+{
+    /*!
+      This is the contructor of MyClass. It handles....
+    */
+    function MyClass()
+    {
+        ...
+    }
+
+    /*!
+      \private
+      This is a private helper function.
+    */
+    function doSomething()
+    {
+        ...
+    }
+
+    /*!
+     \return the value of ...
+    */
+    function value()
+    {
+    }
+
+    /*!
+     \static
+     This can be called like MyClass::doIt()
+    */
+    function doIt()
+    {
+        ...
+    }
+
+    //// \privatesection
+    /// This is a variable description.
+    var $MyVar;
+}
+</pre>
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030821190239/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030821190239/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 19:02:39 Aug 21, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:41:42 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.538
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.011
+  esindex: 0.011
+  cdx.remote: 5.915
+  LoadShardBlock: 106.069 (3)
+  PetaboxLoader3.datanode: 127.19 (4)
+  load_resource: 125.239
+  PetaboxLoader3.resolve: 87.385
+-->

@@ -1,0 +1,2024 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/class/eZLocale/","20030831115210","http://web.archive.org/","web","/_static/",
+	      "1062330730");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030831115210cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030831115210cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030831115210cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030831115210/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030831115210im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZLocale Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/module/eZLocale">Locale system</a>]</small>
+</h1>Provides unified access to locale information and conversions. 
+<a href="eZLocale.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/members/eZLocale">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a0">eZLocale</a> ($localeString)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a1">isValid</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a2">localeRegexp</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a3">localeInformation</a> ($localeString)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a4">initPHP</a> ($charset=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a9">charset</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a10">countryName</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a11">countryComment</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a12">countryCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a13">countryVariation</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a14">languageCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a15">languageComment</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a16">localeCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a17">localeFullCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a18">httpLocaleCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a19">languageName</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a20">internationalLanguageName</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a21">currencySymbol</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a22">currencyName</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a23">currencyShortName</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a24">isMondayFirst</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a25">weekDays</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a26">months</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a27">weekDayNames</a> ($short=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a28">formatTime</a> ($time=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a29">formatShortTime</a> ($time=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a30">formatTimeType</a> ($fmt,$time=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a31">meridiemName</a> ($time=false,$upcase=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a32">formatDate</a> ($date=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a33">formatShortDate</a> ($date=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a34">formatDateTime</a> ($date=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a35">formatShortDateTime</a> ($date=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a36">formatDateType</a> ($fmt,$date=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a37">formatDateTimeType</a> ($fmt,$datetime=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a38">formatNumber</a> ($number)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a39">formatCurrency</a> ($number,$as_html=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a40">shortDayName</a> ($num)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a41">longDayName</a> ($num)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a42">shortMonthName</a> ($num)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a43">longMonthName</a> ($num)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a44">localeFile</a> ($withVariation=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a45">countryFile</a> ($withVariation=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a46">languageFile</a> ($withVariation=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a47">instance</a> ($localeString=false)</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#d0">currentLocaleCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#d1">localeList</a> ($asObject=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#d2">countryList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#d3">languageList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#d4">isDebugEnabled</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#d5">setIsDebugEnabled</a> ($debug)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td colspan="2"><div class="dox_groupHeader"></div></td></tr>
+<tr><td colspan="2"><div class="dox_groupHeader"></div></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z1_0" doxytag="eZLocale::DateFormat"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z1_0">DateFormat</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Format of dates.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z1_1" doxytag="eZLocale::ShortDateFormat"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z1_1">ShortDateFormat</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Format of short dates.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z1_2" doxytag="eZLocale::TimeFormat"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z1_2">TimeFormat</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Format of times.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z1_3" doxytag="eZLocale::ShortTimeFormat"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z1_3">ShortTimeFormat</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Format of short times.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z1_4" doxytag="eZLocale::MondayFirst"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z1_4">MondayFirst</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>True if monday is the first day of the week.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z1_5" doxytag="eZLocale::AM"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z1_5">AM</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>AM and PM names.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z1_6" doxytag="eZLocale::PM"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z1_6">PM</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>AM and PM names.</em></font><br><br></td></tr>
+<tr><td colspan="2"><div class="dox_groupHeader"></div></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z2_0" doxytag="eZLocale::DecimalSymbol"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z2_0">DecimalSymbol</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Numbers.</em></font><br><br></td></tr>
+<tr><td colspan="2"><div class="dox_groupHeader"></div></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z3_0" doxytag="eZLocale::CurrencyDecimalSymbol"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z3_0">CurrencyDecimalSymbol</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Currency.</em></font><br><br></td></tr>
+<tr><td colspan="2"><div class="dox_groupHeader"></div></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z4_0" doxytag="eZLocale::DayNames"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z4_0">DayNames</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Help arrays.</em></font><br><br></td></tr>
+<tr><td colspan="2"><div class="dox_groupHeader"></div></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z5_0" doxytag="eZLocale::Country"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z5_0">Country</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Objects.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z5_8" doxytag="eZLocale::LanguageCode"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z5_8">LanguageCode</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The language code, for instance nor-NO, or eng-GB.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z5_9" doxytag="eZLocale::LanguageName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z5_9">LanguageName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Name of the language.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="z5_10" doxytag="eZLocale::IntlLanguageName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#z5_10">IntlLanguageName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Internationalized name of the language.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Provides unified access to locale information and conversions.
+<p>
+The eZLocale class handles locale information and can format time, date, numbers and currency for correct display for a given locale. The locale conversion uses plain numerical values for dates, times, numbers and currency, if you want more elaborate conversions consider using the <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZDate">eZDate</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZTime">eZTime</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZDateTime">eZDateTime</a> and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZCurrency">eZCurrency</a> classes.
+<p>
+The first time a locale object is created (ie. <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a47">eZLocale::instance()</a> ) you must be sure to set a language using setLanguage before using any textual conversions.
+<p>
+Example:
+<p>
+<div class="dox_fragment"><pre>include_once( 'lib/ezlocale/classes/ezlocale.php' );
+
+<span class="dox_comment">// Fetch the default values supplied by site.ini</span>
+$locale =&amp; <a class="dox_code" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a47">eZLocale::instance</a>();
+
+<span class="dox_comment">// Make sure PHP is to the correct locale</span>
+$locale-&gt;initPHP();
+
+print( $locale-&gt;formatTime() . '&lt;br&gt;' ); <span class="dox_comment">// Display current time</span>
+print( $locale-&gt;formatDate() . '&lt;br&gt;' ); <span class="dox_comment">// Display current day</span>
+
+foreach ( $locale-&gt;weekDays() as $day ) <span class="dox_comment">// Print a week with 3 letter daynames</span>
+{
+    print( $locale-&gt;shortDayName( $day ) . '&lt;br&gt;' );
+}
+</pre></div>
+<p>
+Countries are specified by the ISO 3166 Country Code <a href="http://web.archive.org/web/20030831115210/http://www.iso.ch/iso/en/prods-services/iso3166ma/index.html">http://www.iso.ch/iso/en/prods-services/iso3166ma/index.html</a> User-assigned code elements <a href="http://web.archive.org/web/20030831115210/http://www.iso.ch/iso/en/prods-services/iso3166ma/04background-on-iso-3166/reserved-and-user-assigned-codes.html#userassigned">http://www.iso.ch/iso/en/prods-services/iso3166ma/04background-on-iso-3166/reserved-and-user-assigned-codes.html#userassigned</a>
+<p>
+Language is specified by the ISO 639 Language Code <a href="http://web.archive.org/web/20030831115210/http://www.w3.org/WAI/ER/IG/ert/iso639.htm">http://www.w3.org/WAI/ER/IG/ert/iso639.htm</a>
+<p>
+Currency/funds are specified by the ISO 4217 <a href="http://web.archive.org/web/20030831115210/http://www.bsi-global.com/Technical+Information/Publications/_Publications/tig90.xalter">http://www.bsi-global.com/Technical+Information/Publications/_Publications/tig90.xalter</a>
+<p>
+Discussion on Norwegian locales <a href="http://web.archive.org/web/20030831115210/https://lister.ping.uio.no/pipermail/lister.ping.uio.no/i18n-nn/2002-April.txt">https://lister.ping.uio.no/pipermail/lister.ping.uio.no/i18n-nn/2002-April.txt</a> <a href="http://web.archive.org/web/20030831115210/http://www.sprakrad.no/oss.htm">http://www.sprakrad.no/oss.htm</a>
+<p>
+The date and time formats are quite similar to the builting PHP date function, the main differences are those which returns textual representations of months and days. More info on the date function here: <a href="http://web.archive.org/web/20030831115210/http://www.php.net/manual/en/function.date.php">http://www.php.net/manual/en/function.date.php</a>
+<p>
+The following characters are not recognized in the format string:
+<p>
+B - Swatch Internet time r - RFC 822 formatted date; e.g. "Thu, 21 Dec 2000 16:01:07 +0200" (added in PHP 4.0.4) S - English ordinal suffix for the day of the month, 2 characters; i.e. "st", "nd", "rd" or "th"
+<p>
+The following characters are recognized in the format string:
+<p>
+a - "am" or "pm" A - "AM" or "PM" d - day of the month, 2 digits with leading zeros; i.e. "01" to "31" D - day of the week, textual, 3 letters; e.g. "Fri" F - month, textual, long; e.g. "January" g - hour, 12-hour format without leading zeros; i.e. "1" to "12" G - hour, 24-hour format without leading zeros; i.e. "0" to "23" h - hour, 12-hour format; i.e. "01" to "12" H - hour, 24-hour format; i.e. "00" to "23" i - minutes; i.e. "00" to "59" I (capital i) - "1" if Daylight Savings Time, "0" otherwise. j - day of the month without leading zeros; i.e. "1" to "31" l (lowercase 'L') - day of the week, textual, long; e.g. "Friday" L - boolean for whether it is a leap year; i.e. "0" or "1" m - month; i.e. "01" to "12" M - month, textual, 3 letters; e.g. "Jan" n - month without leading zeros; i.e. "1" to "12" O - Difference to Greenwich time in hours; e.g. "+0200" s - seconds; i.e. "00" to "59" t - number of days in the given month; i.e. "28" to "31" T - Timezone setting of this machine; e.g. "EST" or "MDT" U - seconds since the Unix Epoch (January 1 1970 00:00:00 GMT) w - day of the week, numeric, i.e. "0" (Sunday) to "6" (Saturday) W - ISO-8601 week number of year, weeks starting on Monday (added in PHP 4.1.0) Y - year, 4 digits; e.g. "1999" y - year, 2 digits; e.g. "99" z - day of the year; i.e. "0" to "365" Z - timezone offset in seconds (i.e. "-43200" to "43200"). The offset for timezones west of UTC is always negative, and for those east of UTC is always positive.
+<p>
+<dl compact><dt><b>See also: </b></dt><dd>
+eZLanguage </dl>
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00140">140</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZLocale::eZLocale"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::eZLocale </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>localeString</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the locale with the locale string <em>$localeString</em>. All locale data is read from locale/$localeString.ini 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00146">146</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01273">AM</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00552">charset()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01167">countryFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01299">DayNames</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01324">LanguageCode</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01193">languageFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01138">localeFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00442">localeInformation()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01271">MondayFirst</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01273">PM</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01220">instance()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a9" doxytag="eZLocale::charset"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::charset </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the charset for this locale. <dl compact><dt><b>Note: </b></dt><dd>
+It returns an empty string if no charset was set from the locale file. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00552">552</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00146">eZLocale()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00486">initPHP()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00442">localeInformation()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZLocale::countryCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::countryCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the code for the country. eg. 'NO' 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00576">576</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01167">countryFile()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01138">localeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZLocale::countryComment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::countryComment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the comment for the country, if any. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00568">568</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a45" doxytag="eZLocale::countryFile"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::countryFile </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>withVariation</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZINI">eZINI</a> object for the country ini file. <dl compact><dt><b>Warning: </b></dt><dd>
+Do not modify this object. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01167">1167</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00576">countryCode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01167">countryFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00584">countryVariation()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezini#l00202">eZINI::exists()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01241">isDebugEnabled()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezdebug#l00331">eZDebug::writeNotice()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01167">countryFile()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00146">eZLocale()</a>.    </td>
+  </tr>
+</table>
+<a name="d2" doxytag="eZLocale::countryList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::countryList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a list of countries which was found in the system, the countries are in identifier form, for instance: NO, GB, US </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01086">1086</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00431">localeRegexp()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZLocale::countryName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::countryName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the name of the country in British English. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00560">560</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01315">Country</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZLocale::countryVariation"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::countryVariation </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the variation for the country. eg. 'spraakraad' 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00584">584</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01167">countryFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01193">languageFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01138">localeFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00617">localeFullCode()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00442">localeInformation()</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZLocale::currencyName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::currencyName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the name of the currency. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00687">687</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a23" doxytag="eZLocale::currencyShortName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::currencyShortName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the short name of the currency. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00695">695</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZLocale::currencySymbol"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::currencySymbol </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the currency symbol for this locale. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00679">679</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZLocale::currentLocaleCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::currentLocaleCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the current locale code for this language which is the language and the country with a dash (-) between them, for instance nor-NO or eng-GB. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a16">localeCode</a>, instance </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00654">654</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01220">instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a39" doxytag="eZLocale::formatCurrency"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatCurrency </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>number</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>as_html</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the currency $number according to locale information and returns it. If $as_html is true all spaces are converted to &nbsp; before being returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00911">911</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a32" doxytag="eZLocale::formatDate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatDate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>date</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the date $date according to locale information and returns it. If $date is not specified the current date is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00805">805</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00842">formatDateType()</a>.    </td>
+  </tr>
+</table>
+<a name="a34" doxytag="eZLocale::formatDateTime"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatDateTime </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>date</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the date and time $date according to locale information and returns it. If $date is not specified the current date is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00823">823</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00870">formatDateTimeType()</a>.    </td>
+  </tr>
+</table>
+<a name="a37" doxytag="eZLocale::formatDateTimeType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatDateTimeType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>datetime</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the date and time <em>$datetime</em> according to the format <em>$fmt</em>. You shouldn't call this directly unless you want to deviate from the locale settings. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a34">formatDateTime()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a35">formatShortDateTime()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00870">870</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00967">longDayName()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01031">longMonthName()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00790">meridiemName()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00999">shortMonthName()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00823">formatDateTime()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00832">formatShortDateTime()</a>.    </td>
+  </tr>
+</table>
+<a name="a36" doxytag="eZLocale::formatDateType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatDateType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>date</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the date $date according to the format $fmt. You shouldn't call this directly unless you want to deviate from the locale settings. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a32">formatDate()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a33">formatShortDate()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00842">842</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00967">longDayName()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01031">longMonthName()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00999">shortMonthName()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00805">formatDate()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00814">formatShortDate()</a>.    </td>
+  </tr>
+</table>
+<a name="a38" doxytag="eZLocale::formatNumber"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatNumber </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>number</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the number $number according to locale information and returns it. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00898">898</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a33" doxytag="eZLocale::formatShortDate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatShortDate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>date</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the date $date according to locale information for short dates and returns it. If $date is not specified the current date is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00814">814</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00842">formatDateType()</a>.    </td>
+  </tr>
+</table>
+<a name="a35" doxytag="eZLocale::formatShortDateTime"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatShortDateTime </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>date</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the date and time $date according to locale information for short dates and returns it. If $date is not specified the current date is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00832">832</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00870">formatDateTimeType()</a>.    </td>
+  </tr>
+</table>
+<a name="a29" doxytag="eZLocale::formatShortTime"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatShortTime </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>time</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the time $time according to locale information for short times and returns it. If $time is not specified the current time is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00752">752</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00762">formatTimeType()</a>.    </td>
+  </tr>
+</table>
+<a name="a28" doxytag="eZLocale::formatTime"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatTime </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>time</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the time $time according to locale information and returns it. If $time is not specified the current time is used. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00743">743</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00762">formatTimeType()</a>.    </td>
+  </tr>
+</table>
+<a name="a30" doxytag="eZLocale::formatTimeType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::formatTimeType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>time</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Formats the time $time according to the format $fmt. You shouldn't call this directly unless you want to deviate from the locale settings. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a28">formatTime()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a29">formatShortTime()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00762">762</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00790">meridiemName()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00752">formatShortTime()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00743">formatTime()</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZLocale::httpLocaleCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::httpLocaleCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the locale code which can be set in either HTTP headers or the HTML file. The locale code is first check for in the RegionalSettings/HTTPLocale setting in site.ini, if that is empty it will use the value from <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a16">localeCode()</a>. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a16">localeCode</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00632">632</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00609">localeCode()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZLocale::initPHP"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::initPHP </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>charset</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets locale information in PHP. This means that some of the string/sort functions in PHP will work with non-latin1 characters. Make sure setLanguage is called before this. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00486">486</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00552">charset()</a>.    </td>
+  </tr>
+</table>
+<a name="a47" doxytag="eZLocale::instance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::instance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>localeString</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns an unique instance of the locale class for a given locale string. If $localeString is not specified the default local string in site.ini is used. Use this instead of newing eZLocale to benefit from speed and unified access. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01220">1220</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00146">eZLocale()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01220">instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00654">currentLocaleCode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezcurrency#l00066">eZCurrency::eZCurrency()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezdate#l00093">eZDate::eZDate()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezdatetime#l00100">eZDateTime::eZDateTime()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/eztemplatelocaleoperator#l00064">eZTemplateLocaleOperator::eZTemplateLocaleOperator()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/eztime#l00107">eZTime::eZTime()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01220">instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01049">localeList()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezcontentobject#l01585">eZContentObject::translationList()</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZLocale::internationalLanguageName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::internationalLanguageName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the name of the language in English (eng). 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00671">671</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01328">IntlLanguageName</a>.    </td>
+  </tr>
+</table>
+<a name="d4" doxytag="eZLocale::isDebugEnabled"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::isDebugEnabled </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if debugging of internals is enabled, this will display which files are loaded and when cache files are created. Set the option with <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#d5">setIsDebugEnabled()</a>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01241">1241</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01167">countryFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01193">languageFile()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01138">localeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="a24" doxytag="eZLocale::isMondayFirst"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::isMondayFirst </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if the week starts with monday, false if sunday. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a25">weekDays()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00704">704</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01271">MondayFirst</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZLocale::isValid"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::isValid </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the locale is valid, ie the locale file could be loaded. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00320">320</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZLocale::languageCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::languageCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the language code for this language, for instance nor for norwegian or eng for english. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00592">592</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01324">LanguageCode</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01193">languageFile()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01138">localeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZLocale::languageComment"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::languageComment </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the comment for the language, if any. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00600">600</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a46" doxytag="eZLocale::languageFile"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::languageFile </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>withVariation</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZINI">eZINI</a> object for the language ini file. <dl compact><dt><b>Warning: </b></dt><dd>
+Do not modify this object. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01193">1193</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00584">countryVariation()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezini#l00202">eZINI::exists()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01241">isDebugEnabled()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00592">languageCode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01193">languageFile()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezdebug#l00331">eZDebug::writeNotice()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00146">eZLocale()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01193">languageFile()</a>.    </td>
+  </tr>
+</table>
+<a name="d3" doxytag="eZLocale::languageList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::languageList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a list of languages which was found in the system, the languages are in identifier form, for instance: nor, eng </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01112">1112</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00431">localeRegexp()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZLocale::languageName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::languageName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the name of the language in its own tounge. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00663">663</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01326">LanguageName</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZLocale::localeCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::localeCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the locale code for this language which is the language and the country with a dash (-) between them, for instance nor-NO or eng-GB. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00609">609</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00632">httpLocaleCode()</a>.    </td>
+  </tr>
+</table>
+<a name="a44" doxytag="eZLocale::localeFile"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::localeFile </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>withVariation</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZINI">eZINI</a> object for the locale ini file. <dl compact><dt><b>Warning: </b></dt><dd>
+Do not modify this object. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01138">1138</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00576">countryCode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00584">countryVariation()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezini#l00202">eZINI::exists()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01241">isDebugEnabled()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00592">languageCode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01138">localeFile()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezdebug#l00331">eZDebug::writeNotice()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00146">eZLocale()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01138">localeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZLocale::localeFullCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::localeFullCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Same as <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a16">localeCode()</a> but appends the country variation if it is set. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00617">617</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00584">countryVariation()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZLocale::localeInformation"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::localeInformation </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>localeString</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Decodes a locale string into language, country and charset and returns an array with the information. Country and charset is optional, country is specified with a - or _ followed by the country code (NO, GB), charset is specified with a . followed by the charset name. Examples of locale strings are: nor-NO, en_GB.utf8, nn_NO 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00442">442</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00552">charset()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00584">countryVariation()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00146">eZLocale()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZLocale::localeList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::localeList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>asObject</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a list of locale objects which was found in the system. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01049">1049</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01220">instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00431">localeRegexp()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZLocale::localeRegexp"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::localeRegexp </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a regexp which can be used for locale matching. The following groups are defiend<ul>
+<li>1 - The language identifier<li>2 - The separator and the country (3)<li>3 - The country identifier<li>4 - The separator and the charset (5)<li>5 - The charset<li>6 - The separator and the variation (7)<li>7 - The variation </ul>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00431">431</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01086">countryList()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01112">languageList()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01049">localeList()</a>.    </td>
+  </tr>
+</table>
+<a name="a41" doxytag="eZLocale::longDayName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::longDayName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>num</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the long name of the day number $num. The different numbers for the days are: Sunday = 0 Monday = 1 Tuesday = 2 Wednesday = 3 Thursday = 4 Friday = 5 Saturday = 6 This functions is usually used together with <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a25">weekDays()</a>. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a40">shortDayName()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00967">967</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01299">DayNames</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00870">formatDateTimeType()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00842">formatDateType()</a>.    </td>
+  </tr>
+</table>
+<a name="a43" doxytag="eZLocale::longMonthName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::longMonthName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>num</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the long name of the month number $num. The different numbers for the months are: Januray = 1 February = 2 March = 3 April = 4 May = 5 June = 6 July = 7 August = 8 September = 9 October = 10 November = 11 December = 12 This functions is usually used together with <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a26">months()</a>. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a42">shortMonthName()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01031">1031</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00870">formatDateTimeType()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00842">formatDateType()</a>.    </td>
+  </tr>
+</table>
+<a name="a31" doxytag="eZLocale::meridiemName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::meridiemName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>time</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>upcase</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the name for the meridiem ie am (ante meridiem) or pm (post meridiem). If $time is not supplied or false the current time is used. If $upcase is false the name is in lowercase otherwise uppercase. The time is defined to be am if the hour is less than 12 and pm otherwise. Normally the hours 00 and 12 does not have am/pm attached and are instead called Midnight and Noon, but for simplicity the am/pm is always attached (if the locale allows it). 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00790">790</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01273">AM</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01273">PM</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00870">formatDateTimeType()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00762">formatTimeType()</a>.    </td>
+  </tr>
+</table>
+<a name="a26" doxytag="eZLocale::months"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::months </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the months of the year as an array. This only supplied for completeness. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a25">weekDays()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00723">723</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="d5" doxytag="eZLocale::setIsDebugEnabled"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::setIsDebugEnabled </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>debug</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets whether internal debugging is enabled or not. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01252">1252</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a40" doxytag="eZLocale::shortDayName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::shortDayName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>num</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the short name of the day number $num. The different numbers for the days are: Sunday = 0 Monday = 1 Tuesday = 2 Wednesday = 3 Thursday = 4 Friday = 5 Saturday = 6 This functions is usually used together with <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a25">weekDays()</a>. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a41">longDayName()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00940">940</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l01299">DayNames</a>.    </td>
+  </tr>
+</table>
+<a name="a42" doxytag="eZLocale::shortMonthName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZLocale::shortMonthName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>num</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the short name of the month number $num. The different numbers for the months are: Januray = 1 February = 2 March = 3 April = 4 May = 5 June = 6 July = 7 August = 8 September = 9 October = 10 November = 11 December = 12 This functions is usually used together with <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a26">months()</a>. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a43">longMonthName()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00999">999</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00870">formatDateTimeType()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00842">formatDateType()</a>.    </td>
+  </tr>
+</table>
+<a name="a27" doxytag="eZLocale::weekDayNames"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::weekDayNames </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>short</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the same array as in <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a25">weekDays()</a> but with all days translated to text. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00731">731</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<a name="a25" doxytag="eZLocale::weekDays"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZLocale::weekDays </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns an array with the days of the week according to locale information. Each entry in the array can be supplied to the <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a40">shortDayName()</a> and <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a41">longDayName()</a> functions. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a24">isMondayFirst()</a>, <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/class/eZLocale#a27">weekDayNames()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale#l00714">714</a> of file <a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030831115210/http://www.ez.no/sdk/ref/view/source/ezlocale">ezlocale.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030831115210/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030831115210/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 11:52:10 Aug 31, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:00:26 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.191
+  exclusion.robots: 0.041
+  exclusion.robots.policy: 0.025
+  esindex: 0.016
+  cdx.remote: 28.699
+  LoadShardBlock: 316.895 (3)
+  PetaboxLoader3.datanode: 172.364 (4)
+  PetaboxLoader3.resolve: 266.203 (3)
+  load_resource: 144.592
+-->

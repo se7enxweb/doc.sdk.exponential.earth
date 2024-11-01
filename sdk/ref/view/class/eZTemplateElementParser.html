@@ -1,0 +1,1411 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZTemplateElementParser","20030823132339","http://web.archive.org/","web","/_static/",
+	      "1061645019");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823132339cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823132339cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823132339cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823132339/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823132339im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTemplateElementParser Class Reference</h1>The class eZTemplateElementParser does. 
+<a href="eZTemplateElementParser.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/members/eZTemplateElementParser">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a0">eZTemplateElementParser</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a2">parseVariableTag</a> (&amp;$tpl,&amp;$text,$startPosition,&amp;$endPosition,$textLength,$defaultNamespace,$allowedType=false,$maxElements=false,$endMarker=false,$undefinedType=EZ_TEMPLATE_TYPE_ATTRIBUTE)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a3">variableEndPos</a> (&amp;$tpl,&amp;$text,$startPosition,$textLength,&amp;$namespace,&amp;$name,&amp;$scope)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a4">identifierEndPosition</a> (&amp;$tpl,&amp;$text,$start_pos,$len)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a5">quoteEndPos</a> (&amp;$tpl,&amp;$text,$startPosition,$textLength,$quote)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a6">numericEndPos</a> (&amp;$tpl,&amp;$text,$start_pos,$len,&amp;$float)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a7">whitespaceEndPos</a> (&amp;$tpl,&amp;$text,$currentPosition,$textLength)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a8">isWhitespace</a> (&amp;$tpl,&amp;$text,$startPosition)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a10">eZTemplateElementParser</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a12">parseVariableTag</a> (&amp;$tpl,&amp;$text,$startPosition,&amp;$endPosition,$textLength,$defaultNamespace,$allowedType=false,$maxElements=false,$endMarker=false,$undefinedType=EZ_TEMPLATE_TYPE_ATTRIBUTE)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a13">parseVariableTag2</a> (&amp;$tpl,&amp;$text,$start_pos,&amp;$end,$len,$def_nspace)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a14">parseOperators</a> (&amp;$tpl,&amp;$text,$start_pos,&amp;$end,$len,$def_nspace,$start_with_oper=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a15">parseAttribute</a> (&amp;$tpl,&amp;$text,$start_pos,&amp;$end,$len,$def_nspace)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a16">parseVariableAndAttributes</a> (&amp;$tpl,&amp;$text,$start_pos,&amp;$end,$len,$def_nspace)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a17">variableEndPos</a> (&amp;$tpl,&amp;$text,$startPosition,$textLength,&amp;$namespace,&amp;$name,&amp;$scope)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a18">identifierEndPosition</a> (&amp;$tpl,&amp;$text,$start_pos,$len)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a19">quoteEndPos</a> (&amp;$tpl,&amp;$text,$startPosition,$textLength,$quote)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a20">numericEndPos</a> (&amp;$tpl,&amp;$text,$start_pos,$len,&amp;$float)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a21">whitespaceEndPos</a> (&amp;$tpl,&amp;$text,$currentPosition,$textLength)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZTemplateElementParser.html#a22">isWhitespace</a> (&amp;$tpl,&amp;$text,$startPosition)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The class eZTemplateElementParser does.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00048">48</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZTemplateElementParser::eZTemplateElementParser"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::eZTemplateElementParser </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructor 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00053">53</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZTemplateElementParser::eZTemplateElementParser"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::eZTemplateElementParser </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructor 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00088">88</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a18" doxytag="eZTemplateElementParser::identifierEndPosition"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::identifierEndPosition </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_pos</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>len</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the end position of the identifier. If no identifier was found the end position is returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00728">728</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00391">eZDebug::writeDebug()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZTemplateElementParser::identifierEndPosition"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::identifierEndPosition </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_pos</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>len</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the end position of the identifier. If no identifier was found the end position is returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">432</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00553">parseAttribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00496">parseOperators()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00583">parseVariableAndAttributes()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00384">parseVariableTag2()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">variableEndPos()</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZTemplateElementParser::isWhitespace"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::isWhitespace </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>startPosition</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the position of the first non-whitespace characters. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00835">835</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZTemplateElementParser::isWhitespace"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::isWhitespace </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>startPosition</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the position of the first non-whitespace characters. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00539">539</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZTemplateElementParser::numericEndPos"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::numericEndPos </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_pos</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>len</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>float</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the end position of the numeric. If no numeric was found the end position is returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00766">766</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00470">numericEndPos()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00391">eZDebug::writeDebug()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZTemplateElementParser::numericEndPos"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::numericEndPos </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_pos</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>len</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>float</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the end position of the numeric. If no numeric was found the end position is returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00470">470</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00766">numericEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00553">parseAttribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00384">parseVariableTag2()</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZTemplateElementParser::parseAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateElementParser::parseAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_pos</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>end</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>len</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def_nspace</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Parses attribute syntax. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00553">553</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00470">numericEndPos()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00583">parseVariableAndAttributes()</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZTemplateElementParser::parseOperators"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateElementParser::parseOperators </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_pos</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>end</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>len</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def_nspace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_with_oper</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Parses operator syntax. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00496">496</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00384">parseVariableTag2()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZTemplateElementParser::parseVariableAndAttributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateElementParser::parseVariableAndAttributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_pos</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>end</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>len</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def_nspace</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Parses variables and attributes. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00583">583</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00553">parseAttribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00384">parseVariableTag2()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZTemplateElementParser::parseVariableTag"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::parseVariableTag </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>startPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>endPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>textLength</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>defaultNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>allowedType</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>maxElements</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>endMarker</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>undefinedType</em> = EZ_TEMPLATE_TYPE_ATTRIBUTE</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Parses the variable and operators into a structure. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00113">113</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00470">numericEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00452">quoteEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">variableEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00524">whitespaceEndPos()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00391">eZDebug::writeDebug()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZTemplateElementParser::parseVariableTag"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::parseVariableTag </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>startPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>endPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>textLength</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>defaultNamespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>allowedType</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>maxElements</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>endMarker</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>undefinedType</em> = EZ_TEMPLATE_TYPE_ATTRIBUTE</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Parses the variable and operators into a structure. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">78</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00470">numericEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00452">quoteEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">variableEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00524">whitespaceEndPos()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00391">eZDebug::writeDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00553">parseAttribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00496">parseOperators()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">variableEndPos()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZTemplateElementParser::parseVariableTag2"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTemplateElementParser::parseVariableTag2 </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>start_pos</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>end</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>len</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>def_nspace</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Parses the variable and operators into a structure. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00384">384</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00470">numericEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00496">parseOperators()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00583">parseVariableAndAttributes()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00452">quoteEndPos()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00391">eZDebug::writeDebug()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZTemplateElementParser::quoteEndPos"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::quoteEndPos </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>startPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>textLength</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>quote</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the end position of the quote $quote. If no quote was found the end position is returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00748">748</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZTemplateElementParser::quoteEndPos"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::quoteEndPos </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>startPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>textLength</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>quote</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the end position of the quote $quote. If no quote was found the end position is returned. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00452">452</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00384">parseVariableTag2()</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZTemplateElementParser::variableEndPos"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::variableEndPos </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>startPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>textLength</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scope</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the end position of the variable. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00647">647</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">variableEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00391">eZDebug::writeDebug()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZTemplateElementParser::variableEndPos"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::variableEndPos </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>startPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>textLength</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>namespace</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scope</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the end position of the variable. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">351</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00432">identifierEndPosition()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">variableEndPos()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00391">eZDebug::writeDebug()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">variableEndPos()</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZTemplateElementParser::whitespaceEndPos"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::whitespaceEndPos </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>textLength</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the position of the first non-whitespace characters. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00820">820</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZTemplateElementParser::whitespaceEndPos"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTemplateElementParser::whitespaceEndPos </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>tpl</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>text</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentPosition</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>textLength</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the position of the first non-whitespace characters. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00524">524</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">parseVariableTag()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following files:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateelementparser">eztemplateelementparser.php</a><li><a class="dox_el" href="http://web.archive.org/web/20030823132339/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser">eztemplateoldelementparser.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823132339/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823132339/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 13:23:39 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:32:21 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.492
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.01
+  cdx.remote: 5.753
+  LoadShardBlock: 85.553 (3)
+  PetaboxLoader3.datanode: 151.04 (4)
+  load_resource: 196.454
+  PetaboxLoader3.resolve: 103.702
+-->

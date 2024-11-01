@@ -1,0 +1,1258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZCollaborationItemHandler","20030823132756","http://web.archive.org/","web","/_static/",
+	      "1061645276");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823132756cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823132756cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823132756cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823132756/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823132756im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZCollaborationItemHandler Class Reference</h1>The class eZCollaborationItemHandler does. 
+<a href="eZCollaborationItemHandler.html#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZCollaborationItemHandler:
+<p><center><img src="http://web.archive.org/web/20030823132756im_/http://ez.no/doc/generated/html/classeZCollaborationItemHandler.png" usemap="#eZCollaborationItemHandler_map" border="0" alt=""></center>
+<map name="eZCollaborationItemHandler_map">
+<area href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/class/eZApproveCollaborationHandler" alt="eZApproveCollaborationHandler" shape="rect" coords="0,56,197,80">
+</map>
+<a href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/members/eZCollaborationItemHandler">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a0">eZCollaborationItemHandler</a> ($typeIdentifier,$typeName,$parameters=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a1">hasAttribute</a> ($attribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a2">attribute</a> ($attribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a3">hasContentAttribute</a> (&amp;$collaborationItem,$attribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a4">contentAttribute</a> (&amp;$collaborationItem,$attribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a5">classes</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a6">template</a> ($viewMode)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a7">templateName</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a8">title</a> (&amp;$collaborationItem)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a9">useMessages</a> (&amp;$collaborationItem)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a10">messageCount</a> (&amp;$collaborationItem)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a11">unreadMessageCount</a> (&amp;$collaborationItem)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a12">readItem</a> (&amp;$collaborationItem)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a13">participantTypeString</a> ($participantType)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a14">participantRoleString</a> ($participantRole)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a15">roleName</a> ($collaborationID,$roleID)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a16">content</a> (&amp;$collaborationItem)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a17">handleCustomAction</a> (&amp;$module,&amp;$collaborationItem)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a18">isCustomAction</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a19">hasCustomInput</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#a20">customInput</a> ($name)</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#d0">ini</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#d1">defaultRepositories</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#d2">extensionRepositories</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#d3">handlerRepositories</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#d4">activeHandlers</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#d5">instantiate</a> ($handler,$repositories=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#d6">fetchList</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZCollaborationItemHandler::Info"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCollaborationItemHandler.html#m0">Info</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>\privatesection</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The class eZCollaborationItemHandler does.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00049">49</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZCollaborationItemHandler::eZCollaborationItemHandler"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::eZCollaborationItemHandler </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>typeIdentifier</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>typeName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>parameters</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the handler with identifier and name. Optional parameters can be placed in <em>$parameters</em>. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00055">55</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00391">Info</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezapprovecollaborationhandler#l00082">eZApproveCollaborationHandler::eZApproveCollaborationHandler()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="d4" doxytag="eZCollaborationItemHandler::activeHandlers"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::activeHandlers </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with handler identifiers that are considered active. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00315">315</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00189">ini()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00373">fetchList()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZCollaborationItemHandler::attribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZCollaborationItemHandler::attribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attribute <em>$attribute</em> if it exists or <code>null</code>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00078">78</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00078">attribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00391">Info</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00078">attribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00101">contentAttribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00070">hasAttribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00088">hasContentAttribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZCollaborationItemHandler::classes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::classes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a list of classes this handler supports. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00115">115</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00391">Info</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezapprovecollaborationhandler#l00082">eZApproveCollaborationHandler::eZApproveCollaborationHandler()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezapprovecollaborationhandler#l00092">eZApproveCollaborationHandler::title()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZCollaborationItemHandler::content"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::content </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>collaborationItem</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the content of the collaborationitem. </dl><dl compact><dt><b>Note: </b></dt><dd>
+This is specific to the item type, some might return an array and others an object. </dl>
+<p>
+Reimplemented in <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/class/eZApproveCollaborationHandler#a2">eZApproveCollaborationHandler</a>.
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00225">225</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00101">contentAttribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00088">hasContentAttribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZCollaborationItemHandler::contentAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZCollaborationItemHandler::contentAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>collaborationItem</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attribute <em>$attribute</em> if it exists in the content data or <code>null</code>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00101">101</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00078">attribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00225">content()</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZCollaborationItemHandler::customInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::customInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+value of the custom input variable <em>$name</em>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00263">263</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezapprovecollaborationhandler#l00230">eZApproveCollaborationHandler::handleCustomAction()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZCollaborationItemHandler::defaultRepositories"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::defaultRepositories </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with directories which acts as default collaboration repositories. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZCollaborationItemHandler.html#d3">handlerRepositories</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00275">275</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00189">ini()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00297">handlerRepositories()</a>.    </td>
+  </tr>
+</table>
+<a name="d2" doxytag="eZCollaborationItemHandler::extensionRepositories"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::extensionRepositories </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with directories which acts as collaboration extension repositories. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZCollaborationItemHandler.html#d3">handlerRepositories</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00286">286</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00189">ini()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00297">handlerRepositories()</a>.    </td>
+  </tr>
+</table>
+<a name="d6" doxytag="eZCollaborationItemHandler::fetchList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZCollaborationItemHandler::fetchList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a list of collaboration handler objects. </dl><dl compact><dt><b>See also: </b></dt><dd>
+instantiate, <a class="dox_el" href="eZCollaborationItemHandler.html#d4">activeHandlers</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00373">373</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00315">activeHandlers()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00297">handlerRepositories()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00326">instantiate()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00326">instantiate()</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZCollaborationItemHandler::handleCustomAction"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::handleCustomAction </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>module</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>collaborationItem</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+This function is called when a custom action is executed for a specific collaboration item. The module object is available in <em>$module</em> and the item in <em>$collaborationItem</em>. <dl compact><dt><b>Note: </b></dt><dd>
+The default does nothing, the function must be reimplemented in real handlers. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZCollaborationItemHandler.html#a18">isCustomAction</a> </dl>
+<p>
+Reimplemented in <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/class/eZApproveCollaborationHandler#a8">eZApproveCollaborationHandler</a>.
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00236">236</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="d3" doxytag="eZCollaborationItemHandler::handlerRepositories"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::handlerRepositories </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with directories which acts as collaboration repositories. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZCollaborationItemHandler.html#d1">defaultRepositories</a>, <a class="dox_el" href="eZCollaborationItemHandler.html#d2">extensionRepositories</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00297">297</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezextension#l00061">eZExtension::baseDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00275">defaultRepositories()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00286">extensionRepositories()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezdir#l00248">eZDir::path()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00373">fetchList()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00326">instantiate()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZCollaborationItemHandler::hasAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::hasAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the attribute <em>$attribute</em> exists. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00070">70</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00078">attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZCollaborationItemHandler::hasContentAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::hasContentAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>collaborationItem</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the attribute <em>$attribute</em> exists in the content data. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00088">88</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00078">attribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00225">content()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZCollaborationItemHandler::hasCustomInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::hasCustomInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the custom input variable <em>$name</em> exists. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00253">253</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZCollaborationItemHandler::ini"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZCollaborationItemHandler::ini </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the ini object which handles collaboration settings. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00189">189</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00315">activeHandlers()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00275">defaultRepositories()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00286">extensionRepositories()</a>.    </td>
+  </tr>
+</table>
+<a name="d5" doxytag="eZCollaborationItemHandler::instantiate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZCollaborationItemHandler::instantiate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>handler</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>repositories</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a unique instance of the handler for the identifier <em>$handler</em>. If <em>$repositories</em> is left out it will use the handlerRepositories. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00326">326</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00373">fetchList()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00297">handlerRepositories()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezdir#l00248">eZDir::path()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00373">fetchList()</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZCollaborationItemHandler::isCustomAction"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::isCustomAction </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the current custom action is <em>$name</em>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00243">243</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezhttptool#l00208">eZHTTPTool::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezapprovecollaborationhandler#l00230">eZApproveCollaborationHandler::handleCustomAction()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZCollaborationItemHandler::messageCount"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::messageCount </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>collaborationItem</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the number of messages for the collaboration item <em>$collaborationItem</em>. </dl><dl compact><dt><b>Note: </b></dt><dd>
+The default implementation returns 0, if you want real counts the handler must reimplement this function. </dl>
+<p>
+Reimplemented in <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/class/eZApproveCollaborationHandler#a5">eZApproveCollaborationHandler</a>.
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00161">161</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZCollaborationItemHandler::participantRoleString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::participantRoleString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>participantRole</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a textual representation of the participant role id <em>$participantRole</em> </dl><dl compact><dt><b>Note: </b></dt><dd>
+It's up to the real handlers to implement this if they use custom participation roles. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00207">207</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZCollaborationItemHandler::participantTypeString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::participantTypeString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>participantType</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a textual representation of the participant type id <em>$participantType</em> </dl><dl compact><dt><b>Note: </b></dt><dd>
+It's up to the real handlers to implement this if they use custom participation types. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00198">198</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZCollaborationItemHandler::readItem"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::readItem </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>collaborationItem</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+This is called whenever the item is considered to be read, it can be used by handlers to update when the item was last read. <dl compact><dt><b>Note: </b></dt><dd>
+Default implementation does nothing. </dl>
+<p>
+Reimplemented in <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/class/eZApproveCollaborationHandler#a4">eZApproveCollaborationHandler</a>.
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00181">181</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZCollaborationItemHandler::roleName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::roleName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>collaborationID</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>roleID</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a description of the role id <em>$roleID</em> in the current language. </dl><dl compact><dt><b>Note: </b></dt><dd>
+It's up to the real handlers to implement this if they use custom participation roles. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00216">216</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZCollaborationItemHandler::template"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::template </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>viewMode</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the template name for the viewmode <em>$viewmode</em>. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00123">123</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00133">templateName()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZCollaborationItemHandler::templateName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::templateName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the name of the template file for this handler. Default is to append .tpl to the identifier. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00133">133</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00391">Info</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00123">template()</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZCollaborationItemHandler::title"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::title </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>collaborationItem</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the title of the collaboration item. </dl>
+<p>
+Reimplemented in <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/class/eZApproveCollaborationHandler#a1">eZApproveCollaborationHandler</a>.
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00141">141</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00391">Info</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZCollaborationItemHandler::unreadMessageCount"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::unreadMessageCount </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>collaborationItem</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the number of unread messages for the collaboration item <em>$collaborationItem</em>. </dl><dl compact><dt><b>Note: </b></dt><dd>
+The default implementation returns 0, if you want real counts the handler must reimplement this function. </dl>
+<p>
+Reimplemented in <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/class/eZApproveCollaborationHandler#a6">eZApproveCollaborationHandler</a>.
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00171">171</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZCollaborationItemHandler::useMessages"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCollaborationItemHandler::useMessages </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>collaborationItem</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the collaboration item <em>$collaborationItem</em> supports messages. </dl><dl compact><dt><b>Note: </b></dt><dd>
+The handler can either determine this by passing <em>$useMessages</em> to the constructor or by reimplementing this function to do it per item. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00151">151</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00391">Info</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823132756/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler">ezcollaborationitemhandler.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823132756/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823132756/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 13:27:56 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:59:17 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.646
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.01
+  esindex: 0.012
+  cdx.remote: 21.976
+  LoadShardBlock: 350.308 (3)
+  PetaboxLoader3.resolve: 723.878 (4)
+  PetaboxLoader3.datanode: 141.335 (4)
+  load_resource: 544.113
+-->

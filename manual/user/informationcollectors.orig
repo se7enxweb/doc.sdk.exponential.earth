@@ -1,0 +1,431 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/manual/user/informationcollectors","20030806090221","http://web.archive.org/","web","/_static/",
+	      "1060160541");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+    <link rel="stylesheet" type="text/css" href="/web/20030806090221cs_/http://ez.no/design/ezno/stylesheets/core.css"/>
+    <link rel="stylesheet" type="text/css" href="/web/20030806090221cs_/http://ez.no/design/standard/stylesheets/manual.css"/>
+
+    <title>  eZ publish - user / informationcollectors  </title>
+
+    
+    
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
+
+        <meta http-equiv="Content-language" content="en-GB"/>
+
+    
+        <meta name="author" content="eZ systems"/>
+
+        <meta name="copyright" content="eZ systems"/>
+
+        <meta name="description" content="user informationcollectors "/>
+
+        <meta name="keywords" content="cms, publish, e-commerce, content management"/>
+
+    
+    <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
+    <meta name="generator" content="eZ publish"/>
+
+<link rel="Home" href="/" title="eZ publish front page"/>
+<link rel="Index" href="/"/>
+<link rel="Top" href="/" title="  eZ publish - user / informationcollectors  "/>
+<link rel="Search" href="/web/20030806090221/http://ez.no/content/advancedsearch" title="Search eZ publish"/>
+<link rel="Shortcut icon" href="/web/20030806090221im_/http://ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
+<link rel="Copyright" href="/web/20030806090221/http://ez.no/ezinfo/copyright"/>
+<link rel="Author" href="/ezinfo/about"/>
+<link rel="Help" href="/manual"/><link rel="Glossary" href="/sdk"/><link rel="Alternate" href="/web/20030806090221/http://ez.no/layout/set/print/manual/user/informationcollectors" media="print" title="Printable version"/>
+</head>
+
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt=""/></td>
+    <td class="headlink" width="66">
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030806090221im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030806090221im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030806090221/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030806090221im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030806090221im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030806090221im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030806090221im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030806090221/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030806090221im_/http://ez.no/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+<tr>
+    <td class="pathline" colspan="11">
+    
+    <p class="path">
+    &nbsp;
+                    user
+        
+                    <span class="slash">/</span>
+                        informationcollectors
+        
+                &nbsp;</p>
+    </td>
+</tr>
+</table>
+
+
+
+
+
+<table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td colspan="2">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+
+<tr>
+	<td>
+<table width="100%" cellspacing="0" cellpadding="4"><tr>
+    <td width="160" bgcolor="#ffffff" valign="top">
+    
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">About eZ publish</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/about/about">About eZ publish 3</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/about/definitions">eZ publish 3 definitions</a></p>
+    </td>
+</tr>
+</table>
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Installation &amp; configuration</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/install/installer">Install using installers</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/install/setup_guide">Install using the setup guide</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/install/install_manually">Install manually</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/install/siteaccess">Site access</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/install/multisite">Multi site configuration</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/install/uninstall">Uninstall</a></p>
+    </td>
+</tr>
+</table>
+
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Security</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/security/securing">Securing the site</a></p>
+    </td>
+</tr>
+
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Setup &amp; design</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/setup/pagesetup">Page setup</a></p>
+    </td>
+</tr>
+
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">User Manual</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/user/everyday">Everyday functions</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/user/permissions">Permissions</a></p>
+    </td>
+</tr>
+
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/user/e-commerce">e-commerce functions and settings</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/user/workflows">Workflows</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/web/20030806090221/http://ez.no/manual/user/informationcollectors">Information collector</a></p>
+    </td>
+</tr>
+</table>
+
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">SDK &amp; Technical references</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/web/20030806090221im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030806090221/http://ez.no/sdk" }>eZ publish SDK</a></p>
+    </td>
+</tr>
+</table>
+
+    
+    </td>
+    <td width="450" bgcolor="#ffffff" valign="top">
+    
+
+    <h1>Information collectors</h1>
+
+<p>
+In eZ publish 3 we have added what we call Information Collector. This feature can be used to create forms.
+</p>
+
+<p>
+To make a form that is usable from your site is also quite easy in eZ publish.
+What you need to do is to make a new class. Click the "Classes" button in the "Setup" box
+and choose where you want to add the form. When you have decided where to put the form you
+click "New" which will take you to the "Editing class type - New Class" page.
+Add the different attributes you want to have in your form.
+</p>
+
+<p>
+An example can be the attributes Name, e-mail and What's my problem and we name the form "Contact me".
+When we add these attributes we also get a choice on the right side of the attributes; the "Type".
+The "Type" has three lines; "Required", "Searchable" and "Information collector".
+</p>
+
+<p><img src="/web/20030806090221im_/http://ez.no/kernel/manual/user/images/infocollector.jpg" border="1"></p>
+
+<p></p>
+<p class="important">
+Required: if an attribute is required the use must fill in values to this attribute when an object
+is created.
+</p>
+
+<p></p>
+<p class="important">
+Searchable: Searchable means that the content input by the user in the specific attribute is indexed
+in the search engine.
+</p>
+
+<p></p>
+<p class="important">
+Information collector: This is where we make the form. if you check the box for this you will include
+this field in the form. In our example we want all the three attributes included and therefore check
+the "Information collector" box for all attributes.
+</p>
+
+<p>
+When you now click "Store" you have created the form and added it to the place you want it to be seen.
+To use the form you now go to "Lists" in the "Content" box. Choose "Form" in the drop down menu and
+click "New".
+</p>
+
+<p>
+You now have your form and as soon as you click "Publish" it is available on your site.
+</p>
+
+<p>
+The e-mail will be sent to the e-mail address that is mentioned in the site.ini file.
+</p>
+
+    </td>
+    <td width="1%" bgcolor="#ffffff" valign="top">
+    </td>
+</tr>
+</table>
+
+    </td>
+</tr>
+</table>
+<div align="center" style="padding-top: 0.5em;">
+<p class="small"><a href="http://web.archive.org/web/20030806090221/http://ez.no/">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030806090221/http://ez.no/">eZ systems as</a></p>
+</div>
+
+ </body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:02:21 Aug 06, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:42:41 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.453
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 5.655
+  LoadShardBlock: 262.514 (3)
+  PetaboxLoader3.resolve: 311.994 (4)
+  PetaboxLoader3.datanode: 210.954 (4)
+  load_resource: 267.382
+-->

@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/</loc>
+  <lastmod>2024-10-31T13:27:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/toc.html</loc>
+  <lastmod>2024-10-31T13:46:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_functions.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/xml_tags.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/database_diagram.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/about_the_documentation/guidelines.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_3_4.html</loc>
+  <lastmod>2024-10-31T13:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_3_4/content_object_export_with_ezpm.html</loc>
+  <lastmod>2024-10-31T13:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_3_4/content_object_import_and_export.html</loc>
+  <lastmod>2024-10-31T13:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_3_4/ini_settings_module.html</loc>
+  <lastmod>2024-10-31T13:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_3_4/using_look_and_feel_to_configure_your_site.html</loc>
+  <lastmod>2024-10-31T13:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_3_4/using_settings_object_to_change_ini_settings.html</loc>
+  <lastmod>2024-10-31T13:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_3_4/using_database_schema_checker.html</loc>
+  <lastmod>2024-10-31T13:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_3_4/using_file_consistency_check.html</loc>
+  <lastmod>2024-10-31T13:49:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/about_the_documentation.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/about_the_documentation/structure.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/about_the_documentation/status.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/about_the_documentation/comments.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_publish/possibilities_with_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_publish/benefits.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_publish/the_main_key_features_of_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_publish/the_history_of_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_publish/differences_between_ez_publish_2_x_and_3_x.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_publish/ez_publish_requirements.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_publish/releases.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_systems.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_systems/the_business_model_and_services_of_ez_systems.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_systems/support.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_systems/training_and_certification.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_systems/consulting.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_systems/commercial_licences.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_systems/partner.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/general_information/what_is_ez_systems/contact.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/normal_installation.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/normal_installation/requirements_for_doing_a_normal_installation.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/normal_installation/installing_ez_publish_on_a_linux_unix_based_system.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/normal_installation/installing_ez_publish_on_a_windows_based_system.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/bundled_installation.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/bundled_installation/requirements_for_doing_a_bundled_installation.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/bundled_installation/ez_publish_bundle_for_linuxunix_based_systems.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/bundled_installation/ez_publish_bundle_for_windows_based_systems.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/manual_installation.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/manual_installation/requirements_for_doing_a_manual_installation.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/manual_installation/manual_installation_on_a_linux_unix_based_system.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/manual_installation/manual_installation_on_a_windows_based_system.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/manual_installation/manual_configuration_of_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/the_setup_wizard.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/the_cronjob_script.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/virtual_host_setup.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/upgrading.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/upgrading/upgrading_ez_publish_from_3_a_b_to_3_x_y.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/adding_extensions.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/removing_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/removing_ez_publish/removing_a_normal_ez_publish_installation.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/removing_ez_publish/removing_a_bundled_ez_publish_installation.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/installation/removing_ez_publish/removing_a_manual_ez_publish_installation.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/the_internal_structure_of_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/the_internal_structure_of_ez_publish/kernel_libraries_and_modules.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/the_internal_structure_of_ez_publish/directory_structure.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_and_design.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_and_design/the_separation_of_content_and_design.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_and_design/templates.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_and_design/storage.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/a_note_about_object_oriented_technology.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/the_content_structure.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/datatypes.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/the_content_class.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/the_content_object.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/relation_between_datatypes_classes_and_objects.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/content_object_versioning.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/support_for_multiple_languages.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/objects_nodes_and_the_content_node_tree.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/locations.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/content_management_in_ez_publish/sections.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/site_management_in_ez_publish.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/site_management_in_ez_publish/site.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/site_management_in_ez_publish/site_interface.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/site_management_in_ez_publish/site_access.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/ez_publish_urls.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/ez_publish_urls/system_urls.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/ez_publish_urls/virtual_urls.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/ez_publish_basics/summary.html</loc>
+  <lastmod>2024-10-31T13:06:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site.html</loc>
+  <lastmod>2007-12-23T15:53:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/prerequisits.html</loc>
+  <lastmod>2007-12-24T10:57:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/situation.html</loc>
+  <lastmod>2007-12-24T03:23:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/creating_the_tscm_site.html</loc>
+  <lastmod>2007-12-23T21:25:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/testing_the_interfaces.html</loc>
+  <lastmod>2007-12-23T17:45:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/setting_up_the_main_layout.html</loc>
+  <lastmod>2007-12-23T20:00:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/setting_up_the_main_layout/creating_a_bare_bone_main_template.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/setting_up_the_main_layout/creating_and_using_a_custom_style_sheet.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/setting_up_the_main_layout/customizing_the_main_layout.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/creating_sections.html</loc>
+  <lastmod>2007-12-17T01:07:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_welcome_page.html</loc>
+  <lastmod>2007-12-16T21:32:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_welcome_page/adding_the_contents_of_the_welcome_page.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_welcome_page/setting_the_default_page.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_welcome_page/creating_and_using_a_custom_template.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_news_page.html</loc>
+  <lastmod>2007-12-17T01:07:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_news_page/adding_news_articles.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_news_page/assigning_the_news_folder_to_the_news_section.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_news_page/overview_of_the_latest_news.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_news_page/full_display_of_an_article.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_news_page/news_archive.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_members_page.html</loc>
+  <lastmod>2007-12-15T07:55:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_members_page/creating_a_custom_content_class.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_members_page/adding_members.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_members_page/list_of_members.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_members_page/member_info_page.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook.html</loc>
+  <lastmod>2007-12-23T19:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/creating_the_content_class.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/adding_content.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/creating_the_template.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/adding_an_action_button.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/making_the_button_work.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/the_input_template.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/testing_the_guestbook.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/implementing_an_approval_mechanism.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/modifying_the_entry_page.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/creating_a_workflow.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/connecting_the_workflow_to_a_trigger_function.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/approving_entries.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_guestbook/the_runcronjob_script.html</loc>
+  <lastmod>2024-10-31T13:06:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_links_page.html</loc>
+  <lastmod>2007-12-17T08:56:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_links_page/adding_content.html</loc>
+  <lastmod>2007-12-23T08:46:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_links_page/creating_the_template.html</loc>
+  <lastmod>2007-12-23T03:32:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_links_page/displaying_the_subfolders.html</loc>
+  <lastmod>2007-12-23T12:24:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_links_page/displaying_the_contents_of_a_folder.html</loc>
+  <lastmod>2007-12-23T03:41:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_links_page/creating_a_tree_style_appearence.html</loc>
+  <lastmod>2007-12-23T14:22:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_site/the_links_page/same_content_at_different_locations.html</loc>
+  <lastmod>2007-12-23T02:36:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/setting_up_the_tscm_layout.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/setting_up_a_simple_shop.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/setting_up_a_simple_shop/adding_a_simple_shop.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/setting_up_a_simple_shop/modifying_the_default_behavior.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/extending_the_shop_with_a_paypal_payment_service.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/extending_the_shop_with_a_paypal_payment_service/workflows_and_triggers.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/extending_the_shop_with_a_paypal_payment_service/paypal_payment_service.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/extending_the_shop_with_a_paypal_payment_service/adding_the_payment_service_to_the_shop.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/building_an_ez_publish_shop/extending_the_shop_with_a_paypal_payment_service/testing.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use.html</loc>
+  <lastmod>2007-12-23T08:53:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/the_admin_interface.html</loc>
+  <lastmod>2007-12-23T08:17:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/how_to_create_a_folder.html</loc>
+  <lastmod>2007-12-23T08:40:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/how_to_add_content_in_a_folder.html</loc>
+  <lastmod>2007-12-23T02:57:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/how_to_add_objects_to_an_article.html</loc>
+  <lastmod>2007-12-23T08:53:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/search_for_content.html</loc>
+  <lastmod>2007-12-15T04:53:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/drafts.html</loc>
+  <lastmod>2007-12-23T02:28:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/publish_in_several_locations.html</loc>
+  <lastmod>2007-12-23T08:25:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/remove_objects.html</loc>
+  <lastmod>2007-12-23T03:20:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/edit_objects.html</loc>
+  <lastmod>2007-12-23T02:28:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/related_objects.html</loc>
+  <lastmod>2007-12-23T03:08:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/version_control.html</loc>
+  <lastmod>2007-12-23T12:24:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/preview_your_content.html</loc>
+  <lastmod>2007-12-23T02:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/translate_content.html</loc>
+  <lastmod>2007-12-24T05:57:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/sorting_content.html</loc>
+  <lastmod>2007-12-13T15:38:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/discount_rules.html</loc>
+  <lastmod>2007-12-24T05:39:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/vat_types.html</loc>
+  <lastmod>2007-12-23T08:31:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/adding_a_class_to_your_vat_types.html</loc>
+  <lastmod>2007-12-23T03:32:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/order_list.html</loc>
+  <lastmod>2007-12-23T01:11:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/day_to_day_use/wishlist.html</loc>
+  <lastmod>2007-12-23T02:28:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/webdav_setup.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/ez_publish_running_on_a_cgi_version_of_php.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/path_prefix.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/locale_settings.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/introduction.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/configuration_files.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/site_access.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/common_settings.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/multi_site.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/directory_structure.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/language_and_charset.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/cron_jobs.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/login_handler.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/search_engine.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/configuration/tips_tricks.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/security.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/security/non_virtualhost.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/security/discussions.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/security/restrictions.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/security/system_security.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/optimization.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/optimization/php_acceleration.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/optimization/disabling_the_cache.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/optimization/configuration_tuning.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/optimization/caching_for_improved_speed.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/optimization/speeding_up_acrobat_pdf_document_indexing_.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/backup_restore.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/backup_restore/move_to_new_provider.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/backup_restore/overview.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/404_page_not_found.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/change_the_right_configuration_file.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/debug_popup_window_infinite_loops.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/ez_publish_3_and_apache_2.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/getting_looped_back_when_logging_in.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/giving_you_back_the_admin_rights.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/i_need_to_reindex_my_site_for_search.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/images_do_not_work.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/mixing_up_node_id_and_object_id.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/not_enough_php_memory.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/open_basedir_restriction.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/permissions_of_cache_files.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/problems_with_the_translation_function.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/process_cache_enabled_reduces_performance.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/user_site_instead_of_admin_site.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/warning_failed_to_write_session_data_user_.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/configuration/troubleshooting/what_not_to_do_with_ez.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/access_control.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/access_control/access_control_management.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/access_control/limited_role_assignment.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/ez_publish_api_documentation.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/ez_publish_api_documentation/module_function_definition_content.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/content_structure.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/content_structure/content_classes.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/content_structure/sitemap.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/user_specified_parameters.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/template_variables_set_by_ezpublish.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/introduction.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/variables_arrays_and_objects.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/node.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/database_connectivity.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/sections.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/file_placement.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/override_templates.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/node_view_gui.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/pagination.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/caching.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/stylesheets.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/pagelayout.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/printable_pages.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/custom_design/examples.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/images.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/datatypes.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/shop.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/information_collection.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/search.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/form_processing.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/error_handling.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/icons.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/menus.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/components/toolbars.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/debugging_templates.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/javascript_in_templates.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/fetching_current_user.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/showing_related_objects.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/show_which_templates_are_used.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/fetching_the_id_of_the_parent.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/one_article_folder.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/creating_tree_menus.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/how_can_i_use_my_own_php_script_inside_ezp.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/hiding_attribute_content.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/splitting_an_article_over_several_pages.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/accessing_section_id_in_pagelayout.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/list_articles_in_folder.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/creating_nice_urls.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/alt_tag_on_images.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/improve_the_pagelayouttpl.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/clean_html_tags.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/insert_javascript_call_inside_ezpub_document.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/3rd_party_applications.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/fetch_function_examples.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/display_more_than_15_items_on_your_content_administration_page.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/including_php_files_in_templates.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/redirecting_after_content_publishing.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/howto_see_if_article_has_an_image.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/date_and_time_formats.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/forms_processing_example_store_user_data_without_logging_in.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/adjust_timezone.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/adding_a_remove_button_image.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/find_the_age_in_years_for_an_object.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/editing_creating_and_removing_content_from_the_user_page.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/tips_tricks/indexing_binary_files_with_ifilters_on_windows_installations.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/troubleshooting.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/troubleshooting/your_changes_not_take_effect_or_new_nodes_not_appearing_.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/customization/troubleshooting/new_content_class_not_shown_on_user_site.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/translation.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/introduction_to_extensions.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/building_an_ez_publish_module.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/design_extension.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/datatypes.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/workflow_events.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/module.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/template_operator.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/extensions/template_function.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/ez_publish_datamodel.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/ez_publish_tuning_and_stability.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/importing_attribute_data.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/kernel.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/kernel/executing_php_shell_scripts.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/kernel/ez_soap_web_services_overview.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/kernel/deploying_soap_servers_with_ez_publish_3x.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/kernel/custom_template_operators.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/kernel/cache_block_optimization.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/libraries.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/libraries/ez_xml.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/libraries/ez_db.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/libraries/ez_i18n.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/libraries/ez_soap.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/libraries/ez_template.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/libraries/ez_webdav.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/scripting.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/scripting/script_classes.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/scripting/supplied_scripts.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/scripting/php_cli.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/standards.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/standards/php.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/standards/sql.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/standards/template.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/standards/user_interface.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/system_overview.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/test_suite.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/development/using_doxygen_to_create_api_documentation.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/pdf.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/arrays.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/data_extraction.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/formatting.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/images.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/logic.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/mathematics.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/miscellaneous.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/strings.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/urls.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_operators/variables.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_functions/gui.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_functions/miscellaneous.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_functions/program_flow.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/template_functions/variables.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/class.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/content.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/collaboration.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/layout.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/notification.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/package.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/section.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/shop.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/url.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/data_fetching/user.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/class.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/collaboration.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/content.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/error.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/ez_info.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/form.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/layout.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/notification.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/package.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/pdf.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/reference.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/role.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/rss.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/search.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/section.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/setup.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/shop.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/trigger.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/url.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/user.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/reference/modules/workflow.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/appendices.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/appendices/appendix_a_ez_publish_libraries.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/appendices/appendix_b_ez_publish_modules.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/appendices/appendix_c_ez_publish_datatypes.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/appendices/appendix_d_ez_publish_content_classes.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/appendices/appendix_e_ez_publish_template_operators.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/appendices/appendix_f_ez_publish_template_functions.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/design.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/design/default_designs.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/design/designs_and_siteaccesses.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/design/siteaccess_configuration.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/design/the_design_directory.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_and_improving_ezpublish.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_and_improving_ezpublish/developing_the_community.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_and_improving_ezpublish/making_embedded_objects_inline_elements_instead_of_block_elements.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/portals.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/web_standards.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/online_editor.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/desktop_edition.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/packages.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/flash.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/pdf.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/rss.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/soap.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/webdav.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/developing_projects/extensions.html</loc>
+  <lastmod>2024-10-31T13:45:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/ez_publish_development_cycle.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/ez_publish_site_structure.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/ez_publish_site_structure/extension_structure.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/hide_shopsetup_navigation_tab.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/how_does_the_new_menu_system_work.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/how_to_find_a_node_id_in_the_path_array.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/how_to_find_the_parent_and_grandparent_of_an_object.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/how_to_set_cache_expire_time_or_disable_cache_in_template.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/http_post_to_url_conversion.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/image_map.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/javascript_popupmenu.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/line_ending_in_email.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/list_of_mime_types.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/managing_development.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/managing_development/documentation.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/managing_development/groupware.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/managing_development/integration.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/managing_development/testing.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/managing_development/versioning.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/managing_development/other.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/mysql_server_character_set.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/package_format.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/pdf_export_tutorial.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/persistent_template_variable.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/php_and_apache_2.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/problems_on_mac_os_9_and_mac_os_x.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/remove_confirmation_when_discarding_an_object.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/session.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/setting_several_variables_in_a_section.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/setting_up_rss_import.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/setup_php_for_comandline_usage_php_cli.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/smart_viewcache_cleaning_system.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/ssl_with_ez_over_a_ssl_proxy.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/system_development.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/system_development/configuration.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/system_development/extensions.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/system_development/kernel.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/system_development/libraries.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/system_development/modules.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/system_development/other_areas.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/test_document.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/test_document/test_sub_doc.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/the_community_server.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/the_community_server/bugs.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/the_community_server/forums.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/the_community_server/users.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/the_community_server/help.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/truetype_font_in_pdf.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/tutorial_using_user_register.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/user_preferences.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/webdav_clients_and_compatiblity.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/incoming/what_does_something_tag_link_must_have_attribute_href_or_valid_id_need_fix_mean.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/template_code.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/curly_bracket_issues.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/comments.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/variable_types.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/variable_types/numbers.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/variable_types/strings.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/variable_types/booleans.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/variable_types/arrays.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/the_template_language/variable_types/objects.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/obsolete.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/obsolete/installation.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/obsolete/installation/extensions.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/obsolete/installation/installers.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/obsolete/installation/manual.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/obsolete/installation/uninstall.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/obsolete/installation/wizard.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://doc.core.ezpublish.se7enx.com/obsolete/upgrade.html</loc>
+  <lastmod>2024-10-31T13:45:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

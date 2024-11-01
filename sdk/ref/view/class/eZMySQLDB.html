@@ -1,0 +1,1032 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZMySQLDB","20030823121240","http://web.archive.org/","web","/_static/",
+	      "1061640760");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121240cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121240cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121240cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823121240/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823121240im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZMySQLDB Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030823121240/http://ez.no/sdk/ref/view/module/eZDB">Database abstraction layer</a>]</small>
+</h1>The eZMySQLDB class provides MySQL implementation of the database interface. 
+<a href="eZMySQLDB.html#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZMySQLDB:
+<p><center><img src="http://web.archive.org/web/20030823121240im_/http://ez.no/doc/generated/html/classeZMySQLDB.png" usemap="#eZMySQLDB_map" border="0" alt=""></center>
+<map name="eZMySQLDB_map">
+<area href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html" alt="eZDBInterface" shape="rect" coords="0,0,95,24">
+</map>
+<a href="../../../../../ez.no/sdk/ref/view/members/eZMySQLDB.html">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a0">eZMySQLDB</a> ($parameters)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a1">databaseName</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a2">query</a> ($sql)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a3">arrayQuery</a> ($sql,$params=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a6">supportedRelationTypeMask</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a7">supportedRelationTypes</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a8">relationCounts</a> ($relationMask)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a9">relationCount</a> ($relationType=EZ_DB_RELATION_TABLE)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a10">relationList</a> ($relationType=EZ_DB_RELATION_TABLE)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a11">removeRelation</a> ($relationName,$relationType)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a12">lock</a> ($table)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a13">unlock</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a14">begin</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a15">commit</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a16">rollback</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a17">lastSerialID</a> ($table,$column)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a18">escapeString</a> ($str)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a19">close</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a20">createDatabase</a> ($dbName)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#a21">setError</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZMySQLDB.html#c0">connect</a> ($server,$db,$user,$password,$socketPath)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The eZMySQLDB class provides MySQL implementation of the database interface.
+<p>
+eZMySQLDB is the MySQL implementation of <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDB.html">eZDB</a>. <dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDB.html">eZDB</a> </dl>
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00041">41</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZMySQLDB::eZMySQLDB"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::eZMySQLDB </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>parameters</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Create a new eZMySQLDB object and connects to the database backend. 
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00046">46</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00100">connect()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00865">eZDebug::createAccumulatorGroup()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00457">eZDBInterface::DB</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00459">eZDBInterface::DBConnection</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00461">eZDBInterface::DBWriteConnection</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00065">eZDBInterface::eZDBInterface()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00477">eZDBInterface::IsConnected</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00206">eZDBInterface::socketPath()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a3" doxytag="eZMySQLDB::arrayQuery"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZMySQLDB::arrayQuery </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>sql</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>params</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a13">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00250">250</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00912">eZDebug::accumulatorStart()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00929">eZDebug::accumulatorStop()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00471">eZDBInterface::OutputTextCodec</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00123">eZDBInterface::reportQuery()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00473">eZDBInterface::UseBuiltinEncoding</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZMySQLDB::begin"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::begin </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a16">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00476">476</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZMySQLDB::close"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::close </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a25">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00531">531</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZMySQLDB::commit"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::commit </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a17">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00487">487</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>.    </td>
+  </tr>
+</table>
+<a name="c0" doxytag="eZMySQLDB::connect"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZMySQLDB::connect </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>server</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>db</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>user</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>password</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>socketPath</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Opens a new connection to a MySQL database and returns the connection 
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00100">100</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00214">eZDBInterface::connectRetryCount()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00223">eZDBInterface::connectRetryWaitTime()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00555">setError()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00206">eZDBInterface::socketPath()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00493">eZDBInterface::UsePersistentConnection</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00046">eZMySQLDB()</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZMySQLDB::createDatabase"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::createDatabase </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>dbName</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00543">543</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00459">eZDBInterface::DBConnection</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00555">setError()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZMySQLDB::databaseName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::databaseName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a2">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00161">161</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZMySQLDB::escapeString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZMySQLDB::escapeString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>str</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a24">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00523">523</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZMySQLDB::lastSerialID"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::lastSerialID </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>table</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>column</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a23">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00509">509</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZMySQLDB::lock"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::lock </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>table</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a14">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00454">454</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZMySQLDB::query"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZMySQLDB::query </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>sql</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a12">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">169</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00912">eZDebug::accumulatorStart()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00929">eZDebug::accumulatorStop()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00459">eZDBInterface::DBConnection</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00461">eZDBInterface::DBWriteConnection</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00154">eZDBInterface::endTimer()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00475">eZDBInterface::OutputSQL</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00491">eZDBInterface::RecordError</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00123">eZDBInterface::reportQuery()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00555">setError()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00144">eZDBInterface::startTimer()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00465">unlock()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00473">eZDBInterface::UseBuiltinEncoding</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00250">arrayQuery()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00476">begin()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00487">commit()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00454">lock()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00434">removeRelation()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00498">rollback()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00465">unlock()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZMySQLDB::relationCount"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::relationCount </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>relationType</em> = EZ_DB_RELATION_TABLE          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a20">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00390">390</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00390">relationCount()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00390">relationCount()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00379">relationCounts()</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZMySQLDB::relationCounts"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::relationCounts </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>relationMask</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a19">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00379">379</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00390">relationCount()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZMySQLDB::relationList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::relationList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>relationType</em> = EZ_DB_RELATION_TABLE          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a21">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00410">410</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00410">relationList()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00410">relationList()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZMySQLDB::removeRelation"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::removeRelation </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>relationName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>relationType</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a22">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00434">434</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00375">eZDBInterface::relationName()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00434">removeRelation()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdebug.html#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00434">removeRelation()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZMySQLDB::rollback"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::rollback </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a18">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00498">498</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZMySQLDB::setError"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::setError </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a28">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00555">555</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00459">eZDBInterface::DBConnection</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00487">eZDBInterface::ErrorMessage</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00489">eZDBInterface::ErrorNumber</a>.
+<p>
+Referenced by <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00100">connect()</a>, <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00543">createDatabase()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZMySQLDB::supportedRelationTypeMask"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::supportedRelationTypeMask </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a6">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00363">363</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZMySQLDB::supportedRelationTypes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::supportedRelationTypes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a7">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00371">371</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZMySQLDB::unlock"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMySQLDB::unlock </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/class/eZDBInterface.html#a15">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00465">465</a> of file <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a>.
+<p>
+References <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezdbinterface.html#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>.
+<p>
+Referenced by <a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html#l00169">query()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="../../../../../ez.no/sdk/ref/view/source/ezmysqldb.html">ezmysqldb.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="../../../../../ez.no/developer.html">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="../../../../../ez.no/index.html">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:12:40 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:00:42 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.633
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.01
+  esindex: 0.013
+  cdx.remote: 10.987
+  LoadShardBlock: 976.235 (3)
+  PetaboxLoader3.datanode: 85.625 (4)
+  PetaboxLoader3.resolve: 948.9 (3)
+  load_resource: 73.497
+-->

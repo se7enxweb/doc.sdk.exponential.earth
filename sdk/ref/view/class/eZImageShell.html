@@ -1,0 +1,858 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZImageShell","20030823121959","http://web.archive.org/","web","/_static/",
+	      "1061641199");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121959cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121959cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121959cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823121959/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823121959im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZImageShell Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/module/eZImage">Image conversion and scaling</a>]</small>
+</h1>Image conversions delegate using shell commands. 
+<a href="eZImageShell.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/members/eZImageShell">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#a0">eZImageShell</a> ($execPath,$exec,$pre_params,$post_params,$rules,$from_type=EZ_IMAGE_KEEP_SUFFIX,$to_type=EZ_IMAGE_REPLACE_SUFFIX)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#a1">createRule</a> ($expr,$rule_type,$type=EZ_IMAGE_PRE_PARAM)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#a2">convertFileName</a> ($from,$type,$as_pure_file=false,$add_dir=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#a3">convert</a> (&amp;$from,&amp;$to,&amp;$to_dir,&amp;$to_file,&amp;$filters)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#a4">scale</a> (&amp;$from,&amp;$to,&amp;$to_dir,&amp;$to_file,&amp;$filters,$scale)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#a5">addParameter</a> (&amp;$pre,&amp;$post,$type,$str)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#a6">parseScaleRule</a> ($rule,$scale)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#a7">run</a> (&amp;$execstr,$dest_str)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZImageShell::ExecPath"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#m0">ExecPath</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The path to the executable.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZImageShell::Exec"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#m1">Exec</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The file to execute for image conversion.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m2" doxytag="eZImageShell::PreParams"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#m2">PreParams</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Array of parameters which are added before the files.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m3" doxytag="eZImageShell::PostParams"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#m3">PostParams</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Array of parameters which are added after the files.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m4" doxytag="eZImageShell::FromType"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#m4">FromType</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The filename operation to run on the source file.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m5" doxytag="eZImageShell::ToType"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#m5">ToType</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The filename operation to run on the destination file.</em></font><br><br></td></tr>
+<tr><td colspan="2"><br><h2>Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#c0">conversionString</a> (&amp;$from,&amp;$to,$pre,$post,&amp;$to_dir,&amp;$to_file,&amp;$dest_str)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#c1">handle</a> (&amp;$from,&amp;$to,&amp;$to_dir,&amp;$to_file,&amp;$pre,&amp;$post,&amp;$filters)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZImageShell.html#c2">parseRule</a> (&amp;$rule,$param)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Image conversions delegate using shell commands.
+<p>
+This class should handle most the image shell programs out there. It builds a shell commandline using pre and post parameters as well as scale and operation rules.
+<p>
+Filename handling is specified in the constructor and can handle on of four cases.<ul>
+<li>EZ_IMAGE_KEEP_SUFFIX - keeps the original suffix<li>EZ_IMAGE_REPLACE_SUFFIX - replaces the suffix with one fitting for the source/dest<li>EZ_IMAGE_APPEND_SUFFIX - appends a fitting suffix to the filename, keeping the original.<li>EZ_IMAGE_PREPEND_SUFFIX_TAG - prepends the filetype to the filename, for instance png:<li>EZ_IMAGE_NO_SUFFIX - removes the suffix</ul>
+<div class="dox_fragment"><pre>$img-&gt;registerType( '<a class="dox_code" href="eZImageShell.html#a3">convert</a>', <span class="dox_keyword">new</span> <a class="dox_code" href="eZImageShell.html#a0">eZImageShell</a>( '', '<a class="dox_code" href="eZImageShell.html#a3">convert</a>', array(), array(),
+                                                 array( <a class="dox_code" href="eZImageShell.html#a1">eZImageShell::createRule</a>( <span class="dox_stringliteral">"-geometry %wx%h&gt;"</span>,
+                                                                                  <span class="dox_stringliteral">"modify/scale"</span> ),
+                                                        <a class="dox_code" href="eZImageShell.html#a1">eZImageShell::createRule</a>( <span class="dox_stringliteral">"-colorspace GRAY"</span>,
+                                                                                  <span class="dox_stringliteral">"colorspace/gray"</span> ) ) ) );
+</pre></div> 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00075">75</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZImageShell::eZImageShell"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::eZImageShell </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>execPath</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>exec</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>pre_params</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>post_params</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rules</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>from_type</em> = EZ_IMAGE_KEEP_SUFFIX, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_type</em> = EZ_IMAGE_REPLACE_SUFFIX</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes a shell program, $exec contains the executable command, $pre_params and $post_params is an array of parameters which are prepended and appended, $rules is an array of rules create rules with <a class="dox_el" href="eZImageShell.html#a1">createRule()</a>, $from_type specifies what happens with the source filename and $to_type specifies what happens with the destination filename. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00084">84</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00318">Exec</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00316">ExecPath</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00324">FromType</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00322">PostParams</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00320">PreParams</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00326">ToType</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a5" doxytag="eZImageShell::addParameter"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::addParameter </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>pre</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>post</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>str</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds the parameter $str to either the pre list $pre or the post list $post according to the type $type. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00258">258</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00235">handle()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00218">scale()</a>.    </td>
+  </tr>
+</table>
+<a name="c0" doxytag="eZImageShell::conversionString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::conversionString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>from</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>pre</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>post</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_dir</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_file</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>dest_str</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates the commandline string which is required for running the shell program. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00179">179</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00129">convertFileName()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00318">Exec</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00316">ExecPath</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00235">handle()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZImageShell::convert"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::convert </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>from</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_dir</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_file</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>filters</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Runs the conversion on the file and returns the result. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00208">208</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00235">handle()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZImageShell::convertFileName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZImageShell::convertFileName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>from</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>as_pure_file</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>add_dir</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Converts the filename $from according to $type. See class documentation or different types you can use. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00129">129</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00179">conversionString()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZImageShell::createRule"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZImageShell::createRule </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>expr</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rule_type</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>type</em> = EZ_IMAGE_PRE_PARAM</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new operation rule and returns it. $expr is the text parameter which is added to the commandline, $rule_type is a string representing the name of the current rule which is used for determing if a converter can handle the wanted image operation, $type is either EZ_IMAGE_PRE_PARAM or EZ_IMAGE_POST_PARAM. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00116">116</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.    </td>
+  </tr>
+</table>
+<a name="c1" doxytag="eZImageShell::handle"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::handle </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>from</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_dir</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_file</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>pre</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>post</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>filters</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Converts and/or scales the image. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00235">235</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00258">addParameter()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00179">conversionString()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00270">parseRule()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00290">run()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00208">convert()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00218">scale()</a>.    </td>
+  </tr>
+</table>
+<a name="c2" doxytag="eZImageShell::parseRule"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::parseRule </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rule</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>param</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the "expression" part of the rule $rule. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00270">270</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00235">handle()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZImageShell::parseScaleRule"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::parseScaleRule </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>rule</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scale</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Parses the scale rule $rule with the width and height from $scale and returns the text. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00278">278</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00218">scale()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00218">scale()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZImageShell::run"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::run </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>execstr</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>dest_str</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Runs the command $execstr. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00290">290</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00235">handle()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZImageShell::scale"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZImageShell::scale </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>from</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_dir</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>to_file</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>filters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>scale</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Runs the conversion and scale on the file and returns the result. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00218">218</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00258">addParameter()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00235">handle()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00278">parseScaleRule()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00218">scale()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00278">parseScaleRule()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell#l00218">scale()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823121959/http://ez.no/sdk/ref/view/source/ezimageshell">ezimageshell.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823121959/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823121959/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:19:59 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:00:15 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.615
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.029
+  esindex: 0.011
+  cdx.remote: 6.09
+  LoadShardBlock: 86.914 (3)
+  PetaboxLoader3.datanode: 68.106 (4)
+  PetaboxLoader3.resolve: 202.017 (2)
+  load_resource: 196.575
+-->

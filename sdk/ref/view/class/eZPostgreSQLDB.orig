@@ -1,0 +1,893 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZPostgreSQLDB","20030823123438","http://web.archive.org/","web","/_static/",
+	      "1061642078");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823123438cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823123438cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823123438cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823123438im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823123438/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823123438/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823123438im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823123438/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823123438im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123438/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823123438im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123438/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823123438im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123438/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823123438im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123438/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823123438im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123438/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823123438im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123438/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823123438im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823123438/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZPostgreSQLDB Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/module/eZDB">Database abstraction layer</a>]</small>
+</h1>The eZPostgreSQLDB class provides PostgreSQL database functions. 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZPostgreSQLDB:
+<p><center><img src="/web/20030823123438im_/http://ez.no/doc/generated/html/classeZPostgreSQLDB.png" usemap="#eZPostgreSQLDB_map" border="0" alt=""></center>
+<map name="eZPostgreSQLDB_map">
+<area href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface" alt="eZDBInterface" shape="rect" coords="0,0,113,24">
+</map>
+<a href="/web/20030823123438/http://ez.no/sdk/ref/view/members/eZPostgreSQLDB">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a0">eZPostgreSQLDB</a> ($parameters)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a1">databaseName</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a2">query</a> ($sql)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a3">arrayQuery</a> ($sql,$params=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a6">supportedRelationTypeMask</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a7">supportedRelationTypes</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a8">relationCounts</a> ($relationMask)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a9">relationCount</a> ($relationType=EZ_DB_RELATION_TABLE)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a10">relationList</a> ($relationType=EZ_DB_RELATION_TABLE)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a11">removeRelation</a> ($relationName,$relationType)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a12">lock</a> ($table)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a13">unlock</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a14">begin</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a15">commit</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a16">rollback</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a17">lastSerialID</a> ($table,$column= 'id')</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a18">escapeString</a> ($str)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZPostgreSQLDB#a19">close</a> ()</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The eZPostgreSQLDB class provides PostgreSQL database functions.
+<p>
+eZPostgreSQLDB implementes PostgreSQLDB specific database code.
+<p>
+<dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDB">eZDB</a> </dl>
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00042">42</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZPostgreSQLDB::eZPostgreSQLDB"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::eZPostgreSQLDB </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>parameters</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new eZPostgreSQLDB object and connects to the database. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00047">47</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00214">eZDBInterface::connectRetryCount()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00223">eZDBInterface::connectRetryWaitTime()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00457">eZDBInterface::DB</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00459">eZDBInterface::DBConnection</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00065">eZDBInterface::eZDBInterface()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00477">eZDBInterface::IsConnected</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00465">eZDBInterface::Password</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00453">eZDBInterface::Server</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00463">eZDBInterface::User</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a3" doxytag="eZPostgreSQLDB::arrayQuery"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPostgreSQLDB::arrayQuery </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>sql</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>params</em> = array()</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a13">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00154">154</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">query()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00323">relationCount()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00285">relationCounts()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00345">relationList()</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZPostgreSQLDB::begin"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::begin </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a16">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00405">405</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">query()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZPostgreSQLDB::close"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::close </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a25">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00471">471</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZPostgreSQLDB::commit"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::commit </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a17">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00416">416</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">query()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZPostgreSQLDB::databaseName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::databaseName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a2">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00115">115</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZPostgreSQLDB::escapeString"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPostgreSQLDB::escapeString </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>str</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a24">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00461">461</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZPostgreSQLDB::lastSerialID"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::lastSerialID </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>table</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>column</em> = 'id'</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a23">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00438">438</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZPostgreSQLDB::lock"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::lock </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>table</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a14">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00387">387</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">query()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZPostgreSQLDB::query"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZPostgreSQLDB::query </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>sql</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a12">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">123</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebug#l00912">eZDebug::accumulatorStart()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebug#l00929">eZDebug::accumulatorStop()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00154">eZDBInterface::endTimer()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00475">eZDBInterface::OutputSQL</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00123">eZDBInterface::reportQuery()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00144">eZDBInterface::startTimer()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00154">arrayQuery()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00405">begin()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00416">commit()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00387">lock()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00367">removeRelation()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00427">rollback()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZPostgreSQLDB::relationCount"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::relationCount </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>relationType</em> = EZ_DB_RELATION_TABLE          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a20">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00323">323</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00154">arrayQuery()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00323">relationCount()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00323">relationCount()</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZPostgreSQLDB::relationCounts"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::relationCounts </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>relationMask</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a19">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00285">285</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00154">arrayQuery()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00258">supportedRelationTypes()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZPostgreSQLDB::relationList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::relationList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>relationType</em> = EZ_DB_RELATION_TABLE          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a21">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00345">345</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00154">arrayQuery()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00345">relationList()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00345">relationList()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZPostgreSQLDB::removeRelation"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::removeRelation </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>relationName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>relationType</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a22">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00367">367</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">query()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00375">eZDBInterface::relationName()</a>, <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00367">removeRelation()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00367">removeRelation()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZPostgreSQLDB::rollback"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::rollback </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a18">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00427">427</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezdbinterface#l00414">eZDBInterface::isConnected()</a>, and <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">query()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZPostgreSQLDB::supportedRelationTypeMask"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::supportedRelationTypeMask </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a6">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00246">246</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZPostgreSQLDB::supportedRelationTypes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::supportedRelationTypes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a7">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00258">258</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00285">relationCounts()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZPostgreSQLDB::unlock"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZPostgreSQLDB::unlock </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. 
+<p>
+Implements <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/class/eZDBInterface#a15">eZDBInterface</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00398">398</a> of file <a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823123438/http://ez.no/sdk/ref/view/source/ezpostgresqldb">ezpostgresqldb.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823123438/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823123438/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:34:38 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:10:11 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.472
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.01
+  cdx.remote: 6.999
+  LoadShardBlock: 189.784 (3)
+  PetaboxLoader3.datanode: 118.878 (4)
+  PetaboxLoader3.resolve: 130.433 (2)
+  load_resource: 85.291
+-->

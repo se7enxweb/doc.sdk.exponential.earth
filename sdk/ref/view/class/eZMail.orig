@@ -1,0 +1,1596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZMail","20030823115652","http://web.archive.org/","web","/_static/",
+	      "1061639812");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823115652cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823115652cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823115652cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823115652im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823115652/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823115652/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823115652im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823115652/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823115652im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115652/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823115652im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115652/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823115652im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115652/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823115652im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115652/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823115652im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115652/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823115652im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115652/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823115652im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115652/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZMail Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/module/eZUtils">Utility classes</a>]</small>
+</h1>Mail object. 
+<a href="#_details">More...</a>
+<p>
+<a href="/web/20030823115652/http://ez.no/sdk/ref/view/members/eZMail">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a0">eZMail</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a1">receiverEmailText</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a2">receiverText</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a3">receiverTextList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a4">receiverElements</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a5">ccElements</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a6">bccElements</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a7">replyTo</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a8">sender</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a9">senderText</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a10">setReceiverElements</a> ($toElements)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a11">setReceiver</a> ($email,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a12">setReceiverText</a> ($text)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a13">addReceiver</a> ($email,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a14">setReplyTo</a> ($email,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a15">setSender</a> ($email,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a16">setSenderText</a> ($text)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a17">setCcElements</a> ($newCc)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a18">addCc</a> ($email,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a19">setBccElements</a> ($newBcc)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a20">addBcc</a> ($email,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a21">extraHeaders</a> ($headers)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a22">addExtraHeader</a> ($headerName,$headerValue)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a23">setExtraHeaders</a> ($headers)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a24">messageID</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a25">setMessageID</a> ($newMessageID)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a26">references</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a27">setReferences</a> ($newReference)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a28">subject</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a29">setSubject</a> ($newSubject)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a30">body</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a31">setBody</a> ($newBody)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a33">blankNewlines</a> ($text)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a34">headers</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a36">headerText</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#d0">splitList</a> ($emails)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#d1">validate</a> ($address)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#d2">stripEmail</a> ($address)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#d3">composeEmailName</a> ($item,$key=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#d4">composeEmailItems</a> ($items,$join=true,$key=false)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZMail::ReceiverElements"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#m0">ReceiverElements</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>\privatesection</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Mail object.
+<p>
+Class for storing the details about en email and providing text serialization. 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00044">44</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZMail::eZMail"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::eZMail </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructs a new eZMail object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00049">49</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00574">ReceiverElements</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a20" doxytag="eZMail::addBcc"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::addBcc </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>email</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds a new Bcc address. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00231">231</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZMail::addCc"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::addCc </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>email</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds a new Cc address. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00214">214</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZMail::addExtraHeader"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::addExtraHeader </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>headerName</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>headerValue</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds the headers <em>$headerName</em> with header value <em>$headerValue</em> to the extra headers. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00248">248</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZMail::addReceiver"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::addReceiver </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>email</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds a new receiver address. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00168">168</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00574">ReceiverElements</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZMail::bccElements"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::bccElements </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the addresses which should get a blind carbon copy. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00104">104</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a33" doxytag="eZMail::blankNewlines"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::blankNewlines </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>text</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a text which does not contain newlines, newlines are converted to spaces. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00380">380</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00473">headerText()</a>.    </td>
+  </tr>
+</table>
+<a name="a30" doxytag="eZMail::body"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::body </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+returns the body. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00314">314</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZMail::ccElements"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::ccElements </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the addresses which should get a carbon copy. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00096">96</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="d4" doxytag="eZMail::composeEmailItems"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::composeEmailItems </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>items</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>join</em> = true, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>key</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Composes an email text out of all items in <em>$items</em> and returns it. All items are comma separated. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00408">408</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00391">composeEmailName()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00064">receiverEmailText()</a>, <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00072">receiverText()</a>, and <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00080">receiverTextList()</a>.    </td>
+  </tr>
+</table>
+<a name="d3" doxytag="eZMail::composeEmailName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::composeEmailName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>item</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>key</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Composes a text out of the email and name and returns it.
+<p>
+Example: John Doe &lt;<a href="http://web.archive.org/web/20030823115652/mailto:john@doe.com">john@doe.com</a>&gt; or just <a href="http://web.archive.org/web/20030823115652/mailto:john@doe.com">john@doe.com</a> 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00391">391</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00408">composeEmailItems()</a>, and <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00129">senderText()</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZMail::extraHeaders"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::extraHeaders </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>headers</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the extra headers to <em>$headers</em> 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00240">240</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00424">headers()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00424">headers()</a>.    </td>
+  </tr>
+</table>
+<a name="a34" doxytag="eZMail::headers"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::headers </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with headers, each header item is an associative array with the keys <code>name</code> and <code>content</code>. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00424">424</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00240">extraHeaders()</a>, and <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00424">headers()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00240">extraHeaders()</a>, <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00424">headers()</a>, <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00473">headerText()</a>, and <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00257">setExtraHeaders()</a>.    </td>
+  </tr>
+</table>
+<a name="a36" doxytag="eZMail::headerText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::headerText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Composes a text field out of all the headers and returns it. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00473">473</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00380">blankNewlines()</a>, and <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00424">headers()</a>.    </td>
+  </tr>
+</table>
+<a name="a24" doxytag="eZMail::messageID"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::messageID </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the message ID format : &lt;<a href="http://web.archive.org/web/20030823115652/mailto:number@serverID">number@serverID</a>&gt; Read in the RFC's if you want to know more about it.. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00266">266</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZMail::receiverElements"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::receiverElements </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the receiver addresses. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00088">88</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00574">ReceiverElements</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZMail::receiverEmailText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::receiverEmailText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the receiver addresses as text. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00064">64</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00408">composeEmailItems()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZMail::receiverText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::receiverText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the receiver addresses as text. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00072">72</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00408">composeEmailItems()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZMail::receiverTextList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::receiverTextList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the receiver addresses as an array with texts. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00080">80</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00408">composeEmailItems()</a>.    </td>
+  </tr>
+</table>
+<a name="a26" doxytag="eZMail::references"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::references </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the messageID that this message is a reply to. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00282">282</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZMail::replyTo"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::replyTo </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the receiver address. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00113">113</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZMail::sender"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::sender </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the sender address. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00121">121</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZMail::senderText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::senderText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the sender address as text. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00129">129</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00391">composeEmailName()</a>.    </td>
+  </tr>
+</table>
+<a name="a19" doxytag="eZMail::setBccElements"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setBccElements </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>newBcc</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the bcc addresses. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00223">223</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a31" doxytag="eZMail::setBody"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setBody </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>newBody</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the body. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00322">322</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZMail::setCcElements"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setCcElements </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>newCc</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the cc addresses. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00206">206</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a23" doxytag="eZMail::setExtraHeaders"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setExtraHeaders </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>headers</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the extra headers to <em>$headers</em>. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00257">257</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00424">headers()</a>.    </td>
+  </tr>
+</table>
+<a name="a25" doxytag="eZMail::setMessageID"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setMessageID </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>newMessageID</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the message ID. This is a server setting only so BE CAREFULL WITH THIS. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00274">274</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZMail::setReceiver"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setReceiver </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>email</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the receiver address. <dl compact><dt><b>Note: </b></dt><dd>
+This will remove all other receivers </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a13">addReceiver</a>, <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a10">setReceiverElements</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00147">147</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00574">ReceiverElements</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZMail::setReceiverElements"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setReceiverElements </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>toElements</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the receiver addresses. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00137">137</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00574">ReceiverElements</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZMail::setReceiverText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setReceiverText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>text</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the receiver address, the email and name will be extracted from <em>$text</em>. <dl compact><dt><b>Note: </b></dt><dd>
+This will remove all other receivers </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a13">addReceiver</a>, <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/class/eZMail#a10">setReceiverElements</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00158">158</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00574">ReceiverElements</a>.    </td>
+  </tr>
+</table>
+<a name="a27" doxytag="eZMail::setReferences"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setReferences </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>newReference</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the messageID that this message is a reply to. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00290">290</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZMail::setReplyTo"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setReplyTo </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>email</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the receiver address. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00178">178</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZMail::setSender"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setSender </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>email</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the sender address. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00187">187</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZMail::setSenderText"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setSenderText </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>text</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the sender address, the email and name will be extracted from <em>$text</em>. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00196">196</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a29" doxytag="eZMail::setSubject"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::setSubject </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>newSubject</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the subject of the mail. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00306">306</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZMail::splitList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZMail::splitList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>emails</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Splits a list of email addresses into an array where each entry is an email address. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00332">332</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="d2" doxytag="eZMail::stripEmail"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::stripEmail </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>address</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Static function for extracting an e-mail from text
+<p>
+Returns the first valid e-mail in address, returns false if no e-mail addresses found 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00367">367</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="a28" doxytag="eZMail::subject"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::subject </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the subject. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00298">298</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZMail::validate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZMail::validate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>address</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Static function for validating e-mail addresses.
+<p>
+Returns true if successful, false if not. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail#l00344">344</a> of file <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezusertype#l00086">eZUserType::validateObjectAttributeHTTPInput()</a>, and <a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezauthortype#l00061">eZAuthorType::validateObjectAttributeHTTPInput()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823115652/http://ez.no/sdk/ref/view/source/ezmail">ezmail.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823115652/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823115652/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 11:56:52 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:00:27 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.549
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.014
+  esindex: 0.009
+  cdx.remote: 6.533
+  LoadShardBlock: 236.77 (3)
+  PetaboxLoader3.datanode: 169.308 (4)
+  PetaboxLoader3.resolve: 205.788 (2)
+  load_resource: 203.875
+-->

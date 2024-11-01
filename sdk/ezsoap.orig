@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ezsoap","20030817170519","http://web.archive.org/","web","/_static/",
+	      "1061139919");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - eZ soap&trade;</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030817170519cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817170519cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817170519cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030817170519im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030817170519/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030817170519/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030817170519im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="/web/20030817170519/http://ez.no/sdk/ezsoap/view/helloworld" ">Hello World! &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">eZ soap&trade;</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Introduction</p>&nbsp;<img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ezsoap/view/helloworld/">Hello World!</a><br/>&nbsp;<img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ezsoap/view/calculator/">Simple calculator</a><br/><p class="groupname">UML Diagrams</p>&nbsp;<img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ezsoap/view/class/">Class diagram</a><br/><p class="groupname">API Reference</p><img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ref/view/class/eZSOAPClient/">SOAP client</a><br/><img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ref/view/class/eZSOAPServer/">SOAP server</a><br/><img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ref/view/class/eZSOAPHeader/">SOAP header</a><br/><img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ref/view/class/eZSOAPEnvelope/">SOAP envelope</a><br/><img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ref/view/class/eZSOAPParameter/">SOAP parameter</a><br/><img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ref/view/class/eZSOAPRequest/">SOAP request</a><br/><img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ref/view/class/eZSOAPResponse/">SOAP response</a><br/><img src="/web/20030817170519im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817170519/http://ez.no/sdk/ref/view/class/eZSOAPFault/">SOAP fault</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<h1>eZ soap&trade;</h1>
+<p>
+eZ soap&trade; is a library for SOAP communication. It handles both client and server side
+functionality. eZ xml&trade; is used to handle XML manipulations in eZ soap&trade;.
+</p>
+
+<p>Definition of SOAP, from the W3C spec:</p>
+
+<blockquote>SOAP is a lightweight protocol for exchange of information in a decentralized,
+  distributed environment. It is an XML based protocol that consists of three
+  parts: an envelope that defines a framework for describing what is in a message
+  and how to process it, a set of encoding rules for expressing instances of
+  application-defined data types, and a convention for representing remote
+  procedure calls and responses.
+</blockquote>
+
+<p>
+eZ soap&trade; follows the <a href="http://web.archive.org/web/20030817170519/http://www.w3.org/TR/2001/WD-soap12-part0-20011217/">
+SOAP Version 1.2</a> standard. Read the <a href="http://web.archive.org/web/20030817170519/http://www.w3.org/TR/2001/WD-soap12-part1-20011217/">
+Messaging framework specification</a> for details about messaging with SOAP.
+</p>
+
+<h2>SOAP usage</h2>
+<p>
+eZ soap&trade; can be used for distributed computing. It's platform and language independent.
+The basis of SOAP is to exchange XML encoded information, using XML namespaces and schemas.
+SOAP can be used in two different ways, either sending a custom XML document or as a RPC
+(Remote Procedure Call) protocol. eZ soap&trade; focuses on the latter.
+</p>
+
+<h2>SOAP messages</h2>
+<p>
+Every SOAP message contains the following elements, SOAP Envelope, Body and an optional Header. The SOAP
+message below shows a simple "Hello World!" request. eZ soap&trade; provides a simple, yet powerful,
+interface to SOAP communication.
+</p>
+
+<pre class="example">
+&lt;?xml version="1.0"?&gt;
+&lt;SOAP-ENV:Envelope
+         xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+         xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+  &lt;SOAP-ENV:Body xmlns:req="http://soapinterop.org/"&gt;
+    &lt;req:helloWorld /&gt;
+  &lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</pre>
+
+<h2>Useful links</h2>
+<ul>
+<li><a href="http://web.archive.org/web/20030817170519/http://www.w3.org/">W3C</a></li>
+<li><a href="http://web.archive.org/web/20030817170519/http://www.w3.org/TR/wsdl">WSDL spec</li>
+<li><a href="http://web.archive.org/web/20030817170519/http://xml.apache.org/axis/">SOAPBuilders Interoperability Lab</a></li>
+<li><a href="http://web.archive.org/web/20030817170519/http://www.w3.org/TR/2001/WD-xmlp-am-20010709/">XML Protocol Abstract Model</a></li>
+<li><a href="http://web.archive.org/web/20030817170519/http://xml.apache.org/axis/">Apache AXIS SOAP library (Java)</a></li>
+<li><a href="http://web.archive.org/web/20030817170519/http://easysoap.sourceforge.net/">EasySoap++ SOAP library (C++)</a></li>
+</ul>
+<h1>Dependencies</h1>
+<p>
+eZ soap&trade; uses the following eZ publish libraries.
+</p>
+<ul>
+<li><a href="/web/20030817170519/http://ez.no/sdk/ezxml/">eZ xml&trade;</a></li><li><a href="/web/20030817170519/http://ez.no/sdk/ezutils/">eZ utils&trade;</a></li>
+</ul></td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817170519/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817170519/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 17:05:19 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:19:15 Nov 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.537
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.015
+  esindex: 0.012
+  cdx.remote: 5.548
+  LoadShardBlock: 110.042 (3)
+  PetaboxLoader3.datanode: 87.643 (4)
+  PetaboxLoader3.resolve: 108.11 (2)
+  load_resource: 114.912
+-->

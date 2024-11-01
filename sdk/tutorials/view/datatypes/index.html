@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/tutorials/view/datatypes/","20030817125040","http://web.archive.org/","web","/_static/",
+	      "1061124640");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - Tutorials</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817125040cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817125040cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817125040cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817125040/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/publishworkflow" ">&lt;&lt; Approval workflow</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/permissions" ">Permissions and sections &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials">Tutorials</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/main_concepts/">Main concepts</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/content_classes/">Custom content</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/templateissues/">Common template issues</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/workflows/">Custom workflows</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/wrappingworkflow/">Example of wrapping workflow</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/publishworkflow/">Approval workflow</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="index.html">Datatypes</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/permissions/">Permissions and sections</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/forms/">Creating forms</a><br/><img src="http://web.archive.org/web/20030817125040im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817125040/http://ez.no/sdk/tutorials/view/translation/">Translation and i18n</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<h1>Datatypes in eZ publish 3</h1>
+
+<p>
+Datatypes are the most useful building blocks in eZ publish 3. To create any attribute in any class, you
+need to choose a suitable datatype to represent your attribute. The concept of eZ publish datatypes is
+not exactly the same as datatypes in common programming languages although eZ publish has some basic
+datatypes such as integer, float and textline which is actually a string type. Datatypes in eZ publish are
+defined as fundamental and common elements which can build complex products on the Internet.
+</p>
+
+<h2>Overview of available datatypes</h2>
+
+<p>
+eZ publish 3 comes with the following fundamental datatypes.
+<ul>
+<li>Text line</li>
+<li>Integer</li>
+<li>Float</li>
+<li>Text field</li>
+<li>XML Text field</li>
+<li>User account</li>
+<li>Image</li>
+<li>Media</li>
+<li>Check box</li>
+<li>Enum</li>
+<li>Option</li>
+<li>Email</li>
+<li>Author</li>
+<li>Price</li>
+<li>Date field</li>
+<li>Time</li>
+<li>Datetime</li>
+<li>Object relation</li>
+<li>ISBN</li>
+<li>URL</li>
+<li>BinaryFile</li>
+</ul>
+</p>
+
+<h2>Creating a new datatype</h2>
+
+<p>
+When you are creating or editing a class object, you should decide which datatypes are going to be used by
+your attributes. Although the datatypes that come with eZ publish are powerful enough for creating complex content
+classes, you might still need to create your own datatypes for specific cases. Creating new datatypes requires
+having some basic knowledge of how eZ publish datatypes work and which classes are necessary to be changed or added.
+In the following tutorial, how to create a new datatype is shown step by step using the datatype Email as an example.
+The Email datatype is used to save email address and implements some check rules to verify that input email
+is of correct format.
+</p>
+
+<h3>Step 1: Build the file structure for your new datatype.</h3>
+
+<p>
+To make the datatype Email, you should first create the folder ezemail under ./kernel/classes/datatypes/, then create
+the file called ezemailtype.php under the newly created folder. Note that the name of the folder and PHP file is important
+since it will be used to locate the file. The basic structure is that if you added a datatype x, it should be stored like
+this: ./kernel/classes/datatypes/ezx/ezxtype.php.
+</p>
+
+<h3>Step 2: Write the datatype file inherited from file ./kernel/classes/ezdatatype.php.</h3>
+<p>
+All datatype files should inherit from the file ./kernel/classes/ezdatatype.php and implement some functions which the
+super class has defined but not implemented. Let's work through the code of ezemailtype.php to see how this class was
+implemented.
+</p>
+
+<pre class="example">
+&lt;?php
+
+// Include the super class file
+include_once( "kernel/classes/ezdatatype.php" );
+
+// Include the file which will be used to validate email
+include_once( "lib/ezutils/classes/ezmail.php" );
+
+// Define the name of datatype string
+define( "EZ_DATATYPESTRING_EMAIL", "ezemail" );
+
+class eZEmailType extends eZDataType
+{
+    /*!
+     Construction of the class, note that the second parameter in eZDataType is the actual name
+     showed in the datatype dropdown list.
+    */
+    function eZEmailType( )
+    {
+        $this-&gt;eZDataType( EZ_DATATYPESTRING_EMAIL, "Email" );
+    }
+
+    /*!
+     Validates the input and returns true if the input was valid for this datatype. Here you could
+     add special rules for validating email.
+     Parameters $http holds the class object eZHttpTool which has functions to fetch and check http input.
+     Parameters $base holds the base name of http variable, in this case the base name will be 'ContentObjectAttribute'.
+     Parameters $contentObjectAttribute holds the attribue object.
+    */
+    function validateObjectAttributeHTTPInput( &amp;$http, $base, &amp;$contentObjectAttribute )
+    {
+        if ( $http-&gt;hasPostVariable( $base . '_data_text_' . $contentObjectAttribute-&gt;attribute( 'id' ) ) )
+        {
+            $email =&amp; $http-&gt;postVariable( $base . '_data_text_' . $contentObjectAttribute-&gt;attribute( 'id' ) );
+            $classAttribute =&amp; $contentObjectAttribute-&gt;contentClassAttribute();
+            if( $classAttribute-&gt;attribute( "is_required" ) == true )
+            {
+                if( $email == "" )
+                {
+                    $contentObjectAttribute-&gt;setValidationError( ezi18n( 'content/datatypes',
+                                                                         'A valid email account is required.',
+                                                                         'eZEmailType' ) );
+                    return EZ_INPUT_VALIDATOR_STATE_INVALID;
+                }
+            }
+            if( $email != "" )
+            {
+                $isValidate =  eZMail::validate( $email );
+                if ( ! $isValidate )
+                {
+                    $contentObjectAttribute-&gt;setValidationError( ezi18n( 'content/datatypes',
+                                                                         'Email address is not valid.',
+                                                                         'eZEmailType' ) );
+                    return EZ_INPUT_VALIDATOR_STATE_INVALID;
+                }
+            }
+        }
+        return EZ_INPUT_VALIDATOR_STATE_ACCEPTED;
+    }
+
+    /*!
+     Fetches the http post var string input and stores it in the data instance.
+     An email could be easily stored as variable characters, we use data_text filed in database to save it.
+     In the template, the textfile name of email input is something like 'ContentObjectAttribute_data_text_idOfTheAttribute',
+     therefore we fetch the http variable '$base . "_data_text_" . $contentObjectAttribute-&gt;attribute( "id" )'.
+     Again, parameters $base holds the base name of http variable and is 'ContentObjectAttribute' in this example.
+    */
+    function fetchObjectAttributeHTTPInput( &amp;$http, $base, &amp;$contentObjectAttribute )
+    {
+        if ( $http-&gt;hasPostVariable( $base . "_data_text_" . $contentObjectAttribute-&gt;attribute( "id" ) ) )
+        {
+            $data =&amp; $http-&gt;postVariable( $base . "_data_text_" . $contentObjectAttribute-&gt;attribute( "id" ) );
+            $contentObjectAttribute-&gt;setAttribute( "data_text", $data );
+        }
+        return false;
+    }
+
+    /*!
+     Store the content. Since the content has been stored in function fetchObjectAttributeHTTPInput(),
+     this function is with empty code.
+    */
+    function storeObjectAttribute( &amp;$contentObjectattribute )
+    {
+    }
+
+    /*!
+     Returns the content.
+    */
+    function &objectAttributeContent;( &amp;$contentObjectAttribute )
+    {
+        return $contentObjectAttribute-&gt;attribute( "data_text" );
+    }
+
+    /*!
+     Returns the meta data used for storing search indices.
+    */
+    function metaData( $contentObjectAttribute )
+    {
+        return $contentObjectAttribute-&gt;attribute( "data_text" );
+    }
+
+    /*!
+     Returns the text.
+    */
+    function title( &amp;$contentObjectAttribute )
+    {
+        return  $contentObjectAttribute-&gt;attribute( "data_text" );
+    }
+}
+eZDataType::register( EZ_DATATYPESTRING_EMAIL, "ezemailtype" );
+?&gt;
+</pre>
+
+<p>
+As the code illustrates, it must include the PHP file ezdatatype.php and inherit from eZDataType. The class should
+implement the functions validateObjectAttributeHTTPInput, fixupObjectAttributeHTTPInput, fetchObjectAttributeHTTPInput,
+and storeObjectAttribute. The function validateObjectAttributeHTTPInput, which validates the datatype input, and the
+function fetchObjectAttributeHTTPInput, which gets the datatype input and stores it, are the most important functions
+that need to be rewritten for every new datatype. Other functions may have the same content. At the end of the file,
+the new datatype should be registered in the system by calling the register method in the class eZDataType.
+</p>
+
+<p>
+In this example, the following line
+<pre class="example">
+eZDataType::register( EZ_DATATYPESTRING_EMAIL, "ezemailtype" );
+</pre>
+was added.
+</p>
+<h3>Step 3: Add associated template files for the content class.</h3>
+
+<p>
+Not every datatype needs to have a template file in class level since most datatypes can use standard UI
+supplied with eZ publish. It is only necessary when the datatype has specific constraints that need to be defined
+during class editing. Examples are setting a default value for the datatype, adding customer action buttons, etc.
+If so, the datatype file should implement the functions storeClassAttribute, validateClassAttributeHTTPInput,
+fixupClassAttributeHTTPInput, and fetchClassAttributeHTTPInput which are defined in the super class ezdatatype.php.
+These functions deal with how to fetch and validate input and then store it in the database.
+Note that the template file should be located at ./design/standard/templates/class/datatype/edit/ezx.tpl.
+The datatype Email does not have a specification in class level and therefore nothing needs to be done in this case.
+</p>
+
+<h3>Step 4: Add associated template files for content object.</h3>
+<p>
+For every datatype, two template files must to be added. One template file for content object editing and
+one for content object viewing. In this example, we add one ezemail.tpl (shown below) under
+./design/standard/templates/content/datatype/edit/. This is just a normal text field with corresponding name we defined
+in eZEmailtype.php. Users will use this text field to edit or input email address.
+</p>
+
+<p>
+<pre class="example">
+&lt;input type="text" size="10" name="ContentObjectAttribute_data_text_{$attribute.id}" value="{$attribute.data_text}" /&gt;
+</pre>
+</p>
+
+<p>
+The second ezemail.tpl is added under ./design/standard/templates/content/datatype/view/, this template file will show the
+result of the saved email address.
+</p>
+
+<p>
+<pre class="example">
+{$attribute.data_text}
+</pre>
+</p>
+
+<h3>Step 5: Add the new datatype to the site.ini file.</h3>
+
+<p>
+The last step is to add the newly created datatype to the content.ini file so it will be displayed in the datatype
+dropdown list. Open the content.ini file under ./settings/ with a text editor and find the line with
+</p>
+
+<p>
+<pre class="example">
+[DataTypeSettings]
+# A list of directories to check for datatypes
+RepositoryDirectories[]=kernel/classes/datatypes
+ExtensionDirectories[]
+
+AvailableDataTypes[]=ezstring
+AvailableDataTypes[]=eztext
+AvailableDataTypes[]=ezxmltext
+AvailableDataTypes[]=ezdate
+AvailableDataTypes[]=ezdatetime
+AvailableDataTypes[]=eztime
+AvailableDataTypes[]=ezboolean
+AvailableDataTypes[]=ezinteger
+AvailableDataTypes[]=ezfloat
+AvailableDataTypes[]=ezenum
+AvailableDataTypes[]=ezobjectrelation
+AvailableDataTypes[]=ezimage
+AvailableDataTypes[]=ezbinaryfile
+AvailableDataTypes[]=ezmedia
+AvailableDataTypes[]=ezauthor
+AvailableDataTypes[]=ezurl
+AvailableDataTypes[]=ezemail
+AvailableDataTypes[]=ezoption
+AvailableDataTypes[]=ezprice
+AvailableDataTypes[]=ezuser
+AvailableDataTypes[]=ezisbn
+</pre>
+</p>
+
+<p>
+Add a new line with the name of the new datatype to somewhere under [DataTypeSettings] . In this example,
+we should add line "AvailableDataTypes[]=ezemail" under [DataTypeSettings]. You can check the result by refreshing
+your browser and then go to the class editing page. If everything goes fine, you should find Email on the dropdown list.
+</p>
+
+<h2>Create more complex datatypes</h2>
+<p>
+In this tutorial, a simple datatype Email, which uses only one field in the database to store its content, was created.
+To create more complex datatypes, extra tables may need to be added and extra classes may need to be written. Please refer
+to the eZEnum type for more detail about how complex datatypes can be created.
+</p>
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817125040/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817125040/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:50:40 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:19:06 Nov 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.662
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 8.645
+  LoadShardBlock: 89.419 (3)
+  PetaboxLoader3.datanode: 101.576 (4)
+  load_resource: 818.894
+  PetaboxLoader3.resolve: 776.677
+-->

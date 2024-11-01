@@ -1,0 +1,933 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/source/ezuser","20030817122929","http://web.archive.org/","web","/_static/",
+	      "1061123369");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030817122929cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817122929cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817122929cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030817122929im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030817122929/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030817122929/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030817122929im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030817122929/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030817122929im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122929/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030817122929im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122929/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030817122929im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122929/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030817122929im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122929/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030817122929im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122929/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030817122929im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122929/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030817122929im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122929/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">ezuser.php</h1><div class="dox_fragment"><pre>00001 &lt;?php
+00002 <span class="dox_comment">//</span>
+00003 <span class="dox_comment">// Definition of eZUser class</span>
+00004 <span class="dox_comment">//</span>
+00005 <span class="dox_comment">// Created on: &lt;10-Jun-2002 17:03:15 bf&gt;</span>
+00006 <span class="dox_comment">//</span>
+00007 <span class="dox_comment">// Copyright (C) 1999-2003 eZ systems as. All rights reserved.</span>
+00008 <span class="dox_comment">//</span>
+00009 <span class="dox_comment">// This source file is part of the eZ publish (tm) Open Source Content</span>
+00010 <span class="dox_comment">// Management System.</span>
+00011 <span class="dox_comment">//</span>
+00012 <span class="dox_comment">// This file may be distributed and/or modified under the terms of the</span>
+00013 <span class="dox_comment">// "GNU General Public License" version 2 as published by the Free</span>
+00014 <span class="dox_comment">// Software Foundation and appearing in the file LICENSE.GPL included in</span>
+00015 <span class="dox_comment">// the packaging of this file.</span>
+00016 <span class="dox_comment">//</span>
+00017 <span class="dox_comment">// Licencees holding valid "eZ publish professional licences" may use this</span>
+00018 <span class="dox_comment">// file in accordance with the "eZ publish professional licence" Agreement</span>
+00019 <span class="dox_comment">// provided with the Software.</span>
+00020 <span class="dox_comment">//</span>
+00021 <span class="dox_comment">// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING</span>
+00022 <span class="dox_comment">// THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR</span>
+00023 <span class="dox_comment">// PURPOSE.</span>
+00024 <span class="dox_comment">//</span>
+00025 <span class="dox_comment">// The "eZ publish professional licence" is available at</span>
+00026 <span class="dox_comment">// http://ez.no/products/licences/professional/. For pricing of this licence</span>
+00027 <span class="dox_comment">// please contact us via e-mail to licence@ez.no. Further contact</span>
+00028 <span class="dox_comment">// information is available at http://ez.no/home/contact/.</span>
+00029 <span class="dox_comment">//</span>
+00030 <span class="dox_comment">// The "GNU General Public License" (GPL) is available at</span>
+00031 <span class="dox_comment">// http://www.gnu.org/copyleft/gpl.html.</span>
+00032 <span class="dox_comment">//</span>
+00033 <span class="dox_comment">// Contact licence@ez.no if any conditions of this licencing isn't clear to</span>
+00034 <span class="dox_comment">// you.</span>
+00035 <span class="dox_comment">//</span>
+00036 
+00044 include_once( 'kernel/classes/ezpersistentobject.php' );
+00045 include_once( 'kernel/classes/ezrole.php' );
+00046 include_once( 'lib/ezutils/classes/ezhttptool.php' );
+00047 include_once( <span class="dox_stringliteral">"kernel/classes/datatypes/ezuser/ezusersetting.php"</span> );
+00048 include_once( <span class="dox_stringliteral">"kernel/classes/ezcontentobject.php"</span> );
+00049 
+00050 $ini =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00051 define( 'EZ_USER_ANONYMOUS_ID', $ini-&gt;variable( 'UserSettings', 'AnonymousUserID' ) );
+00052 
+00054 define( 'EZ_USER_PASSWORD_HASH_MD5_PASSWORD', 1 );
+00056 define( 'EZ_USER_PASSWORD_HASH_MD5_USER', 2 );
+00058 define( 'EZ_USER_PASSWORD_HASH_MD5_SITE', 3 );
+00060 define( 'EZ_USER_PASSWORD_HASH_MYSQL', 4 );
+00062 define( 'EZ_USER_PASSWORD_HASH_PLAINTEXT', 5 );
+00063 
+00065 define( 'EZ_USER_AUTHENTICATE_LOGIN', 1 &lt;&lt; 0 );
+00067 define( 'EZ_USER_AUTHENTICATE_EMAIL', 1 &lt;&lt; 1 );
+00068 
+00069 define( 'EZ_USER_AUTHENTICATE_ALL', EZ_USER_AUTHENTICATE_LOGIN | EZ_USER_AUTHENTICATE_EMAIL );
+00070 
+00071 $GLOBALS['eZUserBuiltins'] = array( EZ_USER_ANONYMOUS_ID );
+00072 
+<a name="l00073"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser">00073</a> <span class="dox_keyword">class </span><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a> <span class="dox_keyword">extends</span> <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject">eZPersistentObject</a>
+00074 {
+00075     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a>( $row )
+00076     {
+00077         $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a0">eZPersistentObject</a>( $row );
+00078         $this-&gt;OriginalPassword = <span class="dox_keyword">false</span>;
+00079         $this-&gt;OriginalPasswordConfirm = <span class="dox_keyword">false</span>;
+00080     }
+00081 
+<a name="l00082"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a1">00082</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a1">definition</a>()
+00083     {
+00084         <span class="dox_keywordflow">return</span> array( 'fields' =&gt; array( 'contentobject_id' =&gt; 'ContentObjectID',
+00085                                          'login' =&gt; '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#m0">Login</a>',
+00086                                          'email' =&gt; 'Email',
+00087                                          'password_hash' =&gt; 'PasswordHash',
+00088                                          'password_hash_type' =&gt; 'PasswordHashType'
+00089                                          ),
+00090                       'keys' =&gt; array( 'contentobject_id' ),
+00091                       'function_attributes' =&gt; array( 'contentobject' =&gt; 'contentObject',
+00092                                                       '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>' =&gt; '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>',
+00093                                                       'has_stored_login' =&gt; 'hasStoredLogin',
+00094                                                       'original_password' =&gt; 'originalPassword',
+00095                                                       'original_password_confirm' =&gt; 'originalPasswordConfirm',
+00096                                                       '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a>' =&gt; '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a>',
+00097                                                       'is_logged_in' =&gt; '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a24">isLoggedIn</a>'
+00098                                                       ),
+00099                       'relations' =&gt; array( 'contentobject_id' =&gt; array( '<span class="dox_keyword">class</span>' =&gt; 'ezcontentobject',
+00100                                                                          'field' =&gt; '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a>' ) ),
+00101                       'class_name' =&gt; '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a>',
+00102                       'name' =&gt; 'ezuser' );
+00103     }
+00104 
+<a name="l00105"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">00105</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( $name )
+00106     {
+00107         <span class="dox_keywordflow">if</span> ( $name == '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>')
+00108         {
+00109             <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>();
+00110         }
+00111         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $name == 'is_logged_in')
+00112         {
+00113             <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a24">isLoggedIn</a>();
+00114         }
+00115         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $name == '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a>')
+00116         {
+00117             <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a>();
+00118         }
+00119         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $name == 'has_stored_login')
+00120         {
+00121             <span class="dox_keywordflow">return</span> $this-&gt;hasStoredLogin();
+00122         }
+00123         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $name == 'original_password' )
+00124         {
+00125             <span class="dox_keywordflow">return</span> $this-&gt;originalPassword();
+00126         }
+00127         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $name == 'original_password_confirm' )
+00128         {
+00129             <span class="dox_keywordflow">return</span> $this-&gt;originalPasswordConfirm();
+00130         }
+00131         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $name == 'contentobject' )
+00132         {
+00133             <span class="dox_keywordflow">if</span> ( $this-&gt;ContentObjectID == 0 )
+00134                 <span class="dox_keywordflow">return</span> null;
+00135             include_once( 'kernel/classes/ezcontentobject.php' );
+00136             <span class="dox_keywordflow">return</span> eZContentObject::fetch( $this-&gt;ContentObjectID );
+00137         }
+00138         <span class="dox_keywordflow">else</span>
+00139             <span class="dox_keywordflow">return</span> <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a19">eZPersistentObject::attribute</a>( $name );
+00140     }
+00141 
+00142     function &amp;create( $contentObjectID )
+00143     {
+00144         $row = array(
+00145             'contentobject_id' =&gt; $contentObjectID,
+00146             'login' =&gt; null,
+00147             'email' =&gt; null,
+00148             'password_hash' =&gt; null,
+00149             'password_hash_type' =&gt; null
+00150             );
+00151         <span class="dox_keywordflow">return</span> <span class="dox_keyword">new</span> <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a>( $row );
+00152     }
+00153 
+00154     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a5">store</a>()
+00155     {
+00156         $this-&gt;Email = trim( $this-&gt;Email );
+00157         include_once( 'lib/ezutils/classes/ezexpiryhandler.php' );
+00158         $handler =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZExpiryHandler#d0">eZExpiryHandler::instance</a>();
+00159         $handler-&gt;setTimestamp( 'user-info-cache', mktime() );
+00160         $handler-&gt;setTimestamp( 'user-<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>-cache', mktime() );
+00161         $handler-&gt;store();
+00162         <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a5">eZPersistentObject::store</a>();
+00163     }
+00164 
+00165     function &amp;originalPassword()
+00166     {
+00167         <span class="dox_keywordflow">return</span> $this-&gt;OriginalPassword;
+00168     }
+00169 
+00170     function setOriginalPassword( $password )
+00171     {
+00172         $this-&gt;OriginalPassword = $password;
+00173     }
+00174 
+00175     function &amp;originalPasswordConfirm()
+00176     {
+00177         <span class="dox_keywordflow">return</span> $this-&gt;OriginalPasswordConfirm;
+00178     }
+00179 
+00180     function setOriginalPasswordConfirm( $password )
+00181     {
+00182         $this-&gt;OriginalPasswordConfirm = $password;
+00183     }
+00184 
+00185     function hasStoredLogin()
+00186     {
+00187         $db =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00188         $contentObjectID = $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( 'contentobject_id' );
+00189         $sql = <span class="dox_stringliteral">"SELECT * FROM ezuser WHERE contentobject_id='$contentObjectID' AND login!=''"</span>;
+00190         $rows = $db-&gt;arrayQuery( $sql );
+00191         $hasStoredLogin = count( $rows ) &gt; 0;
+00192         <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( $hasStoredLogin, 'hasStoredLogin' );
+00193         <span class="dox_keywordflow">return</span> $hasStoredLogin;
+00194     }
+00195 
+<a name="l00200"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a10">00200</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a10">setInformation</a>( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a>, $login, $email, $password, $passwordConfirm = <span class="dox_keyword">false</span> )
+00201     {
+00202         $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a20">setAttribute</a>( <span class="dox_stringliteral">"contentobject_id"</span>, $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> );
+00203         $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a20">setAttribute</a>( <span class="dox_stringliteral">"email"</span>, $email );
+00204         $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a20">setAttribute</a>( <span class="dox_stringliteral">"login"</span>, $login );
+00205         <span class="dox_keywordflow">if</span> ( $password !== <span class="dox_keyword">false</span> and
+00206              $password !== null and
+00207              $password == $passwordConfirm and
+00208              strlen( $password ) &gt;= 3 ) <span class="dox_comment">// Cannot change login or password_hash without login and password</span>
+00209         {
+00210             $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a20">setAttribute</a>( <span class="dox_stringliteral">"password_hash"</span>, <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d8">eZUser::createHash</a>( $login, $password, <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">eZUser::site</a>(),
+00211                                                                       <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">eZUser::hashType</a>() ) );
+00212             $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a20">setAttribute</a>( <span class="dox_stringliteral">"password_hash_type"</span>, <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">eZUser::hashType</a>() );
+00213         }
+00214         <span class="dox_keywordflow">else</span>
+00215         {
+00216             $this-&gt;setOriginalPassword( $password );
+00217             $this-&gt;setOriginalPasswordConfirm( $passwordConfirm );
+00218         }
+00219     }
+00220 
+00221     function &amp;fetch( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a>, $asObject = <span class="dox_keyword">true</span> )
+00222     {
+00223         $user =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a2">eZPersistentObject::fetchObject</a>( <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a1">eZUser::definition</a>(),
+00224                                                   null,
+00225                                                   array( 'contentobject_id' =&gt; $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> ),
+00226                                                   $asObject );
+00227         <span class="dox_keywordflow">return</span> $user;
+00228     }
+00229 
+00230     function &amp;fetchByName( $login, $asObject = <span class="dox_keyword">true</span> )
+00231     {
+00232         $user =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a2">eZPersistentObject::fetchObject</a>( <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a1">eZUser::definition</a>(),
+00233                                                   null,
+00234                                                   array( 'login' =&gt; $login ),
+00235                                                   $asObject );
+00236         <span class="dox_keywordflow">return</span> $user;
+00237     }
+00238 
+00239     function &amp;fetchByEmail( $email, $asObject = <span class="dox_keyword">true</span> )
+00240     {
+00241         $user =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a2">eZPersistentObject::fetchObject</a>( <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a1">eZUser::definition</a>(),
+00242                                                   null,
+00243                                                   array( 'email' =&gt; $email ),
+00244                                                   $asObject );
+00245         <span class="dox_keywordflow">return</span> $user;
+00246     }
+00247 
+00248     function &amp;removeUser( $userID )
+00249     {
+00250         <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZPersistentObject#a4">eZPersistentObject::removeObject</a>( <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a1">eZUser::definition</a>(),
+00251                                           array( 'contentobject_id' =&gt; $userID ) );
+00252     }
+00253 
+<a name="l00258"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">00258</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">hashType</a>()
+00259     {
+00260         include_once( 'lib/ezutils/classes/ezini.php' );
+00261         $ini =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00262         $type = strtolower( $ini-&gt;variable( 'UserSettings', 'HashType' ) );
+00263         <span class="dox_keywordflow">if</span> ( $type == 'md5_site' )
+00264             <span class="dox_keywordflow">return</span> EZ_USER_PASSWORD_HASH_MD5_SITE;
+00265         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $type == 'md5_user' )
+00266             <span class="dox_keywordflow">return</span> EZ_USER_PASSWORD_HASH_MD5_USER;
+00267         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $type == 'plaintext' )
+00268             <span class="dox_keywordflow">return</span> EZ_USER_PASSWORD_HASH_PLAINTEXT;
+00269         <span class="dox_keywordflow">else</span>
+00270             <span class="dox_keywordflow">return</span> EZ_USER_PASSWORD_HASH_MD5_PASSWORD;
+00271     }
+00272 
+<a name="l00277"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">00277</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">site</a>()
+00278     {
+00279         include_once( 'lib/ezutils/classes/ezini.php' );
+00280         $ini =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00281         <span class="dox_keywordflow">return</span> $ini-&gt;variable( 'UserSettings', 'SiteName' );
+00282     }
+00283 
+<a name="l00288"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a15">00288</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a15">fetchBuiltin</a>( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> )
+00289     {
+00290         <span class="dox_keywordflow">if</span> ( !in_array( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a>, $GLOBALS['eZUserBuiltins'] ) )
+00291             $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> = EZ_USER_ANONYMOUS_ID;
+00292         $builtinInstance =&amp; $GLOBALS[<span class="dox_stringliteral">"eZUserBuilitinInstance-$id"</span>];
+00293         <span class="dox_keywordflow">if</span> ( get_class( $builtinInstance ) != 'ezuser' )
+00294         {
+00295             include_once( 'lib/ezutils/classes/ezini.php' );
+00296             $builtinInstance =  eZUser::fetch( EZ_USER_ANONYMOUS_ID );
+00297         }
+00298         <span class="dox_keywordflow">return</span> $builtinInstance;
+00299     }
+00300 
+00301 
+<a name="l00305"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">00305</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a>()
+00306     {
+00307         <span class="dox_keywordflow">return</span> $this-&gt;ContentObjectID;
+00308     }
+00309 
+<a name="l00313"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a17">00313</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a17">authenticationMatch</a>()
+00314     {
+00315         include_once( 'lib/ezutils/classes/ezini.php' );
+00316         $ini =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00317         $matchArray = $ini-&gt;variableArray( 'UserSettings', 'AuthenticateMatch' );
+00318         $match = 0;
+00319         foreach ( $matchArray as $matchItem )
+00320         {
+00321             <span class="dox_keywordflow">switch</span> ( $matchItem )
+00322             {
+00323                 <span class="dox_keywordflow">case</span> <span class="dox_stringliteral">"login"</span>:
+00324                 {
+00325                     $match = ( $match | EZ_USER_AUTHENTICATE_LOGIN );
+00326                 } <span class="dox_keywordflow">break</span>;
+00327                 <span class="dox_keywordflow">case</span> <span class="dox_stringliteral">"email"</span>:
+00328                 {
+00329                     $match = ( $match | EZ_USER_AUTHENTICATE_EMAIL );
+00330                 } <span class="dox_keywordflow">break</span>;
+00331             }
+00332         }
+00333         <span class="dox_keywordflow">return</span> $match;
+00334     }
+00335 
+<a name="l00341"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d2">00341</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d2">loginUser</a>( $login, $password, $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a17">authenticationMatch</a> = <span class="dox_keyword">false</span> )
+00342     {
+00343         $http =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZHTTPTool#a12">eZHTTPTool::instance</a>();
+00344         $db =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00345 
+00346         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a17">authenticationMatch</a> === <span class="dox_keyword">false</span> )
+00347             $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a17">authenticationMatch</a> = <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a17">eZUser::authenticationMatch</a>();
+00348 
+00349         $loginEscaped = $db-&gt;escapeString( $login );
+00350 
+00351         $loginArray = array();
+00352         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a17">authenticationMatch</a> &amp; EZ_USER_AUTHENTICATE_LOGIN )
+00353             $loginArray[] = <span class="dox_stringliteral">"login='$loginEscaped'"</span>;
+00354         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a17">authenticationMatch</a> &amp; EZ_USER_AUTHENTICATE_EMAIL )
+00355             $loginArray[] = <span class="dox_stringliteral">"email='$loginEscaped'"</span>;
+00356         <span class="dox_keywordflow">if</span> ( count( $loginArray ) == 0 )
+00357             $loginArray[] = <span class="dox_stringliteral">"login='$loginEscaped'"</span>;
+00358         $loginText = implode( ' OR ', $loginArray );
+00359 
+00360         $contentObjectStatus = EZ_CONTENT_OBJECT_STATUS_PUBLISHED;
+00361 
+00362         $ini =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00363         $databaseImplementation = $ini-&gt;variable( 'DatabaseSettings', 'DatabaseImplementation' );
+00364         <span class="dox_comment">// if mysql</span>
+00365         <span class="dox_keywordflow">if</span> ( $databaseImplementation == <span class="dox_stringliteral">"ezmysql"</span> )
+00366         {
+00367             $query = <span class="dox_stringliteral">"SELECT contentobject_id, password_hash, password_hash_type, email, login</span>
+00368 <span class="dox_stringliteral">                      FROM ezuser, ezcontentobject</span>
+00369 <span class="dox_stringliteral">                      WHERE ( $loginText ) AND</span>
+00370 <span class="dox_stringliteral">                        ezcontentobject.status='$contentObjectStatus' AND</span>
+00371 <span class="dox_stringliteral">                        ( ezcontentobject.id=contentobject_id OR ( password_hash_type=4 AND ( $loginText ) AND password_hash=PASSWORD('$password') ) )"</span>;
+00372         }
+00373         <span class="dox_keywordflow">else</span>
+00374         {
+00375             $query = <span class="dox_stringliteral">"SELECT contentobject_id, password_hash, password_hash_type, email, login</span>
+00376 <span class="dox_stringliteral">                      FROM ezuser, ezcontentobject</span>
+00377 <span class="dox_stringliteral">                      WHERE ( $loginText ) AND</span>
+00378 <span class="dox_stringliteral">                            ezcontentobject.status='$contentObjectStatus' AND</span>
+00379 <span class="dox_stringliteral">                            ezcontentobject.id=contentobject_id"</span>;
+00380         }
+00381 
+00382         $users =&amp; $db-&gt;arrayQuery( $query );
+00383         $exists = <span class="dox_keyword">false</span>;
+00384         <span class="dox_keywordflow">if</span> ( count( $users ) &gt;= 1 )
+00385         {
+00386             include_once( 'lib/ezutils/classes/ezini.php' );
+00387             $ini =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00388             foreach ( array_keys( $users ) as $key )
+00389             {
+00390                 $userRow =&amp; $users[$key];
+00391                 $userID = $userRow['contentobject_id'];
+00392                 $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">hashType</a> = $userRow['password_hash_type'];
+00393                 $hash = $userRow['password_hash'];
+00394                 $exists = <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d5">eZUser::authenticateHash</a>( $userRow['login'], $password, <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">eZUser::site</a>(),
+00395                                                     $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">hashType</a>,
+00396                                                     $hash );
+00397 
+00398                 <span class="dox_comment">// If hash type is MySql</span>
+00399                 <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">hashType</a> == EZ_USER_PASSWORD_HASH_MYSQL and $databaseImplementation == <span class="dox_stringliteral">"ezmysql"</span> )
+00400                 {
+00401                     $queryMysqlUser = <span class="dox_stringliteral">"SELECT contentobject_id, password_hash, password_hash_type, email, login</span>
+00402 <span class="dox_stringliteral">                              FROM ezuser, ezcontentobject</span>
+00403 <span class="dox_stringliteral">                              WHERE ezcontentobject.status='$contentObjectStatus' AND</span>
+00404 <span class="dox_stringliteral">                                    password_hash_type=4 AND ( $loginText ) AND password_hash=PASSWORD('$password') "</span>;
+00405                     $mysqlUsers =&amp; $db-&gt;arrayQuery( $queryMysqlUser );
+00406                     <span class="dox_keywordflow">if</span> ( count( $mysqlUsers ) &gt;= 1 )
+00407                         $exists = <span class="dox_keyword">true</span>;
+00408                 }
+00409 
+00410                 <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDebugSetting#d5">eZDebugSetting::writeDebug</a>( 'kernel-user', <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d8">eZUser::createHash</a>( $userRow['login'], $password, <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">eZUser::site</a>(),
+00411                                                                                $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">hashType</a> ), <span class="dox_stringliteral">"check hash"</span> );
+00412                 <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDebugSetting#d5">eZDebugSetting::writeDebug</a>( 'kernel-user', $hash, <span class="dox_stringliteral">"stored hash"</span> );
+00413                 <span class="dox_keywordflow">if</span> ( $exists )
+00414                 {
+00415                     $userSetting = eZUserSetting::fetch( $userID );
+00416                     $isEnabled = $userSetting-&gt;attribute( <span class="dox_stringliteral">"is_enabled"</span> );
+00417                     <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">hashType</a> != <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">eZUser::hashType</a>() and
+00418                          strtolower( $ini-&gt;variable( 'UserSettings', 'UpdateHash' ) ) == '<span class="dox_keyword">true</span>' )
+00419                     {
+00420                         $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">hashType</a> = <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">eZUser::hashType</a>();
+00421                         $hash = <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d8">eZUser::createHash</a>( $login, $password, <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">eZUser::site</a>(),
+00422                                                     $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d0">hashType</a> );
+00423                         $db-&gt;query( <span class="dox_stringliteral">"UPDATE ezuser SET password_hash='$hash', password_hash_type='$hashType' WHERE contentobject_id='$userID'"</span> );
+00424                     }
+00425                     <span class="dox_keywordflow">break</span>;
+00426                 }
+00427             }
+00428         }
+00429         <span class="dox_keywordflow">if</span> ( $exists and $isEnabled )
+00430         {
+00431             <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDebugSetting#d5">eZDebugSetting::writeDebug</a>( 'kernel-user', $userRow, 'user row' );
+00432             $user =&amp; <span class="dox_keyword">new</span> <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a>( $userRow );
+00433             <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDebugSetting#d5">eZDebugSetting::writeDebug</a>( 'kernel-user', $user, 'user' );
+00434             $GLOBALS[<span class="dox_stringliteral">"eZUserGlobalInstance"</span>] =&amp; $user;
+00435             $http-&gt;setSessionVariable( 'eZUserLoggedInID', $userRow['contentobject_id'] );
+00436             <span class="dox_keywordflow">return</span> $user;
+00437         }
+00438         <span class="dox_keywordflow">else</span>
+00439             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00440     }
+00441 
+00442 
+<a name="l00446"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a18">00446</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a18">loginCurrent</a>()
+00447     {
+00448         eZHTTPTool::setSessionVariable( 'eZUserLoggedInID', $this-&gt;ContentObjectID );
+00449     }
+00450 
+<a name="l00454"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a19">00454</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a19">logoutCurrent</a>()
+00455     {
+00456         $http =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZHTTPTool#a12">eZHTTPTool::instance</a>();
+00457         $http-&gt;removeSessionVariable( <span class="dox_stringliteral">"eZUserLoggedInID"</span> );
+00458     }
+00459 
+<a name="l00468"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a20">00468</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a20">instance</a>( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> = <span class="dox_keyword">false</span> )
+00469     {
+00470         $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a> =&amp; $GLOBALS[<span class="dox_stringliteral">"eZUserGlobalInstance"</span>];
+00471         <span class="dox_keywordflow">if</span> ( get_class( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a> ) == 'ezuser' )
+00472         {
+00473             <span class="dox_keywordflow">return</span> $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a>;
+00474         }
+00475 
+00476         $http =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZHTTPTool#a12">eZHTTPTool::instance</a>();
+00477         <span class="dox_comment">// If not specified get the current user</span>
+00478         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> === <span class="dox_keyword">false</span> )
+00479         {
+00480             $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> = $http-&gt;sessionVariable( 'eZUserLoggedInID' );
+00481 
+00482             <span class="dox_keywordflow">if</span> ( !is_numeric( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> ) )
+00483                 $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> = EZ_USER_ANONYMOUS_ID;
+00484         }
+00485 
+00486         <span class="dox_comment">// Check cache</span>
+00487         $fetchFromDB = <span class="dox_keyword">true</span>;
+00488 
+00489         include_once( 'lib/ezutils/classes/ezexpiryhandler.php' );
+00490         $handler =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZExpiryHandler#d0">eZExpiryHandler::instance</a>();
+00491         $expiredTimeStamp = 0;
+00492         <span class="dox_keywordflow">if</span> ( $handler-&gt;hasTimestamp( 'user-info-cache' ) )
+00493             $expiredTimeStamp = $handler-&gt;timestamp( 'user-info-cache' );
+00494 
+00495         $userArrayTimestamp =&amp; $http-&gt;sessionVariable( 'eZUserInfoCache_Timestamp' );
+00496 
+00497         <span class="dox_keywordflow">if</span> ( $userArrayTimestamp &gt; $expiredTimeStamp )
+00498         {
+00499 
+00500             $userArray =&amp; $http-&gt;sessionVariable( 'eZUserInfoCache_' . $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> );
+00501 
+00502             <span class="dox_keywordflow">if</span> ( is_numeric( $userArray['contentobject_id'] ) )
+00503             {
+00504                 $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a> = <span class="dox_keyword">new</span> <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a>( $userArray );
+00505                 $fetchFromDB = <span class="dox_keyword">false</span>;
+00506             }
+00507         }
+00508 
+00509         <span class="dox_keywordflow">if</span> ( $fetchFromDB == <span class="dox_keyword">true</span> )
+00510         {
+00511             $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a> =&amp; eZUser::fetch( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a> );
+00512             <span class="dox_comment">// store cache</span>
+00513 
+00514             <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a> )
+00515             {
+00516                 $http-&gt;setSessionVariable( 'eZUserInfoCache_' . $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a>,
+00517                                            array( 'contentobject_id' =&gt; $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a>-&gt;attribute( 'contentobject_id' ),
+00518                                                   'login' =&gt; $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a>-&gt;attribute( 'login' ),
+00519                                                   'email' =&gt; $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a>-&gt;attribute( 'email' ),
+00520                                                   'password_hash' =&gt; $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a>-&gt;attribute( 'password_hash' ),
+00521                                                   'password_hash_type' =&gt; $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a>-&gt;attribute( 'password_hash_type' )
+00522                                                   ) );
+00523                 $http-&gt;setSessionVariable( 'eZUserInfoCache_Timestamp', mktime()  );
+00524             }
+00525         }
+00526 
+00527         <span class="dox_keywordflow">if</span> ( !$<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a> )
+00528         {
+00529             $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a> = <span class="dox_keyword">new</span> <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a>( array( '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a>' =&gt; -1, 'login' =&gt; 'NoUser' ) );
+00530 
+00531             <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDebug#d3">eZDebug::writeWarning</a>( 'User not found, returning anonymous' );
+00532         }
+00533 
+00534         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a>;
+00535     }
+00536 
+<a name="l00541"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">00541</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d3">currentUser</a>()
+00542     {
+00543         $user =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a20">eZUser::instance</a>();
+00544         <span class="dox_keywordflow">return</span> $user;
+00545     }
+00546 
+<a name="l00551"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d4">00551</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d4">currentUserID</a>()
+00552     {
+00553         $user =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a20">eZUser::instance</a>();
+00554         <span class="dox_keywordflow">if</span> ( !$user )
+00555             <span class="dox_keywordflow">return</span> 0;
+00556         <span class="dox_keywordflow">return</span> $user-&gt;attribute( 'contentobject_id' );
+00557     }
+00558 
+<a name="l00564"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d5">00564</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d5">authenticateHash</a>( $user, $password, $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">site</a>, $type, $hash )
+00565     {
+00566         <span class="dox_keywordflow">return</span> <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d8">eZUser::createHash</a>( $user, $password, $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">site</a>, $type ) == $hash;
+00567     }
+00568 
+<a name="l00573"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d6">00573</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d6">passwordCharacterTable</a>()
+00574     {
+00575         $table =&amp; $GLOBALS['eZUserPasswordCharacterTable'];
+00576         <span class="dox_keywordflow">if</span> ( isset( $table ) )
+00577             <span class="dox_keywordflow">return</span> $table;
+00578         $table = array();
+00579         <span class="dox_keywordflow">for</span> ( $i = ord( <span class="dox_charliteral">'a'</span> ); $i &lt;= ord( <span class="dox_charliteral">'z'</span> ); ++$i )
+00580         {
+00581             $<span class="dox_keywordtype">char</span> = chr( $i );
+00582             $table[] = $<span class="dox_keywordtype">char</span>;
+00583             $table[] = strtoupper( $<span class="dox_keywordtype">char</span> );
+00584         }
+00585         <span class="dox_keywordflow">for</span> ( $i = 0; $i &lt;= 9; ++$i )
+00586         {
+00587             $table[] = <span class="dox_stringliteral">"$i"</span>;
+00588         }
+00589         $ini =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00590         <span class="dox_keywordflow">if</span> ( $ini-&gt;variable( 'UserSettings', 'UseSpecialCharacters' ) == <span class="dox_keyword">true</span> )
+00591         {
+00592             $specialCharacters = '!#%&amp;{[]}+?;:*';
+00593             <span class="dox_keywordflow">for</span> ( $i = 0; $i &lt; strlen( $specialCharacters ); ++$i )
+00594             {
+00595                 $table[] = $specialCharacters[$i];
+00596             }
+00597         }
+00598         <span class="dox_comment">// Remove some characters that are too similar visually</span>
+00599         $table = array_diff( $table, array( <span class="dox_charliteral">'I'</span>, <span class="dox_charliteral">'l'</span>, <span class="dox_charliteral">'o'</span>, <span class="dox_charliteral">'O'</span>, <span class="dox_charliteral">'0'</span> ) );
+00600         $tableTmp = $table;
+00601         $table = array();
+00602         foreach ( $tableTmp as $item )
+00603         {
+00604             $table[] = $item;
+00605         }
+00606         <span class="dox_keywordflow">return</span> $table;
+00607     }
+00608 
+<a name="l00617"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d7">00617</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d7">createPassword</a>( $passwordLength, $seed = <span class="dox_keyword">false</span> )
+00618     {
+00619         $chars = 0;
+00620         $password = '';
+00621         <span class="dox_keywordflow">if</span> ( $passwordLength &lt; 1 )
+00622             $passwordLength = 1;
+00623         $decimal = 0;
+00624         <span class="dox_keywordflow">while</span> ( $chars &lt; $passwordLength )
+00625         {
+00626             <span class="dox_keywordflow">if</span> ( $seed == <span class="dox_keyword">false</span> )
+00627                 $seed = mktime();
+00628             $text = md5( $seed );
+00629             $characterTable = <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d6">eZUser::passwordCharacterTable</a>();
+00630             $tableCount = count( $characterTable );
+00631             <span class="dox_keywordflow">for</span> ( $i = 0; ( $chars &lt; $passwordLength ) and $i &lt; 32; ++$chars, $i += 2 )
+00632             {
+00633                 $decimal += hexdec( substr( $text, $i, 2 ) );
+00634                 $index = ( $decimal % $tableCount );
+00635                 $character = $characterTable[$index];
+00636                 $password .= $character;
+00637             }
+00638             $seed = <span class="dox_keyword">false</span>;
+00639         }
+00640         <span class="dox_keywordflow">return</span> $password;
+00641     }
+00642 
+<a name="l00647"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d8">00647</a>     function <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d8">createHash</a>( $user, $password, $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#d1">site</a>, $type )
+00648     {
+00649         $str = '';
+00650 <span class="dox_comment">//         eZDebugSetting::writeDebug( 'kernel-user', "'$user' '$password' '$site'", "ezuser($type)" );</span>
+00651         <span class="dox_keywordflow">if</span>( $type == EZ_USER_PASSWORD_HASH_MD5_USER )
+00652         {
+00653             $str = md5( <span class="dox_stringliteral">"$user\n$password"</span> );
+00654         }
+00655         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $type == EZ_USER_PASSWORD_HASH_MD5_SITE )
+00656         {
+00657             $str = md5( <span class="dox_stringliteral">"$user\n$password\n$site"</span> );
+00658         }
+00659         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $type == EZ_USER_PASSWORD_HASH_MYSQL )
+00660         {
+00661             <span class="dox_comment">// Do some MySQL stuff here</span>
+00662         }
+00663         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $type == EZ_USER_PASSWORD_HASH_PLAINTEXT )
+00664         {
+00665             $str = $password;
+00666         }
+00667         <span class="dox_keywordflow">else</span> <span class="dox_comment">// EZ_USER_PASSWORD_HASH_MD5_PASSWORD</span>
+00668         {
+00669             $str = md5( $password );
+00670         }
+00671         <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDebugSetting#d5">eZDebugSetting::writeDebug</a>( 'kernel-user', $str, <span class="dox_stringliteral">"ezuser($type)"</span> );
+00672         <span class="dox_keywordflow">return</span> $str;
+00673     }
+00674 
+00675     function &amp;hasAccessTo( $module, $function )
+00676     {
+00677         $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a> =&amp; $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a>' );
+00678         $access = 'no';
+00679         $limitationPolicyList = array();
+00680         reset( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a> );
+00681         foreach ( array_keys( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a> ) as $key )
+00682         {
+00683             $role =&amp; $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a>[$key];
+00684             $policies =&amp; $role-&gt;attribute( 'policies');
+00685             foreach ( array_keys( $policies ) as $policy_key )
+00686             {
+00687                 $policy =&amp; $policies[$policy_key];
+00688                 <span class="dox_keywordflow">if</span> ( $policy-&gt;attribute( 'module_name' ) == <span class="dox_charliteral">'*'</span> )
+00689                 {
+00690                     <span class="dox_keywordflow">return</span> array( 'accessWord' =&gt; 'yes' );
+00691                 }
+00692                 elseif ( $policy-&gt;attribute( 'module_name' ) == $module )
+00693                 {
+00694                     <span class="dox_keywordflow">if</span> ( $policy-&gt;attribute( 'function_name' ) == <span class="dox_charliteral">'*'</span> )
+00695                     {
+00696                         <span class="dox_keywordflow">return</span> array( 'accessWord' =&gt; 'yes' );
+00697                     }
+00698                     elseif ( $policy-&gt;attribute( 'function_name' ) == $function )
+00699                     {
+00700                         <span class="dox_keywordflow">if</span> ( $policy-&gt;attribute( 'limitation' ) == <span class="dox_charliteral">'*'</span> )
+00701                         {
+00702                             <span class="dox_keywordflow">return</span> array( 'accessWord' =&gt; 'yes' );
+00703                         }
+00704                         <span class="dox_keywordflow">else</span>
+00705                         {
+00706                             $access = 'limited';
+00707                             $limitationPolicyList[] =&amp; $policy;
+00708                         }
+00709                     }
+00710                 }
+00711             }
+00712         }
+00713         <span class="dox_keywordflow">return</span> array( 'accessWord' =&gt; $access, 'policies' =&gt; $limitationPolicyList );
+00714     }
+00715 
+<a name="l00719"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">00719</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a>()
+00720     {
+00721         <span class="dox_keywordflow">if</span> ( !isset( $this-&gt;Roles ) )
+00722         {
+00723             $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a> = $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>' );
+00724             $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>[] = $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( 'contentobject_id' );
+00725             $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a> =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZRole#a11">eZRole::fetchByUser</a>( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a> );
+00726             $this-&gt;Roles =&amp; $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a22">roles</a>;
+00727         }
+00728         <span class="dox_keywordflow">return</span> $this-&gt;Roles;
+00729     }
+00730 
+<a name="l00734"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a23">00734</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a23">roleIDList</a>()
+00735     {
+00736         $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a> = $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( '<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>' );
+00737         $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>[] = $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( 'contentobject_id' );
+00738         $roleList = <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZRole#a12">eZRole::fetchIDListByUser</a>( $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a> );
+00739         <span class="dox_keywordflow">return</span> $roleList;
+00740     }
+00741 
+<a name="l00746"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a24">00746</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a24">isLoggedIn</a>()
+00747     {
+00748         $<span class="dox_keywordflow">return</span> = <span class="dox_keyword">true</span>;
+00749         <span class="dox_keywordflow">if</span> ( $this-&gt;ContentObjectID == EZ_USER_ANONYMOUS_ID or
+00750              $this-&gt;ContentObjectID == -1
+00751              )
+00752             $<span class="dox_keywordflow">return</span> = <span class="dox_keyword">false</span>;
+00753         <span class="dox_keywordflow">return</span> $<span class="dox_keywordflow">return</span>;
+00754     }
+00755 
+<a name="l00759"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">00759</a>     function &amp;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a25">groups</a>( $asObject = <span class="dox_keyword">false</span>, $userID = <span class="dox_keyword">false</span> )
+00760     {
+00761         $db =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00762         $http =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZHTTPTool#a12">eZHTTPTool::instance</a>();
+00763 
+00764         <span class="dox_keywordflow">if</span> ( $asObject == <span class="dox_keyword">true</span> )
+00765         {
+00766             $this-&gt;Groups = array();
+00767             <span class="dox_keywordflow">if</span> ( !isset( $this-&gt;GroupsAsObjects ) )
+00768             {
+00769                 <span class="dox_keywordflow">if</span> ( $userID )
+00770                 {
+00771                     $contentobjectID = $userID;
+00772                 }
+00773                 <span class="dox_keywordflow">else</span>
+00774                 {
+00775                     $contentobjectID = $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( 'contentobject_id' );
+00776                 }
+00777                 $userGroups =&amp; $db-&gt;arrayQuery( <span class="dox_stringliteral">"SELECT d.*</span>
+00778 <span class="dox_stringliteral">                                                FROM ezcontentobject_tree  b,</span>
+00779 <span class="dox_stringliteral">                                                     ezcontentobject_tree  c,</span>
+00780 <span class="dox_stringliteral">                                                     ezcontentobject d</span>
+00781 <span class="dox_stringliteral">                                                WHERE b.contentobject_id='$contentobjectID' AND</span>
+00782 <span class="dox_stringliteral">                                                      b.parent_node_id = c.node_id AND</span>
+00783 <span class="dox_stringliteral">                                                      d.id = c.contentobject_id</span>
+00784 <span class="dox_stringliteral">                                                ORDER BY c.contentobject_id  "</span>);
+00785                 $userGroupArray = array();
+00786 
+00787                 foreach ( $userGroups as $group )
+00788                 {
+00789                     $userGroupArray[] = <span class="dox_keyword">new</span> <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZContentObject">eZContentObject</a>( $group );
+00790                 }
+00791                 $this-&gt;GroupsAsObjects =&amp; $userGroupArray;
+00792             }
+00793             <span class="dox_keywordflow">return</span> $this-&gt;GroupsAsObjects;
+00794         }
+00795         <span class="dox_keywordflow">else</span>
+00796         {
+00797             <span class="dox_keywordflow">if</span> ( !isset( $this-&gt;Groups ) )
+00798             {
+00799                 <span class="dox_keywordflow">if</span> ( $userID )
+00800                 {
+00801                     $contentobjectID = $userID;
+00802                 }
+00803                 <span class="dox_keywordflow">else</span>
+00804                 {
+00805                     $contentobjectID = $this-&gt;<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a2">attribute</a>( 'contentobject_id' );
+00806                 }
+00807 
+00808                 $userGroups = <span class="dox_keyword">false</span>;
+00809 
+00810                 $userGroupTimestamp =&amp; $http-&gt;sessionVariable( 'eZUserGroupsCache_Timestamp' );
+00811 
+00812                 include_once( 'lib/ezutils/classes/ezexpiryhandler.php' );
+00813                 $handler =&amp; <a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZExpiryHandler#d0">eZExpiryHandler::instance</a>();
+00814                 $expiredTimeStamp = 0;
+00815                 <span class="dox_keywordflow">if</span> ( $handler-&gt;hasTimestamp( 'user-info-cache' ) )
+00816                     $expiredTimeStamp = $handler-&gt;timestamp( 'user-info-cache' );
+00817 
+00818                 <span class="dox_comment">// check for cached version</span>
+00819                 <span class="dox_keywordflow">if</span> ( $userGroupTimestamp &gt; $expiredTimeStamp )
+00820                 {
+00821                     $userGroupsTmp =&amp; $http-&gt;sessionVariable( 'eZUserGroupsCache_' . $contentobjectID );
+00822 
+00823                     <span class="dox_keywordflow">if</span> ( count( $userGroupsTmp ) &gt; 0 )
+00824                     {
+00825                         $userGroups =&amp; $userGroupsTmp;
+00826                     }
+00827                 }
+00828 
+00829                 <span class="dox_keywordflow">if</span> ( $userGroups === <span class="dox_keyword">false</span> or
+00830                      count( $userGroups ) == 0 )
+00831                 {
+00832                     $userGroups =&amp; $db-&gt;arrayQuery( <span class="dox_stringliteral">"SELECT  c.contentobject_id as id</span>
+00833 <span class="dox_stringliteral">                                                FROM ezcontentobject_tree  b,</span>
+00834 <span class="dox_stringliteral">                                                     ezcontentobject_tree  c</span>
+00835 <span class="dox_stringliteral">                                                WHERE b.contentobject_id='$contentobjectID' AND</span>
+00836 <span class="dox_stringliteral">                                                      b.parent_node_id = c.node_id</span>
+00837 <span class="dox_stringliteral">                                                ORDER BY c.contentobject_id  "</span>);
+00838 
+00839                     $http-&gt;setSessionVariable( 'eZUserGroupsCache_' . $contentobjectID, $userGroups );
+00840                     $http-&gt;setSessionVariable( 'eZUserGroupsCache_Timestamp', mktime() );
+00841                 }
+00842 
+00843                 $userGroupArray = array();
+00844 
+00845                 foreach ( $userGroups as $group )
+00846                 {
+00847                     $userGroupArray[] = $group['<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#a16">id</a>'];
+00848                 }
+00849                 $this-&gt;Groups =&amp; $userGroupArray;
+00850             }
+00851             <span class="dox_keywordflow">return</span> $this-&gt;Groups;
+00852         }
+00853     }
+00854 
+<a name="l00856"></a><a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#m0">00856</a>     var $<a class="dox_code" href="/web/20030817122929/http://ez.no/sdk/ref/view/class/eZUser#m0">Login</a>;
+00857     var $Email;
+00858     var $PasswordHash;
+00859     var $PasswordHashType;
+00860     var $Groups;
+00861     var $Roles;
+00862     var $OriginalPassword;
+00863     var $OriginalPasswordConfirm;
+00864 }
+00865 
+00866 ?&gt;
+</pre></div>&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817122929/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817122929/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:29:29 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:20:53 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.688
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.011
+  esindex: 0.014
+  cdx.remote: 6.342
+  LoadShardBlock: 55.588 (3)
+  PetaboxLoader3.datanode: 86.862 (4)
+  load_resource: 124.53
+  PetaboxLoader3.resolve: 76.956
+-->

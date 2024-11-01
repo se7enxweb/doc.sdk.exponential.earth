@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZCodePage","20030823121344","http://web.archive.org/","web","/_static/",
+	      "1061640824");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121344cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121344cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030823121344cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823121344/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030823121344im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZCodePage Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/module/eZI18N">Internationalization</a>]</small>
+</h1>Handles codepage files for charset mapping. 
+<a href="eZCodePage.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/members/eZCodePage">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#a0">eZCodePage</a> ($charset_code,$use_cache=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#a18">load</a> ($use_cache=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#a19">charsetCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#a20">requestedCharsetCode</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#a21">minCharValue</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#a22">maxCharValue</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#a23">isValid</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#a24">instance</a> ($charset_code,$use_cache=true)</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#d0">exists</a> ($charset_code)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#d1">fileName</a> ($charset_code)</td></tr>
+<tr><td colspan="2"><br><h2>Private Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o0">RequestedCharsetCode</a></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o1" doxytag="eZCodePage::CharsetCode"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o1">CharsetCode</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The read charset code, may differ from $RequestedCharsetCode.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o2" doxytag="eZCodePage::CharsetEncodingScheme"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o2">CharsetEncodingScheme</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Encoding scheme for current charset, for instance utf-8, singlebyte, multibyte.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o3" doxytag="eZCodePage::UnicodeMap"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o3">UnicodeMap</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Maps normal codes to unicode.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o4" doxytag="eZCodePage::UTF8Map"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o4">UTF8Map</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Maps normal codes to utf8.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o5" doxytag="eZCodePage::CodeMap"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o5">CodeMap</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Maps unicode to normal codes.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o6" doxytag="eZCodePage::UTF8CodeMap"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o6">UTF8CodeMap</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Maps utf8 to normal codes.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o7" doxytag="eZCodePage::MinCharValue"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o7">MinCharValue</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The minimum key value for the mapping tables.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o8" doxytag="eZCodePage::MaxCharValue"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o8">MaxCharValue</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The maximum key value for the mapping tables.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o9" doxytag="eZCodePage::Valid"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o9">Valid</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Whether the codepage is valid or not.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o10" doxytag="eZCodePage::SubstituteChar"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZCodePage.html#o10">SubstituteChar</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The character to use when an alternative doesn't exist.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Handles codepage files for charset mapping.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00048">48</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZCodePage::eZCodePage"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::eZCodePage </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>charset_code</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>use_cache</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the codepage with the charset code $charset_code, and then loads it. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00053">53</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcharsetinfo#l00210">eZCharsetInfo::characterEncodingScheme()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00531">CharsetCode</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00533">CharsetEncodingScheme</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00278">load()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00545">MaxCharValue</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00543">MinCharValue</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcharsetinfo#l00194">eZCharsetInfo::realCharsetCode()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00529">RequestedCharsetCode</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00549">SubstituteChar</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00547">Valid</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00517">instance()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a19" doxytag="eZCodePage::charsetCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::charsetCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the charset code which is in use. This may not be the charset that was requested due to aliases. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="eZCodePage.html#a20">requestedCharsetCode</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00477">477</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00531">CharsetCode</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZCodePage::exists"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::exists </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>charset_code</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if the codepage $charset_code exists. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00220">220</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00230">fileName()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZCodePage::fileName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::fileName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>charset_code</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the filename of the charset code <em>$charset_code</em>. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00230">230</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcharsetinfo#l00194">eZCharsetInfo::realCharsetCode()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00220">exists()</a>.    </td>
+  </tr>
+</table>
+<a name="a24" doxytag="eZCodePage::instance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZCodePage::instance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>charset_code</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>use_cache</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the only instance of the codepage for $charset_code. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00517">517</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00053">eZCodePage()</a>.    </td>
+  </tr>
+</table>
+<a name="a23" doxytag="eZCodePage::isValid"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::isValid </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if the codepage is valid for use. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00509">509</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00547">Valid</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZCodePage::load"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::load </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>use_cache</em> = true          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Loads the codepage from disk. If $use_cache is true and a cached version is found it is used instead. If $use_cache is true and no cache was found a new cache is created. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00278">278</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00531">CharsetCode</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00539">CodeMap</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezutf8codec#l00242">eZUTF8Codec::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00545">MaxCharValue</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00543">MinCharValue</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00535">UnicodeMap</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00541">UTF8CodeMap</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00537">UTF8Map</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00547">Valid</a>, <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezdebug#l00351">eZDebug::writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00053">eZCodePage()</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZCodePage::maxCharValue"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::maxCharValue </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the largest character value used in the mapping table. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00501">501</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00545">MaxCharValue</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZCodePage::minCharValue"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::minCharValue </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the lowest character value used in the mapping table. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00493">493</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00543">MinCharValue</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZCodePage::requestedCharsetCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::requestedCharsetCode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the charset code which was requested, may differ from <a class="dox_el" href="eZCodePage.html#a19">charsetCode()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00485">485</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00529">RequestedCharsetCode</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Data Documentation</h2>
+<a name="o0" doxytag="eZCodePage::RequestedCharsetCode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZCodePage::RequestedCharsetCode<code> [private]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+The charset code which was requested, may differ from $CharsetCode 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00529">529</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00053">eZCodePage()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage#l00485">requestedCharsetCode()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030823121344/http://ez.no/sdk/ref/view/source/ezcodepage">ezcodepage.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823121344/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823121344/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:13:44 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:28:51 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.383
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.009
+  esindex: 0.009
+  cdx.remote: 17.595
+  LoadShardBlock: 515.646 (3)
+  PetaboxLoader3.datanode: 216.224 (4)
+  PetaboxLoader3.resolve: 373.721 (3)
+  load_resource: 102.029
+-->

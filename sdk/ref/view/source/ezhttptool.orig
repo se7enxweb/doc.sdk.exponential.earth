@@ -1,0 +1,508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/ref/view/source/ezhttptool","20030707232124","http://web.archive.org/","web","/_static/",
+	      "1057620084");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030707232124cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030707232124cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030707232124cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030707232124im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030707232124/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030707232124/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030707232124/http://www.ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707232124/http://www.ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707232124/http://www.ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707232124/http://www.ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707232124/http://www.ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707232124/http://www.ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707232124/http://www.ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030707232124im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030707232124/http://www.ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">ezhttptool.php</h1><div class="dox_fragment"><pre>00001 &lt;?php
+00002 <span class="dox_comment">//</span>
+00003 <span class="dox_comment">// Definition of eZHTTPTool class</span>
+00004 <span class="dox_comment">//</span>
+00005 <span class="dox_comment">// Created on: &lt;18-Apr-2002 14:05:21 amos&gt;</span>
+00006 <span class="dox_comment">//</span>
+00007 <span class="dox_comment">// Copyright (C) 1999-2003 eZ systems as. All rights reserved.</span>
+00008 <span class="dox_comment">//</span>
+00009 <span class="dox_comment">// This source file is part of the eZ publish (tm) Open Source Content</span>
+00010 <span class="dox_comment">// Management System.</span>
+00011 <span class="dox_comment">//</span>
+00012 <span class="dox_comment">// This file may be distributed and/or modified under the terms of the</span>
+00013 <span class="dox_comment">// "GNU General Public License" version 2 as published by the Free</span>
+00014 <span class="dox_comment">// Software Foundation and appearing in the file LICENSE.GPL included in</span>
+00015 <span class="dox_comment">// the packaging of this file.</span>
+00016 <span class="dox_comment">//</span>
+00017 <span class="dox_comment">// Licencees holding valid "eZ publish professional licences" may use this</span>
+00018 <span class="dox_comment">// file in accordance with the "eZ publish professional licence" Agreement</span>
+00019 <span class="dox_comment">// provided with the Software.</span>
+00020 <span class="dox_comment">//</span>
+00021 <span class="dox_comment">// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING</span>
+00022 <span class="dox_comment">// THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR</span>
+00023 <span class="dox_comment">// PURPOSE.</span>
+00024 <span class="dox_comment">//</span>
+00025 <span class="dox_comment">// The "eZ publish professional licence" is available at</span>
+00026 <span class="dox_comment">// http://ez.no/products/licences/professional/. For pricing of this licence</span>
+00027 <span class="dox_comment">// please contact us via e-mail to licence@ez.no. Further contact</span>
+00028 <span class="dox_comment">// information is available at http://ez.no/home/contact/.</span>
+00029 <span class="dox_comment">//</span>
+00030 <span class="dox_comment">// The "GNU General Public License" (GPL) is available at</span>
+00031 <span class="dox_comment">// http://www.gnu.org/copyleft/gpl.html.</span>
+00032 <span class="dox_comment">//</span>
+00033 <span class="dox_comment">// Contact licence@ez.no if any conditions of this licencing isn't clear to</span>
+00034 <span class="dox_comment">// you.</span>
+00035 <span class="dox_comment">//</span>
+00036 
+00049 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezdebug.php"</span> );
+00050 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezsession.php"</span> );
+00051 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezsys.php"</span> );
+00052 
+<a name="l00053"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool">00053</a> <span class="dox_keyword">class </span><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool">eZHTTPTool</a>
+00054 {
+<a name="l00058"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a0">00058</a>     function <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a0">eZHTTPTool</a>()
+00059     {
+00060         $magicQuote = get_magic_quotes_gpc();
+00061 
+00062         <span class="dox_keywordflow">if</span> ( $magicQuote == 1 )
+00063         {
+00064             eZHTTPTool::removeMagicQuotes();
+00065         }
+00066     }
+00067 
+<a name="l00072"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a1">00072</a>     function <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a1">setPostVariable</a>( $var, $value )
+00073     {
+00074         $post_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>];
+00075         $post_vars[$var] =&amp; $value;
+00076     }
+00077 
+<a name="l00082"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a2">00082</a>     function &amp;<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a2">postVariable</a>( $var )
+00083     {
+00084         $post_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>];
+00085         $ret = null;
+00086         <span class="dox_keywordflow">if</span> ( isset( $post_vars[$var] ) )
+00087             $ret =&amp; $post_vars[$var];
+00088         <span class="dox_keywordflow">else</span>
+00089             <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZDebug#d3">eZDebug::writeWarning</a>( <span class="dox_stringliteral">"Undefined post variable: $var"</span>,
+00090                                    <span class="dox_stringliteral">"eZHTTPTool"</span> );
+00091         <span class="dox_keywordflow">return</span> $ret;
+00092     }
+00093 
+<a name="l00098"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a3">00098</a>     function &amp;<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a3">hasPostVariable</a>( $var )
+00099     {
+00100         $post_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>];
+00101         <span class="dox_keywordflow">return</span> isset( $post_vars[$var] );
+00102     }
+00103 
+<a name="l00108"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a4">00108</a>     function <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a4">setGetVariable</a>( $var, $value )
+00109     {
+00110         $get_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"_GET"</span>];
+00111         $get_vars[$var] =&amp; $value;
+00112     }
+00113 
+<a name="l00118"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a5">00118</a>     function &amp;<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a5">getVariable</a>( $var )
+00119     {
+00120         $get_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"_GET"</span>];
+00121         $ret = null;
+00122         <span class="dox_keywordflow">if</span> ( isset( $get_vars[$var] ) )
+00123             $ret =&amp; $get_vars[$var];
+00124         <span class="dox_keywordflow">else</span>
+00125             <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZDebug#d3">eZDebug::writeWarning</a>( <span class="dox_stringliteral">"Undefined get variable: $var"</span>,
+00126                                    <span class="dox_stringliteral">"eZHTTPTool"</span> );
+00127         <span class="dox_keywordflow">return</span> $ret;
+00128     }
+00129 
+<a name="l00134"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a6">00134</a>     function &amp;<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a6">hasGetVariable</a>( $var )
+00135     {
+00136         $get_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"_GET"</span>];
+00137         <span class="dox_keywordflow">return</span> isset( $get_vars[$var] );
+00138     }
+00139 
+<a name="l00144"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a7">00144</a>     function <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a7">hasVariable</a>( $var )
+00145     {
+00146 
+00147         <span class="dox_keywordflow">if</span> ( isset( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$var] ) )
+00148             <span class="dox_keywordflow">return</span> isset( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$var] );
+00149         <span class="dox_keywordflow">else</span>
+00150         {
+00151             <span class="dox_keywordflow">return</span> isset( $GLOBALS[<span class="dox_stringliteral">"_GET"</span>][$var] );
+00152         }
+00153     }
+00154 
+<a name="l00159"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a8">00159</a>     function <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a8">variable</a>( $var )
+00160     {
+00161         <span class="dox_keywordflow">if</span> ( isset( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$var] ) )
+00162             <span class="dox_keywordflow">return</span> $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$var];
+00163         <span class="dox_keywordflow">else</span>
+00164         {
+00165             <span class="dox_keywordflow">if</span> ( isset( $GLOBALS[<span class="dox_stringliteral">"_GET"</span>][$var] ) )
+00166                 <span class="dox_keywordflow">return</span> $GLOBALS[<span class="dox_stringliteral">"_GET"</span>][$var];
+00167             <span class="dox_keywordflow">else</span>
+00168                 <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00169         }
+00170     }
+00171 
+<a name="l00175"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a9">00175</a>     function &amp;<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a9">attributes</a>()
+00176     {
+00177         <span class="dox_keywordflow">return</span> array( <span class="dox_stringliteral">"post"</span>, <span class="dox_stringliteral">"get"</span>, <span class="dox_stringliteral">"session"</span> );
+00178     }
+00179 
+<a name="l00183"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a10">00183</a>     function <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a10">hasAttribute</a>( $attr )
+00184     {
+00185         <span class="dox_keywordflow">return</span> $attr == <span class="dox_stringliteral">"post"</span> or $attr == <span class="dox_stringliteral">"get"</span> or $attr == <span class="dox_stringliteral">"session"</span>;
+00186     }
+00187 
+<a name="l00191"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a11">00191</a>     function &amp;<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a11">attribute</a>( $attr )
+00192     {
+00193         <span class="dox_keywordflow">if</span> ( $attr == <span class="dox_stringliteral">"post"</span> )
+00194             <span class="dox_keywordflow">return</span> $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>];
+00195         <span class="dox_keywordflow">if</span> ( $attr == <span class="dox_stringliteral">"get"</span> )
+00196             <span class="dox_keywordflow">return</span> $GLOBALS[<span class="dox_stringliteral">"_GET"</span>];
+00197         <span class="dox_keywordflow">if</span> ( $attr == <span class="dox_stringliteral">"session"</span> )
+00198         {
+00199             eZSessionStart();
+00200             <span class="dox_keywordflow">return</span> $GLOBALS[<span class="dox_stringliteral">"HTTP_SESSION_VARS"</span>];
+00201         }
+00202         <span class="dox_keywordflow">return</span> null;
+00203     }
+00204 
+<a name="l00208"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">00208</a>     function &amp;<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a>()
+00209     {
+00210         $<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a> =&amp; $GLOBALS[<span class="dox_stringliteral">"eZHTTPToolInstance"</span>];
+00211         <span class="dox_keywordflow">if</span> ( get_class( $<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a> ) != <span class="dox_stringliteral">"ezhttptool"</span> )
+00212         {
+00213             $<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a> = <span class="dox_keyword">new</span> <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a0">eZHTTPTool</a>();
+00214             $<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a>-&gt;createPostVarsFromImageButtons();
+00215         }
+00216         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a>;
+00217     }
+00218 
+<a name="l00242"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d0">00242</a>     function <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d0">createRedirectUrl</a>( $path, $parameters = array() )
+00243     {
+00244         $parameters = array_merge( array( 'host' =&gt; <span class="dox_keyword">false</span>,
+00245                                           'protocol' =&gt; <span class="dox_keyword">false</span>,
+00246                                           'port' =&gt; <span class="dox_keyword">false</span>,
+00247                                           'username' =&gt; <span class="dox_keyword">false</span>,
+00248                                           'password' =&gt; <span class="dox_keyword">false</span>,
+00249                                           'pre_url' =&gt; <span class="dox_keyword">true</span> ),
+00250                                    $parameters );
+00251         $host = $parameters['host'];
+00252         $protocol = $parameters['protocol'];
+00253         $port = $parameters['port'];
+00254         $username = $parameters['username'];
+00255         $password = $parameters['password'];
+00256         <span class="dox_keywordflow">if</span> ( preg_match( '#^([a-zA-Z0-9]+):(.+)$#', $path, $matches ) )
+00257         {
+00258             <span class="dox_keywordflow">if</span> ( $matches[1] )
+00259                 $protocol = $matches[1];
+00260             $path = $matches[2];
+00261         }
+00262         <span class="dox_keywordflow">if</span> ( preg_match( '#^<span class="dox_comment">//([^./:]+(\.[^./:]+)+)(:([0-9]+))?(.*)$#', $path, $matches ) )</span>
+00263         {
+00264             <span class="dox_keywordflow">if</span> ( $matches[1] )
+00265                 $host = $matches[1];
+00266             $path = $matches[5];
+00267             <span class="dox_keywordflow">if</span> ( $matches[4] )
+00268                 $port = $matches[4];
+00269         }
+00270         <span class="dox_keywordflow">if</span> ( $parameters['pre_url'] )
+00271         {
+00272             <span class="dox_keywordflow">if</span> ( strlen( $path ) &gt; 0 and
+00273                  $path[0] != <span class="dox_charliteral">'/'</span> )
+00274             {
+00275                 $preURL = <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZSys#a3">eZSys::serverVariable</a>( 'SCRIPT_URL' );
+00276                 <span class="dox_keywordflow">if</span> ( strlen( $preURL ) &gt; 0 and
+00277                      $preURL[strlen($preURL) - 1] != <span class="dox_charliteral">'/'</span> )
+00278                     $preURL .= <span class="dox_charliteral">'/'</span>;
+00279                 $path = $preURL . $path;
+00280             }
+00281         }
+00282 
+00283         <span class="dox_keywordflow">if</span> ( !is_string( $host ) )
+00284             $host = <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZSys#d13">eZSys::hostname</a>();
+00285         <span class="dox_keywordflow">if</span> ( !is_string( $protocol ) )
+00286         {
+00287             $protocol = 'http';
+00288             <span class="dox_comment">// Default to https if SSL is enabled</span>
+00289 
+00290             <span class="dox_comment">// Check if SSL port is defined in site.ini</span>
+00291             $ini =&amp; <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00292             $sslPort = 443;
+00293             <span class="dox_keywordflow">if</span> ( $ini-&gt;hasVariable( 'SiteSettings', 'SSLPort' ) )
+00294             {
+00295                 $sslPort = $ini-&gt;variable( 'SiteSettings', 'SSLPort' );
+00296             }
+00297 
+00298             <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZSys#d14">eZSys::serverPort</a>() == $sslPort )
+00299             {
+00300                 $protocol = 'https';
+00301             }
+00302         }
+00303 
+00304         $uri = $protocol . ':<span class="dox_comment">//';</span>
+00305         <span class="dox_keywordflow">if</span> ( $username )
+00306         {
+00307             $uri .= $username;
+00308             <span class="dox_keywordflow">if</span> ( $password )
+00309                 $uri .= <span class="dox_charliteral">':'</span> . $password;
+00310             $uri .= <span class="dox_charliteral">'@'</span>;
+00311         }
+00312         $uri .= $host;
+00313         <span class="dox_keywordflow">if</span> ( $port )
+00314             $uri .= <span class="dox_charliteral">':'</span> . $port;
+00315         $uri .= $path;
+00316         <span class="dox_keywordflow">return</span> $uri;
+00317     }
+00318 
+00319     function redirect( $path, $parameters = array() )
+00320     {
+00321         $uri = <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d0">eZHTTPTool::createRedirectUrl</a>( $path, $parameters );
+00322         <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d1">eZHTTPTool::headerVariable</a>( 'Location', $uri );
+00323     }
+00324 
+<a name="l00330"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d1">00330</a>     function headerVariable( $headerName, $headerData )
+00331     {
+00332         header( <span class="dox_stringliteral">"$headerName: $headerData"</span> );
+00333     }
+00334 
+00335     function removeMagicQuotes()
+00336     {
+00337         foreach ( array_keys( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>] ) as $key )
+00338         {
+00339             <span class="dox_keywordflow">if</span> ( !is_array( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$key] ) )
+00340             {
+00341                 $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$key] = str_replace( <span class="dox_stringliteral">"\'"</span>, <span class="dox_stringliteral">"'"</span>, $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$key] );
+00342                 $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$key] = str_replace( <span class="dox_charliteral">'\"'</span>, <span class="dox_charliteral">'"'</span>, $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$key] );
+00343             }
+00344         }
+00345         foreach ( array_keys( $GLOBALS[<span class="dox_stringliteral">"_GET"</span>] ) as $key )
+00346         {
+00347             <span class="dox_keywordflow">if</span> ( !is_array( $GLOBALS[<span class="dox_stringliteral">"_GET"</span>][$key] ) )
+00348             {
+00349                 $GLOBALS[<span class="dox_stringliteral">"_GET"</span>][$key] = str_replace( <span class="dox_stringliteral">"\'"</span>, <span class="dox_stringliteral">"'"</span>, $GLOBALS[<span class="dox_stringliteral">"_GET"</span>][$key] );
+00350                 $GLOBALS[<span class="dox_stringliteral">"_GET"</span>][$key] = str_replace( <span class="dox_charliteral">'\"'</span>, <span class="dox_charliteral">'"'</span>, $GLOBALS[<span class="dox_stringliteral">"_GET"</span>][$key] );
+00351             }
+00352          }
+00353     }
+00354 
+00355     function createPostVarsFromImageButtons()
+00356     {
+00357         foreach ( array_keys( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>] ) as $key )
+00358         {
+00359             <span class="dox_keywordflow">if</span> ( substr( $key, -2 ) == '_x' )
+00360             {
+00361                 $yKey = substr( $key, 0, -2 ) . '_y';
+00362                 <span class="dox_keywordflow">if</span> ( array_key_exists( $yKey, $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>] ) )
+00363                 {
+00364                     $keyClean = substr( $key, 0, -2 );
+00365                     $matches = array();
+00366                     <span class="dox_keywordflow">if</span> ( preg_match( <span class="dox_stringliteral">"/_(\d+)$/"</span>, $keyClean, $matches ) )
+00367                     {
+00368                         $value =  $matches[1];
+00369                         $keyClean = preg_replace( <span class="dox_stringliteral">"/(_\d+)$/"</span>,<span class="dox_stringliteral">""</span>, $keyClean );
+00370                         $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean] = $value;
+00371                         <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean], <span class="dox_stringliteral">"We have create new  Post Var with name $keyClean and value $value:"</span> );
+00372                     }
+00373                     <span class="dox_keywordflow">else</span>
+00374                     {
+00375                         $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean] = <span class="dox_keyword">true</span>;
+00376                         <a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean], <span class="dox_stringliteral">"We have create new  Post Var with name $keyClean and value true:"</span> );
+00377                     }
+00378                 }
+00379             }
+00380         }
+00381     }
+00382 
+<a name="l00386"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a16">00386</a>     function getSessionKey()
+00387     {
+00388         eZSessionStart();
+00389         <span class="dox_keywordflow">return</span> session_id();
+00390     }
+00391 
+00392     function setSessionKey( $sessionKey )
+00393     {
+00394         eZSessionStart();
+00395         <span class="dox_keywordflow">return</span> session_id( $sessionKey );
+00396     }
+00397 
+00398     function setSessionVariable( $name, $value )
+00399     {
+00400         eZSessionStart();
+00401         global $HTTP_SESSION_VARS;
+00402         session_register( $name );
+00403         $HTTP_SESSION_VARS[$name] =&amp; $value;
+00404     }
+00405 
+<a name="l00409"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a19">00409</a>     function removeSessionVariable( $name )
+00410     {
+00411         eZSessionStart();
+00412         session_unregister( $name );
+00413     }
+00414 
+<a name="l00418"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a20">00418</a>     function hasSessionVariable( $name )
+00419     {
+00420         eZSessionStart();
+00421         global $HTTP_SESSION_VARS;
+00422         <span class="dox_keywordflow">return</span> isset( $HTTP_SESSION_VARS[$name] );
+00423     }
+00424 
+<a name="l00428"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a21">00428</a>     function &amp;sessionVariable( $name )
+00429     {
+00430         eZSessionStart();
+00431         global $HTTP_SESSION_VARS;
+00432         <span class="dox_keywordflow">return</span> $HTTP_SESSION_VARS[$name];
+00433     }
+00434 
+<a name="l00438"></a><a class="dox_code" href="/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a22">00438</a>     function sessionID()
+00439     {
+00440         eZSessionStart();
+00441         <span class="dox_keywordflow">return</span> session_id();
+00442     }
+00443 }
+00444 
+00445 ?&gt;
+</pre></div>&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030707232124/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030707232124/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 23:21:24 Jul 07, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:20:53 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.786
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.022
+  esindex: 0.012
+  cdx.remote: 8.421
+  LoadShardBlock: 104.746 (3)
+  PetaboxLoader3.datanode: 91.173 (4)
+  PetaboxLoader3.resolve: 150.273 (2)
+  load_resource: 176.642
+-->

@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZTranslatorHandler","20030823120034","http://web.archive.org/","web","/_static/",
+	      "1061640034");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823120034cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823120034cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823120034cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823120034im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823120034/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823120034/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823120034im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823120034/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823120034im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823120034/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823120034im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823120034/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823120034im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823120034/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823120034im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823120034/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823120034im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823120034/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823120034im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823120034/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823120034im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823120034/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZTranslatorHandler Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/module/eZTranslation">Translation</a>]</small>
+</h1>Base class for translation handling. 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZTranslatorHandler:
+<p><center><img src="/web/20030823120034im_/http://ez.no/doc/generated/html/classeZTranslatorHandler.png" usemap="#eZTranslatorHandler_map" border="0" alt=""></center>
+<map name="eZTranslatorHandler_map">
+<area href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZ1337Translator" alt="eZ1337Translator" shape="rect" coords="0,56,130,80">
+<area href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZBorkTranslator" alt="eZBorkTranslator" shape="rect" coords="140,56,270,80">
+<area href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZShuffleTranslator" alt="eZShuffleTranslator" shape="rect" coords="280,56,410,80">
+<area href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorGroup" alt="eZTranslatorGroup" shape="rect" coords="420,56,550,80">
+<area href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTSTranslator" alt="eZTSTranslator" shape="rect" coords="560,56,690,80">
+<area href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZRandomTranslator" alt="eZRandomTranslator" shape="rect" coords="420,112,550,136">
+</map>
+<a href="/web/20030823120034/http://ez.no/sdk/ref/view/members/eZTranslatorHandler">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a0">eZTranslatorHandler</a> ($is_key_based)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a1">isKeyBased</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a2">findKey</a> ($key)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a3">findMessage</a> ($context,$source,$comment=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a4">translate</a> ($context,$source,$comment=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a5">keyTranslate</a> ($key)</td></tr>
+<tr><td colspan="2"><br><h2>Private Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#o0">IsKeyBased</a></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Base class for translation handling.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00047">47</a> of file <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZTranslatorHandler::eZTranslatorHandler"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTranslatorHandler::eZTranslatorHandler </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>is_key_based</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructor 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00052">52</a> of file <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00110">IsKeyBased</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/ez1337translator#l00065">eZ1337Translator::eZ1337Translator()</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/ezborktranslator#l00081">eZBorkTranslator::eZBorkTranslator()</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/ezshuffletranslator#l00054">eZShuffleTranslator::eZShuffleTranslator()</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorgroup#l00054">eZTranslatorGroup::eZTranslatorGroup()</a>, and <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztstranslator#l00056">eZTSTranslator::eZTSTranslator()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a2" doxytag="eZTranslatorHandler::findKey"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTranslatorHandler::findKey </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>key</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [pure virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the translation message for the key <em>$key</em> or null if the key does not exist.</dl>This function must overridden if <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a1">isKeyBased()</a> is true. 
+<p>
+Implemented in <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorGroup#a1">eZTranslatorGroup</a>, and <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTSTranslator#a7">eZTSTranslator</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00072">72</a> of file <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZTranslatorHandler::findMessage"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTranslatorHandler::findMessage </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>context</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>source</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>comment</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [pure virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the translation message for <em>$source</em> and <em>$context</em> or null if the key does not exist.</dl>If you know the translation key use <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a2">findKey()</a> instead.
+<p>
+This function must overridden if <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a1">isKeyBased()</a> is true. 
+<p>
+Implemented in <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZ1337Translator#a1">eZ1337Translator</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZBorkTranslator#a1">eZBorkTranslator</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZShuffleTranslator#a1">eZShuffleTranslator</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorGroup#a2">eZTranslatorGroup</a>, and <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTSTranslator#a8">eZTSTranslator</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00084">84</a> of file <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZTranslatorHandler::isKeyBased"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTranslatorHandler::isKeyBased </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the handler can lookup translations with translation keys. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00061">61</a> of file <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00110">IsKeyBased</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorgroup#l00161">eZTranslatorGroup::registerHandler()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZTranslatorHandler::keyTranslate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTranslatorHandler::keyTranslate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>key</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [pure virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the translation string for <em>$key</em> or null if the translation does not exist.</dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a3">findMessage</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a2">findKey</a> </dl>
+<p>
+Implemented in <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorGroup#a4">eZTranslatorGroup</a>, and <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTSTranslator#a9">eZTSTranslator</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00104">104</a> of file <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZTranslatorHandler::translate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZTranslatorHandler::translate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>context</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>source</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>comment</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [pure virtual]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the translation string for <em>$source</em> and <em>$context</em> or null if the translation does not exist.</dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a3">findMessage</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorHandler#a2">findKey</a> </dl>
+<p>
+Implemented in <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZ1337Translator#a3">eZ1337Translator</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZBorkTranslator#a3">eZBorkTranslator</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZShuffleTranslator#a3">eZShuffleTranslator</a>, <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTranslatorGroup#a3">eZTranslatorGroup</a>, and <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/class/eZTSTranslator#a10">eZTSTranslator</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00094">94</a> of file <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Data Documentation</h2>
+<a name="o0" doxytag="eZTranslatorHandler::IsKeyBased"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZTranslatorHandler::IsKeyBased<code> [private]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Tells whether the handler is key based or not 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00110">110</a> of file <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00052">eZTranslatorHandler()</a>, and <a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler#l00061">isKeyBased()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823120034/http://ez.no/sdk/ref/view/source/eztranslatorhandler">eztranslatorhandler.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823120034/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823120034/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:00:34 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:32:38 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 3.659
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 46.798
+  LoadShardBlock: 110.071 (3)
+  PetaboxLoader3.datanode: 60.431 (4)
+  PetaboxLoader3.resolve: 130.876 (2)
+  load_resource: 104.801
+-->

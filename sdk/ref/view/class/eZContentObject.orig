@@ -1,0 +1,2110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZContentObject","20030823115919","http://web.archive.org/","web","/_static/",
+	      "1061639959");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823115919cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823115919cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823115919cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823115919im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823115919/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823115919/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823115919im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823115919/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823115919im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115919/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823115919im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115919/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823115919im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115919/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823115919im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115919/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823115919im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115919/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823115919im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115919/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823115919im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823115919/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZContentObject Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/module/eZKernel">Kernel system</a>]</small>
+</h1>Handles eZ publish content objects. 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZContentObject:
+<p><center><img src="/web/20030823115919im_/http://ez.no/doc/generated/html/classeZContentObject.png" usemap="#eZContentObject_map" border="0" alt=""></center>
+<map name="eZContentObject_map">
+<area href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZPersistentObject" alt="eZPersistentObject" shape="rect" coords="0,0,120,24">
+</map>
+<a href="/web/20030823115919/http://ez.no/sdk/ref/view/members/eZContentObject">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a1">definition</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a2">attribute</a> ($attr)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a6">dataMap</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a7">fetchDataMap</a> ($version=false,$language=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a9">owner</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a10">contentClassIdentifier</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a11">contentClass</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a16">currentVersion</a> ($asObject=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a17">version</a> ($version,$asObject=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a18">versions</a> ($asObject=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a20">createNewVersion</a> ($copyFromVersion=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a21">copyVersion</a> (&amp;$object,&amp;$version,$newVersionNumber,$contentObjectID=false,$status=EZ_VERSION_STATUS_DRAFT)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a22">create</a> ($name,$contentclassID,$userID,$sectionID=1,$version=1)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a23">clone</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a24">copy</a> ($allVersions=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a25">revertTo</a> ($version)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a26">copyRevertTo</a> ($version)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a27">purge</a> ($id=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a28">remove</a> ($id=false,$nodeID=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a30">contentObjectAttributes</a> ($asObject=true,$version=false,$language=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a31">setContentObjectAttributes</a> (&amp;$attributes,$version,$language)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a32">parents</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a34">nextVersion</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a35">getVersionCount</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a37">addContentObjectRelation</a> ($objectID,$version)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a38">removeContentObjectRelation</a> ($objectID,$version=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a39">relatedContentObjectCount</a> ($version=false,$objectID=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a40">relatedContentObjectArray</a> ($version=false,$objectID=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a41">reverseRelatedObjectList</a> ($version=false,$objectID=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a42">contentObjectListRelatingThis</a> ($version=false,$objectID=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a43">parentNodes</a> ($version=false,$asObject=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a44">assignedNodes</a> ($asObject=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a47">setPermissions</a> ($permissionArray)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a48">permissions</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a52">canRead</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a57">contentActionList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a58">hasContentAction</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a61">translationStringList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a62">translationList</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a63">serialize</a> ($specificVersion=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a64">cacheInfo</a> ($Params)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a65">expireAllCache</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a66">expireComplexViewModeCache</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a67">isCacheExpired</a> ($timestamp)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a68">isComplexViewMode</a> ($viewMode)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a69">isComplexViewModeCacheExpired</a> ($viewMode,$timestamp)</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#d0">fillNodeListAttributes</a> (&amp;$nodeList,$asObject=true)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#d1">fetchClassAttributes</a> ($version=0,$asObject=true)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m2" doxytag="eZContentObject::CurrentLanguage"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#m2">CurrentLanguage</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Stores the current language.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m3" doxytag="eZContentObject::ClassName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#m3">ClassName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Stores the current permissions.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m4" doxytag="eZContentObject::DataMap"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#m4">DataMap</a> = array()</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the datamap for content object attributes.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m5" doxytag="eZContentObject::ContentActionList"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#m5">ContentActionList</a> = false</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains an array of the content object actions for the current object.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m6" doxytag="eZContentObject::ContentObjectAttributes"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#m6">ContentObjectAttributes</a> = array()</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains a cached version of the content object attributes for the given version and language.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Handles eZ publish content objects.
+<p>
+It encapsulates the date for an object and provides lots of functions for dealing with versions, translations and attributes.
+<p>
+<dl compact><dt><b>See also: </b></dt><dd>
+eZContentClass </dl>
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00065">65</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.<hr><h2>Member Function Documentation</h2>
+<a name="a37" doxytag="eZContentObject::addContentObjectRelation"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::addContentObjectRelation </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>objectID</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds a link to the given content object id. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00999">999</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a44" doxytag="eZContentObject::assignedNodes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::assignedNodes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>asObject</em> = true          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the node assignments for the current object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01182">1182</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZContentObject::attribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::attribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attr</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the attribute data for <em>$attr</em>, this is either returned from the member variables or a member function depending on whether the definition field or function attributes matched. </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZPersistentObject#a19">eZPersistentObject</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">115</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01182">assignedNodes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00841">eZPersistentObject::attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01445">canRead()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01496">contentActionList()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00392">contentClass()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00802">contentObjectAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00463">currentVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00309">dataMap()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00375">owner()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01127">parentNodes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01040">relatedContentObjectArray()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01018">relatedContentObjectCount()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00479">versions()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01182">assignedNodes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01496">contentActionList()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00802">contentObjectAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00514">copyVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00319">fetchDataMap()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00860">fillNodeListAttributes()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01127">parentNodes()</a>.    </td>
+  </tr>
+</table>
+<a name="a64" doxytag="eZContentObject::cacheInfo"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::cacheInfo </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>Params</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a structure with information required for caching. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01665">1665</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezuser#l00541">eZUser::currentUser()</a>.    </td>
+  </tr>
+</table>
+<a name="a52" doxytag="eZContentObject::canRead"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::canRead </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if the current 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01445">1445</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a23" doxytag="eZContentObject::clone"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::clone </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a new clone of the current object which has is ready to be stored with a new ID. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00589">589</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00599">copy()</a>.    </td>
+  </tr>
+</table>
+<a name="a57" doxytag="eZContentObject::contentActionList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::contentActionList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns an array of the content actions which can be performed on the current object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01496">1496</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01496">contentActionList()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01763">ContentActionList</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00802">contentObjectAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01534">hasContentAction()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01496">contentActionList()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZContentObject::contentClass"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::contentClass </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the content class for the current content object </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00392">392</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00383">contentClassIdentifier()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZContentObject::contentClassIdentifier"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::contentClassIdentifier </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the content class identifier for the current content object </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00383">383</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00392">contentClass()</a>.    </td>
+  </tr>
+</table>
+<a name="a30" doxytag="eZContentObject::contentObjectAttributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::contentObjectAttributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>asObject</em> = true, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>language</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetches the attributes for the current published version of the object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00802">802</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01766">ContentObjectAttributes</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01496">contentActionList()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00514">copyVersion()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00319">fetchDataMap()</a>.    </td>
+  </tr>
+</table>
+<a name="a42" doxytag="eZContentObject::contentObjectListRelatingThis"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::contentObjectListRelatingThis </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>objectID</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the related objects. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01098">1098</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.    </td>
+  </tr>
+</table>
+<a name="a24" doxytag="eZContentObject::copy"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::copy </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>allVersions</em> = true          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Makes a copy of the object which is stored and then returns it. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00599">599</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00589">clone()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00599">copy()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezuser#l00541">eZUser::currentUser()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00463">currentVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00479">versions()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00599">copy()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00514">copyVersion()</a>.    </td>
+  </tr>
+</table>
+<a name="a26" doxytag="eZContentObject::copyRevertTo"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::copyRevertTo </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>version</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Copies the given version of the object and creates a new current version. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00675">675</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00497">createNewVersion()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a21" doxytag="eZContentObject::copyVersion"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::copyVersion </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>object</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>newVersionNumber</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectID</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>status</em> = EZ_VERSION_STATUS_DRAFT</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new version and returns it as an <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObjectVersion">eZContentObjectVersion</a> object. If version number is given as argument that version is used to create a copy. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00514">514</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00802">contentObjectAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00599">copy()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00514">copyVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezuser#l00541">eZUser::currentUser()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00514">copyVersion()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00497">createNewVersion()</a>.    </td>
+  </tr>
+</table>
+<a name="a22" doxytag="eZContentObject::create"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::create </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentclassID</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>userID</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>sectionID</em> = 1, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = 1</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new content object instance and stores it. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00571">571</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a20" doxytag="eZContentObject::createNewVersion"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::createNewVersion </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>copyFromVersion</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new version and returns it as an <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObjectVersion">eZContentObjectVersion</a> object. If version number is given as argument that version is used to create a copy. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00497">497</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00514">copyVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00463">currentVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00971">nextVersion()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00675">copyRevertTo()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZContentObject::currentVersion"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::currentVersion </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>asObject</em> = true          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the current version of this document. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00463">463</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00599">copy()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00497">createNewVersion()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01613">serialize()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZContentObject::dataMap"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::dataMap </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a map with all the content object attributes where the keys are the attribute identifiers. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00309">309</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00319">fetchDataMap()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZContentObject::definition"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::definition </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the definition for the object, the default implementation is to return an empty array. It's upto each inheriting class to return a proper definition array.</dl>The definition array is an associative array consists of these keys:<ul>
+<li>fields - an associative array of fields which defines which database field (the key) is to fetched and how they map to object member variables (the value).<li>keys - an array of fields which is used for uniquely identifying the object in the table.<li>function_attributes - an associative array of attributes which maps to member functions, used for fetching data with functions.<li>set_functions - an associative array of attributes which maps to member functions, used for setting data with functions.<li>increment_key - the field which is incremented on table inserts.<li>class_name - the classname which is used for instantiating new objecs when fetching from the database.<li>sort - an associative array which defines the default sorting of lists, the key is the table field while the value is the sorting method which is either <code>asc</code> or <code>desc</code>.<li>name - the name of the database table</ul>
+Example: <div class="dox_fragment"><pre>function <a class="dox_code" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a1">definition</a>()
+{
+    <span class="dox_keywordflow">return</span> array( <span class="dox_stringliteral">"fields"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"ID"</span>,
+                                     <span class="dox_stringliteral">"version"</span> =&gt; <span class="dox_stringliteral">"Version"</span>,
+                                     <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"Name"</span> ),
+                  <span class="dox_stringliteral">"keys"</span> =&gt; array( <span class="dox_stringliteral">"id"</span>, <span class="dox_stringliteral">"version"</span> ),
+                  <span class="dox_stringliteral">"function_attributes"</span> =&gt; array( <span class="dox_stringliteral">"current"</span> =&gt; <span class="dox_stringliteral">"currentVersion"</span>,
+                                                  <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"className"</span> ),
+                  <span class="dox_stringliteral">"increment_key"</span> =&gt; <span class="dox_stringliteral">"id"</span>,
+                  <span class="dox_stringliteral">"class_name"</span> =&gt; <span class="dox_stringliteral">"eZContentClass"</span>,
+                  <span class="dox_stringliteral">"sort"</span> =&gt; array( <span class="dox_stringliteral">"id"</span> =&gt; <span class="dox_stringliteral">"asc"</span> ),
+                  <span class="dox_stringliteral">"name"</span> =&gt; <span class="dox_stringliteral">"ezcontentclass"</span> );
+}
+</pre></div> 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">eZPersistentObject</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00073">73</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00479">versions()</a>.    </td>
+  </tr>
+</table>
+<a name="a65" doxytag="eZContentObject::expireAllCache"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::expireAllCache </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets all content cache files to be expired. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01689">1689</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a66" doxytag="eZContentObject::expireComplexViewModeCache"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::expireComplexViewModeCache </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets all complex viewmode content cache files to be expired. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01700">1700</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZContentObject::fetchClassAttributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::fetchClassAttributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = 0, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>asObject</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the attributes for the content object version <em>$version</em> and content object <em>$contentObjectID</em>. <em>$language</em> defines the language to fetch.
+<p>
+<dl compact><dt><b>See also: </b></dt><dd>
+attributes </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01605">1605</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01613">serialize()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZContentObject::fetchDataMap"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::fetchDataMap </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>language</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a map with all the content object attributes where the keys are the attribute identifiers. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObjectTreeNode#a5">eZContentObjectTreeNode::dataMap</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00319">319</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00802">contentObjectAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01760">DataMap</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00309">dataMap()</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZContentObject::fillNodeListAttributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::fillNodeListAttributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>nodeList</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>asObject</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetches the attributes for an array of objects. The objectList parameter contains an array of object id's , versions and language to fetch attributes from. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00860">860</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00816">eZPersistentObject::attributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a35" doxytag="eZContentObject::getVersionCount"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::getVersionCount </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns number of exist versions. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00983">983</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a58" doxytag="eZContentObject::hasContentAction"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::hasContentAction </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the content action is in the content action list </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01534">1534</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01496">contentActionList()</a>.    </td>
+  </tr>
+</table>
+<a name="a67" doxytag="eZContentObject::isCacheExpired"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::isCacheExpired </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>timestamp</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+if the content cache timestamp <em>$timestamp</em> is expired. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01711">1711</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a68" doxytag="eZContentObject::isComplexViewMode"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::isComplexViewMode </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>viewMode</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the viewmode is a complex viewmode. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01726">1726</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01736">isComplexViewModeCacheExpired()</a>.    </td>
+  </tr>
+</table>
+<a name="a69" doxytag="eZContentObject::isComplexViewModeCacheExpired"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::isComplexViewModeCacheExpired </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>viewMode</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>timestamp</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the viewmode is a complex viewmode and the viewmode timestamp is expired. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01736">1736</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00124">eZExpiryHandler::instance()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01726">isComplexViewMode()</a>.    </td>
+  </tr>
+</table>
+<a name="a34" doxytag="eZContentObject::nextVersion"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::nextVersion </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the next available version number for this object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00971">971</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00479">versions()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00497">createNewVersion()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZContentObject::owner"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::owner </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the owner of the object as a content object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00375">375</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a43" doxytag="eZContentObject::parentNodes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::parentNodes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>asObject</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the parnet nodes for the current object. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01127">1127</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a32" doxytag="eZContentObject::parents"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::parents </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the parent objects. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00930">930</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00930">parents()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00930">parents()</a>.    </td>
+  </tr>
+</table>
+<a name="a48" doxytag="eZContentObject::permissions"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::permissions </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the permission for the current object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01228">1228</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.    </td>
+  </tr>
+</table>
+<a name="a27" doxytag="eZContentObject::purge"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::purge </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>id</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+If nodeID is not given, this function will remove object from database. All versions and translations of this object will be lost. Otherwise, it will check node assignment and only delete the object from this node if it was assigned to other nodes as well. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00688">688</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="a40" doxytag="eZContentObject::relatedContentObjectArray"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::relatedContentObjectArray </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>objectID</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the related objects. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01040">1040</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobjectversion#l00545">eZContentObjectVersion::relatedContentObjectArray()</a>.    </td>
+  </tr>
+</table>
+<a name="a39" doxytag="eZContentObject::relatedContentObjectCount"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::relatedContentObjectCount </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>objectID</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the number of related objects </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01018">1018</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a28" doxytag="eZContentObject::remove"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::remove </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>id</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>nodeID</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes the object from the database, it will use the keys in the object definition to figure out which table row should be removed unless <em>$conditions</em> is defined as an array with fieldnames. It uses removeObject to do the real job and passes the object defintion, conditions and extra conditions <em>$extraConditions</em> to this function. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZPersistentObject#a3">eZPersistentObject</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00731">731</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00135">eZPersistentObject::remove()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezsearch#l00059">eZSearch::removeObject()</a>.    </td>
+  </tr>
+</table>
+<a name="a38" doxytag="eZContentObject::removeContentObjectRelation"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::removeContentObjectRelation </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>objectID</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Removes a link to the given content object id. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01009">1009</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a41" doxytag="eZContentObject::reverseRelatedObjectList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::reverseRelatedObjectList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>objectID</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns objects to which this object is related 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01070">1070</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a25" doxytag="eZContentObject::revertTo"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::revertTo </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>version</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Reverts the object to the given version. All versions newer then the given version will be deleted. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00642">642</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00178">eZPersistentObject::store()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a63" doxytag="eZContentObject::serialize"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::serialize </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>specificVersion</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+a DOM structure of the content object and it's attributes. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01613">1613</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdomdocument#l00233">eZDOMDocument::createAttributeNamespaceDefNode()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezdomdocument#l00218">eZDOMDocument::createAttributeNode()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00463">currentVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01605">fetchClassAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00479">versions()</a>.    </td>
+  </tr>
+</table>
+<a name="a31" doxytag="eZContentObject::setContentObjectAttributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::setContentObjectAttributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>attributes</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>language</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes the cached copy of the content object attributes for the given version and language 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00850">850</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00816">eZPersistentObject::attributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01766">ContentObjectAttributes</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a47" doxytag="eZContentObject::setPermissions"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::setPermissions </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>permissionArray</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the permissions for this object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01220">1220</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.    </td>
+  </tr>
+</table>
+<a name="a62" doxytag="eZContentObject::translationList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZContentObject::translationList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with locale objects, these objects represents the languages the content objects are allowed to be translated into. </dl><dl compact><dt><b>Note: </b></dt><dd>
+the setting ContentSettings/TranslationList in site.ini determines the array. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a61">translationStringList</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01585">1585</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezlocale#l01220">eZLocale::instance()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01585">translationList()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01567">translationStringList()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobjectversion#l00855">eZContentObjectVersion::nonTranslationList()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01585">translationList()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01567">translationStringList()</a>.    </td>
+  </tr>
+</table>
+<a name="a61" doxytag="eZContentObject::translationStringList"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::translationStringList </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with locale strings, these strings represents the languages which content objects are allowed to be translated into. </dl><dl compact><dt><b>Note: </b></dt><dd>
+the setting ContentSettings/TranslationList in site.ini determines the array. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/class/eZContentObject#a62">translationList</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01567">1567</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01585">translationList()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01585">translationList()</a>.    </td>
+  </tr>
+</table>
+<a name="a17" doxytag="eZContentObject::version"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::version </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>asObject</em> = true</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the given object version. False is returned if the versions does not exist. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">471</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00999">addContentObjectRelation()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01496">contentActionList()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00802">contentObjectAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01098">contentObjectListRelatingThis()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00599">copy()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00675">copyRevertTo()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00514">copyVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00571">create()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00497">createNewVersion()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01605">fetchClassAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00319">fetchDataMap()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00860">fillNodeListAttributes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01127">parentNodes()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01040">relatedContentObjectArray()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01018">relatedContentObjectCount()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01009">removeContentObjectRelation()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01070">reverseRelatedObjectList()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00642">revertTo()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01613">serialize()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00850">setContentObjectAttributes()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00471">version()</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZContentObject::versions"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZContentObject::versions </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>asObject</em> = true          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array of versions for the current object. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00479">479</a> of file <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobjectversion#l00074">eZContentObjectVersion::definition()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00364">eZPersistentObject::fetchObjectList()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00115">attribute()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00599">copy()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00073">definition()</a>, <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l00971">nextVersion()</a>, and <a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject#l01613">serialize()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823115919/http://ez.no/sdk/ref/view/source/ezcontentobject">ezcontentobject.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823115919/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823115919/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 11:59:19 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:59:29 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.565
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.008
+  esindex: 0.012
+  cdx.remote: 17.395
+  LoadShardBlock: 700.386 (3)
+  PetaboxLoader3.resolve: 310.647 (3)
+  PetaboxLoader3.datanode: 544.255 (4)
+  load_resource: 173.459
+-->

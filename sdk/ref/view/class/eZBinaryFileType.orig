@@ -1,0 +1,771 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZBinaryFileType","20030823122624","http://web.archive.org/","web","/_static/",
+	      "1061641584");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823122624cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823122624cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823122624cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823122624im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823122624/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823122624/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823122624im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823122624/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823122624im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122624/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823122624im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122624/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823122624im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122624/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823122624im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122624/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823122624im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122624/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823122624im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122624/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823122624im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122624/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZBinaryFileType Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/module/eZKernel">Kernel system</a>]</small>
+</h1>The class eZBinaryFileType handles image accounts and association with content objects. 
+<a href="#_details">More...</a>
+<p>
+<p>Inheritance diagram for eZBinaryFileType:
+<p><center><img src="/web/20030823122624im_/http://ez.no/doc/generated/html/classeZBinaryFileType.png" usemap="#eZBinaryFileType_map" border="0" alt=""></center>
+<map name="eZBinaryFileType_map">
+<area href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType" alt="eZDataType" shape="rect" coords="0,0,114,24">
+</map>
+<a href="/web/20030823122624/http://ez.no/sdk/ref/view/members/eZBinaryFileType">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a1">hasAttribute</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a2">attribute</a> ($name)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a3">fileHandler</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a4">viewTemplate</a> (&amp;$contentobjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a5">editTemplate</a> (&amp;$contentobjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a6">informationTemplate</a> (&amp;$contentobjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a7">initializeObjectAttribute</a> (&amp;$contentObjectAttribute,$currentVersion,&amp;$originalContentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a8">deleteStoredObjectAttribute</a> (&amp;$contentObjectAttribute,$version=null)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a9">checkFileUploads</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a10">validateObjectAttributeHTTPInput</a> (&amp;$http,$base,&amp;$contentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a11">fetchObjectAttributeHTTPInput</a> (&amp;$http,$base,&amp;$contentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a12">storeObjectAttribute</a> (&amp;$contentObjectAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a14">fetchClassAttributeHTTPInput</a> (&amp;$http,$base,&amp;$classAttribute)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a15">title</a> (&amp;$contentObjectAttribute,$name="filename")</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The class eZBinaryFileType handles image accounts and association with content objects.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00056">56</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.<hr><h2>Member Function Documentation</h2>
+<a name="a2" doxytag="eZBinaryFileType::attribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZBinaryFileType::attribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the data for the attribute <em>$attr</em> or null if it does not exist. </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a7">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00068">68</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezdatatype#l00216">eZDataType::attribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZBinaryFileType::checkFileUploads"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::checkFileUploads </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Checks if file uploads are enabled, if not it gives a warning. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00203">203</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00252">fetchObjectAttributeHTTPInput()</a>, and <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00225">validateObjectAttributeHTTPInput()</a>.    </td>
+  </tr>
+</table>
+<a name="a8" doxytag="eZBinaryFileType::deleteStoredObjectAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::deleteStoredObjectAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectAttribute</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>version</em> = null</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Delete stored attribute 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a24">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00153">153</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezsys#l00589">eZSys::instance()</a>, and <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfile#l00151">eZBinaryFile::remove()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZBinaryFileType::editTemplate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZBinaryFileType::editTemplate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>contentobjectAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the template name to use for editing the attribute. </dl><dl compact><dt><b>Note: </b></dt><dd>
+Default is to return the datatype string which is OK for most datatypes, if you want dynamic templates reimplement this function and return a template name. <dd>
+The returned template name does not include the .tpl extension. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a4">viewTemplate</a>, <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a6">informationTemplate</a> </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a2">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00103">103</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00076">fileHandler()</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZBinaryFileType::fetchClassAttributeHTTPInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::fetchClassAttributeHTTPInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>base</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>classAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetches the HTTP input for the content class attribute. <dl compact><dt><b>Note: </b></dt><dd>
+Default implementation does nothing. </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a15">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00321">321</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZBinaryFileType::fetchObjectAttributeHTTPInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::fetchObjectAttributeHTTPInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>base</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetches the http post var integer input and stores it in the data instance. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a19">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00252">252</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezhttpfile#l00205">eZHTTPFile::canFetch()</a>, <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00203">checkFileUploads()</a>, <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezhttpfile#l00221">eZHTTPFile::fetch()</a>, and <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZBinaryFileType::fileHandler"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZBinaryFileType::fileHandler </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the binary file handler. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00076">76</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00103">editTemplate()</a>, <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00121">informationTemplate()</a>, and <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00085">viewTemplate()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZBinaryFileType::hasAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::hasAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the attribute <em>$attr</em> exists in this object. </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a6">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00063">63</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezdatatype#l00208">eZDataType::hasAttribute()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZBinaryFileType::informationTemplate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZBinaryFileType::informationTemplate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>contentobjectAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the template name to use for information collection for the attribute. </dl><dl compact><dt><b>Note: </b></dt><dd>
+Default is to return the datatype string which is OK for most datatypes, if you want dynamic templates reimplement this function and return a template name. <dd>
+The returned template name does not include the .tpl extension. </dl><dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a4">viewTemplate</a>, <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZBinaryFileType#a5">editTemplate</a> </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a3">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00121">121</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00076">fileHandler()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZBinaryFileType::initializeObjectAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::initializeObjectAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectAttribute</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>currentVersion</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>originalContentObjectAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets value according to current version 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a23">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00134">134</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZBinaryFileType::storeObjectAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::storeObjectAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>contentObjectAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Does nothing, since the file has been stored. See fetchObjectAttributeHTTPInput for the actual storing. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a10">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00306">306</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZBinaryFileType::title"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::title </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectAttribute</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = "filename"</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the object title. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a28">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00333">333</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZBinaryFileType::validateObjectAttributeHTTPInput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZBinaryFileType::validateObjectAttributeHTTPInput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>base</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>contentObjectAttribute</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Validates the input and returns true if the input was valid for this datatype. 
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a17">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00225">225</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00203">checkFileUploads()</a>, and <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezhttpfile#l00221">eZHTTPFile::fetch()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZBinaryFileType::viewTemplate"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZBinaryFileType::viewTemplate </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>contentobjectAttribute</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+
+<p>
+Reimplemented for internal reasons; the API is not affected. <dl compact><dt><b>Returns: </b></dt><dd>
+the template name which the handler decides upon. </dl>
+<p>
+Reimplemented from <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/class/eZDataType#a1">eZDataType</a>.
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00085">85</a> of file <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00076">fileHandler()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823122624/http://ez.no/sdk/ref/view/source/ezbinaryfiletype">ezbinaryfiletype.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823122624/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823122624/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:26:24 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:28:39 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.457
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
+  esindex: 0.009
+  cdx.remote: 21.546
+  LoadShardBlock: 177.616 (3)
+  PetaboxLoader3.datanode: 91.778 (4)
+  PetaboxLoader3.resolve: 165.374 (2)
+  load_resource: 124.574
+-->

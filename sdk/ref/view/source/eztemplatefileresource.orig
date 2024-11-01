@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/source/eztemplatefileresource","20030817141120","http://web.archive.org/","web","/_static/",
+	      "1061129480");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030817141120cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817141120cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817141120cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030817141120im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030817141120/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030817141120/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030817141120im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030817141120/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030817141120im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817141120/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030817141120im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817141120/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030817141120im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817141120/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030817141120im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817141120/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030817141120im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817141120/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030817141120im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817141120/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030817141120im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817141120/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eztemplatefileresource.php</h1><div class="dox_fragment"><pre>00001 &lt;?php
+00002 <span class="dox_comment">//</span>
+00003 <span class="dox_comment">// Definition of eZTemplateFileResource class</span>
+00004 <span class="dox_comment">//</span>
+00005 <span class="dox_comment">// Created on: &lt;01-Mar-2002 13:49:18 amos&gt;</span>
+00006 <span class="dox_comment">//</span>
+00007 <span class="dox_comment">// Copyright (C) 1999-2003 eZ systems as. All rights reserved.</span>
+00008 <span class="dox_comment">//</span>
+00009 <span class="dox_comment">// This source file is part of the eZ publish (tm) Open Source Content</span>
+00010 <span class="dox_comment">// Management System.</span>
+00011 <span class="dox_comment">//</span>
+00012 <span class="dox_comment">// This file may be distributed and/or modified under the terms of the</span>
+00013 <span class="dox_comment">// "GNU General Public License" version 2 as published by the Free</span>
+00014 <span class="dox_comment">// Software Foundation and appearing in the file LICENSE.GPL included in</span>
+00015 <span class="dox_comment">// the packaging of this file.</span>
+00016 <span class="dox_comment">//</span>
+00017 <span class="dox_comment">// Licencees holding valid "eZ publish professional licences" may use this</span>
+00018 <span class="dox_comment">// file in accordance with the "eZ publish professional licence" Agreement</span>
+00019 <span class="dox_comment">// provided with the Software.</span>
+00020 <span class="dox_comment">//</span>
+00021 <span class="dox_comment">// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING</span>
+00022 <span class="dox_comment">// THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR</span>
+00023 <span class="dox_comment">// PURPOSE.</span>
+00024 <span class="dox_comment">//</span>
+00025 <span class="dox_comment">// The "eZ publish professional licence" is available at</span>
+00026 <span class="dox_comment">// http://ez.no/products/licences/professional/. For pricing of this licence</span>
+00027 <span class="dox_comment">// please contact us via e-mail to licence@ez.no. Further contact</span>
+00028 <span class="dox_comment">// information is available at http://ez.no/home/contact/.</span>
+00029 <span class="dox_comment">//</span>
+00030 <span class="dox_comment">// The "GNU General Public License" (GPL) is available at</span>
+00031 <span class="dox_comment">// http://www.gnu.org/copyleft/gpl.html.</span>
+00032 <span class="dox_comment">//</span>
+00033 <span class="dox_comment">// Contact licence@ez.no if any conditions of this licencing isn't clear to</span>
+00034 <span class="dox_comment">// you.</span>
+00035 <span class="dox_comment">//</span>
+00036 
+00045 include_once( <span class="dox_stringliteral">"lib/ezi18n/classes/eztextcodec.php"</span> );
+00046 include_once( <span class="dox_stringliteral">"lib/eztemplate/classes/eztemplatetreecache.php"</span> );
+00047 include_once( <span class="dox_stringliteral">"lib/eztemplate/classes/eztemplateprocesscache.php"</span> );
+00048 
+<a name="l00049"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource">00049</a> <span class="dox_keyword">class </span><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource">eZTemplateFileResource</a>
+00050 {
+<a name="l00056"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a0">00056</a>     function <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a0">eZTemplateFileResource</a>( $name = <span class="dox_stringliteral">"file"</span>, $servesStaticData = <span class="dox_keyword">true</span> )
+00057     {
+00058         $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o0">Name</a> = $name;
+00059         $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o1">ServesStaticData</a> = $servesStaticData;
+00060         $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o2">TemplateCache</a> = array();
+00061     }
+00062 
+<a name="l00066"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">00066</a>     function <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">resourceName</a>()
+00067     {
+00068         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o0">Name</a>;
+00069     }
+00070 
+00071     <span class="dox_comment">/*</span>
+00072 <span class="dox_comment">     \return true if this resource handler servers static data,</span>
+00073 <span class="dox_comment">     this means that the data can be cached by the template system.</span>
+00074 <span class="dox_comment">    */</span>
+00075     function servesStaticData()
+00076     {
+00077         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o1">ServesStaticData</a>;
+00078     }
+00079 
+<a name="l00089"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">00089</a>     function <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, &amp;$extraParameters )
+00090     {
+00091         $key = md5( $keyData );
+00092         <span class="dox_keywordflow">return</span> $key;
+00093     }
+00094 
+<a name="l00098"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a4">00098</a>     function <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a4">hasCachedProcessTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, $timestamp )
+00099     {
+00100         <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00101         $key = $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
+00102         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d4">eZTemplateTreeCache::canRestoreCache</a>( $key, $timestamp ) )
+00103             <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d5">eZTemplateTreeCache::restoreCache</a>( $key );
+00104         <span class="dox_keywordflow">return</span> <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d1">eZTemplateTreeCache::cachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters );
+00105     }
+00106 
+<a name="l00110"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a5">00110</a>     function <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a5">generateProcessCache</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$resourceData )
+00111     {
+00112         <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( '<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a5">generateProcessCache</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$resourceData )', 'eztemplatefileresource' );
+00113         $key = $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
+00114         <span class="dox_keywordflow">return</span> eZTemplateProcessCache::generateCache( $key, $resourceData );
+00115     }
+00116 
+00117     function canGenerateProcessCache()
+00118     {
+00119         <span class="dox_keywordflow">return</span> eZTemplateProcessCache::isCacheEnabled();
+00120     }
+00121 
+<a name="l00125"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a7">00125</a>     function &amp;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a7">cachedTemplateTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, $timestamp )
+00126     {
+00127         $key = $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
+00128         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d4">eZTemplateTreeCache::canRestoreCache</a>( $key, $timestamp ) )
+00129             <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d5">eZTemplateTreeCache::restoreCache</a>( $key );
+00130         <span class="dox_keywordflow">return</span> <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d1">eZTemplateTreeCache::cachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters );
+00131     }
+00132 
+<a name="l00136"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a8">00136</a>     function <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a8">setCachedTemplateTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$root )
+00137     {
+00138         $key = $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
+00139         <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#a0">eZTemplateTreeCache::setCachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters, $root );
+00140         <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d6">eZTemplateTreeCache::storeCache</a>( $key );
+00141     }
+00142 
+00147 <span class="dox_comment">//     function handleResource( &amp;$tpl, &amp;$templateRoot, &amp;$text, &amp;$tstamp, $uri, $resourceName, &amp;$path, &amp;$keyData, $method, &amp;$extraParameters )</span>
+<a name="l00148"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a9">00148</a>     function <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a9">handleResource</a>( &amp;$tpl, &amp;$resourceData, $method, &amp;$extraParameters )
+00149     {
+00150         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#d0">handleResourceData</a>( $tpl, $<span class="dox_keyword">this</span>, $resourceData, $method, $extraParameters );
+00151     }
+00152 
+00160 <span class="dox_comment">//     function handleResourceData( &amp;$tpl, &amp;$handler, &amp;$templateRoot, &amp;$text, &amp;$tstamp, $uri, $resourceName, &amp;$path, &amp;$keyData, $method, &amp;$extraParameters )</span>
+<a name="l00161"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#d0">00161</a>     function <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#d0">handleResourceData</a>( &amp;$tpl, &amp;$handler, &amp;$resourceData, $method, &amp;$extraParameters )
+00162     {
+00163         <span class="dox_comment">// &amp;$templateRoot, &amp;$text, &amp;$tstamp, $uri, $resourceName, &amp;$path, &amp;$keyData</span>
+00164         $templateRoot =&amp; $resourceData['root-node'];
+00165         $text =&amp; $resourceData['text'];
+00166         $tstamp =&amp; $resourceData['time-stamp'];
+00167         $uri =&amp; $resourceData['uri'];
+00168         $<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">resourceName</a> =&amp; $resourceData['resource'];
+00169         $path =&amp; $resourceData['<span class="dox_keyword">template</span>-filename'];
+00170         $keyData =&amp; $resourceData['key-data'];
+00171 
+00172         <span class="dox_keywordflow">if</span> ( !file_exists( $path ) )
+00173             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00174         $tstamp = filemtime( $path );
+00175         $result = <span class="dox_keyword">false</span>;
+00176         $canCache = <span class="dox_keyword">true</span>;
+00177         $templateRoot = null;
+00178         <span class="dox_keywordflow">if</span> ( !$handler-&gt;servesStaticData() )
+00179             $canCache = <span class="dox_keyword">false</span>;
+00180         $keyData = 'file:' . $path;
+00181         <span class="dox_keywordflow">if</span> ( $method == EZ_RESOURCE_FETCH )
+00182         {
+00183             <span class="dox_keywordflow">if</span> ( $canCache )
+00184             {
+00185                 <span class="dox_keywordflow">if</span> ( $handler-&gt;hasCachedProcessTree( $keyData, $uri, $<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">resourceName</a>, $path, $extraParameters, $tstamp ) )
+00186                      $resourceData['process-cache'] = <span class="dox_keyword">true</span>;
+00187             }
+00188             <span class="dox_keywordflow">if</span> ( $canCache )
+00189                 $templateRoot = $handler-&gt;cachedTemplateTree( $keyData, $uri, $<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">resourceName</a>, $path, $extraParameters, $tstamp );
+00190 
+00191             <span class="dox_keywordflow">if</span> ( $templateRoot !== null )
+00192                 <span class="dox_keywordflow">return</span> <span class="dox_keyword">true</span>;
+00193 
+00194             $fd = fopen( $path, <span class="dox_stringliteral">"r"</span> );
+00195             <span class="dox_keywordflow">if</span> ( $fd )
+00196             {
+00197                 $text = fread( $fd, filesize( $path ) );
+00198 <span class="dox_comment">//                 $charset = "utf8";</span>
+00199                 $tplINI =&amp; $tpl-&gt;ini();
+00200                 $charset = $tplINI-&gt;variable( 'CharsetSettings', 'DefaultTemplateCharset' );
+00201                 $pos = strpos( $text, <span class="dox_stringliteral">"\n"</span> );
+00202                 <span class="dox_keywordflow">if</span> ( $pos !== <span class="dox_keyword">false</span> )
+00203                 {
+00204                     $line = substr( $text, 0, $pos );
+00205                     <span class="dox_keywordflow">if</span> ( preg_match( <span class="dox_stringliteral">"/^\{\*\?template(.+)\?\*\}/"</span>, $line, $tpl_arr ) )
+00206                     {
+00207                         $args = explode( <span class="dox_stringliteral">" "</span>, trim( $tpl_arr[1] ) );
+00208                         foreach ( $args as $arg )
+00209                         {
+00210                             $vars = explode( <span class="dox_charliteral">'='</span>, trim( $arg ) );
+00211                             <span class="dox_keywordflow">if</span> ( $vars[0] == <span class="dox_stringliteral">"charset"</span> )
+00212                             {
+00213                                 $val = $vars[1];
+00214                                 <span class="dox_keywordflow">if</span> ( $val[0] == <span class="dox_charliteral">'"'</span> and
+00215                                      strlen( $val ) &gt; 0 and
+00216                                      $val[strlen($val)-1] == <span class="dox_charliteral">'"'</span> )
+00217                                     $val = substr( $val, 1, strlen($val) - 2 );
+00218                                 $charset = $val;
+00219                             }
+00220                         }
+00221                     }
+00222                 }
+00223                 <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplate#d1">eZTemplate::isDebugEnabled</a>() )
+00224                     <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"$path, $charset"</span> );
+00225                 $codec =&amp; eZTextCodec::instance( $charset );
+00226                 <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'templage_resource_conversion', 'template_total', 'String conversion in <span class="dox_keyword">template</span> resource' );
+00227                 $text = $codec-&gt;convertString( $text );
+00228                 <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'templage_resource_conversion', 'template_total', 'String conversion in <span class="dox_keyword">template</span> resource' );
+00229                 $result = <span class="dox_keyword">true</span>;
+00230                 <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplate#d1">eZTemplate::isDebugEnabled</a>() )
+00231                 {
+00232                     $text = <span class="dox_stringliteral">"&lt;!-- including template $path --&gt;\n&lt;p class=\"small\"&gt;$path&lt;/p&gt;&lt;br/&gt;\n"</span> . $text;
+00233                 }
+00234             }
+00235         }
+00236         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $method == EZ_RESOURCE_QUERY )
+00237             $result = <span class="dox_keyword">true</span>;
+00238         <span class="dox_keywordflow">return</span> $result;
+00239     }
+00240 
+<a name="l00243"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o0">00243</a>     var $<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o0">Name</a>;
+<a name="l00245"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o1">00245</a>     var $<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o1">ServesStaticData</a>;
+<a name="l00247"></a><a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o2">00247</a>     var $<a class="dox_code" href="/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o2">TemplateCache</a>;
+00248 }
+00249 
+00250 ?&gt;
+</pre></div>&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817141120/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817141120/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 14:11:20 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:49:11 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.465
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 4.295
+  LoadShardBlock: 313.855 (3)
+  PetaboxLoader3.datanode: 138.963 (4)
+  PetaboxLoader3.resolve: 263.588 (3)
+  load_resource: 103.021
+-->

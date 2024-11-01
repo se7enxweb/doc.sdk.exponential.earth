@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/kernel/view/content_classes","20030820201647","http://web.archive.org/","web","/_static/",
+	      "1061410607");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - Kernel</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030820201647cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030820201647cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030820201647cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030820201647im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030820201647/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030820201647/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030820201647im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="/web/20030820201647/http://ez.no/sdk/kernel/view/module_system" ">&lt;&lt; Module system</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="/web/20030820201647/http://ez.no/sdk/kernel/view/content_objects" ">Content objects &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030820201647/http://ez.no/sdk/kernel">Kernel</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/module_system/">Module system</a><br/><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/content_classes/">Content classes</a><br/><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/content_objects/">Content objects</a><br/><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/content_datatypes/">Content datatypes</a><br/><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/permissions/">Permissions</a><br/><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/workflows/">Workflows</a><br/><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/data_storage/">Data storage</a><br/><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/template_operators/">Template operators</a><br/><img src="/web/20030820201647im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030820201647/http://ez.no/sdk/kernel/view/other_concepts/">Other concepts</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<h1>Content classes</h1>
+
+<p>
+This is an introduction on how to use the core classes of eZ publish
+at a low level. With these classes you can define what elements an object
+should be made up of. <b>Content Class</b> is the name of this definition.
+</p>
+<h2>Creating a Content Class</h2>
+<p>
+Before the system can be populated with actual content objects a <b>class</b>
+is needed. A class consists primary of a name, an identifier and a list of attributes.
+Classes like objects are versioned albeit in a minimalistic fashion. A class either
+is defined which means there is only one working copy, or it is a temporary meaning that
+it has just been created but is currently being worked on or it is modified which means that
+someone is working on a temporary version and a defined version is already exists.
+</p>
+<p>
+<b>Note: To make objects of a new class available to anonymous users you must edit the Anonymous role,
+as this role has specified access limitation by class by default.</b>
+</p>
+<p>
+Creating the class is done by calling the static <b>create()</b> function in <b>eZContentClass</b>,
+it takes one parameter which is the ID of the user creating the class. Usually this is the current
+user which is fetched with <b>eZUser::currentUser()</b>. Once the <b>create()</b> functions returns
+we have an eZContentClass object which is a temporary version and has creator, modifier and dates
+filled in. We then set the name and identifier ourselves.
+</p>
+
+<pre class="example">
+include_once( "kernel/classes/ezcontentclass.php" );
+
+// create new empty class
+$user =&amp; eZUser::currentUser();
+$class = eZContentClass::create( $user-&gt;attribute( "id" ) );
+
+// set the name and identifier
+$class-&gt;setAttribute( "name", "new class1" );
+$class-&gt;setAttribute( "identifier", "new_class1" );
+</pre>
+
+<p>
+The class is now ready to be stored, we call <b>store()</b> to store a temporary version.
+</p>
+
+<pre class="example">
+$class-&gt;store();
+</pre>
+
+<p>
+To make the class more useful we must add some <i>class attributes</i>. Attributes are created
+in the same was as classes but take two parameters, the ID of the class and the stringname of
+the data type. For now we'll assume that a data type called <i>ezstring</i> exists.
+As you see we also set the <i>name</i> and <i>identifier</i> of the attribute.
+</p>
+
+<pre class="example">
+$classAttribute = eZContentClassAttribute::create( $class-&gt;attribute( "id" ),
+                                                   "ezstring" );
+$classAttribute-&gt;setAttribute( "name", "new attribute1" );
+$classAttribute-&gt;setAttribute( "identifier", "new_attribute1" );
+$classAttribute-&gt;store();
+// Add to attribute list
+$classAttributes = array();
+$classAttributes[] =&amp; $classAttribute;
+</pre>
+
+<p>
+Now we're happy with our new class and want to make it appear as a defined class.
+We do that by removing the temporary version, setting the version to 0 and storing it.
+</p>
+
+<pre class="example">
+// Remove this class and all it's attributes (note the true parameter)
+$class-&gt;remove( true );
+// Change version to defined, again for all attributes as well
+// this also fetches a list of temporary attributes
+$class-&gt;setVersion( 0, true );
+// Alternatively
+$class-&gt;setVersion( 0, $classAttributes );
+
+// Finally store the class and all it's attributes
+$class-&gt;store( $classAttributes );
+</pre>
+
+<h2>Fetching the classes</h2>
+
+<p>
+Now that we've stored the class we can find it among the defined list. We do that by fetching
+classes which has version equal to 0. We will then get an array with <b>eZContentClass</b> objects.
+</p>
+
+<pre class="example">
+// fetch all defined classes
+$classes =&amp; eZContentClass::fetchList( 0 );
+</pre>
+
+<p>
+Once we got the class list we can iterate over it and fetch the attributes and then print
+out the id of each attribute.
+</p>
+
+<pre class="example">
+foreach( $classes as $class )
+{
+  // We must fetch the attributes ourselves, they do not get fetched automatically
+  $classAttributes =&amp; $class-&gt;fetchAttributes();
+  foreach( $classAttributes as $classAttribute )
+  {
+    print( $classAttribute-&gt;attribute( "id" ) );
+  }
+}
+</pre>
+
+<p>
+Fetching a class directly can be done if the class <i>ID</i> is known. We then modify the class
+name and store it. It's very important to update the modification date, that it's easy for
+external clients to find out if an object has changed.
+</p>
+
+<pre class="example">
+// Fetch class with ID 42 if it exists
+$class =&amp; eZContentClass::fetch( 42 );
+if ( $class !== null )
+{
+  print( $class-&gt;attribute( "name" ) );
+  $class-&gt;setAttribute( "name", "Some other name" );
+  // Change modification date
+  $class-&gt;setAttribute( "modified", eZDateTime::currentTimeStamp() );
+  $class-&gt;store();
+}
+</pre>
+
+<!-- These should be in the search doc
+<h2>Useful links</h2>
+<ul>
+<li><a href="http://www.sims.berkeley.edu/~hearst/irbook/porter.html">Porter's algorithm</a></li>
+<li><a href="http://www.tartarus.org/~martin/PorterStemmer/">Porter's algorithm #2</a></li>
+<li><a href="http://snowball.sourceforge.net/">Snowball stemming project</a></li>
+</ul>
+-->
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030820201647/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030820201647/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 20:16:47 Aug 20, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:19:19 Nov 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.435
+  exclusion.robots: 0.014
+  exclusion.robots.policy: 0.007
+  esindex: 0.009
+  cdx.remote: 5.525
+  LoadShardBlock: 86.633 (3)
+  PetaboxLoader3.datanode: 140.865 (4)
+  load_resource: 187.963
+  PetaboxLoader3.resolve: 102.995
+-->

@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZHTTPFile","20030817123214","http://web.archive.org/","web","/_static/",
+	      "1061123534");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817123214cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817123214cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817123214cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817123214/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030817123214im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZHTTPFile Class Reference<br>
+<small>
+[<a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/module/eZHTTP">HTTP utilities</a>]</small>
+</h1>Provides access to HTTP post files. 
+<a href="eZHTTPFile.html#_details">More...</a>
+<p>
+<a href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/members/eZHTTPFile">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#a0">eZHTTPFile</a> ($http_name,$variable)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#a1">storageDir</a> ($sub_dir=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#a2">store</a> ($sub_dir=false,$suffix=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#a3">attributes</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#a4">hasAttribute</a> ($attr)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#a5">attribute</a> ($attr)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#a6">canFetch</a> ($http_name)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#a7">fetch</a> ($http_name)</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZHTTPFile::HTTPName"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#m0">HTTPName</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The name of the HTTP file.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZHTTPFile::OriginalFilename"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#m1">OriginalFilename</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The original name of the file from the client.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m2" doxytag="eZHTTPFile::Type"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#m2">Type</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The mime type of the file.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m3" doxytag="eZHTTPFile::MimeCategory"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#m3">MimeCategory</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The mimetype category (first part).</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m4" doxytag="eZHTTPFile::MimePart"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#m4">MimePart</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The mimetype type (second part).</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m5" doxytag="eZHTTPFile::Filename"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#m5">Filename</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The local filename.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m6" doxytag="eZHTTPFile::Size"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#m6">Size</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The size of the local file.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m7" doxytag="eZHTTPFile::IsTemporary"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="eZHTTPFile.html#m7">IsTemporary</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Whether the file is a temporary file or if it has been moved(stored).</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Provides access to HTTP post files.
+<p>
+This class provides easy access to files posted by clients over HTTP. The HTTP file will be present as a temporary file which can be moved to store it, if not the file will be removed when the PHP script is done. 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00051">51</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZHTTPFile::eZHTTPFile"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPFile::eZHTTPFile </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>http_name</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>variable</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Initializes with a name and http variable. <dl compact><dt><b>Parameters: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>http_name</em>&nbsp;</td><td>
+Name of the HTTP variable </td></tr>
+<tr><td valign="top"><em>variable</em>&nbsp;</td><td>
+The HTTP variable structure </td></tr>
+</table>
+</dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00056">56</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00253">Filename</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00243">HTTPName</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00257">IsTemporary</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00249">MimeCategory</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00251">MimePart</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00245">OriginalFilename</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00255">Size</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00247">Type</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00221">fetch()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a5" doxytag="eZHTTPFile::attribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPFile::attribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attr</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the value for the attribute $attr or null if the attribute does not exist. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00180">180</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00253">Filename</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00257">IsTemporary</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00249">MimeCategory</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00251">MimePart</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00245">OriginalFilename</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00255">Size</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00247">Type</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZHTTPFile::attributes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPFile::attributes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with the attributes for this object. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00163">163</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZHTTPFile::canFetch"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPFile::canFetch </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>http_name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the HTTP file $http_name can be fetched. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00205">205</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezimagetype#l00189">eZImageType::fetchObjectAttributeHTTPInput()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00252">eZBinaryFileType::fetchObjectAttributeHTTPInput()</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZHTTPFile::fetch"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZHTTPFile::fetch </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>http_name</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Fetches the HTTP file named $http_name and returns a eZHTTPFile object, or null if the file could not be fetched. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00221">221</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00056">eZHTTPFile()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezimagetype#l00189">eZImageType::fetchObjectAttributeHTTPInput()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00252">eZBinaryFileType::fetchObjectAttributeHTTPInput()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezimagetype#l00163">eZImageType::validateObjectAttributeHTTPInput()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00225">eZBinaryFileType::validateObjectAttributeHTTPInput()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZHTTPFile::hasAttribute"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPFile::hasAttribute </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>attr</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the attribute $attr exists </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00172">172</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZHTTPFile::storageDir"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPFile::storageDir </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>sub_dir</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the directory where the file should be stored. </dl>
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00073">73</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezsys#l00589">eZSys::instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00249">MimeCategory</a>.
+<p>
+Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00087">store()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZHTTPFile::store"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZHTTPFile::store </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>sub_dir</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>suffix</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Stores the temporary file to the destination dir $dir. 
+<p>
+Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00087">87</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a>.
+<p>
+References <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00253">Filename</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00257">IsTemporary</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00249">MimeCategory</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile#l00073">storageDir()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezdebug#l00391">eZDebug::writeDebug()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="http://web.archive.org/web/20030817123214/http://ez.no/sdk/ref/view/source/ezhttpfile">ezhttpfile.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817123214/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817123214/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:32:14 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:28:44 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.683
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.01
+  esindex: 0.016
+  cdx.remote: 11.17
+  LoadShardBlock: 159.393 (3)
+  PetaboxLoader3.datanode: 355.941 (4)
+  PetaboxLoader3.resolve: 174.663 (2)
+  load_resource: 383.143
+-->

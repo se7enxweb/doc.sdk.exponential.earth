@@ -1,0 +1,925 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="../../../../../../bundle-playback.js%3Fv=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../wombat.js%3Fv=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="../../../../../../ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/source/ezini","20030817124546","http://web.archive.org/","web","/_static/",
+	      "1061124346");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../banner-styles.css%3Fv=S1zqJCYt.css" />
+<link rel="stylesheet" type="text/css" href="../../../../../../iconochive.css%3Fv=3PDvdIFv.css" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817124546cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817124546cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030817124546cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817124546/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="http://web.archive.org/web/20030817124546im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">ezini.php</h1><div class="dox_fragment"><pre>00001 &lt;?php
+00002 <span class="dox_comment">//</span>
+00003 <span class="dox_comment">// $Id$</span>
+00004 <span class="dox_comment">//</span>
+00005 <span class="dox_comment">// Definition of eZINI class</span>
+00006 <span class="dox_comment">//</span>
+00007 <span class="dox_comment">// Created on: &lt;12-Feb-2002 14:06:45 bf&gt;</span>
+00008 <span class="dox_comment">//</span>
+00009 <span class="dox_comment">// Copyright (C) 1999-2003 eZ systems as. All rights reserved.</span>
+00010 <span class="dox_comment">//</span>
+00011 <span class="dox_comment">// This source file is part of the eZ publish (tm) Open Source Content</span>
+00012 <span class="dox_comment">// Management System.</span>
+00013 <span class="dox_comment">//</span>
+00014 <span class="dox_comment">// This file may be distributed and/or modified under the terms of the</span>
+00015 <span class="dox_comment">// "GNU General Public License" version 2 as published by the Free</span>
+00016 <span class="dox_comment">// Software Foundation and appearing in the file LICENSE.GPL included in</span>
+00017 <span class="dox_comment">// the packaging of this file.</span>
+00018 <span class="dox_comment">//</span>
+00019 <span class="dox_comment">// Licencees holding valid "eZ publish professional licences" may use this</span>
+00020 <span class="dox_comment">// file in accordance with the "eZ publish professional licence" Agreement</span>
+00021 <span class="dox_comment">// provided with the Software.</span>
+00022 <span class="dox_comment">//</span>
+00023 <span class="dox_comment">// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING</span>
+00024 <span class="dox_comment">// THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR</span>
+00025 <span class="dox_comment">// PURPOSE.</span>
+00026 <span class="dox_comment">//</span>
+00027 <span class="dox_comment">// The "eZ publish professional licence" is available at</span>
+00028 <span class="dox_comment">// http://ez.no/products/licences/professional/. For pricing of this licence</span>
+00029 <span class="dox_comment">// please contact us via e-mail to licence@ez.no. Further contact</span>
+00030 <span class="dox_comment">// information is available at http://ez.no/home/contact/.</span>
+00031 <span class="dox_comment">//</span>
+00032 <span class="dox_comment">// The "GNU General Public License" (GPL) is available at</span>
+00033 <span class="dox_comment">// http://www.gnu.org/copyleft/gpl.html.</span>
+00034 <span class="dox_comment">//</span>
+00035 <span class="dox_comment">// Contact licence@ez.no if any conditions of this licencing isn't clear to</span>
+00036 <span class="dox_comment">// you.</span>
+00037 <span class="dox_comment">//</span>
+00038 
+00079 define( <span class="dox_stringliteral">"EZ_INI_CACHE_CODE_DATE"</span>, 1043407541 );
+00080 define( <span class="dox_stringliteral">"EZ_INI_DEBUG_INTERNALS"</span>, <span class="dox_keyword">false</span> );
+00081 
+<a name="l00082"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI">00082</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI">eZINI</a>
+00083 {
+<a name="l00087"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a0">00087</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a0">eZINI</a>( $fileName, $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> = <span class="dox_stringliteral">""</span>, $useTextCodec = null, $useCache = null )
+00088     {
+00089         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o0">Charset</a> = <span class="dox_stringliteral">"utf8"</span>;
+00090         <span class="dox_keywordflow">if</span> ( $fileName == <span class="dox_stringliteral">""</span> )
+00091             $fileName = <span class="dox_stringliteral">"site.ini"</span>;
+00092         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> == <span class="dox_stringliteral">""</span> )
+00093             $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> = <span class="dox_stringliteral">"settings"</span>;
+00094         <span class="dox_keywordflow">if</span> ( $useCache === null )
+00095             $useCache = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d0">eZINI::isCacheEnabled</a>();
+00096         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a2">eZINI::isNoCacheAdviced</a>() )
+00097         {
+00098             $useCache = <span class="dox_keyword">false</span>;
+00099         }
+00100         <span class="dox_keywordflow">if</span> ( $useTextCodec === null )
+00101             $useTextCodec = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d4">eZINI::isTextCodecEnabled</a>();
+00102 
+00103         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o5">UseTextCodec</a> = $useTextCodec;
+00104         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o3">FileName</a> = $fileName;
+00105         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o4">RootDir</a> = $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a>;
+00106         $this-&gt;UseCache = $useCache;
+00107 
+00108         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a3">load</a>();
+00109     }
+00110 
+<a name="l00114"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a1">00114</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a1">filename</a>()
+00115     {
+00116         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o3">FileName</a>;
+00117     }
+00118 
+<a name="l00124"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d0">00124</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d0">isCacheEnabled</a>()
+00125     {
+00126         <span class="dox_keywordflow">if</span> ( !isset( $GLOBALS['eZINICacheEnabled'] ) )
+00127              $GLOBALS['eZINICacheEnabled'] = <span class="dox_keyword">true</span>;
+00128         <span class="dox_keywordflow">return</span> $GLOBALS['eZINICacheEnabled'];
+00129     }
+00130 
+<a name="l00135"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a2">00135</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a2">isNoCacheAdviced</a>()
+00136     {
+00137         <span class="dox_keywordflow">if</span> ( !isset( $GLOBALS['eZSiteBasics'] ) )
+00138             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00139         $siteBasics = $GLOBALS['eZSiteBasics'];
+00140         <span class="dox_keywordflow">return</span> $siteBasics['no-cache-adviced'];
+00141     }
+00142 
+<a name="l00148"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d1">00148</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d1">setIsCacheEnabled</a>( $cache )
+00149     {
+00150         $GLOBALS['eZINICacheEnabled'] = $cache;
+00151     }
+00152 
+<a name="l00159"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d2">00159</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d2">isDebugEnabled</a>()
+00160     {
+00161         <span class="dox_keywordflow">if</span> ( !isset( $GLOBALS['eZINIDebugInternalsEnabled'] ) )
+00162              $GLOBALS['eZINIDebugInternalsEnabled'] = EZ_INI_DEBUG_INTERNALS;
+00163         <span class="dox_keywordflow">return</span> $GLOBALS['eZINIDebugInternalsEnabled'];
+00164     }
+00165 
+<a name="l00170"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d3">00170</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d3">setIsDebugEnabled</a>( $debug )
+00171     {
+00172         $GLOBALS['eZINIDebugInternalsEnabled'] = $debug;
+00173     }
+00174 
+<a name="l00181"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d4">00181</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d4">isTextCodecEnabled</a>()
+00182     {
+00183         <span class="dox_keywordflow">if</span> ( !isset( $GLOBALS['eZINITextCodecEnabled'] ) )
+00184              $GLOBALS['eZINITextCodecEnabled'] = <span class="dox_keyword">true</span>;
+00185         <span class="dox_keywordflow">return</span> $GLOBALS['eZINITextCodecEnabled'];
+00186     }
+00187 
+<a name="l00192"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d5">00192</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d5">setIsTextCodecEnabled</a>( $codec )
+00193     {
+00194         $GLOBALS['eZINITextCodecEnabled'] = $codec;
+00195     }
+00196 
+<a name="l00202"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d6">00202</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d6">exists</a>( $fileName = <span class="dox_stringliteral">"site.ini"</span>, $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> = <span class="dox_stringliteral">"settings"</span> )
+00203     {
+00204         <span class="dox_keywordflow">if</span> ( $fileName == <span class="dox_stringliteral">""</span> )
+00205             $fileName = <span class="dox_stringliteral">"site.ini"</span>;
+00206         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> == <span class="dox_stringliteral">""</span> )
+00207             $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> = <span class="dox_stringliteral">"settings"</span>;
+00208         <span class="dox_keywordflow">return</span> file_exists( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> . <span class="dox_charliteral">'/'</span> . $fileName );
+00209     }
+00210 
+<a name="l00216"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a3">00216</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a3">load</a>( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a> = <span class="dox_keyword">true</span> )
+00217     {
+00218         <span class="dox_keywordflow">if</span> ( $this-&gt;UseCache )
+00219         {
+00220             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c0">loadCache</a>( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a> );
+00221         }
+00222         <span class="dox_keywordflow">else</span>
+00223         {
+00224             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c2">parse</a>( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a> );
+00225         }
+00226     }
+00227 
+00228     function findInputFiles( &amp;$inputFiles, &amp;$iniFile )
+00229     {
+00230         include_once( 'lib/ezutils/classes/ezdir.php' );
+00231         $inputFiles = array();
+00232         $iniFile = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d4">eZDir::path</a>( array( $this-&gt;RootDir, $this-&gt;FileName ) );
+00233         <span class="dox_keywordflow">if</span> ( file_exists( $iniFile . '.php' ) )
+00234             $iniFile .= '.php';
+00235         <span class="dox_keywordflow">if</span> ( file_exists( $iniFile ) )
+00236             $inputFiles[] = $iniFile;
+00237         $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a9">overrideDirs</a> = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a9">overrideDirs</a>();
+00238         foreach ( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a9">overrideDirs</a> as $overrideDirItem )
+00239         {
+00240             $overrideDir = $overrideDirItem[0];
+00241             $isGlobal = $overrideDirItem[1];
+00242             <span class="dox_keywordflow">if</span> ( $isGlobal )
+00243                 $overrideFile = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d4">eZDir::path</a>( array( $overrideDir, $this-&gt;FileName ) );
+00244             <span class="dox_keywordflow">else</span>
+00245                 $overrideFile = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d4">eZDir::path</a>( array( $this-&gt;RootDir, $overrideDir, $this-&gt;FileName ) );
+00246             <span class="dox_keywordflow">if</span> ( file_exists( $overrideFile . '.php' ) )
+00247             {
+00248                 $overrideFile .= '.php';
+00249                 $inputFiles[] = $overrideFile;
+00250             }
+00251             <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( file_exists( $overrideFile ) )
+00252                 $inputFiles[] = $overrideFile;
+00253 
+00254             <span class="dox_keywordflow">if</span> ( $isGlobal )
+00255                 $overrideFile = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d4">eZDir::path</a>( array( $overrideDir, $this-&gt;FileName . '.append' ) );
+00256             <span class="dox_keywordflow">else</span>
+00257                 $overrideFile = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d4">eZDir::path</a>( array( $this-&gt;RootDir, $overrideDir, $this-&gt;FileName . '.append' ) );
+00258             <span class="dox_keywordflow">if</span> ( file_exists( $overrideFile . '.php' ) )
+00259             {
+00260                 $overrideFile .= '.php';
+00261                 $inputFiles[] = $overrideFile;
+00262             }
+00263             <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( file_exists( $overrideFile ) )
+00264                 $inputFiles[] = $overrideFile;
+00265         }
+00266     }
+00267 
+<a name="l00273"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c0">00273</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c0">loadCache</a>( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a> = <span class="dox_keyword">true</span> )
+00274     {
+00275         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a> )
+00276             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a>();
+00277         $cachedDir = <span class="dox_stringliteral">"var/cache/ini/"</span>;
+00278         <span class="dox_keywordflow">if</span> ( !file_exists( $cachedDir ) )
+00279         {
+00280             include_once( 'lib/ezutils/classes/ezdir.php' );
+00281             <span class="dox_keywordflow">if</span> ( ! <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d0">eZDir::mkdir</a>( $cachedDir, 0777, <span class="dox_keyword">true</span> ) )
+00282             {
+00283                 <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Couldn't create cache directory $cachedDir, perhaps wrong permissions"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00284             }
+00285         }
+00286 
+00287         $this-&gt;findInputFiles( $inputFiles, $iniFile );
+00288         <span class="dox_keywordflow">if</span> ( count( $inputFiles ) == 0 )
+00289             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00290 
+00291         $md5Files = array();
+00292         foreach ( $inputFiles as $inputFile )
+00293         {
+00294             $md5Files[] = $inputFile;
+00295         }
+00296         $md5_input = implode( <span class="dox_stringliteral">"\n"</span>, $md5Files );
+00297         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o5">UseTextCodec</a> )
+00298         {
+00299             include_once( <span class="dox_stringliteral">"lib/ezi18n/classes/eztextcodec.php"</span> );
+00300             $md5_input .= <span class="dox_charliteral">'-'</span> . <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZTextCodec#d1">eZTextCodec::internalCharset</a>();
+00301         }
+00302         $fileName = md5( $md5_input ) . <span class="dox_stringliteral">".php"</span>;
+00303         $cachedFile = $cachedDir . $fileName;
+00304         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o6">CacheFile</a> = $cachedFile;
+00305 
+00306         $inputTime = <span class="dox_keyword">false</span>;
+00307         <span class="dox_comment">// check for modifications</span>
+00308         foreach ( $inputFiles as $inputFile )
+00309         {
+00310             $fileTime = filemtime( $inputFile );
+00311             <span class="dox_keywordflow">if</span> ( $inputTime === <span class="dox_keyword">false</span> or
+00312                  $fileTime &gt; $inputTime )
+00313                 $inputTime = $fileTime;
+00314         }
+00315 
+00316         $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c0">loadCache</a> = <span class="dox_keyword">false</span>;
+00317         $cacheTime = <span class="dox_keyword">false</span>;
+00318         <span class="dox_keywordflow">if</span> ( file_exists( $cachedFile ) )
+00319         {
+00320             $cacheTime = filemtime( $cachedFile );
+00321             $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c0">loadCache</a> = <span class="dox_keyword">true</span>;
+00322             <span class="dox_keywordflow">if</span> ( $cacheTime &lt; $inputTime )
+00323             {
+00324                 $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c0">loadCache</a> = <span class="dox_keyword">false</span>;
+00325             }
+00326         }
+00327 
+00328         $useCache = <span class="dox_keyword">false</span>;
+00329         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c0">loadCache</a> )
+00330         {
+00331             $useCache = <span class="dox_keyword">true</span>;
+00332             <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d2">eZINI::isDebugEnabled</a>() )
+00333                 <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"Loading cache '$cachedFile' for file '"</span> . $this-&gt;FileName . <span class="dox_stringliteral">"'"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00334             $charset = null;
+00335             $blockValues = array();
+00336             include( $cachedFile );
+00337             <span class="dox_keywordflow">if</span> ( !isset( $eZIniCacheCodeDate ) or
+00338                  $eZIniCacheCodeDate != EZ_INI_CACHE_CODE_DATE )
+00339             {
+00340                 <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d2">eZINI::isDebugEnabled</a>() )
+00341                     <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"Old structure in cache file used, recreating '$cachedFile' to new structure"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00342                 $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a>();
+00343                 $useCache = <span class="dox_keyword">false</span>;
+00344             }
+00345             <span class="dox_keywordflow">else</span>
+00346             {
+00347                 $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o0">Charset</a> = $charset;
+00348                 $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a> = $blockValues;
+00349                 $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o2">ModifiedBlockValues</a> = array();
+00350                 unset( $blockValues );
+00351             }
+00352         }
+00353         <span class="dox_keywordflow">if</span> ( !$useCache )
+00354         {
+00355             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c2">parse</a>( $inputFiles, $iniFile, <span class="dox_keyword">false</span> );
+00356             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c1">saveCache</a>( $cachedFile );
+00357 
+00358             <span class="dox_comment">// Write log message to storage.log</span>
+00359             include_once( 'lib/ezutils/classes/ezlog.php' );
+00360             eZLog::writeStorageLog( $fileName, $cachedDir );
+00361         }
+00362     }
+00363 
+00364 
+<a name="l00369"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c1">00369</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c1">saveCache</a>( $cachedFile )
+00370     {
+00371         <span class="dox_comment">// save the data to a cached file</span>
+00372         $buffer = <span class="dox_stringliteral">""</span>;
+00373         $i = 0;
+00374         <span class="dox_keywordflow">if</span> ( is_array( $this-&gt;BlockValues )  )
+00375         {
+00376             $fp = @fopen( $cachedFile, <span class="dox_stringliteral">"w+"</span> );
+00377             <span class="dox_keywordflow">if</span> ( $fp === <span class="dox_keyword">false</span> )
+00378             {
+00379                 <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Couldn't create cache file '$cachedFile', perhaps wrong permissions"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00380                 <span class="dox_keywordflow">return</span>;
+00381             }
+00382             fwrite( $fp, <span class="dox_stringliteral">"&lt;?php\n\$eZIniCacheCodeDate = "</span> . EZ_INI_CACHE_CODE_DATE . <span class="dox_stringliteral">";\n"</span> );
+00383 <span class="dox_comment">//             exit;</span>
+00384 
+00385             fwrite( $fp, <span class="dox_stringliteral">"\$charset = \"$this-&gt;Charset\";\n"</span> );
+00386             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a>( $this-&gt;BlockValues );
+00387             <span class="dox_keywordflow">while</span> ( list( $groupKey, $groupVal ) = each ( $this-&gt;BlockValues ) )
+00388             {
+00389                 <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a>( $groupVal );
+00390                 <span class="dox_keywordflow">while</span> ( list( $key, $val ) = each ( $groupVal ) )
+00391                 {
+00392                     <span class="dox_keywordflow">if</span> ( is_array( $val ) )
+00393                     {
+00394                         fwrite( $fp, <span class="dox_stringliteral">"\$groupArray[\"$key\"] = array();\n"</span> );
+00395                         foreach ( $val as $arrayKey =&gt; $arrayValue )
+00396                         {
+00397                             <span class="dox_keywordflow">if</span> ( is_string( $arrayKey ) )
+00398                                 $tmpArrayKey = <span class="dox_stringliteral">"\""</span> . str_replace( <span class="dox_stringliteral">"\""</span>, <span class="dox_stringliteral">"\\\""</span>, $arrayKey ) . <span class="dox_stringliteral">"\""</span>;
+00399                             <span class="dox_keywordflow">else</span>
+00400                                 $tmpArrayKey = $arrayKey;
+00401                             $tmpVal = str_replace( <span class="dox_stringliteral">"\""</span>, <span class="dox_stringliteral">"\\\""</span>, $arrayValue );
+00402                             fwrite( $fp, <span class="dox_stringliteral">"\$groupArray[\"$key\"][$tmpArrayKey] = \"$tmpVal\";\n"</span> );
+00403                         }
+00404                     }
+00405                     <span class="dox_keywordflow">else</span>
+00406                     {
+00407                         $tmpVal = str_replace( <span class="dox_stringliteral">"\""</span>, <span class="dox_stringliteral">"\\\""</span>, $val );
+00408 
+00409                         fwrite( $fp, <span class="dox_stringliteral">"\$groupArray[\"$key\"] = \"$tmpVal\";\n"</span> );
+00410                     }
+00411                 }
+00412 
+00413                 fwrite( $fp, <span class="dox_stringliteral">"\$blockValues[\"$groupKey\"] =&amp; \$groupArray;\n"</span> );
+00414                 fwrite( $fp, <span class="dox_stringliteral">"unset( \$groupArray );\n"</span> );
+00415                 $i++;
+00416             }
+00417             fwrite( $fp, <span class="dox_stringliteral">"\n?&gt;"</span> );
+00418             fclose( $fp );
+00419             <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d2">eZINI::isDebugEnabled</a>() )
+00420                 <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"Wrote cache file '$cachedFile'"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00421         }
+00422 <span class="dox_comment">//         exit;</span>
+00423     }
+00424 
+<a name="l00430"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c2">00430</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c2">parse</a>( $inputFiles = <span class="dox_keyword">false</span>, $iniFile = <span class="dox_keyword">false</span>, $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a> = <span class="dox_keyword">true</span> )
+00431     {
+00432         <span class="dox_keywordflow">if</span> ( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a> )
+00433             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a>();
+00434         <span class="dox_keywordflow">if</span> ( $inputFiles === <span class="dox_keyword">false</span> or
+00435              $iniFile === <span class="dox_keyword">false</span> )
+00436             $this-&gt;findInputFiles( $inputFiles, $iniFile );
+00437 
+00438         foreach ( $inputFiles as $inputFile )
+00439         {
+00440             <span class="dox_keywordflow">if</span> ( file_exists( $inputFile ) )
+00441             {
+00442                 $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c3">parseFile</a>( $inputFile );
+00443             }
+00444         }
+00445     }
+00446 
+<a name="l00451"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c3">00451</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#c3">parseFile</a>( $file )
+00452     {
+00453         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d2">eZINI::isDebugEnabled</a>() )
+00454             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"Parsing file '$file'"</span>, '<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI">eZINI</a>' );
+00455         include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezfile.php"</span> );
+00456         $lines =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZFile#d0">eZFile::splitLines</a>( $file );
+00457         <span class="dox_keywordflow">if</span> ( $lines === <span class="dox_keyword">false</span> )
+00458         {
+00459             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Failed opening file '$file' for reading"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00460             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00461         }
+00462 
+00463         $currentBlock = <span class="dox_stringliteral">""</span>;
+00464         <span class="dox_keywordflow">if</span> ( count( $lines ) &gt; 0 )
+00465         {
+00466             <span class="dox_comment">// check for charset</span>
+00467             <span class="dox_keywordflow">if</span> ( preg_match( <span class="dox_stringliteral">"/#\?ini(.+)\?/"</span>, $lines[0], $ini_arr ) )
+00468             {
+00469                 $args = explode( <span class="dox_stringliteral">" "</span>, trim( $ini_arr[1] ) );
+00470                 foreach ( $args as $arg )
+00471                 {
+00472                     $vars = explode( <span class="dox_charliteral">'='</span>, trim( $arg ) );
+00473                     <span class="dox_keywordflow">if</span> ( $vars[0] == <span class="dox_stringliteral">"charset"</span> )
+00474                     {
+00475                         $val = $vars[1];
+00476                         <span class="dox_keywordflow">if</span> ( $val[0] == <span class="dox_charliteral">'"'</span> and
+00477                              strlen( $val ) &gt; 0 and
+00478                              $val[strlen($val)-1] == <span class="dox_charliteral">'"'</span> )
+00479                             $val = substr( $val, 1, strlen($val) - 2 );
+00480                         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o0">Charset</a> = $val;
+00481                     }
+00482                 }
+00483             }
+00484         }
+00485 <span class="dox_comment">//         $codec =&amp; eZTextCodec::codecForName( $this-&gt;Charset );</span>
+00486         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o5">UseTextCodec</a> )
+00487         {
+00488             include_once( <span class="dox_stringliteral">"lib/ezi18n/classes/eztextcodec.php"</span> );
+00489             $codec =&amp; eZTextCodec::instance( $this-&gt;Charset );
+00490         }
+00491         foreach ( $lines as $line )
+00492         {
+00493             <span class="dox_keywordflow">if</span> ( preg_match( <span class="dox_stringliteral">"/^#.*/"</span>, $line, $regs ) )
+00494                 <span class="dox_keywordflow">continue</span>;
+00495             <span class="dox_keywordflow">if</span> ( preg_match( <span class="dox_stringliteral">"/^(.+)##.*/"</span>, $line, $regs ) )
+00496                 $line = $regs[1];
+00497             <span class="dox_keywordflow">if</span> ( trim( $line ) == '' )
+00498                 <span class="dox_keywordflow">continue</span>;
+00499             <span class="dox_comment">// check for new block</span>
+00500             <span class="dox_keywordflow">if</span> ( preg_match(<span class="dox_stringliteral">"#^\[(.+)\]\s*$#"</span>, $line, $newBlockNameArray ) )
+00501             {
+00502                 $newBlockName = trim( $newBlockNameArray[1] );
+00503                 $currentBlock = $newBlockName;
+00504                 <span class="dox_keywordflow">continue</span>;
+00505             }
+00506 
+00507             <span class="dox_comment">// check for variable</span>
+00508             <span class="dox_keywordflow">if</span> ( preg_match(<span class="dox_stringliteral">"#^(\w+)\\[\\]$#"</span>, $line, $valueArray ) )
+00509             {
+00510                 $varName = trim( $valueArray[1] );
+00511                 $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$currentBlock][$varName] = array();
+00512             }
+00513             <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( preg_match(<span class="dox_stringliteral">"#^([a-zA-Z0-9_-]+)(\\[([a-zA-Z0-9_-]*)\\])?=(.*)$#"</span>, $line, $valueArray ) )
+00514             {
+00515                 $varName = trim( $valueArray[1] );
+00516                 <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o5">UseTextCodec</a> )
+00517                 {
+00518                     <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'ini_conversion', <span class="dox_keyword">false</span>, 'INI string conversion' );
+00519                     $varValue = $codec-&gt;convertString( $valueArray[4] );
+00520                     <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'ini_conversion', <span class="dox_keyword">false</span>, 'INI string conversion' );
+00521                 }
+00522                 <span class="dox_keywordflow">else</span>
+00523                 {
+00524                     $varValue = $valueArray[4];
+00525                 }
+00526 <span class="dox_comment">//                 $varValue = $codec-&gt;toUnicode( $varValue );</span>
+00527 
+00528                 <span class="dox_keywordflow">if</span> ( $valueArray[2] )
+00529                 {
+00530                     <span class="dox_keywordflow">if</span> ( $valueArray[3] )
+00531                     {
+00532                         $keyName = $valueArray[3];
+00533                         <span class="dox_keywordflow">if</span> ( isset( $this-&gt;BlockValues[$currentBlock][$varName] ) and
+00534                              is_array( $this-&gt;BlockValues[$currentBlock][$varName] ) )
+00535                             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$currentBlock][$varName][$keyName] = $varValue;
+00536                         <span class="dox_keywordflow">else</span>
+00537                             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$currentBlock][$varName] = array( $keyName =&gt; $varValue );
+00538                     }
+00539                     <span class="dox_keywordflow">else</span>
+00540                     {
+00541                         <span class="dox_keywordflow">if</span> ( isset( $this-&gt;BlockValues[$currentBlock][$varName] ) and
+00542                              is_array( $this-&gt;BlockValues[$currentBlock][$varName] ) )
+00543                             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$currentBlock][$varName][] = $varValue;
+00544                         <span class="dox_keywordflow">else</span>
+00545                             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$currentBlock][$varName] = array( $varValue );
+00546                     }
+00547                 }
+00548                 <span class="dox_keywordflow">else</span>
+00549                 {
+00550                     $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$currentBlock][$varName] = $varValue;
+00551                 }
+00552             }
+00553         }
+00554 
+00555         <span class="dox_keywordflow">return</span> $ret;
+00556     }
+00557 
+<a name="l00561"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a5">00561</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a5">resetCache</a>()
+00562     {
+00563         <span class="dox_keywordflow">if</span> ( file_exists( $this-&gt;CacheFile ) )
+00564             unlink( $this-&gt;CacheFile );
+00565     }
+00566 
+00567 
+<a name="l00574"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a6">00574</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a6">save</a>( $fileName = <span class="dox_keyword">false</span>, $suffix = <span class="dox_keyword">false</span>, $useOverride = <span class="dox_keyword">false</span>,
+00575                     $onlyModified = <span class="dox_keyword">false</span> )
+00576     {
+00577         $lineSeparator = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZSys#d3">eZSys::lineSeparator</a>();
+00578         $pathArray = array();
+00579         <span class="dox_keywordflow">if</span> ( $fileName === <span class="dox_keyword">false</span> )
+00580             $fileName = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o3">FileName</a>;
+00581         $pathArray[] = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o4">RootDir</a>;
+00582         <span class="dox_keywordflow">if</span> ( $useOverride )
+00583         {
+00584 <span class="dox_comment">//             $overrideDirs = $this-&gt;overrideDirs();</span>
+00585             $pathArray[] = 'override';
+00586         }
+00587         <span class="dox_keywordflow">if</span> ( is_string( $useOverride ) and
+00588              $useOverride == <span class="dox_stringliteral">"append"</span> )
+00589             $fileName .= <span class="dox_stringliteral">".append"</span>;
+00590         <span class="dox_keywordflow">if</span> ( $suffix !== <span class="dox_keyword">false</span> )
+00591             $fileName .= $suffix;
+00592         $originalFileName = $fileName;
+00593         $backupFileName = $originalFileName . <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZSys#a2">eZSys::backupFilename</a>();
+00594         $fileName .= '.tmp';
+00595 
+00596         include_once( 'lib/ezutils/classes/ezdir.php' );
+00597         $filePath = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d4">eZDir::path</a>( array_merge( $pathArray, $fileName ) );
+00598         $originalFilePath = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d4">eZDir::path</a>( array_merge( $pathArray, $originalFileName ) );
+00599         $backupFilePath = <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDir#d4">eZDir::path</a>( array_merge( $pathArray, $backupFileName ) );
+00600 
+00601         $fp = @fopen( $filePath, <span class="dox_stringliteral">"w+"</span>);
+00602         <span class="dox_keywordflow">if</span> ( !$fp )
+00603         {
+00604             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Failed opening file '$filePath' for writing"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00605             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00606         }
+00607 
+00608         $writeOK = <span class="dox_keyword">true</span>;
+00609         $written = 0;
+00610         $written = fwrite( $fp, <span class="dox_stringliteral">"&lt;?php /* #?ini charset=\""</span> . $this-&gt;Charset . <span class="dox_stringliteral">"\"?$lineSeparator$lineSeparator"</span> );
+00611         <span class="dox_keywordflow">if</span> ( $written === <span class="dox_keyword">false</span> )
+00612             $writeOK = <span class="dox_keyword">false</span>;
+00613         $i = 0;
+00614         <span class="dox_keywordflow">if</span> ( $writeOK )
+00615         {
+00616             foreach( array_keys( $this-&gt;BlockValues ) as $blockName )
+00617             {
+00618                 <span class="dox_keywordflow">if</span> ( $onlyModified )
+00619                 {
+00620                     $groupHasModified = <span class="dox_keyword">false</span>;
+00621                     <span class="dox_keywordflow">if</span> ( isset( $this-&gt;ModifiedBlockValues[$blockName] ) )
+00622                     {
+00623                         foreach ( $this-&gt;ModifiedBlockValues[$blockName] as $modifiedValue )
+00624                         {
+00625                             <span class="dox_keywordflow">if</span> ( $modifiedValue )
+00626                                 $groupHasModified = <span class="dox_keyword">true</span>;
+00627                         }
+00628                     }
+00629                     <span class="dox_keywordflow">if</span> ( !$groupHasModified )
+00630                         <span class="dox_keywordflow">continue</span>;
+00631                 }
+00632                 $written = 0;
+00633                 <span class="dox_keywordflow">if</span> ( $i &gt; 0 )
+00634                     $written = fwrite( $fp, <span class="dox_stringliteral">"$lineSeparator"</span> );
+00635                 <span class="dox_keywordflow">if</span> ( $written === <span class="dox_keyword">false</span> )
+00636                 {
+00637                     $writeOK = <span class="dox_keyword">false</span>;
+00638                     <span class="dox_keywordflow">break</span>;
+00639                 }
+00640                 $written = fwrite( $fp, <span class="dox_stringliteral">"[$blockName]$lineSeparator"</span> );
+00641                 <span class="dox_keywordflow">if</span> ( $written === <span class="dox_keyword">false</span> )
+00642                 {
+00643                     $writeOK = <span class="dox_keyword">false</span>;
+00644                     <span class="dox_keywordflow">break</span>;
+00645                 }
+00646                 foreach( array_keys( $this-&gt;BlockValues[$blockName] ) as $blockVariable )
+00647                 {
+00648                     <span class="dox_keywordflow">if</span> ( $onlyModified )
+00649                     {
+00650                         <span class="dox_keywordflow">if</span> ( !isset( $this-&gt;ModifiedBlockValues[$blockName][$blockVariable] ) or
+00651                              !$this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o2">ModifiedBlockValues</a>[$blockName][$blockVariable] )
+00652                             <span class="dox_keywordflow">continue</span>;
+00653                     }
+00654                     $varKey = $blockVariable;
+00655                     $varValue = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$blockName][$blockVariable];
+00656                     <span class="dox_keywordflow">if</span> ( is_array( $varValue ) )
+00657                     {
+00658                         <span class="dox_keywordflow">if</span> ( count( $varValue ) &gt; 0 )
+00659                         {
+00660                             foreach ( $varValue as $varArrayKey =&gt; $varArrayValue )
+00661                             {
+00662                                 <span class="dox_keywordflow">if</span> ( is_string( $varArrayKey ) )
+00663                                     $written = fwrite( $fp, <span class="dox_stringliteral">"$varKey"</span> . <span class="dox_stringliteral">"[$varArrayKey]=$varArrayValue$lineSeparator"</span> );
+00664                                 <span class="dox_keywordflow">else</span>
+00665                                     $written = fwrite( $fp, <span class="dox_stringliteral">"$varKey"</span> . <span class="dox_stringliteral">"[]=$varArrayValue$lineSeparator"</span> );
+00666                                 <span class="dox_keywordflow">if</span> ( $written === <span class="dox_keyword">false</span> )
+00667                                     <span class="dox_keywordflow">break</span>;
+00668                             }
+00669                         }
+00670                         <span class="dox_keywordflow">else</span>
+00671                             $written = fwrite( $fp, <span class="dox_stringliteral">"$varKey"</span> . <span class="dox_stringliteral">"[]$lineSeparator"</span> );
+00672                     }
+00673                     <span class="dox_keywordflow">else</span>
+00674                     {
+00675                         $written = fwrite( $fp, <span class="dox_stringliteral">"$varKey=$varValue$lineSeparator"</span> );
+00676                     }
+00677                     <span class="dox_keywordflow">if</span> ( $written === <span class="dox_keyword">false</span> )
+00678                     {
+00679                         $writeOK = <span class="dox_keyword">false</span>;
+00680                         <span class="dox_keywordflow">break</span>;
+00681                     }
+00682                 }
+00683                 <span class="dox_keywordflow">if</span> ( !$writeOK )
+00684                     <span class="dox_keywordflow">break</span>;
+00685                 ++$i;
+00686             }
+00687         }
+00688         <span class="dox_keywordflow">if</span> ( $writeOK )
+00689         {
+00690             $written = fwrite( $fp, <span class="dox_stringliteral">"*/ ?&gt;"</span> );
+00691             <span class="dox_keywordflow">if</span> ( $written === <span class="dox_keyword">false</span> )
+00692                 $writeOK = <span class="dox_keyword">false</span>;
+00693         }
+00694         @fclose( $fp );
+00695         <span class="dox_keywordflow">if</span> ( !$writeOK )
+00696         {
+00697             unlink( $filePath );
+00698             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00699         }
+00700 
+00701         <span class="dox_keywordflow">if</span> ( file_exists( $backupFileName ) )
+00702             unlink( $backupFileName );
+00703         <span class="dox_keywordflow">if</span> ( file_exists( $originalFilePath ) )
+00704         {
+00705             <span class="dox_keywordflow">if</span> ( !rename( $originalFilePath, $backupFilePath ) )
+00706                 <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00707         }
+00708         <span class="dox_keywordflow">if</span> ( !rename( $filePath, $originalFilePath ) )
+00709         {
+00710             rename( $backupFilePath, $originalFilePath );
+00711             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00712         }
+00713 
+00714         <span class="dox_keywordflow">return</span> <span class="dox_keyword">true</span>;
+00715     }
+00716 
+<a name="l00720"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">00720</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a7">reset</a>()
+00721     {
+00722         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a> = array();
+00723         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o2">ModifiedBlockValues</a> = array();
+00724     }
+00725 
+<a name="l00731"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">00731</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a>()
+00732     {
+00733         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o4">RootDir</a>;
+00734     }
+00735 
+<a name="l00741"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a9">00741</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a9">overrideDirs</a>()
+00742     {
+00743         $dirs =&amp; $GLOBALS[<span class="dox_stringliteral">"eZINIOverrideDirList"</span>];
+00744         <span class="dox_keywordflow">if</span> ( !isset( $dirs ) or !is_array( $dirs ) )
+00745             $dirs = array( array( <span class="dox_stringliteral">"override"</span>, <span class="dox_keyword">false</span> ) );
+00746         <span class="dox_keywordflow">return</span> $dirs;
+00747     }
+00748 
+<a name="l00752"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a10">00752</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a10">prependOverrideDir</a>( $dir, $globalDir = <span class="dox_keyword">false</span> )
+00753     {
+00754         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d2">eZINI::isDebugEnabled</a>() )
+00755             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"Changing override dir to '$dir'"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00756         $dirs =&amp; $GLOBALS[<span class="dox_stringliteral">"eZINIOverrideDirList"</span>];
+00757         <span class="dox_keywordflow">if</span> ( !isset( $dirs ) or !is_array( $dirs ) )
+00758             $dirs = array( array( 'override', <span class="dox_keyword">false</span> ) );
+00759         $dirs = array_merge( array( array( $dir, $globalDir ) ), $dirs );
+00760         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o6">CacheFile</a> = <span class="dox_keyword">false</span>;
+00761      }
+00762 
+<a name="l00766"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a11">00766</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a11">appendOverrideDir</a>( $dir, $globalDir = <span class="dox_keyword">false</span> )
+00767     {
+00768         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d2">eZINI::isDebugEnabled</a>() )
+00769             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"Changing override dir to '$dir'"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00770         $dirs =&amp; $GLOBALS[<span class="dox_stringliteral">"eZINIOverrideDirList"</span>];
+00771         <span class="dox_keywordflow">if</span> ( !isset( $dirs ) or !is_array( $dirs ) )
+00772             $dirs = array( 'override' );
+00773         $dirs[] = array( $dir, $globalDir );
+00774         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o6">CacheFile</a> = <span class="dox_keyword">false</span>;
+00775     }
+00776 
+<a name="l00781"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a12">00781</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a12">assign</a>( $blockName, $varName, &amp;$<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a13">variable</a> )
+00782     {
+00783         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a14">hasVariable</a>( $blockName, $varName ) )
+00784             $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a13">variable</a> = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a13">variable</a>( $blockName, $varName );
+00785         <span class="dox_keywordflow">else</span>
+00786             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00787         <span class="dox_keywordflow">return</span> <span class="dox_keyword">true</span>;
+00788     }
+00789 
+<a name="l00794"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a13">00794</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a13">variable</a>( $blockName, $varName )
+00795     {
+00796         $ret = <span class="dox_keyword">false</span>;
+00797         <span class="dox_keywordflow">if</span> ( !isset( $this-&gt;BlockValues[$blockName] ) )
+00798             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Undefined group: '$blockName'"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00799         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( isset( $this-&gt;BlockValues[$blockName][$varName] ) )
+00800             $ret = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$blockName][$varName];
+00801         <span class="dox_keywordflow">else</span>
+00802             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Undefined variable: '$varName' in group '$blockName'"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00803 
+00804         <span class="dox_keywordflow">return</span> $ret;
+00805     }
+00806 
+<a name="l00810"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a14">00810</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a14">hasVariable</a>( $blockName, $varName )
+00811     {
+00812         <span class="dox_keywordflow">return</span> isSet( $this-&gt;BlockValues[$blockName][$varName] );
+00813     }
+00814 
+<a name="l00818"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a15">00818</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a15">isVariableModified</a>( $blockName, $varName )
+00819     {
+00820         <span class="dox_keywordflow">return</span> ( isset( $this-&gt;ModifiedBlockValues[$blockName][$varName] ) and
+00821                  $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o2">ModifiedBlockValues</a>[$blockName][$varName] );
+00822     }
+00823 
+<a name="l00828"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a16">00828</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a16">variableArray</a>( $blockName, $varName )
+00829     {
+00830         $ret = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a13">variable</a>( $blockName, $varName );
+00831         <span class="dox_keywordflow">if</span> ( is_array( $ret ) )
+00832         {
+00833             $arr = array();
+00834             foreach ( $ret as $retItem )
+00835             {
+00836                 $arr[] = explode( <span class="dox_stringliteral">";"</span>, $retItem );
+00837             }
+00838             $ret = $arr;
+00839         }
+00840         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $ret !== <span class="dox_keyword">false</span> )
+00841             $ret = explode( <span class="dox_stringliteral">";"</span>, $ret );
+00842 
+00843         <span class="dox_keywordflow">return</span> $ret;
+00844     }
+00845 
+<a name="l00849"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a17">00849</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a17">hasGroup</a>( $blockName )
+00850     {
+00851         <span class="dox_keywordflow">return</span> isSet( $this-&gt;BlockValues[$blockName] );
+00852     }
+00853 
+<a name="l00857"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a18">00857</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a18">group</a>( $blockName )
+00858     {
+00859         <span class="dox_keywordflow">if</span> ( !isset( $this-&gt;BlockValues[$blockName] ) )
+00860         {
+00861             <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Unknown group: '$origBlockName'"</span>, <span class="dox_stringliteral">"eZINI"</span> );
+00862             <span class="dox_keywordflow">return</span> null;
+00863         }
+00864         $ret = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$blockName];
+00865 
+00866         <span class="dox_keywordflow">return</span> $ret;
+00867     }
+00868 
+<a name="l00872"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a19">00872</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a19">setVariable</a>( $blockName, $varName, $varValue )
+00873     {
+00874         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>[$blockName][$varName] = $varValue;
+00875         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o2">ModifiedBlockValues</a>[$blockName][$varName] = <span class="dox_keyword">true</span>;
+00876     }
+00877 
+<a name="l00881"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a20">00881</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a20">getNamedArray</a>()
+00882     {
+00883         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>;
+00884     }
+00885 
+<a name="l00890"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d7">00890</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d7">isLoaded</a>( $fileName = <span class="dox_stringliteral">"site.ini"</span>, $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> = <span class="dox_stringliteral">"settings"</span> )
+00891     {
+00892         $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d7">isLoaded</a> =&amp; $GLOBALS[<span class="dox_stringliteral">"eZINIGlobalIsLoaded-$rootDir-$fileName"</span>];
+00893         <span class="dox_keywordflow">if</span> ( !isset( $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d7">isLoaded</a> ) )
+00894             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
+00895         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d7">isLoaded</a>;
+00896     }
+00897 
+<a name="l00902"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d8">00902</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d8">instance</a>( $fileName = <span class="dox_stringliteral">"site.ini"</span>, $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a8">rootDir</a> = <span class="dox_stringliteral">"settings"</span>, $useTextCodec = null, $useCache = null )
+00903     {
+00904         $impl =&amp; $GLOBALS[<span class="dox_stringliteral">"eZINIGlobalInstance-$rootDir-$fileName"</span>];
+00905         $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#d7">isLoaded</a> =&amp; $GLOBALS[<span class="dox_stringliteral">"eZINIGlobalIsLoaded-$rootDir-$fileName"</span>];
+00906 
+00907         $<span class="dox_keyword">class </span>=&amp; get_class( $impl );
+00908         <span class="dox_keywordflow">if</span> ( $<span class="dox_keyword">class </span>!= "ezini" )
+00909         {
+00910             $isLoaded = <span class="dox_keyword">false</span>;
+00911 
+00912             $impl = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#a0">eZINI</a>( $fileName, $rootDir, $useTextCodec, $useCache );
+00913 
+00914             $isLoaded = <span class="dox_keyword">true</span>;
+00915         }
+00916         <span class="dox_keywordflow">return</span> $impl;
+00917     }
+00918 
+<a name="l00921"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o0">00921</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o0">Charset</a>;
+00922 
+<a name="l00924"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">00924</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o1">BlockValues</a>;
+00925 
+<a name="l00927"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o2">00927</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o2">ModifiedBlockValues</a>;
+00928 
+<a name="l00930"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o3">00930</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o3">FileName</a>;
+00931 
+<a name="l00933"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o4">00933</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o4">RootDir</a>;
+00934 
+<a name="l00936"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o5">00936</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o5">UseTextCodec</a>;
+00937 
+<a name="l00939"></a><a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o6">00939</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817124546/http://ez.no/sdk/ref/view/class/eZINI#o6">CacheFile</a>;
+00940 }
+00941 
+00942 ?&gt;
+</pre></div>&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817124546/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817124546/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:45:46 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:20:54 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.507
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 6.756
+  LoadShardBlock: 176.402 (3)
+  PetaboxLoader3.datanode: 102.968 (4)
+  PetaboxLoader3.resolve: 110.11 (2)
+  load_resource: 75.451
+-->

@@ -1,0 +1,1710 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZDebug","20030817122800","http://web.archive.org/","web","/_static/",
+	      "1061123280");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030817122800cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817122800cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030817122800cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030817122800im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030817122800/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030817122800/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030817122800im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030817122800/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030817122800im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122800/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030817122800im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122800/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030817122800im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122800/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030817122800im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122800/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030817122800im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122800/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030817122800im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122800/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030817122800im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030817122800/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZDebug Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/module/eZUtils">Utility classes</a>]</small>
+</h1>Advanced debug/log system. 
+<a href="#_details">More...</a>
+<p>
+<a href="/web/20030817122800/http://ez.no/sdk/ref/view/members/eZDebug">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a0">eZDebug</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a2">messageName</a> ($messageType)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a3">instance</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a4">setHandleType</a> ($type)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a5">errorHandler</a> ($errno,$errstr,$errfile,$errline)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a6">setUseExternalCSS</a> ($use)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a7">setMessageOutput</a> ($output)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a9">addTimingPoint</a> ($description="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a10">write</a> ($string,$verbosityLevel=EZ_LEVEL_NOTICE,$label="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a11">isLogFileEnabled</a> ($type)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a12">messageTypes</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a13">logFiles</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a14">setScriptStart</a> ($mtime=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a15">createAccumulatorGroup</a> ($key,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a16">createAccumulator</a> ($key,$inGroup=false,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a17">accumulatorStart</a> ($key,$inGroup=false,$name=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a18">accumulatorStop</a> ($key)</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d0">showMessage</a> ($type)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d1">showTypes</a> ($types=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d2">writeNotice</a> ($string,$label="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d3">writeWarning</a> ($string,$label="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d4">writeError</a> ($string,$label="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d5">writeDebug</a> ($string,$label="")</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d6">maxLogSize</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d7">setMaxLogSize</a> ($size)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d8">maxLogrotateFiles</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d9">setLogrotateFiles</a> ($files)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d10">rotateLog</a> ($fileName)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d11">setLogFileEnabled</a> ($enabled,$types=false)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d12">isDebugEnabled</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d13">updateSettings</a> ($settings)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d14">printReport</a> ($newWindow=false,$as_html=true,$returnReport=false)</td></tr>
+<tr><td colspan="2"><br><h2>Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#c0">writeFile</a> (&amp;$logFileData,&amp;$string,$verbosityLevel)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#c1">timeToFloat</a> ($mtime)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#c2">printReportInternal</a> ($as_html=true)</td></tr>
+<tr><td colspan="2"><br><h2>Static Private Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#f0">dumpVariable</a> ($var)</td></tr>
+<tr><td colspan="2"><br><h2>Private Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o0">DebugStrings</a> = array()</td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o1" doxytag="eZDebug::TimePoints"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o1">TimePoints</a> = array()</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Array which contains the time points.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o2" doxytag="eZDebug::TmpTimePoints"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o2">TmpTimePoints</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Array which contains the temporary time points.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o3" doxytag="eZDebug::TimeAccumulatorList"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o3">TimeAccumulatorList</a> = array()</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Array wich contains time accumulators.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o4" doxytag="eZDebug::ShowTypes"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o4">ShowTypes</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Determines which debug messages should be shown.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o5" doxytag="eZDebug::HandleType"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o5">HandleType</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Determines what to do with php errors, ignore, fetch or output.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o6" doxytag="eZDebug::OutputFormat"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o6">OutputFormat</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>An array of the outputformats for the different debug levels.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o7" doxytag="eZDebug::LogFiles"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o7">LogFiles</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>An array of logfiles used by the debug class with each key being the debug level.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o8" doxytag="eZDebug::TimingAccuracy"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o8">TimingAccuracy</a> = 4</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>How many places behing . should be displayed when showing times.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o9" doxytag="eZDebug::PercentAccuracy"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o9">PercentAccuracy</a> = 4</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>How many places behing . should be displayed when showing percentages.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o10" doxytag="eZDebug::UseCSS"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o10">UseCSS</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Whether to use external CSS or output own CSS. True if external is to be used.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o11" doxytag="eZDebug::MessageOutput"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o11">MessageOutput</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Determines how messages are output (screen/log).</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o12" doxytag="eZDebug::MessageTypes"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o12">MessageTypes</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>A list of message types.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o13" doxytag="eZDebug::LogFileEnabled"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o13">LogFileEnabled</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>A map with message types and whether they should do file logging.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o14" doxytag="eZDebug::ScriptStart"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o14">ScriptStart</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The time when the script was started.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="o15" doxytag="eZDebug::OverrideList"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#o15">OverrideList</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>A list of override directories.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Advanced debug/log system.
+<p>
+The eZ debug library is used to handle debug information. It can display information on screen and/or write it to log files.
+<p>
+You can enable on-screen debug information for specific IP addresses.
+<p>
+Timing points can be placed in the code to time the different sections of code.
+<p>
+Each debug message can be turned on/off by using the <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d1">showTypes()</a> function.
+<p>
+PHP error messages can also be shown using <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a4">setHandleType()</a>.
+<p>
+<div class="dox_fragment"><pre>  include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezdebug.php"</span> );
+
+  <span class="dox_comment">// write a temporary debug message</span>
+  <a class="dox_code" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( <span class="dox_stringliteral">"Test"</span> );
+
+  <span class="dox_comment">// write a notice</span>
+  <a class="dox_code" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"Image found"</span> );
+
+  <span class="dox_comment">// write a warning</span>
+  <a class="dox_code" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d3">eZDebug::writeWarning</a>( <span class="dox_stringliteral">"Image not found, using default"</span> );
+
+  <span class="dox_comment">// write an error</span>
+  <a class="dox_code" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Object not found, bailing.."</span> );
+
+  <span class="dox_comment">// add a timing points</span>
+  <a class="dox_code" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a9">eZDebug::addTimingPoint</a>( <span class="dox_stringliteral">"Module Found"</span> );
+
+  <span class="dox_comment">//.... code</span>
+
+  <a class="dox_code" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#a9">eZDebug::addTimingPoint</a>( <span class="dox_stringliteral">"Module loading"</span> );
+
+  <span class="dox_comment">// print the results on screen.</span>
+  <a class="dox_code" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d14">eZDebug::printReport</a>();
+</pre></div> 
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00108">108</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZDebug::eZDebug"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::eZDebug </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new debug object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00113">113</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01259">HandleType</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01283">LogFileEnabled</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01265">LogFiles</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01277">MessageOutput</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01280">MessageTypes</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01262">OutputFormat</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01289">OverrideList</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01286">ScriptStart</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01256">ShowTypes</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01253">TimeAccumulatorList</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00839">timeToFloat()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01250">TmpTimePoints</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01274">UseCSS</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a17" doxytag="eZDebug::accumulatorStart"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::accumulatorStart </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>key</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>inGroup</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Starts an time count for the accumulator <em>$key</em>. You can also specify a name which will be displayed. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00912">912</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00929">accumulatorStop()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00250">eZMySQLDB::arrayQuery()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplate#l00405">eZTemplate::fetch()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00161">eZTemplateFileResource::handleResourceData()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatemultipassparser#l00066">eZTemplateMultiPassParser::parse()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00451">eZINI::parseFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">eZPostgreSQLDB::query()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00169">eZMySQLDB::query()</a>.    </td>
+  </tr>
+</table>
+<a name="a18" doxytag="eZDebug::accumulatorStop"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::accumulatorStop </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>key</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Stops a previous time count and adds the total time to the accumulator <em>$key</em>. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00929">929</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00912">accumulatorStart()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00929">accumulatorStop()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00351">writeWarning()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00929">accumulatorStop()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00250">eZMySQLDB::arrayQuery()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplate#l00405">eZTemplate::fetch()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00161">eZTemplateFileResource::handleResourceData()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatemultipassparser#l00066">eZTemplateMultiPassParser::parse()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00451">eZINI::parseFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">eZPostgreSQLDB::query()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00169">eZMySQLDB::query()</a>.    </td>
+  </tr>
+</table>
+<a name="a9" doxytag="eZDebug::addTimingPoint"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::addTimingPoint </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>description</em> = ""          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Adds a new timing point for the benchmark report. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00469">469</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00206">showMessage()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00168">eZDebugSetting::addTimingPoint()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplate#l00405">eZTemplate::fetch()</a>.    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="eZDebug::createAccumulator"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::createAccumulator </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>key</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>inGroup</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new accumulator entry if one does not already exist and initializes with default data. If <em>$name</em> is not supplied name is taken from <em>$key</em>. If <em>$inGroup</em> is supplied it will place the accumulator under the specified group. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00884">884</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>.    </td>
+  </tr>
+</table>
+<a name="a15" doxytag="eZDebug::createAccumulatorGroup"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::createAccumulatorGroup </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>key</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>name</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates an accumulator group with key <em>$key</em> and group name <em>$name</em>. If <em>$name</em> is not supplied name is taken from <em>$key</em>. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00865">865</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00046">eZMySQLDB::eZMySQLDB()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplate#l00300">eZTemplate::eZTemplate()</a>.    </td>
+  </tr>
+</table>
+<a name="f0" doxytag="eZDebug::dumpVariable"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDebug::dumpVariable </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>var</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static, private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Dumps the variables contents using the dump_var function 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00412">412</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00391">writeDebug()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00371">writeError()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00331">writeNotice()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00351">writeWarning()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZDebug::errorHandler"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::errorHandler </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>errno</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>errstr</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>errfile</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>errline</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Handles PHP errors, creates notice, warning and error messages for the various PHP error types. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00275">275</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00371">writeError()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00331">writeNotice()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00351">writeWarning()</a>.    </td>
+  </tr>
+</table>
+<a name="a3" doxytag="eZDebug::instance"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDebug::instance </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Will return the current eZDebug object. If no object exists one will be created. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">190</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00113">eZDebug()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00912">accumulatorStart()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00929">accumulatorStop()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00469">addTimingPoint()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00884">createAccumulator()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00865">createAccumulatorGroup()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00178">messageName()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00784">printReport()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00218">setHandleType()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00701">setLogFileEnabled()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00448">setMessageOutput()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00852">setScriptStart()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00436">setUseExternalCSS()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00206">showMessage()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00259">showTypes()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00391">writeDebug()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00371">writeError()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00331">writeNotice()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00351">writeWarning()</a>.    </td>
+  </tr>
+</table>
+<a name="d12" doxytag="eZDebug::isDebugEnabled"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::isDebugEnabled </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if debug should be enabled. </dl><dl compact><dt><b>Note: </b></dt><dd>
+Will return false until the real settings has been updated with <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d13">updateSettings()</a> </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">746</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00912">accumulatorStart()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00929">accumulatorStop()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00469">addTimingPoint()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00884">createAccumulator()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00865">createAccumulatorGroup()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00275">errorHandler()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00784">printReport()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00502">write()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00391">writeDebug()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00371">writeError()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00331">writeNotice()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00351">writeWarning()</a>.    </td>
+  </tr>
+</table>
+<a name="a11" doxytag="eZDebug::isLogFileEnabled"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::isLogFileEnabled </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>type</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the message type <em>$type</em> has logging to file enabled. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00719">719</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01283">LogFileEnabled</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00502">write()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="a13" doxytag="eZDebug::logFiles"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDebug::logFiles </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns an associative array of all the log files used by this class where each key is the debug level (EZ_LEVEL_NOTICE, EZ_LEVEL_WARNING or EZ_LEVEL_ERROR or EZ_LEVEL_DEBUG). 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00736">736</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01265">LogFiles</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00502">write()</a>.    </td>
+  </tr>
+</table>
+<a name="d8" doxytag="eZDebug::maxLogrotateFiles"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::maxLogrotateFiles </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the maxium number of logrotate files to keep. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00586">586</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00586">maxLogrotateFiles()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00586">maxLogrotateFiles()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00610">rotateLog()</a>.    </td>
+  </tr>
+</table>
+<a name="d6" doxytag="eZDebug::maxLogSize"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::maxLogSize </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the maxium size for a log file in bytes. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00565">565</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00565">maxLogSize()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00565">maxLogSize()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZDebug::messageName"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::messageName </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>messageType</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the name of the message type. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00178">178</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00087">eZDebugSetting::isConditionTrue()</a>.    </td>
+  </tr>
+</table>
+<a name="a12" doxytag="eZDebug::messageTypes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::messageTypes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with the available message types. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00727">727</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01280">MessageTypes</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00701">setLogFileEnabled()</a>.    </td>
+  </tr>
+</table>
+<a name="d14" doxytag="eZDebug::printReport"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDebug::printReport </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>newWindow</em> = false, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>as_html</em> = true, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>returnReport</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Prints the debug report 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00784">784</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdir#l00248">eZDir::path()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsys#l00192">eZSys::varDirectory()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsys#l00243">eZSys::wwwDir()</a>.    </td>
+  </tr>
+</table>
+<a name="c2" doxytag="eZDebug::printReportInternal"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDebug::printReportInternal </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>as_html</em> = true          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Prints a full debug report with notice, warnings, errors and a timing report. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00951">951</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01262">OutputFormat</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01286">ScriptStart</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01253">TimeAccumulatorList</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01247">TimePoints</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00839">timeToFloat()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01274">UseCSS</a>.    </td>
+  </tr>
+</table>
+<a name="d10" doxytag="eZDebug::rotateLog"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::rotateLog </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>fileName</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Rotates logfiles so the current logfile is backed up, old rotate logfiles are rotated once more and those that exceed <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/class/eZDebug#d8">maxLogrotateFiles()</a> will be removed. Rotated files will get the extension .1, .2 etc. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00610">610</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00586">maxLogrotateFiles()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZDebug::setHandleType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::setHandleType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>type</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Determines how PHP errors are handled. If $type is EZ_HANDLE_TO_PHP all error messages is sent to PHP using trigger_error(), if $type is EZ_HANDLE_FROM_PHP all error messages from PHP is fetched using a custom error handler and output as a usual eZDebug message. If $type is EZ_HANDLE_NONE there is no error exchange between PHP and eZDebug. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00218">218</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01259">HandleType</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00763">updateSettings()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="d11" doxytag="eZDebug::setLogFileEnabled"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::setLogFileEnabled </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>enabled</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>types</em> = false</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Enables or disables logging to file for a given message type. If <em>$types</em> is not supplied it will do the operation for all types. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00701">701</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01283">LogFileEnabled</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00727">messageTypes()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="d9" doxytag="eZDebug::setLogrotateFiles"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::setLogrotateFiles </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>files</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the maxium number of logrotate files to keep to <em>$files</em>. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00598">598</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.    </td>
+  </tr>
+</table>
+<a name="d7" doxytag="eZDebug::setMaxLogSize"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::setMaxLogSize </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>size</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the maxium size for a log file to <em>$size</em>. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00577">577</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.    </td>
+  </tr>
+</table>
+<a name="a7" doxytag="eZDebug::setMessageOutput"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::setMessageOutput </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>output</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Determines the way messages are output, the <em>$output</em> parameter is EZ_OUTPUT_MESSAGE_SCREEN and EZ_OUTPUT_MESSAGE_STORE ored together. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00448">448</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01277">MessageOutput</a>.    </td>
+  </tr>
+</table>
+<a name="a14" doxytag="eZDebug::setScriptStart"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::setScriptStart </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>mtime</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the time of the start of the script ot <em>$mtime</em>. If <em>$mtime</em> is not supplied it gets the current <code>microtime()</code>. This is used to calculate total execution time and percentages. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00852">852</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00839">timeToFloat()</a>.    </td>
+  </tr>
+</table>
+<a name="a6" doxytag="eZDebug::setUseExternalCSS"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::setUseExternalCSS </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>use</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Enables/disables the use of external CSS. If false a &lt;style&gt; tag is output before the debug list. Default is to use internal css. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00436">436</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01274">UseCSS</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZDebug::showMessage"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::showMessage </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>type</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns true if the message type $type can be shown. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00206">206</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00469">addTimingPoint()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00391">writeDebug()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00371">writeError()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00331">writeNotice()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00351">writeWarning()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZDebug::showTypes"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::showTypes </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>types</em> = false          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets types to be shown to $types and returns the old show types. If $types is not supplied the current value is returned and no change is done. $types is one or more of EZ_SHOW_NOTICE, EZ_SHOW_WARNING, EZ_SHOW_ERROR, EZ_SHOW_TIMING_POINT or'ed together. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00259">259</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01256">ShowTypes</a>.    </td>
+  </tr>
+</table>
+<a name="c1" doxytag="eZDebug::timeToFloat"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZDebug::timeToFloat </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>mtime</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the microtime as a float value. $mtime must be in microtime() format. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00839">839</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00113">eZDebug()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00951">printReportInternal()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00852">setScriptStart()</a>.    </td>
+  </tr>
+</table>
+<a name="d13" doxytag="eZDebug::updateSettings"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::updateSettings </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>settings</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Updates the settings for debug handling with the settings array <em>$settings</em>. The array must contain the following keys.<ul>
+<li>debug-enabled - boolean which controls debug handling<li>debug-by-ip - boolean which controls IP controlled debugging<li>debug-ip-list - array of IPs which gets debug </ul>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00763">763</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsys#l00332">eZSys::serverVariable()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00218">setHandleType()</a>.    </td>
+  </tr>
+</table>
+<a name="a10" doxytag="eZDebug::write"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::write </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>string</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>verbosityLevel</em> = EZ_LEVEL_NOTICE, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>label</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Writes a debug log message. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00502">502</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01244">DebugStrings</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00719">isLogFileEnabled()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00736">logFiles()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01277">MessageOutput</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsys#l00332">eZSys::serverVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01250">TmpTimePoints</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="d5" doxytag="eZDebug::writeDebug"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::writeDebug </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>string</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>label</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Writes a debug message. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00391">391</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00412">dumpVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00206">showMessage()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezcollaborationitemmessagelink#l00178">eZCollaborationItemMessageLink::attribute()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezoption#l00147">eZOption::decodeXML()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00110">eZTemplateFileResource::generateProcessCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00728">eZTemplateElementParser::identifierEndPosition()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00766">eZTemplateElementParser::numericEndPos()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00078">eZTemplateElementParser::parseVariableTag()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00384">eZTemplateElementParser::parseVariableTag2()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezcontentobjectversion#l00776">eZContentObjectVersion::serialize()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezhttpfile#l00087">eZHTTPFile::store()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">eZTemplateElementParser::variableEndPos()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00157">eZDebugSetting::writeDebug()</a>.    </td>
+  </tr>
+</table>
+<a name="d4" doxytag="eZDebug::writeError"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::writeError </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>string</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>label</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Writes a debug error. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00371">371</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00412">dumpVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00206">showMessage()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageinterface#l00691">eZImageInterface::allocateColor()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezxmloutputhandler#l00090">eZXMLOutputHandler::attribute()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezxmlinputhandler#l00093">eZXMLInputHandler::attribute()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00841">eZPersistentObject::attribute()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageinterface#l00710">eZImageInterface::color()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00100">eZMySQLDB::connect()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimagetextlayer#l00162">eZImageTextLayer::createForText()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00107">eZSOAPResponse::decodeDataTypes()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00056">eZSOAPResponse::decodeStream()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezxml#l00068">eZXML::domTree()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsys#l00366">eZSys::environmentVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplate#l01752">eZTemplate::error()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00275">errorHandler()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdb#l00110">eZDB::eZDB()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezlocale#l00146">eZLocale::eZLocale()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmbstringmapper#l00060">eZMBStringMapper::eZMBStringMapper()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezoracledb#l00054">eZOracleDB::eZOracleDB()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00047">eZPostgreSQLDB::eZPostgreSQLDB()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezhttpfile#l00221">eZHTTPFile::fetch()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimagetype#l00189">eZImageType::fetchObjectAttributeHTTPInput()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00252">eZBinaryFileType::fetchObjectAttributeHTTPInput()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00857">eZINI::group()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdb#l00136">eZDB::instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00438">eZPostgreSQLDB::lastSerialID()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageinterface#l00278">eZImageInterface::load()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezcodepage#l00278">eZCodePage::load()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00273">eZINI::loadCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezxml#l00370">eZXML::parseAttributes()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00451">eZINI::parseFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsoaprequest#l00093">eZSOAPRequest::payload()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00123">eZPostgreSQLDB::query()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezoracledb#l00106">eZOracleDB::query()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00169">eZMySQLDB::query()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmodule#l00249">eZModule::redirect()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmodule#l00284">eZModule::redirectionURI()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztranslatorgroup#l00161">eZTranslatorGroup::registerHandler()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00323">eZPostgreSQLDB::relationCount()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00390">eZMySQLDB::relationCount()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00345">eZPostgreSQLDB::relationList()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00410">eZMySQLDB::relationList()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpostgresqldb#l00367">eZPostgreSQLDB::removeRelation()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmysqldb#l00434">eZMySQLDB::removeRelation()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmodule#l00812">eZModule::run()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageshell#l00290">eZImageShell::run()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmodule#l00704">eZModule::runHooks()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00574">eZINI::save()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00369">eZINI::saveCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmailtransport#l00074">eZMailTransport::send()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsmtptransport#l00060">eZSMTPTransport::sendMail()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmailtransport#l00060">eZMailTransport::sendMail()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsys#l00332">eZSys::serverVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezpersistentobject#l00880">eZPersistentObject::setAttribute()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageinterface#l00407">eZImageInterface::store()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezhttpfile#l00087">eZHTTPFile::store()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00110">eZExpiryHandler::timestamp()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00794">eZINI::variable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">eZTemplateElementParser::variableEndPos()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00146">eZDebugSetting::writeError()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="c0" doxytag="eZDebug::writeFile"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::writeFile </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>logFileData</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>string</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>verbosityLevel</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [private]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Writes the log message $string to the file $fileName. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">645</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00719">isLogFileEnabled()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00565">maxLogSize()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdir#l00093">eZDir::mkdir()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00610">rotateLog()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsys#l00332">eZSys::serverVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00218">setHandleType()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00701">setLogFileEnabled()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00371">writeError()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00502">write()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00645">writeFile()</a>.    </td>
+  </tr>
+</table>
+<a name="d2" doxytag="eZDebug::writeNotice"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::writeNotice </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>string</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>label</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Writes a debug notice. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00331">331</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00412">dumpVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00206">showMessage()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00766">eZINI::appendOverrideDir()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezlocale#l01167">eZLocale::countryFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00275">errorHandler()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimagetype#l00189">eZImageType::fetchObjectAttributeHTTPInput()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatefileresource#l00161">eZTemplateFileResource::handleResourceData()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsys#l00475">eZSys::init()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezlocale#l01193">eZLocale::languageFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00273">eZINI::loadCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezlocale#l01138">eZLocale::localeFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00451">eZINI::parseFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00752">eZINI::prependOverrideDir()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdbinterface#l00123">eZDBInterface::reportQuery()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplate#l00663">eZTemplate::resourceFor()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezini#l00369">eZINI::saveCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsoapclient#l00089">eZSOAPClient::send()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezintegertype#l00204">eZIntegerType::validateClassAttributeHTTPInput()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00124">eZDebugSetting::writeNotice()</a>.    </td>
+  </tr>
+</table>
+<a name="d3" doxytag="eZDebug::writeWarning"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::writeWarning </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>string</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>label</em> = ""</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Writes a debug warning. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00351">351</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00412">dumpVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00190">instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00746">isDebugEnabled()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00206">showMessage()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00929">accumulatorStop()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageobject#l00193">eZImageObject::appendLayer()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageinterface#l00125">eZImageInterface::attribute()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimagegd#l00146">eZImageGD::convert()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageinterface#l00480">eZImageInterface::createImage()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmodule#l00488">eZModule::currentAction()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezbinaryfilehandler#l00160">eZBinaryFileHandler::downloadURL()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageinterface#l00742">eZImageInterface::drawText()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00275">errorHandler()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageobject#l00278">eZImageObject::flatten()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezhttptool#l00118">eZHTTPTool::getVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezuser#l00468">eZUser::instance()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00326">eZCollaborationItemHandler::instantiate()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezcodepage#l00278">eZCodePage::load()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00108">eZTemplateImageOperator::modify()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00496">eZTemplateElementParser::parseOperators()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateoldelementparser#l00583">eZTemplateElementParser::parseVariableAndAttributes()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezhttptool#l00082">eZHTTPTool::postVariable()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageobject#l00215">eZImageObject::prependLayer()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageinterface#l00376">eZImageInterface::processImage()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmodule#l00299">eZModule::redirectionURIForModule()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztranslationcache#l00147">eZTranslationCache::restoreCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00203">eZTemplateTreeCache::restoreCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezimageshell#l00290">eZImageShell::run()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezprocess#l00063">eZProcess::runFile()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezmodule#l00704">eZModule::runHooks()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00106">eZTemplateTreeCache::setCachedTree()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztranslationcache#l00081">eZTranslationCache::setContextCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezcontentobjecttreenode#l00718">eZContentObjectTreeNode::sortFieldName()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztranslationcache#l00178">eZTranslationCache::storeCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00238">eZTemplateTreeCache::storeCache()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezintegertype#l00196">eZIntegerType::storeClassAttribute()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezsoapresponse#l00269">eZSOAPResponse::stripHTTPHeader()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplateelementparser#l00351">eZTemplateElementParser::variableEndPos()</a>, <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/eztemplate#l01736">eZTemplate::warning()</a>, and <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebugsetting#l00135">eZDebugSetting::writeWarning()</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Data Documentation</h2>
+<a name="o0" doxytag="eZDebug::DebugStrings"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZDebug::DebugStrings = array()<code> [private]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+String array containing the debug information 
+<p>
+Definition at line <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l01244">1244</a> of file <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug#l00502">write()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030817122800/http://ez.no/sdk/ref/view/source/ezdebug">ezdebug.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030817122800/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817122800/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:28:00 Aug 17, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:59:41 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.72
+  exclusion.robots: 0.032
+  exclusion.robots.policy: 0.014
+  esindex: 0.017
+  cdx.remote: 12.976
+  LoadShardBlock: 72.763 (3)
+  PetaboxLoader3.datanode: 128.15 (4)
+  load_resource: 181.171
+  PetaboxLoader3.resolve: 92.078
+-->

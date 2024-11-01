@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZExtension","20030823121629","http://web.archive.org/","web","/_static/",
+	      "1061640989");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823121629cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823121629cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823121629cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823121629im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823121629/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823121629/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823121629im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823121629/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823121629im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823121629/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823121629im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823121629/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823121629im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823121629/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823121629im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823121629/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823121629im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823121629/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823121629im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823121629/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823121629im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823121629/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZExtension Class Reference</h1>The class eZExtension does. 
+<a href="#_details">More...</a>
+<p>
+<a href="/web/20030823121629/http://ez.no/sdk/ref/view/members/eZExtension">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/class/eZExtension#a0">eZExtension</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Static Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/class/eZExtension#d0">baseDirectory</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/class/eZExtension#d1">activeExtensions</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/class/eZExtension#d2">activateExtensions</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/class/eZExtension#d3">findExtensionType</a> ($parameters,&amp;$out)</td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+The class eZExtension does.
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00048">48</a> of file <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension">ezextension.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZExtension::eZExtension"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZExtension::eZExtension </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Constructor 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00053">53</a> of file <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension">ezextension.php</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="d2" doxytag="eZExtension::activateExtensions"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZExtension::activateExtensions </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Will make sure that all extensions that has settings directories are added to the <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/class/eZINI">eZINI</a> override list. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00090">90</a> of file <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension">ezextension.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00072">activeExtensions()</a>, <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00061">baseDirectory()</a>, and <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.    </td>
+  </tr>
+</table>
+<a name="d1" doxytag="eZExtension::activeExtensions"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZExtension::activeExtensions </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+an array with extensions that has been activated </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00072">72</a> of file <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension">ezextension.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00072">activeExtensions()</a>, and <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00090">activateExtensions()</a>, and <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00072">activeExtensions()</a>.    </td>
+  </tr>
+</table>
+<a name="d0" doxytag="eZExtension::baseDirectory"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZExtension::baseDirectory </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<dl compact><dt><b>Returns: </b></dt><dd>
+the base directory for extensions </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00061">61</a> of file <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension">ezextension.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00090">activateExtensions()</a>, <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00151">findExtensionType()</a>, and <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezcollaborationitemhandler#l00297">eZCollaborationItemHandler::handlerRepositories()</a>.    </td>
+  </tr>
+</table>
+<a name="d3" doxytag="eZExtension::findExtensionType"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZExtension::findExtensionType </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>parameters</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>&amp;$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>out</em></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"><code> [static]</code></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+This is help function for searching for extension code. It will read ini variables defined in <em>$parameters</em>, search trough the specified directories for specific files and set the result in <em>$out</em>.
+<p>
+The <em>$parameters</em> parameter must contain the following entries.<ul>
+<li>ini-name - The name of the ini file which has the settings, must include the .ini suffix.<li>repository-group - The INI group which has the basic repository settings.<li>repository-variable - The INI variable which has the basic repository settings.<li>extension-group - The INI group which has the extension settings.<li>extension-variable - The INI variable which has the extension settings.<li>subdir - A subdir which will be appended to all repositories searched for, can be left out.<li>extension-subdir - A subdir which will be appended to all extension repositories searched for, can be left out.<li>suffix-name - A suffix which will be appended after the file searched for.<li>type-directory - Whether the type has a directory for it's file or not. Default is true.<li>type - The type to look for, it will try to find a file named repository/subdir/type/type-suffix or if type-directory is false repository/subdir/type-suffix. If type is not specified the type-group and typ-variable may be used for fetching the current type.<li>type-group - The INI group which has the type setting.<li>type-variable - The INI variable which has the type setting.<li>alias-group - The INI group which defines type aliases, see below.<li>alias-variable - The INI variable which defines type aliases.</ul>
+Type aliases allows overriding a specific type to use another type handler, this is useful when extensions want to take control of some specific types.
+<p>
+On success the <em>$out</em> parameter will contain:<ul>
+<li>type - The current type used.<li>original-type - The original type, if aliasing was used it may differ from type.<li>found-file-dir - The directory where the type was found.<li>found-file-path - The full path to the type.<li>found-file-name - The filename of the type.</ul>
+<dl compact><dt><b>Returns: </b></dt><dd>
+true if the extension type was found. </dl>
+<p>
+Definition at line <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00151">151</a> of file <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension">ezextension.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension#l00061">baseDirectory()</a>, and <a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823121629/http://ez.no/sdk/ref/view/source/ezextension">ezextension.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823121629/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823121629/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:16:29 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:59:55 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.68
+  exclusion.robots: 0.032
+  exclusion.robots.policy: 0.014
+  esindex: 0.014
+  cdx.remote: 6.273
+  LoadShardBlock: 385.04 (3)
+  PetaboxLoader3.datanode: 88.912 (4)
+  PetaboxLoader3.resolve: 304.623 (3)
+  load_resource: 107.922
+-->

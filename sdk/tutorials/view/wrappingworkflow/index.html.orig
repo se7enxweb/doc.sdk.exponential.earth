@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.ez.no:80/sdk/tutorials/view/wrappingworkflow/","20030628203614","http://web.archive.org/","web","/_static/",
+	      "1056832574");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - Tutorials</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030628203614cs_/http://www.ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030628203614cs_/http://www.ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030628203614cs_/http://www.ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030628203614im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030628203614/http://www.ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030628203614/http://www.ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/workflows" ">&lt;&lt; Custom workflows</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/publishworkflow" ">Approval workflow &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030628203614/http://www.ez.no/sdk/tutorials">Tutorials</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/main_concepts/">Main concepts</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/content_classes/">Custom content</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/templateissues/">Common template issues</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/workflows/">Custom workflows</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/wrappingworkflow/">Example of wrapping workflow</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/publishworkflow/">Approval workflow</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/datatypes/">Datatypes</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/permissions/">Permissions and sections</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/forms/">Creating forms</a><br/><img src="/web/20030628203614im_/http://www.ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/translation/">Translation and i18n</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Wrapping workflow</h1>
+
+<p>
+Allows you to ask the user, before he confirms the order, if he wants to pack his goods into Christmas paper.
+</p>
+To create this workflow you need to do the following steps
+<ul>
+<li>Create new event_type</li>
+<li>Create workflow with that event</li>
+<li>Connect that workflow to the shop/confirm operation</li>
+</ul>
+<p>
+To know how to create event type read the tutorial <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/workflows">Custom workflows</a>,
+go to the part called "Creating workflows". Create a skeleton of a workflow event.
+</p>
+
+<br>
+File <i>ezwrappingtype.php</i>
+<pre class="example">
+define( "EZ_WORKFLOW_TYPE_WRAPPING_ID", "ezwrapping" );
+
+class eZWrappingType extends eZWorkflowEventType
+{
+    /*!
+     Constructor
+    */
+    function eZWrappingType()
+    {
+        $this-&gt;eZWorkflowEventType( EZ_WORKFLOW_TYPE_WRAPPING_ID, "Wrapping" );
+    }
+    function execute( &amp;$process, &amp;$event )
+    {
+        return EZ_WORKFLOW_TYPE_STATUS_FETCH_TEMPLATE_REPEAT;
+    }
+
+}
+
+eZWorkflowEventType::registerType( EZ_WORKFLOW_TYPE_WRAPPING_ID, "ezwrappingtype" );
+</pre>
+
+<br>
+<p>
+We will modify the "execute" function to improve the functionality of the workflow.
+</p>
+<pre class="example">
+    function execute( &amp;$process, &amp;$event )
+    {
+1
+2        $http =&amp; eZHTTPTool::instance();
+3
+4        if ( $http-&gt;hasPostVariable( "Next" ) )
+5        {
+6            if ( $http-&gt;hasPostVariable( "answer" ) )
+7            {
+8                $answer = $http-&gt;postVariable( "answer" );
+9                eZDebug::writeDebug( 'got answer' );
+10               if( $answer == 'yes' )
+11               {
+12                   $parameters = $process-&gt;attribute( 'parameter_list' );
+13                   eZDebug::writeDebug( 'got yes' );
+14                   $orderID = $parameters['order_id'];
+15
+16                   $orderItem = new eZOrderItem( array( 'order_id' =&gt; $orderID,
+17                                                        'description' =&gt; 'Wrapping',
+18                                                        'price' =&gt; '100',
+19                                                        'vat_is_included' =&gt; true,
+20                                                        'vat_type_id' =&gt; 1 )
+21                                                 );
+22                   $orderItem-&gt;store();
+23
+24               }else
+25               {
+26                   eZDebug::writeDebug( 'got no' );
+27
+28               }
+29               return EZ_WORKFLOW_TYPE_STATUS_ACCEPTED;
+30           }
+31       }
+32       $requestUri = eZSys::requestUri();
+33       $process-&gt;Template = array( 'templateName' =&gt; 'design:workflow/eventtype/result/' . 'event_ezwrapping' . '.tpl',
+34                                   'templateVars' =&gt; array( 'request_uri' =&gt; $requestUri )
+35                                    );
+36       return EZ_WORKFLOW_TYPE_STATUS_FETCH_TEMPLATE_REPEAT;
+     }
+</pre>
+
+<h2>Comments</h2>
+<p>
+line 2 - get eZHTTPTool instance to fetch postvariable from.<br/>
+Conditional operators (4-6) which check if the needed http variables exist.
+This is needed to check whether this is the answer from the user.<br/>
+If we get an answer from user and if answer is yes we need to create an order item with wrapping.<br/>
+OrderID is a workflow parameter (defined by operation) so you can fetch it from parameters list (12,14)<br/>
+If the answer is "no" we "accept" event.<br/>
+When the event runs first we need to say to the system that we need to halt an operation
+and show an additional page to the user (32-36)<br/>
+</p>
+
+
+<h2>Create result template</h2>
+<pre class="example">
+
+&lt;form action={$return_uri|ezurl} method=&quot;post&quot; &gt;
+
+&lt;div class=&quot;maincontentheader&quot;&gt;
+&lt;h1&gt;{&quot;Hello&quot;|i18n('workflow/eventtype/result/event_hellouser')} {$user_name}&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class=&quot;buttonblock&quot;&gt;
+&lt;input type=&quot;submit&quot; name=&quot;Next&quot; value=&quot;next&quot; /&gt;
+&lt;/div&gt;
+
+&lt;/form&gt;
+
+</pre>
+
+<br>
+<p>
+The page will look like this:
+</p>
+<img src="/web/20030628203614im_/http://www.ez.no/doc/images/preconfirmorder.png" alt="Confirm"/>
+
+<h2>Creating and connecting the workflow </h2>
+<p>
+To know how to connect the workflow to the operation look through the <a href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/publishworkflow">Approval workflow</a>
+tutorial.
+When connecting to the operation (triggers) select the name of the created workflow in the front of "shop-confirm-before".
+</p>
+<img src="/web/20030628203614im_/http://www.ez.no/doc/images/triggers1.png" alt="Triggers"/>
+
+<p>
+So now you can use the workflow.
+</p>
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030628203614/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030628203614/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 20:36:14 Jun 28, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:19:04 Nov 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.455
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.008
+  esindex: 0.008
+  cdx.remote: 13.823
+  LoadShardBlock: 194.529 (3)
+  PetaboxLoader3.datanode: 190.046 (4)
+  PetaboxLoader3.resolve: 212.704 (2)
+  load_resource: 236.661
+-->

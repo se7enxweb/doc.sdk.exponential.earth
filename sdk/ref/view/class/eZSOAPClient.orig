@@ -1,0 +1,457 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://ez.no:80/sdk/ref/view/class/eZSOAPClient","20030823122145","http://web.archive.org/","web","/_static/",
+	      "1061641305");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>eZ publish&trade; SDK - API Reference</title>
+</head>
+<head>
+<title>eZ publish&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/web/20030823122145cs_/http://ez.no/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823122145cs_/http://ez.no/design/admin/stylesheets/admin.css"/>
+<link rel="stylesheet" type="text/css" href="/web/20030823122145cs_/http://ez.no/kernel/sdk/style.css"/>
+</head>
+
+<body style="background: url(/web/20030823122145im_/http://ez.no/design/standard/images/grid-background.gif);">
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="headlogo" width="560">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <td class="headlink" width="66">
+
+<table width="66" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/dark-left-corner.gif" alt=""/></td>
+    <td class="menuheadgraytopline" width="60">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadgraygfx" width="3">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/dark-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadgrayleftline" width="3">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+    <td class="menuheadgray">
+    <p class="menuheadgray">
+    <a class="menuheadlink" href="/web/20030823122145/http://ez.no/manual/">Manual</a>
+    </p>
+    </td>
+    <td class="menuheadgrayrightline" width="3">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
+</tr>
+</table>
+
+</td>
+
+    <td class="menuheadspacer" width="3">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
+    <td class="headlink" width="66">
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/light-left-corner.gif" alt=""/></td>
+    <td class="menuheadselectedtopline">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
+    <td class="menuheadselectedgfx">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/light-right-corner.gif" alt=""/></td>
+</tr>
+<tr>
+    <td class="menuheadselectedleftline">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+    <td class="menuheadselected">
+    <p class="menuheadselected">
+    <a class="menuheadlink" href="/web/20030823122145/http://ez.no/sdk/">SDK</a>
+    </p>
+    </td>
+    <td class="menuheadselectedrightline">
+    <img src="/web/20030823122145im_/http://ez.no/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
+</tr>
+</table>
+
+    </td>
+   <td class="headlogo" width="50%">
+   &nbsp;</td>
+</tr>
+    <td colspan="11" class="menuheadtoolbar">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    &nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/web/20030823122145/http://ez.no/sdk/ref">API Reference</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Sections</p><img src="/web/20030823122145im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122145/http://ez.no/sdk/ref/view/modules/">Modules</a><br/><img src="/web/20030823122145im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122145/http://ez.no/sdk/ref/view/hierarchy/">Hierarchy</a><br/><img src="/web/20030823122145im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122145/http://ez.no/sdk/ref/view/annotated/">Annotated</a><br/><img src="/web/20030823122145im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122145/http://ez.no/sdk/ref/view/files/">Files</a><br/><img src="/web/20030823122145im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122145/http://ez.no/sdk/ref/view/functions/">Functions</a><br/><img src="/web/20030823122145im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122145/http://ez.no/sdk/ref/view/related/">Related</a><br/>&nbsp;<img src="/web/20030823122145im_/http://ez.no/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/web/20030823122145/http://ez.no/sdk/ref/view/todo/">Todo</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1 class="dox">eZSOAPClient Class Reference<br>
+<small>
+[<a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/module/eZSOAP">SOAP communication library</a>]</small>
+</h1>eZSOAPClient is a class which can be used as a SOAP client 
+<a href="#_details">More...</a>
+<p>
+<a href="/web/20030823122145/http://ez.no/sdk/ref/view/members/eZSOAPClient">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#a0">eZSOAPClient</a> ($server,$path,$port=80)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#a1">send</a> ($request)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#a2">setLogin</a> ($login)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#a3">login</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#a4">setPassword</a> ($password)</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#a5">password</a> ()</td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZSOAPClient::Server"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#m0">Server</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The name or IP of the server to communicate with.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZSOAPClient::Path"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#m1">Path</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The path to the SOAP server.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m2" doxytag="eZSOAPClient::Port"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#m2">Port</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>The port of the server to communicate with.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m3" doxytag="eZSOAPClient::Timeout"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#m3">Timeout</a> = 0</td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>How long to wait for the call.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m4" doxytag="eZSOAPClient::Login"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#m4">Login</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>HTTP login for HTTP authentification.</em></font><br><br></td></tr>
+<tr><td nowrap align="right" valign="top"><a name="m5" doxytag="eZSOAPClient::Password"></a>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#m5">Password</a></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>HTTP password for HTTP authentification.</em></font><br><br></td></tr>
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+eZSOAPClient is a class which can be used as a SOAP client
+<p>
+eZSOAPClient handles communication with a SOAP server.
+<p>
+<div class="dox_fragment"><pre><span class="dox_comment">// include client classes</span>
+include_once( <span class="dox_stringliteral">"lib/ezsoap/classes/ezsoapclient.php"</span> );
+include_once( <span class="dox_stringliteral">"lib/ezsoap/classes/ezsoaprequest.php"</span> );
+
+<span class="dox_comment">// create a new client</span>
+$client = <span class="dox_keyword">new</span> <a class="dox_code" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#a0">eZSOAPClient</a>( <span class="dox_stringliteral">"nextgen.bf.dvh1.ez.no"</span>, <span class="dox_stringliteral">"/sdk/ezsoap/view/server"</span> );
+
+$<span class="dox_keyword">namespace </span>= "http:<span class="dox_comment">//soapinterop.org/";</span>
+
+<span class="dox_comment">// create the SOAP request object</span>
+$request = new <a class="dox_code" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPRequest">eZSOAPRequest</a>( "addNumbers", "http:<span class="dox_comment">//calkulator.com/simplecalculator" );</span>
+
+<span class="dox_comment">// add parameters to the request</span>
+$request-&gt;addParameter( "valueA", 42 );
+$request-&gt;addParameter( "valueB", 17 );
+
+<span class="dox_comment">// send the request to the server and fetch the response</span>
+$response =&amp; $client-&gt;<a class="dox_code" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPClient#a1">send</a>( $request );
+
+<span class="dox_comment">// check if the server returned a fault, if not print out the result</span>
+if ( $response-&gt;isFault() )
+{
+    print( <span class="dox_stringliteral">"SOAP fault: "</span> . $response-&gt;faultCode(). <span class="dox_stringliteral">" - "</span> . $response-&gt;faultString() . <span class="dox_stringliteral">""</span> );
+}
+<span class="dox_keywordflow">else</span>
+    print( <span class="dox_stringliteral">"Returned SOAP value was: \""</span> . $response-&gt;value() . <span class="dox_stringliteral">"\""</span> );
+</pre></div>
+<p>
+<dl compact><dt><b>See also: </b></dt><dd>
+<a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPServer">eZSOAPServer</a> <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPRequest">eZSOAPRequest</a> <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/class/eZSOAPResponse">eZSOAPResponse</a> </dl>
+<p>
+
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00072">72</a> of file <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient">ezsoapclient.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+<a name="a0" doxytag="eZSOAPClient::eZSOAPClient"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPClient::eZSOAPClient </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>server</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>path</em>, </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="dox_md" nowrap>$&nbsp;</td>
+          <td class="dox_mdname" nowrap>&nbsp; <em>port</em> = 80</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="dox_md">)&nbsp;</td>
+          <td class="dox_md" colspan="2"></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Creates a new SOAP client. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00077">77</a> of file <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient">ezsoapclient.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00197">Login</a>, <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00199">Password</a>, <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00191">Path</a>, <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00193">Port</a>, and <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00189">Server</a>.    </td>
+  </tr>
+</table>
+<hr><h2>Member Function Documentation</h2>
+<a name="a3" doxytag="eZSOAPClient::login"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPClient::login </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the login, used for HTTP authentification 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00167">167</a> of file <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient">ezsoapclient.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00197">Login</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00089">send()</a>, and <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00159">setLogin()</a>.    </td>
+  </tr>
+</table>
+<a name="a5" doxytag="eZSOAPClient::password"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPClient::password </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp;          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Returns the password, used for HTTP authentification 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00183">183</a> of file <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient">ezsoapclient.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00199">Password</a>.
+<p>
+Referenced by <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00089">send()</a>, and <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00175">setPassword()</a>.    </td>
+  </tr>
+</table>
+<a name="a1" doxytag="eZSOAPClient::send"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> &amp; eZSOAPClient::send </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>request</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sends a SOAP message and returns the response object. 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00089">89</a> of file <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient">ezsoapclient.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00167">login()</a>, <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00183">password()</a>, <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00191">Path</a>, <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00189">Server</a>, <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00195">Timeout</a>, and <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezdebug#l00331">eZDebug::writeNotice()</a>.    </td>
+  </tr>
+</table>
+<a name="a2" doxytag="eZSOAPClient::setLogin"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPClient::setLogin </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>login</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the HTTP login 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00159">159</a> of file <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient">ezsoapclient.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00197">Login</a>, and <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00167">login()</a>.    </td>
+  </tr>
+</table>
+<a name="a4" doxytag="eZSOAPClient::setPassword"></a><p>
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+  <tr>
+    <td class="dox_md">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="dox_md" nowrap valign="top"> eZSOAPClient::setPassword </td>
+          <td class="dox_md" valign="top">(&nbsp;</td>
+          <td class="dox_md" nowrap valign="top">$&nbsp;</td>
+          <td class="dox_mdname1" valign="top" nowrap>&nbsp; <em>password</em>          </td>
+          <td class="dox_md" valign="top">)&nbsp;</td>
+          <td class="dox_md" nowrap></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Sets the HTTP password 
+<p>
+Definition at line <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00175">175</a> of file <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient">ezsoapclient.php</a>.
+<p>
+References <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00199">Password</a>, and <a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient#l00183">password()</a>.    </td>
+  </tr>
+</table>
+<hr>The documentation for this class was generated from the following file:<ul>
+<li><a class="dox_el" href="/web/20030823122145/http://ez.no/sdk/ref/view/source/ezsoapclient">ezsoapclient.php</a></ul>
+&nbsp;
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<a href="http://web.archive.org/web/20030823122145/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823122145/http://ez.no/">eZ systems as</a>
+</center>
+<br/>
+</body></html><!--
+     FILE ARCHIVED ON 12:21:45 Aug 23, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:32:13 Oct 31, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.473
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.01
+  esindex: 0.011
+  cdx.remote: 7.4
+  LoadShardBlock: 309.318 (3)
+  PetaboxLoader3.resolve: 263.502 (4)
+  PetaboxLoader3.datanode: 93.139 (4)
+  load_resource: 66.192
+-->
