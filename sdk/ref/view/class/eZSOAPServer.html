@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -123,32 +123,32 @@
 <table width="100%" border="0">
 <tr><td colspan="2"><h1 class="dox">eZSOAPServer Class Reference<br>
 <small>
-[<a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/module/eZSOAP">SOAP communication library</a>]</small>
+[<a class="dox_el" href="/sdk/ref/view/module/eZSOAP.html">SOAP communication library</a>]</small>
 </h1>The class eZSOAPServer handles SOAP server requensts. 
 <a href="eZSOAPServer.html#_details">More...</a>
 <p>
 <a href="/sdk/ref/view/members/eZSOAPServer">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
 <tr><td colspan="2"><br><h2>Public Methods</h2></td></tr>
-<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPServer#a0">eZSOAPServer</a> ()</td></tr>
-<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPServer#a1">processRequest</a> ()</td></tr>
-<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPServer#a2">registerFunction</a> ($name,$params=array())</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/sdk/ref/view/class/eZSOAPServer#a0.html">eZSOAPServer</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/sdk/ref/view/class/eZSOAPServer#a1.html">processRequest</a> ()</td></tr>
+<tr><td nowrap align="right" valign="top">&nbsp;</td><td valign="bottom"><a class="dox_el" href="/sdk/ref/view/class/eZSOAPServer#a2.html">registerFunction</a> ($name,$params=array())</td></tr>
 <tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
 <tr><td nowrap align="right" valign="top"><a name="m0" doxytag="eZSOAPServer::FunctionList"></a>
-&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPServer#m0">FunctionList</a></td></tr>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/sdk/ref/view/class/eZSOAPServer#m0.html">FunctionList</a></td></tr>
 <tr><td>&nbsp;</td><td><font size="-1"><em>Contains a list over registered functions.</em></font><br><br></td></tr>
 <tr><td nowrap align="right" valign="top"><a name="m1" doxytag="eZSOAPServer::RawPostData"></a>
-&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPServer#m1">RawPostData</a></td></tr>
+&nbsp;</td><td valign="bottom"><a class="dox_el" href="/sdk/ref/view/class/eZSOAPServer#m1.html">RawPostData</a></td></tr>
 <tr><td>&nbsp;</td><td><font size="-1"><em>Contains the RAW HTTP post data information.</em></font><br><br></td></tr>
 <tr><td colspan="2"><br><h2>Static Private Methods</h2></td></tr>
-<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPServer#f0">stripHTTPHeader</a> ($data)</td></tr>
+<tr><td nowrap align="right" valign="top">&amp;&nbsp;</td><td valign="bottom"><a class="dox_el" href="/sdk/ref/view/class/eZSOAPServer#f0.html">stripHTTPHeader</a> ($data)</td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 The class eZSOAPServer handles SOAP server requensts.
 <p>
 Sample code for a SOAP server with one function, addNumbers. <div class="dox_fragment"><pre>include_once( <span class="dox_stringliteral">"lib/ezsoap/classes/ezsoapserver.php"</span> );
 
-$server = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPServer#a0">eZSOAPServer</a>( );
+$server = <span class="dox_keyword">new</span> <a class="dox_code" href="/sdk/ref/view/class/eZSOAPServer#a0.html">eZSOAPServer</a>( );
 $server-&gt;registerFunction( <span class="dox_stringliteral">"addNumbers"</span>, array( <span class="dox_stringliteral">"valueA"</span> =&gt; <span class="dox_stringliteral">"integer"</span>, <span class="dox_stringliteral">"valueB"</span> =&gt; <span class="dox_stringliteral">"integer"</span> ) );
 $server-&gt;processRequest();
 
@@ -159,11 +159,11 @@ function addNumbers( $valueA, $valueB )
     <span class="dox_keywordflow">return</span> $<span class="dox_keywordflow">return</span>;
 }
 </pre></div> <dl compact><dt><b>See also: </b></dt><dd>
-<a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPClient">eZSOAPClient</a> <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPRequest">eZSOAPRequest</a> <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/class/eZSOAPResponse">eZSOAPResponse</a> </dl>
+<a class="dox_el" href="/sdk/ref/view/class/eZSOAPResponse.html">eZSOAPResponse</a> </dl>
 <p>
 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00065">65</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver">ezsoapserver.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver.html">ezsoapserver.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
 <a name="a0" doxytag="eZSOAPServer::eZSOAPServer"></a><p>
 <table width="100%" cellpadding="2" cellspacing="0" border="0">
   <tr>
@@ -191,9 +191,9 @@ Definition at line <a class="dox_el" href="http://web.archive.org/web/2003082312
 <p>
 Creates a new eZSOAPServer object. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00070">70</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver">ezsoapserver.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver.html">ezsoapserver.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00173">RawPostData</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver#l00173.html">RawPostData</a>.    </td>
   </tr>
 </table>
 <hr><h2>Member Function Documentation</h2>
@@ -224,9 +224,9 @@ References <a class="dox_el" href="http://web.archive.org/web/20030823121859/htt
 <p>
 Processes the SOAP request and prints out the propper response. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00080">80</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver">ezsoapserver.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver.html">ezsoapserver.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00162">stripHTTPHeader()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver#l00162.html">stripHTTPHeader()</a>.    </td>
   </tr>
 </table>
 <a name="a2" doxytag="eZSOAPServer::registerFunction"></a><p>
@@ -268,9 +268,9 @@ Registers a new function on the server.
 <p>
 Returns false if the function could not be registered. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00146">146</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver">ezsoapserver.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver.html">ezsoapserver.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00171">FunctionList</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver#l00171.html">FunctionList</a>.    </td>
   </tr>
 </table>
 <a name="f0" doxytag="eZSOAPServer::stripHTTPHeader"></a><p>
@@ -301,13 +301,13 @@ References <a class="dox_el" href="http://web.archive.org/web/20030823121859/htt
 <p>
 Strips the header information from the HTTP raw response. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00162">162</a> of file <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver">ezsoapserver.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver.html">ezsoapserver.php</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver#l00080">processRequest()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsoapserver#l00080.html">processRequest()</a>.    </td>
   </tr>
 </table>
 <hr>The documentation for this class was generated from the following file:<ul>
-<li><a class="dox_el" href="http://web.archive.org/web/20030823121859/http://ez.no/sdk/ref/view/source/ezsoapserver">ezsoapserver.php</a></ul>
+<li><a class="dox_el" href="/sdk/ref/view/source/ezsoapserver.html">ezsoapserver.php</a></ul>
 &nbsp;
 </td></tr>
 </table>

@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -161,21 +161,21 @@
 00065 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/eztexttool.php"</span> );
 00066 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezdebug.php"</span> );
 00067 
-<a name="l00068"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject">00068</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject">eZPersistentObject</a>
+<a name="l00068"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject.html">eZPersistentObject</a>
 00069 {
-<a name="l00076"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a0">00076</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a0">eZPersistentObject</a>( $row )
+<a name="l00076"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a0.html">eZPersistentObject</a>( $row )
 00077     {
-00078         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#o0">PersistentDataDirty</a> = <span class="dox_keyword">false</span>;
+00078         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#o0">PersistentDataDirty</a> = <span class="dox_keyword.html">false</span>;
 00079         <span class="dox_keywordflow">if</span> ( is_numeric( $row ) )
 00080             $row =&amp; $this-&gt;fetch( $row, <span class="dox_keyword">false</span> );
-00081         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a1">fill</a>( $row );
+00081         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a1.html">fill</a>( $row );
 00082     }
 00083 
-<a name="l00090"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a1">00090</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a1">fill</a>( &amp;$row )
+<a name="l00090"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a1.html">fill</a>( &amp;$row )
 00091     {
 00092         <span class="dox_keywordflow">if</span> ( $row == <span class="dox_keyword">false</span> )
 00093             <span class="dox_keywordflow">return</span>;
-00094         $def =&amp; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">definition</a>();
+00094         $def =&amp; $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a14.html">definition</a>();
 00095         $fields =&amp; $def[<span class="dox_stringliteral">"fields"</span>];
 00096         reset( $fields );
 00097         <span class="dox_keywordflow">while</span> ( ($key = key( $fields ) ) !== null )
@@ -186,7 +186,7 @@
 00102         }
 00103     }
 00104 
-<a name="l00110"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a2">00110</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a2">fetchObject</a>( 
+<a name="l00110"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a2.html">fetchObject</a>( 
 00111                                &amp;$def,
 00113                                $field_filters,
 00115                                $conds,
@@ -194,31 +194,31 @@
 00118                                $grouping = null,
 00120                                $custom_fields = null )
 00121     {
-00122         $rows =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a9">eZPersistentObject::fetchObjectList</a>( $def, $field_filters, $conds,
+00122         $rows =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a9.html">eZPersistentObject::fetchObjectList</a>( $def, $field_filters, $conds,
 00123                                                       array(), null, $asObject,
 00124                                                       $grouping, $custom_fields );
 00125         <span class="dox_keywordflow">return</span> $rows[0];
 00126     }
 00127 
-<a name="l00135"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a3">00135</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a3">remove</a>( $conditions = null, $extraConditions = null )
+<a name="l00135"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a3.html">remove</a>( $conditions = null, $extraConditions = null )
 00136     {
-00137         $def =&amp; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">definition</a>();
+00137         $def =&amp; $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a14.html">definition</a>();
 00138         $keys =&amp; $def[<span class="dox_stringliteral">"keys"</span>];
 00139         <span class="dox_keywordflow">if</span> ( !is_array( $conditions ) )
 00140         {
 00141             $conditions = array();
 00142             foreach ( $keys as $key )
 00143             {
-00144                 $value =&amp; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a19">attribute</a>( $key );
+00144                 $value =&amp; $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a19.html">attribute</a>( $key );
 00145                 $conditions[$key] =&amp; $value;
 00146             }
 00147         }
-00148         <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a4">eZPersistentObject::removeObject</a>( $def, $conditions, $extraConditions );
+00148         <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a4.html">eZPersistentObject::removeObject</a>( $def, $conditions, $extraConditions );
 00149     }
 00150 
-<a name="l00157"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a4">00157</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a4">removeObject</a>( &amp;$def, $conditions = null, $extraConditions = null )
+<a name="l00157"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a4.html">removeObject</a>( &amp;$def, $conditions = null, $extraConditions = null )
 00158     {
-00159         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00159         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00160 
 00161         $table =&amp; $def[<span class="dox_stringliteral">"name"</span>];
 00162         <span class="dox_keywordflow">if</span> ( is_array( $extraConditions ) )
@@ -228,25 +228,25 @@
 00166                 $conditions[$key] = $cond;
 00167             }
 00168         }
-00169         $cond_text = <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a7">eZPersistentObject::conditionText</a>( $conditions );
+00169         $cond_text = <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a7.html">eZPersistentObject::conditionText</a>( $conditions );
 00170 
 00171         $db-&gt;query( <span class="dox_stringliteral">"DELETE FROM $table $cond_text"</span> );
 00172     }
 00173 
-<a name="l00178"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a5">00178</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a5">store</a>( $fieldFilters = null )
+<a name="l00178"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a5.html">store</a>( $fieldFilters = null )
 00179     {
-00180         <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#c0">eZPersistentObject::storeObject</a>( $<span class="dox_keyword">this</span>, $fieldFilters );
+00180         <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#c0">eZPersistentObject::storeObject</a>( $<span class="dox_keyword.html">this</span>, $fieldFilters );
 00181     }
 00182 
-<a name="l00187"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a6">00187</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a6">sync</a>( $fieldFilters = null )
+<a name="l00187"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a6.html">sync</a>( $fieldFilters = null )
 00188     {
-00189         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a21">hasDirtyData</a>() )
-00190             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a5">store</a>( $fieldFilters );
+00189         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a21.html">hasDirtyData</a>() )
+00190             $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a5.html">store</a>( $fieldFilters );
 00191     }
 00192 
-<a name="l00198"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#c0">00198</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#c0">storeObject</a>( &amp;$obj, $fieldFilters = null )
+<a name="l00198"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#c0.html">storeObject</a>( &amp;$obj, $fieldFilters = null )
 00199     {
-00200         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00200         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00201 
 00202         $def =&amp; $obj-&gt;definition();
 00203         $fields =&amp; $def[<span class="dox_stringliteral">"fields"</span>];
@@ -282,7 +282,7 @@
 00233         }
 00234         <span class="dox_keywordflow">if</span> ( !$insert_object and count( $important_keys ) != 1  )
 00235         {
-00236             $rows =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a9">eZPersistentObject::fetchObjectList</a>( $def, $keys, $key_conds,
+00236             $rows =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a9.html">eZPersistentObject::fetchObjectList</a>( $def, $keys, $key_conds,
 00237                                                           array(), null, <span class="dox_keyword">false</span>,
 00238                                                           null, null );
 00239             <span class="dox_keywordflow">if</span> ( count( $rows ) == 0 )
@@ -333,7 +333,7 @@
 00284                 $field_text .= $field_text_entry;
 00285                 ++$i;
 00286             }
-00287             $cond_text = <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a7">eZPersistentObject::conditionText</a>( $key_conds );
+00287             $cond_text = <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a7.html">eZPersistentObject::conditionText</a>( $key_conds );
 00288             $sql = <span class="dox_stringliteral">"UPDATE $table\nSET $field_text$cond_text"</span>;
 00289 <span class="dox_comment">//             eZDebug::writeNotice( $sql );</span>
 00290             $db-&gt;query( $sql );
@@ -341,15 +341,15 @@
 00292         $obj-&gt;setHasDirtyData( <span class="dox_keyword">false</span> );
 00293     }
 00294 
-<a name="l00298"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a7">00298</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a7">conditionText</a>( &amp;$conditions )
+<a name="l00298"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a7.html">conditionText</a>( &amp;$conditions )
 00299     {
 00300         $row = null;
-00301         <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a8">eZPersistentObject::conditionTextByRow</a>( $conditions, $row );
+00301         <span class="dox_keywordflow">return</span> <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a8.html">eZPersistentObject::conditionTextByRow</a>( $conditions, $row );
 00302     }
 00303 
-<a name="l00308"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a8">00308</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a8">conditionTextByRow</a>( &amp;$conditions, &amp;$row )
+<a name="l00308"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a8.html">conditionTextByRow</a>( &amp;$conditions, &amp;$row )
 00309     {
-00310         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00310         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00311 
 00312         $where_text = <span class="dox_stringliteral">""</span>;
 00313         <span class="dox_keywordflow">if</span> ( is_array( $conditions ) and
@@ -399,7 +399,7 @@
 00357         <span class="dox_keywordflow">return</span> $where_text;
 00358     }
 00359 
-<a name="l00364"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a9">00364</a>     function &amp;fetchObjectList( 
+<a name="l00364"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a9.html">00364</a>     function &amp;fetchObjectList( 
 00365                                &amp;$def,
 00367                                $field_filters = null,
 00369                                $conds = null,
@@ -409,7 +409,7 @@
 00376                                $grouping = <span class="dox_keyword">false</span>,
 00378                                $custom_fields = null )
 00379     {
-00380         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00380         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00381         $fields =&amp; $def[<span class="dox_stringliteral">"fields"</span>];
 00382         $table =&amp; $def[<span class="dox_stringliteral">"name"</span>];
 00383         $class_name =&amp; $def[<span class="dox_stringliteral">"class_name"</span>];
@@ -444,7 +444,7 @@
 00412             ++$i;
 00413         }
 00414 
-00415         $where_text = <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a7">eZPersistentObject::conditionText</a>( $conds );
+00415         $where_text = <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a7.html">eZPersistentObject::conditionText</a>( $conds );
 00416         $sort_text = <span class="dox_stringliteral">""</span>;
 00417         <span class="dox_keywordflow">if</span> ( isset( $def[<span class="dox_stringliteral">"sort"</span>] ) or is_array( $sorts ) )
 00418         {
@@ -524,9 +524,9 @@
 00492             <span class="dox_keywordflow">return</span> $rows;
 00493     }
 00494 
-<a name="l00498"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a11">00498</a>     function swapRow( $table, &amp;$keys, &amp;$order_id, &amp;$rows, $id1, $id2 )
+<a name="l00498"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a11.html">00498</a>     function swapRow( $table, &amp;$keys, &amp;$order_id, &amp;$rows, $id1, $id2 )
 00499     {
-00500         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00500         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00501         $text = $order_id . <span class="dox_stringliteral">"='"</span> . $db-&gt;escapeString( $rows[$id1][$order_id] ) . <span class="dox_stringliteral">"' WHERE "</span>;
 00502         $i = 0;
 00503         foreach ( $keys as $key )
@@ -539,12 +539,12 @@
 00510         <span class="dox_keywordflow">return</span> <span class="dox_stringliteral">"UPDATE $table SET $text"</span>;
 00511     }
 00512 
-<a name="l00518"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a12">00518</a>     function newObjectOrder( &amp;$def, $orderField, $conditions )
+<a name="l00518"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a12.html">00518</a>     function newObjectOrder( &amp;$def, $orderField, $conditions )
 00519     {
-00520         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00520         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00521         $table =&amp; $def[<span class="dox_stringliteral">"name"</span>];
 00522         $keys =&amp; $def[<span class="dox_stringliteral">"keys"</span>];
-00523         $cond_text = <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a7">eZPersistentObject::conditionText</a>( $conditions );
+00523         $cond_text = <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a7.html">eZPersistentObject::conditionText</a>( $conditions );
 00524         $rows =&amp; $db-&gt;arrayQuery( <span class="dox_stringliteral">"SELECT MAX($orderField) AS $orderField FROM $table $cond_text"</span> );
 00525         <span class="dox_keywordflow">if</span> ( count( $rows ) &gt; 0 and isset( $rows[0][$orderField] ) )
 00526             <span class="dox_keywordflow">return</span> $rows[0][$orderField] + 1;
@@ -552,12 +552,12 @@
 00528             <span class="dox_keywordflow">return</span> 1;
 00529     }
 00530 
-<a name="l00541"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a13">00541</a>     function reorderObject( &amp;$def,
+<a name="l00541"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a13.html">00541</a>     function reorderObject( &amp;$def,
 00543                             $orderField,
 00544                             $conditions,
 00545                             $down = <span class="dox_keyword">true</span> )
 00546     {
-00547         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00547         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00548         $table =&amp; $def[<span class="dox_stringliteral">"name"</span>];
 00549         $keys =&amp; $def[<span class="dox_stringliteral">"keys"</span>];
 00550 
@@ -577,7 +577,7 @@
 00564             $order_add = 1;
 00565         }
 00566         $fields = array_merge( $keys, array( $order_id ) );
-00567         $rows =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a9">eZPersistentObject::fetchObjectList</a>( $def,
+00567         $rows =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a9.html">eZPersistentObject::fetchObjectList</a>( $def,
 00568                                                       $fields,
 00569                                                       array_merge( $conditions,
 00570                                                                    array( $order_id =&gt; array( $order_operator,
@@ -587,8 +587,8 @@
 00574                                                       <span class="dox_keyword">false</span> );
 00575         <span class="dox_keywordflow">if</span> ( count( $rows ) == 2 )
 00576         {
-00577             $swapSQL1 = <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a11">eZPersistentObject::swapRow</a>( $table, $keys, $order_id, $rows, 1, 0 );
-00578             $swapSQL2 = <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a11">eZPersistentObject::swapRow</a>( $table, $keys, $order_id, $rows, 0, 1 );
+00577             $swapSQL1 = <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a11.html">eZPersistentObject::swapRow</a>( $table, $keys, $order_id, $rows, 1, 0 );
+00578             $swapSQL2 = <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a11.html">eZPersistentObject::swapRow</a>( $table, $keys, $order_id, $rows, 0, 1 );
 00579 <span class="dox_comment">//             eZDebug::writeDebug( $swapSQL1, 'swapSQL1' );</span>
 00580 <span class="dox_comment">//             eZDebug::writeDebug( $swapSQL2, 'swapSQL2' );</span>
 00581             $db-&gt;query( $swapSQL1 );
@@ -596,26 +596,26 @@
 00583         }
 00584         <span class="dox_keywordflow">else</span>
 00585         {
-00586             $tmp =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a9">eZPersistentObject::fetchObjectList</a>( $def,
+00586             $tmp =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a9.html">eZPersistentObject::fetchObjectList</a>( $def,
 00587                                                          $fields,
 00588                                                          $conditions,
 00589                                                          array( $order_id =&gt; $order_type ),
 00590                                                          array( <span class="dox_stringliteral">"length"</span> =&gt; 1 ),
 00591                                                          <span class="dox_keyword">false</span> );
-00592             $where_text = <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a8">eZPersistentObject::conditionTextByRow</a>( $keys, $rows[0] );
+00592             $where_text = <a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a8.html">eZPersistentObject::conditionTextByRow</a>( $keys, $rows[0] );
 00593             $db-&gt;query( <span class="dox_stringliteral">"UPDATE $table SET $order_id='"</span> . ( $tmp[0][$order_id] + $order_add ) .
 00594                         <span class="dox_stringliteral">"'$where_text"</span>  );
 00595         }
 00596     }
 00597 
-<a name="l00633"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a14">00633</a>     function &amp;definition()
+<a name="l00633"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a14.html">00633</a>     function &amp;definition()
 00634     {
 00635         <span class="dox_keywordflow">return</span> array();
 00636     }
 00637 
 00638     function &amp;escapeArray( &amp;$array )
 00639     {
-00640         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00640         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00641         $out = array();
 00642         foreach( $array as $key =&gt; $value )
 00643         {
@@ -677,7 +677,7 @@
 00699 
 00700     function updateObjectList( $parameters )
 00701     {
-00702         $db =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDB#d1">eZDB::instance</a>();
+00702         $db =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZDB#d1.html">eZDB::instance</a>();
 00703         $def =&amp; $parameters['definition'];
 00704         $table =&amp; $def['name'];
 00705         $fields =&amp; $def['fields'];
@@ -787,7 +787,7 @@
 00809 <span class="dox_comment">//         // UPDATE ez... SET is_enabled='1' WHERE ID IN ('1', '2') AND version='0';</span>
 00810 <span class="dox_comment">//     }</span>
 00811 
-<a name="l00816"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a17">00816</a>     function &amp;attributes()
+<a name="l00816"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a17.html">00816</a>     function &amp;attributes()
 00817     {
 00818         $def =&amp; $this-&gt;definition();
 00819         $attrs = array_keys( $def[<span class="dox_stringliteral">"fields"</span>] );
@@ -796,7 +796,7 @@
 00822         <span class="dox_keywordflow">return</span> $attrs;
 00823     }
 00824 
-<a name="l00828"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a18">00828</a>     function hasAttribute( $attr )
+<a name="l00828"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a18.html">00828</a>     function hasAttribute( $attr )
 00829     {
 00830         $def =&amp; $this-&gt;definition();
 00831         $has_attr = isset( $def[<span class="dox_stringliteral">"fields"</span>][$attr] );
@@ -805,7 +805,7 @@
 00834         <span class="dox_keywordflow">return</span> $has_attr;
 00835     }
 00836 
-<a name="l00841"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a19">00841</a>     function &amp;attribute( $attr )
+<a name="l00841"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a19.html">00841</a>     function &amp;attribute( $attr )
 00842     {
 00843         $def =&amp; $this-&gt;definition();
 00844         $fields =&amp; $def[<span class="dox_stringliteral">"fields"</span>];
@@ -818,7 +818,7 @@
 00851             <span class="dox_keywordflow">if</span> ( !is_null( $attr_functions ) or
 00852                  !isset( $attr_functions[$attr] ) )
 00853             {
-00854                 <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Undefined attribute '$attr', cannot get"</span>,
+00854                 <a class="dox_code" href="/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral.html">"Undefined attribute '$attr', cannot get"</span>,
 00855                                      $def['class_name'] );
 00856                 <span class="dox_keywordflow">return</span> null;
 00857             }
@@ -840,14 +840,14 @@
 00873         }
 00874     }
 00875 
-<a name="l00880"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a20">00880</a>     function setAttribute( $attr, $val )
+<a name="l00880"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a20.html">00880</a>     function setAttribute( $attr, $val )
 00881     {
 00882         $def =&amp; $this-&gt;definition();
 00883         $fields =&amp; $def[<span class="dox_stringliteral">"fields"</span>];
 00884         $functions =&amp; $def[<span class="dox_stringliteral">"set_functions"</span>];
 00885         <span class="dox_keywordflow">if</span> ( !isset( $fields[$attr] ) )
 00886         {
-00887             <a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Undefined attribute '$attr', cannot set"</span>,
+00887             <a class="dox_code" href="/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral.html">"Undefined attribute '$attr', cannot set"</span>,
 00888                                  $def['class_name'] );
 00889             <span class="dox_keywordflow">return</span>;
 00890         }
@@ -864,17 +864,17 @@
 00901         }
 00902     }
 00903 
-<a name="l00908"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a21">00908</a>     function hasDirtyData()
+<a name="l00908"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a21.html">00908</a>     function hasDirtyData()
 00909     {
 00910         <span class="dox_keywordflow">return</span> $this-&gt;PersistentDataDirty;
 00911     }
 00912 
-<a name="l00917"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#a22">00917</a>     function setHasDirtyData( $hasDirtyData )
+<a name="l00917"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#a22.html">00917</a>     function setHasDirtyData( $hasDirtyData )
 00918     {
 00919         $this-&gt;PersistentDataDirty = $hasDirtyData;
 00920     }
 00921 
-<a name="l00924"></a><a class="dox_code" href="http://web.archive.org/web/20030817125515/http://ez.no/sdk/ref/view/class/eZPersistentObject#o0">00924</a>     var $PersistentDataDirty;
+<a name="l00924"></a><a class="dox_code" href="/sdk/ref/view/class/eZPersistentObject#o0.html">00924</a>     var $PersistentDataDirty;
 00925 }
 00926 
 00927 ?&gt;

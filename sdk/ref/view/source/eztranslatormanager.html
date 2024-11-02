@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -159,51 +159,51 @@
 00036 
 00059 include_once( <span class="dox_stringliteral">"lib/ezi18n/classes/eztranslatorhandler.php"</span> );
 00060 
-<a name="l00061"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager">00061</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager">eZTranslatorManager</a>
+<a name="l00061"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager.html">eZTranslatorManager</a>
 00062 {
-00065     function <a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager">eZTranslatorManager</a>()
+00065     function <a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager.html">eZTranslatorManager</a>()
 00066     {
-00067         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#o0">Handlers</a> = array();
+00067         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#o0.html">Handlers</a> = array();
 00068     }
 00069 
-<a name="l00081"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#a1">00081</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#a1">findKey</a>( $key )
+<a name="l00081"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#a1.html">findKey</a>( $key )
 00082     {
 00083         $msg = null;
 00084         <span class="dox_keywordflow">for</span> ( $i = 0; $i &lt; count( $this-&gt;Handlers ) and $msg === null; ++$i )
 00085         {
-00086             $handler =&amp; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#o0">Handlers</a>[$i];
+00086             $handler =&amp; $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#o0.html">Handlers</a>[$i];
 00087             <span class="dox_keywordflow">if</span> ( $handler-&gt;isKeyBased() )
 00088                 $msg =&amp; $handler-&gt;findKey( $key );
 00089         }
 00090         <span class="dox_keywordflow">return</span> $msg;
 00091     }
 00092 
-<a name="l00102"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#a2">00102</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#a2">findMessage</a>( $context, $source, $comment = null )
+<a name="l00102"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#a2.html">findMessage</a>( $context, $source, $comment = null )
 00103     {
 00104         <span class="dox_keywordflow">if</span> ( !is_string( $context ) or $context == <span class="dox_stringliteral">""</span> )
 00105             $context = <span class="dox_stringliteral">"default"</span>;
 00106         $msg = null;
 00107         <span class="dox_keywordflow">for</span> ( $i = 0; $i &lt; count( $this-&gt;Handlers ) and $msg === null; ++$i )
 00108         {
-00109             $handler =&amp; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#o0">Handlers</a>[$i];
+00109             $handler =&amp; $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#o0.html">Handlers</a>[$i];
 00110             $msg =&amp; $handler-&gt;findMessage( $context, $source, $comment );
 00111         }
 00112         <span class="dox_keywordflow">return</span> $msg;
 00113     }
 00114 
-<a name="l00123"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#a3">00123</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#a3">keyTranslate</a>( $key )
+<a name="l00123"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#a3.html">keyTranslate</a>( $key )
 00124     {
 00125         $trans = null;
 00126         <span class="dox_keywordflow">for</span> ( $i = 0; $i &lt; count( $this-&gt;Handlers ) and $trans === null; ++$i )
 00127         {
-00128             $handler =&amp; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#o0">Handlers</a>[$i];
+00128             $handler =&amp; $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#o0.html">Handlers</a>[$i];
 00129             <span class="dox_keywordflow">if</span> ( $handler-&gt;isKeyBased() )
 00130                 $trans =&amp; $handler-&gt;keyTranslate( $key );
 00131         }
 00132         <span class="dox_keywordflow">return</span> $trans;
 00133     }
 00134 
-<a name="l00140"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#a4">00140</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#a4">translate</a>( $context, $source, $comment = null )
+<a name="l00140"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#a4.html">translate</a>( $context, $source, $comment = null )
 00141     {
 00142         <span class="dox_keywordflow">if</span> ( !is_string( $context ) or $context == <span class="dox_stringliteral">""</span> )
 00143             $context = <span class="dox_stringliteral">"default"</span>;
@@ -212,37 +212,37 @@
 00146         $trans = null;
 00147         <span class="dox_keywordflow">for</span> ( $i = 0; $i &lt; count( $this-&gt;Handlers ) and $trans === null; ++$i )
 00148         {
-00149             $handler =&amp; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#o0">Handlers</a>[$i];
+00149             $handler =&amp; $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#o0.html">Handlers</a>[$i];
 00150             $trans =&amp; $handler-&gt;translate( $context, $source, $comment );
 00151         }
 00152         <span class="dox_keywordflow">return</span> $trans;
 00153     }
 00154 
-<a name="l00159"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d0">00159</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d0">instance</a>()
+<a name="l00159"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#d0.html">instance</a>()
 00160     {
-00161         $<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d0">instance</a> =&amp; $GLOBALS[<span class="dox_stringliteral">"eZTranslatorManagerInstance"</span>];
-00162         <span class="dox_keywordflow">if</span> ( get_class( $<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d0">instance</a> ) != <span class="dox_stringliteral">"eztranslatormanager"</span> )
+00161         $<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#d0">instance</a> =&amp; $GLOBALS[<span class="dox_stringliteral.html">"eZTranslatorManagerInstance"</span>];
+00162         <span class="dox_keywordflow">if</span> ( get_class( $<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#d0">instance</a> ) != <span class="dox_stringliteral.html">"eztranslatormanager"</span> )
 00163         {
-00164             $<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d0">instance</a> = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager">eZTranslatorManager</a>();
+00164             $<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager.html">eZTranslatorManager</a>();
 00165         }
-00166         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d0">instance</a>;
+00166         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#d0.html">instance</a>;
 00167     }
 00168 
-<a name="l00173"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d1">00173</a>     function <a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d1">registerHandler</a>( &amp;$handler )
+<a name="l00173"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#d1.html">registerHandler</a>( &amp;$handler )
 00174     {
 00175         <span class="dox_keywordflow">if</span> ( !isset( $<span class="dox_keyword">this</span> ) or get_class( $<span class="dox_keyword">this</span> ) != <span class="dox_stringliteral">"eztranslatormanager"</span> )
-00176             $<span class="dox_keyword">this</span> =&amp; <a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d0">eZTranslatorManager::instance</a>();
-00177         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#o0">Handlers</a>[] =&amp; $handler;
+00176             $<span class="dox_keyword">this</span> =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#d0.html">eZTranslatorManager::instance</a>();
+00177         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#o0.html">Handlers</a>[] =&amp; $handler;
 00178     }
 00179 
-<a name="l00184"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d2">00184</a>     function <a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d2">createKey</a>( $context, $source, $comment = null )
+<a name="l00184"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#d2.html">createKey</a>( $context, $source, $comment = null )
 00185     {
 00186         <span class="dox_keywordflow">if</span> ( $comment === null )
 00187             $comment = <span class="dox_stringliteral">""</span>;
 00188         <span class="dox_keywordflow">return</span> md5( <span class="dox_stringliteral">"$context\n$source\n$comment"</span> );
 00189     }
 00190 
-<a name="l00196"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d3">00196</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#d3">createMessage</a>( $context, $source, $comment = null, $translation = null )
+<a name="l00196"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#d3.html">createMessage</a>( $context, $source, $comment = null, $translation = null )
 00197     {
 00198         $msg = array( <span class="dox_stringliteral">"context"</span> =&gt; $context,
 00199                       <span class="dox_stringliteral">"source"</span> =&gt; $source,
@@ -251,7 +251,7 @@
 00202         <span class="dox_keywordflow">return</span> $msg;
 00203     }
 00204 
-<a name="l00207"></a><a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#o0">00207</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030823122942/http://ez.no/sdk/ref/view/class/eZTranslatorManager#o0">Handlers</a>;
+<a name="l00207"></a><a class="dox_code" href="/sdk/ref/view/class/eZTranslatorManager#o0.html">Handlers</a>;
 00208 }
 00209 
 00210 ?&gt;

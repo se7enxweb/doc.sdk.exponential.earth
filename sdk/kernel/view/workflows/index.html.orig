@@ -89,10 +89,10 @@
 <table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
     <td class="pathline" width="50%">
-    <a class="path" href="/web/20030823003031/http://ez.no/sdk/kernel/view/permissions" ">&lt;&lt; Permissions</a>&nbsp;
+    <a class="path" href="/web/20030823003031/http://ez.no/sdk/kernel/view/permissions">&lt;&lt; Permissions</a>&nbsp;
     </td>
     <td class="pathline" align="right" width="50%">
-    <a class="path" href="/web/20030823003031/http://ez.no/sdk/kernel/view/data_storage" ">Data storage &gt;&gt;</a>&nbsp;
+    <a class="path" href="/web/20030823003031/http://ez.no/sdk/kernel/view/data_storage">Data storage &gt;&gt;</a>&nbsp;
     </td>
 </tr>
 </table>

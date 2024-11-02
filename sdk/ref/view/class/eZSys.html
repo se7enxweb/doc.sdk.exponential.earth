@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -123,7 +123,7 @@
 <table width="100%" border="0">
 <tr><td colspan="2"><h1 class="dox">eZSys Class Reference<br>
 <small>
-[<a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/module/eZUtils">Utility classes</a>]</small>
+[<a class="dox_el" href="/sdk/ref/view/module/eZUtils.html">Utility classes</a>]</small>
 </h1>Easy access to various system settings. 
 <a href="eZSys.html#_details">More...</a>
 <p>
@@ -198,14 +198,14 @@ Easy access to various system settings.
 The system is checked to see whether a virtualhost-less setup is used and sets the appropriate variables which can be fetched with <a class="dox_el" href="eZSys.html#d8">siteDir()</a>, <a class="dox_el" href="eZSys.html#d9">wwwDir()</a> and <a class="dox_el" href="eZSys.html#d11">indexFile()</a>. It also detects file and enviroment separators, fetch them with <a class="dox_el" href="eZSys.html#d2">fileSeparator()</a> and <a class="dox_el" href="eZSys.html#d4">envSeparator()</a>. In addition userIndexFile(), adminIndexFile() and xmlrpcIndexFile() can be used to fetch the index file of the user page, admin page and xmlrpc interface.
 <p>
 Example: <div class="dox_fragment"><pre><span class="dox_comment">// Run the init in the index file</span>
-<a class="dox_code" href="eZSys.html#d19">eZSys::init</a>( <a class="dox_code" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>() );
+<a class="dox_code" href="eZSys.html#d19">eZSys::init</a>( <a class="dox_code" href="/sdk/ref/view/class/eZINI#d8.html">eZINI::instance</a>() );
 print( <a class="dox_code" href="eZSys.html#d11">eZSys::indexFile</a>() );
 print( <a class="dox_code" href="eZSys.html#d9">eZSys::wwwDir</a>() );
 </pre></div> 
 <p>
 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00062">62</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.<hr><h2>Constructor &amp; Destructor Documentation</h2>
 <a name="a0" doxytag="eZSys::eZSys"></a><p>
 <table width="100%" cellpadding="2" cellspacing="0" border="0">
   <tr>
@@ -233,11 +233,11 @@ Definition at line <a class="dox_el" href="http://web.archive.org/web/2003081712
 <p>
 Initializes the object with settings taken from the current script run. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00067">67</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00604">EnvSeparator</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00602">FileSeparator</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00616">FileSystemType</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00600">LineSeparator</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00600.html">LineSeparator</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.    </td>
   </tr>
 </table>
 <hr><h2>Member Function Documentation</h2>
@@ -270,9 +270,9 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 Sets the access path which is appended to the index file. <dl compact><dt><b>See also: </b></dt><dd>
 <a class="dox_el" href="eZSys.html#d11">indexFile</a> </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00438">438</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00608">AccessPath</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00357">path()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00357.html">path()</a>.    </td>
   </tr>
 </table>
 <a name="a9" doxytag="eZSys::attribute"></a><p>
@@ -303,9 +303,9 @@ References <a class="dox_el" href="http://web.archive.org/web/20030817123843/htt
 <p>
 Returns the attribute value for $attr or null if the attribute does not exist. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00404">404</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00254">indexDir()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00266">indexFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00232">siteDir()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00243">wwwDir()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00243.html">wwwDir()</a>.    </td>
   </tr>
 </table>
 <a name="a2" doxytag="eZSys::backupFilename"></a><p>
@@ -336,11 +336,11 @@ References <a class="dox_el" href="http://web.archive.org/web/20030817123843/htt
 <dl compact><dt><b>Returns: </b></dt><dd>
 the backup filename for this platform, returns .bak for win32 and ~ for unix and mac. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00159">159</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezini#l00574">eZINI::save()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezini#l00574.html">eZINI::save()</a>.    </td>
   </tr>
 </table>
 <a name="d7" doxytag="eZSys::cacheDirectory"></a><p>
@@ -372,11 +372,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 the directory used for storing cache files. </dl><dl compact><dt><b>Note: </b></dt><dd>
 This will include the <a class="dox_el" href="eZSys.html#d5">varDirectory()</a>. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00219">219</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdir#l00248">eZDir::path()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00192">varDirectory()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00192.html">varDirectory()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/eztranslationcache#l00103">eZTranslationCache::cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/eztemplatetreecache#l00159">eZTemplateTreeCache::cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00063">eZExpiryHandler::restore()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezexpiryhandler#l00078">eZExpiryHandler::store()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezexpiryhandler#l00078.html">eZExpiryHandler::store()</a>.    </td>
   </tr>
 </table>
 <a name="a6" doxytag="eZSys::environmentVariable"></a><p>
@@ -417,11 +417,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <dl compact><dt><b>Returns: </b></dt><dd>
 the variable named <em>$variableName</em> in the global <code>$_ENV</code> variable. If the variable is not present an error is shown and <code>null</code> is returned. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00366">366</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00366">environmentVariable()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezdebug#l00371.html">eZDebug::writeError()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00366">environmentVariable()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00366.html">environmentVariable()</a>.    </td>
   </tr>
 </table>
 <a name="d4" doxytag="eZSys::envSeparator"></a><p>
@@ -451,11 +451,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <p>
 Returns the string which is used for enviroment separators on the current OS (server). 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00181">181</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00604">EnvSeparator</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00475">init()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00475.html">init()</a>.    </td>
   </tr>
 </table>
 <a name="d2" doxytag="eZSys::fileSeparator"></a><p>
@@ -485,11 +485,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <p>
 Returns the string which is used for file separators on the current OS (server). 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00149">149</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00602">FileSeparator</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdir#l00183">eZDir::separator()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezdir#l00183.html">eZDir::separator()</a>.    </td>
   </tr>
 </table>
 <a name="d1" doxytag="eZSys::filesystemType"></a><p>
@@ -520,9 +520,9 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <dl compact><dt><b>Returns: </b></dt><dd>
 the filesystem type, either <code>"win32"</code> or <code>"unix"</code> </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00138">138</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00616">FileSystemType</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.    </td>
   </tr>
 </table>
 <a name="a8" doxytag="eZSys::hasAttribute"></a><p>
@@ -553,7 +553,7 @@ References <a class="dox_el" href="http://web.archive.org/web/20030817123843/htt
 <p>
 Return true if the attribute $attr is set. Available attributes are wwwdir, sitedir or indexfile 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00392">392</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.    </td>
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.    </td>
   </tr>
 </table>
 <a name="d13" doxytag="eZSys::hostname"></a><p>
@@ -583,11 +583,11 @@ Definition at line <a class="dox_el" href="http://web.archive.org/web/2003081712
 <p>
 Returns the current hostname. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00295">295</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00332">serverVariable()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00332.html">serverVariable()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezhttptool#l00242">eZHTTPTool::createRedirectUrl()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00304">serverPort()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00304.html">serverPort()</a>.    </td>
   </tr>
 </table>
 <a name="d10" doxytag="eZSys::indexDir"></a><p>
@@ -617,11 +617,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <p>
 The filepath for the index file. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00254">254</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00266">indexFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00243">wwwDir()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00243.html">wwwDir()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00404">attribute()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00404.html">attribute()</a>.    </td>
   </tr>
 </table>
 <a name="d11" doxytag="eZSys::indexFile"></a><p>
@@ -654,11 +654,11 @@ The filepath for the index file with the access path appended.
 <dl compact><dt><b>See also: </b></dt><dd>
 <a class="dox_el" href="eZSys.html#d12">indexFileName</a> </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00266">266</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00612">IndexFile</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00404">attribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00254">indexDir()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00254.html">indexDir()</a>.    </td>
   </tr>
 </table>
 <a name="d12" doxytag="eZSys::indexFileName"></a><p>
@@ -688,9 +688,9 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <p>
 The filepath for the index file. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00284">284</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00612">IndexFile</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.    </td>
   </tr>
 </table>
 <a name="d19" doxytag="eZSys::init"></a><p>
@@ -721,9 +721,9 @@ References <a class="dox_el" href="http://web.archive.org/web/20030817123843/htt
 <p>
 Initializes some variables according to some global PHP values. This function should be called once in the index file with the parameters stated in the parameter list. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00475">475</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00608">AccessPath</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00181">envSeparator()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00612">IndexFile</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00453">isDebugEnabled()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00614">RequestURI</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00568">requestURI()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00332">serverVariable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00606">SiteDir</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00232">siteDir()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdebug#l00331">eZDebug::writeNotice()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00610">WWWDir</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00243">wwwDir()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00243.html">wwwDir()</a>.    </td>
   </tr>
 </table>
 <a name="a11" doxytag="eZSys::initIni"></a><p>
@@ -755,9 +755,9 @@ References <a class="dox_el" href="http://web.archive.org/web/20030817123843/htt
 Initializes some variables which are read from site.ini <dl compact><dt><b>Warning: </b></dt><dd>
 Do not call this before <a class="dox_el" href="eZSys.html#d19">init()</a> </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00579">579</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.    </td>
   </tr>
 </table>
 <a name="d20" doxytag="eZSys::instance"></a><p>
@@ -787,11 +787,11 @@ References <a class="dox_el" href="http://web.archive.org/web/20030817123843/htt
 <p>
 Returns the only legal instance of the eZSys class. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">589</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00067">eZSys()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00438">addAccessPath()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00159">backupFilename()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezbinaryfiletype#l00153">eZBinaryFileType::deleteStoredObjectAttribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00181">envSeparator()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00149">fileSeparator()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00138">filesystemType()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00254">indexDir()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00266">indexFile()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00284">indexFileName()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00475">init()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00579">initIni()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00170">lineSeparator()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00127">osType()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00568">requestURI()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00232">siteDir()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezhttpfile#l00073">eZHTTPFile::storageDir()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00243">wwwDir()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00243.html">wwwDir()</a>.    </td>
   </tr>
 </table>
 <a name="d17" doxytag="eZSys::isDebugEnabled"></a><p>
@@ -822,9 +822,9 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <dl compact><dt><b>Returns: </b></dt><dd>
 true if debugging of internals is enabled, this will display which server variables are read. Set the option with <a class="dox_el" href="eZSys.html#d18">setIsDebugEnabled()</a>. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00453">453</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00475">init()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00475.html">init()</a>.    </td>
   </tr>
 </table>
 <a name="d3" doxytag="eZSys::lineSeparator"></a><p>
@@ -854,11 +854,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <p>
 Returns the string which is used for line separators on the current OS (server). 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00170">170</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00600">LineSeparator</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00600.html">LineSeparator</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezini#l00574">eZINI::save()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezini#l00574.html">eZINI::save()</a>.    </td>
   </tr>
 </table>
 <a name="d15" doxytag="eZSys::magickQuotes"></a><p>
@@ -888,7 +888,7 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <p>
 Returns true if magick quotes is enabled. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00323">323</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.    </td>
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.    </td>
   </tr>
 </table>
 <a name="d0" doxytag="eZSys::osType"></a><p>
@@ -919,9 +919,9 @@ Definition at line <a class="dox_el" href="http://web.archive.org/web/2003081712
 <dl compact><dt><b>Returns: </b></dt><dd>
 the os type, either <code>"win32"</code>, <code>"unix"</code> or <code>"mac"</code> </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00127">127</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00589.html">instance()</a>.    </td>
   </tr>
 </table>
 <a name="a5" doxytag="eZSys::path"></a><p>
@@ -953,11 +953,11 @@ References <a class="dox_el" href="http://web.archive.org/web/20030817123843/htt
 <dl compact><dt><b>Returns: </b></dt><dd>
 the path string for the server. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00357">357</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00332">serverVariable()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00332.html">serverVariable()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00438">addAccessPath()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00438.html">addAccessPath()</a>.    </td>
   </tr>
 </table>
 <a name="a10" doxytag="eZSys::requestURI"></a><p>
@@ -988,11 +988,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <dl compact><dt><b>Returns: </b></dt><dd>
 the URI used for parsing modules, views and parameters, may differ from $_SERVER['REQUEST_URI']. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00568">568</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00614">RequestURI</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00614.html">RequestURI</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00475">init()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00475.html">init()</a>.    </td>
   </tr>
 </table>
 <a name="d14" doxytag="eZSys::serverPort"></a><p>
@@ -1023,11 +1023,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <dl compact><dt><b>Returns: </b></dt><dd>
 the port of the server. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00304">304</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00295">hostname()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00332">serverVariable()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00332.html">serverVariable()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezhttptool#l00242">eZHTTPTool::createRedirectUrl()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezhttptool#l00242.html">eZHTTPTool::createRedirectUrl()</a>.    </td>
   </tr>
 </table>
 <a name="a3" doxytag="eZSys::serverVariable"></a><p>
@@ -1068,11 +1068,11 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <dl compact><dt><b>Returns: </b></dt><dd>
 the variable named <em>$variableName</em> in the global <code>$_SERVER</code> variable. If the variable is not present an error is shown and <code>null</code> is returned. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00332">332</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00332">serverVariable()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdebug#l00371">eZDebug::writeError()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezdebug#l00371.html">eZDebug::writeError()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezhttptool#l00242">eZHTTPTool::createRedirectUrl()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00295">hostname()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00475">init()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00357">path()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00304">serverPort()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00332">serverVariable()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdebug#l00763">eZDebug::updateSettings()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdebug#l00502">eZDebug::write()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdebug#l00645">eZDebug::writeFile()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezdebug#l00645.html">eZDebug::writeFile()</a>.    </td>
   </tr>
 </table>
 <a name="a7" doxytag="eZSys::setEnvironmentVariable"></a><p>
@@ -1113,7 +1113,7 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 Sets the environment variable named <em>$variableName</em> to <em>$variableValue</em>. <dl compact><dt><b>Note: </b></dt><dd>
 Variables are only set for the current page view. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00382">382</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.    </td>
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.    </td>
   </tr>
 </table>
 <a name="d18" doxytag="eZSys::setIsDebugEnabled"></a><p>
@@ -1144,7 +1144,7 @@ Definition at line <a class="dox_el" href="http://web.archive.org/web/2003081712
 <p>
 Sets whether internal debugging is enabled or not. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00464">464</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.    </td>
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.    </td>
   </tr>
 </table>
 <a name="a4" doxytag="eZSys::setServerVariable"></a><p>
@@ -1185,7 +1185,7 @@ Definition at line <a class="dox_el" href="http://web.archive.org/web/2003081712
 Sets the server variable named <em>$variableName</em> to <em>$variableValue</em>. <dl compact><dt><b>Note: </b></dt><dd>
 Variables are only set for the current page view. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00348">348</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.    </td>
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.    </td>
   </tr>
 </table>
 <a name="d8" doxytag="eZSys::siteDir"></a><p>
@@ -1215,11 +1215,11 @@ Definition at line <a class="dox_el" href="http://web.archive.org/web/2003081712
 <p>
 The path to where all the code resides. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00232">232</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00606">SiteDir</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00606.html">SiteDir</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00404">attribute()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00475">init()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00475.html">init()</a>.    </td>
   </tr>
 </table>
 <a name="d6" doxytag="eZSys::storageDirectory"></a><p>
@@ -1249,9 +1249,9 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <p>
 \ return the directory used for storing various kinds of files like images, audio and more. \Note This will include the <a class="dox_el" href="eZSys.html#d5">varDirectory()</a>. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00204">204</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdir#l00248">eZDir::path()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00192">varDirectory()</a>.    </td>
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00192.html">varDirectory()</a>.    </td>
   </tr>
 </table>
 <a name="d5" doxytag="eZSys::varDirectory"></a><p>
@@ -1282,11 +1282,11 @@ References <a class="dox_el" href="http://web.archive.org/web/20030817123843/htt
 <dl compact><dt><b>Returns: </b></dt><dd>
 the directory used for storing various kinds of files like cache, temporary files and logs. </dl>
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00192">192</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezini#l00902">eZINI::instance()</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezini#l00902.html">eZINI::instance()</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00219">cacheDirectory()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdebug#l00784">eZDebug::printReport()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00204">storageDirectory()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00204.html">storageDirectory()</a>.    </td>
   </tr>
 </table>
 <a name="d9" doxytag="eZSys::wwwDir"></a><p>
@@ -1316,15 +1316,15 @@ Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/
 <p>
 The relative directory path of the vhless setup. 
 <p>
-Definition at line <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00243">243</a> of file <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a>.
+Definition at line <a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a>.
 <p>
-References <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00589">instance()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00610">WWWDir</a>.
+References <a class="dox_el" href="/sdk/ref/view/source/ezsys#l00610.html">WWWDir</a>.
 <p>
-Referenced by <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00404">attribute()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/eztemplateimageoperator#l00061">eZTemplateImageOperator::eZTemplateImageOperator()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00254">indexDir()</a>, <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys#l00475">init()</a>, and <a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezdebug#l00784">eZDebug::printReport()</a>.    </td>
+Referenced by <a class="dox_el" href="/sdk/ref/view/source/ezdebug#l00784.html">eZDebug::printReport()</a>.    </td>
   </tr>
 </table>
 <hr>The documentation for this class was generated from the following file:<ul>
-<li><a class="dox_el" href="http://web.archive.org/web/20030817123843/http://ez.no/sdk/ref/view/source/ezsys">ezsys.php</a></ul>
+<li><a class="dox_el" href="/sdk/ref/view/source/ezsys.html">ezsys.php</a></ul>
 &nbsp;
 </td></tr>
 </table>

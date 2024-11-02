@@ -89,10 +89,10 @@
 <table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
     <td class="pathline" width="50%">
-    <a class="path" href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/workflows" ">&lt;&lt; Custom workflows</a>&nbsp;
+    <a class="path" href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/workflows">&lt;&lt; Custom workflows</a>&nbsp;
     </td>
     <td class="pathline" align="right" width="50%">
-    <a class="path" href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/publishworkflow" ">Approval workflow &gt;&gt;</a>&nbsp;
+    <a class="path" href="/web/20030628203614/http://www.ez.no/sdk/tutorials/view/publishworkflow">Approval workflow &gt;&gt;</a>&nbsp;
     </td>
 </tr>
 </table>

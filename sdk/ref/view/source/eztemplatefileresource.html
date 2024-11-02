@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -161,18 +161,18 @@
 00046 include_once( <span class="dox_stringliteral">"lib/eztemplate/classes/eztemplatetreecache.php"</span> );
 00047 include_once( <span class="dox_stringliteral">"lib/eztemplate/classes/eztemplateprocesscache.php"</span> );
 00048 
-<a name="l00049"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource">00049</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource">eZTemplateFileResource</a>
+<a name="l00049"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource.html">eZTemplateFileResource</a>
 00050 {
-<a name="l00056"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a0">00056</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a0">eZTemplateFileResource</a>( $name = <span class="dox_stringliteral">"file"</span>, $servesStaticData = <span class="dox_keyword">true</span> )
+<a name="l00056"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a0">eZTemplateFileResource</a>( $name = <span class="dox_stringliteral">"file"</span>, $servesStaticData = <span class="dox_keyword.html">true</span> )
 00057     {
-00058         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o0">Name</a> = $name;
-00059         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o1">ServesStaticData</a> = $servesStaticData;
-00060         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o2">TemplateCache</a> = array();
+00058         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#o0.html">Name</a> = $name;
+00059         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#o1.html">ServesStaticData</a> = $servesStaticData;
+00060         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#o2.html">TemplateCache</a> = array();
 00061     }
 00062 
-<a name="l00066"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">00066</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">resourceName</a>()
+<a name="l00066"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a1.html">resourceName</a>()
 00067     {
-00068         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o0">Name</a>;
+00068         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#o0.html">Name</a>;
 00069     }
 00070 
 00071     <span class="dox_comment">/*</span>
@@ -181,28 +181,28 @@
 00074 <span class="dox_comment">    */</span>
 00075     function servesStaticData()
 00076     {
-00077         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o1">ServesStaticData</a>;
+00077         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#o1.html">ServesStaticData</a>;
 00078     }
 00079 
-<a name="l00089"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">00089</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, &amp;$extraParameters )
+<a name="l00089"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a3.html">cacheKey</a>( $keyData, $res, $templatePath, &amp;$extraParameters )
 00090     {
 00091         $key = md5( $keyData );
 00092         <span class="dox_keywordflow">return</span> $key;
 00093     }
 00094 
-<a name="l00098"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a4">00098</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a4">hasCachedProcessTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, $timestamp )
+<a name="l00098"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a4.html">hasCachedProcessTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, $timestamp )
 00099     {
 00100         <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
-00101         $key = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
-00102         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d4">eZTemplateTreeCache::canRestoreCache</a>( $key, $timestamp ) )
-00103             <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d5">eZTemplateTreeCache::restoreCache</a>( $key );
-00104         <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d1">eZTemplateTreeCache::cachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters );
+00101         $key = $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a3.html">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
+00102         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/sdk/ref/view/class/eZTemplateTreeCache#d4.html">eZTemplateTreeCache::canRestoreCache</a>( $key, $timestamp ) )
+00103             <a class="dox_code" href="/sdk/ref/view/class/eZTemplateTreeCache#d5.html">eZTemplateTreeCache::restoreCache</a>( $key );
+00104         <span class="dox_keywordflow">return</span> <a class="dox_code" href="/sdk/ref/view/class/eZTemplateTreeCache#d1.html">eZTemplateTreeCache::cachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters );
 00105     }
 00106 
-<a name="l00110"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a5">00110</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a5">generateProcessCache</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$resourceData )
+<a name="l00110"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a5.html">generateProcessCache</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$resourceData )
 00111     {
-00112         <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( '<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a5">generateProcessCache</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$resourceData )', 'eztemplatefileresource' );
-00113         $key = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
+00112         <a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a5.html">generateProcessCache</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$resourceData )', 'eztemplatefileresource' );
+00113         $key = $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a3.html">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
 00114         <span class="dox_keywordflow">return</span> eZTemplateProcessCache::generateCache( $key, $resourceData );
 00115     }
 00116 
@@ -211,36 +211,36 @@
 00119         <span class="dox_keywordflow">return</span> eZTemplateProcessCache::isCacheEnabled();
 00120     }
 00121 
-<a name="l00125"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a7">00125</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a7">cachedTemplateTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, $timestamp )
+<a name="l00125"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a7.html">cachedTemplateTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, $timestamp )
 00126     {
-00127         $key = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
-00128         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d4">eZTemplateTreeCache::canRestoreCache</a>( $key, $timestamp ) )
-00129             <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d5">eZTemplateTreeCache::restoreCache</a>( $key );
-00130         <span class="dox_keywordflow">return</span> <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d1">eZTemplateTreeCache::cachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters );
+00127         $key = $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a3.html">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
+00128         <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/sdk/ref/view/class/eZTemplateTreeCache#d4.html">eZTemplateTreeCache::canRestoreCache</a>( $key, $timestamp ) )
+00129             <a class="dox_code" href="/sdk/ref/view/class/eZTemplateTreeCache#d5.html">eZTemplateTreeCache::restoreCache</a>( $key );
+00130         <span class="dox_keywordflow">return</span> <a class="dox_code" href="/sdk/ref/view/class/eZTemplateTreeCache#d1.html">eZTemplateTreeCache::cachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters );
 00131     }
 00132 
-<a name="l00136"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a8">00136</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a8">setCachedTemplateTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$root )
+<a name="l00136"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a8.html">setCachedTemplateTree</a>( $keyData, $uri, $res, $templatePath, &amp;$extraParameters, &amp;$root )
 00137     {
-00138         $key = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a3">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
-00139         <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#a0">eZTemplateTreeCache::setCachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters, $root );
-00140         <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateTreeCache#d6">eZTemplateTreeCache::storeCache</a>( $key );
+00138         $key = $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a3.html">cacheKey</a>( $keyData, $res, $templatePath, $extraParameters );
+00139         <a class="dox_code" href="/sdk/ref/view/class/eZTemplateTreeCache#a0.html">eZTemplateTreeCache::setCachedTree</a>( $key, $uri, $res, $templatePath, $extraParameters, $root );
+00140         <a class="dox_code" href="/sdk/ref/view/class/eZTemplateTreeCache#d6.html">eZTemplateTreeCache::storeCache</a>( $key );
 00141     }
 00142 
 00147 <span class="dox_comment">//     function handleResource( &amp;$tpl, &amp;$templateRoot, &amp;$text, &amp;$tstamp, $uri, $resourceName, &amp;$path, &amp;$keyData, $method, &amp;$extraParameters )</span>
-<a name="l00148"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a9">00148</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a9">handleResource</a>( &amp;$tpl, &amp;$resourceData, $method, &amp;$extraParameters )
+<a name="l00148"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a9.html">handleResource</a>( &amp;$tpl, &amp;$resourceData, $method, &amp;$extraParameters )
 00149     {
-00150         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#d0">handleResourceData</a>( $tpl, $<span class="dox_keyword">this</span>, $resourceData, $method, $extraParameters );
+00150         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#d0">handleResourceData</a>( $tpl, $<span class="dox_keyword.html">this</span>, $resourceData, $method, $extraParameters );
 00151     }
 00152 
 00160 <span class="dox_comment">//     function handleResourceData( &amp;$tpl, &amp;$handler, &amp;$templateRoot, &amp;$text, &amp;$tstamp, $uri, $resourceName, &amp;$path, &amp;$keyData, $method, &amp;$extraParameters )</span>
-<a name="l00161"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#d0">00161</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#d0">handleResourceData</a>( &amp;$tpl, &amp;$handler, &amp;$resourceData, $method, &amp;$extraParameters )
+<a name="l00161"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#d0.html">handleResourceData</a>( &amp;$tpl, &amp;$handler, &amp;$resourceData, $method, &amp;$extraParameters )
 00162     {
 00163         <span class="dox_comment">// &amp;$templateRoot, &amp;$text, &amp;$tstamp, $uri, $resourceName, &amp;$path, &amp;$keyData</span>
 00164         $templateRoot =&amp; $resourceData['root-node'];
 00165         $text =&amp; $resourceData['text'];
 00166         $tstamp =&amp; $resourceData['time-stamp'];
 00167         $uri =&amp; $resourceData['uri'];
-00168         $<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">resourceName</a> =&amp; $resourceData['resource'];
+00168         $<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a1.html">resourceName</a> =&amp; $resourceData['resource'];
 00169         $path =&amp; $resourceData['<span class="dox_keyword">template</span>-filename'];
 00170         $keyData =&amp; $resourceData['key-data'];
 00171 
@@ -257,11 +257,11 @@
 00182         {
 00183             <span class="dox_keywordflow">if</span> ( $canCache )
 00184             {
-00185                 <span class="dox_keywordflow">if</span> ( $handler-&gt;hasCachedProcessTree( $keyData, $uri, $<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">resourceName</a>, $path, $extraParameters, $tstamp ) )
+00185                 <span class="dox_keywordflow">if</span> ( $handler-&gt;hasCachedProcessTree( $keyData, $uri, $<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a1.html">resourceName</a>, $path, $extraParameters, $tstamp ) )
 00186                      $resourceData['process-cache'] = <span class="dox_keyword">true</span>;
 00187             }
 00188             <span class="dox_keywordflow">if</span> ( $canCache )
-00189                 $templateRoot = $handler-&gt;cachedTemplateTree( $keyData, $uri, $<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#a1">resourceName</a>, $path, $extraParameters, $tstamp );
+00189                 $templateRoot = $handler-&gt;cachedTemplateTree( $keyData, $uri, $<a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#a1.html">resourceName</a>, $path, $extraParameters, $tstamp );
 00190 
 00191             <span class="dox_keywordflow">if</span> ( $templateRoot !== null )
 00192                 <span class="dox_keywordflow">return</span> <span class="dox_keyword">true</span>;
@@ -295,14 +295,14 @@
 00220                         }
 00221                     }
 00222                 }
-00223                 <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplate#d1">eZTemplate::isDebugEnabled</a>() )
-00224                     <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"$path, $charset"</span> );
+00223                 <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/sdk/ref/view/class/eZTemplate#d1.html">eZTemplate::isDebugEnabled</a>() )
+00224                     <a class="dox_code" href="/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral.html">"$path, $charset"</span> );
 00225                 $codec =&amp; eZTextCodec::instance( $charset );
-00226                 <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'templage_resource_conversion', 'template_total', 'String conversion in <span class="dox_keyword">template</span> resource' );
+00226                 <a class="dox_code" href="/sdk/ref/view/class/eZDebug#a17">eZDebug::accumulatorStart</a>( 'templage_resource_conversion', 'template_total', 'String conversion in <span class="dox_keyword.html">template</span> resource' );
 00227                 $text = $codec-&gt;convertString( $text );
-00228                 <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'templage_resource_conversion', 'template_total', 'String conversion in <span class="dox_keyword">template</span> resource' );
+00228                 <a class="dox_code" href="/sdk/ref/view/class/eZDebug#a18">eZDebug::accumulatorStop</a>( 'templage_resource_conversion', 'template_total', 'String conversion in <span class="dox_keyword.html">template</span> resource' );
 00229                 $result = <span class="dox_keyword">true</span>;
-00230                 <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplate#d1">eZTemplate::isDebugEnabled</a>() )
+00230                 <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/sdk/ref/view/class/eZTemplate#d1.html">eZTemplate::isDebugEnabled</a>() )
 00231                 {
 00232                     $text = <span class="dox_stringliteral">"&lt;!-- including template $path --&gt;\n&lt;p class=\"small\"&gt;$path&lt;/p&gt;&lt;br/&gt;\n"</span> . $text;
 00233                 }
@@ -313,9 +313,9 @@
 00238         <span class="dox_keywordflow">return</span> $result;
 00239     }
 00240 
-<a name="l00243"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o0">00243</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o0">Name</a>;
-<a name="l00245"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o1">00245</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o1">ServesStaticData</a>;
-<a name="l00247"></a><a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o2">00247</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817141120/http://ez.no/sdk/ref/view/class/eZTemplateFileResource#o2">TemplateCache</a>;
+<a name="l00243"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#o0.html">Name</a>;
+<a name="l00245"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#o1.html">ServesStaticData</a>;
+<a name="l00247"></a><a class="dox_code" href="/sdk/ref/view/class/eZTemplateFileResource#o2.html">TemplateCache</a>;
 00248 }
 00249 
 00250 ?&gt;

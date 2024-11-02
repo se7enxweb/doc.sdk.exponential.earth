@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk/.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -161,9 +161,9 @@
 00050 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezsession.php"</span> );
 00051 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezsys.php"</span> );
 00052 
-<a name="l00053"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool">00053</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool">eZHTTPTool</a>
+<a name="l00053"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool.html">eZHTTPTool</a>
 00054 {
-<a name="l00058"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a0">00058</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a0">eZHTTPTool</a>()
+<a name="l00058"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a0.html">eZHTTPTool</a>()
 00059     {
 00060         $magicQuote = get_magic_quotes_gpc();
 00061 
@@ -173,55 +173,55 @@
 00065         }
 00066     }
 00067 
-<a name="l00072"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a1">00072</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a1">setPostVariable</a>( $var, $value )
+<a name="l00072"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a1.html">setPostVariable</a>( $var, $value )
 00073     {
 00074         $post_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>];
 00075         $post_vars[$var] =&amp; $value;
 00076     }
 00077 
-<a name="l00082"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a2">00082</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a2">postVariable</a>( $var )
+<a name="l00082"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a2.html">postVariable</a>( $var )
 00083     {
 00084         $post_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>];
 00085         $ret = null;
 00086         <span class="dox_keywordflow">if</span> ( isset( $post_vars[$var] ) )
 00087             $ret =&amp; $post_vars[$var];
 00088         <span class="dox_keywordflow">else</span>
-00089             <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZDebug#d3">eZDebug::writeWarning</a>( <span class="dox_stringliteral">"Undefined post variable: $var"</span>,
+00089             <a class="dox_code" href="/sdk/ref/view/class/eZDebug#d3">eZDebug::writeWarning</a>( <span class="dox_stringliteral.html">"Undefined post variable: $var"</span>,
 00090                                    <span class="dox_stringliteral">"eZHTTPTool"</span> );
 00091         <span class="dox_keywordflow">return</span> $ret;
 00092     }
 00093 
-<a name="l00098"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a3">00098</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a3">hasPostVariable</a>( $var )
+<a name="l00098"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a3.html">hasPostVariable</a>( $var )
 00099     {
 00100         $post_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>];
 00101         <span class="dox_keywordflow">return</span> isset( $post_vars[$var] );
 00102     }
 00103 
-<a name="l00108"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a4">00108</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a4">setGetVariable</a>( $var, $value )
+<a name="l00108"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a4.html">setGetVariable</a>( $var, $value )
 00109     {
 00110         $get_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"_GET"</span>];
 00111         $get_vars[$var] =&amp; $value;
 00112     }
 00113 
-<a name="l00118"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a5">00118</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a5">getVariable</a>( $var )
+<a name="l00118"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a5.html">getVariable</a>( $var )
 00119     {
 00120         $get_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"_GET"</span>];
 00121         $ret = null;
 00122         <span class="dox_keywordflow">if</span> ( isset( $get_vars[$var] ) )
 00123             $ret =&amp; $get_vars[$var];
 00124         <span class="dox_keywordflow">else</span>
-00125             <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZDebug#d3">eZDebug::writeWarning</a>( <span class="dox_stringliteral">"Undefined get variable: $var"</span>,
+00125             <a class="dox_code" href="/sdk/ref/view/class/eZDebug#d3">eZDebug::writeWarning</a>( <span class="dox_stringliteral.html">"Undefined get variable: $var"</span>,
 00126                                    <span class="dox_stringliteral">"eZHTTPTool"</span> );
 00127         <span class="dox_keywordflow">return</span> $ret;
 00128     }
 00129 
-<a name="l00134"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a6">00134</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a6">hasGetVariable</a>( $var )
+<a name="l00134"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a6.html">hasGetVariable</a>( $var )
 00135     {
 00136         $get_vars =&amp; $GLOBALS[<span class="dox_stringliteral">"_GET"</span>];
 00137         <span class="dox_keywordflow">return</span> isset( $get_vars[$var] );
 00138     }
 00139 
-<a name="l00144"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a7">00144</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a7">hasVariable</a>( $var )
+<a name="l00144"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a7.html">hasVariable</a>( $var )
 00145     {
 00146 
 00147         <span class="dox_keywordflow">if</span> ( isset( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$var] ) )
@@ -232,7 +232,7 @@
 00152         }
 00153     }
 00154 
-<a name="l00159"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a8">00159</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a8">variable</a>( $var )
+<a name="l00159"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a8.html">variable</a>( $var )
 00160     {
 00161         <span class="dox_keywordflow">if</span> ( isset( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$var] ) )
 00162             <span class="dox_keywordflow">return</span> $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$var];
@@ -245,17 +245,17 @@
 00169         }
 00170     }
 00171 
-<a name="l00175"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a9">00175</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a9">attributes</a>()
+<a name="l00175"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a9.html">attributes</a>()
 00176     {
 00177         <span class="dox_keywordflow">return</span> array( <span class="dox_stringliteral">"post"</span>, <span class="dox_stringliteral">"get"</span>, <span class="dox_stringliteral">"session"</span> );
 00178     }
 00179 
-<a name="l00183"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a10">00183</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a10">hasAttribute</a>( $attr )
+<a name="l00183"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a10.html">hasAttribute</a>( $attr )
 00184     {
 00185         <span class="dox_keywordflow">return</span> $attr == <span class="dox_stringliteral">"post"</span> or $attr == <span class="dox_stringliteral">"get"</span> or $attr == <span class="dox_stringliteral">"session"</span>;
 00186     }
 00187 
-<a name="l00191"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a11">00191</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a11">attribute</a>( $attr )
+<a name="l00191"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a11.html">attribute</a>( $attr )
 00192     {
 00193         <span class="dox_keywordflow">if</span> ( $attr == <span class="dox_stringliteral">"post"</span> )
 00194             <span class="dox_keywordflow">return</span> $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>];
@@ -269,18 +269,18 @@
 00202         <span class="dox_keywordflow">return</span> null;
 00203     }
 00204 
-<a name="l00208"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">00208</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a>()
+<a name="l00208"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a12.html">instance</a>()
 00209     {
-00210         $<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a> =&amp; $GLOBALS[<span class="dox_stringliteral">"eZHTTPToolInstance"</span>];
-00211         <span class="dox_keywordflow">if</span> ( get_class( $<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a> ) != <span class="dox_stringliteral">"ezhttptool"</span> )
+00210         $<a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a12">instance</a> =&amp; $GLOBALS[<span class="dox_stringliteral.html">"eZHTTPToolInstance"</span>];
+00211         <span class="dox_keywordflow">if</span> ( get_class( $<a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a12">instance</a> ) != <span class="dox_stringliteral.html">"ezhttptool"</span> )
 00212         {
-00213             $<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a> = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a0">eZHTTPTool</a>();
-00214             $<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a>-&gt;createPostVarsFromImageButtons();
+00213             $<a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a0.html">eZHTTPTool</a>();
+00214             $<a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a12.html">instance</a>-&gt;createPostVarsFromImageButtons();
 00215         }
-00216         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a12">instance</a>;
+00216         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a12.html">instance</a>;
 00217     }
 00218 
-<a name="l00242"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d0">00242</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d0">createRedirectUrl</a>( $path, $parameters = array() )
+<a name="l00242"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#d0.html">createRedirectUrl</a>( $path, $parameters = array() )
 00243     {
 00244         $parameters = array_merge( array( 'host' =&gt; <span class="dox_keyword">false</span>,
 00245                                           'protocol' =&gt; <span class="dox_keyword">false</span>,
@@ -313,7 +313,7 @@
 00272             <span class="dox_keywordflow">if</span> ( strlen( $path ) &gt; 0 and
 00273                  $path[0] != <span class="dox_charliteral">'/'</span> )
 00274             {
-00275                 $preURL = <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZSys#a3">eZSys::serverVariable</a>( 'SCRIPT_URL' );
+00275                 $preURL = <a class="dox_code" href="/sdk/ref/view/class/eZSys#a3.html">eZSys::serverVariable</a>( 'SCRIPT_URL' );
 00276                 <span class="dox_keywordflow">if</span> ( strlen( $preURL ) &gt; 0 and
 00277                      $preURL[strlen($preURL) - 1] != <span class="dox_charliteral">'/'</span> )
 00278                     $preURL .= <span class="dox_charliteral">'/'</span>;
@@ -322,21 +322,21 @@
 00281         }
 00282 
 00283         <span class="dox_keywordflow">if</span> ( !is_string( $host ) )
-00284             $host = <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZSys#d13">eZSys::hostname</a>();
+00284             $host = <a class="dox_code" href="/sdk/ref/view/class/eZSys#d13.html">eZSys::hostname</a>();
 00285         <span class="dox_keywordflow">if</span> ( !is_string( $protocol ) )
 00286         {
 00287             $protocol = 'http';
 00288             <span class="dox_comment">// Default to https if SSL is enabled</span>
 00289 
 00290             <span class="dox_comment">// Check if SSL port is defined in site.ini</span>
-00291             $ini =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
+00291             $ini =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZINI#d8.html">eZINI::instance</a>();
 00292             $sslPort = 443;
 00293             <span class="dox_keywordflow">if</span> ( $ini-&gt;hasVariable( 'SiteSettings', 'SSLPort' ) )
 00294             {
 00295                 $sslPort = $ini-&gt;variable( 'SiteSettings', 'SSLPort' );
 00296             }
 00297 
-00298             <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZSys#d14">eZSys::serverPort</a>() == $sslPort )
+00298             <span class="dox_keywordflow">if</span> ( <a class="dox_code" href="/sdk/ref/view/class/eZSys#d14.html">eZSys::serverPort</a>() == $sslPort )
 00299             {
 00300                 $protocol = 'https';
 00301             }
@@ -359,11 +359,11 @@
 00318 
 00319     function redirect( $path, $parameters = array() )
 00320     {
-00321         $uri = <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d0">eZHTTPTool::createRedirectUrl</a>( $path, $parameters );
-00322         <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d1">eZHTTPTool::headerVariable</a>( 'Location', $uri );
+00321         $uri = <a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#d0.html">eZHTTPTool::createRedirectUrl</a>( $path, $parameters );
+00322         <a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#d1.html">eZHTTPTool::headerVariable</a>( 'Location', $uri );
 00323     }
 00324 
-<a name="l00330"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#d1">00330</a>     function headerVariable( $headerName, $headerData )
+<a name="l00330"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#d1.html">00330</a>     function headerVariable( $headerName, $headerData )
 00331     {
 00332         header( <span class="dox_stringliteral">"$headerName: $headerData"</span> );
 00333     }
@@ -404,19 +404,19 @@
 00368                         $value =  $matches[1];
 00369                         $keyClean = preg_replace( <span class="dox_stringliteral">"/(_\d+)$/"</span>,<span class="dox_stringliteral">""</span>, $keyClean );
 00370                         $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean] = $value;
-00371                         <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean], <span class="dox_stringliteral">"We have create new  Post Var with name $keyClean and value $value:"</span> );
+00371                         <a class="dox_code" href="/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean], <span class="dox_stringliteral.html">"We have create new  Post Var with name $keyClean and value $value:"</span> );
 00372                     }
 00373                     <span class="dox_keywordflow">else</span>
 00374                     {
 00375                         $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean] = <span class="dox_keyword">true</span>;
-00376                         <a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean], <span class="dox_stringliteral">"We have create new  Post Var with name $keyClean and value true:"</span> );
+00376                         <a class="dox_code" href="/sdk/ref/view/class/eZDebug#d5">eZDebug::writeDebug</a>( $GLOBALS[<span class="dox_stringliteral">"HTTP_POST_VARS"</span>][$keyClean], <span class="dox_stringliteral.html">"We have create new  Post Var with name $keyClean and value true:"</span> );
 00377                     }
 00378                 }
 00379             }
 00380         }
 00381     }
 00382 
-<a name="l00386"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a16">00386</a>     function getSessionKey()
+<a name="l00386"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a16.html">00386</a>     function getSessionKey()
 00387     {
 00388         eZSessionStart();
 00389         <span class="dox_keywordflow">return</span> session_id();
@@ -436,27 +436,27 @@
 00403         $HTTP_SESSION_VARS[$name] =&amp; $value;
 00404     }
 00405 
-<a name="l00409"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a19">00409</a>     function removeSessionVariable( $name )
+<a name="l00409"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a19.html">00409</a>     function removeSessionVariable( $name )
 00410     {
 00411         eZSessionStart();
 00412         session_unregister( $name );
 00413     }
 00414 
-<a name="l00418"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a20">00418</a>     function hasSessionVariable( $name )
+<a name="l00418"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a20.html">00418</a>     function hasSessionVariable( $name )
 00419     {
 00420         eZSessionStart();
 00421         global $HTTP_SESSION_VARS;
 00422         <span class="dox_keywordflow">return</span> isset( $HTTP_SESSION_VARS[$name] );
 00423     }
 00424 
-<a name="l00428"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a21">00428</a>     function &amp;sessionVariable( $name )
+<a name="l00428"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a21.html">00428</a>     function &amp;sessionVariable( $name )
 00429     {
 00430         eZSessionStart();
 00431         global $HTTP_SESSION_VARS;
 00432         <span class="dox_keywordflow">return</span> $HTTP_SESSION_VARS[$name];
 00433     }
 00434 
-<a name="l00438"></a><a class="dox_code" href="http://web.archive.org/web/20030707232124/http://www.ez.no/sdk/ref/view/class/eZHTTPTool#a22">00438</a>     function sessionID()
+<a name="l00438"></a><a class="dox_code" href="/sdk/ref/view/class/eZHTTPTool#a22.html">00438</a>     function sessionID()
 00439     {
 00440         eZSessionStart();
 00441         <span class="dox_keywordflow">return</span> session_id();

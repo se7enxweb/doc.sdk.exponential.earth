@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk/.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -172,9 +172,9 @@
 00057 
 00058 define( 'EZ_DB_ERROR_MISSING_EXTENSION', 1 );
 00059 
-<a name="l00060"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface">00060</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface">eZDBInterface</a>
+<a name="l00060"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface.html">eZDBInterface</a>
 00061 {
-<a name="l00065"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a0">00065</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a0">eZDBInterface</a>( $parameters )
+<a name="l00065"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a0.html">eZDBInterface</a>( $parameters )
 00066     {
 00067         $server = $parameters['server'];
 00068         $user = $parameters['user'];
@@ -185,120 +185,120 @@
 00073         $slaveUser = $parameters['slave_user'];
 00074         $slavePassword = $parameters['slave_password'];
 00075         $slaveDB =  $parameters['slave_database'];
-00076         $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a> = $parameters['socket'];
-00077         $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a10">charset</a> = $parameters['<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a10">charset</a>'];
+00076         $<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a3.html">socketPath</a> = $parameters['socket'];
+00077         $<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a10.html">charset</a>'];
 00078         $builtinEncoding = $parameters['builtin_encoding'];
 00079         $connectRetries = $parameters['connect_retries'];
 00080 
 00081         <span class="dox_keywordflow">if</span> ( $parameters['use_persistent_connection'] == 'enabled' )
 00082         {
-00083             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n20">UsePersistentConnection</a> = <span class="dox_keyword">true</span>;
+00083             $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n20">UsePersistentConnection</a> = <span class="dox_keyword.html">true</span>;
 00084         }
 00085 
-00086         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n2">DB</a> = $db;
-00087         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n0">Server</a> = $server;
-00088         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n1">SocketPath</a> = $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a>;
-00089         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n5">User</a> = $user;
-00090         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n6">Password</a> = $password;
+00086         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n2.html">DB</a> = $db;
+00087         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n0.html">Server</a> = $server;
+00088         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a3.html">socketPath</a>;
+00089         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n5.html">User</a> = $user;
+00090         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n6.html">Password</a> = $password;
 00091         $this-&gt;UseSlaveServer = $useSlaveServer;
-00092         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n22">SlaveDB</a> = $slaveDB;
-00093         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n23">SlaveServer</a> = $slaveServer;
-00094         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n24">SlaveUser</a> = $slaveUser;
-00095         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n25">SlavePassword</a> = $slavePassword;
-00096         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n7">Charset</a> = $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a10">charset</a>;
-00097         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n10">UseBuiltinEncoding</a> = $builtinEncoding;
-00098         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n8">ConnectRetries</a> = $connectRetries;
-00099         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n3">DBConnection</a> = <span class="dox_keyword">false</span>;
-00100         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n4">DBWriteConnection</a> = <span class="dox_keyword">false</span>;
+00092         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n22.html">SlaveDB</a> = $slaveDB;
+00093         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n23.html">SlaveServer</a> = $slaveServer;
+00094         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n24.html">SlaveUser</a> = $slaveUser;
+00095         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n25.html">SlavePassword</a> = $slavePassword;
+00096         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a10.html">charset</a>;
+00097         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n10.html">UseBuiltinEncoding</a> = $builtinEncoding;
+00098         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n8.html">ConnectRetries</a> = $connectRetries;
+00099         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n3">DBConnection</a> = <span class="dox_keyword.html">false</span>;
+00100         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n4">DBWriteConnection</a> = <span class="dox_keyword.html">false</span>;
 00101 
-00102         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n10">UseBuiltinEncoding</a> )
+00102         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n10.html">UseBuiltinEncoding</a> )
 00103         {
 00104             include_once( <span class="dox_stringliteral">"lib/ezi18n/classes/eztextcodec.php"</span> );
-00105             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n9">OutputTextCodec</a> =&amp; eZTextCodec::instance( $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a10">charset</a> );
-00106             $this-&gt;InputTextCodec =&amp; eZTextCodec::instance( <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZTextCodec#d1">eZTextCodec::internalCharset</a>(), $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a10">charset</a> );
+00105             $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a10.html">charset</a> );
+00106             $this-&gt;InputTextCodec =&amp; eZTextCodec::instance( <a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a10.html">charset</a> );
 00107         }
 00108 
-00109         $ini =&amp; <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZINI#d8">eZINI::instance</a>();
-00110         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n11">OutputSQL</a> = $ini-&gt;variable( <span class="dox_stringliteral">"DatabaseSettings"</span>, <span class="dox_stringliteral">"SQLOutput"</span> ) == <span class="dox_stringliteral">"enabled"</span>;
+00109         $ini =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZINI#d8.html">eZINI::instance</a>();
+00110         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n11">OutputSQL</a> = $ini-&gt;variable( <span class="dox_stringliteral">"DatabaseSettings"</span>, <span class="dox_stringliteral">"SQLOutput"</span> ) == <span class="dox_stringliteral.html">"enabled"</span>;
 00111 
-00112         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n12">IsConnected</a> = <span class="dox_keyword">false</span>;
-00113         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n13">NumQueries</a> = 0;
-00114         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n14">StartTime</a> = <span class="dox_keyword">false</span>;
-00115         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n15">EndTime</a> = <span class="dox_keyword">false</span>;
-00116         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n16">TimeTaken</a> = <span class="dox_keyword">false</span>;
+00112         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n12">IsConnected</a> = <span class="dox_keyword.html">false</span>;
+00113         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n13.html">NumQueries</a> = 0;
+00114         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n14">StartTime</a> = <span class="dox_keyword.html">false</span>;
+00115         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n15">EndTime</a> = <span class="dox_keyword.html">false</span>;
+00116         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n16">TimeTaken</a> = <span class="dox_keyword.html">false</span>;
 00117     }
 00118 
-<a name="l00123"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c0">00123</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c0">reportQuery</a>( $<span class="dox_keyword">class</span>, $sql, $numRows, $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c5">timeTaken</a> )
+<a name="l00123"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#c5.html">timeTaken</a> )
 00124     {
 00125         $rowText = '';
 00126         <span class="dox_keywordflow">if</span> ( $numRows !== <span class="dox_keyword">false</span> )
 00127             $rowText = <span class="dox_stringliteral">"$numRows rows, "</span>;
-00128         <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDebug#d2">eZDebug::writeNotice</a>( <span class="dox_stringliteral">"$sql"</span>, <span class="dox_stringliteral">"$class::query($rowText"</span> . number_format( $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c5">timeTaken</a>, 3 ) . <span class="dox_stringliteral">" ms) query number per page:"</span> . $this-&gt;NumQueries++ );
+00128         <a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#c5">timeTaken</a>, 3 ) . <span class="dox_stringliteral.html">" ms) query number per page:"</span> . $this-&gt;NumQueries++ );
 00129     }
 00130 
-<a name="l00134"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a1">00134</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a1">setIsSQLOutputEnabled</a>( $enabled )
+<a name="l00134"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a1.html">setIsSQLOutputEnabled</a>( $enabled )
 00135     {
-00136         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n11">OutputSQL</a> = $enabled;
+00136         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n11.html">OutputSQL</a> = $enabled;
 00137     }
 00138 
-<a name="l00144"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c1">00144</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c1">startTimer</a>()
+<a name="l00144"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#c1.html">startTimer</a>()
 00145     {
-00146         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n14">StartTime</a> = microtime();
+00146         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n14.html">StartTime</a> = microtime();
 00147     }
 00148 
-<a name="l00154"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c2">00154</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c2">endTimer</a>()
+<a name="l00154"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#c2.html">endTimer</a>()
 00155     {
-00156         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n15">EndTime</a> = microtime();
+00156         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n15.html">EndTime</a> = microtime();
 00157         <span class="dox_comment">// Calculate time taken in ms</span>
 00158         list($usec, $sec) = explode( <span class="dox_stringliteral">" "</span>, $this-&gt;StartTime );
 00159         $start_val = ((float)$usec + (float)$sec);
 00160         list($usec, $sec) = explode( <span class="dox_stringliteral">" "</span>, $this-&gt;EndTime );
 00161         $end_val = ((float)$usec + (float)$sec);
-00162         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n16">TimeTaken</a> = $end_val - $start_val;
-00163         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n16">TimeTaken</a> *= 1000.0;
+00162         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n16.html">TimeTaken</a> = $end_val - $start_val;
+00163         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n16.html">TimeTaken</a> *= 1000.0;
 00164     }
 00165 
-<a name="l00170"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c3">00170</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c3">startTime</a>()
+<a name="l00170"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#c3.html">startTime</a>()
 00171     {
-00172         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n14">StartTime</a>;
+00172         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n14.html">StartTime</a>;
 00173     }
 00174 
-<a name="l00179"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c4">00179</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c4">endTime</a>()
+<a name="l00179"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#c4.html">endTime</a>()
 00180     {
-00181         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n15">EndTime</a>;
+00181         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n15.html">EndTime</a>;
 00182     }
 00183 
-<a name="l00188"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c5">00188</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#c5">timeTaken</a>()
+<a name="l00188"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#c5.html">timeTaken</a>()
 00189     {
-00190         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n16">TimeTaken</a>;
+00190         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n16.html">TimeTaken</a>;
 00191     }
 00192 
-<a name="l00198"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a2">00198</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a2">databaseName</a>()
+<a name="l00198"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a2.html">databaseName</a>()
 00199     {
 00200         <span class="dox_keywordflow">return</span> '';
 00201     }
 00202 
-<a name="l00206"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a3">00206</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a3">socketPath</a>()
+<a name="l00206"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a3.html">socketPath</a>()
 00207     {
-00208         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n1">SocketPath</a>;
+00208         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n1.html">SocketPath</a>;
 00209     }
 00210 
-<a name="l00214"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a4">00214</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a4">connectRetryCount</a>()
+<a name="l00214"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a4.html">connectRetryCount</a>()
 00215     {
-00216         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n8">ConnectRetries</a>;
+00216         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n8.html">ConnectRetries</a>;
 00217     }
 00218 
-<a name="l00223"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a5">00223</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a5">connectRetryWaitTime</a>()
+<a name="l00223"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a5.html">connectRetryWaitTime</a>()
 00224     {
 00225         <span class="dox_keywordflow">return</span> 3;
 00226     }
 00227 
-<a name="l00232"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a6">00232</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a6">supportedRelationTypeMask</a>()
+<a name="l00232"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a6.html">supportedRelationTypeMask</a>()
 00233     {
 00234         <span class="dox_keywordflow">return</span> EZ_DB_RELATION_NONE;
 00235     }
 00236 
-<a name="l00241"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a7">00241</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a7">supportedRelationTypes</a>()
+<a name="l00241"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a7.html">supportedRelationTypes</a>()
 00242     {
 00243         <span class="dox_keywordflow">return</span> array();
 00244     }
@@ -311,62 +311,62 @@
 00257     {
 00258     }
 00259 
-<a name="l00264"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a10">00264</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a10">charset</a>()
+<a name="l00264"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a10.html">charset</a>()
 00265     {
-00266         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n7">Charset</a>;
+00266         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n7.html">Charset</a>;
 00267     }
 00268 
-<a name="l00274"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a11">00274</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a11">usesBuiltinEncoding</a>()
+<a name="l00274"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a11.html">usesBuiltinEncoding</a>()
 00275     {
-00276         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n10">UseBuiltinEncoding</a>;
+00276         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n10.html">UseBuiltinEncoding</a>;
 00277     }
 00278 
-<a name="l00284"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a12">00284</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a12">query</a>( $sql )
+<a name="l00284"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a12.html">query</a>( $sql )
 00285     {
 00286     }
 00287 
-<a name="l00292"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a13">00292</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a13">arrayQuery</a>( $sql, $params = array() )
+<a name="l00292"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a13.html">arrayQuery</a>( $sql, $params = array() )
 00293     {
 00294     }
 00295 
-<a name="l00300"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a14">00300</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a14">lock</a>( $table )
+<a name="l00300"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a14.html">lock</a>( $table )
 00301     {
 00302     }
 00303 
-<a name="l00308"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a15">00308</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a15">unlock</a>()
+<a name="l00308"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a15.html">unlock</a>()
 00309     {
 00310     }
 00311 
-<a name="l00316"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a16">00316</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a16">begin</a>()
+<a name="l00316"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a16.html">begin</a>()
 00317     {
 00318     }
 00319 
-<a name="l00324"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a17">00324</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a17">commit</a>()
+<a name="l00324"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a17.html">commit</a>()
 00325     {
 00326     }
 00327 
-<a name="l00332"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a18">00332</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a18">rollback</a>()
+<a name="l00332"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a18.html">rollback</a>()
 00333     {
 00334     }
 00335 
-<a name="l00340"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a19">00340</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a19">relationCounts</a>( $relationMask )
+<a name="l00340"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a19.html">relationCounts</a>( $relationMask )
 00341     {
 00342     }
 00343 
-<a name="l00348"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a20">00348</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a20">relationCount</a>( $relationType = EZ_DB_RELATION_TABLE )
+<a name="l00348"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a20.html">relationCount</a>( $relationType = EZ_DB_RELATION_TABLE )
 00349     {
 00350     }
 00351 
-<a name="l00356"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a21">00356</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a21">relationList</a>( $relationType = EZ_DB_RELATION_TABLE )
+<a name="l00356"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a21.html">relationList</a>( $relationType = EZ_DB_RELATION_TABLE )
 00357     {
 00358     }
 00359 
-<a name="l00365"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a22">00365</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a22">removeRelation</a>( $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#b0">relationName</a>, $relationType )
+<a name="l00365"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#b0.html">relationName</a>, $relationType )
 00366     {
 00367         <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
 00368     }
 00369 
-<a name="l00375"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#b0">00375</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#b0">relationName</a>( $relationType )
+<a name="l00375"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#b0.html">relationName</a>( $relationType )
 00376     {
 00377         $names = array( EZ_DB_RELATION_TABLE =&gt; 'TABLE',
 00378                         EZ_DB_RELATION_SEQUENCE =&gt; 'SEQUENCE',
@@ -378,67 +378,67 @@
 00384         <span class="dox_keywordflow">return</span> $names[$relationType];
 00385     }
 00386 
-<a name="l00391"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a23">00391</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a23">lastSerialID</a>( $table, $column )
+<a name="l00391"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a23.html">lastSerialID</a>( $table, $column )
 00392     {
 00393     }
 00394 
-<a name="l00399"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a24">00399</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a24">escapeString</a>( $str )
+<a name="l00399"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a24.html">escapeString</a>( $str )
 00400     {
 00401     }
 00402 
-<a name="l00407"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a25">00407</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a25">close</a>()
+<a name="l00407"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a25.html">close</a>()
 00408     {
 00409     }
 00410 
-<a name="l00414"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a26">00414</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a26">isConnected</a>()
+<a name="l00414"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a26.html">isConnected</a>()
 00415     {
-00416         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n12">IsConnected</a>;
+00416         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n12.html">IsConnected</a>;
 00417     }
 00418 
-<a name="l00423"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a27">00423</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a27">createDatabase</a>()
+<a name="l00423"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a27.html">createDatabase</a>()
 00424     {
 00425     }
 00426 
-<a name="l00431"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a28">00431</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a28">setError</a>()
+<a name="l00431"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a28.html">setError</a>()
 00432     {
 00433     }
 00434 
-<a name="l00438"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a29">00438</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a29">errorMessage</a>()
+<a name="l00438"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a29.html">errorMessage</a>()
 00439     {
-00440         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n17">ErrorMessage</a>;
+00440         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n17.html">ErrorMessage</a>;
 00441     }
 00442 
-<a name="l00446"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a30">00446</a>     function <a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#a30">errorNumber</a>()
+<a name="l00446"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#a30.html">errorNumber</a>()
 00447     {
-00448         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n18">ErrorNumber</a>;
+00448         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n18.html">ErrorNumber</a>;
 00449     }
 00450 
-<a name="l00453"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n0">00453</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n0">Server</a>;
-<a name="l00455"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n1">00455</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n1">SocketPath</a>;
-<a name="l00457"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n2">00457</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n2">DB</a>;
-<a name="l00459"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n3">00459</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n3">DBConnection</a>;
-<a name="l00461"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n4">00461</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n4">DBWriteConnection</a>;
-<a name="l00463"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n5">00463</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n5">User</a>;
-<a name="l00465"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n6">00465</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n6">Password</a>;
-<a name="l00467"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n7">00467</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n7">Charset</a>;
-<a name="l00469"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n8">00469</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n8">ConnectRetries</a>;
-<a name="l00471"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n9">00471</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n9">OutputTextCodec</a>;
-<a name="l00473"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n10">00473</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n10">UseBuiltinEncoding</a>;
-<a name="l00475"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n11">00475</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n11">OutputSQL</a>;
-<a name="l00477"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n12">00477</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n12">IsConnected</a> = <span class="dox_keyword">false</span>;
-<a name="l00479"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n13">00479</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n13">NumQueries</a> = 0;
-<a name="l00481"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n14">00481</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n14">StartTime</a>;
-<a name="l00483"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n15">00483</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n15">EndTime</a>;
-<a name="l00485"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n16">00485</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n16">TimeTaken</a>;
-<a name="l00487"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n17">00487</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n17">ErrorMessage</a>;
-<a name="l00489"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n18">00489</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n18">ErrorNumber</a>;
-<a name="l00491"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n19">00491</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n19">RecordError</a> = <span class="dox_keyword">true</span>;
-<a name="l00493"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n20">00493</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n20">UsePersistentConnection</a> = <span class="dox_keyword">false</span>;
-<a name="l00495"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n21">00495</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n21">UserSlaveServer</a>;
-<a name="l00497"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n22">00497</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n22">SlaveDB</a>;
-<a name="l00499"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n23">00499</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n23">SlaveServer</a>;
-<a name="l00501"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n24">00501</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n24">SlaveUser</a>;
-<a name="l00503"></a><a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n25">00503</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030707220105/http://www.ez.no/sdk/ref/view/class/eZDBInterface#n25">SlavePassword</a>;
+<a name="l00453"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n0.html">Server</a>;
+<a name="l00455"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n1.html">SocketPath</a>;
+<a name="l00457"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n2.html">DB</a>;
+<a name="l00459"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n3.html">DBConnection</a>;
+<a name="l00461"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n4.html">DBWriteConnection</a>;
+<a name="l00463"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n5.html">User</a>;
+<a name="l00465"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n6.html">Password</a>;
+<a name="l00467"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n7.html">Charset</a>;
+<a name="l00469"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n8.html">ConnectRetries</a>;
+<a name="l00471"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n9.html">OutputTextCodec</a>;
+<a name="l00473"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n10.html">UseBuiltinEncoding</a>;
+<a name="l00475"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n11.html">OutputSQL</a>;
+<a name="l00477"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n12">IsConnected</a> = <span class="dox_keyword.html">false</span>;
+<a name="l00479"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n13.html">NumQueries</a> = 0;
+<a name="l00481"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n14.html">StartTime</a>;
+<a name="l00483"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n15.html">EndTime</a>;
+<a name="l00485"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n16.html">TimeTaken</a>;
+<a name="l00487"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n17.html">ErrorMessage</a>;
+<a name="l00489"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n18.html">ErrorNumber</a>;
+<a name="l00491"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n19">RecordError</a> = <span class="dox_keyword.html">true</span>;
+<a name="l00493"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n20">UsePersistentConnection</a> = <span class="dox_keyword.html">false</span>;
+<a name="l00495"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n21.html">UserSlaveServer</a>;
+<a name="l00497"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n22.html">SlaveDB</a>;
+<a name="l00499"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n23.html">SlaveServer</a>;
+<a name="l00501"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n24.html">SlaveUser</a>;
+<a name="l00503"></a><a class="dox_code" href="/sdk/ref/view/class/eZDBInterface#n25.html">SlavePassword</a>;
 00504 }
 00505 
 00506 ?&gt;

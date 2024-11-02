@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -158,15 +158,15 @@
 00035 
 00045 include_once( <span class="dox_stringliteral">"lib/ezutils/classes/ezregexpvalidator.php"</span> );
 00046 
-<a name="l00047"></a><a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator">00047</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator">eZFloatValidator</a> <span class="dox_keyword">extends</span> <a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZRegExpValidator">eZRegExpValidator</a>
+<a name="l00047"></a><a class="dox_code" href="/sdk/ref/view/class/eZRegExpValidator.html">eZRegExpValidator</a>
 00048 {
-<a name="l00052"></a><a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#a0">00052</a>     function <a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#a0">eZFloatValidator</a>( $min = <span class="dox_keyword">false</span>, $max = <span class="dox_keyword">false</span> )
+<a name="l00052"></a><a class="dox_code" href="/sdk/ref/view/class/eZFloatValidator#a0">eZFloatValidator</a>( $min = <span class="dox_keyword">false</span>, $max = <span class="dox_keyword.html">false</span> )
 00053     {
 00054         $rule = array( <span class="dox_stringliteral">"accepted"</span> =&gt; <span class="dox_stringliteral">"/^-?[0-9]+(.[0-9]+)?$/"</span>,
 00055                        <span class="dox_stringliteral">"intermediate"</span> =&gt; <span class="dox_stringliteral">"/(-?[0-9]+(.[0-9]+)?)/"</span>,
 00056                        <span class="dox_stringliteral">"fixup"</span> =&gt; <span class="dox_stringliteral">""</span> );
-00057         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZRegExpValidator">eZRegExpValidator</a>( $rule );
-00058         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">MinValue</a> = $min;
+00057         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZRegExpValidator.html">eZRegExpValidator</a>( $rule );
+00058         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZFloatValidator#m0.html">MinValue</a> = $min;
 00059         $this-&gt;MaxValue = $max;
 00060         <span class="dox_keywordflow">if</span> ( $max !== <span class="dox_keyword">false</span> and $min !== <span class="dox_keyword">false</span> )
 00061             $this-&gt;MaxValue = max( $min, $max );
@@ -174,36 +174,36 @@
 00063 
 00064     function setRange( $min, $max )
 00065     {
-00066         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">MinValue</a> = $min;
+00066         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZFloatValidator#m0.html">MinValue</a> = $min;
 00067         $this-&gt;MaxValue = $max;
 00068         <span class="dox_keywordflow">if</span> ( $max !== <span class="dox_keyword">false</span> and $min !== <span class="dox_keyword">false</span> )
 00069             $this-&gt;MaxValue = max( $min, $max );
 00070     }
 00071 
-<a name="l00072"></a><a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#a2">00072</a>     function <a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#a2">validate</a>( $text )
+<a name="l00072"></a><a class="dox_code" href="/sdk/ref/view/class/eZFloatValidator#a2.html">validate</a>( $text )
 00073     {
-00074         $state = <a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZRegExpValidator#a2">eZRegExpValidator::validate</a>( $text );
+00074         $state = <a class="dox_code" href="/sdk/ref/view/class/eZRegExpValidator#a2.html">eZRegExpValidator::validate</a>( $text );
 00075         <span class="dox_keywordflow">if</span> ( $state == EZ_INPUT_VALIDATOR_STATE_ACCEPTED )
 00076         {
-00077             <span class="dox_keywordflow">if</span> ( ( $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">MinValue</a> !== <span class="dox_keyword">false</span> and $text &lt; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">MinValue</a> ) or
+00077             <span class="dox_keywordflow">if</span> ( ( $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZFloatValidator#m0.html">MinValue</a> ) or
 00078                  ( $this-&gt;MaxValue !== <span class="dox_keyword">false</span> and $text &gt; $this-&gt;MaxValue ) )
 00079                 $state = EZ_INPUT_VALIDATOR_STATE_INTERMEDIATE;
 00080         }
 00081         <span class="dox_keywordflow">return</span> $state;
 00082     }
 00083 
-00084     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZInputValidator#a2">fixup</a>( $text )
+00084     function &amp;<a class="dox_code" href="/sdk/ref/view/class/eZInputValidator#a2.html">fixup</a>( $text )
 00085     {
 00086         <span class="dox_keywordflow">if</span> ( preg_match( $this-&gt;RegExpRule[<span class="dox_stringliteral">"intermediate"</span>], $text, $regs ) )
 00087             $text = $regs[1];
-00088         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">MinValue</a> !== <span class="dox_keyword">false</span> and $text &lt; $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">MinValue</a> )
-00089             $text = $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">MinValue</a>;
+00088         <span class="dox_keywordflow">if</span> ( $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZFloatValidator#m0.html">MinValue</a> )
+00089             $text = $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZFloatValidator#m0.html">MinValue</a>;
 00090         <span class="dox_keywordflow">else</span> <span class="dox_keywordflow">if</span> ( $this-&gt;MaxValue !== <span class="dox_keyword">false</span> and $text &gt; $this-&gt;MaxValue )
 00091             $text = $this-&gt;MaxValue;
 00092         <span class="dox_keywordflow">return</span> $text;
 00093     }
 00094 
-<a name="l00096"></a><a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">00096</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030823114732/http://ez.no/sdk/ref/view/class/eZFloatValidator#m0">MinValue</a>;
+<a name="l00096"></a><a class="dox_code" href="/sdk/ref/view/class/eZFloatValidator#m0.html">MinValue</a>;
 00097     var $MaxValue;
 00098 }
 00099 

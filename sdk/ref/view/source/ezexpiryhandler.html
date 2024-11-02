@@ -67,7 +67,7 @@
     <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
     <td class="menuheadselected">
     <p class="menuheadselected">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/">SDK</a>
+    <a class="menuheadlink" href="/sdk.html">SDK</a>
     </p>
     </td>
     <td class="menuheadselectedrightline">
@@ -105,7 +105,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead"><a class="menuhead" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref">API Reference</p>
+    <p class="menuhead"><a class="menuhead" href="/sdk/ref.html">API Reference</p>
     </th>
 </tr>
 <tr>
@@ -159,86 +159,86 @@
 00036 
 00046 include_once( 'lib/ezutils/classes/ezphpcreator.php' );
 00047 
-<a name="l00048"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler">00048</a> <span class="dox_keyword">class </span><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler">eZExpiryHandler</a>
+<a name="l00048"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler.html">eZExpiryHandler</a>
 00049 {
-<a name="l00053"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a0">00053</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a0">eZExpiryHandler</a>()
+<a name="l00053"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a0.html">eZExpiryHandler</a>()
 00054     {
-00055         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#m0">Timestamps</a> = array();
+00055         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#m0.html">Timestamps</a> = array();
 00056         $this-&gt;IsModified = <span class="dox_keyword">false</span>;
-00057         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a1">restore</a>();
+00057         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a1.html">restore</a>();
 00058     }
 00059 
-<a name="l00063"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a1">00063</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a1">restore</a>()
+<a name="l00063"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a1.html">restore</a>()
 00064     {
-00065         $cacheDirectory = <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZSys#d7">eZSys::cacheDirectory</a>();
-00066         $creator = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZPHPCreator">eZPHPCreator</a>( $cacheDirectory, 'expiry.php' );
+00065         $cacheDirectory = <a class="dox_code" href="/sdk/ref/view/class/eZSys#d7.html">eZSys::cacheDirectory</a>();
+00066         $creator = <span class="dox_keyword">new</span> <a class="dox_code" href="/sdk/ref/view/class/eZPHPCreator.html">eZPHPCreator</a>( $cacheDirectory, 'expiry.php' );
 00067         <span class="dox_keywordflow">if</span> ( $creator-&gt;canRestore() )
 00068         {
-00069             $values = $creator-&gt;restore( array( 'timestamps' =&gt; '<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#m0">Timestamps</a>' ) );
-00070             $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#m0">Timestamps</a> = $values['timestamps'];
+00069             $values = $creator-&gt;restore( array( 'timestamps' =&gt; '<a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#m0.html">Timestamps</a>' ) );
+00070             $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#m0.html">Timestamps</a> = $values['timestamps'];
 00071             $this-&gt;IsModified = <span class="dox_keyword">false</span>;
 00072         }
 00073     }
 00074 
-<a name="l00078"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a2">00078</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a2">store</a>()
+<a name="l00078"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a2.html">store</a>()
 00079     {
-00080         $cacheDirectory = <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZSys#d7">eZSys::cacheDirectory</a>();
-00081         $creator = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZPHPCreator">eZPHPCreator</a>( $cacheDirectory, 'expiry.php' );
+00080         $cacheDirectory = <a class="dox_code" href="/sdk/ref/view/class/eZSys#d7.html">eZSys::cacheDirectory</a>();
+00081         $creator = <span class="dox_keyword">new</span> <a class="dox_code" href="/sdk/ref/view/class/eZPHPCreator.html">eZPHPCreator</a>( $cacheDirectory, 'expiry.php' );
 00082 
 00083         $creator-&gt;addComment( <span class="dox_stringliteral">"Array of expiry timestamps for various system parts\nCan be set to current date to force a total expiry"</span> );
-00084         $creator-&gt;addVariable( '<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#m0">Timestamps</a>', $this-&gt;Timestamps );
+00084         $creator-&gt;addVariable( '<a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#m0.html">Timestamps</a>', $this-&gt;Timestamps );
 00085 
 00086         $creator-&gt;store();
 00087         $this-&gt;IsModified = <span class="dox_keyword">false</span>;
 00088     }
 00089 
-<a name="l00093"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a3">00093</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a3">setTimestamp</a>( $name, $value )
+<a name="l00093"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a3.html">setTimestamp</a>( $name, $value )
 00094     {
-00095         $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#m0">Timestamps</a>[$name] = $value;
+00095         $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#m0.html">Timestamps</a>[$name] = $value;
 00096         $this-&gt;IsModified = <span class="dox_keyword">true</span>;
 00097     }
 00098 
-<a name="l00102"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a4">00102</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a4">hasTimestamp</a>( $name )
+<a name="l00102"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a4.html">hasTimestamp</a>( $name )
 00103     {
 00104         <span class="dox_keywordflow">return</span> isset( $this-&gt;Timestamps[$name] );
 00105     }
 00106 
-<a name="l00110"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a5">00110</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a5">timestamp</a>( $name )
+<a name="l00110"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a5.html">timestamp</a>( $name )
 00111     {
 00112         <span class="dox_keywordflow">if</span> ( !isset( $this-&gt;Timestamps[$name] ) )
 00113         {
-00114             <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZDebug#d4">eZDebug::writeError</a>( <span class="dox_stringliteral">"Unknown expiry timestamp called '$name'"</span>, '<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a5">eZExpiryHandler::timestamp</a>' );
+00114             <a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a5.html">eZExpiryHandler::timestamp</a>' );
 00115             <span class="dox_keywordflow">return</span> <span class="dox_keyword">false</span>;
 00116         }
-00117         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#m0">Timestamps</a>[$name];
+00117         <span class="dox_keywordflow">return</span> $this-&gt;<a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#m0.html">Timestamps</a>[$name];
 00118     }
 00119 
-<a name="l00124"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#d0">00124</a>     function &amp;<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#d0">instance</a>()
+<a name="l00124"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#d0.html">instance</a>()
 00125     {
-00126         $<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/file/ezexpiryhandler#a0">expiryInstance</a> =&amp; $GLOBALS['eZExpiryHandlerInstance'];
-00127         <span class="dox_keywordflow">if</span> ( !isset( $<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/file/ezexpiryhandler#a0">expiryInstance</a> ) )
+00126         $<a class="dox_code" href="/sdk/ref/view/file/ezexpiryhandler#a0.html">expiryInstance</a> =&amp; $GLOBALS['eZExpiryHandlerInstance'];
+00127         <span class="dox_keywordflow">if</span> ( !isset( $<a class="dox_code" href="/sdk/ref/view/file/ezexpiryhandler#a0.html">expiryInstance</a> ) )
 00128         {
-00129             $<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/file/ezexpiryhandler#a0">expiryInstance</a> = <span class="dox_keyword">new</span> <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a0">eZExpiryHandler</a>();
+00129             $<a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a0.html">eZExpiryHandler</a>();
 00130         }
-00131         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/file/ezexpiryhandler#a0">expiryInstance</a>;
+00131         <span class="dox_keywordflow">return</span> $<a class="dox_code" href="/sdk/ref/view/file/ezexpiryhandler#a0.html">expiryInstance</a>;
 00132     }
 00133 
-<a name="l00137"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a6">00137</a>     function <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#a6">isModified</a>()
+<a name="l00137"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#a6.html">isModified</a>()
 00138     {
 00139         <span class="dox_keywordflow">return</span> $this-&gt;IsModified;
 00140     }
 00141 
-<a name="l00143"></a><a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#m0">00143</a>     var $<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#m0">Timestamps</a>;
+<a name="l00143"></a><a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#m0.html">Timestamps</a>;
 00144     var $IsModified;
 00145 }
 00146 
 00150 function eZExpiryHandlerShutdownHandler()
 00151 {
-00152     $<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/file/ezexpiryhandler#a0">expiryInstance</a> =&amp; $GLOBALS['eZExpiryHandlerInstance'];
-00153     <span class="dox_keywordflow">if</span> ( isset( $<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/file/ezexpiryhandler#a0">expiryInstance</a> ) and
-00154          get_class( $<a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/file/ezexpiryhandler#a0">expiryInstance</a> ) == 'ezexpiryhandler' )
+00152     $<a class="dox_code" href="/sdk/ref/view/file/ezexpiryhandler#a0.html">expiryInstance</a> =&amp; $GLOBALS['eZExpiryHandlerInstance'];
+00153     <span class="dox_keywordflow">if</span> ( isset( $<a class="dox_code" href="/sdk/ref/view/file/ezexpiryhandler#a0.html">expiryInstance</a> ) and
+00154          get_class( $<a class="dox_code" href="/sdk/ref/view/file/ezexpiryhandler#a0.html">expiryInstance</a> ) == 'ezexpiryhandler' )
 00155     {
-00156         $instance =&amp; <a class="dox_code" href="http://web.archive.org/web/20030817122943/http://ez.no/sdk/ref/view/class/eZExpiryHandler#d0">eZExpiryHandler::instance</a>();
+00156         $instance =&amp; <a class="dox_code" href="/sdk/ref/view/class/eZExpiryHandler#d0.html">eZExpiryHandler::instance</a>();
 00157         <span class="dox_keywordflow">if</span> ( $instance-&gt;isModified() )
 00158         {
 00159             $instance-&gt;store();
