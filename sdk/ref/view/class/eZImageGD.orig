@@ -392,15 +392,17 @@ Referenced by <a class="dox_el" href="/web/20030823121135/http://ez.no/sdk/ref/v
 <a href="http://web.archive.org/web/20030823121135/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823121135/http://ez.no/">eZ systems as</a>
 </center>
 <br/>
+
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TFEDSZJYH0"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HVXJB28EZY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-TFEDSZJYH0');
+  gtag('config', 'G-HVXJB28EZY');
 </script>
+
 </body></html><!--
      FILE ARCHIVED ON 12:11:35 Aug 23, 2003 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 20:31:08 Oct 31, 2024.
