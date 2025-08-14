@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - Tutorials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential SDK - Tutorials</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>Exponential&trade; SDK</title>
+<title>Exponential SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
