@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - Tutorials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - Tutorials</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -136,7 +136,7 @@
 <h2 id="whatyouneed">What you need</h2>
 
 <p>
-eZ publish 3 requires two programs to create and maintain translations, <b>ezlupdate</b> and <b>linguist</b>. These programs are based on the same tools from the Qt toolkit by <a href="http://web.archive.org/web/20030803192359/http://www.trolltech.com/">Trolltech</a>. The unix version of this toolkit is released under the GPL. eZ systems provides binaries for Windows and Mac OS X, see the translations page on <a href="http://web.archive.org/web/20030803192359/http://ez.no/developer">ez.no/developer</a>.
+Exponential 3 requires two programs to create and maintain translations, <b>ezlupdate</b> and <b>linguist</b>. These programs are based on the same tools from the Qt toolkit by <a href="http://web.archive.org/web/20030803192359/http://www.trolltech.com/">Trolltech</a>. The unix version of this toolkit is released under the GPL. eZ systems provides binaries for Windows and Mac OS X, see the translations page on <a href="http://web.archive.org/web/20030803192359/http://ez.no/developer">ez.no/developer</a>.
 </p>
 
 <p>
@@ -144,7 +144,7 @@ The linguist is unmodified from the Qt original, so you can also get it from oth
 </p>
 
 <p>
-The ezlupdate program is modified to make it understand eZ publish files. You will find the source code and build instructions in <b>support/lupdate-ezpublish3</b> in the eZ publish distribution.
+The ezlupdate program is modified to make it understand Exponential files. You will find the source code and build instructions in <b>support/lupdate-ezpublish3</b> in the Exponential distribution.
 </p>
 
 
@@ -152,11 +152,11 @@ The ezlupdate program is modified to make it understand eZ publish files. You wi
 <h2 id="making">Making translations</h2>
 
 <p>
-<strong>Note:</strong> The database content of eZ publish is not translated, meaning that for instance class attributes are shown in English wherever this information is visible. This is normally only in the admin interface. The classes provided with eZ publish are merely examples provided to get you up and running quickly. You are encouraged to extend and/or replace these classes with your own classes. If you need a non-English administrative interface, you can translate your classes in the "Setup" section. (The translation system covers  content in templates and PHP code.)
+<strong>Note:</strong> The database content of Exponential is not translated, meaning that for instance class attributes are shown in English wherever this information is visible. This is normally only in the admin interface. The classes provided with Exponential are merely examples provided to get you up and running quickly. You are encouraged to extend and/or replace these classes with your own classes. If you need a non-English administrative interface, you can translate your classes in the "Setup" section. (The translation system covers  content in templates and PHP code.)
 </p>
 
 <p>
-You must decide the locale code of your language. eZ publish 3 uses locale codes on the form <b>aaa-AA</b>, where the 3 first lowercase letters describe the language, while the last two uppercase letter describe the country in which the language is spoken. For instance, English as it is spoken in Great Britain would be eng-GB, while US English is eng-US.
+You must decide the locale code of your language. Exponential 3 uses locale codes on the form <b>aaa-AA</b>, where the 3 first lowercase letters describe the language, while the last two uppercase letter describe the country in which the language is spoken. For instance, English as it is spoken in Great Britain would be eng-GB, while US English is eng-US.
 </p>
 
 <p>
@@ -182,7 +182,7 @@ Copy share/locale/eng-GB.ini to share/locale/nor-NO.ini. Edit this file with a t
 </p>
 
 <p>
-Now, enter the main eZ publish directory in a terminal and type
+Now, enter the main Exponential directory in a terminal and type
 </p>
 
 <pre class="example">
@@ -239,7 +239,7 @@ tar -zcvf nor-NO.tar.gz \
 <h2 id="installing">Installing translations</h2>
 
 <p>
-To install a translation, unpack the package in the eZ publish root directory. Make sure that the files go in the right place. The file translation.ts should be placed in the share/translations/[your language]/ directory, while the ini-file should be placed in share/locale. (If you unpack in the eZ publish root directory, this should be correct by default.)
+To install a translation, unpack the package in the Exponential root directory. Make sure that the files go in the right place. The file translation.ts should be placed in the share/translations/[your language]/ directory, while the ini-file should be placed in share/locale. (If you unpack in the Exponential root directory, this should be correct by default.)
 </p>
 
 <p>
@@ -349,7 +349,7 @@ $myObject-&gt;myFunction( ezx18n( 'myextension'
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030803192359/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030803192359/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030803192359/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030803192359/http://ez.no/">Exponential</a>
 </center>
 <br/>
 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/web/20030806091003cs_/http://ez.no/design/ezno/stylesheets/core.css"/>
     <link rel="stylesheet" type="text/css" href="/web/20030806091003cs_/http://ez.no/design/standard/stylesheets/manual.css"/>
 
-    <title>  eZ publish - user / permissions  </title>
+    <title>  Exponential - user / permissions  </title>
 
     
     
@@ -28,12 +28,12 @@
 
     
     <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
-    <meta name="generator" content="eZ publish"/>
+    <meta name="generator" content="Exponential"/>
 
-<link rel="Home" href="/" title="eZ publish front page"/>
+<link rel="Home" href="/" title="Exponential front page"/>
 <link rel="Index" href="/"/>
-<link rel="Top" href="/" title="  eZ publish - user / permissions  "/>
-<link rel="Search" href="/web/20030806091003/http://ez.no/content/advancedsearch" title="Search eZ publish"/>
+<link rel="Top" href="/" title="  Exponential - user / permissions  "/>
+<link rel="Search" href="/web/20030806091003/http://ez.no/content/advancedsearch" title="Search Exponential"/>
 <link rel="Shortcut icon" href="/web/20030806091003im_/http://ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
 <link rel="Copyright" href="/web/20030806091003/http://ez.no/ezinfo/copyright"/>
 <link rel="Author" href="/ezinfo/about"/>
@@ -144,7 +144,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead">About eZ publish</p>
+    <p class="menuhead">About Exponential</p>
     </th>
 </tr>
 <tr>
@@ -152,7 +152,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/about/about">About eZ publish 3</a></p>
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/about/about">About Exponential 3</a></p>
     </td>
 </tr>
 <tr>
@@ -160,7 +160,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/about/definitions">eZ publish 3 definitions</a></p>
+    <p class="menuitem"><a class="menuitem" href="/web/20030806091003/http://ez.no/manual/about/definitions">Exponential 3 definitions</a></p>
     </td>
 </tr>
 </table>
@@ -319,7 +319,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030806091003/http://ez.no/sdk" }>eZ publish SDK</a></p>
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030806091003/http://ez.no/sdk" }>Exponential SDK</a></p>
     </td>
 </tr>
 </table>
@@ -341,7 +341,7 @@
 <p>
 A "user" is defined as a person or group that visits your site.</p>
 <p>You can give users or groups different access possibilities to your site. </p>
-<p>Adding a person or group in eZ publish is very simple. Click the "User" button in the "User" window.
+<p>Adding a person or group in Exponential is very simple. Click the "User" button in the "User" window.
 Then you can choose "User" or "User group" by highlighting that name in the drop down menu and click "New".</p>
 <p>When inside the "Edit user - New user" window you write in name, description, passwords etc depending on
 where you are. When you are done editing, click "Send for publishing".</p>
@@ -417,7 +417,7 @@ it "live" by clicking the "Apply" button.</p>
 </tr>
 </table>
 <div align="center" style="padding-top: 0.5em;">
-<p class="small"><a href="http://web.archive.org/web/20030806091003/http://ez.no/">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030806091003/http://ez.no/">eZ systems as</a></p>
+<p class="small"><a href="http://web.archive.org/web/20030806091003/http://ez.no/">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030806091003/http://ez.no/">Exponential</a></p>
 </div>
 
  </body>

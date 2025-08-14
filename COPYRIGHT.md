@@ -1,8 +1,8 @@
-﻿Copyright © 1999 - 2024 7x and 1999 - 2004 eZ Systems AS. All Rights Reserved.
+﻿Copyright © 1999 - 2024 7x and 1999 - 2004 Exponential. All Rights Reserved.
 
-    This file is part of eZ Publish SDK Documentation.
+    This file is part of Exponential SDK Documentation.
 
-    eZ Publish SDK Documentation is licensed under the GNU Free Documentation License.
+    Exponential SDK Documentation is licensed under the GNU Free Documentation License.
 
     The complete license agreement is included in the [LICENSE](LICENSE) file.
 
@@ -13,8 +13,8 @@
     It is also available at [https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt](https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt)
 
     You should have received a copy of the GNU Free Documentation License v1.2
-    along with eZ Publish SDK Documentation in the [LICENSE](LICENSE.md) file.
+    along with Exponential SDK Documentation in the [LICENSE](LICENSE.md) file.
 
     If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
 
-    Using eZ Publish SDK Documentation under the terms of the GNU GFDL is free (as in freedom).
+    Using Exponential SDK Documentation under the terms of the GNU GFDL is free (as in freedom).

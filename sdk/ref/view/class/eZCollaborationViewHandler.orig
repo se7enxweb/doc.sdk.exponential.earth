@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - API Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - API Reference</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -478,7 +478,7 @@ Referenced by <a class="dox_el" href="/web/20030823132827/http://ez.no/sdk/ref/v
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030823132827/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823132827/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030823132827/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030823132827/http://ez.no/">Exponential</a>
 </center>
 <br/>
 

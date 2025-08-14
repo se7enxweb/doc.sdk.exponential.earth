@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030615201031cs_/http://www.ez.no/design/ezno/stylesheets/core.css"/>
     <link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20030615201031cs_/http://www.ez.no/design/standard/stylesheets/manual.css"/>
 
-    <title>eZ publish - security / securing</title>
+    <title>Exponential - security / securing</title>
 
     
     
@@ -28,12 +28,12 @@
 
     
     <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
-    <meta name="generator" content="eZ publish"/>
+    <meta name="generator" content="Exponential"/>
 
-<link rel="Home" href="http://web.archive.org/" title="eZ publish front page"/>
+<link rel="Home" href="http://web.archive.org/" title="Exponential front page"/>
 <link rel="Index" href="http://web.archive.org/"/>
-<link rel="Top" href="http://web.archive.org/" title="eZ publish - security / securing"/>
-<link rel="Search" href="http://web.archive.org/web/20030615201031/http://www.ez.no/content/advancedsearch" title="Search eZ publish"/>
+<link rel="Top" href="http://web.archive.org/" title="Exponential - security / securing"/>
+<link rel="Search" href="http://web.archive.org/web/20030615201031/http://www.ez.no/content/advancedsearch" title="Search Exponential"/>
 <link rel="Shortcut icon" href="http://web.archive.org/web/20030615201031im_/http://www.ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
 <link rel="Copyright" href="http://web.archive.org/web/20030615201031/http://www.ez.no/ezinfo/copyright"/>
 <link rel="Author" href="http://web.archive.org/ezinfo/about"/>
@@ -150,7 +150,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead">About eZ publish</p>
+    <p class="menuhead">About Exponential</p>
     </th>
 </tr>
 <tr>
@@ -158,7 +158,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030615201031/http://www.ez.no/manual/about/about">About eZ publish 3</a></p>
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030615201031/http://www.ez.no/manual/about/about">About Exponential 3</a></p>
     </td>
 </tr>
 <tr>
@@ -166,7 +166,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030615201031/http://www.ez.no/manual/about/definitions">eZ publish 3 definitions</a></p>
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030615201031/http://www.ez.no/manual/about/definitions">Exponential 3 definitions</a></p>
     </td>
 </tr>
 </table>
@@ -325,7 +325,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030615201031/http://ez.no/sdk" }>eZ publish SDK</a></p>
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030615201031/http://ez.no/sdk" }>Exponential SDK</a></p>
     </td>
 </tr>
 </table>
@@ -335,7 +335,7 @@
     <td width="450" bgcolor="#ffffff" valign="top">
     
 
-    <h1>Securing an eZ publish site</h1>
+    <h1>Securing an Exponential site</h1>
 
 <p>Securing the site depends on whether you are using a virtualhost setup or a non-virtualhost setup.
 A virtualhost setup means that all urls are redirected to the index.php script while non-virtualhost
@@ -364,7 +364,7 @@ You also need to make sure that all custom made templates follow the <a href="/s
 <h3>Install a .htaccess file</h3>
 <p>
 The Apache webserver allows each site to install a <i>.htaccess</i> file which can control which files are
-accessible as well as set PHP options. The <i>.htaccess</i> file is placed in the root of your eZ publish installation,
+accessible as well as set PHP options. The <i>.htaccess</i> file is placed in the root of your Exponential installation,
 an example of how it may look follows.
 </p>
 
@@ -385,11 +385,11 @@ DirectoryIndex index.php</pre>
 
 <h3>Use .ini.php files</h3>
 <p>
-All .ini files in eZ publish are readable when in non-virtualhost mode, this means that placing
+All .ini files in Exponential are readable when in non-virtualhost mode, this means that placing
 items such as usernames and passwords in these files are dangerous.
 </p>
 <p>
-Fortunately the .ini file reader in eZ publish supports reading so called PHP wrapped .ini files. This
+Fortunately the .ini file reader in Exponential supports reading so called PHP wrapped .ini files. This
 means to create a file with the suffix <i>.ini.php</i> (<i>.ini.append.php</i> for append files), wrap it in a
 PHP comment and place it in the <i>settings</i> (<i>settings/override</i> for append files) directory.
 For instance the web setup will automatically create such files in <i>settings/override/</i> for you
@@ -414,7 +414,7 @@ Password=mypassword
 </tr>
 </table>
 <div align="center" style="padding-top: 0.5em;">
-<p class="small"><a href="http://web.archive.org/web/20030615201031/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030615201031/http://ez.no/">eZ systems as</a></p>
+<p class="small"><a href="http://web.archive.org/web/20030615201031/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030615201031/http://ez.no/">Exponential</a></p>
 </div>
 
  </body>

@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - SDK documents</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - SDK documents</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -125,7 +125,7 @@
 
 <p>
 This document will explain to what extent security is considered
-in eZ publish. During the design of eZ publish security was one
+in Exponential. During the design of Exponential security was one
 of the factors constantly considered. The performance and flexibility
 were important factors during the design.
 </p>
@@ -137,9 +137,9 @@ defines what the user has access to when already logged in.
 </p>
 <h2>Authentication</h2>
 <p>
-eZ publish identification is based on the combination of username
+Exponential identification is based on the combination of username
 and password or e-mail and password. To log in a user supplies the combination
-of username/e-mail and password to the system. eZ publish  will then look for 
+of username/e-mail and password to the system. Exponential  will then look for 
 a hashed version of the password in the user table. The password is normally 
 stored as an md5 of the password, but this is configurable. This means that 
 the original password is not stored, but encrypted with a one way encryption.
@@ -147,8 +147,8 @@ If the system matches a username/e-mail in combination with a password hash
 the user is authenticated and logged in to the system.
 </p>
 <p>
-eZ publish sets a session variable for the current session which indicates the 
-current authenticated user. This session variable is stored in the eZ publish database
+Exponential sets a session variable for the current session which indicates the 
+current authenticated user. This session variable is stored in the Exponential database
 and is not sent from the server in any way. 
 </p>
 <p>
@@ -171,7 +171,7 @@ To get a more secure setup you can set the session timeout to a lower value.
 </p>
 <p>
 If the user is not logged in he is authenticated as the anonymous user 
-in the system. The eZ publish administrator can restrict the access of the anonymous
+in the system. The Exponential administrator can restrict the access of the anonymous
 user at the same level as any other user. It serves the function of a default user.
 </p>
 
@@ -182,28 +182,28 @@ user at the same level as any other user. It serves the function of a default us
 <h2>Authorization</h2>
 
 <p>
-The authorization in eZ publish is done by the role based permission system. 
-This is a central component in eZ publish and will automatically
+The authorization in Exponential is done by the role based permission system. 
+This is a central component in Exponential and will automatically
 support new or 3rd pary plugin modules.
 </p>
 <p>
-eZ publish 3 is secure by default, i.e. you do not have access to do anything with
+Exponential 3 is secure by default, i.e. you do not have access to do anything with
 the system unless directly specified. 
 </p>
 <p>
-eZ publish will first check if the user is logged in (authenticated), then if
+Exponential will first check if the user is logged in (authenticated), then if
 the user has access to the current site access ( admin/user ). You can require that
 the user needs to be logged in, i.e. be authenticated as another user than the 
 anonymous (default) user.
 </p>
 <p>
-If the user has access to the current site access eZ publish will check if 
+If the user has access to the current site access Exponential will check if 
 the user has access to the current module. Users can have access to either the
 whole module or specific functions in that module. If the user has access to the whole
 module function level permission checks are skipped and access granted.
 </p>
 <p>
-If the user has access to only some functions in the given module then eZ publish
+If the user has access to only some functions in the given module then Exponential
 will check if the current function matches one of the functions the user has access
 to. If the function matches access is granted. 
 </p>
@@ -237,7 +237,7 @@ The diagram below shows an overview of the permission system.
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030823121856/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823121856/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030823121856/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030823121856/http://ez.no/">Exponential</a>
 </center>
 <br/>
 

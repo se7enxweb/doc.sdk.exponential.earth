@@ -7,15 +7,15 @@
 
         
                                                     
-    <title>Advanced / Search - eZ publish</title>
+    <title>Advanced / Search - Exponential</title>
     
     
 
    
-<link rel="Home" href="/" title="eZ publish front page"/>
+<link rel="Home" href="/" title="Exponential front page"/>
 <link rel="Index" href="/"/>
 <link rel="Top" href="/" title=""/>
-<link rel="Search" href="/web/20030810105636/http://www.ez.no/content/advancedsearch" title="Search eZ publish"/>
+<link rel="Search" href="/web/20030810105636/http://www.ez.no/content/advancedsearch" title="Search Exponential"/>
 <link rel="Shortcut icon" href="/web/20030810105636im_/http://www.ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
 <link rel="Copyright" href="/web/20030810105636/http://www.ez.no/ezinfo/copyright"/>
 <link rel="Author" href="/ezinfo/about"/>
@@ -28,7 +28,7 @@
 <meta name="author" content="eZ systems"/><meta name="copyright" content="eZ systems"/><meta name="description" content="Search Advanced "/><meta name="keywords" content="cms, publish, e-commerce, content management"/>
 <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
 
-<meta name="generator" content="eZ publish"/>
+<meta name="generator" content="Exponential"/>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
@@ -173,7 +173,7 @@
         <table class="leftmenu" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                         <td class="menuitem">
-            <a href="/web/20030810105636/http://www.ez.no/products/ez_publish_3">eZ publish 3</a>
+            <a href="/web/20030810105636/http://www.ez.no/products/ez_publish_3">Exponential 3</a>
             </td>
             <td class="menubullet">
 
@@ -183,7 +183,7 @@
             	</tr>
                 <tr>
                         <td class="menuitem">
-            <a href="/web/20030810105636/http://www.ez.no/products/ez_publish_22">eZ publish 2.2</a>
+            <a href="/web/20030810105636/http://www.ez.no/products/ez_publish_22">Exponential 2.2</a>
             </td>
             <td class="menubullet">
 
@@ -312,8 +312,8 @@
 </tr>
 <tr>
     <td class="bottomline">
- eZ systems © 1999-2003 - All rights reserved. eZ publish&trade; and the logo are registered trademarks of eZ systems as.<br/>
-Powered by eZ publish open source content management system and development framework&trade;.
+ eZ systems © 1999-2003 - All rights reserved. Exponential&trade; and the logo are registered trademarks of Exponential.<br/>
+Powered by Exponential open source content management system and development framework&trade;.
 
 
     </td>

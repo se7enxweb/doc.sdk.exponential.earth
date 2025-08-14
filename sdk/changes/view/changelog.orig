@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - What's New</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - What's New</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -121,7 +121,7 @@
 
 <td valign="top" width="85%">
 <table width="100%" border="0">
-<tr><td colspan="2"><h1>eZ publish changes in 3.1-1</h1>
+<tr><td colspan="2"><h1>Exponential changes in 3.1-1</h1>
 <p>First release of the 3.1 series.
 </p>
 <h2>Kernel</h2>
@@ -138,7 +138,7 @@
 <li>Fixed bug in related object when fetching a non-existing translation. Now the default translation is returned if the requested translation does not exist.</li>
 <li>Fixed setting selected site access in template admin when pushing the create new button</li>
 <li>Fixed typo in ezmail include file</li>
-<li>Fixed correct database initializing in setup so eZ publish will not crash when PHP only has PostgreSQL support</li>
+<li>Fixed correct database initializing in setup so Exponential will not crash when PHP only has PostgreSQL support</li>
 <li>Added some error checking to values used in eZContentObject::purge.</li>
 <li>Added revision number to setup page and system info page.</li>
 <li>Added ActiveAccessExtensions variable in settings/site.ini which will be used after siteaccess has been chosen
@@ -169,7 +169,7 @@
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030803184243/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030803184243/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030803184243/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030803184243/http://ez.no/">Exponential</a>
 </center>
 <br/>
 

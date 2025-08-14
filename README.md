@@ -1,4 +1,4 @@
-eZ Publish SDK Documentation
+Exponential SDK Documentation
 =================================
 
 This repository provides a complete and accurate mirror static html of the website http://ez.no/{sdk,manual} mini site documentation for the 3.0 - 3.3 era
@@ -7,7 +7,7 @@ This repository provides a complete and accurate mirror static html of the websi
 Version
 =======
 
-* The current version of eZ Publish SDK Documentation is 0.1.2
+* The current version of Exponential SDK Documentation is 0.1.2
 
 * Last Major update: October 31, 2024
 
@@ -15,7 +15,7 @@ Version
 Copyright
 =========
 
-* eZ Publish SDK Documentation is copyright 1999 - 2024 7x and 1999 - 2004 eZ Systems, AS.
+* Exponential SDK Documentation is copyright 1999 - 2024 7x and 1999 - 2004 eZ Systems, AS.
 
 * See: [COPYRIGHT.md](COPYRIGHT.md) for more information on the terms of the copyright and license
 
@@ -23,7 +23,7 @@ Copyright
 License
 =======
 
-eZ Publish SDK Documentation is licensed under the GNU Free Documentation License.
+Exponential SDK Documentation is licensed under the GNU Free Documentation License.
 
 The complete license agreement is included in the [LICENSE.md](LICENSE.md) file.
 
@@ -34,11 +34,11 @@ Corrections and/or suggestions might be sent to info@se7enx.com
 It is also available at [https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt](https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt)
 
 You should have received a copy of the GNU Free Documentation License v1.2
-along with eZ Publish SDK Documentation in the [LICENSE.md](LICENSE.md) file.
+along with Exponential SDK Documentation in the [LICENSE.md](LICENSE.md) file.
 
 If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
 
-Using eZ Publish SDK Documentation under the terms of the GNU GFDL is free (as in freedom).
+Using Exponential SDK Documentation under the terms of the GNU GFDL is free (as in freedom).
 
 
 Features
@@ -46,7 +46,7 @@ Features
 
 This repository provides the following features:
 
-* Static HTML Documentation for eZ Publish 3.x -> 3.3
+* Static HTML Documentation for Exponential 3.x -> 3.3
 
 Usage
 =====

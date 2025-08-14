@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - Tutorials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - Tutorials</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -122,20 +122,20 @@
 <td valign="top" width="85%">
 <table width="100%" border="0">
 <tr><td colspan="2">
-<h1>Datatypes in eZ publish 3</h1>
+<h1>Datatypes in Exponential 3</h1>
 
 <p>
-Datatypes are the most useful building blocks in eZ publish 3. To create any attribute in any class, you
-need to choose a suitable datatype to represent your attribute. The concept of eZ publish datatypes is
-not exactly the same as datatypes in common programming languages although eZ publish has some basic
-datatypes such as integer, float and textline which is actually a string type. Datatypes in eZ publish are
+Datatypes are the most useful building blocks in Exponential 3. To create any attribute in any class, you
+need to choose a suitable datatype to represent your attribute. The concept of Exponential datatypes is
+not exactly the same as datatypes in common programming languages although Exponential has some basic
+datatypes such as integer, float and textline which is actually a string type. Datatypes in Exponential are
 defined as fundamental and common elements which can build complex products on the Internet.
 </p>
 
 <h2>Overview of available datatypes</h2>
 
 <p>
-eZ publish 3 comes with the following fundamental datatypes.
+Exponential 3 comes with the following fundamental datatypes.
 <ul>
 <li>Text line</li>
 <li>Integer</li>
@@ -165,9 +165,9 @@ eZ publish 3 comes with the following fundamental datatypes.
 
 <p>
 When you are creating or editing a class object, you should decide which datatypes are going to be used by
-your attributes. Although the datatypes that come with eZ publish are powerful enough for creating complex content
+your attributes. Although the datatypes that come with Exponential are powerful enough for creating complex content
 classes, you might still need to create your own datatypes for specific cases. Creating new datatypes requires
-having some basic knowledge of how eZ publish datatypes work and which classes are necessary to be changed or added.
+having some basic knowledge of how Exponential datatypes work and which classes are necessary to be changed or added.
 In the following tutorial, how to create a new datatype is shown step by step using the datatype Email as an example.
 The Email datatype is used to save email address and implements some check rules to verify that input email
 is of correct format.
@@ -323,7 +323,7 @@ was added.
 
 <p>
 Not every datatype needs to have a template file in class level since most datatypes can use standard UI
-supplied with eZ publish. It is only necessary when the datatype has specific constraints that need to be defined
+supplied with Exponential. It is only necessary when the datatype has specific constraints that need to be defined
 during class editing. Examples are setting a default value for the datatype, adding customer action buttons, etc.
 If so, the datatype file should implement the functions storeClassAttribute, validateClassAttributeHTTPInput,
 fixupClassAttributeHTTPInput, and fetchClassAttributeHTTPInput which are defined in the super class ezdatatype.php.
@@ -416,7 +416,7 @@ to the eZEnum type for more detail about how complex datatypes can be created.
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030817125040/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817125040/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030817125040/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030817125040/http://ez.no/">Exponential</a>
 </center>
 <br/>
 

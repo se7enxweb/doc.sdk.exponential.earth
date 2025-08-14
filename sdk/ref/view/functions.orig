@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - API Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - API Reference</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -121,7 +121,7 @@
 
 <td valign="top" width="85%">
 <table width="100%" border="0">
-<tr><td colspan="2"><h1 class="dox">eZ publish Compound Members</h1><center>
+<tr><td colspan="2"><h1 class="dox">Exponential Compound Members</h1><center>
 <a href="#index_a">a</a>&nbsp;|&nbsp;<a href="#index_b">b</a>&nbsp;|&nbsp;<a href="#index_c">c</a>&nbsp;|&nbsp;<a href="#index_d">d</a>&nbsp;|&nbsp;<a href="#index_e">e</a>&nbsp;|&nbsp;<a href="#index_f">f</a>&nbsp;|&nbsp;<a href="#index_g">g</a>&nbsp;|&nbsp;<a href="#index_h">h</a>&nbsp;|&nbsp;<a href="#index_i">i</a>&nbsp;|&nbsp;<a href="#index_k">k</a>&nbsp;|&nbsp;<a href="#index_l">l</a>&nbsp;|&nbsp;<a href="#index_m">m</a>&nbsp;|&nbsp;<a href="#index_n">n</a>&nbsp;|&nbsp;<a href="#index_o">o</a>&nbsp;|&nbsp;<a href="#index_p">p</a>&nbsp;|&nbsp;<a href="#index_q">q</a>&nbsp;|&nbsp;<a href="#index_r">r</a>&nbsp;|&nbsp;<a href="#index_s">s</a>&nbsp;|&nbsp;<a href="#index_t">t</a>&nbsp;|&nbsp;<a href="#index_u">u</a>&nbsp;|&nbsp;<a href="#index_v">v</a>&nbsp;|&nbsp;<a href="#index_w">w</a>&nbsp;|&nbsp;<a href="#index_x">x</a>&nbsp;|&nbsp;<a href="#index_y">y</a></center>
 
 <p>
@@ -1470,7 +1470,7 @@ Here is a list of all documented class members with links to the classes they be
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030817124231/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817124231/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030817124231/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030817124231/http://ez.no/">Exponential</a>
 </center>
 <br/>
 

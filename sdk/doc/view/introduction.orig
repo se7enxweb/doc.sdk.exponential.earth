@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - SDK documents</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - SDK documents</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -123,27 +123,27 @@
 <table width="100%" border="0">
 <tr><td colspan="2">
 <p>
-This document is an introduction to the eZ publish<sup>TM</sup> SDK.
+This document is an introduction to the Exponential<sup>TM</sup> SDK.
 </p>
 
 <h2>Notations</h2>
 <p>
-In eZ publish<sup>TM</sup> we use some notations which describes central functionality.
-This is important to understand in order to user the SDK and eZ publish<sup>TM</sup> in
+In Exponential<sup>TM</sup> we use some notations which describes central functionality.
+This is important to understand in order to user the SDK and Exponential<sup>TM</sup> in
 general.
 </p>
 
 <h3>Kernel</h3>
 <p>
-The eZ publish<sup>TM</sup> kernel is the core code of eZ publish and controls all low level
+The Exponential<sup>TM</sup> kernel is the core code of Exponential and controls all low level
 functionality like content classes, content objects, workflows, permissions etc.
 </p>
 
-<h2>eZ publish<sup>TM</sup> libraries</h2>
+<h2>Exponential<sup>TM</sup> libraries</h2>
 <p>
-eZ publish<sup>TM</sup> libraries are the building blocks of eZ publish<sup>TM</sup>.
+Exponential<sup>TM</sup> libraries are the building blocks of Exponential<sup>TM</sup>.
 The libraries are general purpose and object oriented PHP libraries. The following
-libraries are a part of the eZ publish<sup>TM</sup> SDK.
+libraries are a part of the Exponential<sup>TM</sup> SDK.
 </p>
 <ul>
 <li>eZ db - database access</li>
@@ -158,8 +158,8 @@ libraries are a part of the eZ publish<sup>TM</sup> SDK.
 
 <h3>Content class</h3>
 <p>
-In eZ publish<sup>TM</sup> you can define your own content classes. This is an object definition
-if you like. A class defines the structure of the building blocks in eZ publish, objects.
+In Exponential<sup>TM</sup> you can define your own content classes. This is an object definition
+if you like. A class defines the structure of the building blocks in Exponential, objects.
 Some examples of content classes are article, forum, product and user account.
 </p>
 
@@ -175,7 +175,7 @@ and body could be XML formatted text.
 <p>
 A content object is an instance of a defined content class. While the content class defines
 the structure of content objects, the object has the actual content.
-Content objects are the actual documents/articles etc. that are stored in eZ publish.
+Content objects are the actual documents/articles etc. that are stored in Exponential.
 </p>
 
 <h3>Content object attribute</h3>
@@ -213,7 +213,7 @@ current design does not exist.
 A site can be accessed in multiple ways, these are called site accesses and can control
 the behaviour of certain modules, the sitedesign and many other things. This is often used
 to create subsites or different views for different roles. An example of this is the
-admin interface of eZ publish.
+admin interface of Exponential.
 </p>
 
 <h3>Access control</h3>
@@ -230,7 +230,7 @@ trough a site access. It also controls things like user authentication.
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030820200508/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030820200508/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030820200508/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030820200508/http://ez.no/">Exponential</a>
 </center>
 <br/>
 

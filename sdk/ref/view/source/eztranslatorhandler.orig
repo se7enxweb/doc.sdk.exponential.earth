@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - API Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - API Reference</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -127,9 +127,9 @@
 00004 <span class="dox_comment">//</span>
 00005 <span class="dox_comment">// Created on: &lt;10-Jun-2002 11:05:00 amos&gt;</span>
 00006 <span class="dox_comment">//</span>
-00007 <span class="dox_comment">// Copyright (C) 1999-2003 eZ systems as. All rights reserved.</span>
+00007 <span class="dox_comment">// Copyright (C) 1999-2003 Exponential. All rights reserved.</span>
 00008 <span class="dox_comment">//</span>
-00009 <span class="dox_comment">// This source file is part of the eZ publish (tm) Open Source Content</span>
+00009 <span class="dox_comment">// This source file is part of the Exponential (tm) Open Source Content</span>
 00010 <span class="dox_comment">// Management System.</span>
 00011 <span class="dox_comment">//</span>
 00012 <span class="dox_comment">// This file may be distributed and/or modified under the terms of the</span>
@@ -137,15 +137,15 @@
 00014 <span class="dox_comment">// Software Foundation and appearing in the file LICENSE.GPL included in</span>
 00015 <span class="dox_comment">// the packaging of this file.</span>
 00016 <span class="dox_comment">//</span>
-00017 <span class="dox_comment">// Licencees holding valid "eZ publish professional licences" may use this</span>
-00018 <span class="dox_comment">// file in accordance with the "eZ publish professional licence" Agreement</span>
+00017 <span class="dox_comment">// Licencees holding valid "Exponential professional licences" may use this</span>
+00018 <span class="dox_comment">// file in accordance with the "Exponential professional licence" Agreement</span>
 00019 <span class="dox_comment">// provided with the Software.</span>
 00020 <span class="dox_comment">//</span>
 00021 <span class="dox_comment">// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING</span>
 00022 <span class="dox_comment">// THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR</span>
 00023 <span class="dox_comment">// PURPOSE.</span>
 00024 <span class="dox_comment">//</span>
-00025 <span class="dox_comment">// The "eZ publish professional licence" is available at</span>
+00025 <span class="dox_comment">// The "Exponential professional licence" is available at</span>
 00026 <span class="dox_comment">// http://ez.no/products/licences/professional/. For pricing of this licence</span>
 00027 <span class="dox_comment">// please contact us via e-mail to licence@ez.no. Further contact</span>
 00028 <span class="dox_comment">// information is available at http://ez.no/home/contact/.</span>
@@ -199,7 +199,7 @@
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030823120821/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030823120821/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030823120821/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030823120821/http://ez.no/">Exponential</a>
 </center>
 <br/>
 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/web/20030801080902cs_/http://ez.no/design/ezno/stylesheets/core.css"/>
     <link rel="stylesheet" type="text/css" href="/web/20030801080902cs_/http://ez.no/design/standard/stylesheets/manual.css"/>
 
-    <title>  eZ publish - install / setup_guide  </title>
+    <title>  Exponential - install / setup_guide  </title>
 
     
     
@@ -28,12 +28,12 @@
 
     
     <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
-    <meta name="generator" content="eZ publish"/>
+    <meta name="generator" content="Exponential"/>
 
-<link rel="Home" href="/" title="eZ publish front page"/>
+<link rel="Home" href="/" title="Exponential front page"/>
 <link rel="Index" href="/"/>
-<link rel="Top" href="/" title="  eZ publish - install / setup_guide  "/>
-<link rel="Search" href="/web/20030801080902/http://ez.no/content/advancedsearch" title="Search eZ publish"/>
+<link rel="Top" href="/" title="  Exponential - install / setup_guide  "/>
+<link rel="Search" href="/web/20030801080902/http://ez.no/content/advancedsearch" title="Search Exponential"/>
 <link rel="Shortcut icon" href="/web/20030801080902im_/http://ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
 <link rel="Copyright" href="/web/20030801080902/http://ez.no/ezinfo/copyright"/>
 <link rel="Author" href="/ezinfo/about"/>
@@ -144,7 +144,7 @@
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
     <th class="menuheaddark" colspan="2">
-    <p class="menuhead">About eZ publish</p>
+    <p class="menuhead">About Exponential</p>
     </th>
 </tr>
 <tr>
@@ -152,7 +152,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="/web/20030801080902/http://ez.no/manual/about/about">About eZ publish 3</a></p>
+    <p class="menuitem"><a class="menuitem" href="/web/20030801080902/http://ez.no/manual/about/about">About Exponential 3</a></p>
     </td>
 </tr>
 <tr>
@@ -160,7 +160,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="/web/20030801080902/http://ez.no/manual/about/definitions">eZ publish 3 definitions</a></p>
+    <p class="menuitem"><a class="menuitem" href="/web/20030801080902/http://ez.no/manual/about/definitions">Exponential 3 definitions</a></p>
     </td>
 </tr>
 </table>
@@ -319,7 +319,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801080902/http://ez.no/sdk" }>eZ publish SDK</a></p>
+    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030801080902/http://ez.no/sdk" }>Exponential SDK</a></p>
     </td>
 </tr>
 </table>
@@ -329,7 +329,7 @@
     <td width="450" bgcolor="#ffffff" valign="top">
     
 
-    <h1>Install eZ publish 3 using the setup guide</h1>
+    <h1>Install Exponential 3 using the setup guide</h1>
 
 
 <ul>
@@ -349,9 +349,9 @@
 </ul>
 
 
-<h2 id="Requirements"> eZ publish 3 requirements</h2>
+<h2 id="Requirements"> Exponential 3 requirements</h2>
 <p>
-	You need to have Apache and PHP, and MySQL or PostgreSQL, installed to run eZ publish 3.
+	You need to have Apache and PHP, and MySQL or PostgreSQL, installed to run Exponential 3.
 	PHP needs to have compiled-in support for either MySQL or PostgreSQL.
 	For image conversion support you need to have GD compiled in PHP or
 	ImageMagick installed on your system.
@@ -400,10 +400,10 @@
 <h3 id="Linux_FreeBSD_Macos_Starting">Starting the setup guide</h3>
 
 <ol>
-	<li>Make sure you have met the eZ publish requirements</li>
-	<li>Go to <a href="http://web.archive.org/web/20030801080902/http://ez.no/developer/download">http://ez.no/developer/download</a> and download the latest release of eZ publish</li>
-	<li>Extract the downloaded eZ publish file somewhere on Apache's DocumentRoot <pre class="example"> $ tar xvfz ezpublish-xxx.tar.gz -C &lt;apache_document_root&gt;</pre> and rename it to something nice like 'ezpublish'</li>
-    <li>Open a browser and enter the url for your eZ publish installation</li>
+	<li>Make sure you have met the Exponential requirements</li>
+	<li>Go to <a href="http://web.archive.org/web/20030801080902/http://ez.no/developer/download">http://ez.no/developer/download</a> and download the latest release of Exponential</li>
+	<li>Extract the downloaded Exponential file somewhere on Apache's DocumentRoot <pre class="example"> $ tar xvfz ezpublish-xxx.tar.gz -C &lt;apache_document_root&gt;</pre> and rename it to something nice like 'ezpublish'</li>
+    <li>Open a browser and enter the url for your Exponential installation</li>
 	<li>Follow the setup guide instructions</li>
 	<li>When you have finished the setup guide you should be able to login on the admin page with 'admin' as username and 'publish' as password. If you installed demo data append '/demo' to the URL, if not append '/user' to view the user site.</li>
 </ol>
@@ -435,10 +435,10 @@
 <h3 id="Windows_Starting">Starting the setup guide</h3>
 
 <ol>
-	<li>Make sure you have met the eZ publish requirements</li>
-	<li>Go to <a href="http://web.archive.org/web/20030801080902/http://ez.no/developer/download">http://ez.no/developer/download</a> and download the latest release of eZ publish</li>
-	<li>Extract the downloaded eZ publish file somewhere on Apache's DocumentRoot and rename it to something nice like 'ezpublish'</li>
-    <li>Open a browser and enter the url for your eZ publish installation</li>
+	<li>Make sure you have met the Exponential requirements</li>
+	<li>Go to <a href="http://web.archive.org/web/20030801080902/http://ez.no/developer/download">http://ez.no/developer/download</a> and download the latest release of Exponential</li>
+	<li>Extract the downloaded Exponential file somewhere on Apache's DocumentRoot and rename it to something nice like 'ezpublish'</li>
+    <li>Open a browser and enter the url for your Exponential installation</li>
 	<li>Follow the setup guide instructions</li>
 	<li>When you have finished the setup guide you should be able to login on the admin page with 'admin' as username and 'publish' as password. If you installed demo data append '/demo' to the URL, if not append '/user' to view the user site.</li>
 </ol>
@@ -462,7 +462,7 @@
 </tr>
 </table>
 <div align="center" style="padding-top: 0.5em;">
-<p class="small"><a href="http://web.archive.org/web/20030801080902/http://ez.no/">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030801080902/http://ez.no/">eZ systems as</a></p>
+<p class="small"><a href="http://web.archive.org/web/20030801080902/http://ez.no/">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030801080902/http://ez.no/">Exponential</a></p>
 </div>
 
  </body>

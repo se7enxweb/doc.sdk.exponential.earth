@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>eZ publish&trade; SDK - API Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential&trade; SDK - API Reference</title>
 
 <link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <head>
-<title>eZ publish&trade; SDK</title>
+<title>Exponential&trade; SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
 <link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
 <link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
@@ -21,7 +21,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
     <td class="headlogo" width="560">
-    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="eZ publish"/></td>
+    <img src="/design/standard/images/ezpublish_logo_blue.gif" alt="Exponential"/></td>
     <td class="headlink" width="66">
 
 <table width="66" cellspacing="0" cellpadding="0" border="0">
@@ -121,7 +121,7 @@
 
 <td valign="top" width="85%">
 <table width="100%" border="0">
-<tr><td colspan="2"><h1 class="dox">eZ publish Compound List</h1>Here are the classes, structs, unions and interfaces with brief descriptions:<table>
+<tr><td colspan="2"><h1 class="dox">Exponential Compound List</h1>Here are the classes, structs, unions and interfaces with brief descriptions:<table>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZ1337Translator">eZ1337Translator</a></td><td class="dox_indexvalue">Translates text into the leet (1337) language</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZApproveCollaborationHandler">eZApproveCollaborationHandler</a></td><td class="dox_indexvalue">Handles approval communication using the collaboration system</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZApproveType">eZApproveType</a></td><td class="dox_indexvalue">Event type for user approvals</td></tr>
@@ -150,7 +150,7 @@
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZComplexType">eZComplexType</a></td><td class="dox_indexvalue">EZComplexType implements XML schema complex type</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZContentCache">eZContentCache</a></td><td class="dox_indexvalue">The class eZContentCache does</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZContentClassAttribute">eZContentClassAttribute</a></td><td class="dox_indexvalue">Encapsulates data for a class attribute</td></tr>
-  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZContentObject">eZContentObject</a></td><td class="dox_indexvalue">Handles eZ publish content objects</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZContentObject">eZContentObject</a></td><td class="dox_indexvalue">Handles Exponential content objects</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZContentObjectAssignmentHandler">eZContentObjectAssignmentHandler</a></td><td class="dox_indexvalue">Handles default assignments for content objects</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZContentObjectAttribute">eZContentObjectAttribute</a></td><td class="dox_indexvalue">Encapsulates the data for an object attribute</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZContentObjectTranslation">eZContentObjectTranslation</a></td><td class="dox_indexvalue">EZContentObjectTranslation handles translation a translation of content objects</td></tr>
@@ -254,7 +254,7 @@
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZSchemaElement">eZSchemaElement</a></td><td class="dox_indexvalue">EZSchemaElement handles schema validation elements</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZSearch">eZSearch</a></td><td class="dox_indexvalue">EZSearch handles indexing of objects to the search engine</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZSearchLog">eZSearchLog</a></td><td class="dox_indexvalue">EZSearchLog handles logging of search phrases</td></tr>
-  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZSection">eZSection</a></td><td class="dox_indexvalue">EZSection handles grouping of content in eZ publish</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZSection">eZSection</a></td><td class="dox_indexvalue">EZSection handles grouping of content in Exponential</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZSendmailTransport">eZSendmailTransport</a></td><td class="dox_indexvalue">The class eZSendmailTransport does</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZSerialType">eZSerialType</a></td><td class="dox_indexvalue">Serialized event grouping</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZShuffleTranslator">eZShuffleTranslator</a></td><td class="dox_indexvalue">Translates text by moving characters around</td></tr>
@@ -323,7 +323,7 @@
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZURL">eZURL</a></td><td class="dox_indexvalue">A class which handles central storage of urls</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZURLTranslator">eZURLTranslator</a></td><td class="dox_indexvalue">Translation requested URLs into new URLs internally</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZURLType">eZURLType</a></td><td class="dox_indexvalue">A content datatype which handles urls</td></tr>
-  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a></td><td class="dox_indexvalue">EZUser handles eZ publish user accounts</td></tr>
+  <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZUser">eZUser</a></td><td class="dox_indexvalue">EZUser handles Exponential user accounts</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZUserAccountKey">eZUserAccountKey</a></td><td class="dox_indexvalue">The class eZUserAccountKey does</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZUserDiscountRule">eZUserDiscountRule</a></td><td class="dox_indexvalue">The class eZUserDiscountRule does</td></tr>
   <tr><td class="dox_indexkey"><a class="dox_el" href="/web/20030817122716/http://ez.no/sdk/ref/view/class/eZUserType">eZUserType</a></td><td class="dox_indexvalue">The class eZUserType handles user accounts and association with content objects</td></tr>
@@ -354,7 +354,7 @@
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030817122716/http://ez.no/developer">eZ publish&trade;</a> copyright &copy; 1999-2003 <a href="http://web.archive.org/web/20030817122716/http://ez.no/">eZ systems as</a>
+<a href="http://web.archive.org/web/20030817122716/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030817122716/http://ez.no/">Exponential</a>
 </center>
 <br/>
 
