@@ -152,7 +152,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="/web/20030801080902/http://ez.no/manual/about/about">About Exponential 3</a></p>
+    <p class="menuitem"><a class="menuitem" href="/web/20030801080902/http://ez.no/manual/about/about.html">About Exponential 3</a></p>
     </td>
 </tr>
 <tr>
@@ -160,7 +160,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="/web/20030801080902/http://ez.no/manual/about/definitions">Exponential 3 definitions</a></p>
+    <p class="menuitem"><a class="menuitem" href="/web/20030801080902/http://ez.no/manual/about/definitions.html">Exponential 3 definitions</a></p>
     </td>
 </tr>
 </table>
@@ -401,7 +401,7 @@
 
 <ol>
 	<li>Make sure you have met the Exponential requirements</li>
-	<li>Go to <a href="https://doc.sdk.exponential.earth/developer/download">http://ez.no/developer/download</a> and download the latest release of Exponential</li>
+	<li>Go to <a href="https://doc.sdk.exponential.earth/developer/download.html">http://ez.no/developer/download</a> and download the latest release of Exponential</li>
 	<li>Extract the downloaded Exponential file somewhere on Apache's DocumentRoot <pre class="example"> $ tar xvfz ezpublish-xxx.tar.gz -C &lt;apache_document_root&gt;</pre> and rename it to something nice like 'ezpublish'</li>
     <li>Open a browser and enter the url for your Exponential installation</li>
 	<li>Follow the setup guide instructions</li>
@@ -436,7 +436,7 @@
 
 <ol>
 	<li>Make sure you have met the Exponential requirements</li>
-	<li>Go to <a href="https://doc.sdk.exponential.earth/developer/download">http://ez.no/developer/download</a> and download the latest release of Exponential</li>
+	<li>Go to <a href="https://doc.sdk.exponential.earth/developer/download.html">http://ez.no/developer/download</a> and download the latest release of Exponential</li>
 	<li>Extract the downloaded Exponential file somewhere on Apache's DocumentRoot and rename it to something nice like 'ezpublish'</li>
     <li>Open a browser and enter the url for your Exponential installation</li>
 	<li>Follow the setup guide instructions</li>

@@ -523,7 +523,7 @@ Functions that do not access member variables should be static.
 <h1>Commenting</h1>
 <p>
 The comments used should be written to comply with the syntax of the Doxygen tool. This tool, which is used
-to generate class reference documentation, is available at <a href="https://doc.sdk.exponential.earth/sdk">http://ez.no/sdk</a>.
+to generate class reference documentation, is available at <a href="https://doc.sdk.exponential.earth/sdk.html">http://ez.no/sdk</a>.
 </p>
 
 <pre class="example">
