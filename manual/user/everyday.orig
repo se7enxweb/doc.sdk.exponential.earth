@@ -319,7 +319,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="http://web.archive.org/web/20030806090032/http://ez.no/sdk" }>Exponential SDK</a></p>
+    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/sdk" }>Exponential SDK</a></p>
     </td>
 </tr>
 </table>
@@ -743,7 +743,7 @@ For more info about classes please read the <a href="/sdk">Exponential SDK</a>
 </tr>
 </table>
 <div align="center" style="padding-top: 0.5em;">
-<p class="small"><a href="http://web.archive.org/web/20030806090032/http://ez.no/">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030806090032/http://ez.no/">Exponential</a></p>
+<p class="small"><a href="https://doc.sdk.exponential.earth/">Exponential</a></p>
 </div>
 
  </body>

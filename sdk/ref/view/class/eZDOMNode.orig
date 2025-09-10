@@ -172,7 +172,7 @@
 <tr><td>&nbsp;</td><td><font size="-1"><em>Attributes.</em></font><br><br></td></tr>
 <tr><td nowrap align="right" valign="top"><a name="o5" doxytag="eZDOMNode::NamespaceURI"></a>
 &nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120223/http://ez.no/sdk/ref/view/class/eZDOMNode#o5">NamespaceURI</a> = false</td></tr>
-<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the namespace URI. E.g. xmlns="<a href="http://web.archive.org/web/20030823120223/http://ez.no/article/">http://ez.no/article/</a>", <a href="http://web.archive.org/web/20030823120223/http://ez.no/article/">http://ez.no/article/</a> would be the namespace URI.</em></font><br><br></td></tr>
+<tr><td>&nbsp;</td><td><font size="-1"><em>Contains the namespace URI. E.g. xmlns="<a href="https://doc.sdk.exponential.earth/article/">http://ez.no/article/</a> would be the namespace URI.</em></font><br><br></td></tr>
 <tr><td nowrap align="right" valign="top"><a name="o6" doxytag="eZDOMNode::LocalName"></a>
 &nbsp;</td><td valign="bottom"><a class="dox_el" href="/web/20030823120223/http://ez.no/sdk/ref/view/class/eZDOMNode#o6">LocalName</a> = false</td></tr>
 <tr><td>&nbsp;</td><td><font size="-1"><em>The local part of a name. E.g: book:title, title is the local part.</em></font><br><br></td></tr>
@@ -1098,7 +1098,7 @@ Referenced by <a class="dox_el" href="/web/20030823120223/http://ez.no/sdk/ref/v
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030823120223/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030823120223/http://ez.no/">Exponential</a>
+<a href="https://doc.sdk.exponential.earth/">Exponential</a>
 </center>
 <br/>
 

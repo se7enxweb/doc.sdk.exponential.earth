@@ -681,7 +681,7 @@ References <a class="dox_el" href="/web/20030823123953/http://ez.no/sdk/ref/view
     <td>
 
 <p>
-Tries to fixup the input text to be acceptable.   
+Tries to fixup the input text to be acceptable. ï¿½ 
 <p>
 Definition at line <a class="dox_el" href="/web/20030823123953/http://ez.no/sdk/ref/view/source/ezcontentobjectattribute#l00279">279</a> of file <a class="dox_el" href="/web/20030823123953/http://ez.no/sdk/ref/view/source/ezcontentobjectattribute">ezcontentobjectattribute.php</a>.
 <p>
@@ -1006,7 +1006,7 @@ References <a class="dox_el" href="/web/20030823123953/http://ez.no/sdk/ref/view
     <td>
 
 <p>
-Validates the data contents, returns true on success false if the data does not validate.   
+Validates the data contents, returns true on success false if the data does not validate. ï¿½ 
 <p>
 Definition at line <a class="dox_el" href="/web/20030823123953/http://ez.no/sdk/ref/view/source/ezcontentobjectattribute#l00268">268</a> of file <a class="dox_el" href="/web/20030823123953/http://ez.no/sdk/ref/view/source/ezcontentobjectattribute">ezcontentobjectattribute.php</a>.
 <p>
@@ -1099,7 +1099,7 @@ Referenced by <a class="dox_el" href="/web/20030823123953/http://ez.no/sdk/ref/v
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030823123953/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030823123953/http://ez.no/">Exponential</a>
+<a href="https://doc.sdk.exponential.earth/developer">Exponential</a> copyright &copy; copyright ï¿½ 1998-2025 <a hrefhttps://doc.sdk.exponential.earthno/">Exponential</a>
 </center>
 <br/>
 

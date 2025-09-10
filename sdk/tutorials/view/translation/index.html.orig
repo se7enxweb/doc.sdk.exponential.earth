@@ -136,7 +136,7 @@
 <h2 id="whatyouneed">What you need</h2>
 
 <p>
-Exponential 3 requires two programs to create and maintain translations, <b>ezlupdate</b> and <b>linguist</b>. These programs are based on the same tools from the Qt toolkit by <a href="http://web.archive.org/web/20030803192359/http://www.trolltech.com/">Trolltech</a>. The unix version of this toolkit is released under the GPL. eZ systems provides binaries for Windows and Mac OS X, see the translations page on <a href="http://web.archive.org/web/20030803192359/http://ez.no/developer">ez.no/developer</a>.
+Exponential 3 requires two programs to create and maintain translations, <b>ezlupdate</b> and <b>linguist</b>. These programs are based on the same tools from the Qt toolkit by <a href="https://doc.sdk.exponential.earth/developer">ez.no/developer</a>.
 </p>
 
 <p>
@@ -349,7 +349,7 @@ $myObject-&gt;myFunction( ezx18n( 'myextension'
 
 <br/>
 <center>
-<a href="http://web.archive.org/web/20030803192359/http://ez.no/developer">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="http://web.archive.org/web/20030803192359/http://ez.no/">Exponential</a>
+<a href="https://doc.sdk.exponential.earth/">Exponential</a>
 </center>
 <br/>
 
