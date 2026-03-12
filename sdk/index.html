@@ -2,131 +2,54 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential SDK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential SDK — Software Development Kit Reference</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
-<link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
-<link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
 
-<link rel="home" href="http://web.archive.org/" title="Exponential™ SDK"/>
-<link rel="index" href="http://web.archive.org/"/>
-<link rel="top" href="http://web.archive.org/" title="Exponential™ SDK"/>
-<link rel="search" href="http://web.archive.org/web/20030806184327/http:/www.ez.no/content/advancedsearch.html" title="Search"/>
-<link rel="shortcut icon" href="http://web.archive.org/web/20030806184327/http:/www.ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
-<link rel="help" href="http://web.archive.org/web/20030806184327/manual.html"/>
-<link rel="glossary" href="http://web.archive.org/web/20030806184327/sdk.html"/>
+<link rel="home" href="https://doc.sdk.exponential.earth title="Exponential™ SDK"/>
+<link rel="index" href="https://doc.sdk.exponential.earth"/>
+<link rel="top" href="https://doc.sdk.exponential.earth" title="Exponential™ SDK"/>
+<link rel="shortcut icon" href="/design/standard/images/favicon.ico" type="image/x-icon"/>
+<link rel="help" href="/manual/"/>
+<link rel="glossary" href="/sdk/"/>
 
-
-<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/"/>
 </head>
 
 <body>
 
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
 
-
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="headlogo" width="560">
-    <img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></td>
-    <td class="headlink" width="66">
-
-<table width="66" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-left-corner.gif" alt=""/></td>
-    <td class="menuheadgraytopline" width="60">
-    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadgrayleftline" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
-    <td class="menuheadgray">
-    <p class="menuheadgray">
-    <a class="menuheadlink" href="https://doc.sdk.exponential.earth/index.html">Manual</a>
-    </p>
-    </td>
-    <td class="menuheadgrayrightline" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
-</tr>
-</table>
-
-</td>
-
-    <td class="menuheadspacer" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
-    <td class="headlink" width="66">
-
-
-<table cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-left-corner.gif" alt=""/></td>
-    <td class="menuheadselectedtopline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadselectedleftline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
-    <td class="menuheadselected">
-    <p class="menuheadselected">
-    <a class="menuheadlink" href="/sdk/index.html">SDK</a>
-    </p>
-    </td>
-    <td class="menuheadselectedrightline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
-</tr>
-</table>
-
-    </td>
-   <td class="headlogo" width="50%">
-   &nbsp;</td>
-</tr>
-    <td colspan="11" class="menuheadtoolbar">
-    &nbsp;
-    </td>
-</tr>
-</table>
-
-
-<table width="100%" cellpadding="5">
-<tr>
-    <td valign="top" width="15%">
+<div class="page-layout">
+<aside class="page-sidebar">
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
-    <th class="menuheaddark" colspan="3">
+    <th class="menuheaddark" colspan="2">
     <p class="menuhead">Exponential SDK</p>
     </th>
 </tr>
 <tr>
-    <td class="bullet" width="1">
-    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
-    </td>
-    <td class="menu" width="60%">
-    <p class="menuitem">Version:</p>
-    </td>
-    <td class="menu" width="49%">
-    <p class="menuitem"><nobr>3.1-1</nobr></p>
-    </td>
+    <td class="menu" style="white-space:nowrap">Version:</td>
+    <td class="menu" style="white-space:nowrap">3.1-1</td>
 </tr>
 <tr>
-    <td class="bullet" width="1">
-    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
-    </td>
-    <td class="menu" width="60%">
-    <p class="menuitem">Alias:</p>
-    </td>
-    <td class="menu" width="49%">
-    <p class="menuitem"><nobr>3.1</nobr></p>
-    </td>
+    <td class="menu" style="white-space:nowrap">Alias:</td>
+    <td class="menu" style="white-space:nowrap">3.1</td>
 </tr>
 </table>
 
     </td>
-    <td>
-
+</aside>
+<div class="page-main">
 
 <table width="100%">
 <tr>
@@ -157,6 +80,7 @@
 	<ul>
 	<li><a href="/sdk/changes/view/features.html">Key Features</a></li>
 <li><a href="/sdk/changes/view/changelog.html">Changelog</a></li>
+<li><a href="/sdk/missing.html">Missing Images &amp; Restoration Guide</a></li>
 
 	</ul>
 	</td>
@@ -169,7 +93,7 @@
 <li><a href="/sdk/ezimage.html">eZ image&trade;</a></li>
 <li><a href="/sdk/ezlocale.html">eZ locale&trade;</a></li>
 <li><a href="/sdk/ezsoap.html">eZ soap&trade;</a></li>
-<li><a href="/sdk/eztemplate.html">eZ template&trade;</a></li>
+<li><a href="/sdk/eztemplate/index.html">eZ template&trade;</a></li>
 <li><a href="/sdk/ezutils.html">eZ utils&trade;</a></li>
 <li><a href="/sdk/ezxml.html">eZ xml&trade;</a></li>
 
@@ -204,13 +128,11 @@
 </tr>
 </table>
 
-</td>
-</tr>
-</table>
+</div>
+</div>
 <br/>
 <center>
-<a href="../developer.html">Exponential</a> copyright &copy; copyright © 1998-2025 <a href="../index.html">Exponential</a>
-</center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
 <br/>
 
 <!-- Google tag (gtag.js) -->
@@ -223,23 +145,4 @@
   gtag('config', 'G-HVXJB28EZY');
 </script>
 
-</body></html><!--
-     FILE ARCHIVED ON 18:43:27 Aug 06, 2003 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:39:24 Oct 31, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 0.427
-  exclusion.robots: 0.024
-  exclusion.robots.policy: 0.014
-  esindex: 0.008
-  cdx.remote: 9.543
-  LoadShardBlock: 84.801 (3)
-  PetaboxLoader3.datanode: 99.85 (4)
-  PetaboxLoader3.resolve: 351.314 (2)
-  load_resource: 406.911
--->
+</body></html>

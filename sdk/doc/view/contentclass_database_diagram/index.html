@@ -2,101 +2,37 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential SDK - SDK documents</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential SDK — Content Class Database Diagram</title>
 
-<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
-</head>
-<head>
-<title>Exponential SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
-<link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
-<link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
-
-<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/doc/view/contentclass_database_diagram/"/>
 </head>
 
-<body style="background: url(https://doc.sdk.exponential.earth/design/standard/images/grid-background.gif);">
+<body>
 
-
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="headlogo" width="560">
-    <img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></td>
-    <td class="headlink" width="66">
-
-<table width="66" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-left-corner.gif" alt=""/></td>
-    <td class="menuheadgraytopline" width="60">
-    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadgrayleftline" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
-    <td class="menuheadgray">
-    <p class="menuheadgray">
-    <a class="menuheadlink" href="https://doc.sdk.exponential.earth/manual/">Manual</a>
-    </p>
-    </td>
-    <td class="menuheadgrayrightline" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
-</tr>
-</table>
-
-</td>
-
-    <td class="menuheadspacer" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
-    <td class="headlink" width="66">
-
-
-<table cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-left-corner.gif" alt=""/></td>
-    <td class="menuheadselectedtopline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadselectedleftline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
-    <td class="menuheadselected">
-    <p class="menuheadselected">
-    <a class="menuheadlink" href="/sdk.html">SDK</a>
-    </p>
-    </td>
-    <td class="menuheadselectedrightline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
-</tr>
-</table>
-
-    </td>
-   <td class="headlogo" width="50%">
-   &nbsp;</td>
-</tr>
-    <td colspan="11" class="menuheadtoolbar">
-    &nbsp;
-    </td>
-</tr>
-</table>
-
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; doc <span class="slash">/</span> contentclass_database_diagram &nbsp;</p></div>
 
 <table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
     <td class="pathline" width="50%">
-    <a class="path" href="/sdk/doc/view/database_diagram.html">&lt;&lt; Database</a>&nbsp;
+    <a class="path" href="../database_diagram/index.html">&lt;&lt; Database</a>&nbsp;
     </td>
     <td class="pathline" align="right" width="50%">
-    <a class="path" href="/sdk/doc/view/class_diagram.html">Kernel classes &gt;&gt;</a>&nbsp;
+    <a class="path" href="../class_diagram/index.html">Kernel classes &gt;&gt;</a>&nbsp;
     </td>
 </tr>
 </table>
-
 
 <table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
 <tr>
@@ -116,6 +52,14 @@
     <p class="menuitem"><p class="groupname">Start here</p>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/doc/view/subversion_standard/">Subversion</a><br/></p>
     </td>
 </tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem">&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/doc/view/git_standard/">Git</a><br/></p>
+    </td>
+</tr>
 </table>
 </td>
 
@@ -127,7 +71,20 @@ The database diagram for the content class is shown below.
 </p>
 
 <p>
-<img src="https://doc.sdk.exponential.earth/doc/design/uml/contentclass_db.png" border="0" alt="ContentClass Database diagram"/>
+<!-- IMAGE NOT ARCHIVED: /doc/design/uml/contentclass_db.png -->
+<!-- <img src="/doc/design/uml/contentclass_db.png" border="0" alt="ContentClass Database diagram"/> -->
+<pre class="missing-image">TODO — Image not available in archive
+
+Title:   ContentClass Database Schema Diagram
+File:    /doc/design/uml/contentclass_db.png
+
+What this image shows:
+Entity-relationship / database schema diagram for the content class subsystem of Exponential CMS. Shows the database tables that store content class definitions, their attributes, attribute data types, and relationships to content objects. Key tables include ezcontentclass, ezcontentclass_attribute, ezcontentclassgroup, and related mapping tables.
+
+Replacement instructions:
+Regenerate from the Exponential 3.1 database schema (MySQL dump or source). Save as /doc/design/uml/contentclass_db.png
+
+See /sdk/missing.html for the full list of missing images.</pre>
 </p>
 </td></tr>
 </table>
@@ -137,9 +94,7 @@ The database diagram for the content class is shown below.
 </table>
 
 <br/>
-<center>
-<a href="https://doc.sdk.exponential.earth/">Exponential</a>
-</center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p>
 <br/>
 
 <!-- Google tag (gtag.js) -->
@@ -152,23 +107,4 @@ The database diagram for the content class is shown below.
   gtag('config', 'G-HVXJB28EZY');
 </script>
 
-</body></html><!--
-     FILE ARCHIVED ON 20:07:15 Aug 20, 2003 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:42:56 Oct 31, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 7.659
-  exclusion.robots: 0.054
-  exclusion.robots.policy: 0.034
-  esindex: 0.018
-  cdx.remote: 24.832
-  LoadShardBlock: 606.112 (3)
-  PetaboxLoader3.datanode: 595.285 (4)
-  load_resource: 121.463
-  PetaboxLoader3.resolve: 61.922
--->
+</body></html>

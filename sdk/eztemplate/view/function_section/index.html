@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - eZ template&trade;</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/eztemplate/view/function_section/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; eztemplate <span class="slash">/</span> function_section &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../function_sequence/index.html" ">&lt;&lt; Sequence</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../function_switch/index.html" ">Switch &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/eztemplate">eZ template&trade;</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Basics</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_comments/index.html">Comments</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_types/index.html">Types</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_namespaces/index.html">Namespaces</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_attributes/index.html">Attributes</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_operators/index.html">Operators</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_functions/index.html">Functions</a><br/><p class="groupname">Operators</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/operator_list/index.html">Operator list</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/operator_creators/index.html">Type creators</a><br/><p class="groupname">Functions</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_list/index.html">Function list</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_delimit/index.html">Delimiter</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_include/index.html">Include</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_sequence/index.html">Sequence</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_section/index.html">Section</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_switch/index.html">Switch</a><br/><p class="groupname">API Reference</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZTemplate/index.html">Template manager</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/module/eZTemplateElements/index.html">Template elements</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/module/eZTemplateOperators/index.html">Template operators</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/module/eZTemplateFunctions/index.html">Template functions</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Section</h1>
+<p>The <i>section</i> is the most versatile and most used function in the template engine.
+It allows for looping over arrays and numeric ranges, and conditional control of blocks and sequences.
+It is controlled by a series of input parameter and sub functions.</p>
+
+<h2>Explanation of input parameters</h2>
+
+<h3>name</h3>
+<p>Defines the namespace for all generated template variables, see <i>loop</i> and <i>sequence</i> for
+a list of generated variables.</p>
+
+<h3>loop</h3>
+</p>Defines the data that the section should loop over, each the time the section loops it sets a
+template variable and appends the result of all its children to the output. The data can either
+be an array, in which case each item in the array is traversed, or a number that determines the
+number of iterations (a negative number makes the iteration go backwards).</p>
+<p>It's possible to constrain the number of elements that is iterated as well as single elements,
+see parameters <i>max</i> and <i>offset</i> and sub-children <i>section-exclude</i> and <i>section-include</i>.</p>
+<p>Each time the section iterates it sets four template variables in the new namespace. The variables
+are <i>index</i>, <i>number</i>, <i>key</i> and <i>item</i>.
+<ul>
+<li><i>index</i> - is a number which starts at 0 and increases for each iteration.</li>
+<li><i>number</i> - same as <i>index</i> but starts at 1</li>
+<li><i>key</i> - if an array is iterated the key of the current item is set, if a number it will be the same as <i>item</i></li>
+<li><i>item</i> - if an array is iterated the current item is set, if a number the current iteration index is set (same as <i>index<i>)</li>
+</ul>
+</p>
+
+<h3>show</h3>
+<p>This parameter determines whether the <i>section</i> block should be shown or not. If the parameter
+is not present or is true (either a boolean true, non-empty array or non-zero value) the <i>section</i> block
+is shown, otherwise the <i>section-else</i> block is shown. This is quite useful for conditional inclusion
+of template code depending on a variable. When the <i>section-else</i> block is used no looping is done.</p>
+
+<h3>sequence</h3>
+<p>Defines a sequence which is iterated as the normal <i>loop</i> parameter, the difference is that the
+sequence will wrap and only supports arrays. The current item will be set in the <i>sequence</i> template
+variable. This parameter is useful if you want to create alternating colors in lists, for instance.</p>
+
+<h3>max</h3>
+<p>Determines the maximum number of iterations, the value must be an integer or an array, if it's an array
+the count of the array is used.</p>
+
+<h3>offset</h3>
+<p>Determines the start of the loop array for the iterations, the value must be an integer or an array,
+if it's an array the count of the array is used.</p>
+
+<h2>Explanation of sub children functions</h2>
+
+<h3>section-else</h3>
+<p>Determines the start of the alternative block which is shown when <i>show</i> is false. See above.</p>
+
+<h3>delimiter</h3>
+<p>Determines a block of template elements which should be placed in between two iterations.</p>
+
+<h3>section-exclude and section-include</h3>
+<p>Adds a new filter rule for excluding or including a loop item, the rules will be run
+after one-another as they are found. The rule will read the <i>match</i> parameter and
+change the current accept/reject state for the current item, the default is to accept
+all items. The match parameter can match any template variable available including loop iterators,
+keys and items, but not the loop sequence.</p>
+<p>Sequences and iteration counts will not be advanced if the loop item is discarded.</p>
+
+<h2>Examples</h2>
+
+<pre class="example">
+&lt;h2&gt;Showing the template variables for different loop types&lt;/h2&gt;
+&lt;p&gt;For each iteration you can see the template variables which are set by the section function,
+they are &lt;b&gt;index&lt;/b&gt;:&lt;b&gt;number&lt;/b&gt;:&lt;b&gt;key&lt;/b&gt;&lt;/p&gt;
+
+&lt;h3&gt;Looping an array of numbers&lt;/h3&gt;
+
+{section name=Num loop=$numbers offset=2 max=2}
+{$Num:index}:{$Num:number}:{$Num:key} Number: {$Num:item}&lt;br/&gt;
+
+{/section}
+
+&lt;h3&gt;Looping an associative array&lt;/h3&gt;
+
+{section name=Num loop=$assoc}
+{$Num:index}:{$Num:number}:{$Num:key} Text: {$Num:item}&lt;br/&gt;
+
+{/section}
+
+&lt;h3&gt;Iterating 5 times&lt;/h3&gt;
+
+{section name=Num loop=5 sequence=array(red,blue)}
+{section-exclude match=$Num:item|gt(3)}
+{section-exclude match=$Num:item|lt(3)}
+{section-include match=$Num:item|lt(2)}
+{$Num:sequence}-{$Num:index}:{$Num:number}:{$Num:key} Number: {$Num:item}&lt;br/&gt;
+
+{/section}
+
+&lt;h3&gt;Iterating 5 times, backwards&lt;/h3&gt;
+
+{section name=Num loop=-5}
+{$Num:index}:{$Num:number}:{$Num:key} Number: {$Num:item}&lt;br/&gt;
+
+{/section}
+
+&lt;br/&gt;
+
+&lt;h3&gt;Looping over a multi-dim array&lt;/h3&gt;
+{* Looping over a multi-dim array and with a sequence *}
+&lt;table&gt;
+&lt;th&gt;URI&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;
+{section name=Loop loop=$menu:items sequence=array(odd,even)}
+&lt;tr&gt;&lt;td&gt;{$Loop:sequence} - {$Loop:item.uri}&lt;/td&gt;&lt;td class={$Loop:sequence}&gt;{$Loop:item.name}&lt;/td&gt;&lt;/tr&gt;
+{/section}
+&lt;/table&gt;
+
+{* This section is controlled by the show parameter, if true the section is used (in this case false) *}
+&lt;p&gt;Show list={$show_list|choose('off','on')}&lt;/p&gt;
+&lt;p&gt;{section name=Loop loop=$menu:items show=$show_list}
+{$Loop:item.uri} : {$Loop:item.name}&lt;br /&gt;
+{/section}&lt;/p&gt;
+
+{* This section will only show the {section-else} part since the show item is false *}
+{section name=Loop show=0}
+&lt;p&gt;abc {$Loop:item} def&lt;/p&gt;
+{section-else}
+&lt;p&gt;Shown for zero or empty vars&lt;/p&gt;
+{/section}
+
+{* Numeric looping, also shows the use of the {delimiter} function *}
+&lt;h2&gt;Loop 5 times&lt;/h2&gt;
+{section name=Loop loop=5}
+{$Loop:item}
+{delimiter}.{/delimiter}
+{/section}
+
+&lt;h2&gt;Loop 5 times negative&lt;/h2&gt;
+{section name=Loop loop=-5}
+{$Loop:key}
+{delimiter}::{/delimiter}
+{/section}
+</pre>
+
+<h2>Results</h2>
+
+<h2>Showing the template variables for different loop types</h2>
+<p>For each iteration you can see the template variables which are set by the section function,
+they are <b>index</b>:<b>number</b>:<b>key</b></p>
+
+<h3>Looping an array of numbers</h3>
+0:1:2 Number: 1003<br/>
+
+<h3>Looping an associative array</h3>
+0:1:red Text: Red<br/>
+1:2:green Text: Green<br/>
+2:3:blue Text: Blue<br/>
+
+<h3>Iterating 5 times</h3>
+red-0:1:0 Number: 1<br/>
+blue-1:2:2 Number: 3<br/>
+
+<h3>Iterating 5 times, backwards</h3>
+0:1:0 Number: -1<br/>
+1:2:-1 Number: -2<br/>
+2:3:-2 Number: -3<br/>
+3:4:-3 Number: -4<br/>
+4:5:-4 Number: -5<br/>
+
+<br/>
+
+<h3>Looping over a multi-dim array</h3>
+
+<table>
+<th>URI</th><th>Name</th><tr><td>odd - https://exponential.earth</td><td class="odd">eZ home</td></tr><tr><td>even - http://zez.org</td><td class="even">ZeZ</td></tr><tr><td>odd - http://.ez.no/developer</td><td class="odd">eZ developer</td></tr></table>
+
+<p>Show list=off</p>
+<p></p>
+
+<p>Shown for zero or empty vars</p>
+
+<h2>Loop 5 times</h2>1.2.3.4.5
+<h2>Loop 5 times negative</h2>0::-1::-2::-3::-4
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

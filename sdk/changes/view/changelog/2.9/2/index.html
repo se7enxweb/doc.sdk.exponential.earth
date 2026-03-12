@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - What's New</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/changes/view/changelog/2.9/2/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; 2.9 <span class="slash">/</span> 2 &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../1/index.html" ">&lt;&lt; 2.9-1</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../3/index.html" ">2.9-3 &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/changes">What's New</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/features/">Key features</a><br/><p class="groupname">Changelog</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/index.html">2.9 series</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/1/index.html">2.9-1</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/2/index.html">2.9-2</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/3/index.html">2.9-3</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/4/index.html">2.9-4</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/5/index.html">2.9-5</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/6/index.html">2.9-6</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/7/index.html">2.9-7</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/8/index.html">2.9-8</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Exponential 3 changes in 2.9-2</h1>
+<p>Improved SDK, better access control and bugfixes
+
+</p>
+<h2>SDK</h2>
+<ul><li>Added online coding standards to SDK.</li>
+<li>Added Changelog system to SDK.</li>
+<li>Added support for changing the title in SDK parts</li>
+<li>Added support for changing the forward/back navigators in SDK parts</li>
+<li>Added support for adding more features to the left menu in SDK parts,
+  placement is also possible.</li>
+<li>Added better titles for some reference and document items</li>
+<li>Source view for sdk elements which uses a centralized file for parts works (see doc/ref).</li>
+<li>Moved sdk doc directories into a separate sdk directory.</li>
+<li>Added explanation of directory layout.</li>
+<li>Added explanation of site access</li>
+</ul>
+<h2>Library</h2>
+<ul></ul>
+<h3>eZ soap</h3>
+<ul><li>Added support for complex datatypes</li>
+<li>Added support for boolean response values.</li>
+<li>Added support for boolean parameters.</li>
+<li>Added support for base64 in response.</li>
+<li>Fixed correct content length in the HTTP header</li>
+<li>Fixed correct content type in HTTP header</li>
+</ul>
+<h3>eZ xml</h3>
+<ul><li>Added registration of #text nodes by name in DOM docuemnt.</li>
+<li>Added support for numeric characters in namespace prefix.</li>
+<li>Fixed crash when returning textContent of empty DOM node.</li>
+</ul>
+<h3>eZ ini</h3>
+<ul><li>Added support for specifying the override directory path</li>
+<li>Added support for fetching the variables of a block in the order they were read</li>
+<li>Added <i>hasGroup()</i> function for determing the existence of a group</li>
+<li>Added <i>reset()</i> function for resetting group/variable data</li>
+<li>The cachefile name is now dependent on the override directory name</li>
+<li>Three cachefiles will be created, one for the original file, one for
+  the override and one for the appending. This fixes a bug where deleting an
+  override file would not update cache.</li>
+<li>Cache files now contains a cache date variable, if the cache date does not
+  exists or is lower than the defined cache date in the eZINI class the cache
+  must be recreated.</li>
+<li>Added define which can be used to enable some internal debug output.</li>
+<li>Group and keyvalues are now case sensitive and are stripped for whitespace
+  infront and after the name.</li>
+<li>Made sure the cache files uses as little memory as possible.</li>
+<li>Cache write code moved to separate function and changed a bit in how it writes it's data.</li>
+<li>Gives error messages when group/variables are accessed but do not exist.</li>
+<li>Changed functions readVariable(), readVariableArray() and readGroup() to variable(), 
+  variableArray() and group().</li>
+<li>Finished save() function, it stores the file in the correct format according to
+  the current OS.</li>
+<li>Handling newlines for Unix, Windows and Mac files is fixed.</li>
+<li>All ini values are now converted to the internal charset (and stored in the cache).</li>
+<li>Made static functions setting whether debugging is used(default false), textcodecs are
+  used(default true) and whether caching is used(default true).</li>
+<li>Added function exists() to check if an INI file exists, can be used before trying the instance() function.</li>
+<li>Made sure the ordered group array was properly written to the cache file.</li>
+</ul>
+<h3>eZ debug</h3>
+<ul><li>Output report can now be shown as plain text as well as HTML, which is good for
+  console tests.</li>
+<li>Added support for enabling/disable direct output and logging of messages.</li>
+<li>Added NullDB class which is used when an implementation is not found,
+  it does nothing and always returns false.</li>
+<li>Debug output which is fetched from PHP errors are labeled <b>PHP</b>.</li>
+</ul>
+<h3>eZ db</h3>
+<ul><li>Changed debug output to use the optional label parameter, this creating better
+  outputs. The number of affected rows is also added to the label (only mysql for the moment).</li>
+<li>The time taken for each query is shown in debug label with sql output on (only mysql for the moment).</li>
+<li>Added support for switching database implementation from site.ini</li>
+<li>Added SQL output debug in PostgreSQL implementation.</li>
+<li>All sql queries and rows returned are now converted to and from the internal charset. (only mysql for the moment)
+  This behaviour is controlled by a site.ini option.</li>
+<li>Created an eZDBInterface class which all implementations inherit from, this takes care of general initialization
+  and has some helper functions.</li>
+<li>Changed the way each implementation is instantiated, instead of harcoding the available implemenations
+  it is search for in a default path and a path set in site.ini.</li>
+</ul>
+<h3>eZ uri</h3>
+<ul><li>Added support for changing the current URI string</li>
+<li>Added function isEmpty() which returns true if the URI is either an empty string
+  or equals /.</li>
+</ul>
+<h3>eZ module</h3>
+<ul><li>Added support for creating empty module objects.</li>
+<li>Added support for creating &quot;features&quot; which allows for dynamic retrieval of objects, lists etc.</li>
+<li>Added support for freely placed parameters in URI.</li>
+<li>Added setGlobalPathList function to set the path list once and swapped the parameter positions of the
+  <i>exists</i> function, this means that only the module name is required.</li>
+<li>Added support for running an error module directly with an error code.</li>
+<li>Added support for turning post variables into actions, no more need for post variable checking. They
+  can even have post variable parameters.</li>
+<li>Added support for easier redirection using module, view and parameters.</li>
+<li>Changed the handleError function, it now takes a second parameter called <i>type</i> which determines
+  the type of the error, for instance: kernel or contentobject</li>
+<li>Changed the setErrorModule to take a second parameter which defines the error view, default is <i>view</i>.</li>
+<li>addHook() now takes an extra parameter called <i>priority</i> which defines the order of execution for a hook,
+  lower priorities (negative included) gets executed first. The default priority is 1.
+  If an entry with the same priority is found it will be increased or decreased according to the <i>append</i> parameter.</li>
+</ul>
+<h3>eZ file</h3>
+<ul><li>New class for handling file operations</li>
+<li>Added support for creating directories with permission mask, can create
+  missing parents as well</li>
+<li>Added function splitLines() which splits the lines in a file into an array.</li>
+</ul>
+<h3>eZ template</h3>
+<ul><li>Added check for GB with image conversion of ttf fonts in template operator lib.</li>
+<li>The <i>section</i> function now uses the <i>show</i> parameter for controlling the
+  <i>section-else</i> part.</li>
+<li>Better error output when operator parameters are not properly closed</li>
+<li>All examples uses Capital letters for namespaces according to the naming conventions for templates</li>
+<li>Named types in operators are no longer referenced, thus fixing the problem with operators only
+  working once.</li>
+<li>The section function can now loop over strings, each loop will set $item to the current character.</li>
+<li>The parser is changed so it doesn't care about namespace when creating the tree, the
+  namespace is only used when fetching data, that way the trees can be reused.</li>
+<li>Supports charset conversion using the eZTextCodec.</li>
+<li>Added extra parameter for operators, it's the first parameter will be operator element object.</li>
+<li>Added extra namespace parameter to process functions, this is needed by template functions which
+  will change the current namspace (eg. section), the old namspace parameter will be used for
+  variable retrieval and represents the namespace for a given template file.</li>
+<li>New template operator <i>concat</i> which takes all input parameters and creates a string out of it,
+  it will traverse arrays recursive.</li>
+<li>Added extra parameter called $extraParameters for loadURI, load, fetch and display, this parameter
+  is passed to the resource handler and can contain special options for that handler.</li>
+<li><i>max</i> and <i>offset</i> may be set on section, to minimize items used.</li>
+<li>Added <i>exclude</i> and <i>include</i> sub functions which defines rules to run in order,
+  the result of the function are either true or false, if true the current iteration
+  is performed, if not it is skipped.</li>
+<li><i>delimiter</i> for <i>section</i> function can now specify a modulo value which means that the delimiter
+  content will only be included each n times, the parameter name is <i>modulo</i>. It's also possible to 
+  specify the parameter <i>match</i> which will be fetched and evaluated each time the delimiter is to
+  be used, if the value is true the delimiter is used.</li>
+<li>Added support for template objects, that's object which has a function called <i>templateData</i>
+  implemented. It will return an array which will either define pure text or a template to
+  be used for representing the object.</li>
+<li>Added support for autoloading functions and operators, this means that the classes aren't included
+  or instantiated before they are needed by a template.</li>
+<li>Added autoload files which defines functions and operators, since the search path list is controlled
+  by site.ini it's possible for plugins for template functions and operators.</li>
+<li>Improved parsing with regards to negative numbers.</li>
+<li>New arithmetic template operators, <i>sum</i>, <i>sub</i>, <i>inc</i>, <i>dec</i>, <i>div</i>, <i>mod</i>, <i>mul</i>, <i>max</i>, <i>min</i>, <i>abs</i>, <i>ceil</i>, <i>floor</i>, <i>round</i></li>
+<li>New operator <i>fetch</i> which can call a module function and get the result data.</li>
+<li>New operators <i>array_prepend</i>, <i>array_append</i> and <i>array_merge</i></li>
+<li>New function <i>default</i> which allows for setting default data to non-existing variables.</li>
+</ul>
+<h3>eZ httpfile</h3>
+<ul><li>Added two more attributes for fetching the category and part of the mimetype</li>
+</ul>
+<h3>eZ httptool</h3>
+<ul><li>Added function for setting a post variable.</li>
+</ul>
+<h3>eZ executionstack</h3>
+<ul><li>New class for handling URI executions in a given session, it will remember visited
+  URIs and allow for easy backtracking.</li>
+</ul>
+<h3>eZ httppersistence</h3>
+<ul><li>Added support for fetching checkboxed field members.</li>
+</ul>
+<h3>eZ translator</h3>
+<ul><li>New system for handling context sensitive text translation.
+  It currently supports reading .ts files(Qt translation), leetify(1337), character shuffling and random picking.</li>
+</ul>
+<h3>eZ inputvalidator</h3>
+<ul><li>New class for handling input validation and correction, it currently has a regexp and integer validator.</li>
+</ul>
+<h3>eZ locale</h3>
+<ul><li>New format type called DateTime and Short DateTime which displays both date and time in a long
+  and short format.</li>
+<li>Changed the locale format, the locale is now specified with one locale string, for instance nor-NO,
+  the first part is the language and the second the country. The local will either look for an ini
+  file named as the locale string or try to find the language and country separately.</li>
+<li>Added function <i>httpLocaleCode</i> which returns the localcode usable in the HTTP header.</li>
+</ul>
+<h3>eZ language</h3>
+<ul><li>Removed, see eZ locale</li>
+</ul>
+<h3>eZ i18n</h3>
+<ul><li>New class eZCodePageAlias which converts alias charset names into real charset names.</li>
+<li>New class eZCodePageMapper which handles conversion from one charset to another using codepages
+  and without using utf8/unicode as an intermediate value.</li>
+<li>New class eZMBStringMapper which handles conversion using the mbstring extension in PHP.</li>
+<li>Redone class eZTextCodec to handle proper text conversion, it's not done yet.</li>
+<li>Added support for doublebyte characters in eZCodepage.</li>
+<li>Added support for codepage to utf8 string conversion and strlen.</li>
+<li>Added function <i>httpCharset</i> which returns the charset usable in the HTTP header</li>
+</ul>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

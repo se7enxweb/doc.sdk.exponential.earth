@@ -2,101 +2,37 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential SDK - SDK documents</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Exponential SDK — PHP Coding Standard</title>
 
-<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
-</head>
-<head>
-<title>Exponential SDK</title>
 <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
-<link rel="stylesheet" type="text/css" href="/design/admin/stylesheets/admin.css"/>
-<link rel="stylesheet" type="text/css" href="/kernel/sdk/style.css"/>
-
-<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/doc/view/php_coding_standard/"/>
 </head>
 
-<body style="background: url(http://web.archive.org/web/20030821190239im_/http://www.ez.no/design/standard/images/grid-background.gif);">
+<body>
 
-
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="headlogo" width="560">
-    <img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></td>
-    <td class="headlink" width="66">
-
-<table width="66" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-left-corner.gif" alt=""/></td>
-    <td class="menuheadgraytopline" width="60">
-    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadgrayleftline" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
-    <td class="menuheadgray">
-    <p class="menuheadgray">
-    <a class="menuheadlink" href="http://web.archive.org/web/20030821190239/http://www.ez.no/manual/">Manual</a>
-    </p>
-    </td>
-    <td class="menuheadgrayrightline" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
-</tr>
-</table>
-
-</td>
-
-    <td class="menuheadspacer" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
-    <td class="headlink" width="66">
-
-
-<table cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-left-corner.gif" alt=""/></td>
-    <td class="menuheadselectedtopline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadselectedleftline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
-    <td class="menuheadselected">
-    <p class="menuheadselected">
-    <a class="menuheadlink" href="/sdk/">SDK</a>
-    </p>
-    </td>
-    <td class="menuheadselectedrightline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
-</tr>
-</table>
-
-    </td>
-   <td class="headlogo" width="50%">
-   &nbsp;</td>
-</tr>
-    <td colspan="11" class="menuheadtoolbar">
-    &nbsp;
-    </td>
-</tr>
-</table>
-
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; doc <span class="slash">/</span> php_coding_standard &nbsp;</p></div>
 
 <table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
     <td class="pathline" width="50%">
-    <a class="path" href="/sdk/doc/view/class_diagram.html">&lt;&lt; Kernel classes</a>&nbsp;
+    <a class="path" href="../class_diagram/index.html">&lt;&lt; Kernel classes</a>&nbsp;
     </td>
     <td class="pathline" align="right" width="50%">
-    <a class="path" href="/sdk/doc/view/sql_coding_standard.html">SQL &gt;&gt;</a>&nbsp;
+    <a class="path" href="../sql_coding_standard/index.html">SQL &gt;&gt;</a>&nbsp;
     </td>
 </tr>
 </table>
-
 
 <table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
 <tr>
@@ -114,6 +50,14 @@
     </td>
     <td class="menu" width="99%">
     <p class="menuitem"><p class="groupname">Start here</p>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/doc/view/subversion_standard/">Subversion</a><br/></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem">&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/doc/view/git_standard/">Git</a><br/></p>
     </td>
 </tr>
 </table>
@@ -165,18 +109,17 @@ All files must start with the following header:
 // PURPOSE.
 //
 // The "Exponential professional licence" is available at
-// http://ez.no/products/licences/professional/. For pricing of this licence
-// please contact us via e-mail to licence@ez.no. Further contact
-// information is available at http://ez.no/home/contact/.
+// https://exponential.earth/products/licences/professional/. For pricing of this licence
+// please contact us via e-mail to licence@exponential.earth. Further contact
+// information is available at https://exponential.earth/home/contact/.
 //
 // The "GNU General Public License" (GPL) is available at
 // http://www.gnu.org/copyleft/gpl.html.
 //
-// Contact licence@ez.no if any conditions of this licensing isn't clear to
+// Contact licence@exponential.earth if any conditions of this licensing isn't clear to
 // you.
 //
 </pre>
-
 
 <h1>Indenting</h1>
 <p>
@@ -273,7 +216,6 @@ if ( $variable == 'string' )
 }
 </pre>
 
-
 <h1>If and while statements</h1>
 <p>
 Nested if statements should always use {}. If you have a lot of if-else statements these should
@@ -359,8 +301,6 @@ switch ( $value )
         ...
     }break;
 }
-
-
 
 </pre>
 
@@ -523,7 +463,7 @@ Functions that do not access member variables should be static.
 <h1>Commenting</h1>
 <p>
 The comments used should be written to comply with the syntax of the Doxygen tool. This tool, which is used
-to generate class reference documentation, is available at <a href="https://doc.sdk.exponential.earth/sdk.html">http://ez.no/sdk</a>.
+to generate class reference documentation, is available at <a href="/sdk/">https://exponential.earth/sdk</a>.
 </p>
 
 <pre class="example">
@@ -599,9 +539,7 @@ class MyClass
 </table>
 
 <br/>
-<center>
-<a href="https://doc.sdk.exponential.earth/">Exponential</a>
-</center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p>
 <br/>
 
 <!-- Google tag (gtag.js) -->
@@ -614,23 +552,4 @@ class MyClass
   gtag('config', 'G-HVXJB28EZY');
 </script>
 
-</body></html><!--
-     FILE ARCHIVED ON 19:02:39 Aug 21, 2003 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:41:42 Oct 31, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 0.538
-  exclusion.robots: 0.022
-  exclusion.robots.policy: 0.011
-  esindex: 0.011
-  cdx.remote: 5.915
-  LoadShardBlock: 106.069 (3)
-  PetaboxLoader3.datanode: 127.19 (4)
-  load_resource: 125.239
-  PetaboxLoader3.resolve: 87.385
--->
+</body></html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - eZ template&trade;</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/eztemplate/view/basic_operators/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; eztemplate <span class="slash">/</span> basic_operators &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../basic_attributes/index.html" ">&lt;&lt; Attributes</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../basic_functions/index.html" ">Functions &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/eztemplate">eZ template&trade;</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">Basics</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_comments/index.html">Comments</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_types/index.html">Types</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_namespaces/index.html">Namespaces</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_attributes/index.html">Attributes</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_operators/index.html">Operators</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/basic_functions/index.html">Functions</a><br/><p class="groupname">Operators</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/operator_list/index.html">Operator list</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/operator_creators/index.html">Type creators</a><br/><p class="groupname">Functions</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_list/index.html">Function list</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_delimit/index.html">Delimiter</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_include/index.html">Include</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_sequence/index.html">Sequence</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_section/index.html">Section</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/eztemplate/view/function_switch/index.html">Switch</a><br/><p class="groupname">API Reference</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZTemplate/index.html">Template manager</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/module/eZTemplateElements/index.html">Template elements</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/module/eZTemplateOperators/index.html">Template operators</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/module/eZTemplateFunctions/index.html">Template functions</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Operators</h1>
+<p><!-- IMAGE NOT ARCHIVED: /doc/images/operator.png -->
+<!-- <img src="/doc/images/operator.png"/> -->
+<pre class="missing-image">TODO — Image not available in archive
+
+Title:   Template Operator Architecture Diagram
+File:    /doc/images/operator.png
+
+What this image shows:
+Diagram showing how custom template operators are registered and called within the eZ Template system. Illustrates the operator handler interface, how operators receive parameters and modify output within template expressions.
+
+Replacement instructions:
+Redraw based on sdk/kernel/view/template_operators documentation. Save as /doc/images/operator.png
+
+See /sdk/missing.html for the full list of missing images.</pre></p>
+
+<p>Operators allow the template engine to modify variable types or create new values.
+Operators receive data input from the left and output the result to the right. How the
+operator modifies the data is up to each operator. For instance, some operators behave differently
+depending on whether the input data is an array or not, while others may ignore the input and create an
+output variable.</p>
+
+<p>The operators can also take extra parameters separated by ',' (comma) and enclosed in '(' and
+')' (brackets). The parameters can be constants, variables or operators which means that you can nest
+operators. For instance, there's no builtin syntax for creating booleans or arrays, instead you use
+an operator. <i>true()</i> creates a boolean with a true value and <i>false()</i> creates a boolean with a
+false value. <i>array()</i> takes all its parameters and creates an array out of it.</p>
+
+<p>The general syntax for an operator is: <b>{input|operator(parameter1,parameter2...)}</b> Remember that both the input
+and the parameters can be operators. You could for instance write: {cond($b|ne(0),div($a,$b),0)} This example will divide $a by $b and return the result. If $b is null, however, it will not attempt to divide, and return null instead.</p>
+
+<p>If you want to send input to the operator, then the input and the operator must be separated by '|' (the pipe symbol).
+If for instance you are calling an operator that takes three parameters, and you want to omit the second parameter, just write nothing at that position, e.g. {operator(parameter1,,parameter2)}.
+</p>
+
+<p>Some operators work only on the logical level, meaning that they only see values as true or false.
+For consistency, all operators should follow these following rules: Arrays are <i>true</i> if the count is larger than
+0, numerical values are <i>true</i> if the value is different than 0, booleans behave as normal, null is always
+<i>false</i> and all other values are <i>false</i>.</p>
+
+<p>Examples of some variable operators:</p>
+
+<pre class="example">
+{* Creating and showing an array *}
+{array(1,5,'test')|attribute(,,show)}
+
+{* Multiple serialized operators *}
+{array(1,2)|gt(1)|choose('Tiny array','Greater than one')}
+{* This will output 'Greater than one', because the array
+consists of more than one element.*}
+</pre>
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

@@ -1,0 +1,398 @@
+/* ============================================================
+   responsive.css — Exponential SDK Documentation
+   Mobile-first responsive layout overrides.
+
+   The site uses a 2002-era fixed-pixel table layout. This file
+   makes it readable on phones and tablets (think Wikimedia style)
+   without touching any of the original HTML.
+
+   Desktop behaviour (>768px) is handled entirely by the existing
+   core.css / admin.css / kernel/sdk/style.css — this file does
+   nothing above that breakpoint.
+   ============================================================ */
+
+
+/* ============================================================
+   MOBILE  (≤ 768 px)
+   ============================================================ */
+@media screen and (max-width: 768px) {
+
+    /* --- Global resets --------------------------------------- */
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow-x: hidden;
+        min-width: 0 !important;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* All images scale down instead of overflowing */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+
+    /* ==========================================================
+       HEADER BAR
+       The outer header table structure is:
+         <table width="100%" cellspacing="0" cellpadding="0" border="0">
+           <tr>
+             <td class="headlogo"  width="560">  — logo (560 px!)
+             <td class="headlink"  width="66">   — "Manual" tab
+             <td class="menuheadspacer" width="3">
+             <td class="headlink"  width="66">   — "SDK" tab
+             <td class="headlogo"  width="50%">  — empty right filler
+           </tr>
+           <tr><td colspan="11" class="menuheadtoolbar"></tr>
+           <tr><td class="pathline" colspan="11"></tr>
+         </table>
+
+       Strategy: turn the first <tr> into a flex row so the logo
+       shrinks and both nav tabs remain visible on a narrow screen.
+       ========================================================== */
+
+    /* Make the outer wrapper a block (collapses the table frame) */
+    table[cellspacing="0"][cellpadding="0"][border="0"][width="100%"] {
+        display: block !important;
+        width: 100% !important;
+    }
+    table[cellspacing="0"][cellpadding="0"][border="0"][width="100%"] > tbody {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    /* First row → flex so logo + tabs flow naturally */
+    table[cellspacing="0"][cellpadding="0"][border="0"][width="100%"] > tbody > tr:first-child {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        align-items: flex-end !important;
+        width: 100% !important;
+        background-color: #4272b4;
+        overflow: hidden;
+    }
+
+    /* Toolbar + path rows → full-width blocks */
+    table[cellspacing="0"][cellpadding="0"][border="0"][width="100%"] > tbody > tr:not(:first-child) {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    /* Logo cell: flex-grow so it fills what the tabs don't need */
+    td.headlogo {
+        flex: 1 1 auto !important;
+        width: auto !important;
+        min-width: 0 !important;
+        max-width: calc(100% - 140px) !important;
+        padding: 6px 8px !important;
+        display: flex !important;
+        align-items: center !important;
+        overflow: hidden;
+    }
+
+    /* The empty right-filler headlogo: completely hidden on mobile */
+    td.headlogo:last-child {
+        display: none !important;
+        width: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Logo image: constrained width */
+    img.logo {
+        max-width: 160px !important;
+        width: auto !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    /* Nav tab cells: never shrink, sit at the right of the header */
+    td.headlink {
+        flex: 0 0 auto !important;
+        width: auto !important;
+        display: block !important;
+        vertical-align: bottom !important;
+    }
+
+    /* The tiny spacer between the two tabs */
+    td.menuheadspacer {
+        flex: 0 0 2px !important;
+        width: 2px !important;
+        display: block !important;
+        padding: 0 !important;
+    }
+
+    /* Decorative corner / top-line GIFs inside tab cells — hide them.
+       This collapses each tab to just its text row. */
+    td.menuheadgraygfx,
+    td.menuheadselectedgfx,
+    td.menuheadgraytopline,
+    td.menuheadselectedtopline {
+        display: none !important;
+        height: 0 !important;
+        font-size: 0 !important;
+    }
+
+    /* Left+right border lines also hidden (tab looks fine without them) */
+    td.menuheadgrayleftline,
+    td.menuheadgrayrightline,
+    td.menuheadselectedleftline,
+    td.menuheadselectedrightline {
+        display: none !important;
+        width: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Inner nav tables (the decorated tab boxes) → simple blocks */
+    td.headlink > table {
+        display: block !important;
+        width: auto !important;
+    }
+    td.headlink > table > tbody {
+        display: block !important;
+    }
+    td.headlink > table > tbody > tr {
+        display: block !important;
+    }
+
+    /* The actual tab label cells */
+    td.menuheadgray,
+    td.menuheadselected {
+        display: block !important;
+        padding: 8px 10px !important;
+        text-align: center !important;
+        white-space: nowrap !important;
+        font-size: 80% !important;
+    }
+
+    /* Toolbar row */
+    td.menuheadtoolbar {
+        display: block !important;
+        width: 100% !important;
+        padding: 3px 10px !important;
+    }
+
+    /* Path / breadcrumb row */
+    td.pathline {
+        display: block !important;
+        width: 100% !important;
+        padding: 4px 10px !important;
+    }
+    p.path {
+        white-space: normal !important;
+        word-break: break-word !important;
+        font-size: 12px !important;
+        margin: 0 !important;
+    }
+
+
+    /* ==========================================================
+       CONTENT LAYOUT TABLE
+       <table width="100%" cellpadding="5">
+         <tr>
+           <td valign="top" width="15%">  — left sidebar
+           <td>                           — main content area
+         </tr>
+       </table>
+
+       Stack sidebar above content on mobile.
+       ========================================================== */
+
+    table[cellpadding="5"][width="100%"] {
+        display: block !important;
+        width: 100% !important;
+    }
+    table[cellpadding="5"][width="100%"] > tbody {
+        display: block !important;
+        width: 100% !important;
+    }
+    table[cellpadding="5"][width="100%"] > tbody > tr,
+    table[cellpadding="5"][width="100%"] > tr {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    table[cellpadding="5"][width="100%"] > tbody > tr > td,
+    table[cellpadding="5"][width="100%"] > tr > td {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 8px 10px !important;
+    }
+
+    /* Sidebar menu box: expand to full width */
+    table.menuboxleft {
+        width: 100% !important;
+        margin-top: 4px !important;
+        margin-bottom: 4px !important;
+    }
+    table.menuboxright {
+        width: 100% !important;
+        margin-top: 4px !important;
+    }
+
+
+    /* ==========================================================
+       MULTI-COLUMN CONTENT GRIDS (index pages)
+       On index pages the content td holds a further table:
+         <table width="100%">
+           <tr>
+             <td valign="top">  Getting Started
+             <td valign="top">  Tutorials
+             <td valign="top">  What's New
+           </tr>
+           ...
+         </table>
+       Stack those columns vertically.
+       ========================================================== */
+
+    /* Only target inner tables that are direct children of content tds */
+    table[cellpadding="5"] td > table[width="100%"] {
+        display: block !important;
+        width: 100% !important;
+    }
+    table[cellpadding="5"] td > table[width="100%"] > tbody {
+        display: block !important;
+    }
+    table[cellpadding="5"] td > table[width="100%"] > tbody > tr,
+    table[cellpadding="5"] td > table[width="100%"] > tr {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    table[cellpadding="5"] td > table[width="100%"] > tbody > tr > td,
+    table[cellpadding="5"] td > table[width="100%"] > tr > td {
+        display: block !important;
+        width: 100% !important;
+        padding: 4px 0 !important;
+        vertical-align: top !important;
+    }
+    table[cellpadding="5"] td > table[width="100%"] h2 {
+        margin-top: 12px !important;
+        padding-top: 4px !important;
+        border-top: 1px solid #d0d8e8;
+    }
+    table[cellpadding="5"] td > table[width="100%"] > tbody > tr > td:first-child h2 {
+        border-top: none !important;
+        margin-top: 0 !important;
+    }
+
+
+    /* ==========================================================
+       DATA TABLES (API reference, class lists, etc.)
+       Wrap in a scrollable container rather than breaking layout.
+       ========================================================== */
+
+    table.list,
+    table.layoutlist,
+    table.example {
+        display: block !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        max-width: 100% !important;
+        width: auto !important;
+    }
+
+
+    /* ==========================================================
+       CODE + PRE BLOCKS
+       ========================================================== */
+
+    pre,
+    pre.example,
+    code {
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        white-space: pre-wrap !important;
+        word-wrap: break-word !important;
+        font-size: 12px !important;
+        display: block !important;
+    }
+
+    pre.missing-image {
+        font-size: 11px !important;
+        padding: 10px 12px !important;
+        word-break: break-word !important;
+    }
+
+
+    /* ==========================================================
+       TYPOGRAPHY
+       ========================================================== */
+
+    p, li, dd, dt {
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    h1 { font-size: 140% !important; }
+    h2 { font-size: 115% !important; }
+    h3 { font-size: 95% !important; }
+
+
+    /* ==========================================================
+       MISC
+       ========================================================== */
+
+    input.searchbox {
+        width: 80px !important;
+    }
+
+    /* Stop nobr from forcing horizontal overflow */
+    nobr {
+        white-space: normal !important;
+    }
+
+    /* blockquote */
+    blockquote {
+        margin: 4px 0 !important;
+        padding: 6px 8px !important;
+    }
+
+} /* end @media (max-width: 768px) */
+
+
+/* ============================================================
+   SMALL PHONES  (≤ 480 px)
+   Additional tightening on top of the 768px rules above.
+   ============================================================ */
+@media screen and (max-width: 480px) {
+
+    img.logo {
+        max-width: 120px !important;
+    }
+
+    td.headlogo {
+        max-width: calc(100% - 120px) !important;
+    }
+
+    td.menuheadgray,
+    td.menuheadselected {
+        padding: 7px 8px !important;
+        font-size: 75% !important;
+    }
+
+    p, li, td, th {
+        font-size: 13px !important;
+    }
+
+    h1 { font-size: 120% !important; }
+    h2 { font-size: 108% !important; }
+
+    p.path {
+        font-size: 11px !important;
+    }
+
+    table.menuboxleft,
+    table.menuboxright {
+        font-size: 85% !important;
+    }
+
+    /* Tight padding on index content grid */
+    table[cellpadding="5"] td > table[width="100%"] > tbody > tr > td {
+        padding: 2px 0 !important;
+    }
+
+} /* end @media (max-width: 480px) */

@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Images — Exponential SDK</title>
+    <link rel="shortcut icon" href="/design/standard/images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+    <link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+    <style>
+        body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+        h1   { font-size: 1.4em; margin-bottom: 0.3em; }
+        h2   { font-size: 1.15em; margin-top: 1.6em; }
+        .intro { background: #fff8dc; border: 1px solid #e5c000; padding: 12px 16px;
+                  margin: 16px 0; border-radius: 4px; }
+        .intro code { background: #f4f4f4; padding: 1px 4px; }
+        table.missing-table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+        .missing-table th, .missing-table td {
+            border: 1px solid #ccc; padding: 7px 9px; vertical-align: top;
+            font-size: 12px; }
+        .missing-table th { background: #dbe4f0; text-align: left; }
+        th.section-head { background: #3a5a8a; color: #fff; font-size: 13px;
+                           padding: 6px 9px; text-align: left; }
+        .img-path { white-space: nowrap; width: 22%; }
+        .img-path code { font-size: 11px; color: #333; }
+        .img-title { width: 18%; font-weight: bold; color: #1a3a6a; }
+        .img-desc { width: 40%; }
+        .img-files { width: 20%; font-size: 11px; }
+        .img-files a { color: #0055aa; }
+        pre.missing-image {
+            display: block;
+            background-color: #eef4ff;
+            border: 2px solid #3a6fd8;
+            border-radius: 12px;
+            padding: 14px 18px;
+            margin: 12px 0;
+            font-family: Consolas, 'Courier New', monospace;
+            font-size: 12px;
+            line-height: 1.6;
+            color: #1a2c5a;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            box-shadow: 0 2px 8px rgba(58, 111, 216, 0.15); }
+        .instructions { background: #f0f7ff; border: 1px solid #aac; padding: 12px 16px;
+                         margin: 16px 0; border-radius: 4px; line-height: 1.6; }
+        .instructions ol { margin-top: 8px; }
+        .instructions code { background: #e8e8ff; padding: 1px 4px; font-size: 12px; }
+    </style>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/missing.html"/>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; sdk <span class="slash">/</span> missing images &nbsp;</p></div>
+
+<div class="page-layout">
+<aside class="page-sidebar">
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="3">
+    <p class="menuhead">Exponential SDK</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/></td>
+    <td class="menu" colspan="2"><p class="menuitem"><a href="/sdk/">SDK Home</a></p></td>
+</tr>
+<tr>
+    <td class="bullet" width="1"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/></td>
+    <td class="menu" colspan="2"><p class="menuitem"><a href="/sdk/missing.html">Missing Images</a></p></td>
+</tr>
+</table>
+    </td>
+    <td valign="top">
+
+<h1>Missing Images — Restoration Guide</h1>
+
+<div class="intro">
+    <strong>Status:</strong> 138 images could not be retrieved from the
+    Wayback Machine archive. These images were part of the original
+    <em>ez.no</em> developer documentation for eZ Publish 3.1 (now
+    <em>Exponential CMS</em>). Where images appear in the documentation, they
+    have been replaced with <code>&lt;pre class="missing-image"&gt;TODO&lt;/pre&gt;</code>
+    blocks describing what the image showed and how to recreate it.
+</div>
+
+<div class="instructions">
+    <h2>How to Restore These Images</h2>
+    <ol>
+        <li><strong>Install Exponential 3.1</strong> (the distribution formerly known as eZ Publish 3.1).
+            A copy is available at <a href="https://exponential.earth">exponential.earth</a>.</li>
+        <li><strong>Run Doxygen</strong> on the PHP source to regenerate the 77 class
+            inheritance diagrams. Place the output PNGs in
+            <code>/doc/generated/html/</code> relative to this site root.</li>
+        <li><strong>Use a UML tool</strong> (e.g. draw.io, PlantUML, or Doxygen) to recreate the
+            architectural UML diagrams in <code>/doc/design/uml/</code>.</li>
+        <li><strong>Take admin UI screenshots</strong> of the Exponential admin interface to replace
+            the tutorial and user manual screenshots. Use the descriptions below as a guide
+            for exactly which screen to capture for each image.</li>
+        <li><strong>Save images</strong> to the exact paths listed in column 1 of the table,
+            relative to the site root <code>/web/vh/ezpublish.se7enx.com/doc/doc.sdk.ezpublish.se7enx.com/</code>.</li>
+        <li><strong>Remove the placeholder blocks</strong>: once an image is in place, find the
+            <code>&lt;!-- IMAGE NOT ARCHIVED: path --&gt;</code> comment and the
+            <code>&lt;pre class="missing-image"&gt;</code> block in the HTML and delete them,
+            leaving only the <code>&lt;!-- &lt;img ...&gt; --&gt;</code> restored to a live
+            <code>&lt;img&gt;</code> tag.</li>
+    </ol>
+</div>
+
+<h2>Missing Image Index (138 total)</h2>
+
+<table class="missing-table">
+<tr>
+    <th>File Path</th>
+    <th>Title / Subject</th>
+    <th>Description &amp; Replacement Instructions</th>
+    <th>Used In</th>
+</tr>
+<tr><th colspan="4" class="section-head">UML / Architecture Diagrams (7 images)</th></tr>
+<tr>
+  <td class="img-path"><code>/doc/design/uml/class.png</code></td>
+  <td class="img-title">Exponential Kernel Class Diagram</td>
+  <td class="img-desc">UML class diagram showing the full object-oriented class hierarchy of the Exponential CMS kernel. Illustrates inheritance relationships between core kernel classes such as eZContentObject, eZContentClass, eZUser, eZModule, eZWorkflow, eZTemplate, and their subclasses. The diagram was generated from the PHP source using a UML tool circa 2003.<br/><br/><strong>Replacement:</strong> Regenerate from Exponential 3.1 PHP source using a UML tool (e.g. phpDocumentor, Doxygen, or draw the class hierarchy from the /kernel/ source files). Save as /doc/design/uml/class.png</td>
+  <td class="img-files"><a href="/sdk/doc/view/class_diagram/index.html">sdk/doc/view/class_diagram/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/design/uml/contentclass_db.png</code></td>
+  <td class="img-title">ContentClass Database Schema Diagram</td>
+  <td class="img-desc">Entity-relationship / database schema diagram for the content class subsystem of Exponential CMS. Shows the database tables that store content class definitions, their attributes, attribute data types, and relationships to content objects. Key tables include ezcontentclass, ezcontentclass_attribute, ezcontentclassgroup, and related mapping tables.<br/><br/><strong>Replacement:</strong> Regenerate from the Exponential 3.1 database schema (MySQL dump or source). Save as /doc/design/uml/contentclass_db.png</td>
+  <td class="img-files"><a href="/sdk/doc/view/contentclass_database_diagram/index.html">sdk/doc/view/contentclass_database_diagram/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/design/uml/database.png</code></td>
+  <td class="img-title">Exponential Kernel Database Schema Diagram</td>
+  <td class="img-desc">Full entity-relationship database schema diagram for the entire Exponential CMS kernel (width=1280, height=930). Shows all core database tables and their foreign key relationships, covering content objects, versions, attributes, users, roles, policies, sections, workflows, shop/e-commerce tables, and collaboration tables.<br/><br/><strong>Replacement:</strong> Regenerate from the Exponential 3.1 database schema. Save as /doc/design/uml/database.png (recommended: 1280x930 px)</td>
+  <td class="img-files"><a href="/sdk/doc/view/database_diagram/index.html">sdk/doc/view/database_diagram/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/design/uml/ezsoap.png</code></td>
+  <td class="img-title">eZ SOAP Class Diagram</td>
+  <td class="img-desc">UML class diagram for the eZ SOAP library. Shows the class hierarchy including eZSOAPEnvelope, eZSOAPClient, eZSOAPServer, eZSOAPRequest, eZSOAPResponse, and eZSOAPFault, with their attributes and methods.<br/><br/><strong>Replacement:</strong> Regenerate from the lib/ezsoap/ PHP source directory using a UML or class diagram tool. Save as /doc/design/uml/ezsoap.png</td>
+  <td class="img-files"><a href="/sdk/ezsoap/view/class/index.html">sdk/ezsoap/view/class/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/design/uml/ezxml.png</code></td>
+  <td class="img-title">eZ XML Class Diagram</td>
+  <td class="img-desc">UML class diagram for the eZ XML library showing the DOM wrapper classes including eZXMLDocument, eZXMLElement, eZXMLText, and related handlers used for XML content parsing and generation within Exponential CMS.<br/><br/><strong>Replacement:</strong> Regenerate from lib/ezxml/ PHP source. Save as /doc/design/uml/ezxml.png</td>
+  <td class="img-files"><a href="/sdk/ezxml/view/classdiagram/index.html">sdk/ezxml/view/classdiagram/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/design/uml/workflows.png</code></td>
+  <td class="img-title">Workflows Architecture Diagram</td>
+  <td class="img-desc">Architectural diagram illustrating the Exponential CMS workflow system. Shows how workflow events are defined, how they attach to operations (e.g., content publish, content remove, user register), and how the workflow engine processes events through statuses: FETCH, RUN, DELAY, DONE.<br/><br/><strong>Replacement:</strong> Screenshot or redraw from the Exponential 3.1 admin interface: Admin > Setup > Workflows. Save as /doc/design/uml/workflows.png</td>
+  <td class="img-files"><a href="/sdk/kernel/view/workflows.html">sdk/kernel/view/workflows.html</a>, <a href="/sdk/kernel/view/workflows/index.html">sdk/kernel/view/workflows/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/design/uml/workflows_state.png</code></td>
+  <td class="img-title">Workflow State Machine Diagram</td>
+  <td class="img-desc">State machine / sequence diagram showing the lifecycle of a workflow event: from initial trigger through FETCH (data collection), RUN (execution), optional DELAY (waiting for asynchronous events), and final DONE state. Illustrates the event processing loop and how delayed events are re-queued.<br/><br/><strong>Replacement:</strong> Redraw as a state diagram based on the workflow documentation. Save as /doc/design/uml/workflows_state.png</td>
+  <td class="img-files"><a href="/sdk/kernel/view/workflows.html">sdk/kernel/view/workflows.html</a>, <a href="/sdk/kernel/view/workflows/index.html">sdk/kernel/view/workflows/index.html</a></td>
+</tr>
+<tr><th colspan="4" class="section-head">System Overview & Security Diagrams (3 images)</th></tr>
+<tr>
+  <td class="img-path"><code>/doc/images/authentication.gif</code></td>
+  <td class="img-title">Authentication Flow Diagram</td>
+  <td class="img-desc">Diagram showing the Exponential CMS authentication process. Illustrates how a web request is matched against the site access configuration, how the anonymous user is resolved as the default when no session cookie is present, and how the login module authenticates named users and establishes a session. Shows the role of the anonymous user account in the user system.<br/><br/><strong>Replacement:</strong> Redraw as a flow diagram based on sdk/doc/view/security_handling. Save as /doc/images/authentication.gif</td>
+  <td class="img-files"><a href="/sdk/doc/view/security_handling/index.html">sdk/doc/view/security_handling/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/authorization.gif</code></td>
+  <td class="img-title">Authorization / Permissions Overview Diagram</td>
+  <td class="img-desc">Diagram showing the Exponential CMS permission/authorization system. Illustrates the check sequence: is the user an administrator (bypass all checks)? → module-level access check → function-level access check → optional limitation check (section, class, owner, etc.). Shows how roles and policies combine to grant or deny access to modules and functions.<br/><br/><strong>Replacement:</strong> Redraw as a flow diagram based on sdk/doc/view/security_handling. Save as /doc/images/authorization.gif</td>
+  <td class="img-files"><a href="/sdk/doc/view/security_handling/index.html">sdk/doc/view/security_handling/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/ezpublish_overview.png</code></td>
+  <td class="img-title">Exponential CMS System Overview Diagram</td>
+  <td class="img-desc">High-level schematic overview diagram of the Exponential CMS architecture. Shows how the major subsystems interconnect: the kernel (content objects, classes, versions, attributes), the module system, the template engine (eZ template), the i18n layer (eZ i18n), database abstraction (eZ db), the SOAP layer (eZ SOAP), image handling (eZ image), and locale/formatting (eZ locale). Illustrates the layered request/response flow.<br/><br/><strong>Replacement:</strong> Redraw as a component/architecture diagram based on the SDK Introduction. Save as /doc/images/ezpublish_overview.png</td>
+  <td class="img-files"><a href="/sdk/doc/view/overview.html">sdk/doc/view/overview.html</a>, <a href="/sdk/doc/view/overview/index.html">sdk/doc/view/overview/index.html</a></td>
+</tr>
+<tr><th colspan="4" class="section-head">i18n / Internationalization Diagrams (4 images)</th></tr>
+<tr>
+  <td class="img-path"><code>/doc/images/charset.png</code></td>
+  <td class="img-title">Charset Sources Diagram (eZ i18n)</td>
+  <td class="img-desc">Diagram showing the different charset input sources handled by the eZ i18n system (URL, HTTP POST, database, template files, .ts translation files, INI settings) and how they are converged to a single internal charset, then converted to the output charset for the HTTP response. Illustrates seamless multi-charset handling across the CMS pipeline.<br/><br/><strong>Replacement:</strong> Redraw based on sdk/ezi18n/view/charset_sources documentation. Save as /doc/images/charset.png</td>
+  <td class="img-files"><a href="/sdk/ezi18n/view/charset_sources/index.html">sdk/ezi18n/view/charset_sources/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/codepage_mapping.jpg</code></td>
+  <td class="img-title">Codepage Mapping Table (eZCodePageMapper)</td>
+  <td class="img-desc">Screenshot or rendered output of the eZCodePageMapper class demonstration: a table mapping character codes between two codepages/charsets (e.g., ISO-8859-1 to UTF-8), generated using eZCodePageMapper. Each row shows a source character code alongside its mapped equivalent in the target charset.<br/><br/><strong>Replacement:</strong> Reproduce by running the sample code from sdk/ezi18n/view/codepage_mapping and taking a screenshot of the browser output. Save as /doc/images/codepage_mapping.jpg</td>
+  <td class="img-files"><a href="/sdk/ezi18n/view/codepage_mapping/index.html">sdk/ezi18n/view/codepage_mapping/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/mbstring.jpg</code></td>
+  <td class="img-title">mbstring Charset Conversion Table</td>
+  <td class="img-desc">Screenshot of a table showing which charsets can be converted using the PHP mbstring extension within eZ i18n. Each row lists a charset name and its UTF-8 conversion output, demonstrating multi-byte character handling. Appears in both the mbstring and textcodec SDK documentation sections.<br/><br/><strong>Replacement:</strong> Reproduce by running the sample code from sdk/ezi18n/view/mbstring and taking a screenshot. Save as /doc/images/mbstring.jpg</td>
+  <td class="img-files"><a href="/sdk/ezi18n/view/mbstring/index.html">sdk/ezi18n/view/mbstring/index.html</a>, <a href="/sdk/ezi18n/view/textcodec/index.html">sdk/ezi18n/view/textcodec/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/translation.jpg</code></td>
+  <td class="img-title">Translation Table Example (eZ i18n)</td>
+  <td class="img-desc">Screenshot of a test translation table to Norwegian. Shows source strings alongside their translated equivalents, with entries falling back to 1337 (leetspeak) translator output for strings without manual translations. Produced by the eZTranslator demo code using a sample .ts file.<br/><br/><strong>Replacement:</strong> Reproduce by running the sample code from sdk/ezi18n/view/translate. Save as /doc/images/translation.jpg</td>
+  <td class="img-files"><a href="/sdk/ezi18n/view/translate/index.html">sdk/ezi18n/view/translate/index.html</a></td>
+</tr>
+<tr><th colspan="4" class="section-head">Admin UI Tutorial Screenshots (27 images)</th></tr>
+<tr>
+  <td class="img-path"><code>/doc/images/book_class_edit.jpg</code></td>
+  <td class="img-title">Book Content Class Edit Form (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin interface showing the class editing form for the "Book" example content class created in the tutorials. Displays the class attributes (Title, Author, ISBN, Description) and their data type assignments in the Setup > Classes admin section.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1, create the Book class via Admin > Setup > Classes, screenshot the class edit view. Save as /doc/images/book_class_edit.jpg</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/main_concepts.html">sdk/tutorials/view/main_concepts.html</a>, <a href="/sdk/tutorials/view/main_concepts/index.html">sdk/tutorials/view/main_concepts/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/book_edit.jpg</code></td>
+  <td class="img-title">Book Object Edit Form (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin interface content editing form for a "Book" content object. Shows the edit fields for Title, Author, ISBN, and Description attributes being filled in with sample data during the tutorial.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1, create a Book content object, screenshot the edit view. Save as /doc/images/book_edit.jpg</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/main_concepts.html">sdk/tutorials/view/main_concepts.html</a>, <a href="/sdk/tutorials/view/main_concepts/index.html">sdk/tutorials/view/main_concepts/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/book_full.jpg</code></td>
+  <td class="img-title">Book Object Full View (Frontend)</td>
+  <td class="img-desc">Screenshot of the full frontend view of a "Book" content object rendered through the Exponential template system. Shows all attributes displayed using a custom full_view template created in the tutorial.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1, create and publish a Book object, screenshot the full view frontend page. Save as /doc/images/book_full.jpg</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/main_concepts.html">sdk/tutorials/view/main_concepts.html</a>, <a href="/sdk/tutorials/view/main_concepts/index.html">sdk/tutorials/view/main_concepts/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/book_line.jpg</code></td>
+  <td class="img-title">Book Object Line View (Listing)</td>
+  <td class="img-desc">Screenshot of the line/listing view of a "Book" content object as it appears when listed inside a folder using the Exponential template system. Shows the compact line_item view template for the Book class.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1, publish a Book object inside a folder, screenshot the folder listing view. Save as /doc/images/book_line.jpg</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/main_concepts.html">sdk/tutorials/view/main_concepts.html</a>, <a href="/sdk/tutorials/view/main_concepts/index.html">sdk/tutorials/view/main_concepts/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/checkout.png</code></td>
+  <td class="img-title">E-Commerce Checkout Process Screenshot</td>
+  <td class="img-desc">Screenshot of the Exponential CMS e-commerce checkout workflow, showing the multi-step checkout process including cart confirmation, address entry, payment method selection, and order summary screens from the shop module.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1 with the shop module, perform a checkout, screenshot the checkout flow. Save as /doc/images/checkout.png</td>
+  <td class="img-files"><a href="/sdk/kernel/view/workflows.html">sdk/kernel/view/workflows.html</a>, <a href="/sdk/kernel/view/workflows/index.html">sdk/kernel/view/workflows/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/class_edit.png</code></td>
+  <td class="img-title">Content Class Edit Interface (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin content class editing interface. Shows the form for configuring a content class including its name, identifier, URL name pattern, content object name pattern, and list of attributes.<br/><br/><strong>Replacement:</strong> Admin > Setup > Classes > [edit a class], screenshot. Save as /doc/images/class_edit.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/content_classes.html">sdk/tutorials/view/content_classes.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/form_new_class.png</code></td>
+  <td class="img-title">New Content Class Creation Form (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin UI form for creating a new content class. Shows the initial "Create new class" form with fields for the class Name, Identifier, and Content object naming pattern.<br/><br/><strong>Replacement:</strong> Admin > Setup > Classes > New class, screenshot. Save as /doc/images/form_new_class.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/forms.html">sdk/tutorials/view/forms.html</a>, <a href="/sdk/tutorials/view/forms/index.html">sdk/tutorials/view/forms/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/form_new_class_attributes.png</code></td>
+  <td class="img-title">Adding Attributes to New Content Class (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin UI showing the attribute definition step when creating a new content class. Shows the attribute list with type selector dropdown (ezstring, eztext, ezinteger, etc.) for the new class.<br/><br/><strong>Replacement:</strong> Admin > Setup > Classes > New class > Add attributes, screenshot. Save as /doc/images/form_new_class_attributes.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/forms.html">sdk/tutorials/view/forms.html</a>, <a href="/sdk/tutorials/view/forms/index.html">sdk/tutorials/view/forms/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/form_template.png</code></td>
+  <td class="img-title">Template Module / Override Form (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin interface showing the template override configuration form, used to assign custom templates to specific content class views (full, line, embed). Part of the tutorial on creating custom content class templates.<br/><br/><strong>Replacement:</strong> Admin > Design > Override (or Setup > Templates), screenshot a template assignment form. Save as /doc/images/form_template.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/forms.html">sdk/tutorials/view/forms.html</a>, <a href="/sdk/tutorials/view/forms/index.html">sdk/tutorials/view/forms/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/module.png</code></td>
+  <td class="img-title">Module System Architecture Diagram</td>
+  <td class="img-desc">Diagram showing the Exponential CMS module system architecture. Illustrates how module definitions (module.php files) declare functions and their views, how the kernel dispatches requests to module functions, and how the module result is passed to the layout template.<br/><br/><strong>Replacement:</strong> Redraw based on sdk/kernel/view/module_system documentation. Save as /doc/images/module.png</td>
+  <td class="img-files"><a href="/sdk/kernel/view/module_system.html">sdk/kernel/view/module_system.html</a>, <a href="/sdk/kernel/view/module_system/index.html">sdk/kernel/view/module_system/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/object_edit.png</code></td>
+  <td class="img-title">Content Object Edit Interface (Admin UI)</td>
+  <td class="img-desc">Screenshot of the content object editing interface in the Exponential admin, showing a content object with its attribute fields for editing. Used in the content datatypes tutorial.<br/><br/><strong>Replacement:</strong> Admin > Content (tree view) > Edit any object, screenshot. Save as /doc/images/object_edit.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/content_classes.html">sdk/tutorials/view/content_classes.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/object_view_custom.jpg</code></td>
+  <td class="img-title">Custom Object View Template (Frontend)</td>
+  <td class="img-desc">Screenshot of a content object rendered on the frontend using a custom full_view template. Demonstrates the result of creating and assigning a custom template override for a specific content class.<br/><br/><strong>Replacement:</strong> Create a custom full_view template, publish an object, screenshot the frontend. Save as /doc/images/object_view_custom.jpg</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/content_classes.html">sdk/tutorials/view/content_classes.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/object_view_plain.jpg</code></td>
+  <td class="img-title">Default / Plain Object View (Frontend)</td>
+  <td class="img-desc">Screenshot of a content object rendered using the default (plain/unoverridden) full_view template in Exponential. Shows the standard presentation before a custom template is applied.<br/><br/><strong>Replacement:</strong> Publish a content object without a custom template, screenshot the frontend. Save as /doc/images/object_view_plain.jpg</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/content_classes.html">sdk/tutorials/view/content_classes.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/operator.png</code></td>
+  <td class="img-title">Template Operator Architecture Diagram</td>
+  <td class="img-desc">Diagram showing how custom template operators are registered and called within the eZ Template system. Illustrates the operator handler interface, how operators receive parameters and modify output within template expressions.<br/><br/><strong>Replacement:</strong> Redraw based on sdk/kernel/view/template_operators documentation. Save as /doc/images/operator.png</td>
+  <td class="img-files"><a href="/sdk/eztemplate/view/basic_operators/index.html">sdk/eztemplate/view/basic_operators/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/policy_step1.png</code></td>
+  <td class="img-title">Role Policy Wizard — Step 1: Select Module (Admin UI)</td>
+  <td class="img-desc">Screenshot of step 1 of the "Add policy" wizard in the Exponential admin role management interface. Shows the module selection dropdown (content, user, shop, setup, etc.) when adding a new policy to a role.<br/><br/><strong>Replacement:</strong> Admin > User accounts > Roles > Edit role > Add policy (step 1), screenshot. Save as /doc/images/policy_step1.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/permissions.html">sdk/tutorials/view/permissions.html</a>, <a href="/sdk/tutorials/view/permissions/index.html">sdk/tutorials/view/permissions/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/policy_step2.png</code></td>
+  <td class="img-title">Role Policy Wizard — Step 2: Select Function (Admin UI)</td>
+  <td class="img-desc">Screenshot of step 2 of the "Add policy" wizard: selecting which function within the chosen module the policy applies to (e.g., within the "content" module: read, edit, create, remove, translate, etc.).<br/><br/><strong>Replacement:</strong> Admin > User accounts > Roles > Edit role > Add policy (step 2), screenshot. Save as /doc/images/policy_step2.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/permissions.html">sdk/tutorials/view/permissions.html</a>, <a href="/sdk/tutorials/view/permissions/index.html">sdk/tutorials/view/permissions/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/policy_step3.png</code></td>
+  <td class="img-title">Role Policy Wizard — Step 3: Apply Limitations (Admin UI)</td>
+  <td class="img-desc">Screenshot of step 3 of the "Add policy" wizard: configuring optional limitations on the policy such as restricted content class, section, or parent-class limitations.<br/><br/><strong>Replacement:</strong> Admin > User accounts > Roles > Edit role > Add policy (step 3), screenshot. Save as /doc/images/policy_step3.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/permissions.html">sdk/tutorials/view/permissions.html</a>, <a href="/sdk/tutorials/view/permissions/index.html">sdk/tutorials/view/permissions/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/publish.png</code></td>
+  <td class="img-title">Content Publish Workflow Screenshot (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin interface showing the content publishing workflow step, where a content object is awaiting approval or being published through a configured publish workflow event.<br/><br/><strong>Replacement:</strong> Configure a publish workflow in Exponential 3.1, trigger it, screenshot the admin approval/publish step. Save as /doc/images/publish.png</td>
+  <td class="img-files"><a href="/sdk/kernel/view/workflows.html">sdk/kernel/view/workflows.html</a>, <a href="/sdk/kernel/view/workflows/index.html">sdk/kernel/view/workflows/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/role_edit.png</code></td>
+  <td class="img-title">Role Edit Interface (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin role editing interface. Shows a role with its list of current policies, each showing module, function, and any limitations, with Add/Edit/Remove buttons.<br/><br/><strong>Replacement:</strong> Admin > User accounts > Roles > Edit role, screenshot. Save as /doc/images/role_edit.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/permissions.html">sdk/tutorials/view/permissions.html</a>, <a href="/sdk/tutorials/view/permissions/index.html">sdk/tutorials/view/permissions/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/role_view.png</code></td>
+  <td class="img-title">Role View Interface (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin role view page, showing the role name and its assigned policies in a read-only summary view.<br/><br/><strong>Replacement:</strong> Admin > User accounts > Roles > View a role, screenshot. Save as /doc/images/role_view.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/permissions.html">sdk/tutorials/view/permissions.html</a>, <a href="/sdk/tutorials/view/permissions/index.html">sdk/tutorials/view/permissions/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/section_new.png</code></td>
+  <td class="img-title">Create New Section Form (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin interface for creating a new section. Sections are used to group content and apply permission limitations. Shows the "New section" form with Name and Identifier fields.<br/><br/><strong>Replacement:</strong> Admin > Setup > Sections > New section, screenshot. Save as /doc/images/section_new.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/permissions.html">sdk/tutorials/view/permissions.html</a>, <a href="/sdk/tutorials/view/permissions/index.html">sdk/tutorials/view/permissions/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/triggers.png</code></td>
+  <td class="img-title">Image: triggers.png</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: on</h2> <p> Go to the "Triggers" list and select the newly created workflow from the dropdown list on the content - publish - before line. </p> <p> [screenshot]<br/><br/><strong>Replacement:</strong> Locate original source and save as /doc/images/triggers.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/publishworkflow.html">sdk/tutorials/view/publishworkflow.html</a>, <a href="/sdk/tutorials/view/publishworkflow/index.html">sdk/tutorials/view/publishworkflow/index.html</a>, <a href="/sdk/tutorials/view/workflows.html">sdk/tutorials/view/workflows.html</a>, <a href="/sdk/tutorials/view/workflows/index.html">sdk/tutorials/view/workflows/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/workflow_approve1.png</code></td>
+  <td class="img-title">Image: workflow_approve1.png</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: editor", it is up to you. After that select Event/Approve from the drop down and click "New". Now you have created the necessary workflow. </p> <p> [screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /doc/images/workflow_approve1.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/publishworkflow.html">sdk/tutorials/view/publishworkflow.html</a>, <a href="/sdk/tutorials/view/publishworkflow/index.html">sdk/tutorials/view/publishworkflow/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/workflow_grouplist.png</code></td>
+  <td class="img-title">Image: workflow_grouplist.png</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: ready now and it is time to create the workflow. Click on 'Workflows' in the left menu and choose a defined group or just create a new one. </p> <p> [screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /doc/images/workflow_grouplist.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/workflows.html">sdk/tutorials/view/workflows.html</a>, <a href="/sdk/tutorials/view/workflows/index.html">sdk/tutorials/view/workflows/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/workflowedit.png</code></td>
+  <td class="img-title">Image: workflowedit.png</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: d then you can add the "Event/Hello User" event to the workflow by selecting it from the dropdown list and clicking the "New Event" button. </p> <p> [screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /doc/images/workflowedit.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/workflows.html">sdk/tutorials/view/workflows.html</a>, <a href="/sdk/tutorials/view/workflows/index.html">sdk/tutorials/view/workflows/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/workflowlist.png</code></td>
+  <td class="img-title">Image: workflowlist.png</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: st create a new one. </p> <p> [screenshot] </p> <p> then click "New workflow" button. </p> <p> [screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /doc/images/workflowlist.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/workflows.html">sdk/tutorials/view/workflows.html</a>, <a href="/sdk/tutorials/view/workflows/index.html">sdk/tutorials/view/workflows/index.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/images/workflows_db.png</code></td>
+  <td class="img-title">Image: workflows_db.png</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: c="/doc/design/uml/workflows.png"/><br/> <h2> State diagram </h2> [screenshot]<br/> <h2> Database diagram </h2> [screenshot]<br/> Workf<br/><br/><strong>Replacement:</strong> Locate original source and save as /doc/images/workflows_db.png</td>
+  <td class="img-files"><a href="/sdk/kernel/view/workflows.html">sdk/kernel/view/workflows.html</a>, <a href="/sdk/kernel/view/workflows/index.html">sdk/kernel/view/workflows/index.html</a></td>
+</tr>
+<tr><th colspan="4" class="section-head">Doxygen Class Inheritance Diagrams (77 images)</th></tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZ1337Translator.png</code></td>
+  <td class="img-title">eZ1337Translator Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZ1337Translator PHP class. Shows the inheritance hierarchy: which classes eZ1337Translator extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZ1337Translator.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZ1337Translator.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZ1337Translator.html">sdk/ref/view/class/eZ1337Translator.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZApproveCollaborationHandler.png</code></td>
+  <td class="img-title">eZApproveCollaborationHandler Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZApproveCollaborationHandler PHP class. Shows the inheritance hierarchy: which classes eZApproveCollaborationHandler extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZApproveCollaborationHandler.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZApproveCollaborationHandler.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZApproveCollaborationHandler.html">sdk/ref/view/class/eZApproveCollaborationHandler.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZAuthorType.png</code></td>
+  <td class="img-title">eZAuthorType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZAuthorType PHP class. Shows the inheritance hierarchy: which classes eZAuthorType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZAuthorType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZAuthorType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZAuthorType.html">sdk/ref/view/class/eZAuthorType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZBasket.png</code></td>
+  <td class="img-title">eZBasket Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZBasket PHP class. Shows the inheritance hierarchy: which classes eZBasket extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZBasket.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZBasket.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZBasket.html">sdk/ref/view/class/eZBasket.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZBinaryFile.png</code></td>
+  <td class="img-title">eZBinaryFile Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZBinaryFile PHP class. Shows the inheritance hierarchy: which classes eZBinaryFile extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZBinaryFile.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZBinaryFile.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZBinaryFile.html">sdk/ref/view/class/eZBinaryFile.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZBinaryFileHandler.png</code></td>
+  <td class="img-title">eZBinaryFileHandler Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZBinaryFileHandler PHP class. Shows the inheritance hierarchy: which classes eZBinaryFileHandler extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZBinaryFileHandler.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZBinaryFileHandler.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZBinaryFileHandler.html">sdk/ref/view/class/eZBinaryFileHandler.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZBinaryFileType.png</code></td>
+  <td class="img-title">eZBinaryFileType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZBinaryFileType PHP class. Shows the inheritance hierarchy: which classes eZBinaryFileType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZBinaryFileType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZBinaryFileType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZBinaryFileType.html">sdk/ref/view/class/eZBinaryFileType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZBorkTranslator.png</code></td>
+  <td class="img-title">eZBorkTranslator Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZBorkTranslator PHP class. Shows the inheritance hierarchy: which classes eZBorkTranslator extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZBorkTranslator.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZBorkTranslator.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZBorkTranslator.html">sdk/ref/view/class/eZBorkTranslator.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZCollaborationGroup.png</code></td>
+  <td class="img-title">eZCollaborationGroup Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZCollaborationGroup PHP class. Shows the inheritance hierarchy: which classes eZCollaborationGroup extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZCollaborationGroup.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZCollaborationGroup.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZCollaborationGroup.html">sdk/ref/view/class/eZCollaborationGroup.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZCollaborationItem.png</code></td>
+  <td class="img-title">eZCollaborationItem Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZCollaborationItem PHP class. Shows the inheritance hierarchy: which classes eZCollaborationItem extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZCollaborationItem.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZCollaborationItem.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZCollaborationItem.html">sdk/ref/view/class/eZCollaborationItem.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZCollaborationItemGroupLink.png</code></td>
+  <td class="img-title">eZCollaborationItemGroupLink Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZCollaborationItemGroupLink PHP class. Shows the inheritance hierarchy: which classes eZCollaborationItemGroupLink extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZCollaborationItemGroupLink.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZCollaborationItemGroupLink.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZCollaborationItemGroupLink.html">sdk/ref/view/class/eZCollaborationItemGroupLink.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZCollaborationItemHandler.png</code></td>
+  <td class="img-title">eZCollaborationItemHandler Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZCollaborationItemHandler PHP class. Shows the inheritance hierarchy: which classes eZCollaborationItemHandler extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZCollaborationItemHandler.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZCollaborationItemHandler.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZCollaborationItemHandler.html">sdk/ref/view/class/eZCollaborationItemHandler.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZCollaborationItemMessageLink.png</code></td>
+  <td class="img-title">eZCollaborationItemMessageLink Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZCollaborationItemMessageLink PHP class. Shows the inheritance hierarchy: which classes eZCollaborationItemMessageLink extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZCollaborationItemMessageLink.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZCollaborationItemMessageLink.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZCollaborationItemMessageLink.html">sdk/ref/view/class/eZCollaborationItemMessageLink.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZCollaborationItemParticipantLink.png</code></td>
+  <td class="img-title">eZCollaborationItemParticipantLink Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZCollaborationItemParticipantLink PHP class. Shows the inheritance hierarchy: which classes eZCollaborationItemParticipantLink extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZCollaborationItemParticipantLink.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZCollaborationItemParticipantLink.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZCollaborationItemParticipantLink.html">sdk/ref/view/class/eZCollaborationItemParticipantLink.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZCollaborationSimpleMessage.png</code></td>
+  <td class="img-title">eZCollaborationSimpleMessage Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZCollaborationSimpleMessage PHP class. Shows the inheritance hierarchy: which classes eZCollaborationSimpleMessage extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZCollaborationSimpleMessage.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZCollaborationSimpleMessage.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZCollaborationSimpleMessage.html">sdk/ref/view/class/eZCollaborationSimpleMessage.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZContentClassAttribute.png</code></td>
+  <td class="img-title">eZContentClassAttribute Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZContentClassAttribute PHP class. Shows the inheritance hierarchy: which classes eZContentClassAttribute extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZContentClassAttribute.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZContentClassAttribute.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZContentClassAttribute.html">sdk/ref/view/class/eZContentClassAttribute.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZContentObject.png</code></td>
+  <td class="img-title">eZContentObject Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZContentObject PHP class. Shows the inheritance hierarchy: which classes eZContentObject extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZContentObject.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZContentObject.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZContentObject.html">sdk/ref/view/class/eZContentObject.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZContentObjectAttribute.png</code></td>
+  <td class="img-title">eZContentObjectAttribute Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZContentObjectAttribute PHP class. Shows the inheritance hierarchy: which classes eZContentObjectAttribute extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZContentObjectAttribute.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZContentObjectAttribute.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZContentObjectAttribute.html">sdk/ref/view/class/eZContentObjectAttribute.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZContentTranslation.png</code></td>
+  <td class="img-title">eZContentTranslation Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZContentTranslation PHP class. Shows the inheritance hierarchy: which classes eZContentTranslation extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZContentTranslation.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZContentTranslation.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZContentTranslation.html">sdk/ref/view/class/eZContentTranslation.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZDBInterface.png</code></td>
+  <td class="img-title">eZDBInterface Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZDBInterface PHP class. Shows the inheritance hierarchy: which classes eZDBInterface extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZDBInterface.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZDBInterface.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZDBInterface.html">sdk/ref/view/class/eZDBInterface.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZDataType.png</code></td>
+  <td class="img-title">eZDataType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZDataType PHP class. Shows the inheritance hierarchy: which classes eZDataType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZDataType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZDataType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZDataType.html">sdk/ref/view/class/eZDataType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZDiscountSubRule.png</code></td>
+  <td class="img-title">eZDiscountSubRule Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZDiscountSubRule PHP class. Shows the inheritance hierarchy: which classes eZDiscountSubRule extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZDiscountSubRule.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZDiscountSubRule.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZDiscountSubRule.html">sdk/ref/view/class/eZDiscountSubRule.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZElementType.png</code></td>
+  <td class="img-title">eZElementType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZElementType PHP class. Shows the inheritance hierarchy: which classes eZElementType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZElementType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZElementType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZElementType.html">sdk/ref/view/class/eZElementType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZEnumObjectValue.png</code></td>
+  <td class="img-title">eZEnumObjectValue Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZEnumObjectValue PHP class. Shows the inheritance hierarchy: which classes eZEnumObjectValue extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZEnumObjectValue.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZEnumObjectValue.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZEnumObjectValue.html">sdk/ref/view/class/eZEnumObjectValue.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZEnumValue.png</code></td>
+  <td class="img-title">eZEnumValue Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZEnumValue PHP class. Shows the inheritance hierarchy: which classes eZEnumValue extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZEnumValue.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZEnumValue.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZEnumValue.html">sdk/ref/view/class/eZEnumValue.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZFileDirectHandler.png</code></td>
+  <td class="img-title">eZFileDirectHandler Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZFileDirectHandler PHP class. Shows the inheritance hierarchy: which classes eZFileDirectHandler extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZFileDirectHandler.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZFileDirectHandler.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZFileDirectHandler.html">sdk/ref/view/class/eZFileDirectHandler.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZFilePasstroughHandler.png</code></td>
+  <td class="img-title">eZFilePasstroughHandler Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZFilePasstroughHandler PHP class. Shows the inheritance hierarchy: which classes eZFilePasstroughHandler extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZFilePasstroughHandler.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZFilePasstroughHandler.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZFilePasstroughHandler.html">sdk/ref/view/class/eZFilePasstroughHandler.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZForgotPassword.png</code></td>
+  <td class="img-title">eZForgotPassword Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZForgotPassword PHP class. Shows the inheritance hierarchy: which classes eZForgotPassword extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZForgotPassword.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZForgotPassword.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZForgotPassword.html">sdk/ref/view/class/eZForgotPassword.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZISBNType.png</code></td>
+  <td class="img-title">eZISBNType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZISBNType PHP class. Shows the inheritance hierarchy: which classes eZISBNType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZISBNType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZISBNType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZISBNType.html">sdk/ref/view/class/eZISBNType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZImageInterface.png</code></td>
+  <td class="img-title">eZImageInterface Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZImageInterface PHP class. Shows the inheritance hierarchy: which classes eZImageInterface extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZImageInterface.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZImageInterface.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZImageInterface.html">sdk/ref/view/class/eZImageInterface.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZImageObject.png</code></td>
+  <td class="img-title">eZImageObject Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZImageObject PHP class. Shows the inheritance hierarchy: which classes eZImageObject extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZImageObject.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZImageObject.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZImageObject.html">sdk/ref/view/class/eZImageObject.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZImageType.png</code></td>
+  <td class="img-title">eZImageType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZImageType PHP class. Shows the inheritance hierarchy: which classes eZImageType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZImageType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZImageType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZImageType.html">sdk/ref/view/class/eZImageType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZInformationCollection.png</code></td>
+  <td class="img-title">eZInformationCollection Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZInformationCollection PHP class. Shows the inheritance hierarchy: which classes eZInformationCollection extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZInformationCollection.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZInformationCollection.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZInformationCollection.html">sdk/ref/view/class/eZInformationCollection.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZInformationCollectionAttribute.png</code></td>
+  <td class="img-title">eZInformationCollectionAttribute Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZInformationCollectionAttribute PHP class. Shows the inheritance hierarchy: which classes eZInformationCollectionAttribute extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZInformationCollectionAttribute.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZInformationCollectionAttribute.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZInformationCollectionAttribute.html">sdk/ref/view/class/eZInformationCollectionAttribute.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZIntegerValidator.png</code></td>
+  <td class="img-title">eZIntegerValidator Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZIntegerValidator PHP class. Shows the inheritance hierarchy: which classes eZIntegerValidator extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZIntegerValidator.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZIntegerValidator.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZIntegerValidator.html">sdk/ref/view/class/eZIntegerValidator.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZMailTransport.png</code></td>
+  <td class="img-title">eZMailTransport Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZMailTransport PHP class. Shows the inheritance hierarchy: which classes eZMailTransport extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZMailTransport.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZMailTransport.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZMailTransport.html">sdk/ref/view/class/eZMailTransport.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZModuleRun.png</code></td>
+  <td class="img-title">eZModuleRun Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZModuleRun PHP class. Shows the inheritance hierarchy: which classes eZModuleRun extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZModuleRun.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZModuleRun.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZModuleRun.html">sdk/ref/view/class/eZModuleRun.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZMySQLDB.png</code></td>
+  <td class="img-title">eZMySQLDB Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZMySQLDB PHP class. Shows the inheritance hierarchy: which classes eZMySQLDB extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZMySQLDB.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZMySQLDB.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZMySQLDB.html">sdk/ref/view/class/eZMySQLDB.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZNodeAssignment.png</code></td>
+  <td class="img-title">eZNodeAssignment Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZNodeAssignment PHP class. Shows the inheritance hierarchy: which classes eZNodeAssignment extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZNodeAssignment.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZNodeAssignment.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZNodeAssignment.html">sdk/ref/view/class/eZNodeAssignment.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZObjectRelationType.png</code></td>
+  <td class="img-title">eZObjectRelationType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZObjectRelationType PHP class. Shows the inheritance hierarchy: which classes eZObjectRelationType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZObjectRelationType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZObjectRelationType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZObjectRelationType.html">sdk/ref/view/class/eZObjectRelationType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZOperationMemento.png</code></td>
+  <td class="img-title">eZOperationMemento Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZOperationMemento PHP class. Shows the inheritance hierarchy: which classes eZOperationMemento extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZOperationMemento.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZOperationMemento.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZOperationMemento.html">sdk/ref/view/class/eZOperationMemento.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZOracleDB.png</code></td>
+  <td class="img-title">eZOracleDB Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZOracleDB PHP class. Shows the inheritance hierarchy: which classes eZOracleDB extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZOracleDB.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZOracleDB.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZOracleDB.html">sdk/ref/view/class/eZOracleDB.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZOrderItem.png</code></td>
+  <td class="img-title">eZOrderItem Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZOrderItem PHP class. Shows the inheritance hierarchy: which classes eZOrderItem extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZOrderItem.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZOrderItem.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZOrderItem.html">sdk/ref/view/class/eZOrderItem.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZPersistentObject.png</code></td>
+  <td class="img-title">eZPersistentObject Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZPersistentObject PHP class. Shows the inheritance hierarchy: which classes eZPersistentObject extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZPersistentObject.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZPersistentObject.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZPersistentObject.html">sdk/ref/view/class/eZPersistentObject.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZPolicy.png</code></td>
+  <td class="img-title">eZPolicy Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZPolicy PHP class. Shows the inheritance hierarchy: which classes eZPolicy extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZPolicy.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZPolicy.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZPolicy.html">sdk/ref/view/class/eZPolicy.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZPolicyLimitation.png</code></td>
+  <td class="img-title">eZPolicyLimitation Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZPolicyLimitation PHP class. Shows the inheritance hierarchy: which classes eZPolicyLimitation extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZPolicyLimitation.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZPolicyLimitation.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZPolicyLimitation.html">sdk/ref/view/class/eZPolicyLimitation.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZPostgreSQLDB.png</code></td>
+  <td class="img-title">eZPostgreSQLDB Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZPostgreSQLDB PHP class. Shows the inheritance hierarchy: which classes eZPostgreSQLDB extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZPostgreSQLDB.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZPostgreSQLDB.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZPostgreSQLDB.html">sdk/ref/view/class/eZPostgreSQLDB.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZProductCollectionItem.png</code></td>
+  <td class="img-title">eZProductCollectionItem Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZProductCollectionItem PHP class. Shows the inheritance hierarchy: which classes eZProductCollectionItem extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZProductCollectionItem.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZProductCollectionItem.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZProductCollectionItem.html">sdk/ref/view/class/eZProductCollectionItem.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZProductCollectionItemOption.png</code></td>
+  <td class="img-title">eZProductCollectionItemOption Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZProductCollectionItemOption PHP class. Shows the inheritance hierarchy: which classes eZProductCollectionItemOption extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZProductCollectionItemOption.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZProductCollectionItemOption.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZProductCollectionItemOption.html">sdk/ref/view/class/eZProductCollectionItemOption.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZPublishOnTimeValue.png</code></td>
+  <td class="img-title">eZPublishOnTimeValue Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZPublishOnTimeValue PHP class. Shows the inheritance hierarchy: which classes eZPublishOnTimeValue extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZPublishOnTimeValue.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZPublishOnTimeValue.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZPublishOnTimeValue.html">sdk/ref/view/class/eZPublishOnTimeValue.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZRandomTranslator.png</code></td>
+  <td class="img-title">eZRandomTranslator Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZRandomTranslator PHP class. Shows the inheritance hierarchy: which classes eZRandomTranslator extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZRandomTranslator.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZRandomTranslator.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZRandomTranslator.html">sdk/ref/view/class/eZRandomTranslator.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZRangeOptionType.png</code></td>
+  <td class="img-title">eZRangeOptionType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZRangeOptionType PHP class. Shows the inheritance hierarchy: which classes eZRangeOptionType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZRangeOptionType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZRangeOptionType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZRangeOptionType.html">sdk/ref/view/class/eZRangeOptionType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZRegExpValidator.png</code></td>
+  <td class="img-title">eZRegExpValidator Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZRegExpValidator PHP class. Shows the inheritance hierarchy: which classes eZRegExpValidator extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZRegExpValidator.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZRegExpValidator.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZRegExpValidator.html">sdk/ref/view/class/eZRegExpValidator.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZRole.png</code></td>
+  <td class="img-title">eZRole Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZRole PHP class. Shows the inheritance hierarchy: which classes eZRole extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZRole.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZRole.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZRole.html">sdk/ref/view/class/eZRole.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZSMTPTransport.png</code></td>
+  <td class="img-title">eZSMTPTransport Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZSMTPTransport PHP class. Shows the inheritance hierarchy: which classes eZSMTPTransport extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZSMTPTransport.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZSMTPTransport.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZSMTPTransport.html">sdk/ref/view/class/eZSMTPTransport.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZSOAPEnvelope.png</code></td>
+  <td class="img-title">eZSOAPEnvelope Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZSOAPEnvelope PHP class. Shows the inheritance hierarchy: which classes eZSOAPEnvelope extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZSOAPEnvelope.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZSOAPEnvelope.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZSOAPEnvelope.html">sdk/ref/view/class/eZSOAPEnvelope.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZSOAPRequest.png</code></td>
+  <td class="img-title">eZSOAPRequest Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZSOAPRequest PHP class. Shows the inheritance hierarchy: which classes eZSOAPRequest extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZSOAPRequest.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZSOAPRequest.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZSOAPRequest.html">sdk/ref/view/class/eZSOAPRequest.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZSOAPResponse.png</code></td>
+  <td class="img-title">eZSOAPResponse Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZSOAPResponse PHP class. Shows the inheritance hierarchy: which classes eZSOAPResponse extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZSOAPResponse.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZSOAPResponse.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZSOAPResponse.html">sdk/ref/view/class/eZSOAPResponse.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZSection.png</code></td>
+  <td class="img-title">eZSection Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZSection PHP class. Shows the inheritance hierarchy: which classes eZSection extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZSection.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZSection.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZSection.html">sdk/ref/view/class/eZSection.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZSendmailTransport.png</code></td>
+  <td class="img-title">eZSendmailTransport Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZSendmailTransport PHP class. Shows the inheritance hierarchy: which classes eZSendmailTransport extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZSendmailTransport.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZSendmailTransport.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZSendmailTransport.html">sdk/ref/view/class/eZSendmailTransport.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZShuffleTranslator.png</code></td>
+  <td class="img-title">eZShuffleTranslator Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZShuffleTranslator PHP class. Shows the inheritance hierarchy: which classes eZShuffleTranslator extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZShuffleTranslator.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZShuffleTranslator.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZShuffleTranslator.html">sdk/ref/view/class/eZShuffleTranslator.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZSimpleType.png</code></td>
+  <td class="img-title">eZSimpleType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZSimpleType PHP class. Shows the inheritance hierarchy: which classes eZSimpleType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZSimpleType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZSimpleType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZSimpleType.html">sdk/ref/view/class/eZSimpleType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZStringType.png</code></td>
+  <td class="img-title">eZStringType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZStringType PHP class. Shows the inheritance hierarchy: which classes eZStringType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZStringType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZStringType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZStringType.html">sdk/ref/view/class/eZStringType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZTSTranslator.png</code></td>
+  <td class="img-title">eZTSTranslator Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZTSTranslator PHP class. Shows the inheritance hierarchy: which classes eZTSTranslator extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZTSTranslator.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZTSTranslator.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZTSTranslator.html">sdk/ref/view/class/eZTSTranslator.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZTextCodec.png</code></td>
+  <td class="img-title">eZTextCodec Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZTextCodec PHP class. Shows the inheritance hierarchy: which classes eZTextCodec extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZTextCodec.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZTextCodec.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZTextCodec.html">sdk/ref/view/class/eZTextCodec.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZTranslatorGroup.png</code></td>
+  <td class="img-title">eZTranslatorGroup Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZTranslatorGroup PHP class. Shows the inheritance hierarchy: which classes eZTranslatorGroup extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZTranslatorGroup.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZTranslatorGroup.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZTranslatorGroup.html">sdk/ref/view/class/eZTranslatorGroup.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZTranslatorHandler.png</code></td>
+  <td class="img-title">eZTranslatorHandler Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZTranslatorHandler PHP class. Shows the inheritance hierarchy: which classes eZTranslatorHandler extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZTranslatorHandler.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZTranslatorHandler.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZTranslatorHandler.html">sdk/ref/view/class/eZTranslatorHandler.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZTrigger.png</code></td>
+  <td class="img-title">eZTrigger Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZTrigger PHP class. Shows the inheritance hierarchy: which classes eZTrigger extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZTrigger.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZTrigger.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZTrigger.html">sdk/ref/view/class/eZTrigger.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZURL.png</code></td>
+  <td class="img-title">eZURL Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZURL PHP class. Shows the inheritance hierarchy: which classes eZURL extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZURL.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZURL.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZURL.html">sdk/ref/view/class/eZURL.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZURLType.png</code></td>
+  <td class="img-title">eZURLType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZURLType PHP class. Shows the inheritance hierarchy: which classes eZURLType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZURLType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZURLType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZURLType.html">sdk/ref/view/class/eZURLType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZUserAccountKey.png</code></td>
+  <td class="img-title">eZUserAccountKey Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZUserAccountKey PHP class. Shows the inheritance hierarchy: which classes eZUserAccountKey extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZUserAccountKey.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZUserAccountKey.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZUserAccountKey.html">sdk/ref/view/class/eZUserAccountKey.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZUserType.png</code></td>
+  <td class="img-title">eZUserType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZUserType PHP class. Shows the inheritance hierarchy: which classes eZUserType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZUserType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZUserType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZUserType.html">sdk/ref/view/class/eZUserType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZWaitUntilDateValue.png</code></td>
+  <td class="img-title">eZWaitUntilDateValue Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZWaitUntilDateValue PHP class. Shows the inheritance hierarchy: which classes eZWaitUntilDateValue extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZWaitUntilDateValue.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZWaitUntilDateValue.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZWaitUntilDateValue.html">sdk/ref/view/class/eZWaitUntilDateValue.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZWishList.png</code></td>
+  <td class="img-title">eZWishList Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZWishList PHP class. Shows the inheritance hierarchy: which classes eZWishList extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZWishList.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZWishList.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZWishList.html">sdk/ref/view/class/eZWishList.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZWorkflowGroup.png</code></td>
+  <td class="img-title">eZWorkflowGroup Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZWorkflowGroup PHP class. Shows the inheritance hierarchy: which classes eZWorkflowGroup extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZWorkflowGroup.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZWorkflowGroup.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZWorkflowGroup.html">sdk/ref/view/class/eZWorkflowGroup.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZXMLOutputHandler.png</code></td>
+  <td class="img-title">eZXMLOutputHandler Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZXMLOutputHandler PHP class. Shows the inheritance hierarchy: which classes eZXMLOutputHandler extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZXMLOutputHandler.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZXMLOutputHandler.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZXMLOutputHandler.html">sdk/ref/view/class/eZXMLOutputHandler.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/doc/generated/html/classeZXMLTextType.png</code></td>
+  <td class="img-title">eZXMLTextType Class Inheritance Diagram (Doxygen)</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for the eZXMLTextType PHP class. Shows the inheritance hierarchy: which classes eZXMLTextType extends and which classes inherit from it, with links to parent and child class documentation. This diagram was auto-generated from the Exponential 3.1 PHP source code using Doxygen circa 2003.<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source and locate the generated classeZXMLTextType.png in the output. Or draw the inheritance tree manually from the API reference. Save as /doc/generated/html/classeZXMLTextType.png</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZXMLTextType.html">sdk/ref/view/class/eZXMLTextType.html</a></td>
+</tr>
+<tr><th colspan="4" class="section-head">User Manual Screenshots (20 images)</th></tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/content1.jpg</code></td>
+  <td class="img-title">Content Tree / List View (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin Content tab showing the content tree in list (Content view mode) view. Displays folders and objects in the left-side content tree. Used in the everyday-use guide for the user manual.<br/><br/><strong>Replacement:</strong> Admin > Content (list/tree view), screenshot. Save as /kernel/manual/user/images/content1.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/discount1.jpg</code></td>
+  <td class="img-title">Image: discount1.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: k on the "Partner" link that will take you into another page: "Group view". This is where we assign the actual discount to the Partner group.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/discount1.jpg</td>
+  <td class="img-files"><a href="/manual/user/e-commerce.html">manual/user/e-commerce.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/edit.jpg</code></td>
+  <td class="img-title">Image: edit.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: xponential 3 and it really explains itself. All you need to do is find the object you want to edit, click the "Edit" button and start editing.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/edit.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/infocollector.jpg</code></td>
+  <td class="img-title">Image: infocollector.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: a choice on the right side of the attributes; the "Type". The "Type" has three lines; "Required", "Searchable" and "Information collector". </p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/infocollector.jpg</td>
+  <td class="img-files"><a href="/manual/user/informationcollectors.html">manual/user/informationcollectors.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/location1.jpg</code></td>
+  <td class="img-title">Image: location1.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: e. On that site you will find the button "Add location". With this button you can add as many places you want your article to be published in.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/location1.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/muligheter1.jpg</code></td>
+  <td class="img-title">Image: muligheter1.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: different choices of what you want to do with your folder. You can preview it, store it as a draft that you can work with later or publish it.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/muligheter1.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/new.jpg</code></td>
+  <td class="img-title">Image: new.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: view over all the folders you have created. When in this window you will also see a button and a dropdown menu that says "New" and "Folder". </p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/new.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/object2.jpg</code></td>
+  <td class="img-title">Image: object2.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: ed file in the "Related objects" box. If you want to show this file in the article, copy the <tag> and paste it wherever you want in the text.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/object2.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/preview.jpg</code></td>
+  <td class="img-title">Image: preview.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: 2> <p> The preview function shows how your object (article) will look after you have published it.</p> <p>When you click the "Preview" button</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/preview.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/roles.gif</code></td>
+  <td class="img-title">Image: roles.gif</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: a role, you will see a list of the "Current policies". A policy is a simple access specification. Roles are made up of one or more policies.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/roles.gif</td>
+  <td class="img-files"><a href="/manual/user/permissions.html">manual/user/permissions.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/roles3.jpg</code></td>
+  <td class="img-title">Role Policy with Parent Class Limitation (Admin UI)</td>
+  <td class="img-desc">Screenshot showing a role with an advanced policy limitation: access to create objects of the class "Innlegg" only when the parent object is of class "Forum" or "Innlegg". Demonstrates parent-class-based policy limitations in the Exponential permissions system.<br/><br/><strong>Replacement:</strong> Admin > User accounts > Roles > Create a role with parent-class limitation, screenshot. Save as /kernel/manual/user/images/roles3.jpg</td>
+  <td class="img-files"><a href="/manual/user/permissions.html">manual/user/permissions.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/roles4.gif</code></td>
+  <td class="img-title">Image: roles4.gif</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: to give the user full access to the content module or give him limited access. We will choose the "Allow limited". This takes us to step two. </p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/roles4.gif</td>
+  <td class="img-files"><a href="/manual/user/permissions.html">manual/user/permissions.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/sitedesign1.jpg</code></td>
+  <td class="img-title">Image: sitedesign1.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: Preview" window. Here you can also change what design you want this article to be previewed in by changing the "Site design" drop down menu. </p> </p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/sitedesign1.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/sok.jpg</code></td>
+  <td class="img-title">Image: sok.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: accessible. In the search field you can search between everything that is published on your site. We have also included an "Advanced search".</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/sok.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/sorting.jpg</code></td>
+  <td class="img-title">Image: sorting.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: n you will get the "Edit folder - Folder name" page. Use the "Sort by" drop down menu and decide in what manner you want to sort your content.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/sorting.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/sport.jpg</code></td>
+  <td class="img-title">Image: sport.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: ill now get the same choice you got when creating the folder. But instead of creating a new folder you choose "Article" in the drop down menu.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/sport.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/translate.jpg</code></td>
+  <td class="img-title">Image: translate.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: me from. </p> <p>To translate you go to the object (article) you want to translate and click the "Manage" button in the "Translations" box. </p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/translate.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/vattypes.gif</code></td>
+  <td class="img-title">Image: vattypes.gif</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: product groups in your shop. To save time and make the whole thing as easy as possible this is all done within "VAT types" in the "Shop" box.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/vattypes.gif</td>
+  <td class="img-files"><a href="/manual/user/e-commerce.html">manual/user/e-commerce.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/vattypes2.gif</code></td>
+  <td class="img-title">Image: vattypes2.gif</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: ntage" window. Simply add the name of the product and what percentage of VAT this product should have. In our example we enter the following:</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/vattypes2.gif</td>
+  <td class="img-files"><a href="/manual/user/e-commerce.html">manual/user/e-commerce.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>/kernel/manual/user/images/versions1.jpg</code></td>
+  <td class="img-title">Image: versions1.jpg</td>
+  <td class="img-desc">Image from original ez.no documentation. Context: ved". Back in the "Edit view" you will find information about which version you are now working on and how many versions exist of this object.</p> <p>[screenshot]<br/><strong>Replacement:</strong> Locate original source and save as /kernel/manual/user/images/versions1.jpg</td>
+  <td class="img-files"><a href="/manual/user/everyday.html">manual/user/everyday.html</a></td>
+</tr>
+
+<tr><th colspan="4" class="section-head">Wayback Machine Placeholder Images — 1×1 GIF Spacers (15 images)</th></tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZDiscountRule</code></td>
+  <td class="img-title">eZDiscountRule Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZDiscountRule. Shows the class hierarchy: which classes eZDiscountRule extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZDiscountRule). Place the generated PNG as the img src and retain the <map name="eZDiscountRule_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZDiscountRule.html">sdk/ref/view/class/eZDiscountRule.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZDiscountSubRuleValue</code></td>
+  <td class="img-title">eZDiscountSubRuleValue Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZDiscountSubRuleValue. Shows the class hierarchy: which classes eZDiscountSubRuleValue extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZDiscountSubRuleValue). Place the generated PNG as the img src and retain the <map name="eZDiscountSubRuleValue_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZDiscountSubRuleValue.html">sdk/ref/view/class/eZDiscountSubRuleValue.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZImage</code></td>
+  <td class="img-title">eZImage Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZImage. Shows the class hierarchy: which classes eZImage extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZImage). Place the generated PNG as the img src and retain the <map name="eZImage_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZImage.html">sdk/ref/view/class/eZImage.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZIntegerType</code></td>
+  <td class="img-title">eZIntegerType Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZIntegerType. Shows the class hierarchy: which classes eZIntegerType extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZIntegerType). Place the generated PNG as the img src and retain the <map name="eZIntegerType_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZIntegerType.html">sdk/ref/view/class/eZIntegerType.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZMedia</code></td>
+  <td class="img-title">eZMedia Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZMedia. Shows the class hierarchy: which classes eZMedia extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZMedia). Place the generated PNG as the img src and retain the <map name="eZMedia_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZMedia.html">sdk/ref/view/class/eZMedia.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZOrder</code></td>
+  <td class="img-title">eZOrder Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZOrder. Shows the class hierarchy: which classes eZOrder extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZOrder). Place the generated PNG as the img src and retain the <map name="eZOrder_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZOrder.html">sdk/ref/view/class/eZOrder.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZProductCollection</code></td>
+  <td class="img-title">eZProductCollection Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZProductCollection. Shows the class hierarchy: which classes eZProductCollection extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZProductCollection). Place the generated PNG as the img src and retain the <map name="eZProductCollection_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZProductCollection.html">sdk/ref/view/class/eZProductCollection.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZUser</code></td>
+  <td class="img-title">eZUser Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZUser. Shows the class hierarchy: which classes eZUser extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZUser). Place the generated PNG as the img src and retain the <map name="eZUser_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZUser.html">sdk/ref/view/class/eZUser.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>class-diagram-eZUserDiscountRule</code></td>
+  <td class="img-title">eZUserDiscountRule Class Inheritance Diagram</td>
+  <td class="img-desc">Doxygen-generated class inheritance diagram for eZUserDiscountRule. Shows the class hierarchy: which classes eZUserDiscountRule extends and which classes inherit from it, rendered as a linked image map. The image was generated from the Exponential 3.1 PHP source code using Doxygen circa 2003 and was not captured by the Wayback Machine crawler (replaced with a 1×1 transparent spacer).<br/><br/><strong>Replacement:</strong> Run Doxygen on the Exponential 3.1 PHP source (class eZUserDiscountRule). Place the generated PNG as the img src and retain the <map name="eZUserDiscountRule_map"> block below this image for the clickable inheritance links.</td>
+  <td class="img-files"><a href="/sdk/ref/view/class/eZUserDiscountRule.html">sdk/ref/view/class/eZUserDiscountRule.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>templateissues-a-list-with-links-to-children</code></td>
+  <td class="img-title">Template Output Screenshot: "A list with links to children"</td>
+  <td class="img-desc">Screenshot of the rendered browser output of the "A list with links to children" eZ template example. The template fetches child content objects from the Exponential content tree and renders them using the template syntax shown in the preceding code block. This image was replaced by a 1×1 transparent spacer by the Wayback Machine crawler because the dynamic output was not archived.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1, create a Folder with Article children in the content tree, apply the template from the preceding code block as an override template for "full" view of the Folder class, and take a browser screenshot of the result. Save as e.g. /doc/images/templateissues_a_list_with_links_to_children.png and replace the img src in sdk/tutorials/view/templateissues/</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/templateissues.html">sdk/tutorials/view/templateissues.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>templateissues-a-more-complex-list</code></td>
+  <td class="img-title">Template Output Screenshot: "A more complex list"</td>
+  <td class="img-desc">Screenshot of the rendered browser output of the "A more complex list" eZ template example. The template fetches child content objects from the Exponential content tree and renders them using the template syntax shown in the preceding code block. This image was replaced by a 1×1 transparent spacer by the Wayback Machine crawler because the dynamic output was not archived.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1, create a Folder with Article children in the content tree, apply the template from the preceding code block as an override template for "full" view of the Folder class, and take a browser screenshot of the result. Save as e.g. /doc/images/templateissues_a_more_complex_list.png and replace the img src in sdk/tutorials/view/templateissues/</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/templateissues.html">sdk/tutorials/view/templateissues.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>templateissues-a-even-more-complex-list---with-colours</code></td>
+  <td class="img-title">Template Output Screenshot: "A even more complex list - with colours"</td>
+  <td class="img-desc">Screenshot of the rendered browser output of the "A even more complex list - with colours" eZ template example. The template fetches child content objects from the Exponential content tree and renders them using the template syntax shown in the preceding code block. This image was replaced by a 1×1 transparent spacer by the Wayback Machine crawler because the dynamic output was not archived.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1, create a Folder with Article children in the content tree, apply the template from the preceding code block as an override template for "full" view of the Folder class, and take a browser screenshot of the result. Save as e.g. /doc/images/templateissues_a_even_more_complex_list_-_wit.png and replace the img src in sdk/tutorials/view/templateissues/</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/templateissues.html">sdk/tutorials/view/templateissues.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>templateissues-template-output</code></td>
+  <td class="img-title">Template Output Screenshot: "template output"</td>
+  <td class="img-desc">Screenshot of the rendered browser output of the "template output" eZ template example. The template fetches child content objects from the Exponential content tree and renders them using the template syntax shown in the preceding code block. This image was replaced by a 1×1 transparent spacer by the Wayback Machine crawler because the dynamic output was not archived.<br/><br/><strong>Replacement:</strong> Install Exponential 3.1, create a Folder with Article children in the content tree, apply the template from the preceding code block as an override template for "full" view of the Folder class, and take a browser screenshot of the result. Save as e.g. /doc/images/templateissues_template_output.png and replace the img src in sdk/tutorials/view/templateissues/</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/templateissues.html">sdk/tutorials/view/templateissues.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>wrappingworkflow-confirm</code></td>
+  <td class="img-title">Wrapping Workflow — Shop Confirm Page Screenshot</td>
+  <td class="img-desc">Screenshot of the Exponential CMS shop confirmation page as rendered by the wrapping workflow tutorial. Shows the custom confirmation form with a "Next" submit button inside a buttonblock container, rendered as HTML in the browser. The image was not captured by the Wayback Machine (replaced with 1×1 spacer).<br/><br/><strong>Replacement:</strong> Install Exponential 3.1 with the shop module, implement the wrapping workflow from sdk/tutorials/view/wrappingworkflow, add a product to the cart, proceed to checkout, and take a browser screenshot of the confirm step. Save as /doc/images/wrappingworkflow_confirm.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/wrappingworkflow.html">sdk/tutorials/view/wrappingworkflow.html</a></td>
+</tr>
+<tr>
+  <td class="img-path"><code>wrappingworkflow-triggers</code></td>
+  <td class="img-title">Wrapping Workflow — Triggers Configuration Screenshot (Admin UI)</td>
+  <td class="img-desc">Screenshot of the Exponential admin Triggers configuration page showing the "shop-confirm-before" operation trigger with the wrapping workflow selected from the dropdown. Used in the wrapping workflow tutorial to demonstrate how to connect the custom workflow to the shop confirm operation. The image was not archived by the Wayback Machine (replaced with 1×1 spacer).<br/><br/><strong>Replacement:</strong> Admin > Setup > Triggers, connect the wrapping workflow to "shop-confirm-before", screenshot the trigger list page. Save as /doc/images/wrappingworkflow_triggers.png</td>
+  <td class="img-files"><a href="/sdk/tutorials/view/wrappingworkflow.html">sdk/tutorials/view/wrappingworkflow.html</a></td>
+</tr>
+</table>
+
+<br/>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p>
+
+    </div>
+</div>
+
+</body>
+</html>

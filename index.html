@@ -3,269 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="./design/standard/stylesheets/core.css"/>
-<link rel="stylesheet" type="text/css" href="./design/admin/stylesheets/admin.css"/>
-<link rel="stylesheet" type="text/css" href="./kernel/sdk/style.css"/>
-<title>Exponential SDK</title>
-<link rel="home" href="http://web.archive.org/" title="Exponential™ SDK"/>
-<link rel="index" href="http://web.archive.org/"/>
-<link rel="top" href="http://web.archive.org/" title="Exponential™ SDK"/>
-<link rel="search" href="../www.ez.no/content/advancedsearch.html" title="Search"/>
-<link rel="shortcut icon" href="../www.ez.no/design/standard/images/favicon.ico" type="image/x-icon"/>
-<link rel="help" href="../../manual.html"/>
-<link rel="glossary" href="../../sdk.html"/>
-
-
-    <meta property="og:title" content="The Official Core Documentation For Exponential CMS"/>
-    <meta name="twitter:title" content="The Official Core Documentation For Exponential CMS"/>        
-    <meta name="description" content="Read Exponential Documentation For Free and Join Our Community!" />
-    <meta property="og:description" content="Read Exponential Documentation For Free and Join Our Community!"/>
-    <meta name="twitter:description" content="Read Exponential Documentation For Free and Join Our Community!!"/>
-    <meta property="og:type" content="website" />
-
-    <meta property="og:url" content="https://doc.core.ezpublish.se7enx.com/" />
-    <meta property="og:image" content="https://doc.core.ezpublish.se7enx.com/favicon-banner.png" />
-    <meta property="og:site_name" content="Exponential 6.0 CMS Documentation : Core Edition" />
-    <meta property="twitter:image" content="https://doc.core.ezpublish.se7enx.com/favicon-banner.png" />
-        
-    
-    
-            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-            <meta http-equiv="Content-language" content="en-GB" />
-
-    
-                <meta name="author" content="7x" />
-                    <meta name="copyright" content="7x" />
-                    <meta name="description" content="The Official Core Documentation For Exponential CMS" />
-        
-    <meta name="generator" content="Exponential" />
-
-
-<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <title>Exponential SDK — Developer Documentation, Manual &amp; API Reference</title>
+    <meta http-equiv="Content-language" content="en-GB"/>
+    <meta name="author" content="Exponential"/>
+    <meta name="copyright" content="Exponential"/>
+    <meta name="description" content="Exponential SDK: complete developer documentation for the Exponential 3 CMS — manual, API reference, tutorials, template engine, i18n, database layer, and more."/>
+    <meta name="keywords" content="cms, exponential, sdk, developer documentation, php cms, content management, api reference, eZ publish"/>
+    <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
+    <meta name="generator" content="Exponential"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+<link rel="home" href="https://doc.sdk.exponential.earth" title="Exponential™ SDK"/>
+<link rel="index" href="https://doc.sdk.exponential.earth"/>
+<link rel="top" href="https://doc.sdk.exponential.earth" title="Exponential™ SDK"/>
+<link rel="shortcut icon" href="/design/standard/images/favicon.ico" type="image/x-icon"/>
+<link rel="help" href="/manual/"/>
+<link rel="glossary" href="/sdk/"/>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/"/>
 </head>
 
 <body>
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; developer &nbsp;</p></div>
 
-
-
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
-    <td class="headlogo" width="560">
-    <img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></td>
-    <td class="headlink" width="66">
-
-<table width="66" cellspacing="0" cellpadding="0" border="0">
+    <td colspan="2">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-left-corner.gif" alt=""/></td>
-    <td class="menuheadgraytopline" width="60">
-    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadgrayleftline" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
-    <td class="menuheadgray">
-    <p class="menuheadgray">
-    <a class="menuheadlink" href="manual/index.html">Manual</a>
-    </p>
-    </td>
-    <td class="menuheadgrayrightline" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="15"/></td>
-</tr>
-</table>
+    <td>
+<table width="100%" cellspacing="0" cellpadding="4"><tr>
+    <td width="160" bgcolor="#ffffff" valign="top">
 
-</td>
-
-    <td class="menuheadspacer" width="3">
-    <img src="/design/standard/images/1x1.gif" alt="" width="3" height="1"/></td>
-    <td class="headlink" width="66">
-
-
-<table cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-left-corner.gif" alt=""/></td>
-    <td class="menuheadselectedtopline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadselectedleftline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
-    <td class="menuheadselected">
-    <p class="menuheadselected">
-    <a class="menuheadlink" href="/sdk/">SDK</a>
-    </p>
-    </td>
-    <td class="menuheadselectedrightline">
-    <img src="/design/standard/images/1x1.gif" alt="" width="1" height="19"/></td>
-</tr>
-</table>
-
-    </td>
-   <td class="headlogo" width="50%">
-   &nbsp;</td>
-</tr>
-    <td colspan="11" class="menuheadtoolbar">
-    &nbsp;
-    </td>
-</tr>
-</table>
-
-
-<table width="100%" cellpadding="5">
-<tr>
-    <td valign="top" width="15%">
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
-    <th class="menuheaddark" colspan="3">
-    <p class="menuhead">Exponential SDK</p>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">About Exponential</p>
     </th>
 </tr>
 <tr>
     <td class="bullet" width="1">
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
-    <td class="menu" width="60%">
-    <p class="menuitem">Version:</p>
-    </td>
-    <td class="menu" width="49%">
-    <p class="menuitem"><nobr>3.1-1</nobr></p>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/manual/about/about.html">About Exponential 3</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
-    <td class="menu" width="60%">
-    <p class="menuitem">Alias:</p>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/about/definitions.html">Exponential 3 definitions</a></p>
     </td>
-    <td class="menu" width="49%">
-    <p class="menuitem"><nobr>3.1</nobr></p>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/">Developer</a></p>
+    </td>
+</tr>
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Installation &amp; configuration</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/install/installer.html">Install using installers</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/install/setup_guide.html">Install using the setup guide</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/install/install_manually.html">Install manually</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/install/siteaccess.html">Site access</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/install/multisite.html">Multi site configuration</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/install/uninstall.html">Uninstall</a></p>
+    </td>
+</tr>
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Security</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/security/securing.html">Securing the site</a></p>
+    </td>
+</tr>
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">Setup &amp; design</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/setup/pagesetup.html">Page setup</a></p>
+    </td>
+</tr>
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">User Manual</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/user/everyday.html">Everyday functions</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/user/permissions.html">Permissions</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/user/e-commerce.html">e-commerce functions and settings</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/user/workflows.html">Workflows</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="manual/user/informationcollectors.html">Information collector</a></p>
+    </td>
+</tr>
+</table>
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead">SDK &amp; Technical references</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="sdk">Exponential SDK</a></p>
     </td>
 </tr>
 </table>
 
     </td>
-    <td>
+    <td width="450" bgcolor="#ffffff" valign="top">
 
+<div class="block">
 
-<table width="100%">
+<h2>Exponential documentation update</h2>
+<div class="byline">(Monday 07 July 2003 1:26:37 pm)</div>
+<p class="rendered">
+Due to the success of the community documentation here at exponential.earth we've decided to merge all our current documentation and the community documentation to one. The result is the Exponential community documentation.
+</p>
+<div class="readmore">
+<a class="small" href="https://exponential.earth/developer/news/ez_publish_documentation_update.html">Read more...</a>
+</div>
+
+<ul>
+    <li><a href="https://exponential.earth/developer/news/ez_publish_32_release_plan.html">Exponential 3.2 release plan</a></li>
+    <li><a href="https://exponential.earth/developer/news/ez_publish_3_100_000_downloads.html">Exponential 3 : 100 000 downloads</a></li>
+    <li><a href="https://exponential.earth/developer/news/ez_publish_31_stable_release.html">Exponential 3.1 stable release</a></li>
+    <li><a href="https://exponential.earth/developer/news/ez_publish_summer_conference_2003.html">Exponential Summer Conference 2003</a></li>
+</ul>
+
+<table class="renderedtablenoborder" border="0" cellpadding="2" cellspacing="0" width="100%">
 <tr>
-	<td valign="top"><h2>Getting Started</h2>
-	<ul>
-	<li><a href="/sdk/doc/view/introduction.html">Introduction</a></li>
-<li><a href="/sdk/doc/view/overview.html">Diagrams</a></li>
-<li><a href="/sdk/doc/view/php_coding_standard.html">Coding standards</a></li>
-
-	</ul>
-	</td>
-	<td valign="top"><h2>Tutorials</h2>
-	<ul>
-	<li><a href="/sdk/tutorials/view/main_concepts.html">Main concepts</a></li>
-<li><a href="/sdk/tutorials/view/content_classes.html">Custom content</a></li>
-<li><a href="/sdk/tutorials/view/templateissues.html">Common template issues</a></li>
-<li><a href="/sdk/tutorials/view/workflows.html">Custom workflows</a></li>
-<li><a href="/sdk/tutorials/view/wrappingworkflow.html">Example of wrapping workflow</a></li>
-<li><a href="/sdk/tutorials/view/publishworkflow.html">Approval workflow</a></li>
-<li><a href="/sdk/tutorials/view/datatypes.html">Datatypes</a></li>
-<li><a href="/sdk/tutorials/view/permissions.html">Permissions and sections</a></li>
-<li><a href="/sdk/tutorials/view/forms.html">Creating forms</a></li>
-<li><a href="/sdk/tutorials/view/translation.html">Translation and i18n</a></li>
-
-	</ul>
-	</td>
-	<td valign="top"><h2>What's New</h2>
-	<ul>
-	<li><a href="/sdk/changes/view/features.html">Key Features</a></li>
-<li><a href="/sdk/changes/view/changelog.html">Changelog</a></li>
-
-	</ul>
-	</td>
+<td class="renderedtdnoborder" valign="top">
+<p class="rendered"><b><a href="https://exponential.earth/developer/ez_publish_3/documentation.html">Documentation</a></b></p>
+<ul>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/documentation/development/importing_attribute_data/huh_.html">Huh ?</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/documentation/development/importing_attribute_data.html">Importing attribute data</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/documentation/incoming/session.html">Session</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/documentation/incoming/how_to_find_the_parent_and_grandparent_of_an_object.html">How to find the parent and grandparent of an object</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/documentation/installation_and_configuration/installation/manual/windows/the_reason_why_the_other_didnt_work.html">The reason why the other didn't work</a></li>
+</ul>
+</td>
+<td class="renderedtdnoborder" valign="top">
+<p class="rendered"><b><a href="https://exponential.earth/developer/ez_publish_3/forum.html">Exponential 3 forums</a></b></p>
+<ul>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/forum/developer/impossible_to_create_a_truly_multilingual_web_site.html">Impossible to create a truly multi-lingual web site</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/forum/install_configuration/errorkernel_20_the_requested_module_admin_could_not_be_found.html">Error/kernel (20): The requested module 'admin' could not be found.</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/forum/install_configuration/parse_error_unexpected_t_string.html">Re: Parse error: Unexpected T_STRING</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/forum/setup_design/creating_custom_menu_depending_on_login.html">Creating custom Menu depending on login</a></li>
+</ul>
+</td>
 </tr>
 <tr>
-	<td valign="top"><h2>Libraries</h2>
-	<ul>
-	<li><a href="/sdk/ezdb.html">eZ db&trade;</a></li>
-<li><a href="/sdk/ezi18n.html">eZ i18n&trade;</a></li>
-<li><a href="/sdk/ezimage.html">eZ image&trade;</a></li>
-<li><a href="/sdk/ezlocale.html">eZ locale&trade;</a></li>
-<li><a href="/sdk/ezsoap.html">eZ soap&trade;</a></li>
-<li><a href="/sdk/eztemplate.html">eZ template&trade;</a></li>
-<li><a href="/sdk/ezutils.html">eZ utils&trade;</a></li>
-<li><a href="/sdk/ezxml.html">eZ xml&trade;</a></li>
-
-	</ul>
-	</td>
-	<td valign="top"><h2>Kernel</h2>
-	<ul>
-	<li><a href="/sdk/kernel/view/module_system.html">Module system</a></li>
-<li><a href="/sdk/kernel/view/content_classes.html">Content classes</a></li>
-<li><a href="/sdk/kernel/view/content_objects.html">Content objects</a></li>
-<li><a href="/sdk/kernel/view/content_datatypes.html">Content datatypes</a></li>
-<li><a href="/sdk/kernel/view/permissions.html">Permissions</a></li>
-<li><a href="/sdk/kernel/view/workflows.html">Workflows</a></li>
-<li><a href="/sdk/kernel/view/data_storage.html">Data storage</a></li>
-<li><a href="/sdk/kernel/view/template_operators.html">Template operators</a></li>
-<li><a href="/sdk/kernel/view/other_concepts.html">Other concepts</a></li>
-
-	</ul>
-	</td>
-	<td valign="top"><h2>API Reference</h2>
-	<ul>
-	<li><a href="/sdk/ref/index.html">Index</a></li>
-<li><a href="/sdk/ref/view/modules.html">Modules</a></li>
-<li><a href="/sdk/ref/view/hierarchy.html">Hierarchy</a></li>
-<li><a href="/sdk/ref/view/annotated.html">Annotated</a></li>
-<li><a href="/sdk/ref/view/files.html">Files</a></li>
-<li><a href="/sdk/ref/view/functions.html">Functions</a></li>
-<li><a href="/sdk/ref/view/related.html">Related</a></li>
-
-	</ul>
-    </td>
-</tr>
-</table>
-
+<td class="renderedtdnoborder" valign="top">
+<p class="rendered"><b><a href="https://exponential.earth/developer/reference_list.html">Latest Exponential sites</a></b></p>
+<ul>
+    <li><a href="https://exponential.earth/developer/reference_list/organisations/stavanger_taekwondo_klubb.html">Stavanger Taekwon-Do Klubb</a></li>
+    <li><a href="https://exponential.earth/developer/reference_list/ecommerce/po_box_.html">PO Box</a></li>
+    <li><a href="https://exponential.earth/developer/reference_list/educational/noth_lithuania_college.html">Noth Lithuania college</a></li>
+    <li><a href="https://exponential.earth/developer/reference_list/corporate/tascomp.html">Tascomp</a></li>
+    <li><a href="https://exponential.earth/developer/reference_list/corporate/power_over_ethernet.html">Power Over Ethernet</a></li>
+</ul>
+<p class="rendered"><a href="https://exponential.earth/developer/reference_list/submit_your_site_to_ezno.html">Promote your Exponential site here</a></p>
+</td>
+<td class="renderedtdnoborder" valign="top">
+<p class="rendered"><b><a href="https://exponential.earth/developer/ez_publish_3/contributions.html">Latest Exponential contributions</a></b></p>
+<ul>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/contributions/alternative_autolink_generator.html">Alternative Autolink Generator</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/contributions/some_slightly_better_forum_templates.html">Some slightly better forum templates</a></li>
+    <li><a href="https://exponential.earth/developer/ez_publish_3/contributions/ezhtmlarea10.html">ezhtmlarea 1.0</a></li>
+</ul>
+<p class="rendered"><a href="https://exponential.earth/developer/ez_publish_3/contributions.html">Add your contribution here</a></p>
 </td>
 </tr>
 </table>
-<br/>
-<center>
-<a href="https://doc.sdk.exponential.earth/">Exponential</a>
-</center>
-<br/>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HVXJB28EZY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+</div>
 
-  gtag('config', 'G-HVXJB28EZY');
-</script>
+    </td>
+    <td width="1%" bgcolor="#ffffff" valign="top">
+    </td>
+</tr>
+</table>
+    </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div align="center" style="padding-top: 0.5em;">
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></div>
 
-</body></html><!--
-     FILE ARCHIVED ON 18:43:27 Aug 06, 2003 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:39:24 Oct 31, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 0.427
-  exclusion.robots: 0.024
-  exclusion.robots.policy: 0.014
-  esindex: 0.008
-  cdx.remote: 9.543
-  LoadShardBlock: 84.801 (3)
-  PetaboxLoader3.datanode: 99.85 (4)
-  PetaboxLoader3.resolve: 351.314 (2)
-  load_resource: 406.911
--->
+</body>
+</html>

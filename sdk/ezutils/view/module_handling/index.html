@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - eZ utils&trade;</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/ezutils/view/module_handling/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; ezutils <span class="slash">/</span> module_handling &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../sys_settings/index.html" ">&lt;&lt; System settings</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../http_variables/index.html" ">Fetching variables &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/ezutils">eZ utils&trade;</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/ini_introduction/index.html">Introduction to INI files</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/ini_read/index.html">Reading from INI files</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/debug_settings/index.html">Debugging</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/sys_settings/index.html">System settings</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/module_handling/index.html">Module handling</a><br/><p class="groupname">HTTP</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/http_variables/index.html">Fetching variables</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/http_files/index.html">Fetching files</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/http_persistence/index.html">Object persistence</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezutils/view/uri/index.html">URI management</a><br/><p class="groupname">API Reference</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZINI/index.html">INI file reader</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZDebug/index.html">Debug/log handler</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZSys/index.html">System analyzer</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZModule/index.html">Module system handler</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZProcess/index.html">Process runner</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZHTTPTool/index.html">HTTP variable access</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZHTTPFile/index.html">HTTP file handler</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZHTTPPersistence/index.html">HTTP persistence</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZURI/index.html">URI handler</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<h1>Module handling</h1>
+
+<p>
+Modules are an abstract way of seeing a system, they are used for grouping together
+related functionality. For instance, all content handling code is placed in a module
+called <i>content</i>. Each module has a number of views associated with it. Each view
+represents a page in the web browser and can have a number of parameters associated to
+it. There are ordered parameters, which are the basis for the view, and additional parameters
+which are named and are unordered.
+</p>
+
+<p>
+This system allows collections of view scripts to be seen as modules and views.
+All files belonging to a module are placed in a directory named after the module. This directory must
+contain a file called <i>module.php</i>, which defines the module and all it's views.
+The file normally looks like this (taken from <i>content/module.php</i>):
+</p>
+
+<pre class="example">
+$Module = array( "name" =&gt; "eZContentObject",
+                 "variable_params" =&gt; true );
+
+$ViewList = array();
+$ViewList["edit"] = array(
+    "functions" =&gt; array( 'edit' ),
+    'single_post_actions' =&gt; array( 'PreviewButton' =&gt; 'Preview',
+                                    'TranslateButton' =&gt; 'Translate',
+                                    'VersionsButton' =&gt; 'VersionEdit',
+                                    'PublishButton' =&gt; 'Publish',
+                                    'BrowseNodeButton' =&gt; 'BrowseForNodes',
+                                    'DeleteNodeButton' =&gt; 'DeleteNode',
+                                    'BrowseObjectButton' =&gt; 'BrowseForObjects',
+                                    'StoreButton' =&gt; 'Store' ),
+    'post_actions' =&gt; array( 'BrowseActionName' ),
+    'post_action_parameters' =&gt; array( 'DeleteNode' =&gt; array( 'SelectedNodeList' =&gt; 'Content_node_id_checked' ) ),
+    "script" =&gt; "edit.php",
+    "params" =&gt; array( "ObjectID", "EditVersion" ) );
+
+$ViewList["view"] = array(
+    "functions" =&gt; array( 'read' ),
+    "script" =&gt; "view.php",
+    "params" =&gt; array( "ViewMode", "NodeID", "LanguageCode" ),
+    "unordered_params" =&gt; array( "language" =&gt; "Language",
+                                 "offset" =&gt; "Offset" )
+    );
+</pre>
+
+<h3>$Module</h3>
+<p>
+An array that must contain the <i>name</i> key which defines the real name of the module
+and <i>variable_params</i> which defines whether parameters are set as normal variables
+when the script is run.
+</p>
+
+<h3>$ViewList</h3>
+<p>
+An array with the available views in the module. Each entry consists of the following keys:
+</p>
+
+<ul>
+<li>
+<b>functions</b> - An array with functions that are used by the view, used for determining whether
+the view can be seen or not according to policies.
+</li>
+
+<li>
+<b>script</b> - The PHP file which should be run, it will be run using the eZProcess class.
+</li>
+
+<li>
+<b>params</b> - The ordered parameters for the view, they are usually taken from the URI or sent
+from the script which run this view. Each entry gives the name of the parameter
+which will be available in the script trough the <i>$Params</i> variable.
+</li>
+
+<li>
+<b>unordered_params</b> - An associative array with parameters which are defined by their name instead
+of order. They are usually optional to the view. Each key defines the name taken from the URL and
+the value defines the name available to the view.
+</li>
+
+<li>
+<b>single_post_actions</b> - Defines the post actions which should be translated into an action, the first
+one to be found is used. The key is the name found among the HTTP post variables and the value is the action
+name. This action is only set if an action is not set by the called code.
+</li>
+
+<li>
+<b>post_actions</b> - Similar to single_post_actions but instead it takes the value in the post variable
+and uses it as action name.
+</li>
+
+<li>
+<b>post_action_parameters</b> - An associative array of action names and their parameters. Each key is
+the action name and each value is another associative array of parameters. Each key is the parameter name
+and the value is the post variable name.
+</li>
+</ul>
+
+<h2>Fetching input parameters</h2>
+<p>
+Fetching the parameters is done by using the <i>$Params</i> variable, it is an associative
+array with all the parameters. The name of the parameter keys are defined by <i>params</i>.
+The <i>Module</i> parameter is always present and contains the current eZModule object.
+</p>
+
+<pre class="example">
+$Module =&amp; $Params['Module'];
+$ObjectID =&amp; $Params['ObjectID'];
+</pre>
+
+<h2>Hooks</h2>
+<p>
+Hooks are a way of letting external code <i>hook</i> in extra code, the code will be run
+at places defined by the view using the <i>runHooks()</i> function. The external code can
+create a function and add it to the hook name. It is also possible to run a method in an object
+by supplying an array with the object and method name instead of the function name.
+Hooks can also have priorities to allow a hook to be run before/after another. The default is
+to give everything the same priority.
+</p>
+
+<pre class="example">
+// Define the function and add the hook
+function checkSomething( &amp;$module, $objectID, $editVersion )
+{
+    // Do something and return
+}
+
+$Module-&gt;addHook( 'pre_fetch', 'checkSomething' );
+
+// Run the hooks
+if ( $Module-&gt;runHooks( 'pre_fetch', array( $ObjectID, $EditVersion ) ) )
+    return;
+</pre>
+
+<h2>Actions</h2>
+<p>
+To check which action is to be run use the <i>currentAction</i> or <i>isCurrentAction</i> functions.
+<i>isCurrentAction</i> will return true if the current action matches the action name supplied.
+Parameters for the action can be fetched with <i>actionParameter</i> and checked with
+<i>hasActionParameter</i>.
+These parameters are either fetched from post variables or set by the code running this view.
+</p>
+
+<h2>Return values</h2>
+<p>
+The return value is determined by the value sent by the return statement, or if there are no
+return statement it reads the variable called <i>$Result</i>. This variable is is sent to the
+client code executing the module/view.
+</p>
+
+<h2>Redirection</h2>
+<p>
+It's possible for the view code to issue a redirection, the redirection request will be read by
+the client that executes the view and it's up to that code to do anything.
+There are several different methods available for redirection.
+</p>
+
+<ul>
+<li>
+<b>redirect</b> - Redirects to a given module and view with some optional ordered and unordered parameters.
+</li>
+
+<li>
+<b>redirectToView</b> - Same as <i>redirect</i> but doesn't require a module since it's done in the current
+module.
+</li>
+
+<li>
+<b>redirectTo</b> - Redirects to a given URL, this is best used for custom URLs, if it's a module/view use
+<i>redirect</i> and <i>redirectToView</i> instead.
+</li>
+
+<li>
+<b>redirectionURI</b> - Creates a URI usable for redirection and can be passed to <i>redirectTo</i>,
+use this if you need a URI for a module/view and have to store it or send to some other code.
+</li>
+</ul>
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

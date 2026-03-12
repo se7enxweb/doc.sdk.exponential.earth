@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - eZ locale&trade;</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/ezlocale/view/locale/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; ezlocale <span class="slash">/</span> locale &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../../index.html" ">&lt;&lt; eZ locale&trade;</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    &nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/ezlocale">eZ locale&trade;</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezlocale/view/locale/index.html">Locale settings</a><br/><p class="groupname">API Reference</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZLocale/index.html">Locale handler</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZData/">Date handling</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZTime/index.html">Time handling</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZDateTime/index.html">Date and time handling</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZCurrency/index.html">Currency handling</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<h1>Locale settings</h1>
+
+<p>
+The following code reads some locale settings for the nor-NO locale.
+</p>
+
+<pre class="example">
+include_once( "lib/ezlocale/classes/ezlocale.php" );
+$locale =&amp; eZLocale::instance( "nor-NO" );
+$infoList = array( 'LanguageCode' =&gt; $locale-&gt;languageCode(),
+                   'Language' =&gt; $locale-&gt;languageName(),
+                   'LanguageComment' =&gt; $locale-&gt;languageComment(),
+                   'Content-Language' =&gt; $locale-&gt;httpLocaleCode(),
+                   'CountryCode' =&gt; $locale-&gt;countryCode(),
+                   'CountryVariation' =&gt; $locale-&gt;countryVariation(),
+                   'Country' =&gt; $locale-&gt;countryName(),
+                   'CountryComment' =&gt; $locale-&gt;countryComment(),
+                   'Time' =&gt; $locale-&gt;formatTime(),
+                   'ShortTime' =&gt; $locale-&gt;formatShortTime(),
+                   'Date' =&gt; $locale-&gt;formatDate(),
+                   'ShortDate' =&gt; $locale-&gt;formatShortDate(),
+                   'DateTime' =&gt; $locale-&gt;formatDateTime(),
+                   'ShortDateTime' =&gt; $locale-&gt;formatShortDateTime(),
+                   'MondayFirst' =&gt; ( $locale-&gt;isMondayFirst() ? "Yes" : "No" ),
+                   'Number' =&gt; ( $locale-&gt;formatNumber( 1234567.89 ) . " / " . $locale-&gt;formatNumber( -1234567.89 ) ),
+                   'Currency' =&gt; ( $locale-&gt;formatCurrency( 123456789.00 ) . " / " . $locale-&gt;formatCurrency( -123456789.00 ) ) );
+
+print( "&lt;table&gt;&lt;tr&gt;&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Result&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;&lt;b&gt;Locale&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;" );
+foreach( $infoList as $infoName =&gt; $infoText )
+{
+    print( "&lt;tr&gt;&lt;td&gt;$infoName&lt;/td&gt;&lt;td&gt;$infoText&lt;/td&gt;&lt;/tr&gt;\n" );
+}
+print( "&lt;/table&gt;" );
+</pre>
+
+<p>
+This will produce something like this:
+</p>
+
+<table>
+<tr><th>Type</th><th>Result</th></tr>
+<tr><td colspan="2"><b>Locale</b></td></tr>
+<tr><td>LanguageCode</td><td>nor</td></tr>
+<tr><td>Language</td><td>Norsk (Bokm�l)</td></tr>
+<tr><td>LanguageComment</td><td></td></tr>
+<tr><td>Content-Language</td><td>no-bokmaal</td></tr>
+<tr><td>CountryCode</td><td>NO</td></tr>
+<tr><td>CountryVariation</td><td></td></tr>
+<tr><td>Country</td><td>Norway</td></tr>
+<tr><td>CountryComment</td><td></td></tr>
+<tr><td>Time</td><td>16:11:24</td></tr>
+<tr><td>ShortTime</td><td>16:11</td></tr>
+<tr><td>Date</td><td>07. februar 2003</td></tr>
+<tr><td>ShortDate</td><td>07.02.2003</td></tr>
+<tr><td>DateTime</td><td>07. februar 2003 16:11:24</td></tr>
+<tr><td>ShortDateTime</td><td>07.02.2003 16:11</td></tr>
+<tr><td>MondayFirst</td><td>Yes</td></tr>
+<tr><td>Number</td><td>1.234.567,89 / -1.234.567,89</td></tr>
+<tr><td>Currency</td><td>kr 123.456.789,00 / kr -123.456.789,00</td></tr>
+</table>
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

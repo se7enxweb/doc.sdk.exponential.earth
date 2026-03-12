@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - eZ i18n&trade;</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/ezi18n/view/translate/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; ezi18n <span class="slash">/</span> translate &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../textcodec/index.html" ">&lt;&lt; TextCodec conversion</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../databases/index.html" ">Databases &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/ezi18n">eZ i18n&trade;</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezi18n/view/character_encoding_scheme/index.html">Character encoding</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezi18n/view/codepage_mapping/index.html">Codepage mapping</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezi18n/view/mbstring/index.html">MBString extension</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezi18n/view/textcodec/index.html">TextCodec conversion</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezi18n/view/translate/index.html">Translation</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezi18n/view/databases/index.html">Databases</a><br/><p class="groupname">Diagrams</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezi18n/view/charset_sources/index.html">Charset sources</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezi18n/view/dia_translation/index.html">Translation System</a><br/><p class="groupname">API Reference</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZTranslatorManager/index.html">Translator Manager</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Translation</h1>
+
+<p>
+By using the Translation Manager it's possible to do translation of text into other languages or other forms.
+At the moment it supports translation using Qt translation files
+which are XML files and can be easily edited using <a href="\&quot;http://doc.trolltech.com/3.0/linguist-manual.html\&quot;">Linguist</a>,
+it also supports 1337 ('Leet') and Bork dynamic translation, and random translation which is handled by
+randomly picking one of it's sub translators to do the work.
+Adding custom made translation handlers are easy, this way it's possible to get advanced dynamic
+translations as well as supporting other file formats.
+</p>
+
+<h2>Key elements</h2>
+<p>
+The translation system is based around source, context and comment.
+</p>
+
+<h3>Source</h3>
+<p>
+The source is the original text which is used to create an MD5 to lookup translations.
+</p>
+
+<h3>Context</h3>
+<p>
+The context determines in which context the text belongs to meaning that it's possible to have the same text in two contexts
+with different meaning.
+</p>
+
+<h3>Comment</h3>
+<p>
+The comment is used for finding a variant of a text, for instance in some languages the translation
+must differ according to where it's used while in others the text should be the same. It is similar to
+the context but will fallback to the default comment (the one with no comment name) if the specified
+comment can't be found.
+</p>
+
+<h2>Example</h2>
+<p>
+The table below shows a test translation to Norwegian, notice that the <b>Store Draft</b> source is
+translated to 1337 because there was no manual translation available.
+</p>
+
+<!-- IMAGE NOT ARCHIVED: /doc/images/translation.jpg -->
+<!-- <img src="/doc/images/translation.jpg"/> -->
+<pre class="missing-image">TODO — Image not available in archive
+
+Title:   Translation Table Example (eZ i18n)
+File:    /doc/images/translation.jpg
+
+What this image shows:
+Screenshot of a test translation table to Norwegian. Shows source strings alongside their translated equivalents, with entries falling back to 1337 (leetspeak) translator output for strings without manual translations. Produced by the eZTranslator demo code using a sample .ts file.
+
+Replacement instructions:
+Reproduce by running the sample code from sdk/ezi18n/view/translate. Save as /doc/images/translation.jpg
+
+See /sdk/missing.html for the full list of missing images.</pre>
+
+<p>
+The table was produced by the following .ts file:
+</p>
+
+<pre class="example">
+&lt;!DOCTYPE TS&gt;&lt;TS&gt;
+&lt;context&gt;
+    &lt;name&gt;edit&lt;/name&gt;
+    &lt;message&gt;
+        &lt;source&gt;Preview&lt;/source&gt;
+        &lt;translation&gt;Forhaandsvisning&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Preview&lt;/source&gt;
+        &lt;comment&gt;side-pane&lt;/comment&gt;
+        &lt;translation&gt;Vis fram&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Versions&lt;/source&gt;
+        &lt;translation&gt;Versjoner&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Versions&lt;/source&gt;
+        &lt;comment&gt;side-pane&lt;/comment&gt;
+        &lt;translation&gt;Tidligere verk&lt;/translation&gt;
+    &lt;/message&gt;
+&lt;/context&gt;
+&lt;context&gt;
+    &lt;name&gt;default&lt;/name&gt;
+    &lt;message&gt;
+        &lt;source&gt;Preview&lt;/source&gt;
+        &lt;translation&gt;Vis&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Versions&lt;/source&gt;
+        &lt;translation&gt;Versjon liste&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Translate&lt;/source&gt;
+        &lt;translation&gt;Oversett&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Permission&lt;/source&gt;
+        &lt;translation&gt;Rettigheter&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Some text&lt;/source&gt;
+        &lt;translation&gt;Litt tekst&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Store Draft&lt;/source&gt;
+        &lt;translation  type='unfinished'&gt;&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Send for publishing&lt;/source&gt;
+        &lt;translation&gt;Send til publisering&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Discard&lt;/source&gt;
+        &lt;translation&gt;Fjern&lt;/translation&gt;
+    &lt;/message&gt;
+    &lt;message&gt;
+        &lt;source&gt;Find object&lt;/source&gt;
+        &lt;translation&gt;Finn objekt&lt;/translation&gt;
+    &lt;/message&gt;
+&lt;/context&gt;
+&lt;/TS&gt;
+</pre>
+
+<p>
+And the following code:
+</p>
+
+<pre class="example">
+include_once( "lib/ezi18n/classes/eztranslatormanager.php" );
+include_once( "lib/ezi18n/classes/eztstranslator.php" );
+include_once( "lib/ezi18n/classes/ez1337translator.php" );
+
+$trans =&amp; eZTranslatorManager::instance();
+eZTSTranslator::initialize( "edit.ts", "lib/ezi18n/sdk", false );
+eZ1337Translator::initialize();
+
+$texts = array(
+    "Preview",
+    array( "source" =&gt; "Preview",
+           "context" =&gt; "edit" ),
+    array( "source" =&gt; "Preview",
+           "context" =&gt; "edit",
+           "comment" =&gt; "side-pane" ),
+    array( "source" =&gt; "Preview",
+           "context" =&gt; "edit",
+           "comment" =&gt; "bottom-pane" ),
+    "Versions",
+    array( "source" =&gt; "Versions",
+           "context" =&gt; "edit" ),
+    array( "source" =&gt; "Versions",
+           "context" =&gt; "edit",
+           "comment" =&gt; "side-pane" ),
+    "Translate",
+    "Permission",
+    "Some text",
+    "Store Draft",
+    "Send for publishing",
+    "Discard",
+    "Find object"
+    );
+
+print( '&lt;table cellspacing="0"&gt;
+&lt;tr&gt;
+  &lt;th&gt;Context&lt;/th&gt;&lt;th&gt;Source&lt;/th&gt;&lt;th&gt;Comment&lt;/th&gt;&lt;th&gt;Translation(nor-NO)&lt;/th&gt;
+&lt;/tr&gt;
+');
+
+$seq = array( "bgdark", "bglight" );
+
+foreach( $texts as $text )
+{
+    $source = "";
+    $context = "";
+    $comment = null;
+    if ( is_array( $text ) )
+    {
+        if ( isset( $text["source"] ) )
+            $source = $text["source"];
+        if ( isset( $text["context"] ) )
+            $context = $text["context"];
+        if ( isset( $text["comment"] ) )
+            $comment = $text["comment"];
+    }
+    else
+        $source = $text;
+    $class = array_pop( $seq );
+    array_splice( $seq, 0, 0, array( $class ) );
+    $translation = $trans-&gt;translate( $context, $source, $comment );
+    if ( $context == "" )
+        $context = "default";
+    print( "&lt;tr&gt;
+  &lt;td class=\"$class\"&gt;$context&lt;/td&gt;&lt;td class=\"$class\"&gt;$source&lt;/td&gt;&lt;td class=\"$class\"&gt;$comment&lt;/td&gt;&lt;td class=\"$class\"&gt;$translation&lt;/td&gt;
+&lt;/tr&gt;
+" );
+}
+
+print( '&lt;/table&gt;' );
+</pre>
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

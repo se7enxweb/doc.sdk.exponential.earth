@@ -4,127 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type="text/css" href="https://doc.sdk.exponential.earth/design/standard/stylesheets/core.css"/>
-<link rel="stylesheet" type="text/css" href="https://doc.sdk.exponential.earth/design/admin/stylesheets/admin.css"/>
-<link rel="stylesheet" type="text/css" href="https://doc.sdk.exponential.earth/kernel/sdk/style.css"/>
-    <title>  Exponential - install / install_manually  </title>
-
-    
-    
-    
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
-
+<link rel="stylesheet" type="text/css" href="../../design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="../../design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="../../design/standard/stylesheets/main.css"/>
+    <title>Install Exponential 3 Manually</title>
         <meta http-equiv="Content-language" content="en-GB"/>
 
     
-        <meta name="author" content="eZ systems"/>
+        <meta name="author" content="Exponential"/>
 
-        <meta name="copyright" content="eZ systems"/>
+        <meta name="copyright" content="Exponential"/>
 
-        <meta name="description" content="install install_manually "/>
+        <meta name="description" content="Manual installation of Exponential 3: download, extract, configure Apache or Nginx, set up PHP and MySQL, and initialise the site without the automated installer."/>
 
-        <meta name="keywords" content="cms, publish, e-commerce, content management"/>
+        <meta name="keywords" content="exponential 3, manual install, apache, nginx, php, mysql, linux, configuration"/>
 
     
     <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
     <meta name="generator" content="Exponential"/>
 
-<link rel="Home" href="http://web.archive.org/" title="Exponential front page"/>
-<link rel="Index" href="http://web.archive.org/"/>
-<link rel="Top" href="http://web.archive.org/" title="  Exponential - install / install_manually  "/>
-<link rel="Search" href="https://doc.sdk.exponential.earth/content/advancedsearch" title="Search Exponential"/>
-<link rel="Shortcut icon" href="https://doc.sdk.exponential.earth/design/standard/images/favicon.ico" type="image/x-icon"/>
-<link rel="Copyright" href="https://doc.sdk.exponential.earth/ezinfo/copyright"/>
-<link rel="Author" href="http://web.archive.org/ezinfo/about"/>
-<link rel="Help" href="../../../../manual.html"/><link rel="Glossary" href="../../../../sdk.html"/><link rel="Alternate" href="https://doc.sdk.exponential.earth/layout/set/print/manual/install/install_manually" media="print" title="Printable version"/>
+<link rel="Home" href="/"/>
+<link rel="Index" href="/"/>
+<link rel="Top" href="/"/>
+<link rel="Shortcut icon" href="../../design/standard/images/favicon.ico" type="image/x-icon"/>
+<link rel="Author" href="/"/>
+<link rel="Help" href="/manual/"/><link rel="Glossary" href="/sdk/"/>
 
-<link rel="Shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="canonical" href="https://doc.sdk.exponential.earth/manual/install/install_manually.html"/>
 </head>
 
 <body>
 
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="headlogo" width="560">
-    <img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></td>
-    <td class="headlink" width="66">
-
-<table cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-left-corner.gif" alt=""/></td>
-    <td class="menuheadselectedtopline">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadselectedgfx">
-    <img src="/design/standard/images/light-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadselectedleftline">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
-    <td class="menuheadselected">
-    <p class="menuheadselected">
-    <a class="menuheadlink" href="https://doc.sdk.exponential.earth/manual/">Manual</a>
-    </p>
-    </td>
-    <td class="menuheadselectedrightline">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
-</tr>
-</table>
-
-</td>
-
-    <td class="menuheadspacer" width="3">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="3" height="1"/></td>
-    <td class="headlink" width="66">
-
-<table width="66" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-left-corner.gif" alt=""/></td>
-    <td class="menuheadgraytopline" width="60">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadgraygfx" width="3">
-    <img src="/design/standard/images/dark-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadgrayleftline" width="3">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
-    <td class="menuheadgray">
-    <p class="menuheadgray">
-    <a class="menuheadlink" href="/sdk.html">SDK</a>
-    </p>
-    </td>
-    <td class="menuheadgrayrightline" width="3">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
-</tr>
-</table>
-
-    </td>
-   <td class="headlogo" width="50%">
-   &nbsp;</td>
-</tr>
-    <td colspan="11" class="menuheadtoolbar">
-    &nbsp;
-    </td>
-</tr>
-<tr>
-    <td class="pathline" colspan="11">
-    
-    <p class="path">
-    &nbsp;
-                    install
-        
-                    <span class="slash">/</span>
-                        install_manually
-        
-                &nbsp;</p>
-    </td>
-</tr>
-</table>
-
-
-
-
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; install <span class="slash">/</span> install_manually &nbsp;</p></div>
 
 <table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
@@ -132,13 +52,11 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
-
 <tr>
 	<td>
 <table width="100%" cellspacing="0" cellpadding="4"><tr>
     <td width="160" bgcolor="#ffffff" valign="top">
     
-
 
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
@@ -151,7 +69,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/about/about.html">About Exponential 3</a></p>
+    <p class="menuitem"><a class="menuitem" href="/manual/about/about.html">About Exponential 3</a></p>
     </td>
 </tr>
 <tr>
@@ -159,11 +77,18 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/about/definitions.html">Exponential 3 definitions</a></p>
+    <p class="menuitem"><a class="menuitem" href="../about/definitions.html">Exponential 3 definitions</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/">Developer</a></p>
     </td>
 </tr>
 </table>
-
 
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
@@ -176,7 +101,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/installer.html">Install using installers</a></p>
+    <p class="menuitem"><a class="menuitem" href="installer.html">Install using installers</a></p>
     </td>
 </tr>
 <tr>
@@ -184,7 +109,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/setup_guide.html">Install using the setup guide</a></p>
+    <p class="menuitem"><a class="menuitem" href="setup_guide.html">Install using the setup guide</a></p>
     </td>
 </tr>
 <tr>
@@ -200,7 +125,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/siteaccess.html">Site access</a></p>
+    <p class="menuitem"><a class="menuitem" href="siteaccess.html">Site access</a></p>
     </td>
 </tr>
 <tr>
@@ -208,7 +133,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/multisite.html">Multi site configuration</a></p>
+    <p class="menuitem"><a class="menuitem" href="multisite.html">Multi site configuration</a></p>
     </td>
 </tr>
 <tr>
@@ -216,12 +141,10 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/uninstall.html">Uninstall</a></p>
+    <p class="menuitem"><a class="menuitem" href="uninstall.html">Uninstall</a></p>
     </td>
 </tr>
 </table>
-
-
 
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
@@ -234,7 +157,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/security/securing.html">Securing the site</a></p>
+    <p class="menuitem"><a class="menuitem" href="../security/securing.html">Securing the site</a></p>
     </td>
 </tr>
 
@@ -251,7 +174,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/setup/pagesetup.html">Page setup</a></p>
+    <p class="menuitem"><a class="menuitem" href="../setup/pagesetup.html">Page setup</a></p>
     </td>
 </tr>
 
@@ -268,7 +191,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/everyday.html">Everyday functions</a></p>
+    <p class="menuitem"><a class="menuitem" href="../user/everyday.html">Everyday functions</a></p>
     </td>
 </tr>
 <tr>
@@ -276,7 +199,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/permissions.html">Permissions</a></p>
+    <p class="menuitem"><a class="menuitem" href="../user/permissions.html">Permissions</a></p>
     </td>
 </tr>
 
@@ -285,7 +208,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/e-commerce.html">e-commerce functions and settings</a></p>
+    <p class="menuitem"><a class="menuitem" href="../user/e-commerce.html">e-commerce functions and settings</a></p>
     </td>
 </tr>
 <tr>
@@ -293,7 +216,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/workflows.html">Workflows</a></p>
+    <p class="menuitem"><a class="menuitem" href="../user/workflows.html">Workflows</a></p>
     </td>
 </tr>
 <tr>
@@ -301,11 +224,10 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/informationcollectors.html">Information collector</a></p>
+    <p class="menuitem"><a class="menuitem" href="../user/informationcollectors.html">Information collector</a></p>
     </td>
 </tr>
 </table>
-
 
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
@@ -318,7 +240,7 @@
     <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/sdk" }>Exponential SDK</a></p>
+    <p class="menuitem"><a class="menuitem" href="../../sdk" }>Exponential SDK</a></p>
     </td>
 </tr>
 </table>
@@ -362,17 +284,16 @@
 </p>
 
 <ul>
-	<li>PHP &gt;= 4.2.3 <br/><a href="http://web.archive.org/web/20030801074502/http://www.php.net/">http://www.php.net </a> </li>
-	<li>Apache 1.3 (apache 2.0 works, but it is not well tested) <br/><a href="http://web.archive.org/web/20030801074502/http://www.apache.org/">http://www.apache.org</a></li>
-	<li>Either MySQL or PostgreSQL <br/><a href="http://web.archive.org/web/20030801074502/http://www.mysql.org/">http://www.mysql.org</a><br/><a href="http://web.archive.org/web/20030801074502/http://www.postgresql.org/">http://www.postgresql.org</a></li>
-	<li> ImageMagick and/or GD compiled in PHP for image conversion and scaling <br/><a href="http://web.archive.org/web/20030801074502/http://www.imagemagick.org/">http://www.imagemagick.org</a></li>
+	<li>PHP &gt;= 4.2.3 <br/><a href="/">http://www.php.net </a> </li>
+	<li>Apache 1.3 (apache 2.0 works, but it is not well tested) <br/><a href="/">http://www.apache.org</a></li>
+	<li>Either MySQL or PostgreSQL <br/><a href="/">http://www.mysql.org</a><br/><a href="/">http://www.postgresql.org</a></li>
+	<li> ImageMagick and/or GD compiled in PHP for image conversion and scaling <br/><a href="/">http://www.imagemagick.org</a></li>
 </ul>
 
 <p>
 	The installation processes for the above programs are very well documented on
 	their respective home pages, so we will not include that here.
 </p>
-
 
 <h2 id="Linux_FreeBSD_Macos">Installation on Linux, FreeBSD and Mac OS X</h2>
 <ol>
@@ -402,7 +323,6 @@
 	<pre class="example"> $ mysql -u &lt;user&gt; -p&lt;password&gt; &lt;name_of_database&gt;
 	&lt; &lt;httproot&gt;/ezpublish-xxx/kernel/sql/mysql/demodata.sql </pre></li>
 </ol>
-
 
 <h4 id="">PostgreSQL</h4>
 <p>
@@ -488,16 +408,10 @@ Database=&lt;name_of_database&gt;
 &lt;/VirtualHost&gt;
 </pre>
 
-
 <h3 id="Linux_FreeBSD_Macos_SiteAccess">Siteaccess settings</h3>
 <p>
-	For help on how to configure site access, head over to the <a href="https://doc.sdk.exponential.earth/manual/install/siteaccess.html">site access section</a>
+	For help on how to configure site access, head over to the <a href="siteaccess.html">site access section</a>
 </p>
-
-
-
-
-
 
 <h2 id="Windows_Installation">Installation on Windows</h2>
 <ol>
@@ -542,7 +456,6 @@ Database=&lt;name_of_database&gt;
 	<li>Go to &lt;httproot&gt;\ezpublish-xxx</li>
 	<li>Unpack var.tgz into &lt;httproot&gt;\ezpublish-xxx</li>
 </ol>
-
 
 <h3 id="Windows_Configure">Configure Exponential</h3>
 <p>
@@ -610,11 +523,11 @@ AddModule mod_rewrite.c</pre>
 
 <h3 id="Windows_SiteAccess">Siteaccess settings</h3>
 <p>
-	For help on how to configure site access, head over to the <a href="https://doc.sdk.exponential.earth/manual/install/siteaccess.html">site access section</a>
+	For help on how to configure site access, head over to the <a href="siteaccess.html">site access section</a>
 </p>
 
 <h2 id="Security">Security</h2>
-<p>It's important that steps are taken to secure the site, more information on this can be read at <a href="https://doc.sdk.exponential.earth/manual/security/securing.html">Securing the site</a>
+<p>It's important that steps are taken to secure the site, more information on this can be read at <a href="../security/securing.html">Securing the site</a>
 
     </td>
     <td width="1%" bgcolor="#ffffff" valign="top">
@@ -626,28 +539,8 @@ AddModule mod_rewrite.c</pre>
 </tr>
 </table>
 <div align="center" style="padding-top: 0.5em;">
-<p class="small"><a href="https://doc.sdk.exponential.earth/">Exponential</a></p>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p>
 </div>
 
  </body>
 </html>
-<!--
-     FILE ARCHIVED ON 07:45:02 Aug 01, 2003 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:42:31 Oct 31, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 0.462
-  exclusion.robots: 0.017
-  exclusion.robots.policy: 0.008
-  esindex: 0.009
-  cdx.remote: 5.622
-  LoadShardBlock: 363.008 (3)
-  PetaboxLoader3.datanode: 157.952 (4)
-  PetaboxLoader3.resolve: 269.497 (3)
-  load_resource: 79.427
--->

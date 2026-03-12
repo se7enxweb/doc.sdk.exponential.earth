@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - What's New</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/changes/view/changelog/2.9/5/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; 2.9 <span class="slash">/</span> 5 &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../4/index.html" ">&lt;&lt; 2.9-4</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../6/index.html" ">2.9-6 &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/changes">What's New</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/features/">Key features</a><br/><p class="groupname">Changelog</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/index.html">2.9 series</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/1/index.html">2.9-1</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/2/index.html">2.9-2</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/3/index.html">2.9-3</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/4/index.html">2.9-4</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/5/index.html">2.9-5</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/6/index.html">2.9-6</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/7/index.html">2.9-7</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/8/index.html">2.9-8</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Exponential 3 changes in 2.9-5</h1>
+<p>Bug fixes
+</p>
+<h2>Shell</h2>
+<ul></ul>
+<h3>modfix</h3>
+<ul><li>Safer file and directory modes.</li>
+<li>Added var/log to checking.</li>
+</ul>
+<h2>SDK</h2>
+<ul></ul>
+<h2>Kernel</h2>
+<ul><li>Debug report can now be place anywhere inside the resulting HTML, it must contain a marker which
+  is a HTML comment, it is &lt;!--DEBUG_REPORT--&gt;.</li>
+<li>Fixed bug with duplicating node on publishing</li>
+<li>Added feature for searching one or more subtrees on the site</li>
+<li>New fetch function layout/sitedesign_list which fetches the used sitedesign for a site, used
+  in versionview.</li>
+<li>Change versionview to use node view for attributes, some changes node view templates were
+  required.</li>
+<li>Added new function createPassword in eZUser which can be used for creating random passwords which are sent to users.</li>
+<li>The eZObjectForwarder class can now use different template roots depending on values from the input.</li>
+<li>New class eZURLTranslator which handles all types of url translations.</li>
+<li>Moved url nodepath matching to the new urltranslator class.</li>
+<li>Added general XML serialization framework for content objects</li>
+<li>Added function to fetch node children by name in eZContentObjectTreeNode</li>
+<li>Added function of calculating price with real VAT value for module shop</li>
+<li>Added function of discount for module shop</li>
+<li>index.php now uses the execution system, this means that controlled exits should be done with the
+  <i>cleanExit</i> function in <i>eZExecution</i>.</li>
+<li>Implemented basic framework for generic information collection ( forms/polls etc )</li>
+<li>Changed browse page. Now the path is shown like on other Exponential 3 pages</li>
+<li>Change section assignments. Removed page before browse.</li>
+<li>Changed node views to use the version for attribute lists, related objects and attribute maps
+  instead of taking it directly from the object (which is always the last published version).</li>
+</ul>
+<h3>DateType</h3>
+<ul><li>Changed the ezprice interface with VAT type choosing and VAT include/exclude choosing.</li>
+</ul>
+<h2>Library</h2>
+<ul></ul>
+<h3>eZ utils</h3>
+<ul><li>Added function for automatically remove escaped ' and &quot; characters done by magic quote</li>
+</ul>
+<h3>eZ locale</h3>
+<ul><li>Added function for returning the timestamp of a date</li>
+</ul>
+<h3>eZ text codec</h3>
+<ul><li>A new function <i>conversionRequired</i> can be used to detect if it's necessary to call
+  the conversion functions in text codec. This improves speed for code which handles
+  lots of strings.</li>
+</ul>
+<h3>eZ session</h3>
+<ul><li>Made sure db is not included or initialized before actually needed, before there were some problems
+  with ini files and siteaccess.</li>
+</ul>
+<h3>eZ debug</h3>
+<ul><li>Made sure debug messages are ignored when debug is off.</li>
+<li>New feature: Accumulators, they can be used for profiling how much time
+  a part the program takes.</li>
+<li>Added support for total script time.</li>
+<li>No string conversion is run if it is not required, this means sql queries are much faster.</li>
+<li>Missing directories will be created.</li>
+<li>If log file could not be opened for writing it will disable file logging and issue an error.</li>
+<li>Made sure serverVariable access does not issue an error.</li>
+<li>Added @s to some file functions, to avoid that they create error messages.</li>
+</ul>
+<h3>eZ db</h3>
+<ul><li>New function <i>setIsSQLOutputEnabled</i> which can enable or disable sql output at runtime,
+  sql output is always disabled at the end of the script to avoid crashes with session.</li>
+</ul>
+<h3>eZ mysqldb</h3>
+<ul><li>If a connect fails the error will be present in the error output.</li>
+</ul>
+<h3>eZ template</h3>
+<ul><li>Moved template parser code into separate classes, that way it should be fairly easy to change the
+  parser engine.</li>
+<li>Made some changes to bring back the element tree caching.</li>
+<li>Added simple element tree caching, it will store the cache in <i>var/cache/template/tree</i>
+
+eZPHPCreator</li>
+<li>New class for generating PHP cache files.</li>
+</ul>
+<h3>eZ setup</h3>
+<ul><li>setup tool for Exponential 3. Set the setting CheckValidity in site.ini to true and install eZ
+  publish.</li>
+<li>tests if Exponential 3 can work: PHP version, DB modules, PHP modules, ImageMagick, File
+  permissions</li>
+<li>helps with suggestions what to do if any steps fail</li>
+<li>installs the database: DB type, DB server, DB name, DB charset, creates new DB user if wanted</li>
+<li>installs demo data: unpacks it (if zlib module is available) and install database content</li>
+<li>sets some initial configuration settings (title, domain, charset)</li>
+<li>sends (if wanted) register email to eZ szstems. Can use SMTP server (w/ login) to send email.</li>
+</ul>
+<h3>eZ sys</h3>
+<ul><li>The functions serverVariable and enviromentVariable now takes an optional second parameter called
+  quiet, if true no debug error is shown, default is false.</li>
+</ul>
+<h3>eZ execution</h3>
+<ul><li>New class which helps in detecting fatal errors and does proper end of execution cleanups.</li>
+</ul>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

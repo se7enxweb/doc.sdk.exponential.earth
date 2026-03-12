@@ -3,128 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="https://doc.sdk.exponential.earth/design/standard/stylesheets/core.css"/>
-<link rel="stylesheet" type="text/css" href="https://doc.sdk.exponential.earth/design/admin/stylesheets/admin.css"/>
-<link rel="stylesheet" type="text/css" href="https://doc.sdk.exponential.earth/kernel/sdk/style.css"/>
-    <title>  Exponential - user / e-commerce  </title>
-
-    
-    
-    
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
-
+<link rel="stylesheet" type="text/css" href="../../design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="../../design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="../../design/standard/stylesheets/main.css"/>
+    <title>Exponential 3 e-Commerce — Shop, Products &amp; Orders</title>
         <meta http-equiv="Content-language" content="en-GB"/>
 
     
-        <meta name="author" content="eZ systems"/>
+        <meta name="author" content="Exponential"/>
 
-        <meta name="copyright" content="eZ systems"/>
+        <meta name="copyright" content="Exponential"/>
 
-        <meta name="description" content="user e-commerce "/>
+        <meta name="description" content="e-commerce in Exponential 3: configure the product catalog, pricing, VAT rules, order management, customer accounts, payment gateways, and the shop checkout flow."/>
 
-        <meta name="keywords" content="cms, publish, e-commerce, content management"/>
+        <meta name="keywords" content="exponential 3, e-commerce, shop, products, orders, vat, payment gateway, checkout, catalog"/>
 
     
     <meta name="MSSmartTagsPreventParsing" content="TRUE"/>
     <meta name="generator" content="Exponential"/>
 
-<link rel="Home" href="https://doc.sdk.exponential.earth" title="Exponential front page"/>
-<link rel="Index" href="https://doc.sdk.exponential.earth"/>
-<link rel="Top" href="https://doc.sdk.exponential.earth" title="  Exponential -  /   "/>
-<link rel="Search" href="https://doc.sdk.exponential.earth/content/advancedsearch" title="Search Exponential"/>
-<link rel="Shortcut icon" href="https://doc.sdk.exponential.earthweb/design/standard/images/favicon.ico" type="image/x-icon"/>
-<link rel="Copyright" href="https://doc.sdk.exponential.earth/ezinfo/copyright"/>
-<link rel="Author" href="https://doc.sdk.exponential.earth/ezinfo/about"/>
-<link rel="Help" href="https://doc.sdk.exponential.earth/manual.html"/><link rel="Glossary" href="https://doc.sdk.exponential.earthh/sdk.html"/><link rel="Alternate" href="https://doc.sdk.exponential.earth/layout/set/print/manual/" media="print" title="Printable version"/>
+<link rel="Home" href="/" title="Exponential front page"/>
+<link rel="Index" href="/"/>
+<link rel="top" href="/" title="Exponential SDK"/>
+<link rel="Shortcut icon" href="/design/standard/images/favicon.ico" type="image/x-icon"/>
+<link rel="Help" href="/manual/"/><link rel="Glossary" href="/sdk/"/>
 
-<link rel="Shortcut icon" href="https://doc.sdk.exponential.earth/favicon.ico" type="image/x-icon" />
+<link rel="Shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+<link rel="canonical" href="https://doc.sdk.exponential.earth/manual/user/e-commerce.html"/>
 </head>
-
 
 <body>
 
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="headlogo" width="560">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/ezpublish_logo_blue.gif" alt=""/></td>
-    <td class="headlink" width="66">
-
-<table cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadselectedgfx">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/light-left-corner.gif" alt=""/></td>
-    <td class="menuheadselectedtopline">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadselectedgfx">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/light-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadselectedleftline">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
-    <td class="menuheadselected">
-    <p class="menuheadselected">
-    <a class="menuheadlink" href="https://doc.sdk.exponential.earth/manual/">Manual</a>
-    </p>
-    </td>
-    <td class="menuheadselectedrightline">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="1" height="19"/></td>
-</tr>
-</table>
-
-</td>
-
-    <td class="menuheadspacer" width="3">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="3" height="1"/></td>
-    <td class="headlink" width="66">
-
-<table width="66" cellspacing="0" cellpadding="0" border="0">
-<tr>
-    <td class="menuheadgraygfx" width="3">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/dark-left-corner.gif" alt=""/></td>
-    <td class="menuheadgraytopline" width="60">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="60" height="1"/></td>
-    <td class="menuheadgraygfx" width="3">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/dark-right-corner.gif" alt=""/></td>
-</tr>
-<tr>
-    <td class="menuheadgrayleftline" width="3">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
-    <td class="menuheadgray">
-    <p class="menuheadgray">
-    <a class="menuheadlink" href="/sdk.html">SDK</a>
-    </p>
-    </td>
-    <td class="menuheadgrayrightline" width="3">
-    <img src="https://doc.sdk.exponential.earth/design/ezno/images/1x1.gif" alt="" width="1" height="15"/></td>
-</tr>
-</table>
-
-    </td>
-   <td class="headlogo" width="50%">
-   &nbsp;</td>
-</tr>
-    <td colspan="11" class="menuheadtoolbar">
-    &nbsp;
-    </td>
-</tr>
-<tr>
-    <td class="pathline" colspan="11">
-    
-    <p class="path">
-    &nbsp;
-                    user
-        
-                    <span class="slash">/</span>
-                        e-commerce
-        
-                &nbsp;</p>
-    </td>
-</tr>
-</table>
-
-
-
-
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; user <span class="slash">/</span> e-commerce &nbsp;</p></div>
 
 <table class="layout" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
@@ -132,13 +51,11 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
-
 <tr>
 	<td>
 <table width="100%" cellspacing="0" cellpadding="4"><tr>
     <td width="160" bgcolor="#ffffff" valign="top">
     
-
 
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
@@ -148,22 +65,29 @@
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/about/about.html">About Exponential 3</a></p>
+    <p class="menuitem"><a class="menuitem" href="/manual/about/about.html">About Exponential 3</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/about/definitions.html">Exponential 3 definitions</a></p>
+    <p class="menuitem"><a class="menuitem" href="../about/definitions.html">Exponential 3 definitions</a></p>
+    </td>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    <img src="/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><a class="menuitem" href="/">Developer</a></p>
     </td>
 </tr>
 </table>
-
 
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
@@ -173,55 +97,53 @@
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/installer.html">Install using installers</a></p>
+    <p class="menuitem"><a class="menuitem" href="../install/installer.html">Install using installers</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/setup_guide.html">Install using the setup guide</a></p>
+    <p class="menuitem"><a class="menuitem" href="../install/setup_guide.html">Install using the setup guide</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/install_manually.html">Install manually</a></p>
+    <p class="menuitem"><a class="menuitem" href="../install/install_manually.html">Install manually</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/siteaccess.html">Site access</a></p>
+    <p class="menuitem"><a class="menuitem" href="../install/siteaccess.html">Site access</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/multisite.html">Multi site configuration</a></p>
+    <p class="menuitem"><a class="menuitem" href="../install/multisite.html">Multi site configuration</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/install/uninstall.html">Uninstall</a></p>
+    <p class="menuitem"><a class="menuitem" href="../install/uninstall.html">Uninstall</a></p>
     </td>
 </tr>
 </table>
-
-
 
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
@@ -231,10 +153,10 @@
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/security/securing.html">Securing the site</a></p>
+    <p class="menuitem"><a class="menuitem" href="../security/securing.html">Securing the site</a></p>
     </td>
 </tr>
 
@@ -248,10 +170,10 @@
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/setup/pagesetup.html">Page setup</a></p>
+    <p class="menuitem"><a class="menuitem" href="../setup/pagesetup.html">Page setup</a></p>
     </td>
 </tr>
 
@@ -265,24 +187,24 @@
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/everyday.html">Everyday functions</a></p>
+    <p class="menuitem"><a class="menuitem" href="everyday.html">Everyday functions</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/permissions.html">Permissions</a></p>
+    <p class="menuitem"><a class="menuitem" href="permissions.html">Permissions</a></p>
     </td>
 </tr>
 
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
     <p class="menuitem"><a class="menuitem" href="e-commerce.html">e-commerce functions and settings</a></p>
@@ -290,22 +212,21 @@
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/workflows.html">Workflows</a></p>
+    <p class="menuitem"><a class="menuitem" href="workflows.html">Workflows</a></p>
     </td>
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/manual/user/informationcollectors.html">Information collector</a></p>
+    <p class="menuitem"><a class="menuitem" href="informationcollectors.html">Information collector</a></p>
     </td>
 </tr>
 </table>
-
 
 <table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
 <tr>
@@ -315,10 +236,10 @@
 </tr>
 <tr>
     <td class="bullet" width="1">
-    <img src="https://doc.sdk.exponential.earth/design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
+    <img src="../../design/standard/images/bullet.gif" width="12" height="12" alt=""/><br/>
     </td>
     <td class="menu" width="99%">
-    <p class="menuitem"><a class="menuitem" href="https://doc.sdk.exponential.earth/sdk" }>Exponential SDK</a></p>
+    <p class="menuitem"><a class="menuitem" href="../../sdk" }>Exponential SDK</a></p>
     </td>
 </tr>
 </table>
@@ -364,7 +285,20 @@ This is the first step of adding discount groups.</p>
 <p>Click on the "Partner" link that will take you into another page: "Group view". This is where we
 assign the actual discount to the Partner group.</p>
 
-<p><img src="https://doc.sdk.exponential.earth/kernel/manual/user/images/discount1.jpg" border="1"></p>
+<p><!-- IMAGE NOT ARCHIVED: /kernel/manual/user/images/discount1.jpg -->
+<!-- <img src="/kernel/manual/user/images/discount1.jpg" border="1"> -->
+<pre class="missing-image">TODO — Image not available in archive
+
+Title:   Image: discount1.jpg
+File:    /kernel/manual/user/images/discount1.jpg
+
+What this image shows:
+Image from original ez.no documentation. Context: k on the "Partner" link that will take you into another page: "Group view". This is where we assign the actual discount to the Partner group.</p> <p><img src="/kernel/manual/user/images/discount1.jpg"
+
+Replacement instructions:
+Locate original source and save as /kernel/manual/user/images/discount1.jpg
+
+See /sdk/missing.html for the full list of missing images.</pre></p>
 
 <p>Click the "Add rule" button to assign the discount. In the "Editing rule" window you write in
 "Computer store" in the "Name" field and type in how much they will get in discount. Next you decide if
@@ -384,7 +318,20 @@ the groups, users or persons you want to include. You can go deeper into the cus
 Very often you need to have different VAT types on different products or product groups in your shop.
 To save time and make the whole thing as easy as possible this is all done within "VAT types" in the
 "Shop" box.</p>
-<p><img src="https://doc.sdk.exponential.earth/kernel/manual/user/images/vattypes.gif" border="1"></p>
+<p><!-- IMAGE NOT ARCHIVED: /kernel/manual/user/images/vattypes.gif -->
+<!-- <img src="/kernel/manual/user/images/vattypes.gif" border="1"> -->
+<pre class="missing-image">TODO — Image not available in archive
+
+Title:   Image: vattypes.gif
+File:    /kernel/manual/user/images/vattypes.gif
+
+What this image shows:
+Image from original ez.no documentation. Context: product groups in your shop. To save time and make the whole thing as easy as possible this is all done within "VAT types" in the "Shop" box.</p> <p><img src="/kernel/manual/user/images/vattypes.gif" 
+
+Replacement instructions:
+Locate original source and save as /kernel/manual/user/images/vattypes.gif
+
+See /sdk/missing.html for the full list of missing images.</pre></p>
 
 <p>When you want to add a VAT type to a product or edit the VAT you go into this window. Let's say that you
 run a grocery store and you have several products with different VAT types. You have vegetables (20% VAT),
@@ -393,7 +340,20 @@ you now see an "Add VAT type" button. When clicking this button you will see a "
 "Percentage" window. Simply add the name of the product and what percentage of VAT this product should have.
 In our example we enter the following:</p>
 
-<p><img src="https://doc.sdk.exponential.earth/kernel/manual/user/images/vattypes2.gif" border="1"></p>
+<p><!-- IMAGE NOT ARCHIVED: /kernel/manual/user/images/vattypes2.gif -->
+<!-- <img src="/kernel/manual/user/images/vattypes2.gif" border="1"> -->
+<pre class="missing-image">TODO — Image not available in archive
+
+Title:   Image: vattypes2.gif
+File:    /kernel/manual/user/images/vattypes2.gif
+
+What this image shows:
+Image from original ez.no documentation. Context: ntage" window. Simply add the name of the product and what percentage of VAT this product should have. In our example we enter the following:</p> <p><img src="/kernel/manual/user/images/vattypes2.gif"
+
+Replacement instructions:
+Locate original source and save as /kernel/manual/user/images/vattypes2.gif
+
+See /sdk/missing.html for the full list of missing images.</pre></p>
 
 <p>Then click the "Store" button. If you want to add more VAT types simply click the "Add VAT types" button
 and go through the process again.</p>
@@ -438,7 +398,7 @@ This shopping basket we have put here to test out . In this window you can test 
 <p>
 Exponential comes with a default workflow for adding shipping to the order. This is however
 a plug-in system so you can add any shipping calculation to this checkout process. Visit
-<a href="https://doc.sdk.exponential.earth/sdk.html">Exponential SDK</a> to get more information about how you can set up a custom
+<a href="/sdk/">Exponential SDK</a> to get more information about how you can set up a custom
 shipping calculation.
 </p>
 
@@ -469,28 +429,7 @@ product for later shopping.
 </tr>
 </table>
 <div align="center" style="padding-top: 0.5em;">
-<p class="small"><a href="https://doc.sdk.exponential.earth/">Exponential</a> copyright &copy; copyright � 1998-2025 <a href="https://doc.sdk.exponential.earth/">Exponential</a></p>
-</div>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></div>
 
  </body>
 </html>
-<!--
-     FILE ARCHIVED ON 07:55:20 Aug 01, 2003 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:42:39 Oct 31, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 0.682
-  exclusion.robots: 0.026
-  exclusion.robots.policy: 0.012
-  esindex: 0.013
-  cdx.remote: 12.819
-  LoadShardBlock: 106.986 (3)
-  PetaboxLoader3.datanode: 79.42 (4)
-  PetaboxLoader3.resolve: 114.12 (2)
-  load_resource: 108.11
--->

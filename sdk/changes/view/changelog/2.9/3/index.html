@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - What's New</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/changes/view/changelog/2.9/3/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; 2.9 <span class="slash">/</span> 3 &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../2/index.html" ">&lt;&lt; 2.9-2</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../4/index.html" ">2.9-4 &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/changes">What's New</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/features/">Key features</a><br/><p class="groupname">Changelog</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/index.html">2.9 series</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/1/index.html">2.9-1</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/2/index.html">2.9-2</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/3/index.html">2.9-3</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/4/index.html">2.9-4</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/5/index.html">2.9-5</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/6/index.html">2.9-6</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/7/index.html">2.9-7</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/8/index.html">2.9-8</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Exponential 3 changes in 2.9-3</h1>
+<p>Bug fixes
+Changed roles editing and listing  interface</p>
+<h2>SDK</h2>
+<ul></ul>
+<h2>Kernel</h2>
+<ul><li>Added display of full path for node placement(s)</li>
+<li>Added support for setting sort by when fetching trees, multiple sorting can be used.</li>
+<li>Added support for filtering on classes when fetching trees, multiple classes can be included/excluded</li>
+<li>Added support for specifying sort field and sort order for each node assignment.</li>
+<li>Made sure generated SQL were a bit more viewer friendly.</li>
+<li>Added new datatype DateTime</li>
+<li>Added new datatype Time</li>
+<li>Fixed date formating for datatype Date</li>
+<li>Added new datatype Email</li>
+<li>Added new datatype ISBN</li>
+<li>Added check for existing related objects when adding new object relations, duplicated objects will not be added</li>
+<li>Fixed some bugs for user settings, such as wrong redirection, uncrectly user information retriving.</li>
+<li>Fixed bug for unable to show stored information of issearchable and isrequired when editing class attribute</li>
+<li>Fixed bug for finding related object
+_ Fixed bug for finding node</li>
+<li>Fixed bug on node, class and object cleanup</li>
+<li>Fixed bug for adjusting placement for class attribute</li>
+<li>Fixed bug on viewing and editing object translation</li>
+<li>Fixed bug for unable to remember what have been selected in enum datatype if multiple choice is allowed</li>
+<li>Using standard url for all sites</li>
+<li>Fixed bug of unable to discard object with empty media and binary file input</li>
+<li>Added column choosing when creating a new datetype text field</li>
+<li>Added column choosing when creating a new datetype xml text field</li>
+<li>Fixed bug for &quot;and&quot; searching</li>
+<li>Added function of searching only in specified section or specified published date to advanced search.</li>
+<li>Added function for checking status when supply delete object(class) button or remove object(class) button. If nothing could be deleted, no delete button supplied</li>
+<li>Fixed bug for permission system where related to object ownership. The owner of an object is able to delete or edit the object he created if permission allowed</li>
+<li>Added global section ID to eZSection.</li>
+<li>Fixed bugs with design override keys set multiple times.</li>
+<li>Moved debug redirection to template file.</li>
+<li>Image system can now be configured using the image.ini file.</li>
+<li>Added function to check and add related objects when they are inputed as xml text.</li>
+<li>Added function to check and save links when they are inputed as xml text.</li>
+<li>Improved the user registration interface with better feedback.</li>
+<li>Fixed bug for price check.</li>
+<li>Fixed bug for duplicated role assignment.</li>
+<li>Fixed bug for duplicated related object assignment.</li>
+<li>Fixed bug for duplicated node assignment.</li>
+<li>Fixed bug of images or binaryfiles are not uploaded if some attributes does not validate.</li>
+<li>Datetype Date, DateTime and Time are initialized to current time.</li>
+<li>Improved the validation for ISBN number using checksum rule, only correct number are accepted.</li>
+</ul>
+<h2>Library</h2>
+<ul><li>Added function for check and get attribute for ezlocale/classed/ezdate.php, ezlocale/classed/ezdatetime.php and ezlocale/classed/eztime.php</li>
+<li>Added writeDebug function in eZDebug which can be used for temporary debug messages, writeNotice should be reserved for debug messages
+  which are permament (but can be disabled). For instance eZINI has notices on which files it loads if debug is enabled for it.</li>
+</ul>
+<h3>eZ sys</h3>
+<ul><li>Added function for setting/getting server and environment variables. They are prefered over accessing variables directly,
+  this also makes sure Exponential 3 works with register_globals off.</li>
+</ul>
+<h3>eZ ini</h3>
+<ul><li>Comments are no longer required to start at the start of the line (requires double markers ##)</li>
+</ul>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - eZ xml&trade;</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/ezxml/view/parsing/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; ezxml <span class="slash">/</span> parsing &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../dom_creation_with_namespaces/index.html" ">&lt;&lt; DOM creation with namespaces</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../parsing_with_namespaces/index.html" ">Parsing with namespaces &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/ezxml">eZ xml&trade;</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><p class="groupname">XML creation</p>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezxml/view/dom_creation/index.html">DOM creation</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezxml/view/dom_creation_with_namespaces/index.html">DOM creation with namespaces</a><br/><p class="groupname">XML parsing</p>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezxml/view/parsing/index.html">Plain parsing</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezxml/view/parsing_with_namespaces/index.html">Parsing with namespaces</a><br/><p class="groupname">Diagrams</p>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ezxml/view/classdiagram/index.html">Class diagram</a><br/><p class="groupname">API Reference</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZXML/index.html">XML parser</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZDOMDocument/index.html">DOM document</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZDOMNode/index.html">DOM node</a><br/><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/ref/view/class/eZSchema/index.html">Schema handler</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2">
+<h1>Plain parsing</h1>
+
+<p>
+Parsing XML documents with eZ xml&trade; is simple, all you need to do is
+pass the XML document to the <b>domTree()</b> function. The DOM object tree
+will then be returned.
+</p>
+
+<p>
+Below is the XML document used in this parser introduction.
+</p>
+
+<pre class="example">
+&lt;?xml version='1.0'?&gt;
+&lt;doc&gt;
+  &lt;article&gt;
+    &lt;paragraph name='Introduction'&gt;Paragraph contents&lt;/paragraph&gt;
+    &lt;paragraph name='Story'&gt;Story paragraph contents&lt;/paragraph&gt;
+  &lt;/article&gt;
+&lt;/doc&gt;
+</pre>
+
+<p>
+The code snippet below shows how you can parse an XML document and create a DOM
+tree. The DOM tree is then used to manipulate the document.
+</p>
+
+<pre class="example">
+// instantiate the XML parser
+$xml = new eZXML();
+
+$testDoc = "&lt;?xml version='1.0'?&gt;
+&lt;doc&gt;
+  &lt;article&gt;
+    &lt;paragraph name='Introduction'&gt;Paragraph contents&lt;/paragraph&gt;
+    &lt;paragraph name='Story'&gt;Story paragraph contents&lt;/paragraph&gt;
+  &lt;/article&gt;
+&lt;/doc&gt;";
+
+// $dom now contains the DOM object tree, false is returned if parsing was
+// unsuccessful
+$dom =&amp; $xml-&gt;domTree( $testDoc );
+</pre>
+
+<h2>Finding nodes</h2>
+<p>
+To find special nodes in the document you can use the <b>elementsByName()</b>
+function. This will return an array of DOM nodes. The code snippet below
+shows how you can find all paragraphs in the XML document.
+</p>
+
+<pre class="example">
+// $paragraphs is an array of paragraph DOM nodes
+$paragraphs =&amp; $dom-&gt;elementsByName( "paragraph" );
+</pre>
+
+<h2>Fetching content</h2>
+<p>
+When you have all the nodes you need you can access the attributes and
+content of these items. All nodes have a name, this should in this example
+be <b>paragraph</b> as we only fetched nodes by that name. The function
+<b>attributeValue()</b> is used to fetch the value of an attribute on the
+current node. To fetch the contents of a node directly you can use the
+<b>textContent()</b> function. Note that textcontent only works if it's
+a plain text node. Normally you would have to check all the children of the
+node if you expect subnodes of mixed type.
+</p>
+
+<pre class="example">
+foreach ( $paragraphs as $paragraph )
+{
+    // get the name of the item, should be paragraph
+    print( "New " . $paragraph-&gt;name() );
+    // print the value of the name attribute
+    print( "Name: " . $paragraph-&gt;attributeValue( "name" ) );
+    // get the text content of the DOM node
+    print( "Content: " . $paragraph-&gt;textContent() );
+}
+</pre>
+
+<p>
+This is the result of the above code:
+</p>
+
+<pre class="example">
+New paragraph:
+Name: Introduction
+Content: Paragraph contents
+
+New paragraph:
+Name: Story
+Content: Story paragraph contents
+</pre>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

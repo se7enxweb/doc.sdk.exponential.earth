@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - What's New</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/changes/view/changelog/2.9/6/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; 2.9 <span class="slash">/</span> 6 &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../5/index.html" ">&lt;&lt; 2.9-5</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../7/index.html" ">2.9-7 &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/changes">What's New</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/features/">Key features</a><br/><p class="groupname">Changelog</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/index.html">2.9 series</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/1/index.html">2.9-1</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/2/index.html">2.9-2</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/3/index.html">2.9-3</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/4/index.html">2.9-4</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/5/index.html">2.9-5</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/6/index.html">2.9-6</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/7/index.html">2.9-7</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/8/index.html">2.9-8</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Exponential 3 changes in 2.9-6</h1>
+<p>Bug fixes, user interface cleanups and optimizations.
+</p>
+<h2>Kernel</h2>
+<ul><li>Added correct calculations for complex discount rules</li>
+<li>Added shopping confirmation step</li>
+<li>Added order dynamic order items to handle shipping, gift certificates, wrapping etc in a general way.</li>
+<li>Added force user login check on checkout</li>
+<li>Changed user registration so that it reuses the attribute edit</li>
+<li>Added functionality for adding new related objects in content edit</li>
+<li>Added template for sending information collection results in mail</li>
+<li>Moved drafts to content module</li>
+<li>Fixed bug in eZPersistentObject which required default sorting to make override sorting work</li>
+<li>Fixed bug with publishing from preview</li>
+<li>Fixed bug with related objects when creat new version by copying from another version</li>
+<li>Fixed bug with viewing related objects in view full</li>
+<li>Added support for custom tags in xml text</li>
+<li>Fixed bug for group deleting which only delete one group when multiple groups were selected</li>
+<li>Fixed bug for class deleteing which only delete one class when multiple clasese were selected</li>
+<li>Added warning when discard a editing object</li>
+<li>Fixed bug with xmltext input validation and conversion</li>
+<li>Supported more tags in xml input such as &lt;bold&gt;, &lt;em&gt; and table width specification</li>
+<li>Changed the return url when editing or creating a class, the new return url will be the class list page
+  where the class belongs to.</li>
+<li>Added limit to search stats page.</li>
+</ul>
+<h3>eZ contentcache</h3>
+<ul><li>New cache system for content views. For clearing cache use bin/shell/clearcache.sh</li>
+</ul>
+<h3>shop</h3>
+<ul><li>Added more information to order list</li>
+<li>Added real order number to orders</li>
+</ul>
+<h3>index.php</h3>
+<ul><li>Added <i>siteBasics</i> array which contains references to some variables
+  which controls the index script. This array can be modified by code
+  like precheck and access to turn off/on features or otherwise modify
+  basic settings before the actual module handling is started.</li>
+<li>Policy check omit list was moved to site.ini under RoleSettings and added support
+  for setting a module/view pair.</li>
+<li>Module repository list was moved to site.ini under ModuleSettings.</li>
+<li>URL translator is now only run if $urlTranslatorAllowed is true.</li>
+<li>Policy checking is now only run if $policyCheckRequired is true.</li>
+<li>Moved ezsetup include to pre_check.php where it belongs.</li>
+<li>Moved precheck function call to before the module loop.</li>
+<li>Added flags for user-object, session and database object.</li>
+<li>Made sure the database object weren't used unless it was included and initialized when cleaning up.</li>
+</ul>
+<h3>pre_check.php</h3>
+<ul><li>Fixed the code to make sure prechecks are run in a specific order
+   and fixed the validity check.</li>
+<li>Validity check will now turn off policy checking, url translation, user objects, session and database.</li>
+</ul>
+<h3>access.php</h3>
+<ul><li>Siteaccess has been changed to prepend as an override dir instead of overwriting,
+  that way personal overrides will always work.</li>
+</ul>
+<h3>access.php</h3>
+<ul><li>Added support for map type in hostmatching, it allows one to map a hostname to a specific
+  access type. Multiple entries are allowed.</li>
+</ul>
+<h3>site.ini</h3>
+<ul><li>HashType is now set to md5_user instead of md5_site as default.</li>
+</ul>
+<h3>sql files</h3>
+<ul><li>Password hashes for users in the kernel_clean.sql and demokernel.sql has been update to use the user/password
+  hash type.</li>
+</ul>
+<h3>texttoimage operator</h3>
+<ul><li>The directory where cache files are stored has been moved to var/cache/texttoimage,
+  old files should be removed, unix users can do rm var/cache/image-*.png.</li>
+</ul>
+<h2>SDK</h2>
+<ul><li>Added main concepts tutorial</li>
+<li>Some UI cleanups and better styles.</li>
+<li>Improved changelog viewing code.</li>
+</ul>
+<h2>eZ setup</h2>
+<ul><li>Moved the setup code as a module, overriding the already existing setup module.</li>
+<li>Added the notion of part and started work on the 'init' part which is the
+  first and mandatory part.</li>
+<li>Redone the checking and info collection code.</li>
+<li>Lot's of fixes to make it all more user friendly.</li>
+<li>Some fixes to the program file detection.</li>
+</ul>
+<h3>eZ section</h3>
+<ul><li>Section init will not fetch section from session if session is disabled.</li>
+</ul>
+<h3>admin.css</h3>
+<ul><li>Added p.enabled, p.disabled and p.current classes used for the setup program.</li>
+</ul>
+<h3>share/locale/*</h3>
+<ul><li>Added more comments on the variations.</li>
+</ul>
+<h3>core.css</h3>
+<ul><li>Added pre style and some other styles used in the setup.</li>
+</ul>
+<h2>Library</h2>
+<ul></ul>
+<h3>eZ template</h3>
+<ul><li>New template parser created, and all related template functions and operators have been updated.
+  The new internal structure is lighter and should give faster processing.</li>
+<li>The line and column of all elements in a template file are remembedered with the filename, this
+  makes it much easier to track down errors.</li>
+<li>Whitespace handling is improved, it's now possible to have whitespaces inbetween variable, operator
+  and attribute elements.</li>
+<li>Better namespace handling, it's now possible to specify a global namespace by adding a # to the start
+  of the namespace or a relative one by adding a : to the start of the namespace.</li>
+<li>Attribute lookup of operator result are now possible.</li>
+<li>Reworked the template loading functions to make it easier to support caching.</li>
+<li>Finished the template tree caching and add site.ini setting for turning it on and off.</li>
+<li>New operator is_array which returns true if either the input or all of the parameters are arrays.</li>
+<li>No cache is created or used if the <i>no-cache-adviced</i> in site basics is true.</li>
+<li>New function set-block which renders all it's children as text and sets it in a template variable.</li>
+<li>Function parameters can now be set without a type, this means that the parameter is set to true.</li>
+</ul>
+<h3>eZ executionstack</h3>
+<ul><li>Removed. It no longer had any use as it was.</li>
+</ul>
+<h3>eZ file</h3>
+<ul><li>Removed mkdir function from file, it's available from eZDir.</li>
+</ul>
+<h3>eZ debug</h3>
+<ul><li>Made sure percentage and average is calculated correctly.</li>
+</ul>
+<h3>eZ module</h3>
+<ul><li>New action parameter type called post_value_action_parameters, it's similar to
+  post_action_parameters but will check for post variables looking like $name_$value
+  and will use $value as the value instead of the real value. This is useful for buttons
+  which should also send a value.</li>
+</ul>
+<h3>eZ sys</h3>
+<ul><li>Added filesystemType() function which either returns &quot;win32&quot; or &quot;unix&quot;.</li>
+<li>Added removeMagicQuotes() function to fix the _ENV and _SERVER global variables.</li>
+</ul>
+<h3>eZ httptool</h3>
+<ul><li>Fixed removeMagicQuotes() function to use stripslashes() instead of preg_replace.</li>
+<li>Made sure session is started when a session function is used if not already started.</li>
+</ul>
+<h3>eZ session</h3>
+<ul><li>Added function eZSessionStart() which will take care of starting the session properly.
+  Calling it multiple times will just return false.</li>
+</ul>
+<h3>eZ locale</h3>
+<ul><li>New function localeFullCode which returns the locale code with the variation.</li>
+<li>localeList() will now be able to return a list of languages as locale objects.</li>
+<li>Preferred charset is now read from locale file if no charset was set in locale string.</li>
+</ul>
+<h3>eZ ini</h3>
+<ul><li>No cache is created or used if the <i>no-cache-adviced</i> in site basics is true.</li>
+<li>New feature, the ini files now supports real arrays.
+  They are input with a [] after the keyname. An empty entry will create an
+  empty array, like Item[]</li>
+<li>Some changes to the way override dir is handled, it now supports multiple override
+  dirs each being parsed in order.</li>
+<li>Added filename() function.</li>
+</ul>
+<h3>eZ codepage</h3>
+<ul><li>No cache is created or used if the <i>no-cache-adviced</i> in site basics is true.</li>
+</ul>
+<h3>eZ db</h3>
+<ul><li>New function hasInstance() which returns true if there is an eZDB instance active.</li>
+</ul>
+<h3>eZ dbinterface</h3>
+<ul><li>Added some functionality for handling different relation types, handlers can
+  now return which relation types they support and get counts and lists, and remove
+  them.</li>
+</ul>
+<h3>eZ dbtool</h3>
+<ul><li>New class which handles common database tools, such as cleanup and finding out if
+  a database is empty. MySQL and PostgreSQL handlers were updates as well.</li>
+</ul>
+<h3>eZ mail</h3>
+<ul><li>Lots of changes to the mail class, it now only takes care of storing header information
+  and body text and returns it when requested.</li>
+</ul>
+<h3>eZ mailtransporter</h3>
+<ul><li>New class which defines an interface for sending email, has a static function send() which
+  figures out the transporter to use from site.ini.</li>
+</ul>
+<h3>eZ SendmailTransporter</h3>
+<ul><li>Sends mail with sendmail.</li>
+</ul>
+<h3>eZ SMTPTransport</h3>
+<ul><li>Sends mail with SMTP.</li>
+</ul>
+<h3>eZ texttool</h3>
+<ul><li>Changed arrayFlatten to be non-recursive (ie. iterative).</li>
+</ul>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

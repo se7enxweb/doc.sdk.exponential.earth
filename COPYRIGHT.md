@@ -1,4 +1,4 @@
-﻿Copyright © 1999 - 2024 7x and 1999 - 2004 Exponential. All Rights Reserved.
+﻿Copyright © 1998 - 2026 7x and 1999 - 2004 eZ Systems AS. All Rights Reserved.
 
     This file is part of Exponential SDK Documentation.
 

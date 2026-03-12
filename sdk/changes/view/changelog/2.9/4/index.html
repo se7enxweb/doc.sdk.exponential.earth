@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - What's New</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/changes/view/changelog/2.9/4/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; 2.9 <span class="slash">/</span> 4 &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../3/index.html" ">&lt;&lt; 2.9-3</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../5/index.html" ">2.9-5 &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/changes">What's New</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/features/">Key features</a><br/><p class="groupname">Changelog</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/index.html">2.9 series</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/1/index.html">2.9-1</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/2/index.html">2.9-2</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/3/index.html">2.9-3</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/4/index.html">2.9-4</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/5/index.html">2.9-5</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/6/index.html">2.9-6</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/7/index.html">2.9-7</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/8/index.html">2.9-8</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Exponential 3 changes in 2.9-4</h1>
+<p>Bug fixes
+</p>
+<h2>SDK</h2>
+<ul></ul>
+<h2>Kernel</h2>
+<ul><li>Added new corporate demo design setup</li>
+<li>Fixed wrong path in header redirects when using nvh setup</li>
+<li>Updated modfix script to use sh instead of bash</li>
+<li>Added more user friendly sort order selection in object edit.</li>
+<li>New script checkcode.sh which lists out files which has programming issues (like not following codinstandard).</li>
+<li>Missing module/view is now properly reported to user.</li>
+<li>Added missing error messages kernel/20 and kernel/21</li>
+<li>Cleanups in templates and views, should be less warnings now.</li>
+<li>Renamed kernel/drafts to kernel/draft and design/standard/templates/drafts to design/standard/templates/draft</li>
+<li>Added site.ini setting which controls the languages one can translate to.</li>
+<li>Many improvements to the translation page.</li>
+<li>Added translation overview to object edit.</li>
+<li>Fixed single selection in browse object/node.</li>
+<li>Fixed bug in list stylesheet.</li>
+<li>Changed node assignment interface when editing objects.</li>
+<li>Added function to move node from one place to another place.</li>
+<li>Changed role editing interface. Policy creation wizard is added.</li>
+<li>Added new template operator <i>ezroot</i> which prepends the wwwDir to urls,
+  useful for stored images, files etc.</li>
+<li>Fixed geometry setting for convert to use quotes around the geometry value.</li>
+<li>Added warning page for removing group, fixed bug of unable to delete group classes.</li>
+<li>Added warning page for removing published object. When an object is assigned to different nodes, remove an
+  object in one place will not remove the object, only the specified placement will be removed.</li>
+<li>Fixed bug for uncorrected attribute order when editing an object whose attribute order may have been changed.</li>
+<li>Fixed bug for class discard function.</li>
+<li>Added total price function to basket.</li>
+<li>Added new template operator ezsys which can return attributes from the ezsys global object.</li>
+<li>User registration email sends out correct url.</li>
+<li>Redone the uri modification, the global uri object will now only contain the module, view and parameter values.</li>
+<li>Made the change password interface more user-friendly.</li>
+<li>Improved content version list, it now displays status on versions, translations. Revert operation was removed,
+  and copy operation no longer sets current version. Object edit will return with the selected version
+  and only versions which are yours and are drafts can be edited.</li>
+<li>Added version status and ownership checking in content edit.</li>
+<li>Versionview can change between translations and placements. Placements will decide the current section id.
+  Only versions that are drafts can be edited and published.
+  Only versions that you created can be viewed.</li>
+<li>Added setup and Exponential 3 configuration script</li>
+<li>Made sure a warning message is shown when the user could not login, passwords must always be entered.</li>
+<li>Added sample object tag for related objects in object edit</li>
+</ul>
+<h3>Datatypes</h3>
+<ul><li>Datatypes can now report if they are non-translateable.</li>
+<li>Added table border support for xmltext.</li>
+</ul>
+<h2>Library</h2>
+<ul></ul>
+<h3>eZ utils</h3>
+<ul><li>Created operation system which will help with creating code to execute triggers and workflows.</li>
+<li>Fixed problem with creating recursive directory sctructures on windows.</li>
+<li>Fixed bug with copying files on windows from temporary version</li>
+</ul>
+<h3>eZ template</h3>
+<ul><li>Added site.ini setting which turn template debug information on/off.</li>
+<li>New template operator &quot;ne&quot; which returns true if two ore more parameters does not match, ie. not equal.</li>
+</ul>
+<h3>eZ locale</h3>
+<ul><li>Added site.ini setting which turn locale debug information on/off.</li>
+<li>Added support for the attribute system.</li>
+</ul>
+<h3>eZ debug</h3>
+<ul><li>Fixed clearing buffer when buffer is empty (ob_end_clear())</li>
+</ul>
+<h3>eZ module</h3>
+<ul><li>Added support for parameters to handleError, this parameters are read by the error module
+  and set as template variables for the template.</li>
+<li>Added support for default actions for views, default actions may be dependent on post variables.</li>
+</ul>
+<h3>eZ httptool</h3>
+<ul><li>Added suport for images buttons</li>
+</ul>
+<h3>eZ image</h3>
+<ul><li>Added support for exec path for eZImageShell.</li>
+</ul>
+<h3>eZ uri</h3>
+<ul><li>Passed URIs will get the first / removed if it exists and index will start at 0.</li>
+<li>Added dropBase() function which will remove all values before the index, set the index to 0
+  and fix the URI string.</li>
+</ul>
+<h3>eZ sys</h3>
+<ul><li>Improved the attribute support.</li>
+<li>Fixed nVH detection and setup, it no longer modifies server variables.</li>
+<li>Added support for debug output which is off by default.</li>
+</ul>
+<h3>eZ session</h3>
+<ul><li>Added checked for DB connection.</li>
+</ul>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

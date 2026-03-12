@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Exponential 3&trade; SDK - What's New</title>
+<link rel="canonical" href="https://doc.sdk.exponential.earth/sdk/changes/view/changelog/2.9/7/"/>
+</head>
+
+ <head>
+<title>Exponential 3&trade; SDK</title>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/core.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/primary.css"/>
+<link rel="stylesheet" type="text/css" href="/design/standard/stylesheets/main.css"/>
+</head>
+
+<body style="background: url(/design/standard/images/grid-background.gif);">
+
+<header class="site-header">
+  <div class="site-logo">
+    <a href="https://doc.sdk.exponential.earth/"><img src="/design/standard/images/exponential.png" class="logo" alt="Exponential"/></a>
+  </div>
+  <nav class="site-nav">
+    <a class="nav-tab" href="/manual/">Manual</a>
+    <a class="nav-tab nav-tab-active" href="/sdk/">SDK</a>
+  </nav>
+</header>
+  <div class="site-pathline"><p class="path">&nbsp; 2.9 <span class="slash">/</span> 7 &nbsp;</p></div>
+
+<table class="path" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td class="pathline" width="50%">
+    <a class="path" href="../6/index.html" ">&lt;&lt; 2.9-6</a>&nbsp;
+    </td>
+    <td class="pathline" align="right" width="50%">
+    <a class="path" href="../8/index.html" ">2.9-8 &gt;&gt;</a>&nbsp;
+    </td>
+</tr>
+</table>
+
+<table width="100%" bgcolor="white" cellpadding="5" cellspacing="0" border="0">
+<tr>
+<td valign="top" width="15%">
+
+<table class="menuboxleft" width="120" cellpadding="1" cellspacing="0" border="0">
+<tr>
+    <th class="menuheaddark" colspan="2">
+    <p class="menuhead"><a class="menuhead" href="/sdk/changes">What's New</p>
+    </th>
+</tr>
+<tr>
+    <td class="bullet" width="1">
+    &nbsp;
+    </td>
+    <td class="menu" width="99%">
+    <p class="menuitem"><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/features/">Key features</a><br/><p class="groupname">Changelog</p><img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/index.html">2.9 series</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/1/index.html">2.9-1</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/2/index.html">2.9-2</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/3/index.html">2.9-3</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/4/index.html">2.9-4</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/5/index.html">2.9-5</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/6/index.html">2.9-6</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/7/index.html">2.9-7</a><br/>&nbsp;<img src="/design/standard/images/bullet.gif" width="12" height="12" alt="" border="0"/> <a href="/sdk/changes/view/changelog/2.9/8/index.html">2.9-8</a><br/></p>
+    </td>
+</tr>
+</table>
+</td>
+
+<td valign="top" width="85%">
+<table width="100%" border="0">
+<tr><td colspan="2"><h1>Exponential 3 changes in 2.9-7</h1>
+<p>New collaboration system, bug fixes, user interface cleanups and optimizations.
+</p>
+<h2>Kernel</h2>
+<ul><li>NB!. Added possibility to limit user login per siteaccesses, it's defined by roles. Since that you need</li>
+</ul>
+<h3>to create policy for all user roles exsept of admin user that allows user to login the siteaccess. smth like</h3>
+<ul><li>user-login-* without that user will not be able to login.</li>
+<li>Fixed redirection to self when editing top level node</li>
+<li>The ModuleRepositories setting in ModuleSettings in settings/site.ini
+  has been changed to an array.</li>
+<li>Moved some settings from site.ini into design.ini and workflow.ini</li>
+<li>Added the notion of extensions, there are some settings in site.ini
+  which controls which extension are active. A new class eZExtension
+  has been made for this purpose.</li>
+<li>Workflowtype list has been changed to an array in workflow.ini</li>
+<li>Added DesignExtensions array in design.ini, extensions will
+  add to this list to insert additional design.</li>
+<li>Added RepositoryDirectories and ExtensionDirectories array to workflow.ini
+  which controls the directories and extensions which have event types.</li>
+<li>Moved module settings to module.ini file.</li>
+<li>Added support for literal tag which can contain special html caracters without breaking the XML.</li>
+<li>Added support for extensions, they use the x18n operator instead of i18n which takes
+  an extension name as the first parameter.</li>
+<li>Fixed problem with missing content action when object has multiple content object actions.</li>
+<li>Added clearing of content cache for view when sorting priority is updated.</li>
+<li>Template overrides now check the override dir for the file first without _keyword overrides
+  before doing checks with _keywords.</li>
+<li>Moved AvailableDataTypes into content.ini</li>
+<li>Extension support for datatypes and content actions.</li>
+<li>Template object forwarding function now supports render modes, a render mode will
+  change the directory it searches for templates to render- and the modename./</li>
+<li>Fixed redirection for object publishing and removal to go to correct node after it's done.</li>
+<li>Added function to return creator of version in node</li>
+<li>Added uri_alias attribute on node.</li>
+<li>Module list in policies now works with extensions.</li>
+<li>Added anchor tag as standard in XMLText</li>
+<li>Optimized fetch lists</li>
+<li>Access denied page now shows a login button if the current user is anonymous.</li>
+<li>Added reverse_related_object_list attribute to eZContentObjectVersion</li>
+<li>Added next/previous navigation on browse page</li>
+<li>Made ezurl operator convert empty strings to / url's.</li>
+<li>Improved validation for datetime datatype.</li>
+<li>Fixed reference bug in enum serialization</li>
+<li>Added new workflow event type publishontime it allows to create workflow which will delay publishing of objects.</li>
+<li>Added session cache handler class to manage cached session information</li>
+<li>Added session cache on current user</li>
+<li>Fixed crash with ' character in object name translation</li>
+<li>Added session cache for current user group assignments</li>
+<li>The admin left menu can have parts of it disabled by setting some variables when including it.</li>
+<li>Added nodetree searching to advancedsearch which is similar to the one in normal search.</li>
+<li>Fixed user registration to read some default values from site.ini, such as class id,
+  section id and creator id. It also made sure the registration session variable was removed
+  when cancelling.</li>
+<li>Made enum attributes searchable</li>
+<li>Fixed correct rendering of XML block tags in XHTML.</li>
+<li>Fixed path to storage directory</li>
+<li>Created admin design templates</li>
+<li>Added generation of meta data based on site.ini settings</li>
+<li>Added reading of site title from site.ini.</li>
+<li>Added dynamic generation of meta description.</li>
+<li>Added session cache of disount rules</li>
+<li>Added GUI interface to manage possible tranlations for object</li>
+<li>Added possibility to limit user login per siteaccesses, it's defined by roles.</li>
+<li>Fixed problem with class caching</li>
+<li>New object forward template functions, content_version_view_gui,
+  collaboration_view_gui, collaboration_simple_message_view and collaboration_icon.</li>
+<li>Added clearing of cache when object is deleted</li>
+<li>New ezhttp and ezini template operators which can return data from http post, get
+  and session variables and ini files.</li>
+<li>User login can now be done with email address as well as username.</li>
+<li>Bug with correct fetchTree count when using limitations is fixed</li>
+<li>Added archiving function. Now object are not removed but just placed to archive. You can restore them from there</li>
+<li>Cleaned up eZXMLText class interface</li>
+<li>User registration now works even when login is required, it will
+  also behaves like user login with custom pagelayout.</li>
+<li>Fixed problem with postgresql db not being found, postgresql extension
+  was searched for while pgsql is the correct extension.</li>
+<li>Google navigation tab added to 'My drafts' and 'Archive' views</li>
+<li>Main pagelayout now has some extra metadata to inform browser of
+  specific urls. Opera 7 will create a top bar with this information.</li>
+<li>Pagelayouts have been changed to include some common templates, this
+  makes it much easier to upgrade the pagelayouts.</li>
+<li>Added ezinfo page which displays copyright and about information.</li>
+<li>Current URI and version info is now available in the pagelayout.</li>
+<li>attribute_view_gui and attribute_edit_gui now uses the new view_template
+  and edit_template attributes of eZContentObjectAttribute which 
+  will return the template name from the datatypes. This means
+  datatypes has more control over the template to be used.</li>
+<li>File download now supports filehandlers which controls how
+  files are download, currently PHP passtrough and direct handlers are available.</li>
+<li>Fixed bug with new version creating for bynary file</li>
+</ul>
+<h3>contentclass</h3>
+<ul><li>Moving attributes up in class edit now moves one step instead of two.</li>
+<li>Classes can now be copied, a new function in eZDataType was added which
+  tells datatypes to copy data from the old to the new. This is only required
+  for complexe datatypes which uses external tables for class options.</li>
+<li>After creating a new class group you are now redirected to that group.</li>
+<li>Sorting on object name was added (Patch by Bruce Morrison)</li>
+<li>Added unpublish workflow event.</li>
+<li>Added unpublish function to ezcontenobjectversion</li>
+<li>Image datatype can now return info on the original image.</li>
+<li>Fixed field main_key in ezoperation_memento table for MySQL to be varchar.</li>
+<li>Workflow processes now has a new status called reset which tells the system
+  that the process is no longer in use but may be reused later on.
+  This allows the process ID to be used througout the system until it is
+  considered complete.</li>
+<li>Fixed a major problem with mementos fetchin in runcronworkflows, before
+  the wrong memento data would be fetched in some occasions.</li>
+<li>Error view will set 404 HTTP status for some error numbers.</li>
+<li>Made sure the xmltext datatype stores correct link elements.</li>
+<li>New script for fixing bad xmltext link tags.</li>
+<li>Added system for listing and handling URLs which are linked
+  in ezxmltext and ezurl fields.</li>
+<li>Ext url operator was finished and will now use the eZUrl system
+  for storing urls.</li>
+<li>xhtml output for ezxmltext will only show valid urls, invalid
+  urls will link to url/view.</li>
+<li>Added new plain design for quicker starting a new site design</li>
+<li>Added template fetch functions for user, the current user can be fetched with
+  current_user.</li>
+<li>site.ini now has a list of modules and module/views which will always
+  work even when login is required. They will still use policy rules.</li>
+<li>Bork translation may now be enabled with a site.ini setting.</li>
+</ul>
+<h3>eZ setup</h3>
+<ul><li>Languages are now set in the translation table.</li>
+<li>A check for file uploading has been added, if not a warning is given/</li>
+<li>Now the demo siteaccess is set if demodata is installed, if not admin is used.</li>
+<li>Added mysql socket to db init page.</li>
+</ul>
+<h3>persistentobject</h3>
+<ul><li>Added support for between in conditions, it is passed as an array with two elements
+  as the second condition item.</li>
+<li>New dirty data flag which is set when an attribute is changed with setAttribute.</li>
+<li>New function sync() which will store the data if the dirty flag is set.</li>
+</ul>
+<h3>content</h3>
+<ul><li>Added fetch functions content, version and node to fetch the content object,
+  content object version and content node.</li>
+<li>Changed the serialize function to use namespaces and also changed the xml structure.</li>
+<li>Now you can create objects from left menubar</li>
+<li>content/edit.tpl has been split into multiple templates to make it easier to reuse and
+  override each part.</li>
+<li>New template resource called <i>standard</i> which works similar to <i>design</i> but will only
+  check in the standard design directory.</li>
+<li>content/edit_placement.tpl now has support for limitation placement, the template
+  must be overriden to achieve this.</li>
+<li>Objects can now be copied, either the current version or all versions are copied.
+  The copied object will not be published but will be available for editing.</li>
+</ul>
+<h3>eZ extension</h3>
+<ul><li>Added some helper functions for extension include.</li>
+</ul>
+<h2>SDK</h2>
+<ul></ul>
+<h2>Manual</h2>
+<ul><li>Added a site access section</li>
+<li>Added a multi site configuration section</li>
+<li>Added a install using the setup guide section</li>
+<li>New colors</li>
+</ul>
+<h2>Library</h2>
+<ul></ul>
+<h3>eZTemplate</h3>
+<ul><li>Added wash operator which handles conversion of text to e.g. xhtml compatible format</li>
+<li>Fixed parser problem with {literal} tags.</li>
+<li>Improved texttoimage to support multiple font directories.</li>
+<li>When debug output is on the template include name is prepended to the text.</li>
+<li>Sitebasics are now only used if available.</li>
+<li>Made sure variable attributes are not fetched with references, this is because
+  operators will override the values.</li>
+<li>New type operators, is_array, is_boolean, is_integer, is_float, is_numeric, is_string,
+                      is_object, is_class, is_null, is_set, is_unset, get_type and get_class.</li>
+<li>New control operators, cond and first_set.</li>
+<li>New arithmetic operator count to get the count of a type, supports arrays and objects.</li>
+<li>Added check for ImageTTFBox support in eZTemplateImageLayer class</li>
+<li>Added documentation of the available template operators in Exponential 3.</li>
+<li>Added datetime operator which allows for custom date/time formats, it
+  can read the formats from the datetime.ini file using class names or
+  the format may be added directly in the template.</li>
+<li>Added string support for comparison operators.</li>
+<li>Added missing ne operator to autoload list.</li>
+<li>Fixed si operator to work again.</li>
+<li>Template debug output now works properly with tree caching enabled.</li>
+</ul>
+<h3>eZINI</h3>
+<ul><li>Added support for override directories which are not a subdir
+  of settings.</li>
+<li>Sitebasics are now only used if available.</li>
+<li>The main settings/*.ini dir is now used only if it exists, this means
+  that ini files can exists in extensions.</li>
+<li>Variable names can now have _ and - in them.</li>
+<li>Made sure data is reset when files are (re)parsed, this fixes the duplicate
+  variable item problem.</li>
+<li>Added feature for reading associative arrays from .ini files</li>
+</ul>
+<h3>eZModuleFunctionInfo</h3>
+<ul><li>Added support for extension definitions.</li>
+</ul>
+<h3>eZ db</h3>
+<ul><li>Mysql db driver no longer fetches indexed array only associative arrays.</li>
+<li>Added support for configurable reconnect (default 0), changed reconnect
+  delay to 3 seconds and added reconnect code to postgresql.</li>
+</ul>
+<h3>eZ debug</h3>
+<ul><li>Added missing class variable for group loop in debug output.</li>
+<li>New helper class called eZDebugSetting which allows for conditional debug
+  messages.</li>
+<li>Log rotation has been added, this avoids the log files flooding your file system.</li>
+<li>Settings are not longer handled directly by eZDebug, instead it relies
+  on the users of the class to initialize the correct values.
+  This avoids a recursion problem with eZINI.</li>
+<li>Some changes to the debug settings in site.ini to make it a bit clearer to use.</li>
+</ul>
+<h3>eZXML</h3>
+<ul><li>Some minor fixes to the toString() function with regards to text output.</li>
+<li>Added prefix to attribute creation function in eZDOMDocument.</li>
+<li>Added helper function for creating an element and a text as child in eZDOMDocument.</li>
+<li>Added helper function for creating an element and a CDATA as child in eZDOMDocument.</li>
+<li>The createElementNode now takes an additional parameter called attributes which
+  is an associative array with attributes, the key will be the name and the value
+  the content. This is also available on some of the other functions.</li>
+<li>New function firstChild() which returns the first child of all the children
+  or null if no children.</li>
+<li>Added support for cloning DOM nodes.</li>
+<li>XML domtree will return null for invalid xml text.</li>
+<li>Attributes can be removed by passing the name.</li>
+</ul>
+<h3>eZSys</h3>
+<ul><li>Added storageDirectory() which returns the path to the storage directory</li>
+</ul>
+<h3>eZi18n</h3>
+<ul><li>Added translation cache system
+  Added setting in site.ini: [RegionalSettings] TranslationCache=enabled</li>
+<li>TextCodec settings are now handled by external clients instead of
+  reading it internally. This avoids the recursion problem with
+  eZINI and eZTextCodec.</li>
+</ul>
+<h3>eZ web</h3>
+<ul><li>New class for handling web browser detection.</li>
+</ul>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+<br/>
+<center>
+<p class="small"><a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998 - 2026 <a href="https://www.se7enx.com">7x</a></p></center>
+<br/>
+</body></html>

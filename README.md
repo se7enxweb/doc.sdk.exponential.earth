@@ -7,15 +7,15 @@ This repository provides a complete and accurate mirror static html of the websi
 Version
 =======
 
-* The current version of Exponential SDK Documentation is 0.1.2
+* The current version of Exponential SDK Documentation is 0.1.4
 
-* Last Major update: October 31, 2024
+* Last Major update: March 11, 2026
 
 
 Copyright
 =========
 
-* Exponential SDK Documentation is copyright 1999 - 2024 7x and 1999 - 2004 eZ Systems, AS.
+* Exponential SDK Documentation is copyright 1998 - 2026 7x and 1999 - 2004 eZ Systems, AS.
 
 * See: [COPYRIGHT.md](COPYRIGHT.md) for more information on the terms of the copyright and license
 
@@ -51,7 +51,7 @@ This repository provides the following features:
 Usage
 =====
 
-Simply visit our publicly hosted mirror of this repository at http://doc.sdk.ezpublish.se7enx.com
+Simply visit our publicly hosted mirror of this repository at http://doc.sdk.exponential.se7enx.com
 
 
 Troubleshooting
