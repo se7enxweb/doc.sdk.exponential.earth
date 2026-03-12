@@ -573,6 +573,35 @@ div.object div.buttonblock
     background-color: #638ecf;
 }
 
+/* --- Current docs notice bar -------------------------------- */
+
+.doc-notice {
+    width: 100%;
+    background-color: #fff8e1;
+    border-bottom: solid 2px #f0b429;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.doc-notice p {
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 82%;
+    color: #5a3e00;
+    line-height: 1.5;
+}
+
+.doc-notice a {
+    color: #b45309;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.doc-notice a:hover {
+    color: #92400e;
+}
+
 /* --- Breadcrumb / pathline ---------------------------------- */
 
 .site-pathline {
